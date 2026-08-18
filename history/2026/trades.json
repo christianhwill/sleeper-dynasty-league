@@ -1,0 +1,1646 @@
+{
+  "generated_at": "2026-08-18T18:13:19.057Z",
+  "season": "2026",
+  "trades": [
+    {
+      "transaction_id": "1334024559883468800",
+      "type": "trade",
+      "status": "complete",
+      "created": 1772418749355,
+      "created_iso": "2026-03-02T02:32:29.355Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "1129881968960901120",
+      "roster_ids": [
+        2,
+        3
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        },
+        {
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "11597",
+            "name": "Theo Johnson",
+            "first_name": "Theo",
+            "last_name": "Johnson",
+            "position": "TE",
+            "fantasy_positions": [
+              "TE"
+            ],
+            "team": "NYG",
+            "status": "Active",
+            "injury_status": null,
+            "age": 25,
+            "years_exp": 2
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        },
+        {
+          "player": {
+            "player_id": "11627",
+            "name": "Troy Franklin",
+            "first_name": "Troy",
+            "last_name": "Franklin",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "DEN",
+            "status": "Active",
+            "injury_status": null,
+            "age": 23,
+            "years_exp": 2
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "11597",
+            "name": "Theo Johnson",
+            "first_name": "Theo",
+            "last_name": "Johnson",
+            "position": "TE",
+            "fantasy_positions": [
+              "TE"
+            ],
+            "team": "NYG",
+            "status": "Active",
+            "injury_status": null,
+            "age": 25,
+            "years_exp": 2
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        },
+        {
+          "player": {
+            "player_id": "11627",
+            "name": "Troy Franklin",
+            "first_name": "Troy",
+            "last_name": "Franklin",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "DEN",
+            "status": "Active",
+            "injury_status": null,
+            "age": 23,
+            "years_exp": 2
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [
+        {
+          "season": "2028",
+          "round": 3,
+          "original_roster_id": 2,
+          "previous_owner_roster_id": 2,
+          "current_owner_roster_id": 3,
+          "original_team": "Cam dog",
+          "previous_team": "Cam dog",
+          "current_team": "Third Down Syndrome"
+        }
+      ],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1354291089116258304",
+      "type": "trade",
+      "status": "complete",
+      "created": 1777250666459,
+      "created_iso": "2026-04-27T00:44:26.459Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "1129881968960901120",
+      "roster_ids": [
+        3,
+        8
+      ],
+      "teams": [
+        {
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        },
+        {
+          "roster_id": 8,
+          "team_name": "PurpleRhane"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "11566",
+            "name": "Jayden Daniels",
+            "first_name": "Jayden",
+            "last_name": "Daniels",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "WAS",
+            "status": "Active",
+            "injury_status": null,
+            "age": 25,
+            "years_exp": 2
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        },
+        {
+          "player": {
+            "player_id": "12522",
+            "name": "Cam Ward",
+            "first_name": "Cam",
+            "last_name": "Ward",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "TEN",
+            "status": "Active",
+            "injury_status": null,
+            "age": 24,
+            "years_exp": 1
+          },
+          "roster_id": 8,
+          "team_name": "PurpleRhane"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "11566",
+            "name": "Jayden Daniels",
+            "first_name": "Jayden",
+            "last_name": "Daniels",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "WAS",
+            "status": "Active",
+            "injury_status": null,
+            "age": 25,
+            "years_exp": 2
+          },
+          "roster_id": 8,
+          "team_name": "PurpleRhane"
+        },
+        {
+          "player": {
+            "player_id": "12522",
+            "name": "Cam Ward",
+            "first_name": "Cam",
+            "last_name": "Ward",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "TEN",
+            "status": "Active",
+            "injury_status": null,
+            "age": 24,
+            "years_exp": 1
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "draft_picks": [
+        {
+          "season": "2026",
+          "round": 1,
+          "original_roster_id": 3,
+          "previous_owner_roster_id": 3,
+          "current_owner_roster_id": 8,
+          "original_team": "Third Down Syndrome",
+          "previous_team": "Third Down Syndrome",
+          "current_team": "PurpleRhane"
+        },
+        {
+          "season": "2026",
+          "round": 2,
+          "original_roster_id": 6,
+          "previous_owner_roster_id": 8,
+          "current_owner_roster_id": 3,
+          "original_team": "McCaffrican Americans",
+          "previous_team": "PurpleRhane",
+          "current_team": "Third Down Syndrome"
+        }
+      ],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": {
+        "notes": "Your trade was processed successfully!"
+      }
+    },
+    {
+      "transaction_id": "1358632890203672576",
+      "type": "trade",
+      "status": "complete",
+      "created": 1778285832505,
+      "created_iso": "2026-05-09T00:17:12.505Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2,
+        4
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        },
+        {
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "8126",
+            "name": "Wan'Dale Robinson",
+            "first_name": "Wan'Dale",
+            "last_name": "Robinson",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "TEN",
+            "status": "Active",
+            "injury_status": null,
+            "age": 25,
+            "years_exp": 4
+          },
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "8126",
+            "name": "Wan'Dale Robinson",
+            "first_name": "Wan'Dale",
+            "last_name": "Robinson",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "TEN",
+            "status": "Active",
+            "injury_status": null,
+            "age": 25,
+            "years_exp": 4
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [
+        {
+          "season": "2027",
+          "round": 1,
+          "original_roster_id": 3,
+          "previous_owner_roster_id": 2,
+          "current_owner_roster_id": 4,
+          "original_team": "Third Down Syndrome",
+          "previous_team": "Cam dog",
+          "current_team": "Raw Dawgs"
+        },
+        {
+          "season": "2026",
+          "round": 1,
+          "original_roster_id": 4,
+          "previous_owner_roster_id": 4,
+          "current_owner_roster_id": 2,
+          "original_team": "Raw Dawgs",
+          "previous_team": "Raw Dawgs",
+          "current_team": "Cam dog"
+        },
+        {
+          "season": "2028",
+          "round": 2,
+          "original_roster_id": 4,
+          "previous_owner_roster_id": 4,
+          "current_owner_roster_id": 2,
+          "original_team": "Raw Dawgs",
+          "previous_team": "Raw Dawgs",
+          "current_team": "Cam dog"
+        }
+      ],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1371326705410535424",
+      "type": "trade",
+      "status": "complete",
+      "created": 1781312273889,
+      "created_iso": "2026-06-13T00:57:53.889Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2,
+        4
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        },
+        {
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "1466",
+            "name": "Travis Kelce",
+            "first_name": "Travis",
+            "last_name": "Kelce",
+            "position": "TE",
+            "fantasy_positions": [
+              "TE"
+            ],
+            "team": "KC",
+            "status": "Active",
+            "injury_status": null,
+            "age": 36,
+            "years_exp": 13
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "1466",
+            "name": "Travis Kelce",
+            "first_name": "Travis",
+            "last_name": "Kelce",
+            "position": "TE",
+            "fantasy_positions": [
+              "TE"
+            ],
+            "team": "KC",
+            "status": "Active",
+            "injury_status": null,
+            "age": 36,
+            "years_exp": 13
+          },
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        }
+      ],
+      "draft_picks": [
+        {
+          "season": "2026",
+          "round": 3,
+          "original_roster_id": 5,
+          "previous_owner_roster_id": 2,
+          "current_owner_roster_id": 4,
+          "original_team": "BING BONG",
+          "previous_team": "Cam dog",
+          "current_team": "Raw Dawgs"
+        }
+      ],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1392261065139564544",
+      "type": "trade",
+      "status": "complete",
+      "created": 1786303414191,
+      "created_iso": "2026-08-09T19:23:34.191Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2,
+        6
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        },
+        {
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "12502",
+            "name": "Gunnar Helm",
+            "first_name": "Gunnar",
+            "last_name": "Helm",
+            "position": "TE",
+            "fantasy_positions": [
+              "TE"
+            ],
+            "team": "TEN",
+            "status": "Active",
+            "injury_status": null,
+            "age": 23,
+            "years_exp": 1
+          },
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "12502",
+            "name": "Gunnar Helm",
+            "first_name": "Gunnar",
+            "last_name": "Helm",
+            "position": "TE",
+            "fantasy_positions": [
+              "TE"
+            ],
+            "team": "TEN",
+            "status": "Active",
+            "injury_status": null,
+            "age": 23,
+            "years_exp": 1
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [
+        {
+          "season": "2026",
+          "round": 3,
+          "original_roster_id": 2,
+          "previous_owner_roster_id": 6,
+          "current_owner_roster_id": 2,
+          "original_team": "Cam dog",
+          "previous_team": "McCaffrican Americans",
+          "current_team": "Cam dog"
+        },
+        {
+          "season": "2028",
+          "round": 3,
+          "original_roster_id": 6,
+          "previous_owner_roster_id": 6,
+          "current_owner_roster_id": 2,
+          "original_team": "McCaffrican Americans",
+          "previous_team": "McCaffrican Americans",
+          "current_team": "Cam dog"
+        }
+      ],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1392590874277343232",
+      "type": "trade",
+      "status": "complete",
+      "created": 1786382046817,
+      "created_iso": "2026-08-10T17:14:06.817Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "937819151345799168",
+      "roster_ids": [
+        1,
+        10
+      ],
+      "teams": [
+        {
+          "roster_id": 1,
+          "team_name": "Young N Hip"
+        },
+        {
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "5850",
+            "name": "Josh Jacobs",
+            "first_name": "Josh",
+            "last_name": "Jacobs",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "GB",
+            "status": "Active",
+            "injury_status": "Questionable",
+            "age": 28,
+            "years_exp": 7
+          },
+          "roster_id": 1,
+          "team_name": "Young N Hip"
+        },
+        {
+          "player": {
+            "player_id": "7547",
+            "name": "Amon-Ra St. Brown",
+            "first_name": "Amon-Ra",
+            "last_name": "St. Brown",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "DET",
+            "status": "Active",
+            "injury_status": null,
+            "age": 26,
+            "years_exp": 5
+          },
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        },
+        {
+          "player": {
+            "player_id": "12526",
+            "name": "Tetairoa McMillan",
+            "first_name": "Tetairoa",
+            "last_name": "McMillan",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "CAR",
+            "status": "Active",
+            "injury_status": null,
+            "age": 23,
+            "years_exp": 1
+          },
+          "roster_id": 1,
+          "team_name": "Young N Hip"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "5850",
+            "name": "Josh Jacobs",
+            "first_name": "Josh",
+            "last_name": "Jacobs",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "GB",
+            "status": "Active",
+            "injury_status": "Questionable",
+            "age": 28,
+            "years_exp": 7
+          },
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        },
+        {
+          "player": {
+            "player_id": "7547",
+            "name": "Amon-Ra St. Brown",
+            "first_name": "Amon-Ra",
+            "last_name": "St. Brown",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "DET",
+            "status": "Active",
+            "injury_status": null,
+            "age": 26,
+            "years_exp": 5
+          },
+          "roster_id": 1,
+          "team_name": "Young N Hip"
+        },
+        {
+          "player": {
+            "player_id": "12526",
+            "name": "Tetairoa McMillan",
+            "first_name": "Tetairoa",
+            "last_name": "McMillan",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "CAR",
+            "status": "Active",
+            "injury_status": null,
+            "age": 23,
+            "years_exp": 1
+          },
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        }
+      ],
+      "draft_picks": [
+        {
+          "season": "2026",
+          "round": 2,
+          "original_roster_id": 10,
+          "previous_owner_roster_id": 10,
+          "current_owner_roster_id": 1,
+          "original_team": "Sugerdaddy",
+          "previous_team": "Sugerdaddy",
+          "current_team": "Young N Hip"
+        }
+      ],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1393022899358568448",
+      "type": "trade",
+      "status": "complete",
+      "created": 1786485049623,
+      "created_iso": "2026-08-11T21:50:49.623Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "1129897778072649728",
+      "roster_ids": [
+        2,
+        4
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        },
+        {
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        }
+      ],
+      "adds": [],
+      "drops": [],
+      "draft_picks": [
+        {
+          "season": "2026",
+          "round": 3,
+          "original_roster_id": 4,
+          "previous_owner_roster_id": 4,
+          "current_owner_roster_id": 2,
+          "original_team": "Raw Dawgs",
+          "previous_team": "Raw Dawgs",
+          "current_team": "Cam dog"
+        },
+        {
+          "season": "2028",
+          "round": 2,
+          "original_roster_id": 4,
+          "previous_owner_roster_id": 2,
+          "current_owner_roster_id": 4,
+          "original_team": "Raw Dawgs",
+          "previous_team": "Cam dog",
+          "current_team": "Raw Dawgs"
+        },
+        {
+          "season": "2026",
+          "round": 3,
+          "original_roster_id": 5,
+          "previous_owner_roster_id": 4,
+          "current_owner_roster_id": 2,
+          "original_team": "BING BONG",
+          "previous_team": "Raw Dawgs",
+          "current_team": "Cam dog"
+        }
+      ],
+      "waiver_budget": [
+        {
+          "amount": 15,
+          "sender": 4,
+          "receiver": 2
+        }
+      ],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1393029756852666368",
+      "type": "trade",
+      "status": "complete",
+      "created": 1786486684576,
+      "created_iso": "2026-08-11T22:18:04.576Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        1,
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 1,
+          "team_name": "Young N Hip"
+        },
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "9225",
+            "name": "Tank Bigsby",
+            "first_name": "Tank",
+            "last_name": "Bigsby",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "PHI",
+            "status": "Active",
+            "injury_status": "Questionable",
+            "age": 23,
+            "years_exp": 3
+          },
+          "roster_id": 1,
+          "team_name": "Young N Hip"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "9225",
+            "name": "Tank Bigsby",
+            "first_name": "Tank",
+            "last_name": "Bigsby",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "PHI",
+            "status": "Active",
+            "injury_status": "Questionable",
+            "age": 23,
+            "years_exp": 3
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [
+        {
+          "season": "2026",
+          "round": 2,
+          "original_roster_id": 2,
+          "previous_owner_roster_id": 1,
+          "current_owner_roster_id": 2,
+          "original_team": "Cam dog",
+          "previous_team": "Young N Hip",
+          "current_team": "Cam dog"
+        },
+        {
+          "season": "2026",
+          "round": 3,
+          "original_roster_id": 2,
+          "previous_owner_roster_id": 2,
+          "current_owner_roster_id": 1,
+          "original_team": "Cam dog",
+          "previous_team": "Cam dog",
+          "current_team": "Young N Hip"
+        }
+      ],
+      "waiver_budget": [
+        {
+          "amount": 1,
+          "sender": 2,
+          "receiver": 1
+        }
+      ],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1393038672667881472",
+      "type": "trade",
+      "status": "complete",
+      "created": 1786488810272,
+      "created_iso": "2026-08-11T22:53:30.272Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2,
+        8
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        },
+        {
+          "roster_id": 8,
+          "team_name": "PurpleRhane"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "11624",
+            "name": "Xavier Worthy",
+            "first_name": "Xavier",
+            "last_name": "Worthy",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "KC",
+            "status": "Active",
+            "injury_status": "Questionable",
+            "age": 23,
+            "years_exp": 2
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "11624",
+            "name": "Xavier Worthy",
+            "first_name": "Xavier",
+            "last_name": "Worthy",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "KC",
+            "status": "Active",
+            "injury_status": "Questionable",
+            "age": 23,
+            "years_exp": 2
+          },
+          "roster_id": 8,
+          "team_name": "PurpleRhane"
+        }
+      ],
+      "draft_picks": [
+        {
+          "season": "2026",
+          "round": 3,
+          "original_roster_id": 4,
+          "previous_owner_roster_id": 2,
+          "current_owner_roster_id": 8,
+          "original_team": "Raw Dawgs",
+          "previous_team": "Cam dog",
+          "current_team": "PurpleRhane"
+        },
+        {
+          "season": "2028",
+          "round": 3,
+          "original_roster_id": 6,
+          "previous_owner_roster_id": 2,
+          "current_owner_roster_id": 8,
+          "original_team": "McCaffrican Americans",
+          "previous_team": "Cam dog",
+          "current_team": "PurpleRhane"
+        }
+      ],
+      "waiver_budget": [
+        {
+          "amount": 14,
+          "sender": 2,
+          "receiver": 8
+        }
+      ],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1394351702072639488",
+      "type": "trade",
+      "status": "complete",
+      "created": 1786801860878,
+      "created_iso": "2026-08-15T13:51:00.878Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "1129881968960901120",
+      "roster_ids": [
+        3,
+        5
+      ],
+      "teams": [
+        {
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        },
+        {
+          "roster_id": 5,
+          "team_name": "BING BONG"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "4217",
+            "name": "George Kittle",
+            "first_name": "George",
+            "last_name": "Kittle",
+            "position": "TE",
+            "fantasy_positions": [
+              "TE"
+            ],
+            "team": "SF",
+            "status": "Active",
+            "injury_status": "PUP",
+            "age": 32,
+            "years_exp": 9
+          },
+          "roster_id": 5,
+          "team_name": "BING BONG"
+        },
+        {
+          "player": {
+            "player_id": "6804",
+            "name": "Jordan Love",
+            "first_name": "Jordan",
+            "last_name": "Love",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "GB",
+            "status": "Active",
+            "injury_status": null,
+            "age": 27,
+            "years_exp": 6
+          },
+          "roster_id": 5,
+          "team_name": "BING BONG"
+        },
+        {
+          "player": {
+            "player_id": "8121",
+            "name": "Romeo Doubs",
+            "first_name": "Romeo",
+            "last_name": "Doubs",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "NE",
+            "status": "Active",
+            "injury_status": null,
+            "age": 26,
+            "years_exp": 4
+          },
+          "roster_id": 5,
+          "team_name": "BING BONG"
+        },
+        {
+          "player": {
+            "player_id": "9754",
+            "name": "Quentin Johnston",
+            "first_name": "Quentin",
+            "last_name": "Johnston",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "LAC",
+            "status": "Active",
+            "injury_status": null,
+            "age": 24,
+            "years_exp": 3
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        },
+        {
+          "player": {
+            "player_id": "12545",
+            "name": "Tyler Shough",
+            "first_name": "Tyler",
+            "last_name": "Shough",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "NO",
+            "status": "Active",
+            "injury_status": null,
+            "age": 26,
+            "years_exp": 1
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "4217",
+            "name": "George Kittle",
+            "first_name": "George",
+            "last_name": "Kittle",
+            "position": "TE",
+            "fantasy_positions": [
+              "TE"
+            ],
+            "team": "SF",
+            "status": "Active",
+            "injury_status": "PUP",
+            "age": 32,
+            "years_exp": 9
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        },
+        {
+          "player": {
+            "player_id": "6804",
+            "name": "Jordan Love",
+            "first_name": "Jordan",
+            "last_name": "Love",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "GB",
+            "status": "Active",
+            "injury_status": null,
+            "age": 27,
+            "years_exp": 6
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        },
+        {
+          "player": {
+            "player_id": "8121",
+            "name": "Romeo Doubs",
+            "first_name": "Romeo",
+            "last_name": "Doubs",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "NE",
+            "status": "Active",
+            "injury_status": null,
+            "age": 26,
+            "years_exp": 4
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        },
+        {
+          "player": {
+            "player_id": "9754",
+            "name": "Quentin Johnston",
+            "first_name": "Quentin",
+            "last_name": "Johnston",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "LAC",
+            "status": "Active",
+            "injury_status": null,
+            "age": 24,
+            "years_exp": 3
+          },
+          "roster_id": 5,
+          "team_name": "BING BONG"
+        },
+        {
+          "player": {
+            "player_id": "12545",
+            "name": "Tyler Shough",
+            "first_name": "Tyler",
+            "last_name": "Shough",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "NO",
+            "status": "Active",
+            "injury_status": null,
+            "age": 26,
+            "years_exp": 1
+          },
+          "roster_id": 5,
+          "team_name": "BING BONG"
+        }
+      ],
+      "draft_picks": [
+        {
+          "season": "2027",
+          "round": 2,
+          "original_roster_id": 5,
+          "previous_owner_roster_id": 5,
+          "current_owner_roster_id": 3,
+          "original_team": "BING BONG",
+          "previous_team": "BING BONG",
+          "current_team": "Third Down Syndrome"
+        }
+      ],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1395243553126363136",
+      "type": "trade",
+      "status": "complete",
+      "created": 1787014494739,
+      "created_iso": "2026-08-18T00:54:54.739Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        1,
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 1,
+          "team_name": "Young N Hip"
+        },
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "5850",
+            "name": "Josh Jacobs",
+            "first_name": "Josh",
+            "last_name": "Jacobs",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "GB",
+            "status": "Active",
+            "injury_status": "Questionable",
+            "age": 28,
+            "years_exp": 7
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        },
+        {
+          "player": {
+            "player_id": "11655",
+            "name": "Tyrone Tracy",
+            "first_name": "Tyrone",
+            "last_name": "Tracy",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "NYG",
+            "status": "Active",
+            "injury_status": null,
+            "age": 26,
+            "years_exp": 2
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        },
+        {
+          "player": {
+            "player_id": "12469",
+            "name": "Dylan Sampson",
+            "first_name": "Dylan",
+            "last_name": "Sampson",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "CLE",
+            "status": "Active",
+            "injury_status": null,
+            "age": 21,
+            "years_exp": 1
+          },
+          "roster_id": 1,
+          "team_name": "Young N Hip"
+        },
+        {
+          "player": {
+            "player_id": "13337",
+            "name": "Emmett Johnson",
+            "first_name": "Emmett",
+            "last_name": "Johnson",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "KC",
+            "status": "Active",
+            "injury_status": null,
+            "age": 22,
+            "years_exp": null
+          },
+          "roster_id": 1,
+          "team_name": "Young N Hip"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "5850",
+            "name": "Josh Jacobs",
+            "first_name": "Josh",
+            "last_name": "Jacobs",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "GB",
+            "status": "Active",
+            "injury_status": "Questionable",
+            "age": 28,
+            "years_exp": 7
+          },
+          "roster_id": 1,
+          "team_name": "Young N Hip"
+        },
+        {
+          "player": {
+            "player_id": "11655",
+            "name": "Tyrone Tracy",
+            "first_name": "Tyrone",
+            "last_name": "Tracy",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "NYG",
+            "status": "Active",
+            "injury_status": null,
+            "age": 26,
+            "years_exp": 2
+          },
+          "roster_id": 1,
+          "team_name": "Young N Hip"
+        },
+        {
+          "player": {
+            "player_id": "12469",
+            "name": "Dylan Sampson",
+            "first_name": "Dylan",
+            "last_name": "Sampson",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "CLE",
+            "status": "Active",
+            "injury_status": null,
+            "age": 21,
+            "years_exp": 1
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        },
+        {
+          "player": {
+            "player_id": "13337",
+            "name": "Emmett Johnson",
+            "first_name": "Emmett",
+            "last_name": "Johnson",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "KC",
+            "status": "Active",
+            "injury_status": null,
+            "age": 22,
+            "years_exp": null
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [
+        {
+          "season": "2029",
+          "round": 2,
+          "original_roster_id": 2,
+          "previous_owner_roster_id": 2,
+          "current_owner_roster_id": 1,
+          "original_team": "Cam dog",
+          "previous_team": "Cam dog",
+          "current_team": "Young N Hip"
+        }
+      ],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1395254374443270144",
+      "type": "trade",
+      "status": "complete",
+      "created": 1787017074742,
+      "created_iso": "2026-08-18T01:37:54.742Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "1129875387229560832",
+      "roster_ids": [
+        1,
+        3
+      ],
+      "teams": [
+        {
+          "roster_id": 1,
+          "team_name": "Young N Hip"
+        },
+        {
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "3163",
+            "name": "Jared Goff",
+            "first_name": "Jared",
+            "last_name": "Goff",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "DET",
+            "status": "Active",
+            "injury_status": null,
+            "age": 31,
+            "years_exp": 10
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        },
+        {
+          "player": {
+            "player_id": "5859",
+            "name": "A.J. Brown",
+            "first_name": "A.J.",
+            "last_name": "Brown",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "NE",
+            "status": "Active",
+            "injury_status": null,
+            "age": 29,
+            "years_exp": 7
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        },
+        {
+          "player": {
+            "player_id": "8676",
+            "name": "Rashid Shaheed",
+            "first_name": "Rashid",
+            "last_name": "Shaheed",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "SEA",
+            "status": "Active",
+            "injury_status": null,
+            "age": 27,
+            "years_exp": 4
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        },
+        {
+          "player": {
+            "player_id": "9500",
+            "name": "Josh Downs",
+            "first_name": "Josh",
+            "last_name": "Downs",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "IND",
+            "status": "Active",
+            "injury_status": null,
+            "age": 25,
+            "years_exp": 3
+          },
+          "roster_id": 1,
+          "team_name": "Young N Hip"
+        },
+        {
+          "player": {
+            "player_id": "9754",
+            "name": "Quentin Johnston",
+            "first_name": "Quentin",
+            "last_name": "Johnston",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "LAC",
+            "status": "Active",
+            "injury_status": null,
+            "age": 24,
+            "years_exp": 3
+          },
+          "roster_id": 1,
+          "team_name": "Young N Hip"
+        },
+        {
+          "player": {
+            "player_id": "12545",
+            "name": "Tyler Shough",
+            "first_name": "Tyler",
+            "last_name": "Shough",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "NO",
+            "status": "Active",
+            "injury_status": null,
+            "age": 26,
+            "years_exp": 1
+          },
+          "roster_id": 1,
+          "team_name": "Young N Hip"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "3163",
+            "name": "Jared Goff",
+            "first_name": "Jared",
+            "last_name": "Goff",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "DET",
+            "status": "Active",
+            "injury_status": null,
+            "age": 31,
+            "years_exp": 10
+          },
+          "roster_id": 1,
+          "team_name": "Young N Hip"
+        },
+        {
+          "player": {
+            "player_id": "5859",
+            "name": "A.J. Brown",
+            "first_name": "A.J.",
+            "last_name": "Brown",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "NE",
+            "status": "Active",
+            "injury_status": null,
+            "age": 29,
+            "years_exp": 7
+          },
+          "roster_id": 1,
+          "team_name": "Young N Hip"
+        },
+        {
+          "player": {
+            "player_id": "8676",
+            "name": "Rashid Shaheed",
+            "first_name": "Rashid",
+            "last_name": "Shaheed",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "SEA",
+            "status": "Active",
+            "injury_status": null,
+            "age": 27,
+            "years_exp": 4
+          },
+          "roster_id": 1,
+          "team_name": "Young N Hip"
+        },
+        {
+          "player": {
+            "player_id": "9500",
+            "name": "Josh Downs",
+            "first_name": "Josh",
+            "last_name": "Downs",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "IND",
+            "status": "Active",
+            "injury_status": null,
+            "age": 25,
+            "years_exp": 3
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        },
+        {
+          "player": {
+            "player_id": "9754",
+            "name": "Quentin Johnston",
+            "first_name": "Quentin",
+            "last_name": "Johnston",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "LAC",
+            "status": "Active",
+            "injury_status": null,
+            "age": 24,
+            "years_exp": 3
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        },
+        {
+          "player": {
+            "player_id": "12545",
+            "name": "Tyler Shough",
+            "first_name": "Tyler",
+            "last_name": "Shough",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "NO",
+            "status": "Active",
+            "injury_status": null,
+            "age": 26,
+            "years_exp": 1
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "draft_picks": [
+        {
+          "season": "2027",
+          "round": 2,
+          "original_roster_id": 7,
+          "previous_owner_roster_id": 3,
+          "current_owner_roster_id": 1,
+          "original_team": "I Chase Brown People",
+          "previous_team": "Third Down Syndrome",
+          "current_team": "Young N Hip"
+        }
+      ],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    }
+  ]
+}
