@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T18:17:37.195Z",
+  "generated_at": "2026-08-18T21:00:52.457Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -478,7 +478,7 @@
           ],
           "team": "LAC",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 24,
           "years_exp": 3
         },
@@ -1209,6 +1209,21 @@
       ],
       "taxi": [
         {
+          "player_id": "13285",
+          "name": "Malachi Fields",
+          "first_name": "Malachi",
+          "last_name": "Fields",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "NYG",
+          "status": "Active",
+          "injury_status": null,
+          "age": 22,
+          "years_exp": null
+        },
+        {
           "player_id": "13317",
           "name": "Ted Hurst",
           "first_name": "Ted",
@@ -1233,21 +1248,6 @@
             "TE"
           ],
           "team": "PHI",
-          "status": "Active",
-          "injury_status": null,
-          "age": 23,
-          "years_exp": null
-        },
-        {
-          "player_id": "13413",
-          "name": "Cyrus Allen",
-          "first_name": "Cyrus",
-          "last_name": "Allen",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "KC",
           "status": "Active",
           "injury_status": null,
           "age": 23,
@@ -2454,7 +2454,7 @@
           ],
           "team": "SF",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 32,
           "years_exp": 12
         },
@@ -2816,7 +2816,7 @@
           ],
           "team": "SF",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 32,
           "years_exp": 12
         },
@@ -6327,7 +6327,7 @@
             ],
             "team": "LAC",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 24,
             "years_exp": 3
           },
@@ -6443,7 +6443,7 @@
             ],
             "team": "LAC",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 24,
             "years_exp": 3
           },
@@ -7174,7 +7174,7 @@
             ],
             "team": "LAC",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 24,
             "years_exp": 3
           },
@@ -7271,7 +7271,7 @@
             ],
             "team": "LAC",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 24,
             "years_exp": 3
           },
