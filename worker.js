@@ -3,7 +3,7 @@ const SLEEPER = "https://api.sleeper.app/v1";
 const GITHUB_OWNER = "christianhwill";
 const GITHUB_REPO = "sleeper-dynasty-league";
 const GITHUB_BRANCH = "main";
-const BRIDGE_VERSION = "3.3-owner-tendencies";
+const BRIDGE_VERSION = "3.4-power-rankings";
 
 export default {
   async fetch(request, env) {
@@ -56,6 +56,11 @@ export default {
         return json({ ok: true, ...result });
       }
 
+      if (url.pathname === "/rebuild-power-rankings") {
+        const result = await rebuildPowerRankings(env.GITHUB_TOKEN);
+        return json({ ok: true, ...result });
+      }
+
       if (url.pathname === "/sync-season") {
         const leagueId = url.searchParams.get("league_id");
         if (!leagueId) {
@@ -93,6 +98,7 @@ export default {
           rebuild_unified_ledger: "/rebuild-ledger",
           rebuild_draft_pick_ownership: "/rebuild-picks",
           rebuild_owner_tendencies: "/rebuild-tendencies",
+          rebuild_power_rankings: "/rebuild-power-rankings",
           sync_one_season: "/sync-season?league_id=LEAGUE_ID"
         }
       });
@@ -274,12 +280,13 @@ async function syncSeasonToGitHub(leagueId, githubToken, isCurrent) {
 
     const unifiedHistory = await rebuildUnifiedHistory(githubToken);
     const ownerTendencies = await rebuildOwnerTendencies(githubToken);
+    const powerRankings = await rebuildPowerRankings(githubToken);
 
     return {
       season,
       league_id: String(league.league_id),
       previous_league_id: league.previous_league_id ? String(league.previous_league_id) : null,
-      files_written: files.map(([path]) => path).concat(["current.json", "draft-pick-ownership.json", "owner-tendencies.json"]),
+      files_written: files.map(([path]) => path).concat(["current.json", "draft-pick-ownership.json", "owner-tendencies.json", "power-rankings.json"]),
       transaction_count: transactions.length,
       trade_count: trades.length,
       draft_count: draftData.length,
@@ -287,7 +294,8 @@ async function syncSeasonToGitHub(leagueId, githubToken, isCurrent) {
       daily_snapshot: dailySnapshotResult,
       draft_pick_ownership_file: draftPickOwnershipResult,
       unified_history: unifiedHistory,
-      owner_tendencies: ownerTendencies
+      owner_tendencies: ownerTendencies,
+      power_rankings: powerRankings
     };
   }
 
@@ -803,6 +811,309 @@ function applyLeagueRanks(owners) {
       owner.league_ranks[name] = values.indexOf(accessor(owner)) + 1;
     }
   }
+}
+
+
+async function rebuildPowerRankings(githubToken) {
+  const chainNewestFirst = await discoverLeagueChain(CURRENT_LEAGUE_ID);
+  const chain = [...chainNewestFirst].reverse();
+
+  const [currentDoc, pickDoc, previousRankings] = await Promise.all([
+    getGitHubJSON("current.json", githubToken),
+    getGitHubJSON("draft-pick-ownership.json", githubToken),
+    getGitHubJSON("power-rankings.json", githubToken).catch(() => null)
+  ]);
+
+  const seasonTeamDocs = {};
+  for (const leagueEntry of chain) {
+    const season = String(leagueEntry.season);
+    seasonTeamDocs[season] = await getGitHubJSON(`history/${season}/teams.json`, githubToken);
+  }
+
+  const currentSeason = String(currentDoc.season || currentDoc.league?.season || chainNewestFirst[0]?.season || "");
+  const currentSeasonNumber = Number(currentSeason);
+  const currentTeams = currentDoc.teams || [];
+  const currentOwnerIds = new Set(currentTeams.map(team => String(team.owner_id)).filter(Boolean));
+
+  const seasonStats = {};
+  const playedSeasons = [];
+
+  for (const leagueEntry of chainNewestFirst) {
+    const season = String(leagueEntry.season);
+    const teams = seasonTeamDocs[season]?.teams || [];
+    const rows = teams
+      .filter(team => currentOwnerIds.has(String(team.owner_id)))
+      .map(team => {
+        const record = team.record || {};
+        const wins = Number(record.wins || 0);
+        const losses = Number(record.losses || 0);
+        const ties = Number(record.ties || 0);
+        const games = wins + losses + ties;
+        const pointsFor = Number(record.points_for || 0);
+        return {
+          owner_id: String(team.owner_id),
+          roster_id: Number(team.roster_id),
+          team_name: team.team_name || null,
+          wins,
+          losses,
+          ties,
+          games,
+          win_pct: games ? (wins + 0.5 * ties) / games : 0,
+          points_for: pointsFor,
+          points_per_game: games ? pointsFor / games : 0
+        };
+      });
+
+    const hasGames = rows.some(row => row.games > 0);
+    if (hasGames) playedSeasons.push(season);
+
+    const playedRows = rows.filter(row => row.games > 0);
+    const winPctScores = percentileScoreMap(playedRows, row => row.win_pct, row => row.owner_id);
+    const ppgScores = percentileScoreMap(playedRows, row => row.points_per_game, row => row.owner_id);
+
+    seasonStats[season] = rows.map(row => ({
+      ...row,
+      performance_score: row.games > 0
+        ? round2(0.6 * (winPctScores.get(row.owner_id) || 0) + 0.4 * (ppgScores.get(row.owner_id) || 0))
+        : null
+    }));
+  }
+
+  const performanceWeights = {};
+  playedSeasons.slice(0, 3).forEach((season, index) => {
+    performanceWeights[season] = [3, 2, 1][index];
+  });
+
+  const pickRowsByOwner = new Map(
+    (pickDoc?.by_owner || []).map(row => [Number(row.roster_id), row])
+  );
+
+  const rankingRows = currentTeams.map(team => {
+    const ownerId = String(team.owner_id);
+    const perSeason = [];
+    let weightedPerformanceSum = 0;
+    let performanceWeightTotal = 0;
+
+    for (const leagueEntry of chainNewestFirst) {
+      const season = String(leagueEntry.season);
+      const row = (seasonStats[season] || []).find(item => item.owner_id === ownerId);
+      if (!row) continue;
+      const recencyWeight = performanceWeights[season] || 0;
+      if (recencyWeight && row.performance_score !== null) {
+        weightedPerformanceSum += row.performance_score * recencyWeight;
+        performanceWeightTotal += recencyWeight;
+      }
+      perSeason.push({
+        season,
+        wins: row.wins,
+        losses: row.losses,
+        ties: row.ties,
+        games: row.games,
+        win_pct: round3(row.win_pct),
+        points_for: round2(row.points_for),
+        points_per_game: round2(row.points_per_game),
+        performance_score: row.performance_score,
+        recency_weight: recencyWeight,
+        included_in_competitive_score: Boolean(recencyWeight && row.performance_score !== null)
+      });
+    }
+
+    const competitiveScore = performanceWeightTotal
+      ? weightedPerformanceSum / performanceWeightTotal
+      : 0;
+
+    const pickSummary = pickRowsByOwner.get(Number(team.roster_id)) || {
+      total_future_picks: 0,
+      first_round_picks: 0,
+      second_round_picks: 0,
+      third_round_picks: 0,
+      by_season: {}
+    };
+
+    const pickCapitalRaw = calculateDraftCapitalRawScore(pickSummary, currentSeasonNumber);
+    const rosterProfile = summarizeRosterProfile(team);
+    const record = team.record || {};
+
+    return {
+      owner_id: ownerId,
+      roster_id: Number(team.roster_id),
+      username: team.username || null,
+      display_name: team.display_name || null,
+      team_name: team.team_name || null,
+      competitive_score_raw: competitiveScore,
+      draft_capital_raw: pickCapitalRaw,
+      recent_performance: perSeason,
+      current_record: {
+        wins: Number(record.wins || 0),
+        losses: Number(record.losses || 0),
+        ties: Number(record.ties || 0),
+        points_for: round2(Number(record.points_for || 0)),
+        points_against: round2(Number(record.points_against || 0))
+      },
+      draft_capital: {
+        total_future_picks: pickSummary.total_future_picks || 0,
+        first_round_picks: pickSummary.first_round_picks || 0,
+        second_round_picks: pickSummary.second_round_picks || 0,
+        third_round_picks: pickSummary.third_round_picks || 0,
+        by_season: pickSummary.by_season || {}
+      },
+      roster_profile: rosterProfile
+    };
+  });
+
+  const competitivePercentiles = percentileScoreMap(
+    rankingRows,
+    row => row.competitive_score_raw,
+    row => row.owner_id
+  );
+  const capitalPercentiles = percentileScoreMap(
+    rankingRows,
+    row => row.draft_capital_raw,
+    row => row.owner_id
+  );
+
+  for (const row of rankingRows) {
+    row.competitive_score = round2(competitivePercentiles.get(row.owner_id) || 0);
+    row.draft_capital_score = round2(capitalPercentiles.get(row.owner_id) || 0);
+    row.baseline_power_score = round2(
+      0.7 * row.competitive_score + 0.3 * row.draft_capital_score
+    );
+    delete row.competitive_score_raw;
+    delete row.draft_capital_raw;
+  }
+
+  rankingRows.sort((a, b) =>
+    b.baseline_power_score - a.baseline_power_score ||
+    b.competitive_score - a.competitive_score ||
+    b.draft_capital_score - a.draft_capital_score ||
+    String(a.team_name).localeCompare(String(b.team_name))
+  );
+
+  const previousRanks = new Map(
+    (previousRankings?.rankings || []).map(row => [String(row.owner_id), Number(row.rank)])
+  );
+
+  rankingRows.forEach((row, index) => {
+    row.rank = index + 1;
+    const previousRank = previousRanks.get(row.owner_id);
+    row.previous_rank = Number.isFinite(previousRank) ? previousRank : null;
+    row.rank_change = Number.isFinite(previousRank) ? previousRank - row.rank : null;
+  });
+
+  const path = "power-rankings.json";
+  const payload = {
+    generated_at: new Date().toISOString(),
+    league: {
+      league_id: String(currentDoc.league?.league_id || CURRENT_LEAGUE_ID),
+      name: currentDoc.league?.name || chainNewestFirst[0]?.name || null,
+      season: currentSeason,
+      status: currentDoc.league?.status || null
+    },
+    ranking_type: "baseline_internal",
+    external_player_values_included: false,
+    methodology: {
+      purpose: "Objective baseline franchise power ranking before external dynasty market values are added.",
+      composite_weights: {
+        competitive_score: 0.70,
+        future_draft_capital_score: 0.30
+      },
+      competitive_score: "Uses up to the three most recent seasons with games played. Within each season, 60% win-percentage percentile and 40% points-per-game percentile; most recent played seasons receive weights 3, 2, and 1.",
+      future_draft_capital_score: "Current future picks are valued by round (1st=3.0, 2nd=1.5, 3rd=0.75) and discounted by draft year (next draft=1.0, following=0.85, third=0.70), then converted to a league percentile.",
+      roster_profile: "Age, experience, and positional counts are descriptive only and are not included in the baseline score.",
+      limitation: "Individual player quality and external dynasty market values are not yet included. The external player-value integration is intended to add a true roster-value component in the next phase.",
+      movement: "rank_change compares with the previously generated power-rankings.json when one exists; positive means the team moved up."
+    },
+    performance_seasons_used: Object.entries(performanceWeights).map(([season, weight]) => ({ season, weight })),
+    team_count: rankingRows.length,
+    rankings: rankingRows
+  };
+
+  await upsertGitHubJSON(
+    path,
+    payload,
+    "Update Sleeper baseline power rankings",
+    githubToken
+  );
+
+  return {
+    path,
+    ranking_type: payload.ranking_type,
+    team_count: rankingRows.length,
+    performance_seasons_used: payload.performance_seasons_used,
+    external_player_values_included: false
+  };
+}
+
+function percentileScoreMap(rows, valueAccessor, keyAccessor) {
+  const numericRows = rows
+    .map(row => ({ key: keyAccessor(row), value: Number(valueAccessor(row)) }))
+    .filter(row => row.key !== null && row.key !== undefined && Number.isFinite(row.value));
+
+  const uniqueValues = [...new Set(numericRows.map(row => row.value))].sort((a, b) => a - b);
+  const result = new Map();
+
+  for (const row of numericRows) {
+    if (uniqueValues.length <= 1) {
+      result.set(row.key, uniqueValues.length ? 50 : 0);
+      continue;
+    }
+    const index = uniqueValues.indexOf(row.value);
+    result.set(row.key, 100 * index / (uniqueValues.length - 1));
+  }
+
+  return result;
+}
+
+function calculateDraftCapitalRawScore(pickSummary, currentSeasonNumber) {
+  let score = 0;
+  const roundWeights = { 1: 3.0, 2: 1.5, 3: 0.75 };
+  const yearDiscounts = { 1: 1.0, 2: 0.85, 3: 0.70 };
+
+  for (const [season, seasonData] of Object.entries(pickSummary.by_season || {})) {
+    const yearOffset = Number(season) - currentSeasonNumber;
+    const yearDiscount = yearDiscounts[yearOffset] ?? Math.max(0.5, 1 - 0.15 * Math.max(0, yearOffset - 1));
+    const picks = seasonData?.picks || [];
+    for (const pick of picks) {
+      const round = Number(pick.round);
+      const roundWeight = roundWeights[round] ?? 0.35;
+      score += roundWeight * yearDiscount;
+    }
+  }
+
+  return round3(score);
+}
+
+function summarizeRosterProfile(team) {
+  const players = (team.players || []).filter(Boolean);
+  const fantasyPlayers = players.filter(player => player.position && player.position !== "DEF");
+  const ages = fantasyPlayers.map(player => Number(player.age)).filter(Number.isFinite);
+  const experience = fantasyPlayers.map(player => Number(player.years_exp)).filter(Number.isFinite);
+  const positionCounts = {};
+
+  for (const player of fantasyPlayers) {
+    const position = player.position || "UNKNOWN";
+    positionCounts[position] = (positionCounts[position] || 0) + 1;
+  }
+
+  return {
+    total_players: players.length,
+    fantasy_players: fantasyPlayers.length,
+    average_age: ages.length ? round2(ages.reduce((a, b) => a + b, 0) / ages.length) : null,
+    average_years_experience: experience.length ? round2(experience.reduce((a, b) => a + b, 0) / experience.length) : null,
+    players_with_2_or_fewer_years_experience: experience.filter(value => value <= 2).length,
+    position_counts: positionCounts,
+    starter_count: (team.starters || []).filter(Boolean).length,
+    taxi_count: (team.taxi || []).filter(Boolean).length,
+    reserve_count: (team.reserve || []).filter(Boolean).length
+  };
+}
+
+function round2(value) {
+  return Number(Number(value || 0).toFixed(2));
+}
+
+function round3(value) {
+  return Number(Number(value || 0).toFixed(3));
 }
 
 
