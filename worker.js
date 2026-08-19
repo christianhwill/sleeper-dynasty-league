@@ -3,7 +3,7 @@ const SLEEPER = "https://api.sleeper.app/v1";
 const GITHUB_OWNER = "christianhwill";
 const GITHUB_REPO = "sleeper-dynasty-league";
 const GITHUB_BRANCH = "main";
-const BRIDGE_VERSION = "3.2-draft-pick-ownership";
+const BRIDGE_VERSION = "3.3-owner-tendencies";
 
 export default {
   async fetch(request, env) {
@@ -51,6 +51,11 @@ export default {
         return json({ ok: true, ...result });
       }
 
+      if (url.pathname === "/rebuild-tendencies") {
+        const result = await rebuildOwnerTendencies(env.GITHUB_TOKEN);
+        return json({ ok: true, ...result });
+      }
+
       if (url.pathname === "/sync-season") {
         const leagueId = url.searchParams.get("league_id");
         if (!leagueId) {
@@ -87,6 +92,7 @@ export default {
           create_manual_snapshot: "/snapshot?label=OPTIONAL_LABEL",
           rebuild_unified_ledger: "/rebuild-ledger",
           rebuild_draft_pick_ownership: "/rebuild-picks",
+          rebuild_owner_tendencies: "/rebuild-tendencies",
           sync_one_season: "/sync-season?league_id=LEAGUE_ID"
         }
       });
@@ -267,19 +273,21 @@ async function syncSeasonToGitHub(leagueId, githubToken, isCurrent) {
     );
 
     const unifiedHistory = await rebuildUnifiedHistory(githubToken);
+    const ownerTendencies = await rebuildOwnerTendencies(githubToken);
 
     return {
       season,
       league_id: String(league.league_id),
       previous_league_id: league.previous_league_id ? String(league.previous_league_id) : null,
-      files_written: files.map(([path]) => path).concat(["current.json", "draft-pick-ownership.json"]),
+      files_written: files.map(([path]) => path).concat(["current.json", "draft-pick-ownership.json", "owner-tendencies.json"]),
       transaction_count: transactions.length,
       trade_count: trades.length,
       draft_count: draftData.length,
       team_count: teams.length,
       daily_snapshot: dailySnapshotResult,
       draft_pick_ownership_file: draftPickOwnershipResult,
-      unified_history: unifiedHistory
+      unified_history: unifiedHistory,
+      owner_tendencies: ownerTendencies
     };
   }
 
@@ -379,6 +387,422 @@ async function rebuildUnifiedHistory(githubToken) {
     transaction_count: transactions.length,
     trade_count: trades.length
   };
+}
+
+
+async function rebuildOwnerTendencies(githubToken) {
+  const chainNewestFirst = await discoverLeagueChain(CURRENT_LEAGUE_ID);
+  const chain = [...chainNewestFirst].reverse();
+  const [transactionDoc, pickDoc, ...teamDocs] = await Promise.all([
+    getGitHubJSON("history/all-transactions.json", githubToken),
+    getGitHubJSON("draft-pick-ownership.json", githubToken),
+    ...chain.map(entry => getGitHubJSON(`history/${entry.season}/teams.json`, githubToken))
+  ]);
+
+  const transactions = Array.isArray(transactionDoc?.transactions)
+    ? transactionDoc.transactions.filter(tx => tx?.status === "complete")
+    : [];
+
+  const seasonRosterToOwner = new Map();
+  const owners = new Map();
+  const ownerIdToKey = new Map();
+  const currentSeason = String(chainNewestFirst[0]?.season || "");
+
+  for (let i = 0; i < chain.length; i++) {
+    const season = String(chain[i].season);
+    const teams = Array.isArray(teamDocs[i]?.teams) ? teamDocs[i].teams : [];
+
+    for (const team of teams) {
+      const ownerKey = team.owner_id
+        ? `user:${team.owner_id}`
+        : `season:${season}:roster:${team.roster_id}`;
+      const numericSeason = Number(season) || 0;
+      seasonRosterToOwner.set(`${season}:${team.roster_id}`, ownerKey);
+      if (team.owner_id) ownerIdToKey.set(String(team.owner_id), ownerKey);
+
+      if (!owners.has(ownerKey)) {
+        owners.set(ownerKey, makeOwnerTendencyRecord(ownerKey));
+      }
+
+      const record = owners.get(ownerKey);
+      record.owner_id = team.owner_id || record.owner_id;
+      record.username = team.username || record.username;
+      record.display_name = team.display_name || record.display_name;
+      record.seasons_active.add(season);
+      record.team_names.add(team.team_name || `Roster ${team.roster_id}`);
+      record.rosters_by_season[season] = team.roster_id;
+
+      if (numericSeason >= record._latest_season_number) {
+        record._latest_season_number = numericSeason;
+        record.current_roster_id = team.roster_id;
+        record.current_team_name = team.team_name || `Roster ${team.roster_id}`;
+      }
+    }
+  }
+
+  function ownerForRoster(season, rosterId) {
+    return seasonRosterToOwner.get(`${season}:${rosterId}`) || null;
+  }
+
+  function getRecord(ownerKey) {
+    return ownerKey ? owners.get(ownerKey) || null : null;
+  }
+
+  for (const tx of transactions) {
+    const season = String(tx.season || "unknown");
+    const rosterIds = [...new Set((tx.roster_ids || []).map(Number).filter(Number.isFinite))];
+    const participantKeys = [...new Set(rosterIds.map(id => ownerForRoster(season, id)).filter(Boolean))];
+
+    for (const ownerKey of participantKeys) {
+      const record = getRecord(ownerKey);
+      if (!record) continue;
+      const bucket = ensureOwnerSeasonBucket(record, season);
+      record.activity.transactions_involved += 1;
+      bucket.transactions_involved += 1;
+      record.activity.transaction_types[tx.type] = (record.activity.transaction_types[tx.type] || 0) + 1;
+    }
+
+    if (tx.type === "trade") {
+      const creatorKey = tx.creator ? ownerIdToKey.get(String(tx.creator)) : null;
+      const creatorRecord = getRecord(creatorKey);
+      if (creatorRecord) {
+        creatorRecord.trade_profile.trades_created += 1;
+        ensureOwnerSeasonBucket(creatorRecord, season).trades_created += 1;
+      }
+
+      for (const rosterId of rosterIds) {
+        const ownerKey = ownerForRoster(season, rosterId);
+        const record = getRecord(ownerKey);
+        if (!record) continue;
+        const bucket = ensureOwnerSeasonBucket(record, season);
+        record.trade_profile.trades += 1;
+        bucket.trades += 1;
+
+        for (const partnerRosterId of rosterIds) {
+          if (partnerRosterId === rosterId) continue;
+          const partnerKey = ownerForRoster(season, partnerRosterId);
+          if (!partnerKey || partnerKey === ownerKey) continue;
+          const partner = getRecord(partnerKey);
+          if (!partner) continue;
+          const partnerEntry = record._trade_partners.get(partnerKey) || {
+            owner_key: partnerKey,
+            owner_id: partner.owner_id,
+            team_name: partner.current_team_name,
+            trades: 0
+          };
+          partnerEntry.owner_id = partner.owner_id;
+          partnerEntry.team_name = partner.current_team_name;
+          partnerEntry.trades += 1;
+          record._trade_partners.set(partnerKey, partnerEntry);
+        }
+      }
+
+      for (const move of tx.adds || []) {
+        const ownerKey = ownerForRoster(season, Number(move.roster_id));
+        const record = getRecord(ownerKey);
+        if (!record) continue;
+        record.trade_profile.players_acquired += 1;
+        incrementCounter(record.trade_profile.positions_acquired, move.player?.position || "UNKNOWN");
+        ensureOwnerSeasonBucket(record, season).players_acquired += 1;
+      }
+
+      for (const move of tx.drops || []) {
+        const ownerKey = ownerForRoster(season, Number(move.roster_id));
+        const record = getRecord(ownerKey);
+        if (!record) continue;
+        record.trade_profile.players_sent += 1;
+        incrementCounter(record.trade_profile.positions_sent, move.player?.position || "UNKNOWN");
+        ensureOwnerSeasonBucket(record, season).players_sent += 1;
+      }
+
+      const ownersWithPickMovement = new Set();
+      for (const pick of tx.draft_picks || []) {
+        const previousRosterId = Number(pick.previous_owner_roster_id);
+        const currentRosterId = Number(pick.current_owner_roster_id);
+        const round = Number(pick.round);
+
+        if (Number.isFinite(previousRosterId)) {
+          const ownerKey = ownerForRoster(season, previousRosterId);
+          const record = getRecord(ownerKey);
+          if (record) {
+            record.trade_profile.draft_picks_sent += 1;
+            if (round === 1) record.trade_profile.firsts_sent += 1;
+            else if (round === 2) record.trade_profile.seconds_sent += 1;
+            else if (round === 3) record.trade_profile.thirds_sent += 1;
+            const bucket = ensureOwnerSeasonBucket(record, season);
+            bucket.draft_picks_sent += 1;
+            if (round === 1) bucket.firsts_sent += 1;
+            ownersWithPickMovement.add(ownerKey);
+          }
+        }
+
+        if (Number.isFinite(currentRosterId)) {
+          const ownerKey = ownerForRoster(season, currentRosterId);
+          const record = getRecord(ownerKey);
+          if (record) {
+            record.trade_profile.draft_picks_acquired += 1;
+            if (round === 1) record.trade_profile.firsts_acquired += 1;
+            else if (round === 2) record.trade_profile.seconds_acquired += 1;
+            else if (round === 3) record.trade_profile.thirds_acquired += 1;
+            const bucket = ensureOwnerSeasonBucket(record, season);
+            bucket.draft_picks_acquired += 1;
+            if (round === 1) bucket.firsts_acquired += 1;
+            ownersWithPickMovement.add(ownerKey);
+          }
+        }
+      }
+
+      for (const ownerKey of ownersWithPickMovement) {
+        const record = getRecord(ownerKey);
+        if (record) record.trade_profile.trades_involving_picks += 1;
+      }
+
+      const ownersWithPlayerMovement = new Set();
+      for (const move of [...(tx.adds || []), ...(tx.drops || [])]) {
+        const ownerKey = ownerForRoster(season, Number(move.roster_id));
+        if (ownerKey) ownersWithPlayerMovement.add(ownerKey);
+      }
+      for (const ownerKey of ownersWithPlayerMovement) {
+        const record = getRecord(ownerKey);
+        if (record) record.trade_profile.trades_involving_players += 1;
+      }
+    }
+
+    if (tx.type === "waiver") {
+      for (const ownerKey of participantKeys) {
+        const record = getRecord(ownerKey);
+        if (!record) continue;
+        const bucket = ensureOwnerSeasonBucket(record, season);
+        record.activity.waiver_claims_won += 1;
+        bucket.waiver_claims_won += 1;
+        const bid = Number(tx.waiver_bid);
+        if (Number.isFinite(bid) && bid >= 0) {
+          record.activity.faab_spent += bid;
+          record.activity.faab_bids.push(bid);
+          bucket.faab_spent += bid;
+        }
+      }
+    }
+
+    if (tx.type === "free_agent") {
+      for (const ownerKey of participantKeys) {
+        const record = getRecord(ownerKey);
+        if (!record) continue;
+        record.activity.free_agent_transactions += 1;
+        ensureOwnerSeasonBucket(record, season).free_agent_transactions += 1;
+      }
+    }
+
+    for (const move of tx.adds || []) {
+      const ownerKey = ownerForRoster(season, Number(move.roster_id));
+      const record = getRecord(ownerKey);
+      if (!record) continue;
+      record.activity.player_adds += 1;
+      ensureOwnerSeasonBucket(record, season).player_adds += 1;
+    }
+
+    for (const move of tx.drops || []) {
+      const ownerKey = ownerForRoster(season, Number(move.roster_id));
+      const record = getRecord(ownerKey);
+      if (!record) continue;
+      record.activity.player_drops += 1;
+      ensureOwnerSeasonBucket(record, season).player_drops += 1;
+    }
+  }
+
+  const currentPickByRoster = new Map(
+    (pickDoc?.by_owner || []).map(row => [Number(row.roster_id), row])
+  );
+
+  for (const record of owners.values()) {
+    const currentPicks = currentPickByRoster.get(Number(record.current_roster_id));
+    if (currentPicks && record._latest_season_number === Number(currentSeason)) {
+      record.current_draft_capital = {
+        total_future_picks: currentPicks.total_future_picks || 0,
+        first_round_picks: currentPicks.first_round_picks || 0,
+        second_round_picks: currentPicks.second_round_picks || 0,
+        third_round_picks: currentPicks.third_round_picks || 0,
+        by_season: currentPicks.by_season || {}
+      };
+    }
+  }
+
+  const outputOwners = [...owners.values()].map(finalizeOwnerTendencyRecord);
+  applyLeagueRanks(outputOwners);
+  outputOwners.sort((a, b) =>
+    (a.current_roster_id ?? 999) - (b.current_roster_id ?? 999) ||
+    String(a.current_team_name).localeCompare(String(b.current_team_name))
+  );
+
+  const path = "owner-tendencies.json";
+  const payload = {
+    generated_at: new Date().toISOString(),
+    league_name: chainNewestFirst[0]?.name || null,
+    seasons: chain.map(entry => String(entry.season)),
+    methodology: {
+      completed_transactions_only: true,
+      trade_count_definition: "Number of completed trades in which the owner participated.",
+      trade_partners_definition: "Each other owner participating in the same completed trade.",
+      faab_definition: "Sum of successful waiver transaction waiver_bid values when present.",
+      pick_flow_definition: "Draft picks are counted as sent from previous_owner_roster_id and acquired by current_owner_roster_id.",
+      rankings: "1 is highest activity or largest current draft-capital total for that metric. Ties share the same rank."
+    },
+    owner_count: outputOwners.length,
+    owners: outputOwners
+  };
+
+  await upsertGitHubJSON(
+    path,
+    payload,
+    "Update Sleeper owner tendency profiles",
+    githubToken
+  );
+
+  return {
+    path,
+    seasons: payload.seasons,
+    owner_count: outputOwners.length,
+    completed_transaction_count_analyzed: transactions.length
+  };
+}
+
+function makeOwnerTendencyRecord(ownerKey) {
+  return {
+    owner_key: ownerKey,
+    owner_id: null,
+    username: null,
+    display_name: null,
+    current_roster_id: null,
+    current_team_name: null,
+    _latest_season_number: 0,
+    seasons_active: new Set(),
+    team_names: new Set(),
+    rosters_by_season: {},
+    activity: {
+      transactions_involved: 0,
+      transaction_types: {},
+      waiver_claims_won: 0,
+      free_agent_transactions: 0,
+      player_adds: 0,
+      player_drops: 0,
+      faab_spent: 0,
+      faab_bids: []
+    },
+    trade_profile: {
+      trades: 0,
+      trades_created: 0,
+      players_acquired: 0,
+      players_sent: 0,
+      positions_acquired: {},
+      positions_sent: {},
+      draft_picks_acquired: 0,
+      draft_picks_sent: 0,
+      firsts_acquired: 0,
+      firsts_sent: 0,
+      seconds_acquired: 0,
+      seconds_sent: 0,
+      thirds_acquired: 0,
+      thirds_sent: 0,
+      trades_involving_picks: 0,
+      trades_involving_players: 0
+    },
+    current_draft_capital: {
+      total_future_picks: 0,
+      first_round_picks: 0,
+      second_round_picks: 0,
+      third_round_picks: 0,
+      by_season: {}
+    },
+    by_season: {},
+    _trade_partners: new Map(),
+    league_ranks: {}
+  };
+}
+
+function ensureOwnerSeasonBucket(record, season) {
+  if (!record.by_season[season]) {
+    record.by_season[season] = {
+      transactions_involved: 0,
+      trades: 0,
+      trades_created: 0,
+      waiver_claims_won: 0,
+      free_agent_transactions: 0,
+      faab_spent: 0,
+      player_adds: 0,
+      player_drops: 0,
+      players_acquired: 0,
+      players_sent: 0,
+      draft_picks_acquired: 0,
+      draft_picks_sent: 0,
+      firsts_acquired: 0,
+      firsts_sent: 0
+    };
+  }
+  return record.by_season[season];
+}
+
+function incrementCounter(counter, key) {
+  counter[key] = (counter[key] || 0) + 1;
+}
+
+function finalizeOwnerTendencyRecord(record) {
+  const bids = record.activity.faab_bids;
+  const avgFaab = bids.length
+    ? Number((bids.reduce((sum, value) => sum + value, 0) / bids.length).toFixed(2))
+    : 0;
+  const maxFaab = bids.length ? Math.max(...bids) : 0;
+  const tradePartners = [...record._trade_partners.values()]
+    .sort((a, b) => b.trades - a.trades || String(a.team_name).localeCompare(String(b.team_name)));
+
+  return {
+    owner_key: record.owner_key,
+    owner_id: record.owner_id,
+    username: record.username,
+    display_name: record.display_name,
+    current_roster_id: record.current_roster_id,
+    current_team_name: record.current_team_name,
+    seasons_active: [...record.seasons_active].sort(),
+    team_names_used: [...record.team_names],
+    rosters_by_season: record.rosters_by_season,
+    activity: {
+      transactions_involved: record.activity.transactions_involved,
+      transaction_types: record.activity.transaction_types,
+      waiver_claims_won: record.activity.waiver_claims_won,
+      free_agent_transactions: record.activity.free_agent_transactions,
+      player_adds: record.activity.player_adds,
+      player_drops: record.activity.player_drops,
+      faab_spent: record.activity.faab_spent,
+      average_successful_faab_bid: avgFaab,
+      max_successful_faab_bid: maxFaab
+    },
+    trade_profile: {
+      ...record.trade_profile,
+      net_draft_picks: record.trade_profile.draft_picks_acquired - record.trade_profile.draft_picks_sent,
+      net_first_round_picks: record.trade_profile.firsts_acquired - record.trade_profile.firsts_sent,
+      favorite_trade_partner: tradePartners[0] || null,
+      trade_partners: tradePartners
+    },
+    current_draft_capital: record.current_draft_capital,
+    by_season: record.by_season,
+    league_ranks: record.league_ranks
+  };
+}
+
+function applyLeagueRanks(owners) {
+  const metrics = [
+    ["trade_activity", owner => owner.trade_profile.trades],
+    ["waiver_claims", owner => owner.activity.waiver_claims_won],
+    ["faab_spent", owner => owner.activity.faab_spent],
+    ["future_firsts", owner => owner.current_draft_capital.first_round_picks],
+    ["future_picks", owner => owner.current_draft_capital.total_future_picks]
+  ];
+
+  for (const [name, accessor] of metrics) {
+    const values = [...new Set(owners.map(accessor))].sort((a, b) => b - a);
+    for (const owner of owners) {
+      owner.league_ranks[name] = values.indexOf(accessor(owner)) + 1;
+    }
+  }
 }
 
 
