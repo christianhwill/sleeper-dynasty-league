@@ -1,0 +1,199 @@
+{
+  "generated_at": "2026-08-19T19:53:55.917Z",
+  "season": "2024",
+  "league_id": "1129877302260756480",
+  "playoff_week_start": 15,
+  "winners_bracket": [
+    {
+      "round": 1,
+      "match_id": 1,
+      "team_1_roster_id": 9,
+      "team_1": "The Crusty CreamPies",
+      "team_2_roster_id": 6,
+      "team_2": "McCaffrican Americans",
+      "team_1_from": null,
+      "team_2_from": null,
+      "winner_roster_id": 9,
+      "winner_team": "The Crusty CreamPies",
+      "loser_roster_id": 6,
+      "loser_team": "McCaffrican Americans",
+      "placement": null
+    },
+    {
+      "round": 1,
+      "match_id": 2,
+      "team_1_roster_id": 10,
+      "team_1": "Sugerdaddy",
+      "team_2_roster_id": 5,
+      "team_2": "BING BONG",
+      "team_1_from": null,
+      "team_2_from": null,
+      "winner_roster_id": 10,
+      "winner_team": "Sugerdaddy",
+      "loser_roster_id": 5,
+      "loser_team": "BING BONG",
+      "placement": null
+    },
+    {
+      "round": 2,
+      "match_id": 3,
+      "team_1_roster_id": 4,
+      "team_1": "Purdy Boys",
+      "team_2_roster_id": 9,
+      "team_2": "The Crusty CreamPies",
+      "team_1_from": null,
+      "team_2_from": {
+        "w": 1
+      },
+      "winner_roster_id": 4,
+      "winner_team": "Purdy Boys",
+      "loser_roster_id": 9,
+      "loser_team": "The Crusty CreamPies",
+      "placement": null
+    },
+    {
+      "round": 2,
+      "match_id": 4,
+      "team_1_roster_id": 1,
+      "team_1": "Amon-Ra Fondling God",
+      "team_2_roster_id": 10,
+      "team_2": "Sugerdaddy",
+      "team_1_from": null,
+      "team_2_from": {
+        "w": 2
+      },
+      "winner_roster_id": 1,
+      "winner_team": "Amon-Ra Fondling God",
+      "loser_roster_id": 10,
+      "loser_team": "Sugerdaddy",
+      "placement": null
+    },
+    {
+      "round": 2,
+      "match_id": 5,
+      "team_1_roster_id": 6,
+      "team_1": "McCaffrican Americans",
+      "team_2_roster_id": 5,
+      "team_2": "BING BONG",
+      "team_1_from": {
+        "l": 1
+      },
+      "team_2_from": {
+        "l": 2
+      },
+      "winner_roster_id": 6,
+      "winner_team": "McCaffrican Americans",
+      "loser_roster_id": 5,
+      "loser_team": "BING BONG",
+      "placement": 5
+    },
+    {
+      "round": 3,
+      "match_id": 6,
+      "team_1_roster_id": 4,
+      "team_1": "Purdy Boys",
+      "team_2_roster_id": 1,
+      "team_2": "Amon-Ra Fondling God",
+      "team_1_from": {
+        "w": 3
+      },
+      "team_2_from": {
+        "w": 4
+      },
+      "winner_roster_id": 4,
+      "winner_team": "Purdy Boys",
+      "loser_roster_id": 1,
+      "loser_team": "Amon-Ra Fondling God",
+      "placement": 1
+    },
+    {
+      "round": 3,
+      "match_id": 7,
+      "team_1_roster_id": 9,
+      "team_1": "The Crusty CreamPies",
+      "team_2_roster_id": 10,
+      "team_2": "Sugerdaddy",
+      "team_1_from": {
+        "l": 3
+      },
+      "team_2_from": {
+        "l": 4
+      },
+      "winner_roster_id": 9,
+      "winner_team": "The Crusty CreamPies",
+      "loser_roster_id": 10,
+      "loser_team": "Sugerdaddy",
+      "placement": 3
+    }
+  ],
+  "losers_bracket": [
+    {
+      "round": 1,
+      "match_id": 1,
+      "team_1_roster_id": 8,
+      "team_1": "PurpleRhane",
+      "team_2_roster_id": 3,
+      "team_2": "Third Down Syndrome",
+      "team_1_from": null,
+      "team_2_from": null,
+      "winner_roster_id": 8,
+      "winner_team": "PurpleRhane",
+      "loser_roster_id": 3,
+      "loser_team": "Third Down Syndrome",
+      "placement": null
+    },
+    {
+      "round": 1,
+      "match_id": 2,
+      "team_1_roster_id": 2,
+      "team_1": "Roscoe Arbuckle",
+      "team_2_roster_id": 7,
+      "team_2": "Calmydia",
+      "team_1_from": null,
+      "team_2_from": null,
+      "winner_roster_id": 7,
+      "winner_team": "Calmydia",
+      "loser_roster_id": 2,
+      "loser_team": "Roscoe Arbuckle",
+      "placement": null
+    },
+    {
+      "round": 2,
+      "match_id": 3,
+      "team_1_roster_id": 8,
+      "team_1": "PurpleRhane",
+      "team_2_roster_id": 7,
+      "team_2": "Calmydia",
+      "team_1_from": {
+        "w": 1
+      },
+      "team_2_from": {
+        "w": 2
+      },
+      "winner_roster_id": 7,
+      "winner_team": "Calmydia",
+      "loser_roster_id": 8,
+      "loser_team": "PurpleRhane",
+      "placement": 1
+    },
+    {
+      "round": 2,
+      "match_id": 4,
+      "team_1_roster_id": 3,
+      "team_1": "Third Down Syndrome",
+      "team_2_roster_id": 2,
+      "team_2": "Roscoe Arbuckle",
+      "team_1_from": {
+        "l": 1
+      },
+      "team_2_from": {
+        "l": 2
+      },
+      "winner_roster_id": 3,
+      "winner_team": "Third Down Syndrome",
+      "loser_roster_id": 2,
+      "loser_team": "Roscoe Arbuckle",
+      "placement": 3
+    }
+  ]
+}
