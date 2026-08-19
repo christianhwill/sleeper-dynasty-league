@@ -1,9 +1,11 @@
-const CURRENT_LEAGUE_ID = "1327788752298336256";
+const LEAGUE_ANCHOR_ID = "1327788752298336256";
+const LEAGUE_ANCHOR_USER_ID = "1129875387229560832";
+const MAX_LEAGUE_CHAIN_LENGTH = 50;
 const SLEEPER = "https://api.sleeper.app/v1";
 const GITHUB_OWNER = "christianhwill";
 const GITHUB_REPO = "sleeper-dynasty-league";
 const GITHUB_BRANCH = "main";
-const BRIDGE_VERSION = "3.7-large-file-finalize";
+const BRIDGE_VERSION = "3.8-auto-season-rollover";
 const MAX_GITHUB_JSON_BYTES = 50 * 1024 * 1024;
 
 export default {
@@ -16,7 +18,9 @@ export default {
           ok: true,
           service: "Sleeper Dynasty Sync",
           version: BRIDGE_VERSION,
-          current_league_id: CURRENT_LEAGUE_ID,
+          league_anchor_id: LEAGUE_ANCHOR_ID,
+          auto_rollover_enabled: true,
+          active_league_route: "/chain",
           github_repo: `${GITHUB_OWNER}/${GITHUB_REPO}`,
           github_token_configured: Boolean(env.GITHUB_TOKEN)
         });
@@ -27,38 +31,49 @@ export default {
       }
 
       if (url.pathname === "/chain") {
-        const chain = await discoverLeagueChain(CURRENT_LEAGUE_ID);
-        return json({ ok: true, chain });
+        const activeLeague = await resolveActiveLeague(env.GITHUB_TOKEN);
+        const chain = await discoverLeagueChain(activeLeague.league_id);
+        return json({ ok: true, active_league_id: String(activeLeague.league_id), chain });
       }
 
       if (url.pathname === "/sync") {
-        const result = await syncSeasonToGitHub(CURRENT_LEAGUE_ID, env.GITHUB_TOKEN, true);
-        return json({ ok: true, ...result });
+        const activeLeague = await resolveActiveLeague(env.GITHUB_TOKEN);
+        const result = await syncCurrentCoreToGitHub(
+          String(activeLeague.league_id),
+          env.GITHUB_TOKEN,
+          activeLeague.auto_rollover_detected ? (activeLeague.resolved_chain || true) : null
+        );
+        return json({ ok: true, mode: "safe_current_sync", ...result });
       }
 
       if (url.pathname === "/snapshot") {
+        const activeLeague = await resolveActiveLeague(env.GITHUB_TOKEN);
         const label = url.searchParams.get("label");
-        const result = await createManualSnapshot(CURRENT_LEAGUE_ID, env.GITHUB_TOKEN, label);
+        const result = await createManualSnapshot(String(activeLeague.league_id), env.GITHUB_TOKEN, label);
         return json({ ok: true, ...result });
       }
 
       if (url.pathname === "/rebuild-ledger") {
-        const result = await rebuildUnifiedHistory(env.GITHUB_TOKEN);
+        const activeLeague = await resolveActiveLeague(env.GITHUB_TOKEN);
+        const result = await rebuildUnifiedHistory(env.GITHUB_TOKEN, String(activeLeague.league_id));
         return json({ ok: true, ...result });
       }
 
       if (url.pathname === "/rebuild-picks") {
-        const result = await rebuildDraftPickOwnership(env.GITHUB_TOKEN);
+        const activeLeague = await resolveActiveLeague(env.GITHUB_TOKEN);
+        const result = await rebuildDraftPickOwnership(env.GITHUB_TOKEN, String(activeLeague.league_id));
         return json({ ok: true, ...result });
       }
 
       if (url.pathname === "/rebuild-tendencies") {
-        const result = await rebuildOwnerTendencies(env.GITHUB_TOKEN);
+        const activeLeague = await resolveActiveLeague(env.GITHUB_TOKEN);
+        const result = await rebuildOwnerTendencies(env.GITHUB_TOKEN, String(activeLeague.league_id));
         return json({ ok: true, ...result });
       }
 
       if (url.pathname === "/rebuild-power-rankings") {
-        const result = await rebuildPowerRankings(env.GITHUB_TOKEN);
+        const activeLeague = await resolveActiveLeague(env.GITHUB_TOKEN);
+        const result = await rebuildPowerRankings(env.GITHUB_TOKEN, String(activeLeague.league_id));
         return json({ ok: true, ...result });
       }
 
@@ -67,24 +82,35 @@ export default {
         const finalize = url.searchParams.get("finalize") === "1";
 
         if (finalize) {
-          const result = await rebuildStoredGameHistory(env.GITHUB_TOKEN);
+          const activeLeague = await resolveActiveLeague(env.GITHUB_TOKEN);
+          const chain = await discoverLeagueChain(activeLeague.league_id);
+          const result = await rebuildStoredGameHistory(
+            env.GITHUB_TOKEN,
+            String(activeLeague.league_id),
+            chain
+          );
           return json({ ok: true, mode: "finalize", ...result });
         }
 
         if (!season) {
+          const activeLeague = await resolveActiveLeague(env.GITHUB_TOKEN);
+          const chain = await discoverLeagueChain(activeLeague.league_id);
+          const seasons = [...chain].reverse().map(entry => String(entry.season));
           return json({
             ok: true,
             message: "Game history rebuild is intentionally split by season to stay within Cloudflare subrequest limits.",
-            steps: [
-              "/rebuild-games?season=2024",
-              "/rebuild-games?season=2025",
-              "/rebuild-games?season=2026",
-              "/rebuild-games?finalize=1"
-            ]
+            steps: seasons.map(value => `/rebuild-games?season=${value}`).concat(["/rebuild-games?finalize=1"])
           });
         }
 
-        const result = await rebuildGameHistorySeason(season, env.GITHUB_TOKEN);
+        const activeLeague = await resolveActiveLeague(env.GITHUB_TOKEN);
+        const chain = await discoverLeagueChain(activeLeague.league_id);
+        const result = await rebuildGameHistorySeason(
+          season,
+          env.GITHUB_TOKEN,
+          String(activeLeague.league_id),
+          chain
+        );
         return json({ ok: true, mode: "season", ...result });
       }
 
@@ -93,12 +119,21 @@ export default {
         if (!leagueId) {
           return json({ ok: false, error: "Missing league_id query parameter." }, 400);
         }
-        const result = await syncSeasonToGitHub(leagueId, env.GITHUB_TOKEN, leagueId === CURRENT_LEAGUE_ID);
+        const activeLeague = await resolveActiveLeague(env.GITHUB_TOKEN);
+        const isCurrent = String(leagueId) === String(activeLeague.league_id);
+        const result = isCurrent
+          ? await syncCurrentCoreToGitHub(
+              String(activeLeague.league_id),
+              env.GITHUB_TOKEN,
+              activeLeague.auto_rollover_detected ? (activeLeague.resolved_chain || true) : null
+            )
+          : await syncSeasonToGitHub(leagueId, env.GITHUB_TOKEN, false);
         return json({ ok: true, ...result });
       }
 
       if (url.pathname === "/bootstrap") {
-        const chain = await discoverLeagueChain(CURRENT_LEAGUE_ID);
+        const activeLeague = await resolveActiveLeague(env.GITHUB_TOKEN);
+        const chain = await discoverLeagueChain(activeLeague.league_id);
         await upsertGitHubJSON(
           "config/league-chain.json",
           { generated_at: new Date().toISOString(), chain },
@@ -138,16 +173,77 @@ export default {
 
   async scheduled(event, env, ctx) {
     if (!env.GITHUB_TOKEN) return;
-    ctx.waitUntil(syncSeasonToGitHub(CURRENT_LEAGUE_ID, env.GITHUB_TOKEN, true));
+    ctx.waitUntil(
+      runScheduledMaintenance(event, env.GITHUB_TOKEN)
+        .then(result => console.log(JSON.stringify({ event: "scheduled_maintenance", ...result })))
+        .catch(error => console.error(JSON.stringify({
+          event: "scheduled_maintenance_failed",
+          error: error instanceof Error ? error.message : String(error)
+        })))
+    );
   }
 };
+
+async function resolveActiveLeague(githubToken) {
+  let startingLeagueId = LEAGUE_ANCHOR_ID;
+  const storedChainDoc = await getGitHubJSON("config/league-chain.json", githubToken);
+  const storedChain = Array.isArray(storedChainDoc?.chain) ? [...storedChainDoc.chain] : [];
+  const storedLatestLeagueId = storedChain[0]?.league_id;
+  if (storedLatestLeagueId) startingLeagueId = String(storedLatestLeagueId);
+
+  let activeLeague = await getJSON(`${SLEEPER}/league/${startingLeagueId}`);
+  let activeLeagueId = String(activeLeague.league_id || startingLeagueId);
+  const anchorSeason = Number(activeLeague.season);
+  const finalSeasonToCheck = Math.max(
+    Number.isFinite(anchorSeason) ? anchorSeason + 1 : new Date().getUTCFullYear() + 1,
+    new Date().getUTCFullYear() + 1
+  );
+
+  for (let season = (Number.isFinite(anchorSeason) ? anchorSeason : new Date().getUTCFullYear()) + 1;
+    season <= finalSeasonToCheck;
+    season += 1) {
+    const leagues = await getJSON(
+      `${SLEEPER}/user/${LEAGUE_ANCHOR_USER_ID}/leagues/nfl/${season}`
+    );
+
+    const matches = (Array.isArray(leagues) ? leagues : []).filter(league =>
+      String(league.previous_league_id || "") === activeLeagueId
+    );
+
+    if (matches.length > 1) {
+      throw new Error(`Multiple renewed Sleeper leagues point to ${activeLeagueId} for ${season}.`);
+    }
+    if (matches.length === 1) {
+      activeLeague = matches[0];
+      activeLeagueId = String(activeLeague.league_id);
+      if (storedChain.length > 0 && !storedChain.some(entry => String(entry.league_id) === activeLeagueId)) {
+        storedChain.unshift({
+          season: String(activeLeague.season),
+          league_id: activeLeagueId,
+          name: activeLeague.name || null,
+          previous_league_id: activeLeague.previous_league_id
+            ? String(activeLeague.previous_league_id)
+            : null,
+          status: activeLeague.status || null
+        });
+      }
+    }
+  }
+
+  return {
+    ...activeLeague,
+    auto_rollover_detected: activeLeagueId !== startingLeagueId,
+    resolver_start_league_id: startingLeagueId,
+    resolved_chain: storedChain.length > 0 ? storedChain : null
+  };
+}
 
 async function discoverLeagueChain(startLeagueId) {
   const seen = new Set();
   const chain = [];
   let leagueId = startLeagueId;
 
-  while (leagueId && leagueId !== "0" && !seen.has(leagueId) && chain.length < 10) {
+  while (leagueId && leagueId !== "0" && !seen.has(leagueId) && chain.length < MAX_LEAGUE_CHAIN_LENGTH) {
     seen.add(leagueId);
     const league = await getJSON(`${SLEEPER}/league/${leagueId}`);
     chain.push({
@@ -161,6 +257,299 @@ async function discoverLeagueChain(startLeagueId) {
   }
 
   return chain;
+}
+
+async function runScheduledMaintenance(event, githubToken) {
+  const scheduledDate = new Date(event?.scheduledTime || Date.now());
+  const utcHour = scheduledDate.getUTCHours();
+  const utcDay = scheduledDate.getUTCDay();
+  const activeLeague = await resolveActiveLeague(githubToken);
+  const activeLeagueId = String(activeLeague.league_id);
+
+  if (utcHour === 0 || utcHour === 12) {
+    const result = await syncCurrentCoreToGitHub(
+      activeLeagueId,
+      githubToken,
+      activeLeague.auto_rollover_detected ? (activeLeague.resolved_chain || true) : null
+    );
+    return { task: "current_core_sync", active_league_id: activeLeagueId, ...result };
+  }
+
+  if (utcHour === 3) {
+    const chain = await discoverLeagueChain(activeLeagueId);
+    const unifiedHistory = await rebuildUnifiedHistory(githubToken, activeLeagueId, chain);
+    return {
+      task: "daily_unified_history",
+      active_league_id: activeLeagueId,
+      unified_history: unifiedHistory
+    };
+  }
+
+  if (utcDay === 0 && utcHour === 6) {
+    const result = await syncCurrentDraftsToGitHub(activeLeagueId, githubToken);
+    return { task: "weekly_draft_sync", active_league_id: activeLeagueId, ...result };
+  }
+
+  if (utcHour === 6) {
+    const chain = await discoverLeagueChain(activeLeagueId);
+    const ownerTendencies = await rebuildOwnerTendencies(githubToken, activeLeagueId, chain);
+    return {
+      task: "daily_owner_tendencies",
+      active_league_id: activeLeagueId,
+      owner_tendencies: ownerTendencies
+    };
+  }
+
+  if (utcDay === 2 && utcHour === 9) {
+    const nflState = await getJSON(`${SLEEPER}/state/nfl`);
+    const sameSeason = String(nflState?.season || "") === String(activeLeague.season || "");
+    const seasonType = String(nflState?.season_type || "").toLowerCase();
+    const gamesAreActive = sameSeason && (seasonType === "regular" || seasonType === "post");
+
+    if (!gamesAreActive) {
+      return {
+        task: "weekly_current_game_sync",
+        active_league_id: activeLeagueId,
+        skipped: true,
+        reason: "The active Sleeper season is not in regular-season or postseason play."
+      };
+    }
+
+    const chain = await discoverLeagueChain(activeLeagueId);
+    const seasonResult = await rebuildGameHistorySeason(
+      String(activeLeague.season),
+      githubToken,
+      activeLeagueId,
+      chain
+    );
+    return {
+      task: "weekly_current_game_sync",
+      active_league_id: activeLeagueId,
+      season_result: seasonResult
+    };
+  }
+
+  if (utcHour === 9) {
+    const chain = await discoverLeagueChain(activeLeagueId);
+    const powerRankings = await rebuildPowerRankings(githubToken, activeLeagueId, chain);
+    return {
+      task: "daily_power_rankings",
+      active_league_id: activeLeagueId,
+      power_rankings: powerRankings
+    };
+  }
+
+  if (utcDay === 2 && utcHour === 15) {
+    const nflState = await getJSON(`${SLEEPER}/state/nfl`);
+    const sameSeason = String(nflState?.season || "") === String(activeLeague.season || "");
+    const seasonType = String(nflState?.season_type || "").toLowerCase();
+    const gamesAreActive = sameSeason && (seasonType === "regular" || seasonType === "post");
+
+    if (!gamesAreActive) {
+      return {
+        task: "weekly_game_history_finalize",
+        active_league_id: activeLeagueId,
+        skipped: true,
+        reason: "The active Sleeper season is not in regular-season or postseason play."
+      };
+    }
+
+    const chain = await discoverLeagueChain(activeLeagueId);
+    const finalResult = await rebuildStoredGameHistory(githubToken, activeLeagueId, chain);
+    return {
+      task: "weekly_game_history_finalize",
+      active_league_id: activeLeagueId,
+      final_result: finalResult
+    };
+  }
+
+  return {
+    task: "scheduled_noop",
+    active_league_id: activeLeagueId,
+    utc_hour: utcHour,
+    utc_day: utcDay
+  };
+}
+
+async function syncCurrentCoreToGitHub(leagueId, githubToken, refreshedLeagueChain = null) {
+  const players = await getPlayers();
+  const [league, users, rosters, tradedPicks] = await Promise.all([
+    getJSON(`${SLEEPER}/league/${leagueId}`),
+    getJSON(`${SLEEPER}/league/${leagueId}/users`),
+    getJSON(`${SLEEPER}/league/${leagueId}/rosters`),
+    getJSON(`${SLEEPER}/league/${leagueId}/traded_picks`)
+  ]);
+  const userById = Object.fromEntries(users.map(user => [user.user_id, user]));
+  const rosterById = Object.fromEntries(rosters.map(roster => [String(roster.roster_id), roster]));
+
+  const transactionWeeks = Array.from({ length: 19 }, (_, index) => index);
+  const transactionGroups = await Promise.all(transactionWeeks.map(async week => {
+    try {
+      const rows = await getJSON(`${SLEEPER}/league/${leagueId}/transactions/${week}`);
+      return rows.map(transaction => ({ ...transaction, sleeper_week: week }));
+    } catch {
+      return [];
+    }
+  }));
+  const transactions = dedupeById(transactionGroups.flat(), "transaction_id")
+    .sort((a, b) => (a.created || 0) - (b.created || 0))
+    .map(transaction => normalizeTransaction(transaction, players, rosterById, userById));
+  const trades = transactions.filter(transaction => transaction.type === "trade");
+  const teams = buildTeams(rosters, userById, players);
+  const normalizedTradedPicks = tradedPicks.map(pick => normalizePick(pick, rosterById, userById));
+  const draftPickOwnership = buildDraftPickOwnership(
+    league,
+    rosters,
+    tradedPicks,
+    rosterById,
+    userById
+  );
+  const generatedAt = new Date().toISOString();
+  const season = String(league.season);
+  const seasonDir = `history/${season}`;
+  const leagueSummary = {
+    league_id: String(league.league_id),
+    previous_league_id: league.previous_league_id ? String(league.previous_league_id) : null,
+    name: league.name,
+    season,
+    status: league.status,
+    total_rosters: league.total_rosters,
+    settings: league.settings,
+    scoring_settings: league.scoring_settings,
+    roster_positions: league.roster_positions,
+    draft_id: league.draft_id ? String(league.draft_id) : null
+  };
+  const files = [
+    [`${seasonDir}/league.json`, { generated_at: generatedAt, league: leagueSummary }],
+    [`${seasonDir}/teams.json`, { generated_at: generatedAt, season, teams }],
+    [`${seasonDir}/transactions.json`, { generated_at: generatedAt, season, transactions }],
+    [`${seasonDir}/trades.json`, { generated_at: generatedAt, season, trades }],
+    [`${seasonDir}/traded-picks.json`, {
+      generated_at: generatedAt,
+      season,
+      traded_picks: normalizedTradedPicks
+    }]
+  ];
+
+  for (const [path, data] of files) {
+    await upsertGitHubJSON(path, data, `Sync Sleeper ${season}: ${path.split("/").pop()}`, githubToken);
+  }
+
+  await upsertGitHubJSON(
+    "current.json",
+    {
+      generated_at: generatedAt,
+      season,
+      league: leagueSummary,
+      teams,
+      traded_picks: normalizedTradedPicks,
+      draft_pick_ownership: draftPickOwnership,
+      recent_transactions: transactions.slice(-100).reverse()
+    },
+    `Update live Sleeper snapshot (${season})`,
+    githubToken
+  );
+
+  const draftPickOwnershipResult = await writeDraftPickOwnershipFile({
+    league,
+    rosters,
+    tradedPicks,
+    rosterById,
+    userById,
+    githubToken,
+    generatedAt
+  });
+
+  const localDate = dateInTimeZone(new Date(), "America/Chicago");
+  const dailySnapshotPath = `snapshots/${season}/daily/${localDate}.json`;
+  const dailySnapshotResult = await createGitHubJSONIfMissing(
+    dailySnapshotPath,
+    buildSnapshotPayload({
+      snapshotType: "daily",
+      generatedAt,
+      localDate,
+      leagueSummary,
+      teams,
+      tradedPicks: normalizedTradedPicks,
+      draftPickOwnership
+    }),
+    `Create daily Sleeper snapshot ${localDate}`,
+    githubToken
+  );
+
+  let leagueChainFile = null;
+  if (refreshedLeagueChain) {
+    const chain = Array.isArray(refreshedLeagueChain)
+      ? refreshedLeagueChain
+      : await discoverLeagueChain(leagueId);
+    await upsertGitHubJSON(
+      "config/league-chain.json",
+      { generated_at: generatedAt, chain },
+      `Advance Sleeper league chain to ${season}`,
+      githubToken
+    );
+    leagueChainFile = {
+      path: "config/league-chain.json",
+      seasons: chain.map(entry => String(entry.season))
+    };
+  }
+
+  return {
+    season,
+    league_id: String(league.league_id),
+    files_written: files.map(([path]) => path).concat(["current.json", "draft-pick-ownership.json"]),
+    transaction_count: transactions.length,
+    trade_count: trades.length,
+    team_count: teams.length,
+    daily_snapshot: dailySnapshotResult,
+    draft_pick_ownership_file: draftPickOwnershipResult,
+    league_chain_file: leagueChainFile
+  };
+}
+
+async function syncCurrentDraftsToGitHub(leagueId, githubToken) {
+  const players = await getPlayers();
+  const [league, users, rosters, drafts] = await Promise.all([
+    getJSON(`${SLEEPER}/league/${leagueId}`),
+    getJSON(`${SLEEPER}/league/${leagueId}/users`),
+    getJSON(`${SLEEPER}/league/${leagueId}/rosters`),
+    getJSON(`${SLEEPER}/league/${leagueId}/drafts`)
+  ]);
+  const userById = Object.fromEntries(users.map(user => [user.user_id, user]));
+  const rosterById = Object.fromEntries(rosters.map(roster => [String(roster.roster_id), roster]));
+  const draftData = [];
+
+  for (const draft of drafts) {
+    let picks = [];
+    let tradedPicks = [];
+    try { picks = await getJSON(`${SLEEPER}/draft/${draft.draft_id}/picks`); } catch {}
+    try { tradedPicks = await getJSON(`${SLEEPER}/draft/${draft.draft_id}/traded_picks`); } catch {}
+    draftData.push({
+      draft_id: String(draft.draft_id),
+      season: String(draft.season),
+      status: draft.status,
+      type: draft.type,
+      settings: draft.settings || {},
+      metadata: draft.metadata || {},
+      slot_to_roster_id: draft.slot_to_roster_id || {},
+      picks: picks.map(pick => ({
+        ...pick,
+        player: playerInfo(pick.player_id, players),
+        roster_name: teamName(pick.roster_id, rosterById, userById)
+      })),
+      traded_picks: tradedPicks.map(pick => normalizePick(pick, rosterById, userById))
+    });
+  }
+
+  const season = String(league.season);
+  const path = `history/${season}/drafts.json`;
+  await upsertGitHubJSON(
+    path,
+    { generated_at: new Date().toISOString(), season, drafts: draftData },
+    `Sync Sleeper ${season}: drafts.json`,
+    githubToken
+  );
+  return { season, league_id: String(league.league_id), path, draft_count: draftData.length };
 }
 
 async function syncSeasonToGitHub(leagueId, githubToken, isCurrent) {
@@ -323,10 +712,10 @@ async function syncSeasonToGitHub(leagueId, githubToken, isCurrent) {
       githubToken
     );
 
-    const unifiedHistory = await rebuildUnifiedHistory(githubToken);
-    const ownerTendencies = await rebuildOwnerTendencies(githubToken);
-    const powerRankings = await rebuildPowerRankings(githubToken);
-    const gameHistory = await rebuildStoredGameHistory(githubToken);
+    const unifiedHistory = await rebuildUnifiedHistory(githubToken, leagueId);
+    const ownerTendencies = await rebuildOwnerTendencies(githubToken, leagueId);
+    const powerRankings = await rebuildPowerRankings(githubToken, leagueId);
+    const gameHistory = await rebuildStoredGameHistory(githubToken, leagueId);
 
     return {
       season,
@@ -488,9 +877,9 @@ function normalizeBracket(rows, rosterById, userById) {
   }));
 }
 
-async function rebuildGameHistorySeason(requestedSeason, githubToken) {
+async function rebuildGameHistorySeason(requestedSeason, githubToken, activeLeagueId, providedChain = null) {
   const season = String(requestedSeason);
-  const chainNewestFirst = await discoverLeagueChain(CURRENT_LEAGUE_ID);
+  const chainNewestFirst = providedChain || await discoverLeagueChain(activeLeagueId);
   const entry = chainNewestFirst.find(item => String(item.season) === season);
 
   if (!entry) {
@@ -548,8 +937,8 @@ async function rebuildGameHistorySeason(requestedSeason, githubToken) {
   };
 }
 
-async function rebuildStoredGameHistory(githubToken) {
-  const chainNewestFirst = await discoverLeagueChain(CURRENT_LEAGUE_ID);
+async function rebuildStoredGameHistory(githubToken, activeLeagueId, providedChain = null) {
+  const chainNewestFirst = providedChain || await discoverLeagueChain(activeLeagueId);
   const chain = [...chainNewestFirst].reverse();
   const allGames = [];
   const playoffSeasons = [];
@@ -658,8 +1047,8 @@ function buildHeadToHead(games) {
 }
 
 
-async function rebuildUnifiedHistory(githubToken) {
-  const chainNewestFirst = await discoverLeagueChain(CURRENT_LEAGUE_ID);
+async function rebuildUnifiedHistory(githubToken, activeLeagueId, providedChain = null) {
+  const chainNewestFirst = providedChain || await discoverLeagueChain(activeLeagueId);
   const chain = [...chainNewestFirst].reverse();
   const allTransactions = [];
   const allTrades = [];
@@ -744,8 +1133,8 @@ async function rebuildUnifiedHistory(githubToken) {
 }
 
 
-async function rebuildOwnerTendencies(githubToken) {
-  const chainNewestFirst = await discoverLeagueChain(CURRENT_LEAGUE_ID);
+async function rebuildOwnerTendencies(githubToken, activeLeagueId, providedChain = null) {
+  const chainNewestFirst = providedChain || await discoverLeagueChain(activeLeagueId);
   const chain = [...chainNewestFirst].reverse();
   const [transactionDoc, pickDoc, ...teamDocs] = await Promise.all([
     getGitHubJSON("history/all-transactions.json", githubToken),
@@ -1160,8 +1549,8 @@ function applyLeagueRanks(owners) {
 }
 
 
-async function rebuildPowerRankings(githubToken) {
-  const chainNewestFirst = await discoverLeagueChain(CURRENT_LEAGUE_ID);
+async function rebuildPowerRankings(githubToken, activeLeagueId, providedChain = null) {
+  const chainNewestFirst = providedChain || await discoverLeagueChain(activeLeagueId);
   const chain = [...chainNewestFirst].reverse();
 
   const [currentDoc, pickDoc, previousRankings] = await Promise.all([
@@ -1350,7 +1739,7 @@ async function rebuildPowerRankings(githubToken) {
   const payload = {
     generated_at: new Date().toISOString(),
     league: {
-      league_id: String(currentDoc.league?.league_id || CURRENT_LEAGUE_ID),
+      league_id: String(currentDoc.league?.league_id || activeLeagueId),
       name: currentDoc.league?.name || chainNewestFirst[0]?.name || null,
       season: currentSeason,
       status: currentDoc.league?.status || null
@@ -1463,12 +1852,12 @@ function round3(value) {
 }
 
 
-async function rebuildDraftPickOwnership(githubToken) {
+async function rebuildDraftPickOwnership(githubToken, activeLeagueId) {
   const [league, users, rosters, tradedPicks] = await Promise.all([
-    getJSON(`${SLEEPER}/league/${CURRENT_LEAGUE_ID}`),
-    getJSON(`${SLEEPER}/league/${CURRENT_LEAGUE_ID}/users`),
-    getJSON(`${SLEEPER}/league/${CURRENT_LEAGUE_ID}/rosters`),
-    getJSON(`${SLEEPER}/league/${CURRENT_LEAGUE_ID}/traded_picks`)
+    getJSON(`${SLEEPER}/league/${activeLeagueId}`),
+    getJSON(`${SLEEPER}/league/${activeLeagueId}/users`),
+    getJSON(`${SLEEPER}/league/${activeLeagueId}/rosters`),
+    getJSON(`${SLEEPER}/league/${activeLeagueId}/traded_picks`)
   ]);
 
   const userById = Object.fromEntries(users.map(u => [u.user_id, u]));
@@ -2067,4 +2456,3 @@ function json(data, status = 200) {
     }
   });
 }
-
