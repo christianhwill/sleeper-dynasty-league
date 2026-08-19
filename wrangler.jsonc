@@ -1,0 +1,11 @@
+{
+  "name": "sleeper-league-bridge",
+  "main": "worker.js",
+  "compatibility_date": "2026-08-19",
+  "workers_dev": true,
+  "triggers": {
+    "crons": [
+      "0 */3 * * *"
+    ]
+  }
+}
