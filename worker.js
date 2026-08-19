@@ -3,7 +3,7 @@ const SLEEPER = "https://api.sleeper.app/v1";
 const GITHUB_OWNER = "christianhwill";
 const GITHUB_REPO = "sleeper-dynasty-league";
 const GITHUB_BRANCH = "main";
-const BRIDGE_VERSION = "3.4-power-rankings";
+const BRIDGE_VERSION = "3.5-game-history";
 
 export default {
   async fetch(request, env) {
@@ -61,6 +61,11 @@ export default {
         return json({ ok: true, ...result });
       }
 
+      if (url.pathname === "/rebuild-games") {
+        const result = await rebuildGameHistory(env.GITHUB_TOKEN);
+        return json({ ok: true, ...result });
+      }
+
       if (url.pathname === "/sync-season") {
         const leagueId = url.searchParams.get("league_id");
         if (!leagueId) {
@@ -99,6 +104,7 @@ export default {
           rebuild_draft_pick_ownership: "/rebuild-picks",
           rebuild_owner_tendencies: "/rebuild-tendencies",
           rebuild_power_rankings: "/rebuild-power-rankings",
+          rebuild_game_history: "/rebuild-games",
           sync_one_season: "/sync-season?league_id=LEAGUE_ID"
         }
       });
@@ -195,6 +201,7 @@ async function syncSeasonToGitHub(leagueId, githubToken, isCurrent) {
 
   const teams = buildTeams(rosters, userById, players);
   const draftPickOwnership = buildDraftPickOwnership(league, rosters, tradedPicks, rosterById, userById);
+  const seasonGames = await fetchSeasonGameData(leagueId, league, rosterById, userById, players);
 
   const season = String(league.season);
   const seasonDir = `history/${season}`;
@@ -226,7 +233,22 @@ async function syncSeasonToGitHub(leagueId, githubToken, isCurrent) {
       season,
       traded_picks: tradedPicks.map(p => normalizePick(p, rosterById, userById))
     }],
-    [`${seasonDir}/drafts.json`, { generated_at: generatedAt, season, drafts: draftData }]
+    [`${seasonDir}/drafts.json`, { generated_at: generatedAt, season, drafts: draftData }],
+    [`${seasonDir}/matchups.json`, {
+      generated_at: generatedAt,
+      season,
+      league_id: String(league.league_id),
+      playoff_week_start: Number(league.settings?.playoff_week_start || 15),
+      weeks: seasonGames.weeks
+    }],
+    [`${seasonDir}/playoffs.json`, {
+      generated_at: generatedAt,
+      season,
+      league_id: String(league.league_id),
+      playoff_week_start: Number(league.settings?.playoff_week_start || 15),
+      winners_bracket: seasonGames.winners_bracket,
+      losers_bracket: seasonGames.losers_bracket
+    }]
   ];
 
   // Write serially to avoid GitHub contents API conflicts.
@@ -281,6 +303,7 @@ async function syncSeasonToGitHub(leagueId, githubToken, isCurrent) {
     const unifiedHistory = await rebuildUnifiedHistory(githubToken);
     const ownerTendencies = await rebuildOwnerTendencies(githubToken);
     const powerRankings = await rebuildPowerRankings(githubToken);
+    const gameHistory = await rebuildStoredGameHistory(githubToken);
 
     return {
       season,
@@ -295,7 +318,8 @@ async function syncSeasonToGitHub(leagueId, githubToken, isCurrent) {
       draft_pick_ownership_file: draftPickOwnershipResult,
       unified_history: unifiedHistory,
       owner_tendencies: ownerTendencies,
-      power_rankings: powerRankings
+      power_rankings: powerRankings,
+      game_history: gameHistory
     };
   }
 
@@ -309,6 +333,304 @@ async function syncSeasonToGitHub(leagueId, githubToken, isCurrent) {
     draft_count: draftData.length,
     team_count: teams.length
   };
+}
+
+
+async function fetchSeasonGameData(leagueId, league, rosterById, userById, players) {
+  const weeksToFetch = Array.from({ length: 18 }, (_, i) => i + 1);
+  const playoffWeekStart = Number(league.settings?.playoff_week_start || 15);
+  let nflState = null;
+  try { nflState = await getJSON(`${SLEEPER}/state/nfl`); } catch {}
+
+  const weekRows = await Promise.all(weeksToFetch.map(async week => {
+    try {
+      const raw = await getJSON(`${SLEEPER}/league/${leagueId}/matchups/${week}`);
+      const completed = isFantasyWeekCompleted(String(league.season), week, nflState);
+      return normalizeMatchupWeek(raw, week, playoffWeekStart, rosterById, userById, players, completed);
+    } catch {
+      return { week, phase: week >= playoffWeekStart ? "postseason" : "regular", is_completed: false, teams: [], games: [] };
+    }
+  }));
+
+  let winners = [];
+  let losers = [];
+  try { winners = await getJSON(`${SLEEPER}/league/${leagueId}/winners_bracket`); } catch {}
+  try { losers = await getJSON(`${SLEEPER}/league/${leagueId}/losers_bracket`); } catch {}
+
+  return {
+    weeks: weekRows,
+    winners_bracket: normalizeBracket(winners, rosterById, userById),
+    losers_bracket: normalizeBracket(losers, rosterById, userById)
+  };
+}
+
+function isFantasyWeekCompleted(season, week, nflState) {
+  if (!nflState) return false;
+  const targetSeason = Number(season);
+  const stateSeason = Number(nflState.season);
+  if (targetSeason < stateSeason) return true;
+  if (targetSeason > stateSeason) return false;
+
+  const seasonType = String(nflState.season_type || "").toLowerCase();
+  if (seasonType === "post") return true;
+  if (seasonType !== "regular") return false;
+  return Number(week) < Number(nflState.week || 0);
+}
+
+function normalizeMatchupWeek(rawRows, week, playoffWeekStart, rosterById, userById, players, isCompleted) {
+  const rows = Array.isArray(rawRows) ? rawRows : [];
+  const teams = rows.map(row => {
+    const playerPoints = row.players_points && typeof row.players_points === "object"
+      ? row.players_points
+      : {};
+    const starters = Array.isArray(row.starters) ? row.starters : [];
+    const starterPoints = Array.isArray(row.starters_points) ? row.starters_points : [];
+    const allPlayers = Array.isArray(row.players) ? row.players : [];
+
+    return {
+      roster_id: Number(row.roster_id),
+      team_name: teamName(row.roster_id, rosterById, userById),
+      matchup_id: row.matchup_id ?? null,
+      points: row.points ?? null,
+      custom_points: row.custom_points ?? null,
+      starters: starters.map((id, idx) => ({
+        ...playerInfo(id, players),
+        fantasy_points: playerPoints[id] ?? starterPoints[idx] ?? null
+      })),
+      players: allPlayers.map(id => ({
+        ...playerInfo(id, players),
+        fantasy_points: playerPoints[id] ?? null,
+        started: starters.includes(id)
+      }))
+    };
+  });
+
+  const grouped = new Map();
+  for (const team of teams) {
+    const key = String(team.matchup_id ?? `roster-${team.roster_id}`);
+    if (!grouped.has(key)) grouped.set(key, []);
+    grouped.get(key).push(team);
+  }
+
+  const games = [];
+  for (const [matchupKey, sides] of grouped.entries()) {
+    if (sides.length < 2) continue;
+    const ordered = [...sides].sort((a, b) => a.roster_id - b.roster_id);
+    const a = ordered[0];
+    const b = ordered[1];
+    const aPts = Number(a.points);
+    const bPts = Number(b.points);
+    const pointsAreNumeric = a.points != null && b.points != null && Number.isFinite(aPts) && Number.isFinite(bPts);
+    const winnerRosterId = isCompleted && pointsAreNumeric && aPts !== bPts
+      ? (aPts > bPts ? a.roster_id : b.roster_id)
+      : null;
+
+    games.push({
+      matchup_id: a.matchup_id ?? b.matchup_id ?? matchupKey,
+      phase: week >= playoffWeekStart ? "postseason" : "regular",
+      is_completed: Boolean(isCompleted),
+      team_1: a,
+      team_2: b,
+      winner_roster_id: winnerRosterId,
+      winner_team: winnerRosterId ? (winnerRosterId === a.roster_id ? a.team_name : b.team_name) : null,
+      margin: isCompleted && pointsAreNumeric ? Math.round(Math.abs(aPts - bPts) * 100) / 100 : null,
+      tie: isCompleted && pointsAreNumeric ? aPts === bPts : false
+    });
+  }
+
+  return {
+    week,
+    phase: week >= playoffWeekStart ? "postseason" : "regular",
+    is_completed: Boolean(isCompleted),
+    teams,
+    games
+  };
+}
+
+function normalizeBracket(rows, rosterById, userById) {
+  return (Array.isArray(rows) ? rows : []).map(row => ({
+    round: row.r ?? null,
+    match_id: row.m ?? null,
+    team_1_roster_id: typeof row.t1 === "number" ? row.t1 : null,
+    team_1: typeof row.t1 === "number" ? teamName(row.t1, rosterById, userById) : null,
+    team_2_roster_id: typeof row.t2 === "number" ? row.t2 : null,
+    team_2: typeof row.t2 === "number" ? teamName(row.t2, rosterById, userById) : null,
+    team_1_from: row.t1_from ?? (row.t1 && typeof row.t1 === "object" ? row.t1 : null),
+    team_2_from: row.t2_from ?? (row.t2 && typeof row.t2 === "object" ? row.t2 : null),
+    winner_roster_id: row.w ?? null,
+    winner_team: row.w ? teamName(row.w, rosterById, userById) : null,
+    loser_roster_id: row.l ?? null,
+    loser_team: row.l ? teamName(row.l, rosterById, userById) : null,
+    placement: row.p ?? null
+  }));
+}
+
+async function rebuildGameHistory(githubToken) {
+  const chainNewestFirst = await discoverLeagueChain(CURRENT_LEAGUE_ID);
+  const chain = [...chainNewestFirst].reverse();
+  const results = [];
+  const players = await getPlayers();
+
+  for (const entry of chain) {
+    const leagueId = String(entry.league_id);
+    const [league, users, rosters] = await Promise.all([
+      getJSON(`${SLEEPER}/league/${leagueId}`),
+      getJSON(`${SLEEPER}/league/${leagueId}/users`),
+      getJSON(`${SLEEPER}/league/${leagueId}/rosters`)
+    ]);
+    const userById = Object.fromEntries(users.map(u => [u.user_id, u]));
+    const rosterById = Object.fromEntries(rosters.map(r => [String(r.roster_id), r]));
+    const data = await fetchSeasonGameData(leagueId, league, rosterById, userById, players);
+    const season = String(league.season);
+    const generatedAt = new Date().toISOString();
+
+    await upsertGitHubJSON(
+      `history/${season}/matchups.json`,
+      {
+        generated_at: generatedAt,
+        season,
+        league_id: leagueId,
+        playoff_week_start: Number(league.settings?.playoff_week_start || 15),
+        weeks: data.weeks
+      },
+      `Rebuild Sleeper ${season} matchup history`,
+      githubToken
+    );
+    await upsertGitHubJSON(
+      `history/${season}/playoffs.json`,
+      {
+        generated_at: generatedAt,
+        season,
+        league_id: leagueId,
+        playoff_week_start: Number(league.settings?.playoff_week_start || 15),
+        winners_bracket: data.winners_bracket,
+        losers_bracket: data.losers_bracket
+      },
+      `Rebuild Sleeper ${season} playoff brackets`,
+      githubToken
+    );
+
+    results.push({
+      season,
+      league_id: leagueId,
+      matchup_weeks: data.weeks.filter(w => w.games.length > 0).length,
+      games: data.weeks.reduce((n, w) => n + w.games.length, 0),
+      winners_bracket_matches: data.winners_bracket.length,
+      losers_bracket_matches: data.losers_bracket.length
+    });
+  }
+
+  const unified = await rebuildStoredGameHistory(githubToken);
+  return { seasons: results, ...unified };
+}
+
+async function rebuildStoredGameHistory(githubToken) {
+  const chainNewestFirst = await discoverLeagueChain(CURRENT_LEAGUE_ID);
+  const chain = [...chainNewestFirst].reverse();
+  const allGames = [];
+  const playoffSeasons = [];
+  const seasonSummary = [];
+
+  for (const entry of chain) {
+    const season = String(entry.season);
+    const [matchupsDoc, playoffsDoc] = await Promise.all([
+      getGitHubJSON(`history/${season}/matchups.json`, githubToken),
+      getGitHubJSON(`history/${season}/playoffs.json`, githubToken)
+    ]);
+    if (!matchupsDoc) continue;
+
+    let count = 0;
+    for (const week of (matchupsDoc.weeks || [])) {
+      for (const game of (week.games || [])) {
+        allGames.push({
+          season,
+          league_id: String(entry.league_id),
+          week: Number(week.week),
+          phase: game.phase || week.phase || "regular",
+          ...game
+        });
+        count += 1;
+      }
+    }
+    seasonSummary.push({ season, league_id: String(entry.league_id), game_count: count });
+    playoffSeasons.push({
+      season,
+      league_id: String(entry.league_id),
+      playoff_week_start: playoffsDoc?.playoff_week_start ?? null,
+      winners_bracket: playoffsDoc?.winners_bracket || [],
+      losers_bracket: playoffsDoc?.losers_bracket || []
+    });
+  }
+
+  allGames.sort((a, b) => Number(a.season) - Number(b.season) || a.week - b.week || Number(a.matchup_id || 0) - Number(b.matchup_id || 0));
+  const headToHead = buildHeadToHead(allGames);
+  const generatedAt = new Date().toISOString();
+
+  await upsertGitHubJSON(
+    "game-history.json",
+    { generated_at: generatedAt, seasons: seasonSummary, game_count: allGames.length, games: allGames, head_to_head: headToHead },
+    "Update unified Sleeper game history",
+    githubToken
+  );
+  await upsertGitHubJSON(
+    "playoff-history.json",
+    { generated_at: generatedAt, seasons: playoffSeasons },
+    "Update Sleeper playoff history",
+    githubToken
+  );
+
+  return {
+    game_history_file: "game-history.json",
+    playoff_history_file: "playoff-history.json",
+    seasons_included: seasonSummary.map(s => s.season),
+    game_count: allGames.length,
+    head_to_head_pairs: headToHead.length
+  };
+}
+
+function buildHeadToHead(games) {
+  const map = new Map();
+  for (const game of games) {
+    if (!game.is_completed) continue;
+    const a = game.team_1;
+    const b = game.team_2;
+    if (!a || !b) continue;
+    const ids = [Number(a.roster_id), Number(b.roster_id)].sort((x, y) => x - y);
+    const key = ids.join("-");
+    if (!map.has(key)) {
+      map.set(key, {
+        roster_id_1: ids[0],
+        roster_id_2: ids[1],
+        team_1: Number(a.roster_id) === ids[0] ? a.team_name : b.team_name,
+        team_2: Number(a.roster_id) === ids[1] ? a.team_name : b.team_name,
+        games: 0,
+        wins_1: 0,
+        wins_2: 0,
+        ties: 0,
+        points_1: 0,
+        points_2: 0,
+        meetings: []
+      });
+    }
+    const h = map.get(key);
+    const first = Number(a.roster_id) === ids[0] ? a : b;
+    const second = Number(a.roster_id) === ids[0] ? b : a;
+    const p1 = Number(first.points);
+    const p2 = Number(second.points);
+    if (!Number.isFinite(p1) || !Number.isFinite(p2)) continue;
+    h.games += 1;
+    h.points_1 += p1;
+    h.points_2 += p2;
+    if (p1 > p2) h.wins_1 += 1;
+    else if (p2 > p1) h.wins_2 += 1;
+    else h.ties += 1;
+    h.meetings.push({ season: game.season, week: game.week, phase: game.phase, points_1: p1, points_2: p2, winner_roster_id: game.winner_roster_id });
+  }
+  return [...map.values()].map(h => ({
+    ...h,
+    points_1: Math.round(h.points_1 * 100) / 100,
+    points_2: Math.round(h.points_2 * 100) / 100
+  })).sort((a, b) => b.games - a.games || a.roster_id_1 - b.roster_id_1 || a.roster_id_2 - b.roster_id_2);
 }
 
 
