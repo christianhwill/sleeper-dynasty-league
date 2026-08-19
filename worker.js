@@ -3,7 +3,8 @@ const SLEEPER = "https://api.sleeper.app/v1";
 const GITHUB_OWNER = "christianhwill";
 const GITHUB_REPO = "sleeper-dynasty-league";
 const GITHUB_BRANCH = "main";
-const BRIDGE_VERSION = "3.6-game-history-batched";
+const BRIDGE_VERSION = "3.7-large-file-finalize";
+const MAX_GITHUB_JSON_BYTES = 50 * 1024 * 1024;
 
 export default {
   async fetch(request, env) {
@@ -1832,7 +1833,10 @@ async function getJSON(url) {
 async function getGitHubJSON(path, token) {
   const apiUrl = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${encodePath(path)}`;
   const response = await fetch(`${apiUrl}?ref=${encodeURIComponent(GITHUB_BRANCH)}`, {
-    headers: githubHeaders(token)
+    headers: {
+      ...githubHeaders(token),
+      "Accept": "application/vnd.github.raw+json"
+    }
   });
 
   if (response.status === 404) return null;
@@ -1841,10 +1845,54 @@ async function getGitHubJSON(path, token) {
     throw new Error(`GitHub read failed for ${path}: ${response.status} ${text}`);
   }
 
-  const data = await response.json();
-  if (!data.content) return null;
-  const text = base64ToUtf8(String(data.content).replace(/\s/g, ""));
-  return JSON.parse(text);
+  const text = await readResponseTextWithLimit(
+    response,
+    MAX_GITHUB_JSON_BYTES,
+    `GitHub file ${path}`
+  );
+  if (!text.trim()) return null;
+
+  try {
+    return JSON.parse(text);
+  } catch (error) {
+    throw new Error(`GitHub JSON parse failed for ${path}: ${error.message}`);
+  }
+}
+
+async function readResponseTextWithLimit(response, maxBytes, label) {
+  const declaredLength = Number(response.headers.get("Content-Length") || 0);
+  if (Number.isFinite(declaredLength) && declaredLength > maxBytes) {
+    throw new Error(`${label} exceeds the ${maxBytes}-byte safety limit.`);
+  }
+
+  if (!response.body) {
+    const text = await response.text();
+    const byteLength = new TextEncoder().encode(text).byteLength;
+    if (byteLength > maxBytes) {
+      throw new Error(`${label} exceeds the ${maxBytes}-byte safety limit.`);
+    }
+    return text;
+  }
+
+  const reader = response.body.getReader();
+  const decoder = new TextDecoder();
+  const chunks = [];
+  let totalBytes = 0;
+
+  while (true) {
+    const { done, value } = await reader.read();
+    if (done) break;
+
+    totalBytes += value.byteLength;
+    if (totalBytes > maxBytes) {
+      try { await reader.cancel(); } catch {}
+      throw new Error(`${label} exceeds the ${maxBytes}-byte safety limit.`);
+    }
+    chunks.push(decoder.decode(value, { stream: true }));
+  }
+
+  chunks.push(decoder.decode());
+  return chunks.join("");
 }
 
 
@@ -2019,3 +2067,4 @@ function json(data, status = 200) {
     }
   });
 }
+
