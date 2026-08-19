@@ -1,0 +1,199 @@
+{
+  "generated_at": "2026-08-19T21:09:17.632Z",
+  "season": "2026",
+  "league_id": "1327788752298336256",
+  "playoff_week_start": 15,
+  "winners_bracket": [
+    {
+      "round": 1,
+      "match_id": 1,
+      "team_1_roster_id": 6,
+      "team_1": "McCaffrican Americans",
+      "team_2_roster_id": 2,
+      "team_2": "Cam dog",
+      "team_1_from": null,
+      "team_2_from": null,
+      "winner_roster_id": null,
+      "winner_team": null,
+      "loser_roster_id": null,
+      "loser_team": null,
+      "placement": null
+    },
+    {
+      "round": 1,
+      "match_id": 2,
+      "team_1_roster_id": 8,
+      "team_1": "PurpleRhane",
+      "team_2_roster_id": 9,
+      "team_2": "The Crusty CreamPies",
+      "team_1_from": null,
+      "team_2_from": null,
+      "winner_roster_id": null,
+      "winner_team": null,
+      "loser_roster_id": null,
+      "loser_team": null,
+      "placement": null
+    },
+    {
+      "round": 2,
+      "match_id": 3,
+      "team_1_roster_id": 7,
+      "team_1": "I Chase Brown People",
+      "team_2_roster_id": null,
+      "team_2": null,
+      "team_1_from": null,
+      "team_2_from": {
+        "w": 1
+      },
+      "winner_roster_id": null,
+      "winner_team": null,
+      "loser_roster_id": null,
+      "loser_team": null,
+      "placement": null
+    },
+    {
+      "round": 2,
+      "match_id": 4,
+      "team_1_roster_id": 4,
+      "team_1": "Raw Dawgs",
+      "team_2_roster_id": null,
+      "team_2": null,
+      "team_1_from": null,
+      "team_2_from": {
+        "w": 2
+      },
+      "winner_roster_id": null,
+      "winner_team": null,
+      "loser_roster_id": null,
+      "loser_team": null,
+      "placement": null
+    },
+    {
+      "round": 2,
+      "match_id": 5,
+      "team_1_roster_id": null,
+      "team_1": null,
+      "team_2_roster_id": null,
+      "team_2": null,
+      "team_1_from": {
+        "l": 1
+      },
+      "team_2_from": {
+        "l": 2
+      },
+      "winner_roster_id": null,
+      "winner_team": null,
+      "loser_roster_id": null,
+      "loser_team": null,
+      "placement": 5
+    },
+    {
+      "round": 3,
+      "match_id": 6,
+      "team_1_roster_id": null,
+      "team_1": null,
+      "team_2_roster_id": null,
+      "team_2": null,
+      "team_1_from": {
+        "w": 3
+      },
+      "team_2_from": {
+        "w": 4
+      },
+      "winner_roster_id": null,
+      "winner_team": null,
+      "loser_roster_id": null,
+      "loser_team": null,
+      "placement": 1
+    },
+    {
+      "round": 3,
+      "match_id": 7,
+      "team_1_roster_id": null,
+      "team_1": null,
+      "team_2_roster_id": null,
+      "team_2": null,
+      "team_1_from": {
+        "l": 3
+      },
+      "team_2_from": {
+        "l": 4
+      },
+      "winner_roster_id": null,
+      "winner_team": null,
+      "loser_roster_id": null,
+      "loser_team": null,
+      "placement": 3
+    }
+  ],
+  "losers_bracket": [
+    {
+      "round": 1,
+      "match_id": 1,
+      "team_1_roster_id": 3,
+      "team_1": "Third Down Syndrome",
+      "team_2_roster_id": 10,
+      "team_2": "Sugerdaddy",
+      "team_1_from": null,
+      "team_2_from": null,
+      "winner_roster_id": null,
+      "winner_team": null,
+      "loser_roster_id": null,
+      "loser_team": null,
+      "placement": null
+    },
+    {
+      "round": 1,
+      "match_id": 2,
+      "team_1_roster_id": 5,
+      "team_1": "BING BONG",
+      "team_2_roster_id": 1,
+      "team_2": "Young N Hip",
+      "team_1_from": null,
+      "team_2_from": null,
+      "winner_roster_id": null,
+      "winner_team": null,
+      "loser_roster_id": null,
+      "loser_team": null,
+      "placement": null
+    },
+    {
+      "round": 2,
+      "match_id": 3,
+      "team_1_roster_id": null,
+      "team_1": null,
+      "team_2_roster_id": null,
+      "team_2": null,
+      "team_1_from": {
+        "w": 1
+      },
+      "team_2_from": {
+        "w": 2
+      },
+      "winner_roster_id": null,
+      "winner_team": null,
+      "loser_roster_id": null,
+      "loser_team": null,
+      "placement": 1
+    },
+    {
+      "round": 2,
+      "match_id": 4,
+      "team_1_roster_id": null,
+      "team_1": null,
+      "team_2_roster_id": null,
+      "team_2": null,
+      "team_1_from": {
+        "l": 1
+      },
+      "team_2_from": {
+        "l": 2
+      },
+      "winner_roster_id": null,
+      "winner_team": null,
+      "loser_roster_id": null,
+      "loser_team": null,
+      "placement": 3
+    }
+  ]
+}
