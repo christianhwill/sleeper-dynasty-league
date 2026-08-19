@@ -1,0 +1,1687 @@
+{
+  "generated_at": "2026-08-19T19:33:10.179Z",
+  "league": {
+    "league_id": "1327788752298336256",
+    "name": "Oiled Without Consent",
+    "season": "2026",
+    "status": "in_season"
+  },
+  "ranking_type": "baseline_internal",
+  "external_player_values_included": false,
+  "methodology": {
+    "purpose": "Objective baseline franchise power ranking before external dynasty market values are added.",
+    "composite_weights": {
+      "competitive_score": 0.7,
+      "future_draft_capital_score": 0.3
+    },
+    "competitive_score": "Uses up to the three most recent seasons with games played. Within each season, 60% win-percentage percentile and 40% points-per-game percentile; most recent played seasons receive weights 3, 2, and 1.",
+    "future_draft_capital_score": "Current future picks are valued by round (1st=3.0, 2nd=1.5, 3rd=0.75) and discounted by draft year (next draft=1.0, following=0.85, third=0.70), then converted to a league percentile.",
+    "roster_profile": "Age, experience, and positional counts are descriptive only and are not included in the baseline score.",
+    "limitation": "Individual player quality and external dynasty market values are not yet included. The external player-value integration is intended to add a true roster-value component in the next phase.",
+    "movement": "rank_change compares with the previously generated power-rankings.json when one exists; positive means the team moved up."
+  },
+  "performance_seasons_used": [
+    {
+      "season": "2024",
+      "weight": 2
+    },
+    {
+      "season": "2025",
+      "weight": 3
+    }
+  ],
+  "team_count": 10,
+  "rankings": [
+    {
+      "owner_id": "1131294900231815168",
+      "roster_id": 7,
+      "username": null,
+      "display_name": "CalJansen",
+      "team_name": "I Chase Brown People",
+      "recent_performance": [
+        {
+          "season": "2026",
+          "wins": 0,
+          "losses": 0,
+          "ties": 0,
+          "games": 0,
+          "win_pct": 0,
+          "points_for": 0,
+          "points_per_game": 0,
+          "performance_score": null,
+          "recency_weight": 0,
+          "included_in_competitive_score": false
+        },
+        {
+          "season": "2025",
+          "wins": 13,
+          "losses": 1,
+          "ties": 0,
+          "games": 14,
+          "win_pct": 0.929,
+          "points_for": 2233.3,
+          "points_per_game": 159.52,
+          "performance_score": 100,
+          "recency_weight": 3,
+          "included_in_competitive_score": true
+        },
+        {
+          "season": "2024",
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "games": 14,
+          "win_pct": 0.357,
+          "points_for": 1688.62,
+          "points_per_game": 120.62,
+          "performance_score": 10,
+          "recency_weight": 2,
+          "included_in_competitive_score": true
+        }
+      ],
+      "current_record": {
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "points_for": 0,
+        "points_against": 0
+      },
+      "draft_capital": {
+        "total_future_picks": 11,
+        "first_round_picks": 5,
+        "second_round_picks": 4,
+        "third_round_picks": 2,
+        "by_season": {
+          "2027": {
+            "total": 6,
+            "round_1": 3,
+            "round_2": 3,
+            "round_3": 0,
+            "other_rounds": 0,
+            "picks": [
+              {
+                "round": 1,
+                "original_roster_id": 2,
+                "original_team": "Cam dog",
+                "has_been_traded": true
+              },
+              {
+                "round": 2,
+                "original_roster_id": 2,
+                "original_team": "Cam dog",
+                "has_been_traded": true
+              },
+              {
+                "round": 2,
+                "original_roster_id": 3,
+                "original_team": "Third Down Syndrome",
+                "has_been_traded": true
+              },
+              {
+                "round": 1,
+                "original_roster_id": 6,
+                "original_team": "McCaffrican Americans",
+                "has_been_traded": true
+              },
+              {
+                "round": 2,
+                "original_roster_id": 6,
+                "original_team": "McCaffrican Americans",
+                "has_been_traded": true
+              },
+              {
+                "round": 1,
+                "original_roster_id": 7,
+                "original_team": "I Chase Brown People",
+                "has_been_traded": true
+              }
+            ]
+          },
+          "2028": {
+            "total": 2,
+            "round_1": 1,
+            "round_2": 0,
+            "round_3": 1,
+            "other_rounds": 0,
+            "picks": [
+              {
+                "round": 1,
+                "original_roster_id": 7,
+                "original_team": "I Chase Brown People",
+                "has_been_traded": false
+              },
+              {
+                "round": 3,
+                "original_roster_id": 7,
+                "original_team": "I Chase Brown People",
+                "has_been_traded": false
+              }
+            ]
+          },
+          "2029": {
+            "total": 3,
+            "round_1": 1,
+            "round_2": 1,
+            "round_3": 1,
+            "other_rounds": 0,
+            "picks": [
+              {
+                "round": 1,
+                "original_roster_id": 7,
+                "original_team": "I Chase Brown People",
+                "has_been_traded": false
+              },
+              {
+                "round": 2,
+                "original_roster_id": 7,
+                "original_team": "I Chase Brown People",
+                "has_been_traded": false
+              },
+              {
+                "round": 3,
+                "original_roster_id": 7,
+                "original_team": "I Chase Brown People",
+                "has_been_traded": false
+              }
+            ]
+          }
+        }
+      },
+      "roster_profile": {
+        "total_players": 23,
+        "fantasy_players": 23,
+        "average_age": 25.26,
+        "average_years_experience": 3.26,
+        "players_with_2_or_fewer_years_experience": 10,
+        "position_counts": {
+          "QB": 3,
+          "RB": 7,
+          "WR": 6,
+          "TE": 7
+        },
+        "starter_count": 9,
+        "taxi_count": 3,
+        "reserve_count": 0
+      },
+      "competitive_score": 77.78,
+      "draft_capital_score": 100,
+      "baseline_power_score": 84.45,
+      "rank": 1,
+      "previous_rank": null,
+      "rank_change": null
+    },
+    {
+      "owner_id": "1129897778072649728",
+      "roster_id": 4,
+      "username": null,
+      "display_name": "jfrelich",
+      "team_name": "Raw Dawgs",
+      "recent_performance": [
+        {
+          "season": "2026",
+          "wins": 0,
+          "losses": 0,
+          "ties": 0,
+          "games": 0,
+          "win_pct": 0,
+          "points_for": 0,
+          "points_per_game": 0,
+          "performance_score": null,
+          "recency_weight": 0,
+          "included_in_competitive_score": false
+        },
+        {
+          "season": "2025",
+          "wins": 12,
+          "losses": 2,
+          "ties": 0,
+          "games": 14,
+          "win_pct": 0.857,
+          "points_for": 2140.48,
+          "points_per_game": 152.89,
+          "performance_score": 86.98,
+          "recency_weight": 3,
+          "included_in_competitive_score": true
+        },
+        {
+          "season": "2024",
+          "wins": 11,
+          "losses": 3,
+          "ties": 0,
+          "games": 14,
+          "win_pct": 0.786,
+          "points_for": 1993.58,
+          "points_per_game": 142.4,
+          "performance_score": 100,
+          "recency_weight": 2,
+          "included_in_competitive_score": true
+        }
+      ],
+      "current_record": {
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "points_for": 0,
+        "points_against": 0
+      },
+      "draft_capital": {
+        "total_future_picks": 8,
+        "first_round_picks": 3,
+        "second_round_picks": 2,
+        "third_round_picks": 3,
+        "by_season": {
+          "2027": {
+            "total": 2,
+            "round_1": 1,
+            "round_2": 0,
+            "round_3": 1,
+            "other_rounds": 0,
+            "picks": [
+              {
+                "round": 1,
+                "original_roster_id": 3,
+                "original_team": "Third Down Syndrome",
+                "has_been_traded": true
+              },
+              {
+                "round": 3,
+                "original_roster_id": 4,
+                "original_team": "Raw Dawgs",
+                "has_been_traded": true
+              }
+            ]
+          },
+          "2028": {
+            "total": 3,
+            "round_1": 1,
+            "round_2": 1,
+            "round_3": 1,
+            "other_rounds": 0,
+            "picks": [
+              {
+                "round": 1,
+                "original_roster_id": 4,
+                "original_team": "Raw Dawgs",
+                "has_been_traded": false
+              },
+              {
+                "round": 2,
+                "original_roster_id": 4,
+                "original_team": "Raw Dawgs",
+                "has_been_traded": true
+              },
+              {
+                "round": 3,
+                "original_roster_id": 4,
+                "original_team": "Raw Dawgs",
+                "has_been_traded": false
+              }
+            ]
+          },
+          "2029": {
+            "total": 3,
+            "round_1": 1,
+            "round_2": 1,
+            "round_3": 1,
+            "other_rounds": 0,
+            "picks": [
+              {
+                "round": 1,
+                "original_roster_id": 4,
+                "original_team": "Raw Dawgs",
+                "has_been_traded": false
+              },
+              {
+                "round": 2,
+                "original_roster_id": 4,
+                "original_team": "Raw Dawgs",
+                "has_been_traded": false
+              },
+              {
+                "round": 3,
+                "original_roster_id": 4,
+                "original_team": "Raw Dawgs",
+                "has_been_traded": false
+              }
+            ]
+          }
+        }
+      },
+      "roster_profile": {
+        "total_players": 22,
+        "fantasy_players": 22,
+        "average_age": 26.27,
+        "average_years_experience": 4.5,
+        "players_with_2_or_fewer_years_experience": 6,
+        "position_counts": {
+          "WR": 10,
+          "RB": 6,
+          "TE": 2,
+          "QB": 4
+        },
+        "starter_count": 9,
+        "taxi_count": 2,
+        "reserve_count": 1
+      },
+      "competitive_score": 100,
+      "draft_capital_score": 44.44,
+      "baseline_power_score": 83.33,
+      "rank": 2,
+      "previous_rank": null,
+      "rank_change": null
+    },
+    {
+      "owner_id": "937819151345799168",
+      "roster_id": 10,
+      "username": null,
+      "display_name": "gsugerman",
+      "team_name": "Sugerdaddy",
+      "recent_performance": [
+        {
+          "season": "2026",
+          "wins": 0,
+          "losses": 0,
+          "ties": 0,
+          "games": 0,
+          "win_pct": 0,
+          "points_for": 0,
+          "points_per_game": 0,
+          "performance_score": null,
+          "recency_weight": 0,
+          "included_in_competitive_score": false
+        },
+        {
+          "season": "2025",
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "games": 14,
+          "win_pct": 0.714,
+          "points_for": 2121.5,
+          "points_per_game": 151.54,
+          "performance_score": 73.97,
+          "recency_weight": 3,
+          "included_in_competitive_score": true
+        },
+        {
+          "season": "2024",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "games": 14,
+          "win_pct": 0.429,
+          "points_for": 1931.06,
+          "points_per_game": 137.93,
+          "performance_score": 51.11,
+          "recency_weight": 2,
+          "included_in_competitive_score": true
+        }
+      ],
+      "current_record": {
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "points_for": 0,
+        "points_against": 0
+      },
+      "draft_capital": {
+        "total_future_picks": 10,
+        "first_round_picks": 3,
+        "second_round_picks": 5,
+        "third_round_picks": 2,
+        "by_season": {
+          "2027": {
+            "total": 4,
+            "round_1": 1,
+            "round_2": 2,
+            "round_3": 1,
+            "other_rounds": 0,
+            "picks": [
+              {
+                "round": 2,
+                "original_roster_id": 4,
+                "original_team": "Raw Dawgs",
+                "has_been_traded": true
+              },
+              {
+                "round": 1,
+                "original_roster_id": 10,
+                "original_team": "Sugerdaddy",
+                "has_been_traded": false
+              },
+              {
+                "round": 2,
+                "original_roster_id": 10,
+                "original_team": "Sugerdaddy",
+                "has_been_traded": false
+              },
+              {
+                "round": 3,
+                "original_roster_id": 10,
+                "original_team": "Sugerdaddy",
+                "has_been_traded": true
+              }
+            ]
+          },
+          "2028": {
+            "total": 3,
+            "round_1": 1,
+            "round_2": 2,
+            "round_3": 0,
+            "other_rounds": 0,
+            "picks": [
+              {
+                "round": 2,
+                "original_roster_id": 2,
+                "original_team": "Cam dog",
+                "has_been_traded": true
+              },
+              {
+                "round": 1,
+                "original_roster_id": 10,
+                "original_team": "Sugerdaddy",
+                "has_been_traded": false
+              },
+              {
+                "round": 2,
+                "original_roster_id": 10,
+                "original_team": "Sugerdaddy",
+                "has_been_traded": false
+              }
+            ]
+          },
+          "2029": {
+            "total": 3,
+            "round_1": 1,
+            "round_2": 1,
+            "round_3": 1,
+            "other_rounds": 0,
+            "picks": [
+              {
+                "round": 1,
+                "original_roster_id": 10,
+                "original_team": "Sugerdaddy",
+                "has_been_traded": false
+              },
+              {
+                "round": 2,
+                "original_roster_id": 10,
+                "original_team": "Sugerdaddy",
+                "has_been_traded": false
+              },
+              {
+                "round": 3,
+                "original_roster_id": 10,
+                "original_team": "Sugerdaddy",
+                "has_been_traded": false
+              }
+            ]
+          }
+        }
+      },
+      "roster_profile": {
+        "total_players": 24,
+        "fantasy_players": 24,
+        "average_age": 26.13,
+        "average_years_experience": 3.96,
+        "players_with_2_or_fewer_years_experience": 6,
+        "position_counts": {
+          "RB": 8,
+          "TE": 4,
+          "WR": 9,
+          "QB": 3
+        },
+        "starter_count": 9,
+        "taxi_count": 3,
+        "reserve_count": 1
+      },
+      "competitive_score": 88.89,
+      "draft_capital_score": 66.67,
+      "baseline_power_score": 82.22,
+      "rank": 3,
+      "previous_rank": null,
+      "rank_change": null
+    },
+    {
+      "owner_id": "1129875387229560832",
+      "roster_id": 1,
+      "username": null,
+      "display_name": "christianhw17",
+      "team_name": "Young N Hip",
+      "recent_performance": [
+        {
+          "season": "2026",
+          "wins": 0,
+          "losses": 0,
+          "ties": 0,
+          "games": 0,
+          "win_pct": 0,
+          "points_for": 0,
+          "points_per_game": 0,
+          "performance_score": null,
+          "recency_weight": 0,
+          "included_in_competitive_score": false
+        },
+        {
+          "season": "2025",
+          "wins": 4,
+          "losses": 10,
+          "ties": 0,
+          "games": 14,
+          "win_pct": 0.286,
+          "points_for": 1607.9,
+          "points_per_game": 114.85,
+          "performance_score": 26.03,
+          "recency_weight": 3,
+          "included_in_competitive_score": true
+        },
+        {
+          "season": "2024",
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "games": 14,
+          "win_pct": 0.714,
+          "points_for": 1939.86,
+          "points_per_game": 138.56,
+          "performance_score": 85.56,
+          "recency_weight": 2,
+          "included_in_competitive_score": true
+        }
+      ],
+      "current_record": {
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "points_for": 0,
+        "points_against": 0
+      },
+      "draft_capital": {
+        "total_future_picks": 13,
+        "first_round_picks": 3,
+        "second_round_picks": 6,
+        "third_round_picks": 4,
+        "by_season": {
+          "2027": {
+            "total": 4,
+            "round_1": 1,
+            "round_2": 2,
+            "round_3": 1,
+            "other_rounds": 0,
+            "picks": [
+              {
+                "round": 1,
+                "original_roster_id": 1,
+                "original_team": "Young N Hip",
+                "has_been_traded": false
+              },
+              {
+                "round": 2,
+                "original_roster_id": 1,
+                "original_team": "Young N Hip",
+                "has_been_traded": false
+              },
+              {
+                "round": 3,
+                "original_roster_id": 1,
+                "original_team": "Young N Hip",
+                "has_been_traded": false
+              },
+              {
+                "round": 2,
+                "original_roster_id": 7,
+                "original_team": "I Chase Brown People",
+                "has_been_traded": true
+              }
+            ]
+          },
+          "2028": {
+            "total": 5,
+            "round_1": 1,
+            "round_2": 2,
+            "round_3": 2,
+            "other_rounds": 0,
+            "picks": [
+              {
+                "round": 1,
+                "original_roster_id": 1,
+                "original_team": "Young N Hip",
+                "has_been_traded": false
+              },
+              {
+                "round": 2,
+                "original_roster_id": 1,
+                "original_team": "Young N Hip",
+                "has_been_traded": false
+              },
+              {
+                "round": 3,
+                "original_roster_id": 1,
+                "original_team": "Young N Hip",
+                "has_been_traded": false
+              },
+              {
+                "round": 2,
+                "original_roster_id": 7,
+                "original_team": "I Chase Brown People",
+                "has_been_traded": true
+              },
+              {
+                "round": 3,
+                "original_roster_id": 10,
+                "original_team": "Sugerdaddy",
+                "has_been_traded": true
+              }
+            ]
+          },
+          "2029": {
+            "total": 4,
+            "round_1": 1,
+            "round_2": 2,
+            "round_3": 1,
+            "other_rounds": 0,
+            "picks": [
+              {
+                "round": 1,
+                "original_roster_id": 1,
+                "original_team": "Young N Hip",
+                "has_been_traded": false
+              },
+              {
+                "round": 2,
+                "original_roster_id": 1,
+                "original_team": "Young N Hip",
+                "has_been_traded": false
+              },
+              {
+                "round": 3,
+                "original_roster_id": 1,
+                "original_team": "Young N Hip",
+                "has_been_traded": false
+              },
+              {
+                "round": 2,
+                "original_roster_id": 2,
+                "original_team": "Cam dog",
+                "has_been_traded": true
+              }
+            ]
+          }
+        }
+      },
+      "roster_profile": {
+        "total_players": 23,
+        "fantasy_players": 23,
+        "average_age": 24.13,
+        "average_years_experience": 2.13,
+        "players_with_2_or_fewer_years_experience": 14,
+        "position_counts": {
+          "QB": 5,
+          "RB": 8,
+          "TE": 2,
+          "WR": 8
+        },
+        "starter_count": 9,
+        "taxi_count": 3,
+        "reserve_count": 0
+      },
+      "competitive_score": 44.44,
+      "draft_capital_score": 88.89,
+      "baseline_power_score": 57.77,
+      "rank": 4,
+      "previous_rank": null,
+      "rank_change": null
+    },
+    {
+      "owner_id": "859906411432366080",
+      "roster_id": 9,
+      "username": null,
+      "display_name": "kuntlicker5",
+      "team_name": "The Crusty CreamPies",
+      "recent_performance": [
+        {
+          "season": "2026",
+          "wins": 0,
+          "losses": 0,
+          "ties": 0,
+          "games": 0,
+          "win_pct": 0,
+          "points_for": 0,
+          "points_per_game": 0,
+          "performance_score": null,
+          "recency_weight": 0,
+          "included_in_competitive_score": false
+        },
+        {
+          "season": "2025",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "games": 14,
+          "win_pct": 0.5,
+          "points_for": 1864.04,
+          "points_per_game": 133.15,
+          "performance_score": 60.95,
+          "recency_weight": 3,
+          "included_in_competitive_score": true
+        },
+        {
+          "season": "2024",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "games": 14,
+          "win_pct": 0.571,
+          "points_for": 1802.96,
+          "points_per_game": 128.78,
+          "performance_score": 48.89,
+          "recency_weight": 2,
+          "included_in_competitive_score": true
+        }
+      ],
+      "current_record": {
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "points_for": 0,
+        "points_against": 0
+      },
+      "draft_capital": {
+        "total_future_picks": 9,
+        "first_round_picks": 2,
+        "second_round_picks": 3,
+        "third_round_picks": 4,
+        "by_season": {
+          "2027": {
+            "total": 3,
+            "round_1": 0,
+            "round_2": 1,
+            "round_3": 2,
+            "other_rounds": 0,
+            "picks": [
+              {
+                "round": 3,
+                "original_roster_id": 7,
+                "original_team": "I Chase Brown People",
+                "has_been_traded": true
+              },
+              {
+                "round": 2,
+                "original_roster_id": 9,
+                "original_team": "The Crusty CreamPies",
+                "has_been_traded": false
+              },
+              {
+                "round": 3,
+                "original_roster_id": 9,
+                "original_team": "The Crusty CreamPies",
+                "has_been_traded": false
+              }
+            ]
+          },
+          "2028": {
+            "total": 3,
+            "round_1": 1,
+            "round_2": 1,
+            "round_3": 1,
+            "other_rounds": 0,
+            "picks": [
+              {
+                "round": 1,
+                "original_roster_id": 9,
+                "original_team": "The Crusty CreamPies",
+                "has_been_traded": false
+              },
+              {
+                "round": 2,
+                "original_roster_id": 9,
+                "original_team": "The Crusty CreamPies",
+                "has_been_traded": false
+              },
+              {
+                "round": 3,
+                "original_roster_id": 9,
+                "original_team": "The Crusty CreamPies",
+                "has_been_traded": false
+              }
+            ]
+          },
+          "2029": {
+            "total": 3,
+            "round_1": 1,
+            "round_2": 1,
+            "round_3": 1,
+            "other_rounds": 0,
+            "picks": [
+              {
+                "round": 1,
+                "original_roster_id": 9,
+                "original_team": "The Crusty CreamPies",
+                "has_been_traded": false
+              },
+              {
+                "round": 2,
+                "original_roster_id": 9,
+                "original_team": "The Crusty CreamPies",
+                "has_been_traded": false
+              },
+              {
+                "round": 3,
+                "original_roster_id": 9,
+                "original_team": "The Crusty CreamPies",
+                "has_been_traded": false
+              }
+            ]
+          }
+        }
+      },
+      "roster_profile": {
+        "total_players": 27,
+        "fantasy_players": 27,
+        "average_age": 26.15,
+        "average_years_experience": 4.07,
+        "players_with_2_or_fewer_years_experience": 7,
+        "position_counts": {
+          "TE": 3,
+          "RB": 7,
+          "WR": 12,
+          "QB": 5
+        },
+        "starter_count": 9,
+        "taxi_count": 2,
+        "reserve_count": 1
+      },
+      "competitive_score": 66.67,
+      "draft_capital_score": 33.33,
+      "baseline_power_score": 56.67,
+      "rank": 5,
+      "previous_rank": null,
+      "rank_change": null
+    },
+    {
+      "owner_id": "1008209629677158400",
+      "roster_id": 6,
+      "username": null,
+      "display_name": "Jordansm12",
+      "team_name": "McCaffrican Americans",
+      "recent_performance": [
+        {
+          "season": "2026",
+          "wins": 0,
+          "losses": 0,
+          "ties": 0,
+          "games": 0,
+          "win_pct": 0,
+          "points_for": 0,
+          "points_per_game": 0,
+          "performance_score": null,
+          "recency_weight": 0,
+          "included_in_competitive_score": false
+        },
+        {
+          "season": "2025",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "games": 14,
+          "win_pct": 0.5,
+          "points_for": 1634.26,
+          "points_per_game": 116.73,
+          "performance_score": 47.62,
+          "recency_weight": 3,
+          "included_in_competitive_score": true
+        },
+        {
+          "season": "2024",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "games": 14,
+          "win_pct": 0.5,
+          "points_for": 1867.34,
+          "points_per_game": 133.38,
+          "performance_score": 56.67,
+          "recency_weight": 2,
+          "included_in_competitive_score": true
+        }
+      ],
+      "current_record": {
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "points_for": 0,
+        "points_against": 0
+      },
+      "draft_capital": {
+        "total_future_picks": 6,
+        "first_round_picks": 3,
+        "second_round_picks": 1,
+        "third_round_picks": 2,
+        "by_season": {
+          "2027": {
+            "total": 1,
+            "round_1": 0,
+            "round_2": 0,
+            "round_3": 1,
+            "other_rounds": 0,
+            "picks": [
+              {
+                "round": 3,
+                "original_roster_id": 3,
+                "original_team": "Third Down Syndrome",
+                "has_been_traded": true
+              }
+            ]
+          },
+          "2028": {
+            "total": 2,
+            "round_1": 2,
+            "round_2": 0,
+            "round_3": 0,
+            "other_rounds": 0,
+            "picks": [
+              {
+                "round": 1,
+                "original_roster_id": 2,
+                "original_team": "Cam dog",
+                "has_been_traded": true
+              },
+              {
+                "round": 1,
+                "original_roster_id": 6,
+                "original_team": "McCaffrican Americans",
+                "has_been_traded": false
+              }
+            ]
+          },
+          "2029": {
+            "total": 3,
+            "round_1": 1,
+            "round_2": 1,
+            "round_3": 1,
+            "other_rounds": 0,
+            "picks": [
+              {
+                "round": 1,
+                "original_roster_id": 6,
+                "original_team": "McCaffrican Americans",
+                "has_been_traded": false
+              },
+              {
+                "round": 2,
+                "original_roster_id": 6,
+                "original_team": "McCaffrican Americans",
+                "has_been_traded": false
+              },
+              {
+                "round": 3,
+                "original_roster_id": 6,
+                "original_team": "McCaffrican Americans",
+                "has_been_traded": false
+              }
+            ]
+          }
+        }
+      },
+      "roster_profile": {
+        "total_players": 22,
+        "fantasy_players": 22,
+        "average_age": 26.55,
+        "average_years_experience": 4.5,
+        "players_with_2_or_fewer_years_experience": 8,
+        "position_counts": {
+          "WR": 9,
+          "TE": 3,
+          "RB": 6,
+          "QB": 4
+        },
+        "starter_count": 9,
+        "taxi_count": 1,
+        "reserve_count": 1
+      },
+      "competitive_score": 55.56,
+      "draft_capital_score": 11.11,
+      "baseline_power_score": 42.22,
+      "rank": 6,
+      "previous_rank": null,
+      "rank_change": null
+    },
+    {
+      "owner_id": "1131304330881077248",
+      "roster_id": 8,
+      "username": null,
+      "display_name": "RhaneJones",
+      "team_name": "PurpleRhane",
+      "recent_performance": [
+        {
+          "season": "2026",
+          "wins": 0,
+          "losses": 0,
+          "ties": 0,
+          "games": 0,
+          "win_pct": 0,
+          "points_for": 0,
+          "points_per_game": 0,
+          "performance_score": null,
+          "recency_weight": 0,
+          "included_in_competitive_score": false
+        },
+        {
+          "season": "2025",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "games": 14,
+          "win_pct": 0.429,
+          "points_for": 1674.16,
+          "points_per_game": 119.58,
+          "performance_score": 43.49,
+          "recency_weight": 3,
+          "included_in_competitive_score": true
+        },
+        {
+          "season": "2024",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "games": 14,
+          "win_pct": 0.429,
+          "points_for": 1726.82,
+          "points_per_game": 123.34,
+          "performance_score": 24.44,
+          "recency_weight": 2,
+          "included_in_competitive_score": true
+        }
+      ],
+      "current_record": {
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "points_for": 0,
+        "points_against": 0
+      },
+      "draft_capital": {
+        "total_future_picks": 11,
+        "first_round_picks": 3,
+        "second_round_picks": 3,
+        "third_round_picks": 5,
+        "by_season": {
+          "2027": {
+            "total": 4,
+            "round_1": 1,
+            "round_2": 1,
+            "round_3": 2,
+            "other_rounds": 0,
+            "picks": [
+              {
+                "round": 3,
+                "original_roster_id": 6,
+                "original_team": "McCaffrican Americans",
+                "has_been_traded": true
+              },
+              {
+                "round": 1,
+                "original_roster_id": 8,
+                "original_team": "PurpleRhane",
+                "has_been_traded": false
+              },
+              {
+                "round": 2,
+                "original_roster_id": 8,
+                "original_team": "PurpleRhane",
+                "has_been_traded": false
+              },
+              {
+                "round": 3,
+                "original_roster_id": 8,
+                "original_team": "PurpleRhane",
+                "has_been_traded": false
+              }
+            ]
+          },
+          "2028": {
+            "total": 4,
+            "round_1": 1,
+            "round_2": 1,
+            "round_3": 2,
+            "other_rounds": 0,
+            "picks": [
+              {
+                "round": 3,
+                "original_roster_id": 6,
+                "original_team": "McCaffrican Americans",
+                "has_been_traded": true
+              },
+              {
+                "round": 1,
+                "original_roster_id": 8,
+                "original_team": "PurpleRhane",
+                "has_been_traded": false
+              },
+              {
+                "round": 2,
+                "original_roster_id": 8,
+                "original_team": "PurpleRhane",
+                "has_been_traded": false
+              },
+              {
+                "round": 3,
+                "original_roster_id": 8,
+                "original_team": "PurpleRhane",
+                "has_been_traded": false
+              }
+            ]
+          },
+          "2029": {
+            "total": 3,
+            "round_1": 1,
+            "round_2": 1,
+            "round_3": 1,
+            "other_rounds": 0,
+            "picks": [
+              {
+                "round": 1,
+                "original_roster_id": 8,
+                "original_team": "PurpleRhane",
+                "has_been_traded": false
+              },
+              {
+                "round": 2,
+                "original_roster_id": 8,
+                "original_team": "PurpleRhane",
+                "has_been_traded": false
+              },
+              {
+                "round": 3,
+                "original_roster_id": 8,
+                "original_team": "PurpleRhane",
+                "has_been_traded": false
+              }
+            ]
+          }
+        }
+      },
+      "roster_profile": {
+        "total_players": 23,
+        "fantasy_players": 23,
+        "average_age": 24.78,
+        "average_years_experience": 3,
+        "players_with_2_or_fewer_years_experience": 14,
+        "position_counts": {
+          "QB": 5,
+          "WR": 9,
+          "TE": 3,
+          "RB": 6
+        },
+        "starter_count": 9,
+        "taxi_count": 3,
+        "reserve_count": 1
+      },
+      "competitive_score": 22.22,
+      "draft_capital_score": 55.56,
+      "baseline_power_score": 32.22,
+      "rank": 7,
+      "previous_rank": null,
+      "rank_change": null
+    },
+    {
+      "owner_id": "1129877684336578560",
+      "roster_id": 2,
+      "username": null,
+      "display_name": "cjosiecki",
+      "team_name": "Cam dog",
+      "recent_performance": [
+        {
+          "season": "2026",
+          "wins": 0,
+          "losses": 0,
+          "ties": 0,
+          "games": 0,
+          "win_pct": 0,
+          "points_for": 0,
+          "points_per_game": 0,
+          "performance_score": null,
+          "recency_weight": 0,
+          "included_in_competitive_score": false
+        },
+        {
+          "season": "2025",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "games": 14,
+          "win_pct": 0.429,
+          "points_for": 1790.76,
+          "points_per_game": 127.91,
+          "performance_score": 47.94,
+          "recency_weight": 3,
+          "included_in_competitive_score": true
+        },
+        {
+          "season": "2024",
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "games": 14,
+          "win_pct": 0.357,
+          "points_for": 1806.58,
+          "points_per_game": 129.04,
+          "performance_score": 23.33,
+          "recency_weight": 2,
+          "included_in_competitive_score": true
+        }
+      ],
+      "current_record": {
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "points_for": 0,
+        "points_against": 0
+      },
+      "draft_capital": {
+        "total_future_picks": 4,
+        "first_round_picks": 2,
+        "second_round_picks": 0,
+        "third_round_picks": 2,
+        "by_season": {
+          "2027": {
+            "total": 2,
+            "round_1": 1,
+            "round_2": 0,
+            "round_3": 1,
+            "other_rounds": 0,
+            "picks": [
+              {
+                "round": 3,
+                "original_roster_id": 2,
+                "original_team": "Cam dog",
+                "has_been_traded": false
+              },
+              {
+                "round": 1,
+                "original_roster_id": 5,
+                "original_team": "BING BONG",
+                "has_been_traded": true
+              }
+            ]
+          },
+          "2029": {
+            "total": 2,
+            "round_1": 1,
+            "round_2": 0,
+            "round_3": 1,
+            "other_rounds": 0,
+            "picks": [
+              {
+                "round": 1,
+                "original_roster_id": 2,
+                "original_team": "Cam dog",
+                "has_been_traded": false
+              },
+              {
+                "round": 3,
+                "original_roster_id": 2,
+                "original_team": "Cam dog",
+                "has_been_traded": false
+              }
+            ]
+          }
+        }
+      },
+      "roster_profile": {
+        "total_players": 24,
+        "fantasy_players": 24,
+        "average_age": 24.58,
+        "average_years_experience": 2.46,
+        "players_with_2_or_fewer_years_experience": 17,
+        "position_counts": {
+          "TE": 3,
+          "WR": 11,
+          "RB": 7,
+          "QB": 3
+        },
+        "starter_count": 9,
+        "taxi_count": 3,
+        "reserve_count": 1
+      },
+      "competitive_score": 33.33,
+      "draft_capital_score": 0,
+      "baseline_power_score": 23.33,
+      "rank": 8,
+      "previous_rank": null,
+      "rank_change": null
+    },
+    {
+      "owner_id": "1129881968960901120",
+      "roster_id": 3,
+      "username": null,
+      "display_name": "colemueller1010",
+      "team_name": "Third Down Syndrome",
+      "recent_performance": [
+        {
+          "season": "2026",
+          "wins": 0,
+          "losses": 0,
+          "ties": 0,
+          "games": 0,
+          "win_pct": 0,
+          "points_for": 0,
+          "points_per_game": 0,
+          "performance_score": null,
+          "recency_weight": 0,
+          "included_in_competitive_score": false
+        },
+        {
+          "season": "2025",
+          "wins": 2,
+          "losses": 12,
+          "ties": 0,
+          "games": 14,
+          "win_pct": 0.143,
+          "points_for": 1483.54,
+          "points_per_game": 105.97,
+          "performance_score": 0,
+          "recency_weight": 3,
+          "included_in_competitive_score": true
+        },
+        {
+          "season": "2024",
+          "wins": 4,
+          "losses": 10,
+          "ties": 0,
+          "games": 14,
+          "win_pct": 0.286,
+          "points_for": 1836.54,
+          "points_per_game": 131.18,
+          "performance_score": 22.22,
+          "recency_weight": 2,
+          "included_in_competitive_score": true
+        }
+      ],
+      "current_record": {
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "points_for": 0,
+        "points_against": 0
+      },
+      "draft_capital": {
+        "total_future_picks": 10,
+        "first_round_picks": 4,
+        "second_round_picks": 3,
+        "third_round_picks": 3,
+        "by_season": {
+          "2027": {
+            "total": 3,
+            "round_1": 2,
+            "round_2": 1,
+            "round_3": 0,
+            "other_rounds": 0,
+            "picks": [
+              {
+                "round": 1,
+                "original_roster_id": 4,
+                "original_team": "Raw Dawgs",
+                "has_been_traded": true
+              },
+              {
+                "round": 2,
+                "original_roster_id": 5,
+                "original_team": "BING BONG",
+                "has_been_traded": true
+              },
+              {
+                "round": 1,
+                "original_roster_id": 9,
+                "original_team": "The Crusty CreamPies",
+                "has_been_traded": true
+              }
+            ]
+          },
+          "2028": {
+            "total": 4,
+            "round_1": 1,
+            "round_2": 1,
+            "round_3": 2,
+            "other_rounds": 0,
+            "picks": [
+              {
+                "round": 3,
+                "original_roster_id": 2,
+                "original_team": "Cam dog",
+                "has_been_traded": true
+              },
+              {
+                "round": 1,
+                "original_roster_id": 3,
+                "original_team": "Third Down Syndrome",
+                "has_been_traded": false
+              },
+              {
+                "round": 3,
+                "original_roster_id": 3,
+                "original_team": "Third Down Syndrome",
+                "has_been_traded": false
+              },
+              {
+                "round": 2,
+                "original_roster_id": 6,
+                "original_team": "McCaffrican Americans",
+                "has_been_traded": true
+              }
+            ]
+          },
+          "2029": {
+            "total": 3,
+            "round_1": 1,
+            "round_2": 1,
+            "round_3": 1,
+            "other_rounds": 0,
+            "picks": [
+              {
+                "round": 1,
+                "original_roster_id": 3,
+                "original_team": "Third Down Syndrome",
+                "has_been_traded": false
+              },
+              {
+                "round": 2,
+                "original_roster_id": 3,
+                "original_team": "Third Down Syndrome",
+                "has_been_traded": false
+              },
+              {
+                "round": 3,
+                "original_roster_id": 3,
+                "original_team": "Third Down Syndrome",
+                "has_been_traded": false
+              }
+            ]
+          }
+        }
+      },
+      "roster_profile": {
+        "total_players": 22,
+        "fantasy_players": 22,
+        "average_age": 24.55,
+        "average_years_experience": 2.55,
+        "players_with_2_or_fewer_years_experience": 15,
+        "position_counts": {
+          "WR": 10,
+          "QB": 4,
+          "RB": 5,
+          "TE": 3
+        },
+        "starter_count": 9,
+        "taxi_count": 2,
+        "reserve_count": 0
+      },
+      "competitive_score": 0,
+      "draft_capital_score": 77.78,
+      "baseline_power_score": 23.33,
+      "rank": 9,
+      "previous_rank": null,
+      "rank_change": null
+    },
+    {
+      "owner_id": "1129909167751426048",
+      "roster_id": 5,
+      "username": null,
+      "display_name": "DuggyP",
+      "team_name": "BING BONG",
+      "recent_performance": [
+        {
+          "season": "2026",
+          "wins": 0,
+          "losses": 0,
+          "ties": 0,
+          "games": 0,
+          "win_pct": 0,
+          "points_for": 0,
+          "points_per_game": 0,
+          "performance_score": null,
+          "recency_weight": 0,
+          "included_in_competitive_score": false
+        },
+        {
+          "season": "2025",
+          "wins": 3,
+          "losses": 11,
+          "ties": 0,
+          "games": 14,
+          "win_pct": 0.214,
+          "points_for": 1490.6,
+          "points_per_game": 106.47,
+          "performance_score": 13.02,
+          "recency_weight": 3,
+          "included_in_competitive_score": true
+        },
+        {
+          "season": "2024",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "games": 14,
+          "win_pct": 0.571,
+          "points_for": 1812.74,
+          "points_per_game": 129.48,
+          "performance_score": 57.78,
+          "recency_weight": 2,
+          "included_in_competitive_score": true
+        }
+      ],
+      "current_record": {
+        "wins": 0,
+        "losses": 0,
+        "ties": 0,
+        "points_for": 0,
+        "points_against": 0
+      },
+      "draft_capital": {
+        "total_future_picks": 8,
+        "first_round_picks": 2,
+        "second_round_picks": 3,
+        "third_round_picks": 3,
+        "by_season": {
+          "2027": {
+            "total": 1,
+            "round_1": 0,
+            "round_2": 0,
+            "round_3": 1,
+            "other_rounds": 0,
+            "picks": [
+              {
+                "round": 3,
+                "original_roster_id": 5,
+                "original_team": "BING BONG",
+                "has_been_traded": false
+              }
+            ]
+          },
+          "2028": {
+            "total": 4,
+            "round_1": 1,
+            "round_2": 2,
+            "round_3": 1,
+            "other_rounds": 0,
+            "picks": [
+              {
+                "round": 2,
+                "original_roster_id": 3,
+                "original_team": "Third Down Syndrome",
+                "has_been_traded": true
+              },
+              {
+                "round": 1,
+                "original_roster_id": 5,
+                "original_team": "BING BONG",
+                "has_been_traded": false
+              },
+              {
+                "round": 2,
+                "original_roster_id": 5,
+                "original_team": "BING BONG",
+                "has_been_traded": false
+              },
+              {
+                "round": 3,
+                "original_roster_id": 5,
+                "original_team": "BING BONG",
+                "has_been_traded": false
+              }
+            ]
+          },
+          "2029": {
+            "total": 3,
+            "round_1": 1,
+            "round_2": 1,
+            "round_3": 1,
+            "other_rounds": 0,
+            "picks": [
+              {
+                "round": 1,
+                "original_roster_id": 5,
+                "original_team": "BING BONG",
+                "has_been_traded": false
+              },
+              {
+                "round": 2,
+                "original_roster_id": 5,
+                "original_team": "BING BONG",
+                "has_been_traded": false
+              },
+              {
+                "round": 3,
+                "original_roster_id": 5,
+                "original_team": "BING BONG",
+                "has_been_traded": false
+              }
+            ]
+          }
+        }
+      },
+      "roster_profile": {
+        "total_players": 23,
+        "fantasy_players": 23,
+        "average_age": 27.96,
+        "average_years_experience": 6.13,
+        "players_with_2_or_fewer_years_experience": 4,
+        "position_counts": {
+          "WR": 10,
+          "RB": 5,
+          "QB": 5,
+          "TE": 3
+        },
+        "starter_count": 9,
+        "taxi_count": 2,
+        "reserve_count": 0
+      },
+      "competitive_score": 11.11,
+      "draft_capital_score": 22.22,
+      "baseline_power_score": 14.44,
+      "rank": 10,
+      "previous_rank": null,
+      "rank_change": null
+    }
+  ]
+}
