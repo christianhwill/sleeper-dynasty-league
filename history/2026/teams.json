@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T18:11:26.761Z",
+  "generated_at": "2026-08-19T22:25:08.972Z",
   "season": "2026",
   "teams": [
     {
@@ -323,7 +323,7 @@
           ],
           "team": "PHI",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 23,
           "years_exp": 3
         },
@@ -353,7 +353,7 @@
           ],
           "team": "LAC",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 24,
           "years_exp": 3
         },
@@ -1273,7 +1273,7 @@
           ],
           "team": "DAL",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 22,
           "years_exp": 1
         },
@@ -1308,21 +1308,6 @@
           "years_exp": 1
         },
         {
-          "player_id": "12492",
-          "name": "Pat Bryant",
-          "first_name": "Pat",
-          "last_name": "Bryant",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "DEN",
-          "status": "Active",
-          "injury_status": null,
-          "age": 23,
-          "years_exp": 1
-        },
-        {
           "player_id": "12509",
           "name": "Tre' Harris",
           "first_name": "Tre'",
@@ -1335,6 +1320,21 @@
           "status": "Active",
           "injury_status": null,
           "age": 24,
+          "years_exp": 1
+        },
+        {
+          "player_id": "12536",
+          "name": "Jaylin Noel",
+          "first_name": "Jaylin",
+          "last_name": "Noel",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "HOU",
+          "status": "Active",
+          "injury_status": "Questionable",
+          "age": 23,
           "years_exp": 1
         },
         {
@@ -1741,7 +1741,7 @@
           "team": "TB",
           "status": "Active",
           "injury_status": null,
-          "age": 23,
+          "age": 24,
           "years_exp": 2
         },
         {
@@ -2133,7 +2133,7 @@
           "team": "TB",
           "status": "Active",
           "injury_status": null,
-          "age": 23,
+          "age": 24,
           "years_exp": 2
         },
         {
@@ -2329,7 +2329,7 @@
           ],
           "team": "SF",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 32,
           "years_exp": 12
         },
@@ -2449,7 +2449,7 @@
           ],
           "team": "TEN",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 29,
           "years_exp": 7
         },
@@ -2479,7 +2479,7 @@
           ],
           "team": "DEN",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 27,
           "years_exp": 5
         },
@@ -2509,7 +2509,7 @@
           ],
           "team": "WAS",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 27,
           "years_exp": 4
         },
@@ -2631,7 +2631,7 @@
           ],
           "team": "TEN",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 29,
           "years_exp": 7
         },
@@ -2661,7 +2661,7 @@
           ],
           "team": "DEN",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 27,
           "years_exp": 5
         },
@@ -2691,7 +2691,7 @@
           ],
           "team": "SF",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 32,
           "years_exp": 12
         },
@@ -3962,7 +3962,7 @@
           ],
           "team": "CLE",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 22,
           "years_exp": 1
         },
@@ -4309,7 +4309,7 @@
           ],
           "team": "CLE",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 22,
           "years_exp": 1
         },
@@ -5114,7 +5114,7 @@
           ],
           "team": "HOU",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "IR",
           "age": 23,
           "years_exp": 1
         },
