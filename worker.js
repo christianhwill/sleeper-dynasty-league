@@ -3,7 +3,7 @@ const SLEEPER = "https://api.sleeper.app/v1";
 const GITHUB_OWNER = "christianhwill";
 const GITHUB_REPO = "sleeper-dynasty-league";
 const GITHUB_BRANCH = "main";
-const BRIDGE_VERSION = "3.5-game-history";
+const BRIDGE_VERSION = "3.6-game-history-batched";
 
 export default {
   async fetch(request, env) {
@@ -62,8 +62,29 @@ export default {
       }
 
       if (url.pathname === "/rebuild-games") {
-        const result = await rebuildGameHistory(env.GITHUB_TOKEN);
-        return json({ ok: true, ...result });
+        const season = url.searchParams.get("season");
+        const finalize = url.searchParams.get("finalize") === "1";
+
+        if (finalize) {
+          const result = await rebuildStoredGameHistory(env.GITHUB_TOKEN);
+          return json({ ok: true, mode: "finalize", ...result });
+        }
+
+        if (!season) {
+          return json({
+            ok: true,
+            message: "Game history rebuild is intentionally split by season to stay within Cloudflare subrequest limits.",
+            steps: [
+              "/rebuild-games?season=2024",
+              "/rebuild-games?season=2025",
+              "/rebuild-games?season=2026",
+              "/rebuild-games?finalize=1"
+            ]
+          });
+        }
+
+        const result = await rebuildGameHistorySeason(season, env.GITHUB_TOKEN);
+        return json({ ok: true, mode: "season", ...result });
       }
 
       if (url.pathname === "/sync-season") {
@@ -104,7 +125,8 @@ export default {
           rebuild_draft_pick_ownership: "/rebuild-picks",
           rebuild_owner_tendencies: "/rebuild-tendencies",
           rebuild_power_rankings: "/rebuild-power-rankings",
-          rebuild_game_history: "/rebuild-games",
+          rebuild_game_history: "/rebuild-games?season=YYYY",
+          finalize_game_history: "/rebuild-games?finalize=1",
           sync_one_season: "/sync-season?league_id=LEAGUE_ID"
         }
       });
@@ -465,63 +487,64 @@ function normalizeBracket(rows, rosterById, userById) {
   }));
 }
 
-async function rebuildGameHistory(githubToken) {
+async function rebuildGameHistorySeason(requestedSeason, githubToken) {
+  const season = String(requestedSeason);
   const chainNewestFirst = await discoverLeagueChain(CURRENT_LEAGUE_ID);
-  const chain = [...chainNewestFirst].reverse();
-  const results = [];
-  const players = await getPlayers();
+  const entry = chainNewestFirst.find(item => String(item.season) === season);
 
-  for (const entry of chain) {
-    const leagueId = String(entry.league_id);
-    const [league, users, rosters] = await Promise.all([
-      getJSON(`${SLEEPER}/league/${leagueId}`),
-      getJSON(`${SLEEPER}/league/${leagueId}/users`),
-      getJSON(`${SLEEPER}/league/${leagueId}/rosters`)
-    ]);
-    const userById = Object.fromEntries(users.map(u => [u.user_id, u]));
-    const rosterById = Object.fromEntries(rosters.map(r => [String(r.roster_id), r]));
-    const data = await fetchSeasonGameData(leagueId, league, rosterById, userById, players);
-    const season = String(league.season);
-    const generatedAt = new Date().toISOString();
-
-    await upsertGitHubJSON(
-      `history/${season}/matchups.json`,
-      {
-        generated_at: generatedAt,
-        season,
-        league_id: leagueId,
-        playoff_week_start: Number(league.settings?.playoff_week_start || 15),
-        weeks: data.weeks
-      },
-      `Rebuild Sleeper ${season} matchup history`,
-      githubToken
-    );
-    await upsertGitHubJSON(
-      `history/${season}/playoffs.json`,
-      {
-        generated_at: generatedAt,
-        season,
-        league_id: leagueId,
-        playoff_week_start: Number(league.settings?.playoff_week_start || 15),
-        winners_bracket: data.winners_bracket,
-        losers_bracket: data.losers_bracket
-      },
-      `Rebuild Sleeper ${season} playoff brackets`,
-      githubToken
-    );
-
-    results.push({
-      season,
-      league_id: leagueId,
-      matchup_weeks: data.weeks.filter(w => w.games.length > 0).length,
-      games: data.weeks.reduce((n, w) => n + w.games.length, 0),
-      winners_bracket_matches: data.winners_bracket.length,
-      losers_bracket_matches: data.losers_bracket.length
-    });
+  if (!entry) {
+    throw new Error(`Season ${season} is not in the discovered Sleeper league chain.`);
   }
 
-  const unified = await rebuildStoredGameHistory(githubToken);
-  return { seasons: results, ...unified };
+  const leagueId = String(entry.league_id);
+  const players = await getPlayers();
+  const [league, users, rosters] = await Promise.all([
+    getJSON(`${SLEEPER}/league/${leagueId}`),
+    getJSON(`${SLEEPER}/league/${leagueId}/users`),
+    getJSON(`${SLEEPER}/league/${leagueId}/rosters`)
+  ]);
+  const userById = Object.fromEntries(users.map(u => [u.user_id, u]));
+  const rosterById = Object.fromEntries(rosters.map(r => [String(r.roster_id), r]));
+  const data = await fetchSeasonGameData(leagueId, league, rosterById, userById, players);
+  const generatedAt = new Date().toISOString();
+
+  await upsertGitHubJSON(
+    `history/${season}/matchups.json`,
+    {
+      generated_at: generatedAt,
+      season,
+      league_id: leagueId,
+      playoff_week_start: Number(league.settings?.playoff_week_start || 15),
+      weeks: data.weeks
+    },
+    `Rebuild Sleeper ${season} matchup history`,
+    githubToken
+  );
+
+  await upsertGitHubJSON(
+    `history/${season}/playoffs.json`,
+    {
+      generated_at: generatedAt,
+      season,
+      league_id: leagueId,
+      playoff_week_start: Number(league.settings?.playoff_week_start || 15),
+      winners_bracket: data.winners_bracket,
+      losers_bracket: data.losers_bracket
+    },
+    `Rebuild Sleeper ${season} playoff brackets`,
+    githubToken
+  );
+
+  return {
+    season,
+    league_id: leagueId,
+    matchup_file: `history/${season}/matchups.json`,
+    playoff_file: `history/${season}/playoffs.json`,
+    matchup_weeks: data.weeks.filter(w => w.games.length > 0).length,
+    games: data.weeks.reduce((n, w) => n + w.games.length, 0),
+    winners_bracket_matches: data.winners_bracket.length,
+    losers_bracket_matches: data.losers_bracket.length
+  };
 }
 
 async function rebuildStoredGameHistory(githubToken) {
