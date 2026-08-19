@@ -3,7 +3,7 @@ const SLEEPER = "https://api.sleeper.app/v1";
 const GITHUB_OWNER = "christianhwill";
 const GITHUB_REPO = "sleeper-dynasty-league";
 const GITHUB_BRANCH = "main";
-const BRIDGE_VERSION = "3.0-daily-snapshots";
+const BRIDGE_VERSION = "3.1-unified-ledger";
 
 export default {
   async fetch(request, env) {
@@ -41,6 +41,11 @@ export default {
         return json({ ok: true, ...result });
       }
 
+      if (url.pathname === "/rebuild-ledger") {
+        const result = await rebuildUnifiedHistory(env.GITHUB_TOKEN);
+        return json({ ok: true, ...result });
+      }
+
       if (url.pathname === "/sync-season") {
         const leagueId = url.searchParams.get("league_id");
         if (!leagueId) {
@@ -75,6 +80,7 @@ export default {
           save_history_chain: "/bootstrap",
           sync_current_season: "/sync",
           create_manual_snapshot: "/snapshot?label=OPTIONAL_LABEL",
+          rebuild_unified_ledger: "/rebuild-ledger",
           sync_one_season: "/sync-season?league_id=LEAGUE_ID"
         }
       });
@@ -244,6 +250,8 @@ async function syncSeasonToGitHub(leagueId, githubToken, isCurrent) {
       githubToken
     );
 
+    const unifiedHistory = await rebuildUnifiedHistory(githubToken);
+
     return {
       season,
       league_id: String(league.league_id),
@@ -253,7 +261,8 @@ async function syncSeasonToGitHub(leagueId, githubToken, isCurrent) {
       trade_count: trades.length,
       draft_count: draftData.length,
       team_count: teams.length,
-      daily_snapshot: dailySnapshotResult
+      daily_snapshot: dailySnapshotResult,
+      unified_history: unifiedHistory
     };
   }
 
@@ -266,6 +275,92 @@ async function syncSeasonToGitHub(leagueId, githubToken, isCurrent) {
     trade_count: trades.length,
     draft_count: draftData.length,
     team_count: teams.length
+  };
+}
+
+
+async function rebuildUnifiedHistory(githubToken) {
+  const chainNewestFirst = await discoverLeagueChain(CURRENT_LEAGUE_ID);
+  const chain = [...chainNewestFirst].reverse();
+  const allTransactions = [];
+  const allTrades = [];
+  const seasons = [];
+
+  for (const leagueEntry of chain) {
+    const season = String(leagueEntry.season);
+    const [transactionDoc, tradeDoc] = await Promise.all([
+      getGitHubJSON(`history/${season}/transactions.json`, githubToken),
+      getGitHubJSON(`history/${season}/trades.json`, githubToken)
+    ]);
+
+    const seasonTransactions = Array.isArray(transactionDoc?.transactions)
+      ? transactionDoc.transactions
+      : [];
+    const seasonTrades = Array.isArray(tradeDoc?.trades)
+      ? tradeDoc.trades
+      : [];
+
+    allTransactions.push(...seasonTransactions.map(tx => ({
+      ...tx,
+      season,
+      league_id: String(leagueEntry.league_id)
+    })));
+
+    allTrades.push(...seasonTrades.map(trade => ({
+      ...trade,
+      season,
+      league_id: String(leagueEntry.league_id)
+    })));
+
+    seasons.push({
+      season,
+      league_id: String(leagueEntry.league_id),
+      transaction_count: seasonTransactions.length,
+      trade_count: seasonTrades.length
+    });
+  }
+
+  const transactions = dedupeById(allTransactions, "transaction_id")
+    .sort((a, b) => (a.created || 0) - (b.created || 0));
+  const trades = dedupeById(allTrades, "transaction_id")
+    .sort((a, b) => (a.created || 0) - (b.created || 0));
+  const generatedAt = new Date().toISOString();
+
+  const transactionPath = "history/all-transactions.json";
+  const tradePath = "history/all-trades.json";
+
+  await upsertGitHubJSON(
+    transactionPath,
+    {
+      generated_at: generatedAt,
+      league_name: chainNewestFirst[0]?.name || null,
+      seasons,
+      transaction_count: transactions.length,
+      transactions
+    },
+    "Rebuild unified Sleeper transaction history",
+    githubToken
+  );
+
+  await upsertGitHubJSON(
+    tradePath,
+    {
+      generated_at: generatedAt,
+      league_name: chainNewestFirst[0]?.name || null,
+      seasons,
+      trade_count: trades.length,
+      trades
+    },
+    "Rebuild unified Sleeper trade history",
+    githubToken
+  );
+
+  return {
+    transaction_path: transactionPath,
+    trade_path: tradePath,
+    seasons: seasons.map(s => s.season),
+    transaction_count: transactions.length,
+    trade_count: trades.length
   };
 }
 
@@ -517,6 +612,25 @@ async function getJSON(url) {
 }
 
 
+async function getGitHubJSON(path, token) {
+  const apiUrl = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${encodePath(path)}`;
+  const response = await fetch(`${apiUrl}?ref=${encodeURIComponent(GITHUB_BRANCH)}`, {
+    headers: githubHeaders(token)
+  });
+
+  if (response.status === 404) return null;
+  if (!response.ok) {
+    const text = await response.text();
+    throw new Error(`GitHub read failed for ${path}: ${response.status} ${text}`);
+  }
+
+  const data = await response.json();
+  if (!data.content) return null;
+  const text = base64ToUtf8(String(data.content).replace(/\s/g, ""));
+  return JSON.parse(text);
+}
+
+
 async function createGitHubJSONIfMissing(path, data, message, token) {
   const apiUrl = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${encodePath(path)}`;
   const existing = await fetch(`${apiUrl}?ref=${encodeURIComponent(GITHUB_BRANCH)}`, {
@@ -609,6 +723,16 @@ function utf8ToBase64(text) {
     binary += String.fromCharCode(...bytes.subarray(i, i + chunk));
   }
   return btoa(binary);
+}
+
+
+function base64ToUtf8(base64) {
+  const binary = atob(base64);
+  const bytes = new Uint8Array(binary.length);
+  for (let i = 0; i < binary.length; i++) {
+    bytes[i] = binary.charCodeAt(i);
+  }
+  return new TextDecoder().decode(bytes);
 }
 
 function encodePath(path) {
