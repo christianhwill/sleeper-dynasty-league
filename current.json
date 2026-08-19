@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T18:11:26.761Z",
+  "generated_at": "2026-08-19T22:25:08.972Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -448,7 +448,7 @@
           ],
           "team": "PHI",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 23,
           "years_exp": 3
         },
@@ -478,7 +478,7 @@
           ],
           "team": "LAC",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 24,
           "years_exp": 3
         },
@@ -1398,7 +1398,7 @@
           ],
           "team": "DAL",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 22,
           "years_exp": 1
         },
@@ -1433,21 +1433,6 @@
           "years_exp": 1
         },
         {
-          "player_id": "12492",
-          "name": "Pat Bryant",
-          "first_name": "Pat",
-          "last_name": "Bryant",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "DEN",
-          "status": "Active",
-          "injury_status": null,
-          "age": 23,
-          "years_exp": 1
-        },
-        {
           "player_id": "12509",
           "name": "Tre' Harris",
           "first_name": "Tre'",
@@ -1460,6 +1445,21 @@
           "status": "Active",
           "injury_status": null,
           "age": 24,
+          "years_exp": 1
+        },
+        {
+          "player_id": "12536",
+          "name": "Jaylin Noel",
+          "first_name": "Jaylin",
+          "last_name": "Noel",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "HOU",
+          "status": "Active",
+          "injury_status": "Questionable",
+          "age": 23,
           "years_exp": 1
         },
         {
@@ -1866,7 +1866,7 @@
           "team": "TB",
           "status": "Active",
           "injury_status": null,
-          "age": 23,
+          "age": 24,
           "years_exp": 2
         },
         {
@@ -2258,7 +2258,7 @@
           "team": "TB",
           "status": "Active",
           "injury_status": null,
-          "age": 23,
+          "age": 24,
           "years_exp": 2
         },
         {
@@ -2454,7 +2454,7 @@
           ],
           "team": "SF",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 32,
           "years_exp": 12
         },
@@ -2574,7 +2574,7 @@
           ],
           "team": "TEN",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 29,
           "years_exp": 7
         },
@@ -2604,7 +2604,7 @@
           ],
           "team": "DEN",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 27,
           "years_exp": 5
         },
@@ -2634,7 +2634,7 @@
           ],
           "team": "WAS",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 27,
           "years_exp": 4
         },
@@ -2756,7 +2756,7 @@
           ],
           "team": "TEN",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 29,
           "years_exp": 7
         },
@@ -2786,7 +2786,7 @@
           ],
           "team": "DEN",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 27,
           "years_exp": 5
         },
@@ -2816,7 +2816,7 @@
           ],
           "team": "SF",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 32,
           "years_exp": 12
         },
@@ -4087,7 +4087,7 @@
           ],
           "team": "CLE",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 22,
           "years_exp": 1
         },
@@ -4434,7 +4434,7 @@
           ],
           "team": "CLE",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 22,
           "years_exp": 1
         },
@@ -5239,7 +5239,7 @@
           ],
           "team": "HOU",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "IR",
           "age": 23,
           "years_exp": 1
         },
@@ -7208,6 +7208,71 @@
   ],
   "recent_transactions": [
     {
+      "transaction_id": "1395873388618063872",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1787164659221,
+      "created_iso": "2026-08-19T18:37:39.221Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "1129881968960901120",
+      "roster_ids": [
+        3
+      ],
+      "teams": [
+        {
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "12536",
+            "name": "Jaylin Noel",
+            "first_name": "Jaylin",
+            "last_name": "Noel",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "HOU",
+            "status": "Active",
+            "injury_status": "Questionable",
+            "age": 23,
+            "years_exp": 1
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "12492",
+            "name": "Pat Bryant",
+            "first_name": "Pat",
+            "last_name": "Bryant",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "DEN",
+            "status": "Active",
+            "injury_status": null,
+            "age": 23,
+            "years_exp": 1
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
       "transaction_id": "1395254374443270144",
       "type": "trade",
       "status": "complete",
@@ -7319,7 +7384,7 @@
             ],
             "team": "LAC",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 24,
             "years_exp": 3
           },
@@ -7435,7 +7500,7 @@
             ],
             "team": "LAC",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 24,
             "years_exp": 3
           },
@@ -8060,7 +8125,7 @@
             ],
             "team": "NO",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 31,
             "years_exp": 9
           },
@@ -8166,7 +8231,7 @@
             ],
             "team": "LAC",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 24,
             "years_exp": 3
           },
@@ -8263,7 +8328,7 @@
             ],
             "team": "LAC",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 24,
             "years_exp": 3
           },
@@ -9518,7 +9583,7 @@
             ],
             "team": "PHI",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 23,
             "years_exp": 3
           },
@@ -9539,7 +9604,7 @@
             ],
             "team": "PHI",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 23,
             "years_exp": 3
           },
@@ -9880,7 +9945,7 @@
             ],
             "team": "NO",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 23,
             "years_exp": 1
           },
@@ -10195,7 +10260,7 @@
             ],
             "team": "DAL",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 22,
             "years_exp": 1
           },
@@ -10260,7 +10325,7 @@
             ],
             "team": "PHI",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 23,
             "years_exp": 3
           },
@@ -10456,7 +10521,7 @@
             ],
             "team": "KC",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 26,
             "years_exp": 4
           },
@@ -10545,7 +10610,7 @@
             ],
             "team": "KC",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 26,
             "years_exp": 4
           },
@@ -12153,7 +12218,7 @@
             ],
             "team": "IND",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 22,
             "years_exp": 1
           },
