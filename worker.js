@@ -3,6 +3,7 @@ const SLEEPER = "https://api.sleeper.app/v1";
 const GITHUB_OWNER = "christianhwill";
 const GITHUB_REPO = "sleeper-dynasty-league";
 const GITHUB_BRANCH = "main";
+const BRIDGE_VERSION = "3.0-daily-snapshots";
 
 export default {
   async fetch(request, env) {
@@ -13,6 +14,7 @@ export default {
         return json({
           ok: true,
           service: "Sleeper Dynasty Sync",
+          version: BRIDGE_VERSION,
           current_league_id: CURRENT_LEAGUE_ID,
           github_repo: `${GITHUB_OWNER}/${GITHUB_REPO}`,
           github_token_configured: Boolean(env.GITHUB_TOKEN)
@@ -30,6 +32,12 @@ export default {
 
       if (url.pathname === "/sync") {
         const result = await syncSeasonToGitHub(CURRENT_LEAGUE_ID, env.GITHUB_TOKEN, true);
+        return json({ ok: true, ...result });
+      }
+
+      if (url.pathname === "/snapshot") {
+        const label = url.searchParams.get("label");
+        const result = await createManualSnapshot(CURRENT_LEAGUE_ID, env.GITHUB_TOKEN, label);
         return json({ ok: true, ...result });
       }
 
@@ -60,11 +68,13 @@ export default {
       return json({
         ok: true,
         service: "Sleeper Dynasty Sync",
+        version: BRIDGE_VERSION,
         routes: {
           health: "/health",
           discover_history: "/chain",
           save_history_chain: "/bootstrap",
           sync_current_season: "/sync",
+          create_manual_snapshot: "/snapshot?label=OPTIONAL_LABEL",
           sync_one_season: "/sync-season?league_id=LEAGUE_ID"
         }
       });
@@ -159,37 +169,8 @@ async function syncSeasonToGitHub(leagueId, githubToken, isCurrent) {
     });
   }
 
-  const teams = rosters.map(roster => {
-    const owner = userById[roster.owner_id] || {};
-    return {
-      roster_id: roster.roster_id,
-      owner_id: roster.owner_id,
-      username: owner.username || null,
-      display_name: owner.display_name || null,
-      team_name:
-        owner.metadata?.team_name ||
-        owner.display_name ||
-        owner.username ||
-        `Roster ${roster.roster_id}`,
-      is_commissioner: Boolean(owner.is_owner),
-      settings: roster.settings || {},
-      record: {
-        wins: roster.settings?.wins ?? 0,
-        losses: roster.settings?.losses ?? 0,
-        ties: roster.settings?.ties ?? 0,
-        points_for:
-          Number(roster.settings?.fpts || 0) +
-          Number(roster.settings?.fpts_decimal || 0) / 100,
-        points_against:
-          Number(roster.settings?.fpts_against || 0) +
-          Number(roster.settings?.fpts_against_decimal || 0) / 100
-      },
-      players: (roster.players || []).map(id => playerInfo(id, players)),
-      starters: (roster.starters || []).map(id => playerInfo(id, players)),
-      taxi: (roster.taxi || []).map(id => playerInfo(id, players)),
-      reserve: (roster.reserve || []).map(id => playerInfo(id, players))
-    };
-  });
+  const teams = buildTeams(rosters, userById, players);
+  const draftPickOwnership = buildDraftPickOwnership(league, rosters, tradedPicks, rosterById, userById);
 
   const season = String(league.season);
   const seasonDir = `history/${season}`;
@@ -238,11 +219,42 @@ async function syncSeasonToGitHub(leagueId, githubToken, isCurrent) {
         league: leagueSummary.league,
         teams,
         traded_picks: tradedPicks.map(p => normalizePick(p, rosterById, userById)),
+        draft_pick_ownership: draftPickOwnership,
         recent_transactions: transactions.slice(-100).reverse()
       },
       `Update live Sleeper snapshot (${season})`,
       githubToken
     );
+
+    const localDate = dateInTimeZone(new Date(), "America/Chicago");
+    const dailySnapshotPath = `snapshots/${season}/daily/${localDate}.json`;
+    const dailySnapshot = buildSnapshotPayload({
+      snapshotType: "daily",
+      generatedAt,
+      localDate,
+      leagueSummary: leagueSummary.league,
+      teams,
+      tradedPicks: tradedPicks.map(p => normalizePick(p, rosterById, userById)),
+      draftPickOwnership
+    });
+    const dailySnapshotResult = await createGitHubJSONIfMissing(
+      dailySnapshotPath,
+      dailySnapshot,
+      `Create daily Sleeper snapshot ${localDate}`,
+      githubToken
+    );
+
+    return {
+      season,
+      league_id: String(league.league_id),
+      previous_league_id: league.previous_league_id ? String(league.previous_league_id) : null,
+      files_written: files.map(([path]) => path).concat(["current.json"]),
+      transaction_count: transactions.length,
+      trade_count: trades.length,
+      draft_count: draftData.length,
+      team_count: teams.length,
+      daily_snapshot: dailySnapshotResult
+    };
   }
 
   return {
@@ -255,6 +267,179 @@ async function syncSeasonToGitHub(leagueId, githubToken, isCurrent) {
     draft_count: draftData.length,
     team_count: teams.length
   };
+}
+
+
+async function createManualSnapshot(leagueId, githubToken, label) {
+  const players = await getPlayers();
+  const [league, users, rosters, tradedPicks] = await Promise.all([
+    getJSON(`${SLEEPER}/league/${leagueId}`),
+    getJSON(`${SLEEPER}/league/${leagueId}/users`),
+    getJSON(`${SLEEPER}/league/${leagueId}/rosters`),
+    getJSON(`${SLEEPER}/league/${leagueId}/traded_picks`)
+  ]);
+
+  const userById = Object.fromEntries(users.map(u => [u.user_id, u]));
+  const rosterById = Object.fromEntries(rosters.map(r => [String(r.roster_id), r]));
+  const teams = buildTeams(rosters, userById, players);
+  const normalizedTradedPicks = tradedPicks.map(p => normalizePick(p, rosterById, userById));
+  const draftPickOwnership = buildDraftPickOwnership(league, rosters, tradedPicks, rosterById, userById);
+  const generatedAt = new Date().toISOString();
+  const season = String(league.season);
+  const localDate = dateInTimeZone(new Date(), "America/Chicago");
+  const safeLabel = slugify(label);
+  const timestamp = generatedAt.replace(/\.\d{3}Z$/, "Z").replace(/[:]/g, "-");
+  const suffix = safeLabel ? `-${safeLabel}` : "";
+  const path = `snapshots/${season}/events/${timestamp}${suffix}.json`;
+
+  const payload = buildSnapshotPayload({
+    snapshotType: "manual_event",
+    generatedAt,
+    localDate,
+    leagueSummary: {
+      league_id: String(league.league_id),
+      previous_league_id: league.previous_league_id ? String(league.previous_league_id) : null,
+      name: league.name,
+      season,
+      status: league.status,
+      total_rosters: league.total_rosters,
+      settings: league.settings,
+      scoring_settings: league.scoring_settings,
+      roster_positions: league.roster_positions,
+      draft_id: league.draft_id ? String(league.draft_id) : null
+    },
+    teams,
+    tradedPicks: normalizedTradedPicks,
+    draftPickOwnership,
+    label: safeLabel || null
+  });
+
+  await upsertGitHubJSON(path, payload, `Create manual Sleeper snapshot${safeLabel ? `: ${safeLabel}` : ""}`, githubToken);
+
+  return {
+    season,
+    league_id: String(league.league_id),
+    snapshot_path: path,
+    label: safeLabel || null,
+    generated_at: generatedAt
+  };
+}
+
+function buildTeams(rosters, userById, players) {
+  return rosters.map(roster => {
+    const owner = userById[roster.owner_id] || {};
+    return {
+      roster_id: roster.roster_id,
+      owner_id: roster.owner_id,
+      username: owner.username || null,
+      display_name: owner.display_name || null,
+      team_name:
+        owner.metadata?.team_name ||
+        owner.display_name ||
+        owner.username ||
+        `Roster ${roster.roster_id}`,
+      is_commissioner: Boolean(owner.is_owner),
+      settings: roster.settings || {},
+      record: {
+        wins: roster.settings?.wins ?? 0,
+        losses: roster.settings?.losses ?? 0,
+        ties: roster.settings?.ties ?? 0,
+        points_for:
+          Number(roster.settings?.fpts || 0) +
+          Number(roster.settings?.fpts_decimal || 0) / 100,
+        points_against:
+          Number(roster.settings?.fpts_against || 0) +
+          Number(roster.settings?.fpts_against_decimal || 0) / 100
+      },
+      players: (roster.players || []).map(id => playerInfo(id, players)),
+      starters: (roster.starters || []).map(id => playerInfo(id, players)),
+      taxi: (roster.taxi || []).map(id => playerInfo(id, players)),
+      reserve: (roster.reserve || []).map(id => playerInfo(id, players))
+    };
+  });
+}
+
+function buildDraftPickOwnership(league, rosters, tradedPicks, rosterById, userById) {
+  const currentSeason = Number(league.season);
+  const rounds = Number(league.settings?.draft_rounds || 3);
+  const tradedSeasons = tradedPicks
+    .map(p => Number(p.season))
+    .filter(Number.isFinite);
+  const maxSeason = Math.max(currentSeason + 3, ...tradedSeasons, currentSeason + 1);
+  const ownership = [];
+
+  for (let season = currentSeason + 1; season <= maxSeason; season++) {
+    for (const roster of rosters) {
+      for (let round = 1; round <= rounds; round++) {
+        const traded = tradedPicks.find(p =>
+          Number(p.season) === season &&
+          Number(p.round) === round &&
+          Number(p.roster_id) === Number(roster.roster_id)
+        );
+        const ownerRosterId = traded?.owner_id ?? roster.roster_id;
+
+        ownership.push({
+          season: String(season),
+          round,
+          original_roster_id: roster.roster_id,
+          original_team: teamName(roster.roster_id, rosterById, userById),
+          current_owner_roster_id: ownerRosterId,
+          current_team: teamName(ownerRosterId, rosterById, userById),
+          previous_owner_roster_id: traded?.previous_owner_id ?? null,
+          previous_team: traded?.previous_owner_id != null
+            ? teamName(traded.previous_owner_id, rosterById, userById)
+            : null,
+          has_been_traded: Boolean(traded)
+        });
+      }
+    }
+  }
+
+  return ownership;
+}
+
+function buildSnapshotPayload({
+  snapshotType,
+  generatedAt,
+  localDate,
+  leagueSummary,
+  teams,
+  tradedPicks,
+  draftPickOwnership,
+  label = null
+}) {
+  return {
+    snapshot_type: snapshotType,
+    label,
+    generated_at: generatedAt,
+    snapshot_date_local: localDate,
+    timezone: "America/Chicago",
+    league: leagueSummary,
+    teams,
+    traded_picks: tradedPicks,
+    draft_pick_ownership: draftPickOwnership
+  };
+}
+
+function dateInTimeZone(date, timeZone) {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  }).formatToParts(date);
+  const values = Object.fromEntries(parts.map(p => [p.type, p.value]));
+  return `${values.year}-${values.month}-${values.day}`;
+}
+
+function slugify(value) {
+  if (!value) return "";
+  return String(value)
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 60);
 }
 
 function normalizeTransaction(tx, players, rosterById, userById) {
@@ -329,6 +514,42 @@ async function getJSON(url) {
     throw new Error(`${response.status} fetching ${url}`);
   }
   return response.json();
+}
+
+
+async function createGitHubJSONIfMissing(path, data, message, token) {
+  const apiUrl = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${encodePath(path)}`;
+  const existing = await fetch(`${apiUrl}?ref=${encodeURIComponent(GITHUB_BRANCH)}`, {
+    headers: githubHeaders(token)
+  });
+
+  if (existing.ok) {
+    return { path, created: false };
+  }
+  if (existing.status !== 404) {
+    const text = await existing.text();
+    throw new Error(`GitHub read failed for ${path}: ${existing.status} ${text}`);
+  }
+
+  const write = await fetch(apiUrl, {
+    method: "PUT",
+    headers: {
+      ...githubHeaders(token),
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      message,
+      content: utf8ToBase64(JSON.stringify(data, null, 2)),
+      branch: GITHUB_BRANCH
+    })
+  });
+
+  if (!write.ok) {
+    const text = await write.text();
+    throw new Error(`GitHub write failed for ${path}: ${write.status} ${text}`);
+  }
+
+  return { path, created: true };
 }
 
 async function upsertGitHubJSON(path, data, message, token) {
