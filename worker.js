@@ -3,7 +3,7 @@ const SLEEPER = "https://api.sleeper.app/v1";
 const GITHUB_OWNER = "christianhwill";
 const GITHUB_REPO = "sleeper-dynasty-league";
 const GITHUB_BRANCH = "main";
-const BRIDGE_VERSION = "3.1-unified-ledger";
+const BRIDGE_VERSION = "3.2-draft-pick-ownership";
 
 export default {
   async fetch(request, env) {
@@ -46,6 +46,11 @@ export default {
         return json({ ok: true, ...result });
       }
 
+      if (url.pathname === "/rebuild-picks") {
+        const result = await rebuildDraftPickOwnership(env.GITHUB_TOKEN);
+        return json({ ok: true, ...result });
+      }
+
       if (url.pathname === "/sync-season") {
         const leagueId = url.searchParams.get("league_id");
         if (!leagueId) {
@@ -81,6 +86,7 @@ export default {
           sync_current_season: "/sync",
           create_manual_snapshot: "/snapshot?label=OPTIONAL_LABEL",
           rebuild_unified_ledger: "/rebuild-ledger",
+          rebuild_draft_pick_ownership: "/rebuild-picks",
           sync_one_season: "/sync-season?league_id=LEAGUE_ID"
         }
       });
@@ -232,6 +238,16 @@ async function syncSeasonToGitHub(leagueId, githubToken, isCurrent) {
       githubToken
     );
 
+    const draftPickOwnershipResult = await writeDraftPickOwnershipFile({
+      league,
+      rosters,
+      tradedPicks,
+      rosterById,
+      userById,
+      githubToken,
+      generatedAt
+    });
+
     const localDate = dateInTimeZone(new Date(), "America/Chicago");
     const dailySnapshotPath = `snapshots/${season}/daily/${localDate}.json`;
     const dailySnapshot = buildSnapshotPayload({
@@ -256,12 +272,13 @@ async function syncSeasonToGitHub(leagueId, githubToken, isCurrent) {
       season,
       league_id: String(league.league_id),
       previous_league_id: league.previous_league_id ? String(league.previous_league_id) : null,
-      files_written: files.map(([path]) => path).concat(["current.json"]),
+      files_written: files.map(([path]) => path).concat(["current.json", "draft-pick-ownership.json"]),
       transaction_count: transactions.length,
       trade_count: trades.length,
       draft_count: draftData.length,
       team_count: teams.length,
       daily_snapshot: dailySnapshotResult,
+      draft_pick_ownership_file: draftPickOwnershipResult,
       unified_history: unifiedHistory
     };
   }
@@ -362,6 +379,126 @@ async function rebuildUnifiedHistory(githubToken) {
     transaction_count: transactions.length,
     trade_count: trades.length
   };
+}
+
+
+async function rebuildDraftPickOwnership(githubToken) {
+  const [league, users, rosters, tradedPicks] = await Promise.all([
+    getJSON(`${SLEEPER}/league/${CURRENT_LEAGUE_ID}`),
+    getJSON(`${SLEEPER}/league/${CURRENT_LEAGUE_ID}/users`),
+    getJSON(`${SLEEPER}/league/${CURRENT_LEAGUE_ID}/rosters`),
+    getJSON(`${SLEEPER}/league/${CURRENT_LEAGUE_ID}/traded_picks`)
+  ]);
+
+  const userById = Object.fromEntries(users.map(u => [u.user_id, u]));
+  const rosterById = Object.fromEntries(rosters.map(r => [String(r.roster_id), r]));
+
+  return writeDraftPickOwnershipFile({
+    league,
+    rosters,
+    tradedPicks,
+    rosterById,
+    userById,
+    githubToken,
+    generatedAt: new Date().toISOString()
+  });
+}
+
+async function writeDraftPickOwnershipFile({
+  league,
+  rosters,
+  tradedPicks,
+  rosterById,
+  userById,
+  githubToken,
+  generatedAt
+}) {
+  const picks = buildDraftPickOwnership(league, rosters, tradedPicks, rosterById, userById);
+  const byOwner = summarizeDraftPickOwnership(picks, rosters, rosterById, userById);
+  const seasons = [...new Set(picks.map(p => p.season))].sort();
+  const rounds = Number(league.settings?.draft_rounds || 3);
+  const path = "draft-pick-ownership.json";
+
+  const payload = {
+    generated_at: generatedAt,
+    league: {
+      league_id: String(league.league_id),
+      name: league.name,
+      season: String(league.season),
+      draft_rounds: rounds
+    },
+    covered_draft_seasons: seasons,
+    total_picks: picks.length,
+    picks,
+    by_owner: byOwner
+  };
+
+  await upsertGitHubJSON(
+    path,
+    payload,
+    "Update current Sleeper draft-pick ownership",
+    githubToken
+  );
+
+  return {
+    path,
+    covered_draft_seasons: seasons,
+    total_picks: picks.length,
+    owner_count: byOwner.length
+  };
+}
+
+function summarizeDraftPickOwnership(picks, rosters, rosterById, userById) {
+  return rosters.map(roster => {
+    const rosterId = Number(roster.roster_id);
+    const owned = picks.filter(p => Number(p.current_owner_roster_id) === rosterId);
+    const bySeason = {};
+
+    for (const pick of owned) {
+      if (!bySeason[pick.season]) {
+        bySeason[pick.season] = {
+          total: 0,
+          round_1: 0,
+          round_2: 0,
+          round_3: 0,
+          other_rounds: 0,
+          picks: []
+        };
+      }
+
+      const bucket = bySeason[pick.season];
+      bucket.total += 1;
+      if (pick.round === 1) bucket.round_1 += 1;
+      else if (pick.round === 2) bucket.round_2 += 1;
+      else if (pick.round === 3) bucket.round_3 += 1;
+      else bucket.other_rounds += 1;
+      bucket.picks.push({
+        round: pick.round,
+        original_roster_id: pick.original_roster_id,
+        original_team: pick.original_team,
+        has_been_traded: pick.has_been_traded
+      });
+    }
+
+    const firsts = owned.filter(p => p.round === 1).length;
+    const seconds = owned.filter(p => p.round === 2).length;
+    const thirds = owned.filter(p => p.round === 3).length;
+
+    return {
+      roster_id: roster.roster_id,
+      team_name: teamName(roster.roster_id, rosterById, userById),
+      total_future_picks: owned.length,
+      first_round_picks: firsts,
+      second_round_picks: seconds,
+      third_round_picks: thirds,
+      other_round_picks: owned.length - firsts - seconds - thirds,
+      by_season: bySeason
+    };
+  }).sort((a, b) =>
+    b.first_round_picks - a.first_round_picks ||
+    b.total_future_picks - a.total_future_picks ||
+    a.roster_id - b.roster_id
+  );
 }
 
 
