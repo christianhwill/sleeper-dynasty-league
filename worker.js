@@ -5,8 +5,19 @@ const SLEEPER = "https://api.sleeper.app/v1";
 const GITHUB_OWNER = "christianhwill";
 const GITHUB_REPO = "sleeper-dynasty-league";
 const GITHUB_BRANCH = "main";
-const BRIDGE_VERSION = "3.8-auto-season-rollover";
+const BRIDGE_VERSION = "3.9-protected-write-routes";
 const MAX_GITHUB_JSON_BYTES = 50 * 1024 * 1024;
+const WRITE_ROUTE_PATHS = Object.freeze([
+  "/bootstrap",
+  "/rebuild-games",
+  "/rebuild-ledger",
+  "/rebuild-picks",
+  "/rebuild-power-rankings",
+  "/rebuild-tendencies",
+  "/snapshot",
+  "/sync",
+  "/sync-season"
+]);
 
 export default {
   async fetch(request, env) {
@@ -22,8 +33,19 @@ export default {
           auto_rollover_enabled: true,
           active_league_route: "/chain",
           github_repo: `${GITHUB_OWNER}/${GITHUB_REPO}`,
-          github_token_configured: Boolean(env.GITHUB_TOKEN)
+          github_token_configured: Boolean(env.GITHUB_TOKEN),
+          write_auth_enabled: Boolean(env.DYNASTY_WRITE_PASSWORD),
+          public_routes: ["/", "/health", "/chain"],
+          protected_write_routes: WRITE_ROUTE_PATHS
         });
+      }
+
+      if (isWriteRoute(url.pathname)) {
+        const authFailure = await authorizeWriteRequest(
+          request,
+          env.DYNASTY_WRITE_PASSWORD
+        );
+        if (authFailure) return authFailure;
       }
 
       if (!env.GITHUB_TOKEN) {
@@ -151,6 +173,12 @@ export default {
         ok: true,
         service: "Sleeper Dynasty Sync",
         version: BRIDGE_VERSION,
+        authentication: {
+          public_routes: ["/", "/health", "/chain"],
+          protected_write_routes: WRITE_ROUTE_PATHS,
+          accepted_authorization_schemes: ["Basic", "Bearer"],
+          credentials_in_query_strings: false
+        },
         routes: {
           health: "/health",
           discover_history: "/chain",
@@ -167,7 +195,13 @@ export default {
         }
       });
     } catch (error) {
-      return json({ ok: false, error: error.message, stack: error.stack }, 500);
+      const message = error instanceof Error ? error.message : String(error);
+      console.error(JSON.stringify({
+        event: "request_failed",
+        path: url.pathname,
+        error: message
+      }));
+      return json({ ok: false, error: message }, 500);
     }
   },
 
@@ -183,6 +217,70 @@ export default {
     );
   }
 };
+
+function isWriteRoute(pathname) {
+  return WRITE_ROUTE_PATHS.includes(pathname);
+}
+
+async function authorizeWriteRequest(request, expectedPassword) {
+  if (typeof expectedPassword !== "string" || expectedPassword.length === 0) {
+    return json({
+      ok: false,
+      error: "DYNASTY_WRITE_PASSWORD secret is not configured."
+    }, 503);
+  }
+
+  const providedPassword = extractWritePassword(request.headers.get("Authorization"));
+  const authorized = providedPassword !== null
+    && await secretsMatch(providedPassword, expectedPassword);
+
+  if (authorized) return null;
+
+  return json({
+    ok: false,
+    error: "Authentication is required for this write route."
+  }, 401, {
+    "WWW-Authenticate": "Basic realm=\"Dynasty Desk\", charset=\"UTF-8\""
+  });
+}
+
+function extractWritePassword(authorizationHeader) {
+  if (typeof authorizationHeader !== "string") return null;
+
+  const bearerMatch = authorizationHeader.match(/^Bearer[ \t]+(.+)$/i);
+  if (bearerMatch) return bearerMatch[1];
+
+  const basicMatch = authorizationHeader.match(/^Basic[ \t]+([A-Za-z0-9+/=]+)$/i);
+  if (!basicMatch) return null;
+
+  try {
+    const decoded = atob(basicMatch[1]);
+    const separatorIndex = decoded.indexOf(":");
+    return separatorIndex >= 0 ? decoded.slice(separatorIndex + 1) : null;
+  } catch {
+    return null;
+  }
+}
+
+async function secretsMatch(provided, expected) {
+  const encoder = new TextEncoder();
+  const [providedHash, expectedHash] = await Promise.all([
+    crypto.subtle.digest("SHA-256", encoder.encode(provided)),
+    crypto.subtle.digest("SHA-256", encoder.encode(expected))
+  ]);
+
+  if (typeof crypto.subtle.timingSafeEqual === "function") {
+    return crypto.subtle.timingSafeEqual(providedHash, expectedHash);
+  }
+
+  const providedBytes = new Uint8Array(providedHash);
+  const expectedBytes = new Uint8Array(expectedHash);
+  let difference = 0;
+  for (let index = 0; index < providedBytes.length; index++) {
+    difference |= providedBytes[index] ^ expectedBytes[index];
+  }
+  return difference === 0;
+}
 
 async function resolveActiveLeague(githubToken) {
   let startingLeagueId = LEAGUE_ANCHOR_ID;
@@ -2446,13 +2544,14 @@ function mapPlayerMoves(moves, players, rosterById, userById) {
   }));
 }
 
-function json(data, status = 200) {
+function json(data, status = 200, extraHeaders = {}) {
   return new Response(JSON.stringify(data, null, 2), {
     status,
     headers: {
       "Content-Type": "application/json; charset=utf-8",
       "Access-Control-Allow-Origin": "*",
-      "Cache-Control": "no-store"
+      "Cache-Control": "no-store",
+      ...extraHeaders
     }
   });
 }
