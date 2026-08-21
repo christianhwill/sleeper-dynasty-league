@@ -2,17 +2,36 @@ const LEAGUE_ANCHOR_ID = "1327788752298336256";
 const LEAGUE_ANCHOR_USER_ID = "1129875387229560832";
 const MAX_LEAGUE_CHAIN_LENGTH = 50;
 const SLEEPER = "https://api.sleeper.app/v1";
+const SLEEPER_PROJECTIONS = "https://api.sleeper.com/projections/nfl";
+const FANTASY_CALC = "https://api.fantasycalc.com/values/current";
+const DYNASTY_PROCESS_VALUES = "https://raw.githubusercontent.com/dynastyprocess/data/master/files/values-players.csv";
+const DYNASTY_DEALER_VALUES = "https://www.dynastydealer.com/api/player-values";
+const ESPN_PROJECTIONS = "https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl";
+const STATHEAD_PROJECTIONS = "https://raw.githubusercontent.com/dachhack/stathead/claude/nfl-fantasy-workbench-6D1yd/public/data";
 const GITHUB_OWNER = "christianhwill";
 const GITHUB_REPO = "sleeper-dynasty-league";
 const GITHUB_BRANCH = "main";
-const BRIDGE_VERSION = "3.9-protected-write-routes";
+const BRIDGE_VERSION = "4.0-three-source-player-intelligence";
 const MAX_GITHUB_JSON_BYTES = 50 * 1024 * 1024;
+const MAX_EXTERNAL_FEED_BYTES = 15 * 1024 * 1024;
+const NFL_REGULAR_SEASON_WEEKS = 18;
+const PROJECTION_BATCH_SIZE = 3;
+const PROJECTION_POSITIONS = Object.freeze(["QB", "RB", "WR", "TE"]);
+const ESPN_POSITION_BY_ID = Object.freeze({ 1: "QB", 2: "RB", 3: "WR", 4: "TE" });
+const PROJECTION_SOURCE_NAMES = Object.freeze({
+  sleeper: "Sleeper/RotoWire",
+  espn: "ESPN",
+  stathead: "StatHead open model"
+});
 const WRITE_ROUTE_PATHS = Object.freeze([
   "/bootstrap",
   "/rebuild-games",
   "/rebuild-ledger",
+  "/rebuild-player-intelligence",
+  "/rebuild-player-values",
   "/rebuild-picks",
   "/rebuild-power-rankings",
+  "/rebuild-projections",
   "/rebuild-tendencies",
   "/snapshot",
   "/sync",
@@ -31,6 +50,14 @@ export default {
           version: BRIDGE_VERSION,
           league_anchor_id: LEAGUE_ANCHOR_ID,
           auto_rollover_enabled: true,
+          player_intelligence_enabled: true,
+          weekly_projection_source: "three-source consensus",
+          weekly_projection_sources: Object.values(PROJECTION_SOURCE_NAMES),
+          dynasty_value_sources: [
+            "FantasyCalc",
+            "DynastyProcess/FantasyPros ECR",
+            "Dynasty Dealer"
+          ],
           active_league_route: "/chain",
           github_repo: `${GITHUB_OWNER}/${GITHUB_REPO}`,
           github_token_configured: Boolean(env.GITHUB_TOKEN),
@@ -96,6 +123,111 @@ export default {
       if (url.pathname === "/rebuild-power-rankings") {
         const activeLeague = await resolveActiveLeague(env.GITHUB_TOKEN);
         const result = await rebuildPowerRankings(env.GITHUB_TOKEN, String(activeLeague.league_id));
+        return json({ ok: true, ...result });
+      }
+
+      if (url.pathname === "/rebuild-player-values") {
+        const activeLeague = await resolveActiveLeague(env.GITHUB_TOKEN);
+        const result = await rebuildPlayerValues(
+          env.GITHUB_TOKEN,
+          String(activeLeague.league_id)
+        );
+        return json({ ok: true, ...result });
+      }
+
+      if (url.pathname === "/rebuild-projections") {
+        const activeLeague = await resolveActiveLeague(env.GITHUB_TOKEN);
+        const activeLeagueId = String(activeLeague.league_id);
+        const season = String(activeLeague.season);
+        const weekValue = url.searchParams.get("week");
+        const batchValue = url.searchParams.get("batch");
+
+        if (weekValue !== null) {
+          const week = Number(weekValue);
+          if (!Number.isInteger(week) || week < 1 || week > NFL_REGULAR_SEASON_WEEKS) {
+            return json({ ok: false, error: "week must be an integer from 1 through 18." }, 400);
+          }
+          const weekResult = await rebuildWeeklyProjections(
+            env.GITHUB_TOKEN,
+            activeLeagueId,
+            week
+          );
+          const summary = await rebuildProjectionSummary(
+            env.GITHUB_TOKEN,
+            activeLeagueId
+          );
+          return json({ ok: true, mode: "week", week_result: weekResult, summary });
+        }
+
+        if (batchValue !== null) {
+          const batch = Number(batchValue);
+          const batchCount = NFL_REGULAR_SEASON_WEEKS / PROJECTION_BATCH_SIZE;
+          if (!Number.isInteger(batch) || batch < 1 || batch > batchCount) {
+            return json({ ok: false, error: `batch must be an integer from 1 through ${batchCount}.` }, 400);
+          }
+          const currentDoc = await getGitHubJSON("current.json", env.GITHUB_TOKEN);
+          const sharedProjectionFeeds = await fetchSharedProjectionFeeds(season);
+          const weeks = projectionWeeksForBatch(batch - 1);
+          const weekResults = [];
+          for (const week of weeks) {
+            weekResults.push(await rebuildWeeklyProjections(
+              env.GITHUB_TOKEN,
+              activeLeagueId,
+              week,
+              currentDoc,
+              sharedProjectionFeeds
+            ));
+          }
+          const summary = await rebuildProjectionSummary(
+            env.GITHUB_TOKEN,
+            activeLeagueId,
+            currentDoc
+          );
+          return json({ ok: true, mode: "batch", batch, weeks, week_results: weekResults, summary });
+        }
+
+        if (url.searchParams.get("season") === "1") {
+          const seasonResult = await rebuildSeasonProjections(
+            env.GITHUB_TOKEN,
+            activeLeagueId
+          );
+          const summary = await rebuildProjectionSummary(
+            env.GITHUB_TOKEN,
+            activeLeagueId
+          );
+          return json({ ok: true, mode: "season", season_result: seasonResult, summary });
+        }
+
+        if (url.searchParams.get("finalize") === "1") {
+          const summary = await rebuildProjectionSummary(
+            env.GITHUB_TOKEN,
+            activeLeagueId
+          );
+          return json({ ok: true, mode: "finalize", summary });
+        }
+
+        return json({
+          ok: true,
+          message: "Projection refreshes are split into bounded jobs. Automatic maintenance keeps these files current without Apple Shortcuts.",
+          season,
+          steps: [
+            "/rebuild-projections?season=1",
+            ...Array.from(
+              { length: NFL_REGULAR_SEASON_WEEKS / PROJECTION_BATCH_SIZE },
+              (_, index) => `/rebuild-projections?batch=${index + 1}`
+            ),
+            "/rebuild-projections?finalize=1"
+          ]
+        });
+      }
+
+      if (url.pathname === "/rebuild-player-intelligence") {
+        const activeLeague = await resolveActiveLeague(env.GITHUB_TOKEN);
+        const result = await rebuildPlayerIntelligence(
+          env.GITHUB_TOKEN,
+          String(activeLeague.league_id),
+          activeLeague.resolved_chain || null
+        );
         return json({ ok: true, ...result });
       }
 
@@ -189,6 +321,12 @@ export default {
           rebuild_draft_pick_ownership: "/rebuild-picks",
           rebuild_owner_tendencies: "/rebuild-tendencies",
           rebuild_power_rankings: "/rebuild-power-rankings",
+          rebuild_player_values: "/rebuild-player-values",
+          rebuild_player_intelligence: "/rebuild-player-intelligence",
+          rebuild_weekly_projection: "/rebuild-projections?week=1",
+          rebuild_projection_batch: "/rebuild-projections?batch=1",
+          rebuild_season_projection: "/rebuild-projections?season=1",
+          finalize_projection_summary: "/rebuild-projections?finalize=1",
           rebuild_game_history: "/rebuild-games?season=YYYY",
           finalize_game_history: "/rebuild-games?finalize=1",
           sync_one_season: "/sync-season?league_id=LEAGUE_ID"
@@ -428,12 +566,15 @@ async function runScheduledMaintenance(event, githubToken) {
   }
 
   if (utcHour === 9) {
-    const chain = await discoverLeagueChain(activeLeagueId);
-    const powerRankings = await rebuildPowerRankings(githubToken, activeLeagueId, chain);
+    const playerIntelligence = await rebuildPlayerIntelligence(
+      githubToken,
+      activeLeagueId,
+      activeLeague.resolved_chain || null
+    );
     return {
-      task: "daily_power_rankings",
+      task: "daily_player_intelligence",
       active_league_id: activeLeagueId,
-      power_rankings: powerRankings
+      player_intelligence: playerIntelligence
     };
   }
 
@@ -461,12 +602,56 @@ async function runScheduledMaintenance(event, githubToken) {
     };
   }
 
+  if (utcHour === 18 || utcHour === 21) {
+    const weeks = rotatingProjectionWeeks(scheduledDate, utcHour === 21 ? 1 : 0);
+    const currentDoc = await getGitHubJSON("current.json", githubToken);
+    const season = String(currentDoc?.season || currentDoc?.league?.season || activeLeague.season || "");
+    const sharedProjectionFeeds = await fetchSharedProjectionFeeds(season);
+    const weekResults = [];
+    for (const week of weeks) {
+      weekResults.push(await rebuildWeeklyProjections(
+        githubToken,
+        activeLeagueId,
+        week,
+        currentDoc,
+        sharedProjectionFeeds
+      ));
+    }
+    const summary = await rebuildProjectionSummary(
+      githubToken,
+      activeLeagueId,
+      currentDoc
+    );
+    return {
+      task: "rotating_weekly_projection_refresh",
+      active_league_id: activeLeagueId,
+      weeks,
+      week_results: weekResults,
+      summary
+    };
+  }
+
   return {
     task: "scheduled_noop",
     active_league_id: activeLeagueId,
     utc_hour: utcHour,
     utc_day: utcDay
   };
+}
+
+function rotatingProjectionWeeks(date, dailyOffset) {
+  const dayIndex = Math.floor(date.getTime() / 86400000);
+  const batchCount = NFL_REGULAR_SEASON_WEEKS / PROJECTION_BATCH_SIZE;
+  const batchIndex = (dayIndex * 2 + dailyOffset) % batchCount;
+  return projectionWeeksForBatch(batchIndex);
+}
+
+function projectionWeeksForBatch(batchIndex) {
+  const firstWeek = batchIndex * PROJECTION_BATCH_SIZE + 1;
+  return Array.from(
+    { length: PROJECTION_BATCH_SIZE },
+    (_, index) => firstWeek + index
+  ).filter(week => week <= NFL_REGULAR_SEASON_WEEKS);
 }
 
 async function syncCurrentCoreToGitHub(leagueId, githubToken, refreshedLeagueChain = null) {
@@ -1647,14 +1832,1572 @@ function applyLeagueRanks(owners) {
 }
 
 
+async function rebuildPlayerIntelligence(
+  githubToken,
+  activeLeagueId,
+  providedChain = null
+) {
+  const currentDoc = await getGitHubJSON("current.json", githubToken);
+  if (!currentDoc) {
+    throw new Error("current.json must exist before player intelligence can be rebuilt.");
+  }
+
+  let nflState = null;
+  try { nflState = await getJSON(`${SLEEPER}/state/nfl`); } catch {}
+  const displayWeek = Number(nflState?.display_week || nflState?.week || 1);
+  const week = Math.min(
+    NFL_REGULAR_SEASON_WEEKS,
+    Math.max(1, Number.isFinite(displayWeek) ? displayWeek : 1)
+  );
+  const season = String(currentDoc.season || currentDoc.league?.season || "");
+  const sharedProjectionFeeds = await fetchSharedProjectionFeeds(season);
+
+  const playerValues = await rebuildPlayerValues(
+    githubToken,
+    activeLeagueId,
+    currentDoc
+  );
+  const seasonProjections = await rebuildSeasonProjections(
+    githubToken,
+    activeLeagueId,
+    currentDoc,
+    sharedProjectionFeeds
+  );
+  const weeklyProjections = await rebuildWeeklyProjections(
+    githubToken,
+    activeLeagueId,
+    week,
+    currentDoc,
+    sharedProjectionFeeds
+  );
+  const projectionSummary = await rebuildProjectionSummary(
+    githubToken,
+    activeLeagueId,
+    currentDoc
+  );
+  const chain = providedChain || await discoverLeagueChain(activeLeagueId);
+  const powerRankings = await rebuildPowerRankings(
+    githubToken,
+    activeLeagueId,
+    chain
+  );
+
+  return {
+    season,
+    refreshed_week: week,
+    player_values: playerValues,
+    season_projections: seasonProjections,
+    weekly_projections: weeklyProjections,
+    projection_summary: projectionSummary,
+    power_rankings: powerRankings
+  };
+}
+
+async function rebuildPlayerValues(githubToken, activeLeagueId, providedCurrentDoc = null) {
+  const currentDoc = providedCurrentDoc || await getGitHubJSON("current.json", githubToken);
+  if (!currentDoc) {
+    throw new Error("current.json must exist before player values can be rebuilt.");
+  }
+
+  const league = currentDoc.league || {};
+  const settings = fantasyCalcLeagueSettings(league);
+  const fantasyCalcUrl = new URL(FANTASY_CALC);
+  fantasyCalcUrl.searchParams.set("isDynasty", "true");
+  fantasyCalcUrl.searchParams.set("numQbs", String(settings.num_qbs));
+  fantasyCalcUrl.searchParams.set("numTeams", String(settings.num_teams));
+  fantasyCalcUrl.searchParams.set("ppr", String(settings.ppr));
+
+  const [fantasyCalcRows, dynastyProcessCsv, dynastyDealerDoc] = await Promise.all([
+    getBoundedJSON(
+      fantasyCalcUrl.toString(),
+      MAX_EXTERNAL_FEED_BYTES,
+      "FantasyCalc dynasty values"
+    ),
+    getBoundedText(
+      DYNASTY_PROCESS_VALUES,
+      MAX_EXTERNAL_FEED_BYTES,
+      "DynastyProcess player values"
+    ),
+    getBoundedJSON(
+      DYNASTY_DEALER_VALUES,
+      MAX_EXTERNAL_FEED_BYTES,
+      "Dynasty Dealer player values"
+    )
+  ]);
+
+  const dynastyDealerRows = Array.isArray(dynastyDealerDoc?.players)
+    ? dynastyDealerDoc.players
+    : [];
+  if (dynastyDealerRows.length === 0) {
+    throw new Error("Dynasty Dealer player values did not include any players.");
+  }
+  const dynastyDealerBySleeperId = new Map(
+    dynastyDealerRows
+      .filter(row => row?.sleeper_id != null)
+      .map(row => [String(row.sleeper_id), row])
+  );
+
+  const dynastyProcessRows = parseCsvObjects(dynastyProcessCsv);
+  const dynastyProcessByPlayer = new Map();
+  for (const row of dynastyProcessRows) {
+    const position = String(row.pos || "").toUpperCase();
+    const name = String(row.player || "");
+    if (!PROJECTION_POSITIONS.includes(position) || !name) continue;
+    const key = externalPlayerKey(name, position);
+    const existing = dynastyProcessByPlayer.get(key);
+    if (!existing || numericOrNull(row.value_2qb) > numericOrNull(existing.value_2qb)) {
+      dynastyProcessByPlayer.set(key, row);
+    }
+  }
+
+  const currentPlayers = currentPlayerOwnership(currentDoc.teams || []);
+  const recordsById = new Map();
+
+  for (const row of Array.isArray(fantasyCalcRows) ? fantasyCalcRows : []) {
+    const player = row?.player || {};
+    const playerId = player.sleeperId == null ? null : String(player.sleeperId);
+    const position = String(player.position || "").toUpperCase();
+    if (!playerId || !PROJECTION_POSITIONS.includes(position)) continue;
+
+    recordsById.set(playerId, {
+      player_id: playerId,
+      name: player.name || playerId,
+      position,
+      team: player.maybeTeam || null,
+      age: numericOrNull(player.maybeAge),
+      ownership: currentPlayers.get(playerId)?.ownership || null,
+      fantasycalc: {
+        value: numericOrNull(row.value),
+        overall_rank: numericOrNull(row.overallRank),
+        position_rank: numericOrNull(row.positionRank),
+        trend_30_day: numericOrNull(row.trend30Day),
+        trade_frequency: numericOrNull(row.maybeTradeFrequency),
+        roster_percentage: numericOrNull(row.maybeRosterPercent)
+      },
+      dynastyprocess: null,
+      dynastydealer: null
+    });
+  }
+
+  for (const [playerId, current] of currentPlayers.entries()) {
+    if (!PROJECTION_POSITIONS.includes(String(current.player.position || "").toUpperCase())) continue;
+    if (!recordsById.has(playerId)) {
+      recordsById.set(playerId, {
+        player_id: playerId,
+        name: current.player.name || playerId,
+        position: String(current.player.position || "").toUpperCase(),
+        team: current.player.team || null,
+        age: numericOrNull(current.player.age),
+        ownership: current.ownership,
+        fantasycalc: null,
+        dynastyprocess: null,
+        dynastydealer: null
+      });
+    } else {
+      recordsById.get(playerId).ownership = current.ownership;
+    }
+  }
+
+  for (const record of recordsById.values()) {
+    const dpRow = dynastyProcessByPlayer.get(externalPlayerKey(record.name, record.position));
+    if (!dpRow) continue;
+    record.dynastyprocess = {
+      value_2qb: numericOrNull(dpRow.value_2qb),
+      ecr_2qb: numericOrNull(dpRow.ecr_2qb),
+      ecr_position: numericOrNull(dpRow.ecr_pos),
+      scrape_date: dpRow.scrape_date || null,
+      fantasypros_id: dpRow.fp_id || null
+    };
+    record.team = record.team || dpRow.team || null;
+    record.age = record.age ?? numericOrNull(dpRow.age);
+  }
+
+  for (const record of recordsById.values()) {
+    const dealerRow = dynastyDealerBySleeperId.get(record.player_id);
+    if (!dealerRow) continue;
+    record.dynastydealer = {
+      current_value: numericOrNull(dealerRow.current_value),
+      base_value: numericOrNull(dealerRow.base_value),
+      community_votes: numericOrNull(dealerRow.votes),
+      updated_at: dealerRow.updated_at || null
+    };
+    record.team = record.team || dealerRow.team || null;
+    record.age = record.age ?? numericOrNull(dealerRow.age);
+  }
+
+  const records = [...recordsById.values()];
+  const fantasyCalcMax = Math.max(
+    0,
+    ...records.map(record => Number(record.fantasycalc?.value || 0))
+  );
+  const dynastyProcessMax = Math.max(
+    0,
+    ...records.map(record => Number(record.dynastyprocess?.value_2qb || 0))
+  );
+  const dynastyDealerMax = Math.max(
+    0,
+    ...records.map(record => Number(record.dynastydealer?.current_value || 0))
+  );
+
+  for (const record of records) {
+    const fantasyCalcValue = Number(record.fantasycalc?.value || 0);
+    const dynastyProcessValue = Number(record.dynastyprocess?.value_2qb || 0);
+    const dynastyDealerValue = Number(record.dynastydealer?.current_value || 0);
+    const fantasyCalcScore = fantasyCalcValue > 0 && fantasyCalcMax > 0
+      ? 100 * fantasyCalcValue / fantasyCalcMax
+      : null;
+    const dynastyProcessScore = dynastyProcessValue > 0 && dynastyProcessMax > 0
+      ? 100 * dynastyProcessValue / dynastyProcessMax
+      : null;
+    const dynastyDealerScore = dynastyDealerValue > 0 && dynastyDealerMax > 0
+      ? 100 * dynastyDealerValue / dynastyDealerMax
+      : null;
+    const availableScores = [fantasyCalcScore, dynastyProcessScore, dynastyDealerScore]
+      .filter(Number.isFinite);
+    const marketScores = [fantasyCalcScore, dynastyDealerScore].filter(Number.isFinite);
+    const marketLensScore = marketScores.length
+      ? marketScores.reduce((sum, value) => sum + value, 0) / marketScores.length
+      : null;
+    const independentLensScores = [marketLensScore, dynastyProcessScore].filter(Number.isFinite);
+    const consensusScore = independentLensScores.length
+      ? independentLensScores.reduce((sum, value) => sum + value, 0) / independentLensScores.length
+      : 0;
+    const disagreement = availableScores.length > 1
+      ? Math.max(...availableScores) - Math.min(...availableScores)
+      : null;
+
+    record.source_scores = {
+      fantasycalc_0_to_100: Number.isFinite(fantasyCalcScore) ? round2(fantasyCalcScore) : null,
+      dynastyprocess_0_to_100: Number.isFinite(dynastyProcessScore) ? round2(dynastyProcessScore) : null,
+      dynastydealer_0_to_100: Number.isFinite(dynastyDealerScore) ? round2(dynastyDealerScore) : null,
+      trade_market_lens_0_to_100: Number.isFinite(marketLensScore) ? round2(marketLensScore) : null
+    };
+    record.consensus_value_score = round2(consensusScore);
+    record.consensus_value = Math.round(consensusScore * 100);
+    record.source_count = availableScores.length;
+    record.source_disagreement = Number.isFinite(disagreement) ? round2(disagreement) : null;
+    record.confidence_score = availableScores.length === 3
+      ? round2(Math.max(55, 100 - disagreement))
+      : (availableScores.length === 2
+        ? round2(Math.max(45, 85 - disagreement))
+        : (availableScores.length === 1 ? 40 : 0));
+    record.league_status = record.ownership ? "rostered" : "free_agent";
+  }
+
+  records.sort((a, b) =>
+    b.consensus_value_score - a.consensus_value_score ||
+    Number(a.fantasycalc?.overall_rank || 99999) - Number(b.fantasycalc?.overall_rank || 99999) ||
+    String(a.name).localeCompare(String(b.name))
+  );
+
+  const positionRanks = new Map();
+  records.forEach((record, index) => {
+    record.consensus_rank = record.consensus_value_score > 0 ? index + 1 : null;
+    const positionCount = (positionRanks.get(record.position) || 0) + 1;
+    positionRanks.set(record.position, positionCount);
+    record.consensus_position_rank = record.consensus_value_score > 0 ? positionCount : null;
+  });
+
+  const lineupSize = (league.roster_positions || []).filter(isProjectionSlot).length;
+  const teamRows = (currentDoc.teams || []).map(team => {
+    const rosterValues = (team.players || [])
+      .map(player => recordsById.get(String(player.player_id)))
+      .filter(Boolean)
+      .sort((a, b) => b.consensus_value - a.consensus_value);
+    const lineupAdjustedValue = rosterValues.reduce((sum, record, index) => {
+      const weight = index < lineupSize ? 1 : (index < lineupSize + 6 ? 0.35 : 0.10);
+      return sum + record.consensus_value * weight;
+    }, 0);
+    const sourcedPlayers = rosterValues.filter(record => record.source_count > 0).length;
+
+    return {
+      roster_id: Number(team.roster_id),
+      owner_id: team.owner_id || null,
+      team_name: team.team_name || null,
+      roster_player_count: (team.players || []).length,
+      valued_player_count: sourcedPlayers,
+      valuation_coverage: (team.players || []).length
+        ? round3(sourcedPlayers / (team.players || []).length)
+        : 0,
+      full_roster_consensus_value: Math.round(
+        rosterValues.reduce((sum, record) => sum + record.consensus_value, 0)
+      ),
+      lineup_adjusted_value_raw: round2(lineupAdjustedValue),
+      top_assets: rosterValues.slice(0, 10).map(record => ({
+        player_id: record.player_id,
+        name: record.name,
+        position: record.position,
+        consensus_value: record.consensus_value,
+        consensus_rank: record.consensus_rank
+      }))
+    };
+  });
+
+  const teamValuePercentiles = percentileScoreMap(
+    teamRows,
+    row => row.lineup_adjusted_value_raw,
+    row => row.roster_id
+  );
+  for (const team of teamRows) {
+    team.roster_value_score = round2(teamValuePercentiles.get(team.roster_id) || 0);
+  }
+  teamRows.sort((a, b) =>
+    b.roster_value_score - a.roster_value_score ||
+    b.lineup_adjusted_value_raw - a.lineup_adjusted_value_raw ||
+    a.roster_id - b.roster_id
+  );
+  teamRows.forEach((team, index) => { team.roster_value_rank = index + 1; });
+
+  const rosteredRecords = records.filter(record => record.ownership);
+  const payload = {
+    generated_at: new Date().toISOString(),
+    league: {
+      league_id: String(league.league_id || activeLeagueId),
+      name: league.name || null,
+      season: String(currentDoc.season || league.season || ""),
+      format: settings
+    },
+    ranking_type: "normalized_multi_feed_dynasty_consensus",
+    methodology: {
+      sources_are_normalized_separately: true,
+      consensus: "FantasyCalc and Dynasty Dealer are averaged into one trade-market lens. That market lens and the DynastyProcess/FantasyPros expert lens each receive 50% when available. Missing sources do not count as zero.",
+      team_value: "All dynasty assets count, but the top lineup-sized group receives full weight, the next six assets receive 35%, and remaining depth receives 10% so elite starters matter more than unusable depth.",
+      confidence: "Higher when more sources cover a player and their normalized values agree. The disagreement field is the range between the highest and lowest normalized source score.",
+      source_independence: "FantasyCalc and Dynasty Dealer are distinct transaction-derived models but represent the same broad market signal, so they are clustered instead of double-weighted. DynastyProcess is based on FantasyPros expert consensus."
+    },
+    sources: {
+      fantasycalc: {
+        url: fantasyCalcUrl.toString(),
+        basis: "Values generated from completed fantasy trades.",
+        fetched_for: settings
+      },
+      dynastyprocess: {
+        url: DYNASTY_PROCESS_VALUES,
+        basis: "Open weekly FantasyPros ECR-derived dynasty values.",
+        latest_scrape_date: records
+          .map(record => record.dynastyprocess?.scrape_date)
+          .filter(Boolean)
+          .sort()
+          .at(-1) || null
+      },
+      dynastydealer: {
+        url: DYNASTY_DEALER_VALUES,
+        attribution: "Values by Dynasty Dealer — https://www.dynastydealer.com/",
+        basis: "Values generated from real Sleeper dynasty trades with a small community adjustment.",
+        endpoint_timestamp: dynastyDealerDoc?.timestamp || null,
+        latest_player_update: records
+          .map(record => record.dynastydealer?.updated_at)
+          .filter(Boolean)
+          .sort()
+          .at(-1) || null
+      }
+    },
+    data_quality: {
+      player_count: records.length,
+      players_with_all_three_sources: records.filter(record => record.source_count === 3).length,
+      players_with_both_sources: records.filter(record => record.source_count === 2).length,
+      players_with_one_source: records.filter(record => record.source_count === 1).length,
+      rostered_player_count: rosteredRecords.length,
+      rostered_players_with_any_value: rosteredRecords.filter(record => record.source_count > 0).length,
+      rostered_players_with_all_three_values: rosteredRecords.filter(record => record.source_count === 3).length,
+      rostered_players_with_both_values: rosteredRecords.filter(record => record.source_count >= 2).length
+    },
+    players: records,
+    teams: teamRows
+  };
+
+  const path = "player-values.json";
+  await upsertGitHubJSON(
+    path,
+    payload,
+    "Add multi-feed dynasty player values",
+    githubToken
+  );
+
+  return {
+    path,
+    player_count: records.length,
+    team_count: teamRows.length,
+    players_with_all_three_sources: payload.data_quality.players_with_all_three_sources,
+    rostered_players_with_any_value: payload.data_quality.rostered_players_with_any_value,
+    rostered_players_with_all_three_values: payload.data_quality.rostered_players_with_all_three_values,
+    rostered_player_count: payload.data_quality.rostered_player_count
+  };
+}
+
+function fantasyCalcLeagueSettings(league) {
+  const rosterPositions = Array.isArray(league.roster_positions)
+    ? league.roster_positions
+    : [];
+  const hasSecondQuarterback = rosterPositions.includes("SUPER_FLEX") ||
+    rosterPositions.filter(position => position === "QB").length > 1;
+  const receptionPoints = Number(league.scoring_settings?.rec ?? 1);
+  const supportedPpr = [0, 0.5, 1].reduce((best, value) =>
+    Math.abs(value - receptionPoints) < Math.abs(best - receptionPoints) ? value : best
+  , 1);
+
+  return {
+    num_qbs: hasSecondQuarterback ? 2 : 1,
+    num_teams: Number(league.total_rosters || league.settings?.num_teams || 12),
+    ppr: supportedPpr,
+    tight_end_premium: false
+  };
+}
+
+function currentPlayerOwnership(teams) {
+  const result = new Map();
+  for (const team of teams) {
+    const taxiIds = new Set((team.taxi || []).filter(Boolean).map(player => String(player.player_id)));
+    const reserveIds = new Set((team.reserve || []).filter(Boolean).map(player => String(player.player_id)));
+
+    for (const player of (team.players || []).filter(Boolean)) {
+      const playerId = String(player.player_id);
+      const rosterStatus = taxiIds.has(playerId)
+        ? "taxi"
+        : (reserveIds.has(playerId) ? "reserve" : "active_roster");
+      result.set(playerId, {
+        player,
+        ownership: {
+          roster_id: Number(team.roster_id),
+          owner_id: team.owner_id || null,
+          team_name: team.team_name || null,
+          roster_status: rosterStatus
+        }
+      });
+    }
+  }
+  return result;
+}
+
+function externalPlayerKey(name, position) {
+  return `${normalizePlayerName(name)}|${String(position || "").toUpperCase()}`;
+}
+
+function normalizePlayerName(value) {
+  return String(value || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/\b(jr|sr|ii|iii|iv|v)\b/g, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim()
+    .replace(/\s+/g, " ");
+}
+
+function numericOrNull(value) {
+  if (value === null || value === undefined || value === "" || value === "NA") return null;
+  const numeric = Number(value);
+  return Number.isFinite(numeric) ? numeric : null;
+}
+
+function parseCsvObjects(text) {
+  const rows = [];
+  let row = [];
+  let field = "";
+  let quoted = false;
+
+  for (let index = 0; index < text.length; index++) {
+    const char = text[index];
+
+    if (quoted) {
+      if (char === '"' && text[index + 1] === '"') {
+        field += '"';
+        index += 1;
+      } else if (char === '"') {
+        quoted = false;
+      } else {
+        field += char;
+      }
+      continue;
+    }
+
+    if (char === '"') {
+      quoted = true;
+    } else if (char === ",") {
+      row.push(field);
+      field = "";
+    } else if (char === "\n") {
+      row.push(field.replace(/\r$/, ""));
+      rows.push(row);
+      row = [];
+      field = "";
+    } else {
+      field += char;
+    }
+  }
+
+  if (field.length > 0 || row.length > 0) {
+    row.push(field.replace(/\r$/, ""));
+    rows.push(row);
+  }
+
+  if (rows.length === 0) return [];
+  const headers = rows[0];
+  return rows.slice(1)
+    .filter(values => values.some(value => value !== ""))
+    .map(values => Object.fromEntries(headers.map((header, index) => [header, values[index] ?? ""])));
+}
+
+async function rebuildSeasonProjections(
+  githubToken,
+  activeLeagueId,
+  providedCurrentDoc = null,
+  providedSharedFeeds = null
+) {
+  const currentDoc = providedCurrentDoc || await getGitHubJSON("current.json", githubToken);
+  if (!currentDoc) {
+    throw new Error("current.json must exist before season projections can be rebuilt.");
+  }
+
+  const league = currentDoc.league || {};
+  const season = String(currentDoc.season || league.season || "");
+  if (!season) throw new Error("The active season could not be determined.");
+
+  const sharedFeeds = providedSharedFeeds || await fetchSharedProjectionFeeds(season);
+  const sleeperFeed = await settleProjectionFeed(
+    "sleeper",
+    () => fetchSleeperProjectionRows(season, null)
+  );
+  const ownership = currentPlayerOwnership(currentDoc.teams || []);
+  const players = normalizeConsensusProjectionRows({
+    sleeperRows: sleeperFeed.ok ? sleeperFeed.data : [],
+    espnDoc: sharedFeeds.espn?.ok ? sharedFeeds.espn.data : null,
+    statheadDoc: sharedFeeds.stathead?.ok ? sharedFeeds.stathead.data : null,
+    season,
+    week: null,
+    scoringSettings: league.scoring_settings || {},
+    ownership
+  });
+  if (players.length === 0) {
+    throw new Error("No full-season player projections were available from any source.");
+  }
+  const projectionById = new Map(players.map(player => [String(player.player_id), player]));
+  const teams = (currentDoc.teams || []).map(team =>
+    buildTeamProjection(team, projectionById, league.roster_positions || [])
+  );
+  teams.sort((a, b) =>
+    b.projected_points - a.projected_points || a.roster_id - b.roster_id
+  );
+  teams.forEach((team, index) => { team.projection_rank = index + 1; });
+
+  const generatedAt = new Date().toISOString();
+  const path = `projections/${season}/season.json`;
+  const payload = {
+    generated_at: generatedAt,
+    season,
+    projection_scope: "full_regular_season",
+    league: projectionLeagueSummary(league, activeLeagueId, season),
+    source: {
+      type: "multi_source_consensus",
+      names: Object.values(PROJECTION_SOURCE_NAMES)
+    },
+    sources: projectionSourceDescriptions(sleeperFeed, sharedFeeds),
+    methodology: {
+      player_points: "Equal-weight mean of each available Sleeper/RotoWire, ESPN, and StatHead projection. Sleeper and ESPN counting stats are scored with this league's settings; StatHead PPR is adjusted with the player's Sleeper league-to-PPR factor when available.",
+      missing_sources: "A missing source is ignored, never treated as zero. Source count, spread, and confidence are retained for every player.",
+      team_points: "Selects the highest-projected legal lineup from each current active roster. Taxi and reserve players are excluded from lineup eligibility.",
+      caution: "The team season total uses one lineup optimized on full-season player totals. The week-by-week aggregate becomes the more precise team forecast as all weekly files are populated."
+    },
+    data_quality: projectionDataQuality(players),
+    player_count: players.length,
+    team_count: teams.length,
+    players,
+    teams
+  };
+
+  await upsertGitHubJSON(
+    path,
+    payload,
+    `Update ${season} full-season player projections`,
+    githubToken
+  );
+
+  return {
+    path,
+    season,
+    player_count: players.length,
+    team_count: teams.length,
+    source_last_modified: latestProjectionTimestamp(players),
+    players_with_three_sources: players.filter(player => player.projection_source_count === 3).length
+  };
+}
+
+async function rebuildWeeklyProjections(
+  githubToken,
+  activeLeagueId,
+  week,
+  providedCurrentDoc = null,
+  providedSharedFeeds = null
+) {
+  const currentDoc = providedCurrentDoc || await getGitHubJSON("current.json", githubToken);
+  if (!currentDoc) {
+    throw new Error("current.json must exist before weekly projections can be rebuilt.");
+  }
+
+  const league = currentDoc.league || {};
+  const season = String(currentDoc.season || league.season || "");
+  if (!season) throw new Error("The active season could not be determined.");
+
+  const sharedFeeds = providedSharedFeeds || await fetchSharedProjectionFeeds(season);
+  const [sleeperFeed, matchupRows] = await Promise.all([
+    settleProjectionFeed("sleeper", () => fetchSleeperProjectionRows(season, week)),
+    getJSON(`${SLEEPER}/league/${activeLeagueId}/matchups/${week}`)
+  ]);
+  const ownership = currentPlayerOwnership(currentDoc.teams || []);
+  const players = normalizeConsensusProjectionRows({
+    sleeperRows: sleeperFeed.ok ? sleeperFeed.data : [],
+    espnDoc: sharedFeeds.espn?.ok ? sharedFeeds.espn.data : null,
+    statheadDoc: sharedFeeds.stathead?.ok ? sharedFeeds.stathead.data : null,
+    season,
+    week,
+    scoringSettings: league.scoring_settings || {},
+    ownership
+  });
+  if (players.length === 0) {
+    throw new Error(`No week ${week} player projections were available from any source.`);
+  }
+  const projectionById = new Map(players.map(player => [String(player.player_id), player]));
+  const teams = (currentDoc.teams || []).map(team =>
+    buildTeamProjection(team, projectionById, league.roster_positions || [])
+  );
+  const matchups = buildProjectedMatchups(
+    matchupRows,
+    teams,
+    week,
+    Number(league.settings?.playoff_week_start || 15)
+  );
+
+  teams.sort((a, b) =>
+    b.projected_points - a.projected_points || a.roster_id - b.roster_id
+  );
+  teams.forEach((team, index) => { team.weekly_projection_rank = index + 1; });
+
+  const generatedAt = new Date().toISOString();
+  const weekLabel = String(week).padStart(2, "0");
+  const path = `projections/${season}/weeks/week-${weekLabel}.json`;
+  const payload = {
+    generated_at: generatedAt,
+    season,
+    week,
+    phase: week >= Number(league.settings?.playoff_week_start || 15)
+      ? "postseason"
+      : "regular",
+    league: projectionLeagueSummary(league, activeLeagueId, season),
+    source: {
+      type: "multi_source_consensus",
+      names: Object.values(PROJECTION_SOURCE_NAMES)
+    },
+    sources: projectionSourceDescriptions(sleeperFeed, sharedFeeds),
+    methodology: {
+      player_points: "Equal-weight mean of each available Sleeper/RotoWire, ESPN, and StatHead projection, adjusted to this league's scoring where the feed exposes the required stats.",
+      missing_sources: "A missing source is ignored, never treated as zero. Source count, spread, and confidence are retained for every player.",
+      team_points: "Highest-projected legal lineup from each current active roster; taxi and reserve players are excluded.",
+      matchup_result: "The projected favorite is the team with the higher optimized lineup score. Win probability is intentionally withheld until historical projection errors have been backtested."
+    },
+    data_quality: projectionDataQuality(players),
+    player_count: players.length,
+    team_count: teams.length,
+    matchup_count: matchups.length,
+    players,
+    teams,
+    matchups
+  };
+
+  await upsertGitHubJSON(
+    path,
+    payload,
+    `Update ${season} week ${week} player and matchup projections`,
+    githubToken
+  );
+
+  return {
+    path,
+    season,
+    week,
+    player_count: players.length,
+    team_count: teams.length,
+    matchup_count: matchups.length,
+    source_last_modified: latestProjectionTimestamp(players),
+    players_with_three_sources: players.filter(player => player.projection_source_count === 3).length
+  };
+}
+
+async function rebuildProjectionSummary(
+  githubToken,
+  activeLeagueId,
+  providedCurrentDoc = null
+) {
+  const currentDoc = providedCurrentDoc || await getGitHubJSON("current.json", githubToken);
+  if (!currentDoc) {
+    throw new Error("current.json must exist before the projection summary can be rebuilt.");
+  }
+
+  const league = currentDoc.league || {};
+  const season = String(currentDoc.season || league.season || "");
+  const seasonDoc = await getGitHubJSON(`projections/${season}/season.json`, githubToken);
+  const weekDocs = await Promise.all(
+    Array.from({ length: NFL_REGULAR_SEASON_WEEKS }, (_, index) =>
+      getGitHubJSON(
+        `projections/${season}/weeks/week-${String(index + 1).padStart(2, "0")}.json`,
+        githubToken
+      ).catch(() => null)
+    )
+  );
+  const availableWeekDocs = weekDocs.filter(Boolean).sort((a, b) => a.week - b.week);
+  const availableWeeks = availableWeekDocs.map(doc => Number(doc.week));
+  const playerMap = new Map();
+
+  for (const player of (seasonDoc?.players || [])) {
+    playerMap.set(String(player.player_id), {
+      player_id: String(player.player_id),
+      name: player.name || String(player.player_id),
+      position: player.position || null,
+      team: player.team || null,
+      ownership: player.ownership || null,
+      full_season_projected_points: round2(player.projected_points),
+      full_season_provider_ppr_points: round2(player.provider_points?.ppr),
+      full_season_projection_sources: player.projection_sources || [],
+      full_season_projection_source_count: Number(player.projection_source_count || 0),
+      full_season_source_spread_points: numericOrNull(player.projection_source_spread_points),
+      full_season_confidence_score: numericOrNull(player.confidence_score),
+      projected_games: numericOrNull(player.projected_stats?.gp),
+      projected_points_per_game: numericOrNull(player.projected_stats?.gp) > 0
+        ? round2(player.projected_points / Number(player.projected_stats.gp))
+        : null,
+      weekly: []
+    });
+  }
+
+  for (const weekDoc of availableWeekDocs) {
+    for (const player of (weekDoc.players || [])) {
+      const playerId = String(player.player_id);
+      if (!playerMap.has(playerId)) {
+        playerMap.set(playerId, {
+          player_id: playerId,
+          name: player.name || playerId,
+          position: player.position || null,
+          team: player.team || null,
+          ownership: player.ownership || null,
+          full_season_projected_points: null,
+          full_season_provider_ppr_points: null,
+          full_season_projection_sources: [],
+          full_season_projection_source_count: 0,
+          full_season_source_spread_points: null,
+          full_season_confidence_score: null,
+          projected_games: null,
+          projected_points_per_game: null,
+          weekly: []
+        });
+      }
+      const summary = playerMap.get(playerId);
+      summary.ownership = summary.ownership || player.ownership || null;
+      summary.weekly.push({
+        week: Number(weekDoc.week),
+        opponent: player.opponent || null,
+        game_date: player.game_date || null,
+        projected_points: round2(player.projected_points),
+        provider_ppr_points: round2(player.provider_points?.ppr),
+        projection_sources: player.projection_sources || [],
+        projection_source_count: Number(player.projection_source_count || 0),
+        source_spread_points: numericOrNull(player.projection_source_spread_points),
+        confidence_score: numericOrNull(player.confidence_score)
+      });
+    }
+  }
+
+  const players = [...playerMap.values()].map(player => {
+    player.weekly.sort((a, b) => a.week - b.week);
+    player.weekly_projected_points_sum = round2(
+      player.weekly.reduce((sum, row) => sum + Number(row.projected_points || 0), 0)
+    );
+    player.week_projection_count = player.weekly.length;
+    return player;
+  }).sort((a, b) =>
+    Number(b.full_season_projected_points || b.weekly_projected_points_sum || 0) -
+      Number(a.full_season_projected_points || a.weekly_projected_points_sum || 0) ||
+    String(a.name).localeCompare(String(b.name))
+  );
+  players.forEach((player, index) => { player.season_projection_rank = index + 1; });
+
+  const seasonTeamByRoster = new Map(
+    (seasonDoc?.teams || []).map(team => [Number(team.roster_id), team])
+  );
+  const teamMap = new Map((currentDoc.teams || []).map(team => [
+    Number(team.roster_id),
+    {
+      roster_id: Number(team.roster_id),
+      owner_id: team.owner_id || null,
+      team_name: team.team_name || null,
+      consensus_full_season_lineup_projection: round2(
+        seasonTeamByRoster.get(Number(team.roster_id))?.projected_points || 0
+      ),
+      provider_full_season_lineup_projection: round2(
+        seasonTeamByRoster.get(Number(team.roster_id))?.projected_points || 0
+      ),
+      weekly: [],
+      projected_regular_season_record: { wins: 0, losses: 0, ties: 0 },
+      schedule: []
+    }
+  ]));
+
+  for (const weekDoc of availableWeekDocs) {
+    for (const team of (weekDoc.teams || [])) {
+      const summary = teamMap.get(Number(team.roster_id));
+      if (!summary) continue;
+      summary.weekly.push({
+        week: Number(weekDoc.week),
+        projected_points: round2(team.projected_points),
+        lineup_projection_coverage: round3(team.lineup_projection_coverage)
+      });
+    }
+
+    for (const matchup of (weekDoc.matchups || [])) {
+      for (const side of [matchup.team_1, matchup.team_2]) {
+        const summary = teamMap.get(Number(side?.roster_id));
+        if (!summary) continue;
+        const opponent = Number(side.roster_id) === Number(matchup.team_1?.roster_id)
+          ? matchup.team_2
+          : matchup.team_1;
+        summary.schedule.push({
+          week: Number(weekDoc.week),
+          opponent_roster_id: opponent?.roster_id ?? null,
+          opponent_team: opponent?.team_name || null,
+          projected_points: round2(side.projected_points),
+          opponent_projected_points: round2(opponent?.projected_points),
+          projected_result: matchup.projected_winner_roster_id == null
+            ? "tie"
+            : (Number(matchup.projected_winner_roster_id) === Number(side.roster_id) ? "win" : "loss")
+        });
+
+        if (Number(weekDoc.week) < Number(league.settings?.playoff_week_start || 15)) {
+          if (matchup.projected_winner_roster_id == null) {
+            summary.projected_regular_season_record.ties += 1;
+          } else if (Number(matchup.projected_winner_roster_id) === Number(side.roster_id)) {
+            summary.projected_regular_season_record.wins += 1;
+          } else {
+            summary.projected_regular_season_record.losses += 1;
+          }
+        }
+      }
+    }
+  }
+
+  const teams = [...teamMap.values()].map(team => {
+    team.weekly.sort((a, b) => a.week - b.week);
+    team.schedule.sort((a, b) => a.week - b.week);
+    team.weekly_projected_points_sum = round2(
+      team.weekly.reduce((sum, row) => sum + Number(row.projected_points || 0), 0)
+    );
+    team.regular_season_projected_points_sum = round2(
+      team.weekly
+        .filter(row => row.week < Number(league.settings?.playoff_week_start || 15))
+        .reduce((sum, row) => sum + Number(row.projected_points || 0), 0)
+    );
+    team.week_projection_count = team.weekly.length;
+    team.average_weekly_projected_points = team.weekly.length
+      ? round2(team.weekly_projected_points_sum / team.weekly.length)
+      : 0;
+    return team;
+  }).sort((a, b) =>
+    b.consensus_full_season_lineup_projection - a.consensus_full_season_lineup_projection ||
+    b.average_weekly_projected_points - a.average_weekly_projected_points ||
+    a.roster_id - b.roster_id
+  );
+  teams.forEach((team, index) => { team.season_projection_rank = index + 1; });
+
+  const generatedAt = new Date().toISOString();
+  const missingWeeks = Array.from(
+    { length: NFL_REGULAR_SEASON_WEEKS },
+    (_, index) => index + 1
+  ).filter(week => !availableWeeks.includes(week));
+  const payload = {
+    generated_at: generatedAt,
+    season,
+    league: projectionLeagueSummary(league, activeLeagueId, season),
+    source: {
+      type: "multi_source_consensus",
+      names: Object.values(PROJECTION_SOURCE_NAMES)
+    },
+    sources: seasonDoc?.sources || availableWeekDocs.at(-1)?.sources || {},
+    coverage: {
+      full_season_projection_available: Boolean(seasonDoc),
+      weekly_files_available: availableWeeks.length,
+      available_weeks: availableWeeks,
+      missing_weeks: missingWeeks,
+      weekly_bootstrap_complete: missingWeeks.length === 0
+    },
+    methodology: {
+      player_season_projection: "Equal-weight available-source consensus across Sleeper/RotoWire, ESPN, and StatHead.",
+      player_weekly_projection: "Individual weekly consensus projections retain source coverage, disagreement, and confidence so changes over time can be audited.",
+      team_season_projection: "Consensus full-season lineup projection is available immediately. The weekly aggregate becomes authoritative after all 18 weekly files are populated.",
+      projected_record: "Compares optimized weekly lineup scores for each scheduled matchup; it is a deterministic projected record, not a probability simulation."
+    },
+    player_count: players.length,
+    team_count: teams.length,
+    players,
+    teams
+  };
+
+  const path = "projection-summary.json";
+  await upsertGitHubJSON(
+    path,
+    payload,
+    `Update ${season} player and matchup projection summary`,
+    githubToken
+  );
+
+  return {
+    path,
+    season,
+    player_count: players.length,
+    team_count: teams.length,
+    available_weeks: availableWeeks,
+    missing_weeks: missingWeeks,
+    weekly_bootstrap_complete: missingWeeks.length === 0
+  };
+}
+
+async function fetchSharedProjectionFeeds(season) {
+  if (!/^\d{4}$/.test(String(season))) {
+    throw new Error("Projection season must be a four-digit year.");
+  }
+
+  const [espn, stathead] = await Promise.all([
+    settleProjectionFeed("espn", () => fetchEspnProjectionDoc(season)),
+    settleProjectionFeed("stathead", () => fetchStatheadProjectionDoc(season))
+  ]);
+  return { espn, stathead };
+}
+
+async function settleProjectionFeed(source, loader) {
+  try {
+    return {
+      source,
+      ok: true,
+      fetched_at: new Date().toISOString(),
+      data: await loader()
+    };
+  } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    console.warn(JSON.stringify({ event: "projection_feed_unavailable", source, error: message }));
+    return {
+      source,
+      ok: false,
+      fetched_at: new Date().toISOString(),
+      error: message,
+      data: null
+    };
+  }
+}
+
+async function fetchEspnProjectionDoc(season) {
+  const url = `${ESPN_PROJECTIONS}/seasons/${season}/segments/0/leaguedefaults/3?view=kona_player_info`;
+  const filter = JSON.stringify({
+    players: {
+      limit: 500,
+      sortPercOwned: { sortPriority: 1, sortAsc: false },
+      filterStatsForSourceIds: { value: [1] }
+    }
+  });
+  const doc = await getBoundedJSON(
+    url,
+    MAX_EXTERNAL_FEED_BYTES,
+    `ESPN ${season} projections`,
+    { "X-Fantasy-Filter": filter }
+  );
+  if (!Array.isArray(doc?.players)) {
+    throw new Error("ESPN projection response did not include a player pool.");
+  }
+  return doc;
+}
+
+async function fetchStatheadProjectionDoc(season) {
+  const url = `${STATHEAD_PROJECTIONS}/weekly-projections-${season}.json`;
+  const doc = await getBoundedJSON(
+    url,
+    MAX_EXTERNAL_FEED_BYTES,
+    `StatHead ${season} projections`
+  );
+  if (!Array.isArray(doc?.players) || Number(doc?.season) !== Number(season)) {
+    throw new Error("StatHead projection response did not match the requested season.");
+  }
+  return doc;
+}
+
+async function fetchSleeperProjectionRows(season, week = null) {
+  const suffix = week == null ? String(season) : `${season}/${week}`;
+  const url = new URL(`${SLEEPER_PROJECTIONS}/${suffix}`);
+  url.searchParams.set("season_type", "regular");
+  url.searchParams.set("order_by", "pts_ppr");
+  for (const position of PROJECTION_POSITIONS) {
+    url.searchParams.append("position[]", position);
+  }
+
+  const rows = await getBoundedJSON(
+    url.toString(),
+    MAX_EXTERNAL_FEED_BYTES,
+    `Sleeper ${season}${week == null ? " season" : ` week ${week}`} projections`
+  );
+  if (!Array.isArray(rows)) {
+    throw new Error("Sleeper projection response was not an array.");
+  }
+  return rows;
+}
+
+function normalizeProjectionRows(rows, scoringSettings, ownership) {
+  const records = [];
+  const seen = new Set();
+
+  for (const row of rows) {
+    const playerId = row?.player_id == null ? null : String(row.player_id);
+    if (!playerId || seen.has(playerId)) continue;
+    const stats = row.stats && typeof row.stats === "object" ? row.stats : {};
+    const customPoints = calculateProjectedPoints(stats, scoringSettings);
+    const providerPpr = Number(stats.pts_ppr || 0);
+    if (!(customPoints > 0 || providerPpr > 0)) continue;
+    seen.add(playerId);
+
+    const player = row.player || {};
+    const name = [player.first_name, player.last_name].filter(Boolean).join(" ") || playerId;
+    records.push({
+      player_id: playerId,
+      name,
+      position: player.position || null,
+      fantasy_positions: Array.isArray(player.fantasy_positions)
+        ? player.fantasy_positions
+        : [player.position].filter(Boolean),
+      team: row.team || player.team || null,
+      opponent: row.opponent || null,
+      game_date: row.date || null,
+      projected_points: round2(customPoints),
+      provider_points: {
+        ppr: round2(stats.pts_ppr),
+        half_ppr: round2(stats.pts_half_ppr),
+        standard: round2(stats.pts_std)
+      },
+      projected_stats: projectionStatSubset(stats, scoringSettings),
+      source_company: row.company || null,
+      source_last_modified: timestampToIso(row.last_modified || row.updated_at),
+      ownership: ownership.get(playerId)?.ownership || null,
+      league_status: ownership.has(playerId) ? "rostered" : "free_agent"
+    });
+  }
+
+  records.sort((a, b) =>
+    b.projected_points - a.projected_points || String(a.name).localeCompare(String(b.name))
+  );
+  records.forEach((record, index) => { record.projection_rank = index + 1; });
+  return records;
+}
+
+function normalizeConsensusProjectionRows({
+  sleeperRows,
+  espnDoc,
+  statheadDoc,
+  season,
+  week,
+  scoringSettings,
+  ownership
+}) {
+  const sleeperRecords = normalizeProjectionRows(
+    Array.isArray(sleeperRows) ? sleeperRows : [],
+    scoringSettings,
+    ownership
+  );
+  const sleeperById = new Map(
+    sleeperRecords.map(record => [String(record.player_id), record])
+  );
+  const identities = new Map(sleeperById);
+
+  for (const [playerId, current] of ownership.entries()) {
+    const player = current?.player;
+    const position = String(player?.position || "").toUpperCase();
+    if (!player || !PROJECTION_POSITIONS.includes(position) || identities.has(playerId)) continue;
+    identities.set(playerId, projectionIdentity({
+      playerId,
+      name: player.name || playerId,
+      position,
+      fantasyPositions: player.fantasy_positions,
+      team: player.team,
+      ownership: current.ownership
+    }));
+  }
+
+  const statheadById = new Map();
+  for (const row of (Array.isArray(statheadDoc?.players) ? statheadDoc.players : [])) {
+    const playerId = row?.sleeper == null ? null : String(row.sleeper);
+    const position = String(row?.pos || "").toUpperCase();
+    if (!playerId || !PROJECTION_POSITIONS.includes(position)) continue;
+    statheadById.set(playerId, row);
+    if (!identities.has(playerId)) {
+      identities.set(playerId, projectionIdentity({
+        playerId,
+        name: row.name || playerId,
+        position,
+        team: row.team,
+        ownership: ownership.get(playerId)?.ownership || null
+      }));
+    }
+  }
+
+  const espnByPlayer = new Map();
+  for (const wrapper of (Array.isArray(espnDoc?.players) ? espnDoc.players : [])) {
+    const player = wrapper?.player || {};
+    const position = ESPN_POSITION_BY_ID[Number(player.defaultPositionId)] || null;
+    if (!position || !player.fullName) continue;
+    const stats = Array.isArray(player.stats)
+      ? player.stats
+      : (Array.isArray(wrapper?.playerPoolEntry?.stats) ? wrapper.playerPoolEntry.stats : []);
+    const projection = stats.find(stat =>
+      Number(stat?.seasonId) === Number(season) &&
+      Number(stat?.statSourceId ?? stat?.statTypeId) === 1 &&
+      (week == null
+        ? Number(stat?.statSplitTypeId) === 0 && Number(stat?.scoringPeriodId) === 0
+        : Number(stat?.statSplitTypeId) === 1 && Number(stat?.scoringPeriodId) === Number(week))
+    );
+    if (!projection) continue;
+    const projectedPoints = calculateEspnLeaguePoints(projection, scoringSettings);
+    if (!(projectedPoints > 0)) continue;
+    espnByPlayer.set(externalPlayerKey(player.fullName, position), {
+      projected_points: projectedPoints,
+      espn_player_id: player.id == null ? null : String(player.id)
+    });
+  }
+
+  const records = [];
+  for (const [playerId, identity] of identities.entries()) {
+    const sleeper = sleeperById.get(playerId) || null;
+    const espn = espnByPlayer.get(externalPlayerKey(identity.name, identity.position)) || null;
+    const stathead = statheadById.get(playerId) || null;
+    const sleeperPoints = positiveNumberOrNull(sleeper?.projected_points);
+    const sleeperPpr = positiveNumberOrNull(sleeper?.provider_points?.ppr);
+    const leagueAdjustment = sleeperPoints && sleeperPpr
+      ? clamp(sleeperPoints / sleeperPpr, 0.75, 1.25)
+      : 1;
+    const statheadPpr = statheadProjectionPoints(stathead, week);
+    const sourceRows = [
+      { id: "sleeper", points: sleeperPoints },
+      { id: "espn", points: positiveNumberOrNull(espn?.projected_points) },
+      {
+        id: "stathead",
+        points: statheadPpr == null ? null : statheadPpr * leagueAdjustment
+      }
+    ].filter(source => Number.isFinite(source.points) && source.points > 0);
+
+    if (sourceRows.length === 0) continue;
+    const consensus = sourceRows.reduce((sum, source) => sum + source.points, 0) / sourceRows.length;
+    const sourceMinimum = Math.min(...sourceRows.map(source => source.points));
+    const sourceMaximum = Math.max(...sourceRows.map(source => source.points));
+    const spread = sourceRows.length > 1 ? sourceMaximum - sourceMinimum : null;
+    const spreadPercent = Number.isFinite(spread) && consensus > 0
+      ? 100 * spread / consensus
+      : null;
+    const confidence = projectionConfidence(sourceRows.length, spreadPercent);
+
+    records.push({
+      ...identity,
+      opponent: sleeper?.opponent || null,
+      game_date: sleeper?.game_date || null,
+      projected_points: round2(consensus),
+      provider_points: sleeper?.provider_points || {
+        ppr: null,
+        half_ppr: null,
+        standard: null
+      },
+      projected_stats: sleeper?.projected_stats || {},
+      projection_sources: sourceRows.map(source => source.id),
+      projection_source_names: sourceRows.map(source => PROJECTION_SOURCE_NAMES[source.id]),
+      projection_source_count: sourceRows.length,
+      projection_source_spread_points: Number.isFinite(spread) ? round2(spread) : null,
+      projection_source_spread_percent: Number.isFinite(spreadPercent) ? round2(spreadPercent) : null,
+      confidence_score: confidence,
+      ensemble_method: "equal_weight_mean_of_available_sources",
+      source_company: "multi-source ensemble",
+      source_last_modified: sleeper?.source_last_modified || null,
+      league_status: identity.ownership ? "rostered" : "free_agent"
+    });
+  }
+
+  records.sort((a, b) =>
+    b.projected_points - a.projected_points || String(a.name).localeCompare(String(b.name))
+  );
+  records.forEach((record, index) => { record.projection_rank = index + 1; });
+  return records;
+}
+
+function projectionIdentity({
+  playerId,
+  name,
+  position,
+  fantasyPositions = null,
+  team = null,
+  ownership = null
+}) {
+  return {
+    player_id: String(playerId),
+    name: name || String(playerId),
+    position: position || null,
+    fantasy_positions: Array.isArray(fantasyPositions) && fantasyPositions.length
+      ? fantasyPositions
+      : [position].filter(Boolean),
+    team: team || null,
+    ownership: ownership || null
+  };
+}
+
+function statheadProjectionPoints(row, week) {
+  if (!row) return null;
+  if (week == null) {
+    const ppg = positiveNumberOrNull(row.ppg);
+    const games = positiveNumberOrNull(row.gp);
+    return ppg && games ? ppg * games : positiveNumberOrNull(row.rosPts);
+  }
+  if (!Array.isArray(row.wk)) return null;
+  return positiveNumberOrNull(row.wk[Number(week) - 1]);
+}
+
+function calculateEspnLeaguePoints(projection, scoringSettings) {
+  const stats = projection?.stats && typeof projection.stats === "object"
+    ? projection.stats
+    : {};
+  const mappedStats = {
+    pass_yd: numericOrNull(stats["3"]),
+    pass_td: numericOrNull(stats["4"]),
+    pass_2pt: numericOrNull(stats["19"]),
+    pass_int: numericOrNull(stats["20"]),
+    rush_yd: numericOrNull(stats["24"]),
+    rush_td: numericOrNull(stats["25"]),
+    rush_2pt: numericOrNull(stats["26"]),
+    rec_yd: numericOrNull(stats["42"]),
+    rec_td: numericOrNull(stats["43"]),
+    rec_2pt: numericOrNull(stats["44"]),
+    rec: numericOrNull(stats["53"]),
+    fum_rec_td: numericOrNull(stats["63"]),
+    fum_lost: numericOrNull(stats["72"])
+  };
+  const leaguePoints = calculateProjectedPoints(mappedStats, scoringSettings);
+  if (leaguePoints > 0) return leaguePoints;
+
+  const fallback = Number(projection?.appliedTotal);
+  return Number.isFinite(fallback) && fallback > 0 ? fallback : 0;
+}
+
+function projectionConfidence(sourceCount, spreadPercent) {
+  if (sourceCount >= 3) {
+    return round2(Math.max(50, 100 - Number(spreadPercent || 0)));
+  }
+  if (sourceCount === 2) {
+    return round2(Math.max(40, 80 - Number(spreadPercent || 0)));
+  }
+  return sourceCount === 1 ? 35 : 0;
+}
+
+function positiveNumberOrNull(value) {
+  const numeric = Number(value);
+  return Number.isFinite(numeric) && numeric > 0 ? numeric : null;
+}
+
+function clamp(value, minimum, maximum) {
+  return Math.min(maximum, Math.max(minimum, value));
+}
+
+function projectionDataQuality(players) {
+  const rostered = players.filter(player => player.ownership);
+  return {
+    player_count: players.length,
+    players_with_three_sources: players.filter(player => player.projection_source_count === 3).length,
+    players_with_two_sources: players.filter(player => player.projection_source_count === 2).length,
+    players_with_one_source: players.filter(player => player.projection_source_count === 1).length,
+    rostered_player_count_with_projection: rostered.length,
+    rostered_players_with_three_sources: rostered.filter(player => player.projection_source_count === 3).length,
+    rostered_players_with_two_or_more_sources: rostered.filter(player => player.projection_source_count >= 2).length
+  };
+}
+
+function calculateProjectedPoints(stats, scoringSettings) {
+  let points = 0;
+  for (const [statName, multiplierValue] of Object.entries(scoringSettings || {})) {
+    const multiplier = Number(multiplierValue);
+    const projectedStat = Number(stats?.[statName]);
+    if (!Number.isFinite(multiplier) || !Number.isFinite(projectedStat)) continue;
+    points += multiplier * projectedStat;
+  }
+  return points;
+}
+
+function projectionStatSubset(stats, scoringSettings) {
+  const usageKeys = new Set([
+    "gp", "pass_att", "pass_cmp", "pass_yd", "pass_td", "pass_int",
+    "rush_att", "rush_yd", "rush_td", "rec_tgt", "rec", "rec_yd",
+    "rec_td", "fum", "fum_lost"
+  ]);
+  for (const key of Object.keys(scoringSettings || {})) usageKeys.add(key);
+
+  const output = {};
+  for (const key of [...usageKeys].sort()) {
+    const value = Number(stats?.[key]);
+    if (Number.isFinite(value) && value !== 0) output[key] = value;
+  }
+  return output;
+}
+
+function buildTeamProjection(team, projectionById, rosterPositions) {
+  const result = optimizeProjectedLineup(team, projectionById, rosterPositions);
+  return {
+    roster_id: Number(team.roster_id),
+    owner_id: team.owner_id || null,
+    team_name: team.team_name || null,
+    projected_points: round2(result.projected_points),
+    lineup_projection_coverage: round3(result.lineup_projection_coverage),
+    projected_starter_count: result.lineup.filter(slot => slot.player).length,
+    projected_starters_with_points: result.lineup.filter(slot => slot.projected_points > 0).length,
+    optimal_lineup: result.lineup,
+    projected_bench: result.bench
+  };
+}
+
+function optimizeProjectedLineup(team, projectionById, rosterPositions) {
+  const slots = (rosterPositions || []).filter(isProjectionSlot);
+  if (slots.length === 0 || slots.length > 20) {
+    return { projected_points: 0, lineup_projection_coverage: 0, lineup: [], bench: [] };
+  }
+
+  const taxiIds = new Set((team.taxi || []).filter(Boolean).map(player => String(player.player_id)));
+  const reserveIds = new Set((team.reserve || []).filter(Boolean).map(player => String(player.player_id)));
+  const candidates = (team.players || [])
+    .filter(Boolean)
+    .filter(player => {
+      const playerId = String(player.player_id);
+      return !taxiIds.has(playerId) && !reserveIds.has(playerId);
+    })
+    .map(player => {
+      const projection = projectionById.get(String(player.player_id));
+      return {
+        player_id: String(player.player_id),
+        name: player.name || projection?.name || String(player.player_id),
+        position: player.position || projection?.position || null,
+        fantasy_positions: player.fantasy_positions?.length
+          ? player.fantasy_positions
+          : (projection?.fantasy_positions || [player.position].filter(Boolean)),
+        team: player.team || projection?.team || null,
+        opponent: projection?.opponent || null,
+        projected_points: round2(projection?.projected_points || 0)
+      };
+    });
+
+  const stateCount = 1 << slots.length;
+  let states = Array(stateCount).fill(null);
+  states[0] = { points: 0, lineup: Array(slots.length).fill(null) };
+
+  for (const candidate of candidates) {
+    const next = states.slice();
+    for (let mask = 0; mask < stateCount; mask++) {
+      const state = states[mask];
+      if (!state) continue;
+
+      for (let slotIndex = 0; slotIndex < slots.length; slotIndex++) {
+        const bit = 1 << slotIndex;
+        if ((mask & bit) !== 0 || !playerEligibleForSlot(candidate, slots[slotIndex])) continue;
+        const nextMask = mask | bit;
+        const nextPoints = state.points + candidate.projected_points;
+        if (!next[nextMask] || nextPoints > next[nextMask].points) {
+          const lineup = state.lineup.slice();
+          lineup[slotIndex] = candidate;
+          next[nextMask] = { points: nextPoints, lineup };
+        }
+      }
+    }
+    states = next;
+  }
+
+  const fullMask = stateCount - 1;
+  let best = states[fullMask];
+  if (!best) {
+    best = states.filter(Boolean).sort((a, b) =>
+      b.lineup.filter(Boolean).length - a.lineup.filter(Boolean).length ||
+      b.points - a.points
+    )[0] || { points: 0, lineup: Array(slots.length).fill(null) };
+  }
+
+  const selectedIds = new Set(best.lineup.filter(Boolean).map(player => player.player_id));
+  const lineup = slots.map((slot, index) => ({
+    slot,
+    player: best.lineup[index] ? {
+      player_id: best.lineup[index].player_id,
+      name: best.lineup[index].name,
+      position: best.lineup[index].position,
+      team: best.lineup[index].team,
+      opponent: best.lineup[index].opponent
+    } : null,
+    projected_points: round2(best.lineup[index]?.projected_points || 0)
+  }));
+  const bench = candidates
+    .filter(player => !selectedIds.has(player.player_id))
+    .sort((a, b) => b.projected_points - a.projected_points || String(a.name).localeCompare(String(b.name)))
+    .map(player => ({
+      player_id: player.player_id,
+      name: player.name,
+      position: player.position,
+      team: player.team,
+      opponent: player.opponent,
+      projected_points: player.projected_points
+    }));
+  const coveredSlots = lineup.filter(slot => slot.projected_points > 0).length;
+
+  return {
+    projected_points: best.points,
+    lineup_projection_coverage: slots.length ? coveredSlots / slots.length : 0,
+    lineup,
+    bench
+  };
+}
+
+function isProjectionSlot(slot) {
+  return ["QB", "RB", "WR", "TE", "FLEX", "SUPER_FLEX"].includes(slot);
+}
+
+function playerEligibleForSlot(player, slot) {
+  const positions = new Set(
+    (player.fantasy_positions?.length ? player.fantasy_positions : [player.position])
+      .filter(Boolean)
+      .map(position => String(position).toUpperCase())
+  );
+  if (slot === "FLEX") return ["RB", "WR", "TE"].some(position => positions.has(position));
+  if (slot === "SUPER_FLEX") {
+    return ["QB", "RB", "WR", "TE"].some(position => positions.has(position));
+  }
+  return positions.has(slot);
+}
+
+function buildProjectedMatchups(matchupRows, teams, week, playoffWeekStart) {
+  const teamByRoster = new Map(teams.map(team => [Number(team.roster_id), team]));
+  const groups = new Map();
+
+  for (const row of Array.isArray(matchupRows) ? matchupRows : []) {
+    if (row?.matchup_id === null || row?.matchup_id === undefined) continue;
+    const key = String(row.matchup_id);
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(Number(row.roster_id));
+  }
+
+  const matchups = [];
+  for (const [matchupId, rosterIds] of groups.entries()) {
+    const uniqueRosterIds = [...new Set(rosterIds)].sort((a, b) => a - b);
+    if (uniqueRosterIds.length < 2) continue;
+    const teamOne = teamByRoster.get(uniqueRosterIds[0]);
+    const teamTwo = teamByRoster.get(uniqueRosterIds[1]);
+    if (!teamOne || !teamTwo) continue;
+    const difference = round2(teamOne.projected_points - teamTwo.projected_points);
+    const winnerRosterId = difference === 0
+      ? null
+      : (difference > 0 ? teamOne.roster_id : teamTwo.roster_id);
+
+    matchups.push({
+      matchup_id: Number.isFinite(Number(matchupId)) ? Number(matchupId) : matchupId,
+      week,
+      phase: week >= playoffWeekStart ? "postseason" : "regular",
+      team_1: projectedTeamSide(teamOne),
+      team_2: projectedTeamSide(teamTwo),
+      projected_winner_roster_id: winnerRosterId,
+      projected_winner_team: winnerRosterId == null
+        ? null
+        : (winnerRosterId === teamOne.roster_id ? teamOne.team_name : teamTwo.team_name),
+      projected_margin: round2(Math.abs(difference)),
+      projected_tie: difference === 0
+    });
+  }
+
+  return matchups.sort((a, b) => Number(a.matchup_id) - Number(b.matchup_id));
+}
+
+function projectedTeamSide(team) {
+  return {
+    roster_id: team.roster_id,
+    owner_id: team.owner_id,
+    team_name: team.team_name,
+    projected_points: team.projected_points,
+    lineup_projection_coverage: team.lineup_projection_coverage
+  };
+}
+
+function projectionLeagueSummary(league, activeLeagueId, season) {
+  return {
+    league_id: String(league.league_id || activeLeagueId),
+    name: league.name || null,
+    season,
+    total_rosters: Number(league.total_rosters || league.settings?.num_teams || 0),
+    scoring_settings: league.scoring_settings || {},
+    roster_positions: league.roster_positions || [],
+    playoff_week_start: Number(league.settings?.playoff_week_start || 15)
+  };
+}
+
+function projectionSourceDescriptions(sleeperFeed, sharedFeeds) {
+  const espnFeed = sharedFeeds?.espn || { ok: false, error: "not fetched" };
+  const statheadFeed = sharedFeeds?.stathead || { ok: false, error: "not fetched" };
+  return {
+    ensemble: {
+      method: "equal_weight_mean_of_available_sources",
+      source_count_target: 3,
+      missing_source_policy: "ignore_missing_not_zero",
+      raw_espn_values_persisted: false
+    },
+    sleeper: {
+      name: PROJECTION_SOURCE_NAMES.sleeper,
+      status: sleeperFeed?.ok ? "available" : "unavailable",
+      fetched_at: sleeperFeed?.fetched_at || null,
+      error: sleeperFeed?.ok ? null : (sleeperFeed?.error || null),
+      provider_company_reported_by_feed: "RotoWire",
+      access_status: "Publicly reachable but not documented in Sleeper's official API reference.",
+      scoring: "Projected counting stats scored with the league's Sleeper settings."
+    },
+    espn: {
+      name: PROJECTION_SOURCE_NAMES.espn,
+      status: espnFeed.ok ? "available" : "unavailable",
+      fetched_at: espnFeed.fetched_at || null,
+      error: espnFeed.ok ? null : (espnFeed.error || null),
+      access_status: "Publicly reachable ESPN fantasy player pool endpoint; undocumented and isolated behind a fallback adapter.",
+      scoring: "ESPN projected counting stats mapped to the league's Sleeper scoring settings.",
+      retention: "Only the league-specific consensus and coverage metadata are persisted; raw ESPN projection rows are not republished."
+    },
+    stathead: {
+      name: PROJECTION_SOURCE_NAMES.stathead,
+      status: statheadFeed.ok ? "available" : "unavailable",
+      fetched_at: statheadFeed.fetched_at || null,
+      generated_at: statheadFeed.ok ? (statheadFeed.data?.generatedAt || null) : null,
+      error: statheadFeed.ok ? null : (statheadFeed.error || null),
+      model: "Open weekly model based on season PPG, opponent defense versus position, venue, and available market environment.",
+      license: "StatHead model outputs are published for reuse; code is MIT licensed.",
+      scoring: "PPR points adjusted by the player's Sleeper league-to-PPR factor when available."
+    }
+  };
+}
+
+function latestProjectionTimestamp(players) {
+  return players
+    .map(player => player.source_last_modified)
+    .filter(Boolean)
+    .sort()
+    .at(-1) || null;
+}
+
+function timestampToIso(value) {
+  const numeric = Number(value);
+  if (!Number.isFinite(numeric) || numeric <= 0) return null;
+  try { return new Date(numeric).toISOString(); } catch { return null; }
+}
+
+
 async function rebuildPowerRankings(githubToken, activeLeagueId, providedChain = null) {
   const chainNewestFirst = providedChain || await discoverLeagueChain(activeLeagueId);
   const chain = [...chainNewestFirst].reverse();
 
-  const [currentDoc, pickDoc, previousRankings] = await Promise.all([
+  const [currentDoc, pickDoc, previousRankings, playerValueDoc, projectionDoc] = await Promise.all([
     getGitHubJSON("current.json", githubToken),
     getGitHubJSON("draft-pick-ownership.json", githubToken),
-    getGitHubJSON("power-rankings.json", githubToken).catch(() => null)
+    getGitHubJSON("power-rankings.json", githubToken).catch(() => null),
+    getGitHubJSON("player-values.json", githubToken).catch(() => null),
+    getGitHubJSON("projection-summary.json", githubToken).catch(() => null)
   ]);
 
   const seasonTeamDocs = {};
@@ -1720,6 +3463,12 @@ async function rebuildPowerRankings(githubToken, activeLeagueId, providedChain =
   const pickRowsByOwner = new Map(
     (pickDoc?.by_owner || []).map(row => [Number(row.roster_id), row])
   );
+  const playerValueByRoster = new Map(
+    (playerValueDoc?.teams || []).map(row => [Number(row.roster_id), row])
+  );
+  const projectionByRoster = new Map(
+    (projectionDoc?.teams || []).map(row => [Number(row.roster_id), row])
+  );
 
   const rankingRows = currentTeams.map(team => {
     const ownerId = String(team.owner_id);
@@ -1766,6 +3515,8 @@ async function rebuildPowerRankings(githubToken, activeLeagueId, providedChain =
     const pickCapitalRaw = calculateDraftCapitalRawScore(pickSummary, currentSeasonNumber);
     const rosterProfile = summarizeRosterProfile(team);
     const record = team.record || {};
+    const rosterValue = playerValueByRoster.get(Number(team.roster_id)) || null;
+    const projection = projectionByRoster.get(Number(team.roster_id)) || null;
 
     return {
       owner_id: ownerId,
@@ -1775,6 +3526,12 @@ async function rebuildPowerRankings(githubToken, activeLeagueId, providedChain =
       team_name: team.team_name || null,
       competitive_score_raw: competitiveScore,
       draft_capital_raw: pickCapitalRaw,
+      roster_value_raw: numericOrNull(rosterValue?.lineup_adjusted_value_raw),
+      projection_raw: numericOrNull(
+        projection?.consensus_full_season_lineup_projection ||
+        projection?.provider_full_season_lineup_projection ||
+        projection?.average_weekly_projected_points
+      ),
       recent_performance: perSeason,
       current_record: {
         wins: Number(record.wins || 0),
@@ -1790,6 +3547,20 @@ async function rebuildPowerRankings(githubToken, activeLeagueId, providedChain =
         third_round_picks: pickSummary.third_round_picks || 0,
         by_season: pickSummary.by_season || {}
       },
+      roster_value: rosterValue ? {
+        full_roster_consensus_value: rosterValue.full_roster_consensus_value || 0,
+        lineup_adjusted_value: rosterValue.lineup_adjusted_value_raw || 0,
+        valuation_coverage: rosterValue.valuation_coverage || 0,
+        top_assets: rosterValue.top_assets || []
+      } : null,
+      projection: projection ? {
+        consensus_full_season_lineup_projection: projection.consensus_full_season_lineup_projection ||
+          projection.provider_full_season_lineup_projection || 0,
+        provider_full_season_lineup_projection: projection.provider_full_season_lineup_projection || 0,
+        average_weekly_projected_points: projection.average_weekly_projected_points || 0,
+        available_week_count: projection.week_projection_count || 0,
+        projected_regular_season_record: projection.projected_regular_season_record || null
+      } : null,
       roster_profile: rosterProfile
     };
   });
@@ -1804,19 +3575,52 @@ async function rebuildPowerRankings(githubToken, activeLeagueId, providedChain =
     row => row.draft_capital_raw,
     row => row.owner_id
   );
+  const rowsWithRosterValues = rankingRows.filter(row => Number.isFinite(row.roster_value_raw));
+  const rowsWithProjections = rankingRows.filter(row => Number.isFinite(row.projection_raw));
+  const rosterValuePercentiles = percentileScoreMap(
+    rowsWithRosterValues,
+    row => row.roster_value_raw,
+    row => row.owner_id
+  );
+  const projectionPercentiles = percentileScoreMap(
+    rowsWithProjections,
+    row => row.projection_raw,
+    row => row.owner_id
+  );
+  const externalPlayerValuesIncluded = rowsWithRosterValues.length === rankingRows.length && rankingRows.length > 0;
+  const projectionsIncluded = rowsWithProjections.length === rankingRows.length && rankingRows.length > 0;
 
   for (const row of rankingRows) {
-    row.competitive_score = round2(competitivePercentiles.get(row.owner_id) || 0);
+    row.recent_performance_score = round2(competitivePercentiles.get(row.owner_id) || 0);
     row.draft_capital_score = round2(capitalPercentiles.get(row.owner_id) || 0);
+    row.roster_value_score = Number.isFinite(row.roster_value_raw)
+      ? round2(rosterValuePercentiles.get(row.owner_id) || 0)
+      : null;
+    row.current_projection_score = Number.isFinite(row.projection_raw)
+      ? round2(projectionPercentiles.get(row.owner_id) || 0)
+      : null;
+    row.competitive_score = row.current_projection_score === null
+      ? row.recent_performance_score
+      : round2(0.5 * row.recent_performance_score + 0.5 * row.current_projection_score);
     row.baseline_power_score = round2(
-      0.7 * row.competitive_score + 0.3 * row.draft_capital_score
+      0.7 * row.recent_performance_score + 0.3 * row.draft_capital_score
     );
+    row.power_score = externalPlayerValuesIncluded
+      ? round2(
+          0.5 * row.roster_value_score +
+          0.3 * row.competitive_score +
+          0.2 * row.draft_capital_score
+        )
+      : row.baseline_power_score;
     delete row.competitive_score_raw;
     delete row.draft_capital_raw;
+    delete row.roster_value_raw;
+    delete row.projection_raw;
   }
 
   rankingRows.sort((a, b) =>
-    b.baseline_power_score - a.baseline_power_score ||
+    b.power_score - a.power_score ||
+    Number(b.roster_value_score || 0) - Number(a.roster_value_score || 0) ||
     b.competitive_score - a.competitive_score ||
     b.draft_capital_score - a.draft_capital_score ||
     String(a.team_name).localeCompare(String(b.team_name))
@@ -1842,18 +3646,35 @@ async function rebuildPowerRankings(githubToken, activeLeagueId, providedChain =
       season: currentSeason,
       status: currentDoc.league?.status || null
     },
-    ranking_type: "baseline_internal",
-    external_player_values_included: false,
+    ranking_type: externalPlayerValuesIncluded
+      ? "multi_feed_projection_enhanced"
+      : "baseline_internal",
+    external_player_values_included: externalPlayerValuesIncluded,
+    projections_included: projectionsIncluded,
     methodology: {
-      purpose: "Objective baseline franchise power ranking before external dynasty market values are added.",
-      composite_weights: {
-        competitive_score: 0.70,
+      purpose: externalPlayerValuesIncluded
+        ? "Franchise power ranking combining dynasty roster value, current competitive strength, and future draft capital."
+        : "Objective baseline franchise power ranking used when external player values are unavailable.",
+      composite_weights: externalPlayerValuesIncluded ? {
+        multi_feed_roster_value_score: 0.50,
+        competitive_score: 0.30,
+        future_draft_capital_score: 0.20
+      } : {
+        recent_performance_score: 0.70,
         future_draft_capital_score: 0.30
       },
+      roster_value_score: externalPlayerValuesIncluded
+        ? "Lineup-adjusted consensus dynasty values from FantasyCalc and DynastyProcess, converted to a league percentile."
+        : "Unavailable; the ranking falls back to the internal baseline.",
       competitive_score: "Uses up to the three most recent seasons with games played. Within each season, 60% win-percentage percentile and 40% points-per-game percentile; most recent played seasons receive weights 3, 2, and 1.",
+      projection_adjustment: projectionsIncluded
+        ? "Competitive score is split evenly between recent-performance percentile and the current full-season optimized-lineup projection percentile."
+        : "No projection adjustment was available; competitive score equals recent-performance score.",
       future_draft_capital_score: "Current future picks are valued by round (1st=3.0, 2nd=1.5, 3rd=0.75) and discounted by draft year (next draft=1.0, following=0.85, third=0.70), then converted to a league percentile.",
       roster_profile: "Age, experience, and positional counts are descriptive only and are not included in the baseline score.",
-      limitation: "Individual player quality and external dynasty market values are not yet included. The external player-value integration is intended to add a true roster-value component in the next phase.",
+      limitation: projectionsIncluded
+        ? "Projected records are deterministic comparisons, not calibrated win-probability simulations. Probability modeling will require stored projection-error history."
+        : "Projection data has not yet been populated for every team.",
       movement: "rank_change compares with the previously generated power-rankings.json when one exists; positive means the team moved up."
     },
     performance_seasons_used: Object.entries(performanceWeights).map(([season, weight]) => ({ season, weight })),
@@ -1873,7 +3694,8 @@ async function rebuildPowerRankings(githubToken, activeLeagueId, providedChain =
     ranking_type: payload.ranking_type,
     team_count: rankingRows.length,
     performance_seasons_used: payload.performance_seasons_used,
-    external_player_values_included: false
+    external_player_values_included: externalPlayerValuesIncluded,
+    projections_included: projectionsIncluded
   };
 }
 
@@ -2286,7 +4108,7 @@ async function getPlayers() {
 
   if (!response) {
     const upstream = await fetch(`${SLEEPER}/players/nfl`, {
-      headers: { "User-Agent": "SleeperDynastySync/2.0" }
+      headers: { "User-Agent": "SleeperDynastySync/4.0" }
     });
     if (!upstream.ok) {
       throw new Error(`${upstream.status} fetching Sleeper player database`);
@@ -2307,13 +4129,36 @@ async function getJSON(url) {
   const response = await fetch(url, {
     headers: {
       "Accept": "application/json",
-      "User-Agent": "SleeperDynastySync/2.0"
+      "User-Agent": "SleeperDynastySync/4.0"
     }
   });
   if (!response.ok) {
     throw new Error(`${response.status} fetching ${url}`);
   }
   return response.json();
+}
+
+async function getBoundedText(url, maxBytes, label, extraHeaders = {}) {
+  const response = await fetch(url, {
+    headers: {
+      "Accept": "application/json,text/csv,text/plain;q=0.9,*/*;q=0.8",
+      "User-Agent": "Mozilla/5.0 (compatible; SleeperDynastySync/4.0)",
+      ...extraHeaders
+    }
+  });
+  if (!response.ok) {
+    throw new Error(`${response.status} fetching ${label} from ${url}`);
+  }
+  return readResponseTextWithLimit(response, maxBytes, label);
+}
+
+async function getBoundedJSON(url, maxBytes, label, extraHeaders = {}) {
+  const text = await getBoundedText(url, maxBytes, label, extraHeaders);
+  try {
+    return JSON.parse(text);
+  } catch (error) {
+    throw new Error(`${label} returned invalid JSON: ${error.message}`);
+  }
 }
 
 
@@ -2463,7 +4308,7 @@ function githubHeaders(token) {
     "Accept": "application/vnd.github+json",
     "Authorization": `Bearer ${token}`,
     "X-GitHub-Api-Version": "2026-03-10",
-    "User-Agent": "SleeperDynastySync/2.0"
+    "User-Agent": "SleeperDynastySync/4.0"
   };
 }
 
