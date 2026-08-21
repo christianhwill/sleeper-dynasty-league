@@ -1,3 +1,5 @@
+import { buildLeagueIntelligencePayload } from "./league-intelligence.js";
+
 const LEAGUE_ANCHOR_ID = "1327788752298336256";
 const LEAGUE_ANCHOR_USER_ID = "1129875387229560832";
 const MAX_LEAGUE_CHAIN_LENGTH = 50;
@@ -11,7 +13,7 @@ const STATHEAD_PROJECTIONS = "https://raw.githubusercontent.com/dachhack/stathea
 const GITHUB_OWNER = "christianhwill";
 const GITHUB_REPO = "sleeper-dynasty-league";
 const GITHUB_BRANCH = "main";
-const BRIDGE_VERSION = "4.0-three-source-player-intelligence";
+const BRIDGE_VERSION = "4.1-historical-league-intelligence";
 const MAX_GITHUB_JSON_BYTES = 50 * 1024 * 1024;
 const MAX_EXTERNAL_FEED_BYTES = 15 * 1024 * 1024;
 const NFL_REGULAR_SEASON_WEEKS = 18;
@@ -26,6 +28,7 @@ const PROJECTION_SOURCE_NAMES = Object.freeze({
 const WRITE_ROUTE_PATHS = Object.freeze([
   "/bootstrap",
   "/rebuild-games",
+  "/rebuild-league-intelligence",
   "/rebuild-ledger",
   "/rebuild-player-intelligence",
   "/rebuild-player-values",
@@ -51,6 +54,8 @@ export default {
           league_anchor_id: LEAGUE_ANCHOR_ID,
           auto_rollover_enabled: true,
           player_intelligence_enabled: true,
+          league_intelligence_enabled: true,
+          league_intelligence_file: "league-intelligence.json",
           weekly_projection_source: "three-source consensus",
           weekly_projection_sources: Object.values(PROJECTION_SOURCE_NAMES),
           dynasty_value_sources: [
@@ -105,6 +110,15 @@ export default {
       if (url.pathname === "/rebuild-ledger") {
         const activeLeague = await resolveActiveLeague(env.GITHUB_TOKEN);
         const result = await rebuildUnifiedHistory(env.GITHUB_TOKEN, String(activeLeague.league_id));
+        return json({ ok: true, ...result });
+      }
+
+      if (url.pathname === "/rebuild-league-intelligence") {
+        const activeLeague = await resolveActiveLeague(env.GITHUB_TOKEN);
+        const result = await rebuildLeagueIntelligence(
+          env.GITHUB_TOKEN,
+          String(activeLeague.league_id)
+        );
         return json({ ok: true, ...result });
       }
 
@@ -318,6 +332,7 @@ export default {
           sync_current_season: "/sync",
           create_manual_snapshot: "/snapshot?label=OPTIONAL_LABEL",
           rebuild_unified_ledger: "/rebuild-ledger",
+          rebuild_league_intelligence: "/rebuild-league-intelligence",
           rebuild_draft_pick_ownership: "/rebuild-picks",
           rebuild_owner_tendencies: "/rebuild-tendencies",
           rebuild_power_rankings: "/rebuild-power-rankings",
@@ -578,27 +593,41 @@ async function runScheduledMaintenance(event, githubToken) {
     };
   }
 
-  if (utcDay === 2 && utcHour === 15) {
-    const nflState = await getJSON(`${SLEEPER}/state/nfl`);
-    const sameSeason = String(nflState?.season || "") === String(activeLeague.season || "");
-    const seasonType = String(nflState?.season_type || "").toLowerCase();
-    const gamesAreActive = sameSeason && (seasonType === "regular" || seasonType === "post");
+  if (utcHour === 15) {
+    let gameHistoryRefresh = null;
 
-    if (!gamesAreActive) {
-      return {
-        task: "weekly_game_history_finalize",
-        active_league_id: activeLeagueId,
-        skipped: true,
-        reason: "The active Sleeper season is not in regular-season or postseason play."
-      };
+    if (utcDay === 2) {
+      const nflState = await getJSON(`${SLEEPER}/state/nfl`);
+      const sameSeason = String(nflState?.season || "") === String(activeLeague.season || "");
+      const seasonType = String(nflState?.season_type || "").toLowerCase();
+      const gamesAreActive = sameSeason && (seasonType === "regular" || seasonType === "post");
+
+      if (gamesAreActive) {
+        const chain = await discoverLeagueChain(activeLeagueId);
+        gameHistoryRefresh = await rebuildStoredGameHistory(
+          githubToken,
+          activeLeagueId,
+          chain
+        );
+      } else {
+        gameHistoryRefresh = {
+          skipped: true,
+          reason: "The active Sleeper season is not in regular-season or postseason play."
+        };
+      }
     }
 
-    const chain = await discoverLeagueChain(activeLeagueId);
-    const finalResult = await rebuildStoredGameHistory(githubToken, activeLeagueId, chain);
+    const leagueIntelligence = await rebuildLeagueIntelligence(
+      githubToken,
+      activeLeagueId
+    );
     return {
-      task: "weekly_game_history_finalize",
+      task: utcDay === 2
+        ? "weekly_game_history_and_league_intelligence"
+        : "daily_league_intelligence",
       active_league_id: activeLeagueId,
-      final_result: finalResult
+      game_history_refresh: gameHistoryRefresh,
+      league_intelligence: leagueIntelligence
     };
   }
 
@@ -999,12 +1028,21 @@ async function syncSeasonToGitHub(leagueId, githubToken, isCurrent) {
     const ownerTendencies = await rebuildOwnerTendencies(githubToken, leagueId);
     const powerRankings = await rebuildPowerRankings(githubToken, leagueId);
     const gameHistory = await rebuildStoredGameHistory(githubToken, leagueId);
+    const leagueIntelligence = await rebuildLeagueIntelligence(githubToken, leagueId);
 
     return {
       season,
       league_id: String(league.league_id),
       previous_league_id: league.previous_league_id ? String(league.previous_league_id) : null,
-      files_written: files.map(([path]) => path).concat(["current.json", "draft-pick-ownership.json", "owner-tendencies.json", "power-rankings.json"]),
+      files_written: files.map(([path]) => path).concat([
+        "current.json",
+        "draft-pick-ownership.json",
+        "owner-tendencies.json",
+        "power-rankings.json",
+        "game-history.json",
+        "playoff-history.json",
+        "league-intelligence.json"
+      ]),
       transaction_count: transactions.length,
       trade_count: trades.length,
       draft_count: draftData.length,
@@ -1014,7 +1052,8 @@ async function syncSeasonToGitHub(leagueId, githubToken, isCurrent) {
       unified_history: unifiedHistory,
       owner_tendencies: ownerTendencies,
       power_rankings: powerRankings,
-      game_history: gameHistory
+      game_history: gameHistory,
+      league_intelligence: leagueIntelligence
     };
   }
 
@@ -1829,6 +1868,70 @@ function applyLeagueRanks(owners) {
       owner.league_ranks[name] = values.indexOf(accessor(owner)) + 1;
     }
   }
+}
+
+
+async function rebuildLeagueIntelligence(githubToken, activeLeagueId) {
+  const [
+    gameHistoryDoc,
+    playoffHistoryDoc,
+    ownerTendenciesDoc,
+    currentDoc,
+    playerValuesDoc,
+    powerRankingsDoc
+  ] = await Promise.all([
+    getGitHubJSON("game-history.json", githubToken),
+    getGitHubJSON("playoff-history.json", githubToken),
+    getGitHubJSON("owner-tendencies.json", githubToken),
+    getGitHubJSON("current.json", githubToken),
+    getGitHubJSON("player-values.json", githubToken).catch(() => null),
+    getGitHubJSON("power-rankings.json", githubToken).catch(() => null)
+  ]);
+
+  if (!gameHistoryDoc || !Array.isArray(gameHistoryDoc.games)) {
+    throw new Error("game-history.json must exist before league intelligence can be rebuilt.");
+  }
+  if (!ownerTendenciesDoc || !Array.isArray(ownerTendenciesDoc.owners)) {
+    throw new Error("owner-tendencies.json must exist before league intelligence can be rebuilt.");
+  }
+  if (!currentDoc) {
+    throw new Error("current.json must exist before league intelligence can be rebuilt.");
+  }
+
+  const payload = buildLeagueIntelligencePayload({
+    generatedAt: new Date().toISOString(),
+    activeLeagueId,
+    gameHistoryDoc,
+    playoffHistoryDoc,
+    ownerTendenciesDoc,
+    currentDoc,
+    playerValuesDoc,
+    powerRankingsDoc
+  });
+  const path = "league-intelligence.json";
+  await upsertGitHubJSON(
+    path,
+    payload,
+    "Update historical Sleeper league intelligence",
+    githubToken
+  );
+
+  return {
+    path,
+    seasons: payload.coverage.seasons,
+    completed_game_count: payload.coverage.completed_game_count,
+    future_matchups_excluded: payload.coverage.excluded_future_or_incomplete_matchups,
+    franchise_count: payload.franchise_history.length,
+    rivalry_count: payload.rivalries.rivalry_count,
+    owner_archetype_count: payload.owner_archetypes.length,
+    latest_completed_week: payload.awards.latest_completed_week
+      ? {
+          season: payload.awards.latest_completed_week.season,
+          week: payload.awards.latest_completed_week.week,
+          phase: payload.awards.latest_completed_week.phase
+        }
+      : null
+  };
 }
 
 
@@ -3664,7 +3767,7 @@ async function rebuildPowerRankings(githubToken, activeLeagueId, providedChain =
         future_draft_capital_score: 0.30
       },
       roster_value_score: externalPlayerValuesIncluded
-        ? "Lineup-adjusted consensus dynasty values from FantasyCalc and DynastyProcess, converted to a league percentile."
+        ? "Lineup-adjusted three-feed consensus dynasty values from FantasyCalc, DynastyProcess, and Dynasty Dealer, converted to a league percentile."
         : "Unavailable; the ranking falls back to the internal baseline.",
       competitive_score: "Uses up to the three most recent seasons with games played. Within each season, 60% win-percentage percentile and 40% points-per-game percentile; most recent played seasons receive weights 3, 2, and 1.",
       projection_adjustment: projectionsIncluded
@@ -3685,7 +3788,7 @@ async function rebuildPowerRankings(githubToken, activeLeagueId, providedChain =
   await upsertGitHubJSON(
     path,
     payload,
-    "Update Sleeper baseline power rankings",
+    "Update Sleeper power rankings",
     githubToken
   );
 
@@ -4108,7 +4211,7 @@ async function getPlayers() {
 
   if (!response) {
     const upstream = await fetch(`${SLEEPER}/players/nfl`, {
-      headers: { "User-Agent": "SleeperDynastySync/4.0" }
+      headers: { "User-Agent": "SleeperDynastySync/4.1" }
     });
     if (!upstream.ok) {
       throw new Error(`${upstream.status} fetching Sleeper player database`);
@@ -4129,7 +4232,7 @@ async function getJSON(url) {
   const response = await fetch(url, {
     headers: {
       "Accept": "application/json",
-      "User-Agent": "SleeperDynastySync/4.0"
+      "User-Agent": "SleeperDynastySync/4.1"
     }
   });
   if (!response.ok) {
@@ -4142,7 +4245,7 @@ async function getBoundedText(url, maxBytes, label, extraHeaders = {}) {
   const response = await fetch(url, {
     headers: {
       "Accept": "application/json,text/csv,text/plain;q=0.9,*/*;q=0.8",
-      "User-Agent": "Mozilla/5.0 (compatible; SleeperDynastySync/4.0)",
+      "User-Agent": "Mozilla/5.0 (compatible; SleeperDynastySync/4.1)",
       ...extraHeaders
     }
   });
@@ -4308,7 +4411,7 @@ function githubHeaders(token) {
     "Accept": "application/vnd.github+json",
     "Authorization": `Bearer ${token}`,
     "X-GitHub-Api-Version": "2026-03-10",
-    "User-Agent": "SleeperDynastySync/4.0"
+    "User-Agent": "SleeperDynastySync/4.1"
   };
 }
 

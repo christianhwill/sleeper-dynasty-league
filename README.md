@@ -13,6 +13,10 @@ Cloudflare Worker that snapshots the Sleeper dynasty league into GitHub and buil
 - Three-source weekly and full-season player projection consensus
 - Optimized weekly lineup and matchup projections
 - Projection-enhanced franchise power rankings
+- Historical league records and franchise leaderboards
+- All-play records, luck ratings, and schedule strength
+- Head-to-head rivalry rankings and series histories
+- Deterministic owner archetypes and weekly/historical awards
 
 ## Main generated files
 
@@ -22,6 +26,7 @@ Cloudflare Worker that snapshots the Sleeper dynasty league into GitHub and buil
 - `projections/<season>/season.json` — full-season player and optimal-lineup projections
 - `projections/<season>/weeks/week-XX.json` — player, lineup, and matchup projections for one week
 - `power-rankings.json` — 50% roster value, 30% competitive strength, and 20% draft capital
+- `league-intelligence.json` — records, franchise history, all-play/luck, rivalries, owner archetypes, season summaries, and awards
 - `game-history.json` and `playoff-history.json` — unified historical results
 - `owner-tendencies.json` — owner activity and trade behavior
 
@@ -60,6 +65,7 @@ Protected GitHub-writing routes include:
 - `/sync`
 - `/snapshot?label=OPTIONAL_LABEL`
 - `/rebuild-player-intelligence`
+- `/rebuild-league-intelligence`
 - `/rebuild-player-values`
 - `/rebuild-projections?season=1`
 - `/rebuild-projections?week=1`
@@ -72,4 +78,8 @@ Protected routes accept Basic or Bearer authentication using the `DYNASTY_WRITE_
 
 ## Automatic maintenance
 
-Cloudflare invokes the Worker every three hours. Core league data, history, tendencies, player values, projections, and power rankings refresh on staggered schedules. Weekly projection files rotate in three-week batches, covering all 18 weeks every three days while keeping each Worker execution within bounded subrequest limits.
+Cloudflare invokes the Worker every three hours. Core league data, history, tendencies, player values, projections, power rankings, and league intelligence refresh on staggered schedules. Weekly projection files rotate in three-week batches, covering all 18 weeks every three days while keeping each Worker execution within bounded subrequest limits. League intelligence refreshes daily and immediately after the weekly game-history finalization.
+
+## Historical intelligence methodology
+
+Historical analytics use only matchups explicitly marked complete; future placeholder games are excluded. All-play compares every team with every other score from the same completed regular-season week. Expected wins convert that weekly all-play result to a zero-to-one value, and luck equals actual win-equivalents minus expected wins. Owner identity follows the stable Sleeper user across team-name changes. Rivalry scores combine meeting volume, series balance, average margin, and postseason meetings. Owner archetypes are deterministic descriptions based on league-relative activity, pick flow, roster age, and current competitive strength.
