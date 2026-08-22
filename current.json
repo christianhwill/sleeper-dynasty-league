@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T12:00:22.621Z",
+  "generated_at": "2026-08-22T00:00:29.790Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -1443,7 +1443,7 @@
           ],
           "team": "LAC",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 24,
           "years_exp": 1
         },
@@ -1792,7 +1792,7 @@
           ],
           "team": "LAC",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 24,
           "years_exp": 1
         }
@@ -2455,7 +2455,7 @@
           "team": "SF",
           "status": "Active",
           "injury_status": "Questionable",
-          "age": 32,
+          "age": 33,
           "years_exp": 12
         },
         {
@@ -2502,21 +2502,6 @@
           "injury_status": "Questionable",
           "age": 31,
           "years_exp": 10
-        },
-        {
-          "player_id": "4033",
-          "name": "David Njoku",
-          "first_name": "David",
-          "last_name": "Njoku",
-          "position": "TE",
-          "fantasy_positions": [
-            "TE"
-          ],
-          "team": "LAC",
-          "status": "Active",
-          "injury_status": null,
-          "age": 30,
-          "years_exp": 9
         },
         {
           "player_id": "4217",
@@ -2817,7 +2802,7 @@
           "team": "SF",
           "status": "Active",
           "injury_status": "Questionable",
-          "age": 32,
+          "age": 33,
           "years_exp": 12
         },
         {
@@ -2836,10 +2821,19 @@
           "years_exp": 3
         },
         {
-          "player_id": "0",
-          "name": "0",
-          "position": "DEF",
-          "team": "0"
+          "player_id": "6804",
+          "name": "Jordan Love",
+          "first_name": "Jordan",
+          "last_name": "Love",
+          "position": "QB",
+          "fantasy_positions": [
+            "QB"
+          ],
+          "team": "GB",
+          "status": "Active",
+          "injury_status": null,
+          "age": 27,
+          "years_exp": 6
         }
       ],
       "taxi": [
@@ -2874,7 +2868,23 @@
           "years_exp": null
         }
       ],
-      "reserve": []
+      "reserve": [
+        {
+          "player_id": "4217",
+          "name": "George Kittle",
+          "first_name": "George",
+          "last_name": "Kittle",
+          "position": "TE",
+          "fantasy_positions": [
+            "TE"
+          ],
+          "team": "SF",
+          "status": "Active",
+          "injury_status": "PUP",
+          "age": 32,
+          "years_exp": 9
+        }
+      ]
     },
     {
       "roster_id": 6,
@@ -4182,6 +4192,21 @@
           "years_exp": null
         },
         {
+          "player_id": "13324",
+          "name": "Matt Hibner",
+          "first_name": "Matt",
+          "last_name": "Hibner",
+          "position": "TE",
+          "fantasy_positions": [
+            "TE"
+          ],
+          "team": "BAL",
+          "status": "Active",
+          "injury_status": null,
+          "age": 24,
+          "years_exp": null
+        },
+        {
           "player_id": "13346",
           "name": "Denzel Boston",
           "first_name": "Denzel",
@@ -5238,7 +5263,7 @@
             "WR"
           ],
           "team": "HOU",
-          "status": "Active",
+          "status": "Inactive",
           "injury_status": "IR",
           "age": 23,
           "years_exp": 1
@@ -5724,7 +5749,7 @@
             "WR"
           ],
           "team": "HOU",
-          "status": "Active",
+          "status": "Inactive",
           "injury_status": "IR",
           "age": 23,
           "years_exp": 1
@@ -7207,6 +7232,96 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1396552862141534208",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1787326658334,
+      "created_iso": "2026-08-21T15:37:38.334Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "1131304330881077248",
+      "roster_ids": [
+        8
+      ],
+      "teams": [
+        {
+          "roster_id": 8,
+          "team_name": "PurpleRhane"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "13324",
+            "name": "Matt Hibner",
+            "first_name": "Matt",
+            "last_name": "Hibner",
+            "position": "TE",
+            "fantasy_positions": [
+              "TE"
+            ],
+            "team": "BAL",
+            "status": "Active",
+            "injury_status": null,
+            "age": 24,
+            "years_exp": null
+          },
+          "roster_id": 8,
+          "team_name": "PurpleRhane"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1396543472537706496",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1787324419677,
+      "created_iso": "2026-08-21T15:00:19.677Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "1129909167751426048",
+      "roster_ids": [
+        5
+      ],
+      "teams": [
+        {
+          "roster_id": 5,
+          "team_name": "BING BONG"
+        }
+      ],
+      "adds": [],
+      "drops": [
+        {
+          "player": {
+            "player_id": "4033",
+            "name": "David Njoku",
+            "first_name": "David",
+            "last_name": "Njoku",
+            "position": "TE",
+            "fantasy_positions": [
+              "TE"
+            ],
+            "team": "LAC",
+            "status": "Active",
+            "injury_status": null,
+            "age": 30,
+            "years_exp": 9
+          },
+          "roster_id": 5,
+          "team_name": "BING BONG"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
     {
       "transaction_id": "1395873388618063872",
       "type": "free_agent",
@@ -9534,7 +9649,7 @@
             ],
             "team": "CAR",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 25,
             "years_exp": 2
           },
