@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T21:01:12.279Z",
+  "generated_at": "2026-08-22T09:00:35.745Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -92,7 +92,7 @@
     "sleeper": {
       "name": "Sleeper/RotoWire",
       "status": "available",
-      "fetched_at": "2026-08-21T20:12:10.552Z",
+      "fetched_at": "2026-08-22T09:00:31.633Z",
       "error": null,
       "provider_company_reported_by_feed": "RotoWire",
       "access_status": "Publicly reachable but not documented in Sleeper's official API reference.",
@@ -101,7 +101,7 @@
     "espn": {
       "name": "ESPN",
       "status": "available",
-      "fetched_at": "2026-08-21T20:12:08.427Z",
+      "fetched_at": "2026-08-22T09:00:29.448Z",
       "error": null,
       "access_status": "Publicly reachable ESPN fantasy player pool endpoint; undocumented and isolated behind a fallback adapter.",
       "scoring": "ESPN projected counting stats mapped to the league's Sleeper scoring settings.",
@@ -110,8 +110,8 @@
     "stathead": {
       "name": "StatHead open model",
       "status": "available",
-      "fetched_at": "2026-08-21T20:12:08.427Z",
-      "generated_at": "2026-08-21T18:15:35+00:00",
+      "fetched_at": "2026-08-22T09:00:29.448Z",
+      "generated_at": "2026-08-22T04:17:00+00:00",
       "error": null,
       "model": "Open weekly model based on season PPG, opponent defense versus position, venue, and available market environment.",
       "license": "StatHead model outputs are published for reuse; code is MIT licensed.",
@@ -368,8 +368,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 1.16,
-          "confidence_score": 94.89
+          "source_spread_points": 1.15,
+          "confidence_score": 94.93
         },
         {
           "week": 10,
@@ -434,7 +434,7 @@
           "week": 2,
           "opponent": "MIA",
           "game_date": "2026-09-20",
-          "projected_points": 23.16,
+          "projected_points": 23.14,
           "provider_ppr_points": 20.99,
           "projection_sources": [
             "sleeper",
@@ -442,8 +442,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 4.62,
-          "confidence_score": 80.03
+          "source_spread_points": 4.57,
+          "confidence_score": 80.23
         },
         {
           "week": 10,
@@ -491,7 +491,7 @@
           "confidence_score": 81.34
         }
       ],
-      "weekly_projected_points_sum": 87.19,
+      "weekly_projected_points_sum": 87.17,
       "week_projection_count": 4,
       "season_projection_rank": 4
     },
@@ -834,7 +834,7 @@
           "week": 2,
           "opponent": "HOU",
           "game_date": "2026-09-20",
-          "projected_points": 17.91,
+          "projected_points": 17.88,
           "provider_ppr_points": 19.4,
           "projection_sources": [
             "sleeper",
@@ -842,8 +842,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 3.54,
-          "confidence_score": 80.21
+          "source_spread_points": 3.62,
+          "confidence_score": 79.73
         },
         {
           "week": 10,
@@ -891,7 +891,7 @@
           "confidence_score": 86.59
         }
       ],
-      "weekly_projected_points_sum": 75.97,
+      "weekly_projected_points_sum": 75.94,
       "week_projection_count": 4,
       "season_projection_rank": 9
     },
@@ -1257,8 +1257,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 5.14,
-          "confidence_score": 71.19
+          "source_spread_points": 5.15,
+          "confidence_score": 71.13
         },
         {
           "week": 10,
@@ -1501,7 +1501,7 @@
           "week": 2,
           "opponent": "LAR",
           "game_date": "2026-09-21",
-          "projected_points": 16.27,
+          "projected_points": 16.21,
           "provider_ppr_points": 20.49,
           "projection_sources": [
             "sleeper",
@@ -1509,8 +1509,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 3.51,
-          "confidence_score": 78.42
+          "source_spread_points": 3.69,
+          "confidence_score": 77.24
         },
         {
           "week": 10,
@@ -1558,7 +1558,7 @@
           "confidence_score": 86.3
         }
       ],
-      "weekly_projected_points_sum": 71.13,
+      "weekly_projected_points_sum": 71.07,
       "week_projection_count": 4,
       "season_projection_rank": 17
     },
@@ -2020,7 +2020,7 @@
           "week": 2,
           "opponent": "HOU",
           "game_date": "2026-09-20",
-          "projected_points": 15.98,
+          "projected_points": 15.96,
           "provider_ppr_points": 21.07,
           "projection_sources": [
             "sleeper",
@@ -2028,8 +2028,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 5.94,
-          "confidence_score": 62.84
+          "source_spread_points": 6,
+          "confidence_score": 62.4
         },
         {
           "week": 10,
@@ -2077,7 +2077,7 @@
           "confidence_score": 71.73
         }
       ],
-      "weekly_projected_points_sum": 68.49,
+      "weekly_projected_points_sum": 68.47,
       "week_projection_count": 4,
       "season_projection_rank": 23
     },
@@ -2109,7 +2109,7 @@
           "week": 2,
           "opponent": "MIA",
           "game_date": "2026-09-20",
-          "projected_points": 18.26,
+          "projected_points": 18.25,
           "provider_ppr_points": 20.96,
           "projection_sources": [
             "sleeper",
@@ -2117,8 +2117,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 4.64,
-          "confidence_score": 74.6
+          "source_spread_points": 4.66,
+          "confidence_score": 74.44
         },
         {
           "week": 10,
@@ -2166,7 +2166,7 @@
           "confidence_score": 75.28
         }
       ],
-      "weekly_projected_points_sum": 68.74,
+      "weekly_projected_points_sum": 68.73,
       "week_projection_count": 4,
       "season_projection_rank": 24
     },
@@ -2376,7 +2376,7 @@
           "week": 2,
           "opponent": "HOU",
           "game_date": "2026-09-20",
-          "projected_points": 15.97,
+          "projected_points": 15.94,
           "provider_ppr_points": 17.02,
           "projection_sources": [
             "sleeper",
@@ -2385,7 +2385,7 @@
           ],
           "projection_source_count": 3,
           "source_spread_points": 2.58,
-          "confidence_score": 83.83
+          "confidence_score": 83.8
         },
         {
           "week": 10,
@@ -2433,7 +2433,7 @@
           "confidence_score": 91.22
         }
       ],
-      "weekly_projected_points_sum": 67.17,
+      "weekly_projected_points_sum": 67.14,
       "week_projection_count": 4,
       "season_projection_rank": 27
     },
@@ -2473,8 +2473,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 2.94,
-          "confidence_score": 82.41
+          "source_spread_points": 2.92,
+          "confidence_score": 82.52
         },
         {
           "week": 10,
@@ -2651,8 +2651,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 2.8,
-          "confidence_score": 82.2
+          "source_spread_points": 2.81,
+          "confidence_score": 82.14
         },
         {
           "week": 11,
@@ -3473,7 +3473,7 @@
           "week": 2,
           "opponent": "CIN",
           "game_date": "2026-09-20",
-          "projected_points": 16.08,
+          "projected_points": 16.11,
           "provider_ppr_points": 18.37,
           "projection_sources": [
             "sleeper",
@@ -3481,8 +3481,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 0.93,
-          "confidence_score": 94.19
+          "source_spread_points": 0.85,
+          "confidence_score": 94.75
         },
         {
           "week": 10,
@@ -3530,7 +3530,7 @@
           "confidence_score": 93.44
         }
       ],
-      "weekly_projected_points_sum": 61.01,
+      "weekly_projected_points_sum": 61.04,
       "week_projection_count": 4,
       "season_projection_rank": 40
     },
@@ -3659,8 +3659,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 0.94,
-          "confidence_score": 94.13
+          "source_spread_points": 0.95,
+          "confidence_score": 94.07
         },
         {
           "week": 10,
@@ -3814,7 +3814,7 @@
           "week": 2,
           "opponent": "ATL",
           "game_date": "2026-09-20",
-          "projected_points": 15.34,
+          "projected_points": 15.33,
           "provider_ppr_points": 17.62,
           "projection_sources": [
             "sleeper",
@@ -3822,8 +3822,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 1.41,
-          "confidence_score": 90.82
+          "source_spread_points": 1.44,
+          "confidence_score": 90.64
         },
         {
           "week": 10,
@@ -3871,7 +3871,7 @@
           "confidence_score": 92.16
         }
       ],
-      "weekly_projected_points_sum": 59.65,
+      "weekly_projected_points_sum": 59.64,
       "week_projection_count": 4,
       "season_projection_rank": 44
     },
@@ -4407,7 +4407,7 @@
           "week": 2,
           "opponent": "CIN",
           "game_date": "2026-09-20",
-          "projected_points": 15.28,
+          "projected_points": 15.31,
           "provider_ppr_points": 17.54,
           "projection_sources": [
             "sleeper",
@@ -4415,8 +4415,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 4.52,
-          "confidence_score": 70.39
+          "source_spread_points": 4.45,
+          "confidence_score": 70.89
         },
         {
           "week": 10,
@@ -4464,7 +4464,7 @@
           "confidence_score": 80.44
         }
       ],
-      "weekly_projected_points_sum": 61.26,
+      "weekly_projected_points_sum": 61.29,
       "week_projection_count": 4,
       "season_projection_rank": 51
     },
@@ -5173,7 +5173,7 @@
           "week": 2,
           "opponent": "CLE",
           "game_date": "2026-09-20",
-          "projected_points": 12.57,
+          "projected_points": 12.56,
           "provider_ppr_points": 11.5,
           "projection_sources": [
             "sleeper",
@@ -5181,8 +5181,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 1.78,
-          "confidence_score": 85.87
+          "source_spread_points": 1.77,
+          "confidence_score": 85.95
         },
         {
           "week": 11,
@@ -5215,7 +5215,7 @@
           "confidence_score": 83.44
         }
       ],
-      "weekly_projected_points_sum": 38.35,
+      "weekly_projected_points_sum": 38.34,
       "week_projection_count": 3,
       "season_projection_rank": 60
     },
@@ -5336,7 +5336,7 @@
           "week": 2,
           "opponent": "LAR",
           "game_date": "2026-09-21",
-          "projected_points": 13.24,
+          "projected_points": 13.19,
           "provider_ppr_points": 12.72,
           "projection_sources": [
             "sleeper",
@@ -5345,7 +5345,7 @@
           ],
           "projection_source_count": 3,
           "source_spread_points": 1,
-          "confidence_score": 92.43
+          "confidence_score": 92.4
         },
         {
           "week": 10,
@@ -5393,7 +5393,7 @@
           "confidence_score": 86.73
         }
       ],
-      "weekly_projected_points_sum": 55.75,
+      "weekly_projected_points_sum": 55.7,
       "week_projection_count": 4,
       "season_projection_rank": 62
     },
@@ -5514,7 +5514,7 @@
           "week": 2,
           "opponent": "NE",
           "game_date": "2026-09-20",
-          "projected_points": 13.15,
+          "projected_points": 13.14,
           "provider_ppr_points": 16.31,
           "projection_sources": [
             "sleeper",
@@ -5523,7 +5523,7 @@
           ],
           "projection_source_count": 3,
           "source_spread_points": 1.13,
-          "confidence_score": 91.41
+          "confidence_score": 91.4
         },
         {
           "week": 10,
@@ -5571,7 +5571,7 @@
           "confidence_score": 88.72
         }
       ],
-      "weekly_projected_points_sum": 53.53,
+      "weekly_projected_points_sum": 53.52,
       "week_projection_count": 4,
       "season_projection_rank": 64
     },
@@ -5603,7 +5603,7 @@
           "week": 2,
           "opponent": "LAR",
           "game_date": "2026-09-21",
-          "projected_points": 13.43,
+          "projected_points": 13.37,
           "provider_ppr_points": 13.26,
           "projection_sources": [
             "sleeper",
@@ -5611,8 +5611,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 3.37,
-          "confidence_score": 74.9
+          "source_spread_points": 3.19,
+          "confidence_score": 76.13
         },
         {
           "week": 10,
@@ -5660,7 +5660,7 @@
           "confidence_score": 84.3
         }
       ],
-      "weekly_projected_points_sum": 57.98,
+      "weekly_projected_points_sum": 57.92,
       "week_projection_count": 4,
       "season_projection_rank": 65
     },
@@ -5700,8 +5700,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 5.8,
-          "confidence_score": 58.99
+          "source_spread_points": 5.79,
+          "confidence_score": 59.05
         },
         {
           "week": 11,
@@ -5766,7 +5766,7 @@
           "week": 2,
           "opponent": "ATL",
           "game_date": "2026-09-20",
-          "projected_points": 13.84,
+          "projected_points": 13.83,
           "provider_ppr_points": 14.36,
           "projection_sources": [
             "sleeper",
@@ -5774,8 +5774,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 2.02,
-          "confidence_score": 85.44
+          "source_spread_points": 2.05,
+          "confidence_score": 85.21
         },
         {
           "week": 10,
@@ -5823,7 +5823,7 @@
           "confidence_score": 81.64
         }
       ],
-      "weekly_projected_points_sum": 54.02,
+      "weekly_projected_points_sum": 54.01,
       "week_projection_count": 4,
       "season_projection_rank": 67
     },
@@ -6196,7 +6196,7 @@
           "week": 2,
           "opponent": "HOU",
           "game_date": "2026-09-20",
-          "projected_points": 13.3,
+          "projected_points": 13.28,
           "provider_ppr_points": 16.06,
           "projection_sources": [
             "sleeper",
@@ -6204,8 +6204,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 4.24,
-          "confidence_score": 68.1
+          "source_spread_points": 4.3,
+          "confidence_score": 67.6
         },
         {
           "week": 10,
@@ -6253,7 +6253,7 @@
           "confidence_score": 78.12
         }
       ],
-      "weekly_projected_points_sum": 56.24,
+      "weekly_projected_points_sum": 56.22,
       "week_projection_count": 4,
       "season_projection_rank": 72
     },
@@ -6833,7 +6833,7 @@
           "week": 2,
           "opponent": "CIN",
           "game_date": "2026-09-20",
-          "projected_points": 13.41,
+          "projected_points": 13.43,
           "provider_ppr_points": 14.71,
           "projection_sources": [
             "sleeper",
@@ -6842,7 +6842,7 @@
           ],
           "projection_source_count": 3,
           "source_spread_points": 2.7,
-          "confidence_score": 79.84
+          "confidence_score": 79.87
         },
         {
           "week": 10,
@@ -6890,7 +6890,7 @@
           "confidence_score": 71.75
         }
       ],
-      "weekly_projected_points_sum": 50.93,
+      "weekly_projected_points_sum": 50.95,
       "week_projection_count": 4,
       "season_projection_rank": 80
     },
@@ -7411,7 +7411,7 @@
           "week": 2,
           "opponent": "NE",
           "game_date": "2026-09-20",
-          "projected_points": 11.86,
+          "projected_points": 11.85,
           "provider_ppr_points": 11.66,
           "projection_sources": [
             "sleeper",
@@ -7419,8 +7419,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 1.28,
-          "confidence_score": 89.19
+          "source_spread_points": 1.26,
+          "confidence_score": 89.35
         },
         {
           "week": 10,
@@ -7468,7 +7468,7 @@
           "confidence_score": 89.11
         }
       ],
-      "weekly_projected_points_sum": 47.22,
+      "weekly_projected_points_sum": 47.21,
       "week_projection_count": 4,
       "season_projection_rank": 87
     },
@@ -7945,7 +7945,7 @@
           "week": 2,
           "opponent": "NE",
           "game_date": "2026-09-20",
-          "projected_points": 10.88,
+          "projected_points": 10.87,
           "provider_ppr_points": 10.52,
           "projection_sources": [
             "sleeper",
@@ -8002,7 +8002,7 @@
           "confidence_score": 93.93
         }
       ],
-      "weekly_projected_points_sum": 43.35,
+      "weekly_projected_points_sum": 43.34,
       "week_projection_count": 4,
       "season_projection_rank": 93
     },
@@ -8123,7 +8123,7 @@
           "week": 2,
           "opponent": "NE",
           "game_date": "2026-09-20",
-          "projected_points": 11.58,
+          "projected_points": 11.57,
           "provider_ppr_points": 13.11,
           "projection_sources": [
             "sleeper",
@@ -8132,7 +8132,7 @@
           ],
           "projection_source_count": 3,
           "source_spread_points": 2.35,
-          "confidence_score": 79.72
+          "confidence_score": 79.71
         },
         {
           "week": 10,
@@ -8180,7 +8180,7 @@
           "confidence_score": 76.02
         }
       ],
-      "weekly_projected_points_sum": 47.61,
+      "weekly_projected_points_sum": 47.6,
       "week_projection_count": 4,
       "season_projection_rank": 95
     },
@@ -8464,7 +8464,7 @@
           "week": 2,
           "opponent": "ATL",
           "game_date": "2026-09-20",
-          "projected_points": 12.71,
+          "projected_points": 12.69,
           "provider_ppr_points": 11.6,
           "projection_sources": [
             "sleeper",
@@ -8472,8 +8472,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 4.65,
-          "confidence_score": 63.38
+          "source_spread_points": 4.61,
+          "confidence_score": 63.66
         },
         {
           "week": 10,
@@ -8521,7 +8521,7 @@
           "confidence_score": 56.5
         }
       ],
-      "weekly_projected_points_sum": 49.58,
+      "weekly_projected_points_sum": 49.56,
       "week_projection_count": 4,
       "season_projection_rank": 99
     },
@@ -8635,8 +8635,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 1.2,
-          "confidence_score": 88.8
+          "source_spread_points": 1.21,
+          "confidence_score": 88.71
         },
         {
           "week": 10,
@@ -8845,7 +8845,7 @@
         "roster_id": 5,
         "owner_id": "1129909167751426048",
         "team_name": "BING BONG",
-        "roster_status": "active_roster"
+        "roster_status": "reserve"
       },
       "full_season_projected_points": 174.38,
       "full_season_provider_ppr_points": 169.3,
@@ -8864,15 +8864,15 @@
           "week": 2,
           "opponent": "MIA",
           "game_date": "2026-09-20",
-          "projected_points": 12.04,
+          "projected_points": 12.03,
           "provider_ppr_points": 10.65,
           "projection_sources": [
             "sleeper",
             "stathead"
           ],
           "projection_source_count": 2,
-          "source_spread_points": 2.78,
-          "confidence_score": 56.91
+          "source_spread_points": 2.75,
+          "confidence_score": 57.13
         },
         {
           "week": 10,
@@ -8920,7 +8920,7 @@
           "confidence_score": 79.98
         }
       ],
-      "weekly_projected_points_sum": 46.19,
+      "weekly_projected_points_sum": 46.18,
       "week_projection_count": 4,
       "season_projection_rank": 104
     },
@@ -8952,7 +8952,7 @@
           "week": 2,
           "opponent": "MIA",
           "game_date": "2026-09-20",
-          "projected_points": 11.59,
+          "projected_points": 11.58,
           "provider_ppr_points": 13.51,
           "projection_sources": [
             "sleeper",
@@ -8960,8 +8960,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 4.83,
-          "confidence_score": 58.32
+          "source_spread_points": 4.85,
+          "confidence_score": 58.13
         },
         {
           "week": 10,
@@ -9009,7 +9009,7 @@
           "confidence_score": 52.13
         }
       ],
-      "weekly_projected_points_sum": 43.9,
+      "weekly_projected_points_sum": 43.89,
       "week_projection_count": 4,
       "season_projection_rank": 105
     },
@@ -9731,8 +9731,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 0.83,
-          "confidence_score": 91.63
+          "source_spread_points": 0.84,
+          "confidence_score": 91.52
         },
         {
           "week": 10,
@@ -11264,7 +11264,7 @@
           "week": 2,
           "opponent": null,
           "game_date": null,
-          "projected_points": 8.27,
+          "projected_points": 8.32,
           "provider_ppr_points": 0,
           "projection_sources": [
             "stathead"
@@ -11313,7 +11313,7 @@
           "confidence_score": 35
         }
       ],
-      "weekly_projected_points_sum": 35.6,
+      "weekly_projected_points_sum": 35.65,
       "week_projection_count": 4,
       "season_projection_rank": 133
     },
@@ -11775,7 +11775,7 @@
           "week": 2,
           "opponent": "LAR",
           "game_date": "2026-09-21",
-          "projected_points": 8.77,
+          "projected_points": 8.74,
           "provider_ppr_points": 9.65,
           "projection_sources": [
             "sleeper",
@@ -11783,8 +11783,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 1.73,
-          "confidence_score": 80.3
+          "source_spread_points": 1.83,
+          "confidence_score": 79.08
         },
         {
           "week": 10,
@@ -11832,7 +11832,7 @@
           "confidence_score": 89.56
         }
       ],
-      "weekly_projected_points_sum": 36.97,
+      "weekly_projected_points_sum": 36.94,
       "week_projection_count": 4,
       "season_projection_rank": 139
     },
@@ -12123,8 +12123,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 2,
-          "confidence_score": 78.91
+          "source_spread_points": 2.01,
+          "confidence_score": 78.8
         },
         {
           "week": 11,
@@ -12189,7 +12189,7 @@
           "week": 2,
           "opponent": "CIN",
           "game_date": "2026-09-20",
-          "projected_points": 9.83,
+          "projected_points": 9.86,
           "provider_ppr_points": 9.74,
           "projection_sources": [
             "sleeper",
@@ -12197,8 +12197,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 3.36,
-          "confidence_score": 65.84
+          "source_spread_points": 3.43,
+          "confidence_score": 65.21
         },
         {
           "week": 10,
@@ -12246,7 +12246,7 @@
           "confidence_score": 77.58
         }
       ],
-      "weekly_projected_points_sum": 36.64,
+      "weekly_projected_points_sum": 36.67,
       "week_projection_count": 4,
       "season_projection_rank": 144
     },
@@ -12569,7 +12569,7 @@
           "week": 2,
           "opponent": "ATL",
           "game_date": "2026-09-20",
-          "projected_points": 9.73,
+          "projected_points": 9.72,
           "provider_ppr_points": 11.94,
           "projection_sources": [
             "sleeper",
@@ -12577,8 +12577,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 3.73,
-          "confidence_score": 61.64
+          "source_spread_points": 3.74,
+          "confidence_score": 61.53
         },
         {
           "week": 10,
@@ -12626,7 +12626,7 @@
           "confidence_score": 55.56
         }
       ],
-      "weekly_projected_points_sum": 38.06,
+      "weekly_projected_points_sum": 38.05,
       "week_projection_count": 4,
       "season_projection_rank": 149
     },
@@ -12750,8 +12750,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 2.35,
-          "confidence_score": 71.32
+          "source_spread_points": 2.33,
+          "confidence_score": 71.54
         },
         {
           "week": 10,
@@ -13426,7 +13426,7 @@
           "week": 2,
           "opponent": "CLE",
           "game_date": "2026-09-20",
-          "projected_points": 7.56,
+          "projected_points": 7.55,
           "provider_ppr_points": 9.46,
           "projection_sources": [
             "sleeper",
@@ -13434,7 +13434,7 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 7.37,
+          "source_spread_points": 7.38,
           "confidence_score": 50
         },
         {
@@ -13468,7 +13468,7 @@
           "confidence_score": 50
         }
       ],
-      "weekly_projected_points_sum": 22.79,
+      "weekly_projected_points_sum": 22.78,
       "week_projection_count": 3,
       "season_projection_rank": 159
     },
@@ -13508,7 +13508,7 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 7.96,
+          "source_spread_points": 7.97,
           "confidence_score": 50
         },
         {
@@ -13592,8 +13592,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 3.54,
-          "confidence_score": 52.55
+          "source_spread_points": 3.53,
+          "confidence_score": 52.66
         },
         {
           "week": 11,
@@ -13819,7 +13819,7 @@
           "week": 2,
           "opponent": "CIN",
           "game_date": "2026-09-20",
-          "projected_points": 7.23,
+          "projected_points": 7.24,
           "provider_ppr_points": 6.36,
           "projection_sources": [
             "sleeper",
@@ -13827,8 +13827,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 3.57,
-          "confidence_score": 50.64
+          "source_spread_points": 3.53,
+          "confidence_score": 51.28
         },
         {
           "week": 10,
@@ -13876,7 +13876,7 @@
           "confidence_score": 66.31
         }
       ],
-      "weekly_projected_points_sum": 28.68,
+      "weekly_projected_points_sum": 28.69,
       "week_projection_count": 4,
       "season_projection_rank": 164
     },
@@ -14225,7 +14225,7 @@
           "week": 2,
           "opponent": "CIN",
           "game_date": "2026-09-20",
-          "projected_points": 8.23,
+          "projected_points": 8.24,
           "provider_ppr_points": 7.14,
           "projection_sources": [
             "sleeper",
@@ -14233,8 +14233,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 2.42,
-          "confidence_score": 70.63
+          "source_spread_points": 2.47,
+          "confidence_score": 70.08
         },
         {
           "week": 10,
@@ -14282,7 +14282,7 @@
           "confidence_score": 74.24
         }
       ],
-      "weekly_projected_points_sum": 31.04,
+      "weekly_projected_points_sum": 31.05,
       "week_projection_count": 4,
       "season_projection_rank": 169
     },
@@ -14322,8 +14322,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 2.58,
-          "confidence_score": 65.3
+          "source_spread_points": 2.59,
+          "confidence_score": 65.15
         },
         {
           "week": 10,
@@ -14487,7 +14487,7 @@
           "week": 2,
           "opponent": "LAR",
           "game_date": "2026-09-21",
-          "projected_points": 6.16,
+          "projected_points": 6.12,
           "provider_ppr_points": 5.22,
           "projection_sources": [
             "sleeper",
@@ -14495,7 +14495,7 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 6.26,
+          "source_spread_points": 6.14,
           "confidence_score": 50
         },
         {
@@ -14544,7 +14544,7 @@
           "confidence_score": 50
         }
       ],
-      "weekly_projected_points_sum": 26.34,
+      "weekly_projected_points_sum": 26.3,
       "week_projection_count": 4,
       "season_projection_rank": 172
     },
@@ -14576,7 +14576,7 @@
           "week": 2,
           "opponent": "CIN",
           "game_date": "2026-09-20",
-          "projected_points": 6.6,
+          "projected_points": 6.61,
           "provider_ppr_points": 6.84,
           "projection_sources": [
             "sleeper",
@@ -14584,8 +14584,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 0.83,
-          "confidence_score": 87.48
+          "source_spread_points": 0.8,
+          "confidence_score": 87.95
         },
         {
           "week": 10,
@@ -14633,7 +14633,7 @@
           "confidence_score": 90.64
         }
       ],
-      "weekly_projected_points_sum": 26.36,
+      "weekly_projected_points_sum": 26.37,
       "week_projection_count": 4,
       "season_projection_rank": 173
     },
@@ -14925,7 +14925,7 @@
           ],
           "projection_source_count": 3,
           "source_spread_points": 1.05,
-          "confidence_score": 84.32
+          "confidence_score": 84.31
         },
         {
           "week": 10,
@@ -15649,7 +15649,7 @@
           "week": 2,
           "opponent": "HOU",
           "game_date": "2026-09-20",
-          "projected_points": 5.89,
+          "projected_points": 5.88,
           "provider_ppr_points": 6.31,
           "projection_sources": [
             "sleeper",
@@ -15657,8 +15657,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 1.94,
-          "confidence_score": 67.04
+          "source_spread_points": 1.9,
+          "confidence_score": 67.65
         },
         {
           "week": 10,
@@ -15706,7 +15706,7 @@
           "confidence_score": 66.1
         }
       ],
-      "weekly_projected_points_sum": 25.06,
+      "weekly_projected_points_sum": 25.05,
       "week_projection_count": 4,
       "season_projection_rank": 186
     },
@@ -16284,7 +16284,7 @@
           "week": 2,
           "opponent": null,
           "game_date": null,
-          "projected_points": 8.31,
+          "projected_points": 8.3,
           "provider_ppr_points": 0,
           "projection_sources": [
             "stathead"
@@ -16333,7 +16333,7 @@
           "confidence_score": 35
         }
       ],
-      "weekly_projected_points_sum": 32.89,
+      "weekly_projected_points_sum": 32.88,
       "week_projection_count": 4,
       "season_projection_rank": 194
     },
@@ -16518,7 +16518,7 @@
           "week": 2,
           "opponent": "HOU",
           "game_date": "2026-09-20",
-          "projected_points": 5.29,
+          "projected_points": 5.28,
           "provider_ppr_points": 3.38,
           "projection_sources": [
             "sleeper",
@@ -16526,7 +16526,7 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 3.81,
+          "source_spread_points": 3.77,
           "confidence_score": 50
         },
         {
@@ -16575,7 +16575,7 @@
           "confidence_score": 50
         }
       ],
-      "weekly_projected_points_sum": 22.55,
+      "weekly_projected_points_sum": 22.54,
       "week_projection_count": 4,
       "season_projection_rank": 197
     },
@@ -16959,7 +16959,7 @@
           "week": 2,
           "opponent": "ATL",
           "game_date": "2026-09-20",
-          "projected_points": 5.6,
+          "projected_points": 5.59,
           "provider_ppr_points": 3.45,
           "projection_sources": [
             "sleeper",
@@ -16967,7 +16967,7 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 4.1,
+          "source_spread_points": 4.08,
           "confidence_score": 50
         },
         {
@@ -17016,7 +17016,7 @@
           "confidence_score": 50
         }
       ],
-      "weekly_projected_points_sum": 21.78,
+      "weekly_projected_points_sum": 21.77,
       "week_projection_count": 4,
       "season_projection_rank": 203
     },
@@ -17517,7 +17517,7 @@
           "week": 2,
           "opponent": "LAR",
           "game_date": "2026-09-21",
-          "projected_points": 4.85,
+          "projected_points": 4.82,
           "provider_ppr_points": 3.67,
           "projection_sources": [
             "sleeper",
@@ -17525,7 +17525,7 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 3.99,
+          "source_spread_points": 3.9,
           "confidence_score": 50
         },
         {
@@ -17574,7 +17574,7 @@
           "confidence_score": 50
         }
       ],
-      "weekly_projected_points_sum": 20.82,
+      "weekly_projected_points_sum": 20.79,
       "week_projection_count": 4,
       "season_projection_rank": 210
     },
@@ -17614,7 +17614,7 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 3.1,
+          "source_spread_points": 3.11,
           "confidence_score": 50
         },
         {
@@ -17690,7 +17690,7 @@
           "week": 2,
           "opponent": "HOU",
           "game_date": "2026-09-20",
-          "projected_points": 4.4,
+          "projected_points": 4.39,
           "provider_ppr_points": 3.97,
           "projection_sources": [
             "sleeper",
@@ -17698,7 +17698,7 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 2.94,
+          "source_spread_points": 2.91,
           "confidence_score": 50
         },
         {
@@ -17747,7 +17747,7 @@
           "confidence_score": 50
         }
       ],
-      "weekly_projected_points_sum": 18.93,
+      "weekly_projected_points_sum": 18.92,
       "week_projection_count": 4,
       "season_projection_rank": 212
     },
@@ -18011,7 +18011,7 @@
           "week": 2,
           "opponent": "LAR",
           "game_date": "2026-09-21",
-          "projected_points": 5.04,
+          "projected_points": 5.02,
           "provider_ppr_points": 5.46,
           "projection_sources": [
             "sleeper",
@@ -18019,8 +18019,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 0.75,
-          "confidence_score": 85.1
+          "source_spread_points": 0.81,
+          "confidence_score": 83.85
         },
         {
           "week": 10,
@@ -18068,7 +18068,7 @@
           "confidence_score": 93.62
         }
       ],
-      "weekly_projected_points_sum": 21.16,
+      "weekly_projected_points_sum": 21.14,
       "week_projection_count": 4,
       "season_projection_rank": 216
     },
@@ -18730,8 +18730,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 0.8,
-          "confidence_score": 82.55
+          "source_spread_points": 0.79,
+          "confidence_score": 82.76
         },
         {
           "week": 10,
@@ -18969,7 +18969,7 @@
           "week": 2,
           "opponent": "CLE",
           "game_date": "2026-09-20",
-          "projected_points": 3.78,
+          "projected_points": 3.77,
           "provider_ppr_points": 3.1,
           "projection_sources": [
             "sleeper",
@@ -18977,8 +18977,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 1.46,
-          "confidence_score": 61.47
+          "source_spread_points": 1.45,
+          "confidence_score": 61.7
         },
         {
           "week": 11,
@@ -19011,7 +19011,7 @@
           "confidence_score": 64.84
         }
       ],
-      "weekly_projected_points_sum": 11.52,
+      "weekly_projected_points_sum": 11.51,
       "week_projection_count": 3,
       "season_projection_rank": 228
     },
@@ -19127,7 +19127,7 @@
           "week": 2,
           "opponent": "LAR",
           "game_date": "2026-09-21",
-          "projected_points": 5.17,
+          "projected_points": 5.14,
           "provider_ppr_points": 5.71,
           "projection_sources": [
             "sleeper",
@@ -19135,7 +19135,7 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 2.81,
+          "source_spread_points": 2.73,
           "confidence_score": 50
         },
         {
@@ -19184,7 +19184,7 @@
           "confidence_score": 50
         }
       ],
-      "weekly_projected_points_sum": 21.81,
+      "weekly_projected_points_sum": 21.78,
       "week_projection_count": 4,
       "season_projection_rank": 230
     },
@@ -19458,7 +19458,7 @@
           "week": 2,
           "opponent": "CIN",
           "game_date": "2026-09-20",
-          "projected_points": 5.05,
+          "projected_points": 5.06,
           "provider_ppr_points": 4.65,
           "projection_sources": [
             "sleeper",
@@ -19466,8 +19466,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 2.31,
-          "confidence_score": 54.14
+          "source_spread_points": 2.34,
+          "confidence_score": 53.64
         },
         {
           "week": 10,
@@ -19515,7 +19515,7 @@
           "confidence_score": 50
         }
       ],
-      "weekly_projected_points_sum": 20.52,
+      "weekly_projected_points_sum": 20.53,
       "week_projection_count": 4,
       "season_projection_rank": 234
     },
@@ -19802,7 +19802,7 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 5.02,
+          "source_spread_points": 5.01,
           "confidence_score": 50
         },
         {
@@ -20365,7 +20365,7 @@
           "week": 2,
           "opponent": null,
           "game_date": null,
-          "projected_points": 4.78,
+          "projected_points": 4.77,
           "provider_ppr_points": 0,
           "projection_sources": [
             "stathead"
@@ -20414,7 +20414,7 @@
           "confidence_score": 35
         }
       ],
-      "weekly_projected_points_sum": 18.6,
+      "weekly_projected_points_sum": 18.59,
       "week_projection_count": 4,
       "season_projection_rank": 245
     },
@@ -20449,7 +20449,7 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 4.18,
+          "source_spread_points": 4.17,
           "confidence_score": 50
         },
         {
@@ -20599,7 +20599,7 @@
           "week": 2,
           "opponent": "LAR",
           "game_date": "2026-09-21",
-          "projected_points": 3.16,
+          "projected_points": 3.15,
           "provider_ppr_points": 4.06,
           "projection_sources": [
             "sleeper",
@@ -20607,7 +20607,7 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 1.97,
+          "source_spread_points": 1.99,
           "confidence_score": 50
         },
         {
@@ -20656,7 +20656,7 @@
           "confidence_score": 50
         }
       ],
-      "weekly_projected_points_sum": 13.17,
+      "weekly_projected_points_sum": 13.16,
       "week_projection_count": 4,
       "season_projection_rank": 248
     },
@@ -20914,14 +20914,14 @@
           "week": 2,
           "opponent": "LAR",
           "game_date": "2026-09-21",
-          "projected_points": 3.31,
+          "projected_points": 3.27,
           "provider_ppr_points": 0.82,
           "projection_sources": [
             "sleeper",
             "stathead"
           ],
           "projection_source_count": 2,
-          "source_spread_points": 4.91,
+          "source_spread_points": 4.84,
           "confidence_score": 40
         },
         {
@@ -20967,7 +20967,7 @@
           "confidence_score": 40
         }
       ],
-      "weekly_projected_points_sum": 13.89,
+      "weekly_projected_points_sum": 13.85,
       "week_projection_count": 4,
       "season_projection_rank": 252
     },
@@ -22517,14 +22517,14 @@
           "week": 2,
           "opponent": "HOU",
           "game_date": "2026-09-20",
-          "projected_points": 1.75,
+          "projected_points": 1.74,
           "provider_ppr_points": 0.64,
           "projection_sources": [
             "sleeper",
             "stathead"
           ],
           "projection_source_count": 2,
-          "source_spread_points": 2.22,
+          "source_spread_points": 2.2,
           "confidence_score": 40
         },
         {
@@ -22570,7 +22570,7 @@
           "confidence_score": 40
         }
       ],
-      "weekly_projected_points_sum": 7.68,
+      "weekly_projected_points_sum": 7.67,
       "week_projection_count": 4,
       "season_projection_rank": 272
     },
@@ -22605,7 +22605,7 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 3.25,
+          "source_spread_points": 3.24,
           "confidence_score": 50
         },
         {
@@ -23179,7 +23179,7 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 4.4,
+          "source_spread_points": 4.39,
           "confidence_score": 50
         },
         {
@@ -23263,7 +23263,7 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 1.64,
+          "source_spread_points": 1.63,
           "confidence_score": 50
         },
         {
@@ -23422,15 +23422,15 @@
           "week": 2,
           "opponent": "ATL",
           "game_date": "2026-09-20",
-          "projected_points": 3.11,
+          "projected_points": 3.1,
           "provider_ppr_points": 3.01,
           "projection_sources": [
             "sleeper",
             "stathead"
           ],
           "projection_source_count": 2,
-          "source_spread_points": 0.13,
-          "confidence_score": 75.77
+          "source_spread_points": 0.12,
+          "confidence_score": 76.09
         },
         {
           "week": 10,
@@ -23475,7 +23475,7 @@
           "confidence_score": 78.33
         }
       ],
-      "weekly_projected_points_sum": 12.14,
+      "weekly_projected_points_sum": 12.13,
       "week_projection_count": 4,
       "season_projection_rank": 283
     },
@@ -23739,7 +23739,7 @@
           "week": 2,
           "opponent": "MIA",
           "game_date": "2026-09-20",
-          "projected_points": 2.91,
+          "projected_points": 2.9,
           "provider_ppr_points": 1.95,
           "projection_sources": [
             "sleeper",
@@ -23747,7 +23747,7 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 2,
+          "source_spread_points": 1.99,
           "confidence_score": 50
         },
         {
@@ -23796,7 +23796,7 @@
           "confidence_score": 50
         }
       ],
-      "weekly_projected_points_sum": 10.8,
+      "weekly_projected_points_sum": 10.79,
       "week_projection_count": 4,
       "season_projection_rank": 287
     },
@@ -24202,7 +24202,7 @@
           "week": 2,
           "opponent": "MIA",
           "game_date": "2026-09-20",
-          "projected_points": 2.69,
+          "projected_points": 2.68,
           "provider_ppr_points": 3.12,
           "projection_sources": [
             "sleeper",
@@ -24211,7 +24211,7 @@
           ],
           "projection_source_count": 3,
           "source_spread_points": 1.12,
-          "confidence_score": 58.18
+          "confidence_score": 58.12
         },
         {
           "week": 10,
@@ -24259,7 +24259,7 @@
           "confidence_score": 50
         }
       ],
-      "weekly_projected_points_sum": 10.08,
+      "weekly_projected_points_sum": 10.07,
       "week_projection_count": 4,
       "season_projection_rank": 293
     },
@@ -25960,7 +25960,7 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 4.89,
+          "source_spread_points": 4.88,
           "confidence_score": 50
         },
         {
@@ -26363,8 +26363,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 0.65,
-          "confidence_score": 74.43
+          "source_spread_points": 0.66,
+          "confidence_score": 74.01
         },
         {
           "week": 10,
@@ -26585,7 +26585,7 @@
           "week": 2,
           "opponent": null,
           "game_date": null,
-          "projected_points": 3.53,
+          "projected_points": 3.52,
           "provider_ppr_points": 0,
           "projection_sources": [
             "stathead"
@@ -26634,7 +26634,7 @@
           "confidence_score": 35
         }
       ],
-      "weekly_projected_points_sum": 14.06,
+      "weekly_projected_points_sum": 14.05,
       "week_projection_count": 4,
       "season_projection_rank": 325
     },
@@ -26887,14 +26887,14 @@
           "week": 2,
           "opponent": "ATL",
           "game_date": "2026-09-20",
-          "projected_points": 2.1,
+          "projected_points": 2.09,
           "provider_ppr_points": 1.02,
           "projection_sources": [
             "sleeper",
             "stathead"
           ],
           "projection_source_count": 2,
-          "source_spread_points": 2.16,
+          "source_spread_points": 2.15,
           "confidence_score": 40
         },
         {
@@ -26940,7 +26940,7 @@
           "confidence_score": 40
         }
       ],
-      "weekly_projected_points_sum": 8.81,
+      "weekly_projected_points_sum": 8.8,
       "week_projection_count": 4,
       "season_projection_rank": 329
     },
@@ -27594,6 +27594,88 @@
       "season_projection_rank": 338
     },
     {
+      "player_id": "11596",
+      "name": "Ben Sinnott",
+      "position": "TE",
+      "team": "WAS",
+      "ownership": null,
+      "full_season_projected_points": 32.23,
+      "full_season_provider_ppr_points": 27.5,
+      "full_season_projection_sources": [
+        "sleeper",
+        "stathead"
+      ],
+      "full_season_projection_source_count": 2,
+      "full_season_source_spread_points": 9.46,
+      "full_season_confidence_score": 50.65,
+      "projected_games": 18,
+      "projected_points_per_game": 1.79,
+      "weekly": [
+        {
+          "week": 2,
+          "opponent": "DAL",
+          "game_date": "2026-09-20",
+          "projected_points": 2.44,
+          "provider_ppr_points": 1.96,
+          "projection_sources": [
+            "sleeper",
+            "stathead"
+          ],
+          "projection_source_count": 2,
+          "source_spread_points": 0.96,
+          "confidence_score": 40.66
+        },
+        {
+          "week": 10,
+          "opponent": "NYG",
+          "game_date": "2026-11-12",
+          "projected_points": 2.15,
+          "provider_ppr_points": 1.93,
+          "projection_sources": [
+            "sleeper",
+            "espn",
+            "stathead"
+          ],
+          "projection_source_count": 3,
+          "source_spread_points": 1.33,
+          "confidence_score": 50
+        },
+        {
+          "week": 11,
+          "opponent": "CIN",
+          "game_date": "2026-11-23",
+          "projected_points": 2.45,
+          "provider_ppr_points": 1.94,
+          "projection_sources": [
+            "sleeper",
+            "espn",
+            "stathead"
+          ],
+          "projection_source_count": 3,
+          "source_spread_points": 2.13,
+          "confidence_score": 50
+        },
+        {
+          "week": 12,
+          "opponent": "ARI",
+          "game_date": "2026-11-29",
+          "projected_points": 2.33,
+          "provider_ppr_points": 1.94,
+          "projection_sources": [
+            "sleeper",
+            "espn",
+            "stathead"
+          ],
+          "projection_source_count": 3,
+          "source_spread_points": 1.78,
+          "confidence_score": 50
+        }
+      ],
+      "weekly_projected_points_sum": 9.37,
+      "week_projection_count": 4,
+      "season_projection_rank": 339
+    },
+    {
       "player_id": "8489",
       "name": "Drew Ogletree",
       "position": "TE",
@@ -27670,7 +27752,7 @@
       ],
       "weekly_projected_points_sum": 9.87,
       "week_projection_count": 4,
-      "season_projection_rank": 339
+      "season_projection_rank": 340
     },
     {
       "player_id": "13420",
@@ -27754,7 +27836,7 @@
       ],
       "weekly_projected_points_sum": 6.79,
       "week_projection_count": 4,
-      "season_projection_rank": 340
+      "season_projection_rank": 341
     },
     {
       "player_id": "8122",
@@ -27833,7 +27915,7 @@
       ],
       "weekly_projected_points_sum": 8.94,
       "week_projection_count": 4,
-      "season_projection_rank": 341
+      "season_projection_rank": 342
     },
     {
       "player_id": "7716",
@@ -27907,14 +27989,19 @@
       ],
       "weekly_projected_points_sum": 8.79,
       "week_projection_count": 4,
-      "season_projection_rank": 342
+      "season_projection_rank": 343
     },
     {
       "player_id": "13324",
       "name": "Matt Hibner",
       "position": "TE",
       "team": "BAL",
-      "ownership": null,
+      "ownership": {
+        "roster_id": 8,
+        "owner_id": "1131304330881077248",
+        "team_name": "PurpleRhane",
+        "roster_status": "active_roster"
+      },
       "full_season_projected_points": 31.8,
       "full_season_provider_ppr_points": 31.8,
       "full_season_projection_sources": [
@@ -27981,7 +28068,7 @@
       ],
       "weekly_projected_points_sum": 6.79,
       "week_projection_count": 4,
-      "season_projection_rank": 343
+      "season_projection_rank": 344
     },
     {
       "player_id": "13357",
@@ -28002,7 +28089,7 @@
       "weekly": [],
       "weekly_projected_points_sum": 0,
       "week_projection_count": 0,
-      "season_projection_rank": 344
+      "season_projection_rank": 345
     },
     {
       "player_id": "13431",
@@ -28023,7 +28110,7 @@
       "weekly": [],
       "weekly_projected_points_sum": 0,
       "week_projection_count": 0,
-      "season_projection_rank": 345
+      "season_projection_rank": 346
     },
     {
       "player_id": "19",
@@ -28048,14 +28135,14 @@
           "week": 2,
           "opponent": null,
           "game_date": null,
-          "projected_points": 7.88,
+          "projected_points": 7.84,
           "provider_ppr_points": 0,
           "projection_sources": [
             "espn",
             "stathead"
           ],
           "projection_source_count": 2,
-          "source_spread_points": 14.63,
+          "source_spread_points": 14.55,
           "confidence_score": 40
         },
         {
@@ -28101,9 +28188,9 @@
           "confidence_score": 40
         }
       ],
-      "weekly_projected_points_sum": 36.14,
+      "weekly_projected_points_sum": 36.1,
       "week_projection_count": 4,
-      "season_projection_rank": 346
+      "season_projection_rank": 347
     },
     {
       "player_id": "13477",
@@ -28136,8 +28223,8 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 0.78,
-          "confidence_score": 58.25
+          "source_spread_points": 0.79,
+          "confidence_score": 57.63
         },
         {
           "week": 10,
@@ -28187,7 +28274,7 @@
       ],
       "weekly_projected_points_sum": 7.82,
       "week_projection_count": 4,
-      "season_projection_rank": 347
+      "season_projection_rank": 348
     },
     {
       "player_id": "13348",
@@ -28261,7 +28348,7 @@
       ],
       "weekly_projected_points_sum": 2.32,
       "week_projection_count": 4,
-      "season_projection_rank": 348
+      "season_projection_rank": 349
     },
     {
       "player_id": "13288",
@@ -28349,90 +28436,6 @@
         }
       ],
       "weekly_projected_points_sum": 5.43,
-      "week_projection_count": 4,
-      "season_projection_rank": 349
-    },
-    {
-      "player_id": "11596",
-      "name": "Ben Sinnott",
-      "position": "TE",
-      "team": "WAS",
-      "ownership": null,
-      "full_season_projected_points": 30.37,
-      "full_season_provider_ppr_points": 27.5,
-      "full_season_projection_sources": [
-        "sleeper",
-        "espn",
-        "stathead"
-      ],
-      "full_season_projection_source_count": 3,
-      "full_season_source_spread_points": 10.32,
-      "full_season_confidence_score": 66.03,
-      "projected_games": 18,
-      "projected_points_per_game": 1.69,
-      "weekly": [
-        {
-          "week": 2,
-          "opponent": "DAL",
-          "game_date": "2026-09-20",
-          "projected_points": 2.16,
-          "provider_ppr_points": 1.96,
-          "projection_sources": [
-            "sleeper",
-            "espn",
-            "stathead"
-          ],
-          "projection_source_count": 3,
-          "source_spread_points": 1.33,
-          "confidence_score": 50
-        },
-        {
-          "week": 10,
-          "opponent": "NYG",
-          "game_date": "2026-11-12",
-          "projected_points": 2.15,
-          "provider_ppr_points": 1.93,
-          "projection_sources": [
-            "sleeper",
-            "espn",
-            "stathead"
-          ],
-          "projection_source_count": 3,
-          "source_spread_points": 1.33,
-          "confidence_score": 50
-        },
-        {
-          "week": 11,
-          "opponent": "CIN",
-          "game_date": "2026-11-23",
-          "projected_points": 2.45,
-          "provider_ppr_points": 1.94,
-          "projection_sources": [
-            "sleeper",
-            "espn",
-            "stathead"
-          ],
-          "projection_source_count": 3,
-          "source_spread_points": 2.13,
-          "confidence_score": 50
-        },
-        {
-          "week": 12,
-          "opponent": "ARI",
-          "game_date": "2026-11-29",
-          "projected_points": 2.33,
-          "provider_ppr_points": 1.94,
-          "projection_sources": [
-            "sleeper",
-            "espn",
-            "stathead"
-          ],
-          "projection_source_count": 3,
-          "source_spread_points": 1.78,
-          "confidence_score": 50
-        }
-      ],
-      "weekly_projected_points_sum": 9.09,
       "week_projection_count": 4,
       "season_projection_rank": 350
     },
@@ -30837,14 +30840,14 @@
           "week": 2,
           "opponent": null,
           "game_date": null,
-          "projected_points": 10.39,
+          "projected_points": 10.37,
           "provider_ppr_points": 0,
           "projection_sources": [
             "espn",
             "stathead"
           ],
           "projection_source_count": 2,
-          "source_spread_points": 19.53,
+          "source_spread_points": 19.49,
           "confidence_score": 40
         },
         {
@@ -30890,7 +30893,7 @@
           "confidence_score": 40
         }
       ],
-      "weekly_projected_points_sum": 39.57,
+      "weekly_projected_points_sum": 39.55,
       "week_projection_count": 4,
       "season_projection_rank": 392
     },
@@ -31085,7 +31088,7 @@
             "stathead"
           ],
           "projection_source_count": 2,
-          "source_spread_points": 15.35,
+          "source_spread_points": 15.34,
           "confidence_score": 40
         },
         {
@@ -31484,7 +31487,7 @@
           "week": 2,
           "opponent": "CIN",
           "game_date": "2026-09-20",
-          "projected_points": 1.72,
+          "projected_points": 1.73,
           "provider_ppr_points": 0.63,
           "projection_sources": [
             "sleeper",
@@ -31492,7 +31495,7 @@
             "stathead"
           ],
           "projection_source_count": 3,
-          "source_spread_points": 3.73,
+          "source_spread_points": 3.76,
           "confidence_score": 50
         },
         {
@@ -31541,7 +31544,7 @@
           "confidence_score": 50
         }
       ],
-      "weekly_projected_points_sum": 6.61,
+      "weekly_projected_points_sum": 6.62,
       "week_projection_count": 4,
       "season_projection_rank": 401
     },
@@ -31731,7 +31734,7 @@
           "week": 2,
           "opponent": null,
           "game_date": null,
-          "projected_points": 17.87,
+          "projected_points": 17.97,
           "provider_ppr_points": 0,
           "projection_sources": [
             "stathead"
@@ -31780,7 +31783,7 @@
           "confidence_score": 35
         }
       ],
-      "weekly_projected_points_sum": 68.14,
+      "weekly_projected_points_sum": 68.24,
       "week_projection_count": 4,
       "season_projection_rank": 404
     },
@@ -32910,7 +32913,7 @@
           "week": 2,
           "opponent": null,
           "game_date": null,
-          "projected_points": 1.18,
+          "projected_points": 1.16,
           "provider_ppr_points": 0,
           "projection_sources": [
             "stathead"
@@ -32959,7 +32962,7 @@
           "confidence_score": 35
         }
       ],
-      "weekly_projected_points_sum": 5.08,
+      "weekly_projected_points_sum": 5.06,
       "week_projection_count": 4,
       "season_projection_rank": 421
     },
@@ -33670,14 +33673,14 @@
           "week": 2,
           "opponent": null,
           "game_date": null,
-          "projected_points": 7.46,
+          "projected_points": 7.37,
           "provider_ppr_points": 0,
           "projection_sources": [
             "espn",
             "stathead"
           ],
           "projection_source_count": 2,
-          "source_spread_points": 13.94,
+          "source_spread_points": 13.77,
           "confidence_score": 40
         },
         {
@@ -33723,7 +33726,7 @@
           "confidence_score": 40
         }
       ],
-      "weekly_projected_points_sum": 32.88,
+      "weekly_projected_points_sum": 32.79,
       "week_projection_count": 4,
       "season_projection_rank": 431
     },
@@ -35442,7 +35445,7 @@
           "week": 2,
           "opponent": null,
           "game_date": null,
-          "projected_points": 14.53,
+          "projected_points": 14.52,
           "provider_ppr_points": 0,
           "projection_sources": [
             "stathead"
@@ -35478,7 +35481,7 @@
           "confidence_score": 35
         }
       ],
-      "weekly_projected_points_sum": 44.75,
+      "weekly_projected_points_sum": 44.74,
       "week_projection_count": 3,
       "season_projection_rank": 455
     },
@@ -35857,7 +35860,7 @@
           "week": 2,
           "opponent": null,
           "game_date": null,
-          "projected_points": 15.68,
+          "projected_points": 15.66,
           "provider_ppr_points": 0,
           "projection_sources": [
             "stathead"
@@ -35906,7 +35909,7 @@
           "confidence_score": 35
         }
       ],
-      "weekly_projected_points_sum": 64.93,
+      "weekly_projected_points_sum": 64.91,
       "week_projection_count": 4,
       "season_projection_rank": 461
     },
@@ -37361,7 +37364,7 @@
           "week": 2,
           "opponent": null,
           "game_date": null,
-          "projected_points": 1.38,
+          "projected_points": 1.37,
           "provider_ppr_points": 0,
           "projection_sources": [
             "stathead"
@@ -37410,7 +37413,7 @@
           "confidence_score": 35
         }
       ],
-      "weekly_projected_points_sum": 5.92,
+      "weekly_projected_points_sum": 5.91,
       "week_projection_count": 4,
       "season_projection_rank": 487
     },
@@ -37552,14 +37555,14 @@
           "week": 2,
           "opponent": null,
           "game_date": null,
-          "projected_points": 7.36,
+          "projected_points": 7.35,
           "provider_ppr_points": 0,
           "projection_sources": [
             "espn",
             "stathead"
           ],
           "projection_source_count": 2,
-          "source_spread_points": 13.51,
+          "source_spread_points": 13.49,
           "confidence_score": 40
         },
         {
@@ -37605,7 +37608,7 @@
           "confidence_score": 40
         }
       ],
-      "weekly_projected_points_sum": 29.48,
+      "weekly_projected_points_sum": 29.47,
       "week_projection_count": 4,
       "season_projection_rank": 491
     },
@@ -37988,14 +37991,14 @@
           "week": 2,
           "opponent": "MIA",
           "game_date": "2026-09-20",
-          "projected_points": 0.71,
+          "projected_points": 0.7,
           "provider_ppr_points": 0.02,
           "projection_sources": [
             "sleeper",
             "stathead"
           ],
           "projection_source_count": 2,
-          "source_spread_points": 1.38,
+          "source_spread_points": 1.37,
           "confidence_score": 40
         },
         {
@@ -38041,7 +38044,7 @@
           "confidence_score": 40
         }
       ],
-      "weekly_projected_points_sum": 2.81,
+      "weekly_projected_points_sum": 2.8,
       "week_projection_count": 4,
       "season_projection_rank": 499
     },
@@ -38627,7 +38630,7 @@
           "week": 2,
           "opponent": null,
           "game_date": null,
-          "projected_points": 1.17,
+          "projected_points": 1.15,
           "provider_ppr_points": 0,
           "projection_sources": [
             "stathead"
@@ -38676,7 +38679,7 @@
           "confidence_score": 35
         }
       ],
-      "weekly_projected_points_sum": 4.99,
+      "weekly_projected_points_sum": 4.97,
       "week_projection_count": 4,
       "season_projection_rank": 510
     },
@@ -39046,15 +39049,15 @@
           "week": 2,
           "opponent": "CIN",
           "game_date": "2026-09-20",
-          "projected_points": 0.78,
+          "projected_points": 0.79,
           "provider_ppr_points": 0.8,
           "projection_sources": [
             "sleeper",
             "stathead"
           ],
           "projection_source_count": 2,
-          "source_spread_points": 0.04,
-          "confidence_score": 74.87
+          "source_spread_points": 0.03,
+          "confidence_score": 76.18
         },
         {
           "week": 10,
@@ -39099,7 +39102,7 @@
           "confidence_score": 52.66
         }
       ],
-      "weekly_projected_points_sum": 2.9,
+      "weekly_projected_points_sum": 2.91,
       "week_projection_count": 4,
       "season_projection_rank": 516
     },
@@ -39674,8 +39677,8 @@
             "stathead"
           ],
           "projection_source_count": 2,
-          "source_spread_points": 0.16,
-          "confidence_score": 58.67
+          "source_spread_points": 0.17,
+          "confidence_score": 57.18
         },
         {
           "week": 10,
@@ -44438,7 +44441,7 @@
       "player_id": "3200",
       "name": "Sterling Shepard",
       "position": "WR",
-      "team": null,
+      "team": "HOU",
       "ownership": null,
       "full_season_projected_points": 0.6,
       "full_season_provider_ppr_points": 0.6,
@@ -44610,7 +44613,7 @@
       "weekly": [
         {
           "week": 2,
-          "projected_points": 160.72,
+          "projected_points": 160.73,
           "lineup_projection_coverage": 1
         },
         {
@@ -44639,8 +44642,8 @@
           "week": 2,
           "opponent_roster_id": 8,
           "opponent_team": "PurpleRhane",
-          "projected_points": 160.72,
-          "opponent_projected_points": 127.77,
+          "projected_points": 160.73,
+          "opponent_projected_points": 127.76,
           "projected_result": "win"
         },
         {
@@ -44668,10 +44671,10 @@
           "projected_result": "win"
         }
       ],
-      "weekly_projected_points_sum": 631.45,
-      "regular_season_projected_points_sum": 631.45,
+      "weekly_projected_points_sum": 631.46,
+      "regular_season_projected_points_sum": 631.46,
       "week_projection_count": 4,
-      "average_weekly_projected_points": 157.86,
+      "average_weekly_projected_points": 157.87,
       "season_projection_rank": 1
     },
     {
@@ -44756,7 +44759,7 @@
       "weekly": [
         {
           "week": 2,
-          "projected_points": 146.52,
+          "projected_points": 146.48,
           "lineup_projection_coverage": 1
         },
         {
@@ -44785,8 +44788,8 @@
           "week": 2,
           "opponent_roster_id": 9,
           "opponent_team": "The Crusty CreamPies",
-          "projected_points": 146.52,
-          "opponent_projected_points": 144.42,
+          "projected_points": 146.48,
+          "opponent_projected_points": 144.44,
           "projected_result": "win"
         },
         {
@@ -44814,10 +44817,10 @@
           "projected_result": "win"
         }
       ],
-      "weekly_projected_points_sum": 582.06,
-      "regular_season_projected_points_sum": 582.06,
+      "weekly_projected_points_sum": 582.02,
+      "regular_season_projected_points_sum": 582.02,
       "week_projection_count": 4,
-      "average_weekly_projected_points": 145.51,
+      "average_weekly_projected_points": 145.5,
       "season_projection_rank": 3
     },
     {
@@ -44829,7 +44832,7 @@
       "weekly": [
         {
           "week": 2,
-          "projected_points": 144.42,
+          "projected_points": 144.44,
           "lineup_projection_coverage": 1
         },
         {
@@ -44858,8 +44861,8 @@
           "week": 2,
           "opponent_roster_id": 4,
           "opponent_team": "Raw Dawgs",
-          "projected_points": 144.42,
-          "opponent_projected_points": 146.52,
+          "projected_points": 144.44,
+          "opponent_projected_points": 146.48,
           "projected_result": "loss"
         },
         {
@@ -44887,8 +44890,8 @@
           "projected_result": "win"
         }
       ],
-      "weekly_projected_points_sum": 539.4,
-      "regular_season_projected_points_sum": 539.4,
+      "weekly_projected_points_sum": 539.42,
+      "regular_season_projected_points_sum": 539.42,
       "week_projection_count": 4,
       "average_weekly_projected_points": 134.85,
       "season_projection_rank": 4
@@ -44902,7 +44905,7 @@
       "weekly": [
         {
           "week": 2,
-          "projected_points": 128.16,
+          "projected_points": 127.99,
           "lineup_projection_coverage": 1
         },
         {
@@ -44931,8 +44934,8 @@
           "week": 2,
           "opponent_roster_id": 6,
           "opponent_team": "McCaffrican Americans",
-          "projected_points": 128.16,
-          "opponent_projected_points": 114.76,
+          "projected_points": 127.99,
+          "opponent_projected_points": 114.78,
           "projected_result": "win"
         },
         {
@@ -44960,10 +44963,10 @@
           "projected_result": "loss"
         }
       ],
-      "weekly_projected_points_sum": 526.8,
-      "regular_season_projected_points_sum": 526.8,
+      "weekly_projected_points_sum": 526.63,
+      "regular_season_projected_points_sum": 526.63,
       "week_projection_count": 4,
-      "average_weekly_projected_points": 131.7,
+      "average_weekly_projected_points": 131.66,
       "season_projection_rank": 5
     },
     {
@@ -44975,7 +44978,7 @@
       "weekly": [
         {
           "week": 2,
-          "projected_points": 127.77,
+          "projected_points": 127.76,
           "lineup_projection_coverage": 1
         },
         {
@@ -45004,8 +45007,8 @@
           "week": 2,
           "opponent_roster_id": 10,
           "opponent_team": "Sugerdaddy",
-          "projected_points": 127.77,
-          "opponent_projected_points": 160.72,
+          "projected_points": 127.76,
+          "opponent_projected_points": 160.73,
           "projected_result": "loss"
         },
         {
@@ -45033,10 +45036,10 @@
           "projected_result": "loss"
         }
       ],
-      "weekly_projected_points_sum": 497.86,
-      "regular_season_projected_points_sum": 497.86,
+      "weekly_projected_points_sum": 497.85,
+      "regular_season_projected_points_sum": 497.85,
       "week_projection_count": 4,
-      "average_weekly_projected_points": 124.47,
+      "average_weekly_projected_points": 124.46,
       "season_projection_rank": 6
     },
     {
@@ -45116,12 +45119,12 @@
       "roster_id": 5,
       "owner_id": "1129909167751426048",
       "team_name": "BING BONG",
-      "consensus_full_season_lineup_projection": 1919.18,
-      "provider_full_season_lineup_projection": 1919.18,
+      "consensus_full_season_lineup_projection": 1891.21,
+      "provider_full_season_lineup_projection": 1891.21,
       "weekly": [
         {
           "week": 2,
-          "projected_points": 119.88,
+          "projected_points": 116.36,
           "lineup_projection_coverage": 1
         },
         {
@@ -45150,8 +45153,8 @@
           "week": 2,
           "opponent_roster_id": 1,
           "opponent_team": "Young N Hip",
-          "projected_points": 119.88,
-          "opponent_projected_points": 112.4,
+          "projected_points": 116.36,
+          "opponent_projected_points": 112.42,
           "projected_result": "win"
         },
         {
@@ -45179,10 +45182,10 @@
           "projected_result": "loss"
         }
       ],
-      "weekly_projected_points_sum": 470.17,
-      "regular_season_projected_points_sum": 470.17,
+      "weekly_projected_points_sum": 466.65,
+      "regular_season_projected_points_sum": 466.65,
       "week_projection_count": 4,
-      "average_weekly_projected_points": 117.54,
+      "average_weekly_projected_points": 116.66,
       "season_projection_rank": 8
     },
     {
@@ -45194,7 +45197,7 @@
       "weekly": [
         {
           "week": 2,
-          "projected_points": 114.76,
+          "projected_points": 114.78,
           "lineup_projection_coverage": 1
         },
         {
@@ -45223,8 +45226,8 @@
           "week": 2,
           "opponent_roster_id": 2,
           "opponent_team": "Cam dog",
-          "projected_points": 114.76,
-          "opponent_projected_points": 128.16,
+          "projected_points": 114.78,
+          "opponent_projected_points": 127.99,
           "projected_result": "loss"
         },
         {
@@ -45252,10 +45255,10 @@
           "projected_result": "loss"
         }
       ],
-      "weekly_projected_points_sum": 436.41,
-      "regular_season_projected_points_sum": 436.41,
+      "weekly_projected_points_sum": 436.43,
+      "regular_season_projected_points_sum": 436.43,
       "week_projection_count": 4,
-      "average_weekly_projected_points": 109.1,
+      "average_weekly_projected_points": 109.11,
       "season_projection_rank": 9
     },
     {
@@ -45267,7 +45270,7 @@
       "weekly": [
         {
           "week": 2,
-          "projected_points": 112.4,
+          "projected_points": 112.42,
           "lineup_projection_coverage": 1
         },
         {
@@ -45296,8 +45299,8 @@
           "week": 2,
           "opponent_roster_id": 5,
           "opponent_team": "BING BONG",
-          "projected_points": 112.4,
-          "opponent_projected_points": 119.88,
+          "projected_points": 112.42,
+          "opponent_projected_points": 116.36,
           "projected_result": "loss"
         },
         {
@@ -45325,10 +45328,10 @@
           "projected_result": "loss"
         }
       ],
-      "weekly_projected_points_sum": 447.6,
-      "regular_season_projected_points_sum": 447.6,
+      "weekly_projected_points_sum": 447.62,
+      "regular_season_projected_points_sum": 447.62,
       "week_projection_count": 4,
-      "average_weekly_projected_points": 111.9,
+      "average_weekly_projected_points": 111.91,
       "season_projection_rank": 10
     }
   ]
