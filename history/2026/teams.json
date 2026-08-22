@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T12:00:22.621Z",
+  "generated_at": "2026-08-22T00:00:29.790Z",
   "season": "2026",
   "teams": [
     {
@@ -1318,7 +1318,7 @@
           ],
           "team": "LAC",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 24,
           "years_exp": 1
         },
@@ -1667,7 +1667,7 @@
           ],
           "team": "LAC",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 24,
           "years_exp": 1
         }
@@ -2330,7 +2330,7 @@
           "team": "SF",
           "status": "Active",
           "injury_status": "Questionable",
-          "age": 32,
+          "age": 33,
           "years_exp": 12
         },
         {
@@ -2377,21 +2377,6 @@
           "injury_status": "Questionable",
           "age": 31,
           "years_exp": 10
-        },
-        {
-          "player_id": "4033",
-          "name": "David Njoku",
-          "first_name": "David",
-          "last_name": "Njoku",
-          "position": "TE",
-          "fantasy_positions": [
-            "TE"
-          ],
-          "team": "LAC",
-          "status": "Active",
-          "injury_status": null,
-          "age": 30,
-          "years_exp": 9
         },
         {
           "player_id": "4217",
@@ -2692,7 +2677,7 @@
           "team": "SF",
           "status": "Active",
           "injury_status": "Questionable",
-          "age": 32,
+          "age": 33,
           "years_exp": 12
         },
         {
@@ -2711,10 +2696,19 @@
           "years_exp": 3
         },
         {
-          "player_id": "0",
-          "name": "0",
-          "position": "DEF",
-          "team": "0"
+          "player_id": "6804",
+          "name": "Jordan Love",
+          "first_name": "Jordan",
+          "last_name": "Love",
+          "position": "QB",
+          "fantasy_positions": [
+            "QB"
+          ],
+          "team": "GB",
+          "status": "Active",
+          "injury_status": null,
+          "age": 27,
+          "years_exp": 6
         }
       ],
       "taxi": [
@@ -2749,7 +2743,23 @@
           "years_exp": null
         }
       ],
-      "reserve": []
+      "reserve": [
+        {
+          "player_id": "4217",
+          "name": "George Kittle",
+          "first_name": "George",
+          "last_name": "Kittle",
+          "position": "TE",
+          "fantasy_positions": [
+            "TE"
+          ],
+          "team": "SF",
+          "status": "Active",
+          "injury_status": "PUP",
+          "age": 32,
+          "years_exp": 9
+        }
+      ]
     },
     {
       "roster_id": 6,
@@ -4057,6 +4067,21 @@
           "years_exp": null
         },
         {
+          "player_id": "13324",
+          "name": "Matt Hibner",
+          "first_name": "Matt",
+          "last_name": "Hibner",
+          "position": "TE",
+          "fantasy_positions": [
+            "TE"
+          ],
+          "team": "BAL",
+          "status": "Active",
+          "injury_status": null,
+          "age": 24,
+          "years_exp": null
+        },
+        {
           "player_id": "13346",
           "name": "Denzel Boston",
           "first_name": "Denzel",
@@ -5113,7 +5138,7 @@
             "WR"
           ],
           "team": "HOU",
-          "status": "Active",
+          "status": "Inactive",
           "injury_status": "IR",
           "age": 23,
           "years_exp": 1
@@ -5599,7 +5624,7 @@
             "WR"
           ],
           "team": "HOU",
-          "status": "Active",
+          "status": "Inactive",
           "injury_status": "IR",
           "age": 23,
           "years_exp": 1
