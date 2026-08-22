@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T12:00:22.621Z",
+  "generated_at": "2026-08-22T00:00:29.790Z",
   "season": "2026",
   "transactions": [
     {
@@ -2828,7 +2828,7 @@
             ],
             "team": "CAR",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 25,
             "years_exp": 2
           },
@@ -5131,6 +5131,96 @@
           "team_name": "Third Down Syndrome"
         }
       ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1396543472537706496",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1787324419677,
+      "created_iso": "2026-08-21T15:00:19.677Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "1129909167751426048",
+      "roster_ids": [
+        5
+      ],
+      "teams": [
+        {
+          "roster_id": 5,
+          "team_name": "BING BONG"
+        }
+      ],
+      "adds": [],
+      "drops": [
+        {
+          "player": {
+            "player_id": "4033",
+            "name": "David Njoku",
+            "first_name": "David",
+            "last_name": "Njoku",
+            "position": "TE",
+            "fantasy_positions": [
+              "TE"
+            ],
+            "team": "LAC",
+            "status": "Active",
+            "injury_status": null,
+            "age": 30,
+            "years_exp": 9
+          },
+          "roster_id": 5,
+          "team_name": "BING BONG"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1396552862141534208",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1787326658334,
+      "created_iso": "2026-08-21T15:37:38.334Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "1131304330881077248",
+      "roster_ids": [
+        8
+      ],
+      "teams": [
+        {
+          "roster_id": 8,
+          "team_name": "PurpleRhane"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "13324",
+            "name": "Matt Hibner",
+            "first_name": "Matt",
+            "last_name": "Hibner",
+            "position": "TE",
+            "fantasy_positions": [
+              "TE"
+            ],
+            "team": "BAL",
+            "status": "Active",
+            "injury_status": null,
+            "age": 24,
+            "years_exp": null
+          },
+          "roster_id": 8,
+          "team_name": "PurpleRhane"
+        }
+      ],
+      "drops": [],
       "draft_picks": [],
       "waiver_budget": [],
       "waiver_bid": null,
