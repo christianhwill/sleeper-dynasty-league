@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T20:12:10.618Z",
+  "generated_at": "2026-08-22T09:00:31.884Z",
   "season": "2026",
   "projection_scope": "full_regular_season",
   "league": {
@@ -93,7 +93,7 @@
     "sleeper": {
       "name": "Sleeper/RotoWire",
       "status": "available",
-      "fetched_at": "2026-08-21T20:12:10.552Z",
+      "fetched_at": "2026-08-22T09:00:31.633Z",
       "error": null,
       "provider_company_reported_by_feed": "RotoWire",
       "access_status": "Publicly reachable but not documented in Sleeper's official API reference.",
@@ -102,7 +102,7 @@
     "espn": {
       "name": "ESPN",
       "status": "available",
-      "fetched_at": "2026-08-21T20:12:08.427Z",
+      "fetched_at": "2026-08-22T09:00:29.448Z",
       "error": null,
       "access_status": "Publicly reachable ESPN fantasy player pool endpoint; undocumented and isolated behind a fallback adapter.",
       "scoring": "ESPN projected counting stats mapped to the league's Sleeper scoring settings.",
@@ -111,8 +111,8 @@
     "stathead": {
       "name": "StatHead open model",
       "status": "available",
-      "fetched_at": "2026-08-21T20:12:08.427Z",
-      "generated_at": "2026-08-21T18:15:35+00:00",
+      "fetched_at": "2026-08-22T09:00:29.448Z",
+      "generated_at": "2026-08-22T04:17:00+00:00",
       "error": null,
       "model": "Open weekly model based on season PPG, opponent defense versus position, venue, and available market environment.",
       "license": "StatHead model outputs are published for reuse; code is MIT licensed.",
@@ -127,12 +127,12 @@
   },
   "data_quality": {
     "player_count": 601,
-    "players_with_three_sources": 336,
-    "players_with_two_sources": 107,
+    "players_with_three_sources": 335,
+    "players_with_two_sources": 108,
     "players_with_one_source": 158,
     "rostered_player_count_with_projection": 233,
-    "rostered_players_with_three_sources": 219,
-    "rostered_players_with_two_or_more_sources": 227
+    "rostered_players_with_three_sources": 218,
+    "rostered_players_with_two_or_more_sources": 226
   },
   "player_count": 601,
   "team_count": 10,
@@ -165,7 +165,7 @@
         "rush_yd": 1251
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:37.997Z",
+      "source_last_modified": "2026-08-22T07:50:35.059Z",
       "ownership": {
         "roster_id": 10,
         "owner_id": "937819151345799168",
@@ -221,7 +221,7 @@
         "rush_yd": 535
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:55.775Z",
+      "source_last_modified": "2026-08-22T07:50:49.662Z",
       "ownership": {
         "roster_id": 10,
         "owner_id": "937819151345799168",
@@ -274,7 +274,7 @@
         "rush_yd": 1372
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.419Z",
+      "source_last_modified": "2026-08-22T07:50:43.623Z",
       "ownership": {
         "roster_id": 9,
         "owner_id": "859906411432366080",
@@ -326,7 +326,7 @@
         "rush_yd": 984
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:49.431Z",
+      "source_last_modified": "2026-08-22T07:50:44.485Z",
       "ownership": {
         "roster_id": 10,
         "owner_id": "937819151345799168",
@@ -379,7 +379,7 @@
         "rush_yd": 1385
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:39.607Z",
+      "source_last_modified": "2026-08-22T07:50:36.351Z",
       "ownership": {
         "roster_id": 4,
         "owner_id": "1129897778072649728",
@@ -431,7 +431,7 @@
         "rush_yd": 55
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:42.322Z",
+      "source_last_modified": "2026-08-22T07:50:38.467Z",
       "ownership": {
         "roster_id": 7,
         "owner_id": "1131294900231815168",
@@ -486,7 +486,7 @@
         "rush_yd": 416
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.497Z",
+      "source_last_modified": "2026-08-22T07:50:40.288Z",
       "ownership": {
         "roster_id": 8,
         "owner_id": "1131304330881077248",
@@ -541,7 +541,7 @@
         "rush_yd": 515
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:52.007Z",
+      "source_last_modified": "2026-08-22T07:50:46.600Z",
       "ownership": {
         "roster_id": 9,
         "owner_id": "859906411432366080",
@@ -593,7 +593,7 @@
         "rush_yd": 16
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.129Z",
+      "source_last_modified": "2026-08-22T07:50:41.609Z",
       "ownership": {
         "roster_id": 4,
         "owner_id": "1129897778072649728",
@@ -645,7 +645,7 @@
         "rush_yd": 16
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:37.696Z",
+      "source_last_modified": "2026-08-22T07:50:34.827Z",
       "ownership": {
         "roster_id": 10,
         "owner_id": "937819151345799168",
@@ -700,7 +700,7 @@
         "rush_yd": 339
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:50.164Z",
+      "source_last_modified": "2026-08-22T07:50:45.100Z",
       "ownership": {
         "roster_id": 2,
         "owner_id": "1129877684336578560",
@@ -752,7 +752,7 @@
         "rush_yd": 33
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:56.618Z",
+      "source_last_modified": "2026-08-22T07:50:50.295Z",
       "ownership": {
         "roster_id": 7,
         "owner_id": "1131294900231815168",
@@ -807,7 +807,7 @@
         "rush_yd": 330
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.495Z",
+      "source_last_modified": "2026-08-22T07:50:40.286Z",
       "ownership": {
         "roster_id": 7,
         "owner_id": "1131294900231815168",
@@ -862,7 +862,7 @@
         "rush_yd": 668
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:47.619Z",
+      "source_last_modified": "2026-08-22T07:50:42.962Z",
       "ownership": {
         "roster_id": 7,
         "owner_id": "1131294900231815168",
@@ -917,7 +917,7 @@
         "rush_yd": 152
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:36.784Z",
+      "source_last_modified": "2026-08-22T07:50:34.156Z",
       "ownership": {
         "roster_id": 9,
         "owner_id": "859906411432366080",
@@ -972,7 +972,7 @@
         "rush_yd": 373
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:50.591Z",
+      "source_last_modified": "2026-08-22T07:50:45.430Z",
       "ownership": {
         "roster_id": 3,
         "owner_id": "1129881968960901120",
@@ -1027,7 +1027,7 @@
         "rush_yd": 539
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:38.417Z",
+      "source_last_modified": "2026-08-22T07:50:35.392Z",
       "ownership": {
         "roster_id": 2,
         "owner_id": "1129877684336578560",
@@ -1082,7 +1082,7 @@
         "rush_yd": 686
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:54.778Z",
+      "source_last_modified": "2026-08-22T07:50:48.882Z",
       "ownership": {
         "roster_id": 3,
         "owner_id": "1129881968960901120",
@@ -1137,7 +1137,7 @@
         "rush_yd": 338
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:51.983Z",
+      "source_last_modified": "2026-08-22T07:50:46.577Z",
       "ownership": {
         "roster_id": 4,
         "owner_id": "1129897778072649728",
@@ -1189,7 +1189,7 @@
         "rush_yd": 1168
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:52.461Z",
+      "source_last_modified": "2026-08-22T07:50:46.970Z",
       "ownership": {
         "roster_id": 7,
         "owner_id": "1131294900231815168",
@@ -1243,7 +1243,7 @@
         "rush_yd": 19
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:49.467Z",
+      "source_last_modified": "2026-08-22T07:50:44.516Z",
       "ownership": {
         "roster_id": 8,
         "owner_id": "1131304330881077248",
@@ -1295,7 +1295,7 @@
         "rush_yd": 1152
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:42.725Z",
+      "source_last_modified": "2026-08-22T07:50:38.819Z",
       "ownership": {
         "roster_id": 7,
         "owner_id": "1131294900231815168",
@@ -1350,7 +1350,7 @@
         "rush_yd": 138
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:43.837Z",
+      "source_last_modified": "2026-08-22T07:50:39.730Z",
       "ownership": {
         "roster_id": 7,
         "owner_id": "1131294900231815168",
@@ -1405,7 +1405,7 @@
         "rush_yd": 242
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:42.171Z",
+      "source_last_modified": "2026-08-22T07:50:38.346Z",
       "ownership": {
         "roster_id": 4,
         "owner_id": "1129897778072649728",
@@ -1460,7 +1460,7 @@
         "rush_yd": 202
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:55.629Z",
+      "source_last_modified": "2026-08-22T07:50:49.546Z",
       "ownership": {
         "roster_id": 6,
         "owner_id": "1008209629677158400",
@@ -1515,7 +1515,7 @@
         "rush_yd": 53
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:43.208Z",
+      "source_last_modified": "2026-08-22T07:50:39.208Z",
       "ownership": {
         "roster_id": 3,
         "owner_id": "1129881968960901120",
@@ -1567,7 +1567,7 @@
         "rush_yd": 945
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:37.999Z",
+      "source_last_modified": "2026-08-22T07:50:35.061Z",
       "ownership": {
         "roster_id": 7,
         "owner_id": "1131294900231815168",
@@ -1620,7 +1620,7 @@
         "rush_yd": 1406
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:41.190Z",
+      "source_last_modified": "2026-08-22T07:50:37.532Z",
       "ownership": {
         "roster_id": 5,
         "owner_id": "1129909167751426048",
@@ -1670,7 +1670,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:50.003Z",
+      "source_last_modified": "2026-08-22T07:50:44.956Z",
       "ownership": {
         "roster_id": 9,
         "owner_id": "859906411432366080",
@@ -1725,7 +1725,7 @@
         "rush_yd": 306
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:39.228Z",
+      "source_last_modified": "2026-08-22T07:50:36.025Z",
       "ownership": {
         "roster_id": 10,
         "owner_id": "937819151345799168",
@@ -1778,7 +1778,7 @@
         "rush_yd": 1270
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:54.382Z",
+      "source_last_modified": "2026-08-22T07:50:48.550Z",
       "ownership": {
         "roster_id": 4,
         "owner_id": "1129897778072649728",
@@ -1830,7 +1830,7 @@
         "rush_yd": 16
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:43.842Z",
+      "source_last_modified": "2026-08-22T07:50:39.733Z",
       "ownership": {
         "roster_id": 7,
         "owner_id": "1131294900231815168",
@@ -1885,7 +1885,7 @@
         "rush_yd": 202
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:45.951Z",
+      "source_last_modified": "2026-08-22T07:50:41.456Z",
       "ownership": {
         "roster_id": 5,
         "owner_id": "1129909167751426048",
@@ -1940,7 +1940,7 @@
         "rush_yd": 343
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:50.801Z",
+      "source_last_modified": "2026-08-22T07:50:45.623Z",
       "ownership": {
         "roster_id": 1,
         "owner_id": "1129875387229560832",
@@ -1993,7 +1993,7 @@
         "rush_yd": 1220
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:47.617Z",
+      "source_last_modified": "2026-08-22T07:50:42.960Z",
       "ownership": {
         "roster_id": 10,
         "owner_id": "937819151345799168",
@@ -2045,7 +2045,7 @@
         "rush_yd": 1158
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.245Z",
+      "source_last_modified": "2026-08-22T07:50:43.470Z",
       "ownership": {
         "roster_id": 10,
         "owner_id": "937819151345799168",
@@ -2095,7 +2095,7 @@
         "rec_yd": 969
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.239Z",
+      "source_last_modified": "2026-08-22T07:50:43.465Z",
       "ownership": {
         "roster_id": 7,
         "owner_id": "1131294900231815168",
@@ -2150,7 +2150,7 @@
         "rush_yd": 157
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:53.701Z",
+      "source_last_modified": "2026-08-22T07:50:48.010Z",
       "ownership": {
         "roster_id": 6,
         "owner_id": "1008209629677158400",
@@ -2204,7 +2204,7 @@
         "rush_yd": 712
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:37.837Z",
+      "source_last_modified": "2026-08-22T07:50:34.941Z",
       "ownership": {
         "roster_id": 4,
         "owner_id": "1129897778072649728",
@@ -2259,7 +2259,7 @@
         "rush_yd": 201
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:56.634Z",
+      "source_last_modified": "2026-08-22T07:50:50.309Z",
       "ownership": {
         "roster_id": 1,
         "owner_id": "1129875387229560832",
@@ -2314,7 +2314,7 @@
         "rush_yd": 503
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:53.887Z",
+      "source_last_modified": "2026-08-22T07:50:48.165Z",
       "ownership": {
         "roster_id": 5,
         "owner_id": "1129909167751426048",
@@ -2365,7 +2365,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.118Z",
+      "source_last_modified": "2026-08-22T07:50:39.970Z",
       "ownership": {
         "roster_id": 7,
         "owner_id": "1131294900231815168",
@@ -2420,7 +2420,7 @@
         "rush_yd": 191
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:45.721Z",
+      "source_last_modified": "2026-08-22T07:50:41.277Z",
       "ownership": {
         "roster_id": 4,
         "owner_id": "1129897778072649728",
@@ -2475,7 +2475,7 @@
         "rush_yd": 245
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.423Z",
+      "source_last_modified": "2026-08-22T07:50:41.845Z",
       "ownership": {
         "roster_id": 5,
         "owner_id": "1129909167751426048",
@@ -2527,7 +2527,7 @@
         "rush_yd": 1004
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:37.705Z",
+      "source_last_modified": "2026-08-22T07:50:34.834Z",
       "ownership": {
         "roster_id": 9,
         "owner_id": "859906411432366080",
@@ -2579,7 +2579,7 @@
         "rush_yd": 1025
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.767Z",
+      "source_last_modified": "2026-08-22T07:50:43.908Z",
       "ownership": {
         "roster_id": 8,
         "owner_id": "1131304330881077248",
@@ -2630,7 +2630,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:54.384Z",
+      "source_last_modified": "2026-08-22T07:50:48.552Z",
       "ownership": {
         "roster_id": 10,
         "owner_id": "937819151345799168",
@@ -2683,7 +2683,7 @@
         "rush_yd": 918
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:49.788Z",
+      "source_last_modified": "2026-08-22T07:50:44.791Z",
       "ownership": {
         "roster_id": 2,
         "owner_id": "1129877684336578560",
@@ -2734,7 +2734,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:47.784Z",
+      "source_last_modified": "2026-08-22T07:50:43.098Z",
       "ownership": {
         "roster_id": 3,
         "owner_id": "1129881968960901120",
@@ -2786,7 +2786,7 @@
         "rush_yd": 29
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:35.902Z",
+      "source_last_modified": "2026-08-22T07:50:33.422Z",
       "ownership": {
         "roster_id": 3,
         "owner_id": "1129881968960901120",
@@ -2837,7 +2837,7 @@
         "rush_yd": 18
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:52.160Z",
+      "source_last_modified": "2026-08-22T07:50:46.725Z",
       "ownership": {
         "roster_id": 10,
         "owner_id": "937819151345799168",
@@ -2889,7 +2889,7 @@
         "rush_yd": 986
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:50.287Z",
+      "source_last_modified": "2026-08-22T07:50:45.189Z",
       "ownership": {
         "roster_id": 2,
         "owner_id": "1129877684336578560",
@@ -2940,7 +2940,7 @@
         "rush_yd": 29
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:54.574Z",
+      "source_last_modified": "2026-08-22T07:50:48.713Z",
       "ownership": {
         "roster_id": 8,
         "owner_id": "1131304330881077248",
@@ -2995,7 +2995,7 @@
         "rush_yd": 182
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:55.019Z",
+      "source_last_modified": "2026-08-22T07:50:49.074Z",
       "ownership": {
         "roster_id": 8,
         "owner_id": "1131304330881077248",
@@ -3047,7 +3047,7 @@
         "rush_yd": 18
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:52.658Z",
+      "source_last_modified": "2026-08-22T07:50:47.128Z",
       "ownership": {
         "roster_id": 2,
         "owner_id": "1129877684336578560",
@@ -3101,7 +3101,7 @@
         "rush_yd": 156
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:38.651Z",
+      "source_last_modified": "2026-08-22T07:50:35.576Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 56,
@@ -3147,7 +3147,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:37.828Z",
+      "source_last_modified": "2026-08-22T07:50:34.933Z",
       "ownership": {
         "roster_id": 4,
         "owner_id": "1129897778072649728",
@@ -3197,7 +3197,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.119Z",
+      "source_last_modified": "2026-08-22T07:50:41.599Z",
       "ownership": {
         "roster_id": 9,
         "owner_id": "859906411432366080",
@@ -3249,7 +3249,7 @@
         "rush_yd": 981
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.135Z",
+      "source_last_modified": "2026-08-22T07:50:39.984Z",
       "ownership": {
         "roster_id": 9,
         "owner_id": "859906411432366080",
@@ -3299,7 +3299,7 @@
         "rush_yd": 21
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.769Z",
+      "source_last_modified": "2026-08-22T07:50:42.144Z",
       "ownership": {
         "roster_id": 8,
         "owner_id": "1131304330881077248",
@@ -3351,7 +3351,7 @@
         "rush_yd": 897
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:55.188Z",
+      "source_last_modified": "2026-08-22T07:50:49.202Z",
       "ownership": {
         "roster_id": 3,
         "owner_id": "1129881968960901120",
@@ -3402,7 +3402,7 @@
         "rush_yd": 16
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:54.792Z",
+      "source_last_modified": "2026-08-22T07:50:48.894Z",
       "ownership": {
         "roster_id": 2,
         "owner_id": "1129877684336578560",
@@ -3452,7 +3452,7 @@
         "rush_yd": 12
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:50.608Z",
+      "source_last_modified": "2026-08-22T07:50:45.446Z",
       "ownership": {
         "roster_id": 7,
         "owner_id": "1131294900231815168",
@@ -3506,7 +3506,7 @@
         "rush_yd": 60
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:52.474Z",
+      "source_last_modified": "2026-08-22T07:50:46.980Z",
       "ownership": {
         "roster_id": 5,
         "owner_id": "1129909167751426048",
@@ -3558,7 +3558,7 @@
         "rush_yd": 891
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:50.781Z",
+      "source_last_modified": "2026-08-22T07:50:45.608Z",
       "ownership": {
         "roster_id": 2,
         "owner_id": "1129877684336578560",
@@ -3610,7 +3610,7 @@
         "rush_yd": 902
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:42.507Z",
+      "source_last_modified": "2026-08-22T07:50:38.627Z",
       "ownership": {
         "roster_id": 4,
         "owner_id": "1129897778072649728",
@@ -3661,7 +3661,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:38.419Z",
+      "source_last_modified": "2026-08-22T07:50:35.393Z",
       "ownership": {
         "roster_id": 1,
         "owner_id": "1129875387229560832",
@@ -3714,7 +3714,7 @@
         "rush_yd": 950
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:39.816Z",
+      "source_last_modified": "2026-08-22T07:50:36.500Z",
       "ownership": {
         "roster_id": 8,
         "owner_id": "1131304330881077248",
@@ -3764,7 +3764,7 @@
         "rush_yd": 16
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:42.164Z",
+      "source_last_modified": "2026-08-22T07:50:38.339Z",
       "ownership": {
         "roster_id": 5,
         "owner_id": "1129909167751426048",
@@ -3816,7 +3816,7 @@
         "rush_yd": 978
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:49.998Z",
+      "source_last_modified": "2026-08-22T07:50:44.952Z",
       "ownership": {
         "roster_id": 6,
         "owner_id": "1008209629677158400",
@@ -3870,7 +3870,7 @@
         "rush_yd": 110
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:51.338Z",
+      "source_last_modified": "2026-08-22T07:50:46.071Z",
       "ownership": {
         "roster_id": 5,
         "owner_id": "1129909167751426048",
@@ -3921,7 +3921,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:37.553Z",
+      "source_last_modified": "2026-08-22T07:50:34.712Z",
       "ownership": {
         "roster_id": 7,
         "owner_id": "1131294900231815168",
@@ -3970,7 +3970,7 @@
         "rec_yd": 795
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:45.204Z",
+      "source_last_modified": "2026-08-22T07:50:40.860Z",
       "ownership": {
         "roster_id": 4,
         "owner_id": "1129897778072649728",
@@ -4022,7 +4022,7 @@
         "rush_yd": 1012
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:50.785Z",
+      "source_last_modified": "2026-08-22T07:50:45.611Z",
       "ownership": {
         "roster_id": 8,
         "owner_id": "1131304330881077248",
@@ -4072,7 +4072,7 @@
         "rush_yd": 19
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:50.792Z",
+      "source_last_modified": "2026-08-22T07:50:45.617Z",
       "ownership": {
         "roster_id": 1,
         "owner_id": "1129875387229560832",
@@ -4122,7 +4122,7 @@
         "rush_yd": 44
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:54.386Z",
+      "source_last_modified": "2026-08-22T07:50:48.553Z",
       "ownership": {
         "roster_id": 8,
         "owner_id": "1131304330881077248",
@@ -4172,7 +4172,7 @@
         "rush_yd": 4
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:50.790Z",
+      "source_last_modified": "2026-08-22T07:50:45.615Z",
       "ownership": {
         "roster_id": 4,
         "owner_id": "1129897778072649728",
@@ -4222,7 +4222,7 @@
         "rush_yd": 18
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:50.167Z",
+      "source_last_modified": "2026-08-22T07:50:45.102Z",
       "ownership": {
         "roster_id": 5,
         "owner_id": "1129909167751426048",
@@ -4274,7 +4274,7 @@
         "rush_yd": 760
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:38.422Z",
+      "source_last_modified": "2026-08-22T07:50:35.395Z",
       "ownership": {
         "roster_id": 7,
         "owner_id": "1131294900231815168",
@@ -4326,7 +4326,7 @@
         "rush_yd": 986
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:43.675Z",
+      "source_last_modified": "2026-08-22T07:50:39.580Z",
       "ownership": {
         "roster_id": 6,
         "owner_id": "1008209629677158400",
@@ -4376,7 +4376,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.600Z",
+      "source_last_modified": "2026-08-22T07:50:41.997Z",
       "ownership": {
         "roster_id": 3,
         "owner_id": "1129881968960901120",
@@ -4426,7 +4426,7 @@
         "rush_yd": 7
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:47.799Z",
+      "source_last_modified": "2026-08-22T07:50:43.110Z",
       "ownership": {
         "roster_id": 4,
         "owner_id": "1129897778072649728",
@@ -4474,7 +4474,7 @@
         "rec_yd": 882
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:38.220Z",
+      "source_last_modified": "2026-08-22T07:50:35.238Z",
       "ownership": {
         "roster_id": 2,
         "owner_id": "1129877684336578560",
@@ -4526,7 +4526,7 @@
         "rush_yd": 912
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:55.185Z",
+      "source_last_modified": "2026-08-22T07:50:49.200Z",
       "ownership": {
         "roster_id": 6,
         "owner_id": "1008209629677158400",
@@ -4578,7 +4578,7 @@
         "rush_yd": 794
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.746Z",
+      "source_last_modified": "2026-08-22T07:50:40.486Z",
       "ownership": {
         "roster_id": 3,
         "owner_id": "1129881968960901120",
@@ -4626,7 +4626,7 @@
         "rec_yd": 793
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:51.646Z",
+      "source_last_modified": "2026-08-22T07:50:46.311Z",
       "ownership": {
         "roster_id": 1,
         "owner_id": "1129875387229560832",
@@ -4676,7 +4676,7 @@
         "rush_yd": 10
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:51.794Z",
+      "source_last_modified": "2026-08-22T07:50:46.434Z",
       "ownership": {
         "roster_id": 9,
         "owner_id": "859906411432366080",
@@ -4726,7 +4726,7 @@
         "rush_yd": 17
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.520Z",
+      "source_last_modified": "2026-08-22T07:50:40.306Z",
       "ownership": {
         "roster_id": 3,
         "owner_id": "1129881968960901120",
@@ -4776,7 +4776,7 @@
         "rush_yd": 16
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:56.428Z",
+      "source_last_modified": "2026-08-22T07:50:50.153Z",
       "ownership": {
         "roster_id": 4,
         "owner_id": "1129897778072649728",
@@ -4826,7 +4826,7 @@
         "rush_yd": 3
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:40.189Z",
+      "source_last_modified": "2026-08-22T07:50:36.778Z",
       "ownership": {
         "roster_id": 9,
         "owner_id": "859906411432366080",
@@ -4874,7 +4874,7 @@
         "rec_yd": 714
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:41.022Z",
+      "source_last_modified": "2026-08-22T07:50:37.409Z",
       "ownership": {
         "roster_id": 2,
         "owner_id": "1129877684336578560",
@@ -4925,7 +4925,7 @@
         "rush_yd": 29
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:47.633Z",
+      "source_last_modified": "2026-08-22T07:50:42.974Z",
       "ownership": {
         "roster_id": 6,
         "owner_id": "1008209629677158400",
@@ -4975,7 +4975,7 @@
         "rush_yd": 7
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:39.612Z",
+      "source_last_modified": "2026-08-22T07:50:36.354Z",
       "ownership": {
         "roster_id": 9,
         "owner_id": "859906411432366080",
@@ -5026,7 +5026,7 @@
         "rush_yd": 58
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:54.567Z",
+      "source_last_modified": "2026-08-22T07:50:48.708Z",
       "ownership": {
         "roster_id": 9,
         "owner_id": "859906411432366080",
@@ -5078,7 +5078,7 @@
         "rush_yd": 759
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:39.994Z",
+      "source_last_modified": "2026-08-22T07:50:36.627Z",
       "ownership": {
         "roster_id": 9,
         "owner_id": "859906411432366080",
@@ -5130,7 +5130,7 @@
         "rush_yd": 786
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:54.263Z",
+      "source_last_modified": "2026-08-22T07:50:48.461Z",
       "ownership": {
         "roster_id": 1,
         "owner_id": "1129875387229560832",
@@ -5182,7 +5182,7 @@
         "rush_yd": 794
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:37.351Z",
+      "source_last_modified": "2026-08-22T07:50:34.571Z",
       "ownership": {
         "roster_id": 5,
         "owner_id": "1129909167751426048",
@@ -5232,7 +5232,7 @@
         "rush_yd": 10
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.961Z",
+      "source_last_modified": "2026-08-22T07:50:42.305Z",
       "ownership": {
         "roster_id": 8,
         "owner_id": "1131304330881077248",
@@ -5284,7 +5284,7 @@
         "rush_yd": 766
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:54.261Z",
+      "source_last_modified": "2026-08-22T07:50:48.459Z",
       "ownership": {
         "roster_id": 4,
         "owner_id": "1129897778072649728",
@@ -5332,7 +5332,7 @@
         "rec_yd": 774
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.428Z",
+      "source_last_modified": "2026-08-22T07:50:41.849Z",
       "ownership": {
         "roster_id": 3,
         "owner_id": "1129881968960901120",
@@ -5384,7 +5384,7 @@
         "rush_yd": 678
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:54.139Z",
+      "source_last_modified": "2026-08-22T07:50:48.363Z",
       "ownership": {
         "roster_id": 4,
         "owner_id": "1129897778072649728",
@@ -5434,7 +5434,7 @@
         "rush_yd": 14
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.249Z",
+      "source_last_modified": "2026-08-22T07:50:43.473Z",
       "ownership": {
         "roster_id": 10,
         "owner_id": "937819151345799168",
@@ -5484,7 +5484,7 @@
         "rush_yd": 25
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:38.415Z",
+      "source_last_modified": "2026-08-22T07:50:35.389Z",
       "ownership": {
         "roster_id": 8,
         "owner_id": "1131304330881077248",
@@ -5532,12 +5532,12 @@
         "rec_yd": 713
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:49.469Z",
+      "source_last_modified": "2026-08-22T07:50:44.517Z",
       "ownership": {
         "roster_id": 5,
         "owner_id": "1129909167751426048",
         "team_name": "BING BONG",
-        "roster_status": "active_roster"
+        "roster_status": "reserve"
       },
       "league_status": "rostered",
       "projection_rank": 104,
@@ -5581,7 +5581,7 @@
         "rec_yd": 1022
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:47.194Z",
+      "source_last_modified": "2026-08-22T07:50:42.595Z",
       "ownership": {
         "roster_id": 5,
         "owner_id": "1129909167751426048",
@@ -5631,7 +5631,7 @@
         "rush_yd": 21
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:53.913Z",
+      "source_last_modified": "2026-08-22T07:50:48.186Z",
       "ownership": {
         "roster_id": 6,
         "owner_id": "1008209629677158400",
@@ -5680,7 +5680,7 @@
         "rec_yd": 618
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.259Z",
+      "source_last_modified": "2026-08-22T07:50:41.719Z",
       "ownership": {
         "roster_id": 10,
         "owner_id": "937819151345799168",
@@ -5728,7 +5728,7 @@
         "rec_yd": 756
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.127Z",
+      "source_last_modified": "2026-08-22T07:50:41.607Z",
       "ownership": {
         "roster_id": 1,
         "owner_id": "1129875387229560832",
@@ -5778,7 +5778,7 @@
         "rush_yd": 7
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:37.832Z",
+      "source_last_modified": "2026-08-22T07:50:34.937Z",
       "ownership": {
         "roster_id": 4,
         "owner_id": "1129897778072649728",
@@ -5828,7 +5828,7 @@
         "rush_yd": 22
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.441Z",
+      "source_last_modified": "2026-08-22T07:50:41.859Z",
       "ownership": {
         "roster_id": 9,
         "owner_id": "859906411432366080",
@@ -5880,7 +5880,7 @@
         "rush_yd": 563
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:41.326Z",
+      "source_last_modified": "2026-08-22T07:50:37.652Z",
       "ownership": {
         "roster_id": 8,
         "owner_id": "1131304330881077248",
@@ -5932,7 +5932,7 @@
         "rush_yd": 797
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:37.898Z",
+      "source_last_modified": "2026-08-22T07:50:34.986Z",
       "ownership": {
         "roster_id": 1,
         "owner_id": "1129875387229560832",
@@ -5984,7 +5984,7 @@
         "rush_yd": 751
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:52.852Z",
+      "source_last_modified": "2026-08-22T07:50:47.324Z",
       "ownership": {
         "roster_id": 2,
         "owner_id": "1129877684336578560",
@@ -6034,7 +6034,7 @@
         "rush_yd": 12
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:37.148Z",
+      "source_last_modified": "2026-08-22T07:50:34.397Z",
       "ownership": {
         "roster_id": 6,
         "owner_id": "1008209629677158400",
@@ -6086,7 +6086,7 @@
         "rush_yd": 515
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:52.845Z",
+      "source_last_modified": "2026-08-22T07:50:47.317Z",
       "ownership": {
         "roster_id": 9,
         "owner_id": "859906411432366080",
@@ -6137,7 +6137,7 @@
         "rush_yd": 732
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:47.965Z",
+      "source_last_modified": "2026-08-22T07:50:43.249Z",
       "ownership": {
         "roster_id": 1,
         "owner_id": "1129875387229560832",
@@ -6185,7 +6185,7 @@
         "rec_yd": 655
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:55.528Z",
+      "source_last_modified": "2026-08-22T07:50:49.468Z",
       "ownership": {
         "roster_id": 7,
         "owner_id": "1131294900231815168",
@@ -6235,7 +6235,7 @@
         "rush_yd": 11
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.429Z",
+      "source_last_modified": "2026-08-22T07:50:43.632Z",
       "ownership": {
         "roster_id": 1,
         "owner_id": "1129875387229560832",
@@ -6285,7 +6285,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.435Z",
+      "source_last_modified": "2026-08-22T07:50:43.637Z",
       "ownership": {
         "roster_id": 5,
         "owner_id": "1129909167751426048",
@@ -6335,7 +6335,7 @@
         "rush_yd": 13
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:40.165Z",
+      "source_last_modified": "2026-08-22T07:50:36.758Z",
       "ownership": {
         "roster_id": 1,
         "owner_id": "1129875387229560832",
@@ -6387,7 +6387,7 @@
         "rush_yd": 614
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.774Z",
+      "source_last_modified": "2026-08-22T07:50:43.914Z",
       "ownership": {
         "roster_id": 2,
         "owner_id": "1129877684336578560",
@@ -6435,7 +6435,7 @@
         "rec_yd": 736
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.330Z",
+      "source_last_modified": "2026-08-22T07:50:40.148Z",
       "ownership": {
         "roster_id": 10,
         "owner_id": "937819151345799168",
@@ -6485,7 +6485,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:45.243Z",
+      "source_last_modified": "2026-08-22T07:50:40.888Z",
       "ownership": {
         "roster_id": 3,
         "owner_id": "1129881968960901120",
@@ -6533,7 +6533,7 @@
         "rush_yd": 10
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.132Z",
+      "source_last_modified": "2026-08-22T07:50:39.982Z",
       "ownership": {
         "roster_id": 10,
         "owner_id": "937819151345799168",
@@ -6583,7 +6583,7 @@
         "rush_yd": 61
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:50.795Z",
+      "source_last_modified": "2026-08-22T07:50:45.619Z",
       "ownership": {
         "roster_id": 1,
         "owner_id": "1129875387229560832",
@@ -6635,7 +6635,7 @@
         "rush_yd": 89
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:49.790Z",
+      "source_last_modified": "2026-08-22T07:50:44.793Z",
       "ownership": {
         "roster_id": 6,
         "owner_id": "1008209629677158400",
@@ -6681,7 +6681,7 @@
         "rec_yd": 590
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:47.647Z",
+      "source_last_modified": "2026-08-22T07:50:42.986Z",
       "ownership": {
         "roster_id": 6,
         "owner_id": "1008209629677158400",
@@ -6729,7 +6729,7 @@
         "rec_yd": 742
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:42.160Z",
+      "source_last_modified": "2026-08-22T07:50:38.335Z",
       "ownership": {
         "roster_id": 5,
         "owner_id": "1129909167751426048",
@@ -6781,7 +6781,7 @@
         "rush_yd": 468
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:54.379Z",
+      "source_last_modified": "2026-08-22T07:50:48.549Z",
       "ownership": {
         "roster_id": 5,
         "owner_id": "1129909167751426048",
@@ -6832,7 +6832,7 @@
         "rush_yd": 757
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.590Z",
+      "source_last_modified": "2026-08-22T07:50:43.768Z",
       "ownership": {
         "roster_id": 1,
         "owner_id": "1129875387229560832",
@@ -6887,7 +6887,7 @@
         "rush_yd": 67
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.588Z",
+      "source_last_modified": "2026-08-22T07:50:43.767Z",
       "ownership": {
         "roster_id": 1,
         "owner_id": "1129875387229560832",
@@ -6937,7 +6937,7 @@
         "rush_yd": 51
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:55.012Z",
+      "source_last_modified": "2026-08-22T07:50:49.069Z",
       "ownership": {
         "roster_id": 10,
         "owner_id": "937819151345799168",
@@ -7028,7 +7028,7 @@
         "rush_yd": 90
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.595Z",
+      "source_last_modified": "2026-08-22T07:50:43.772Z",
       "ownership": {
         "roster_id": 2,
         "owner_id": "1129877684336578560",
@@ -7078,7 +7078,7 @@
         "rush_yd": 10
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.966Z",
+      "source_last_modified": "2026-08-22T07:50:42.309Z",
       "ownership": {
         "roster_id": 3,
         "owner_id": "1129881968960901120",
@@ -7126,7 +7126,7 @@
         "rec_yd": 591
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:52.289Z",
+      "source_last_modified": "2026-08-22T07:50:46.822Z",
       "ownership": {
         "roster_id": 7,
         "owner_id": "1131294900231815168",
@@ -7174,7 +7174,7 @@
         "rec_yd": 680
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:50.430Z",
+      "source_last_modified": "2026-08-22T07:50:45.306Z",
       "ownership": {
         "roster_id": 3,
         "owner_id": "1129881968960901120",
@@ -7224,7 +7224,7 @@
         "rush_yd": 37
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:40.178Z",
+      "source_last_modified": "2026-08-22T07:50:36.768Z",
       "ownership": {
         "roster_id": 6,
         "owner_id": "1008209629677158400",
@@ -7272,7 +7272,7 @@
         "rec_yd": 653
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.241Z",
+      "source_last_modified": "2026-08-22T07:50:43.467Z",
       "ownership": {
         "roster_id": 8,
         "owner_id": "1131304330881077248",
@@ -7323,7 +7323,7 @@
         "rush_yd": 83
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.322Z",
+      "source_last_modified": "2026-08-22T07:50:40.143Z",
       "ownership": {
         "roster_id": 4,
         "owner_id": "1129897778072649728",
@@ -7378,7 +7378,7 @@
         "rush_yd": 234
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.924Z",
+      "source_last_modified": "2026-08-22T07:50:44.037Z",
       "ownership": {
         "roster_id": 1,
         "owner_id": "1129875387229560832",
@@ -7426,7 +7426,7 @@
         "rec_yd": 650
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:55.984Z",
+      "source_last_modified": "2026-08-22T07:50:49.819Z",
       "ownership": {
         "roster_id": 5,
         "owner_id": "1129909167751426048",
@@ -7476,7 +7476,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:53.532Z",
+      "source_last_modified": "2026-08-22T07:50:47.875Z",
       "ownership": {
         "roster_id": 4,
         "owner_id": "1129897778072649728",
@@ -7524,7 +7524,7 @@
         "rec_yd": 572
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:49.605Z",
+      "source_last_modified": "2026-08-22T07:50:44.624Z",
       "ownership": {
         "roster_id": 9,
         "owner_id": "859906411432366080",
@@ -7575,7 +7575,7 @@
         "rush_yd": 46
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:42.261Z",
+      "source_last_modified": "2026-08-22T07:50:38.415Z",
       "ownership": {
         "roster_id": 3,
         "owner_id": "1129881968960901120",
@@ -7625,7 +7625,7 @@
         "rush_yd": 5
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:54.100Z",
+      "source_last_modified": "2026-08-22T07:50:48.335Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 146,
@@ -7671,7 +7671,7 @@
         "rush_yd": 54
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.969Z",
+      "source_last_modified": "2026-08-22T07:50:42.311Z",
       "ownership": {
         "roster_id": 2,
         "owner_id": "1129877684336578560",
@@ -7722,7 +7722,7 @@
         "rush_yd": 14
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:36.076Z",
+      "source_last_modified": "2026-08-22T07:50:33.566Z",
       "ownership": {
         "roster_id": 4,
         "owner_id": "1129897778072649728",
@@ -7772,7 +7772,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:52.664Z",
+      "source_last_modified": "2026-08-22T07:50:47.132Z",
       "ownership": {
         "roster_id": 4,
         "owner_id": "1129897778072649728",
@@ -7822,7 +7822,7 @@
         "rush_yd": 19
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.269Z",
+      "source_last_modified": "2026-08-22T07:50:41.726Z",
       "ownership": {
         "roster_id": 10,
         "owner_id": "937819151345799168",
@@ -7870,7 +7870,7 @@
         "rec_yd": 534
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.140Z",
+      "source_last_modified": "2026-08-22T07:50:41.619Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 151,
@@ -7919,7 +7919,7 @@
         "rush_yd": 88
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:40.615Z",
+      "source_last_modified": "2026-08-22T07:50:37.087Z",
       "ownership": {
         "roster_id": 2,
         "owner_id": "1129877684336578560",
@@ -7967,7 +7967,7 @@
         "rec_yd": 609
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:50.038Z",
+      "source_last_modified": "2026-08-22T07:50:44.986Z",
       "ownership": {
         "roster_id": 7,
         "owner_id": "1131294900231815168",
@@ -8019,7 +8019,7 @@
         "rush_yd": 388
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.438Z",
+      "source_last_modified": "2026-08-22T07:50:41.858Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 154,
@@ -8065,7 +8065,7 @@
         "rush_yd": 121
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:50.606Z",
+      "source_last_modified": "2026-08-22T07:50:45.444Z",
       "ownership": {
         "roster_id": 6,
         "owner_id": "1008209629677158400",
@@ -8113,7 +8113,7 @@
         "rec_yd": 459
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:54.391Z",
+      "source_last_modified": "2026-08-22T07:50:48.557Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 156,
@@ -8156,7 +8156,7 @@
         "rec_yd": 553
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:55.015Z",
+      "source_last_modified": "2026-08-22T07:50:49.070Z",
       "ownership": {
         "roster_id": 6,
         "owner_id": "1008209629677158400",
@@ -8204,7 +8204,7 @@
         "rec_yd": 618
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:52.848Z",
+      "source_last_modified": "2026-08-22T07:50:47.320Z",
       "ownership": {
         "roster_id": 8,
         "owner_id": "1131304330881077248",
@@ -8256,7 +8256,7 @@
         "rush_yd": 418
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:54.254Z",
+      "source_last_modified": "2026-08-22T07:50:48.454Z",
       "ownership": {
         "roster_id": 6,
         "owner_id": "1008209629677158400",
@@ -8308,7 +8308,7 @@
         "rush_yd": 684
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:52.651Z",
+      "source_last_modified": "2026-08-22T07:50:47.122Z",
       "ownership": {
         "roster_id": 7,
         "owner_id": "1131294900231815168",
@@ -8356,7 +8356,7 @@
         "rec_yd": 513
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.236Z",
+      "source_last_modified": "2026-08-22T07:50:43.462Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 161,
@@ -8401,7 +8401,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:53.011Z",
+      "source_last_modified": "2026-08-22T07:50:47.442Z",
       "ownership": {
         "roster_id": 8,
         "owner_id": "1131304330881077248",
@@ -8451,7 +8451,7 @@
         "rush_yd": 13
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:53.033Z",
+      "source_last_modified": "2026-08-22T07:50:47.461Z",
       "ownership": {
         "roster_id": 8,
         "owner_id": "1131304330881077248",
@@ -8501,7 +8501,7 @@
         "rush_yd": 29
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.434Z",
+      "source_last_modified": "2026-08-22T07:50:41.854Z",
       "ownership": {
         "roster_id": 2,
         "owner_id": "1129877684336578560",
@@ -8549,7 +8549,7 @@
         "rec_yd": 516
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:41.107Z",
+      "source_last_modified": "2026-08-22T07:50:37.475Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 165,
@@ -8592,7 +8592,7 @@
         "rush_yd": 7
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:53.022Z",
+      "source_last_modified": "2026-08-22T07:50:47.452Z",
       "ownership": {
         "roster_id": 9,
         "owner_id": "859906411432366080",
@@ -8640,7 +8640,7 @@
         "rec_yd": 413
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:40.603Z",
+      "source_last_modified": "2026-08-22T07:50:37.084Z",
       "ownership": {
         "roster_id": 3,
         "owner_id": "1129881968960901120",
@@ -8686,7 +8686,7 @@
         "rec_yd": 448
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:53.217Z",
+      "source_last_modified": "2026-08-22T07:50:47.616Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 168,
@@ -8731,7 +8731,7 @@
         "rush_yd": 351
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:52.839Z",
+      "source_last_modified": "2026-08-22T07:50:47.312Z",
       "ownership": {
         "roster_id": 7,
         "owner_id": "1131294900231815168",
@@ -8779,7 +8779,7 @@
         "rec_yd": 584
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:42.907Z",
+      "source_last_modified": "2026-08-22T07:50:38.971Z",
       "ownership": {
         "roster_id": 3,
         "owner_id": "1129881968960901120",
@@ -8829,7 +8829,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:45.558Z",
+      "source_last_modified": "2026-08-22T07:50:41.150Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 171,
@@ -8876,7 +8876,7 @@
         "rush_yd": 528
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:52.671Z",
+      "source_last_modified": "2026-08-22T07:50:47.135Z",
       "ownership": {
         "roster_id": 2,
         "owner_id": "1129877684336578560",
@@ -8926,7 +8926,7 @@
         "rush_yd": 50
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:40.617Z",
+      "source_last_modified": "2026-08-22T07:50:37.089Z",
       "ownership": {
         "roster_id": 3,
         "owner_id": "1129881968960901120",
@@ -8978,7 +8978,7 @@
         "rush_yd": 264
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:52.477Z",
+      "source_last_modified": "2026-08-22T07:50:46.983Z",
       "ownership": {
         "roster_id": 10,
         "owner_id": "937819151345799168",
@@ -9028,7 +9028,7 @@
         "rush_yd": 10
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.597Z",
+      "source_last_modified": "2026-08-22T07:50:43.774Z",
       "ownership": {
         "roster_id": 2,
         "owner_id": "1129877684336578560",
@@ -9079,7 +9079,7 @@
         "rush_yd": 728
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:38.022Z",
+      "source_last_modified": "2026-08-22T07:50:35.073Z",
       "ownership": {
         "roster_id": 10,
         "owner_id": "937819151345799168",
@@ -9127,7 +9127,7 @@
         "rec_yd": 483
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.118Z",
+      "source_last_modified": "2026-08-22T07:50:43.373Z",
       "ownership": {
         "roster_id": 8,
         "owner_id": "1131304330881077248",
@@ -9175,7 +9175,7 @@
         "rec_yd": 487
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:56.231Z",
+      "source_last_modified": "2026-08-22T07:50:50.006Z",
       "ownership": {
         "roster_id": 9,
         "owner_id": "859906411432366080",
@@ -9226,7 +9226,7 @@
         "rush_yd": 21
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:50.797Z",
+      "source_last_modified": "2026-08-22T07:50:45.620Z",
       "ownership": {
         "roster_id": 5,
         "owner_id": "1129909167751426048",
@@ -9272,7 +9272,7 @@
         "rec_yd": 277
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:49.436Z",
+      "source_last_modified": "2026-08-22T07:50:44.489Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 180,
@@ -9318,7 +9318,7 @@
         "rush_yd": 36
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:56.625Z",
+      "source_last_modified": "2026-08-22T07:50:50.301Z",
       "ownership": {
         "roster_id": 6,
         "owner_id": "1008209629677158400",
@@ -9370,7 +9370,7 @@
         "rush_yd": 321
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:52.834Z",
+      "source_last_modified": "2026-08-22T07:50:47.308Z",
       "ownership": {
         "roster_id": 1,
         "owner_id": "1129875387229560832",
@@ -9421,7 +9421,7 @@
         "rush_yd": 400
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.130Z",
+      "source_last_modified": "2026-08-22T07:50:39.980Z",
       "ownership": {
         "roster_id": 9,
         "owner_id": "859906411432366080",
@@ -9471,7 +9471,7 @@
         "rush_yd": 14
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:36.429Z",
+      "source_last_modified": "2026-08-22T07:50:33.854Z",
       "ownership": {
         "roster_id": 5,
         "owner_id": "1129909167751426048",
@@ -9524,7 +9524,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:40.372Z",
+      "source_last_modified": "2026-08-22T07:50:36.910Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 185,
@@ -9567,7 +9567,7 @@
         "rec_yd": 449
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:51.636Z",
+      "source_last_modified": "2026-08-22T07:50:46.304Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 186,
@@ -9610,7 +9610,7 @@
         "rec_yd": 428
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.931Z",
+      "source_last_modified": "2026-08-22T07:50:44.044Z",
       "ownership": {
         "roster_id": 1,
         "owner_id": "1129875387229560832",
@@ -9660,7 +9660,7 @@
         "rush_yd": 33
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:40.361Z",
+      "source_last_modified": "2026-08-22T07:50:36.901Z",
       "ownership": {
         "roster_id": 9,
         "owner_id": "859906411432366080",
@@ -9708,7 +9708,7 @@
         "rec_yd": 364
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:53.537Z",
+      "source_last_modified": "2026-08-22T07:50:47.879Z",
       "ownership": {
         "roster_id": 6,
         "owner_id": "1008209629677158400",
@@ -9759,7 +9759,7 @@
         "rush_yd": 141
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:56.011Z",
+      "source_last_modified": "2026-08-22T07:50:49.841Z",
       "ownership": {
         "roster_id": 8,
         "owner_id": "1131304330881077248",
@@ -9807,7 +9807,7 @@
         "rec_yd": 456
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:56.628Z",
+      "source_last_modified": "2026-08-22T07:50:50.303Z",
       "ownership": {
         "roster_id": 5,
         "owner_id": "1129909167751426048",
@@ -9861,7 +9861,7 @@
         "rush_yd": 43
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:51.977Z",
+      "source_last_modified": "2026-08-22T07:50:46.571Z",
       "ownership": {
         "roster_id": 9,
         "owner_id": "859906411432366080",
@@ -9911,7 +9911,7 @@
         "rush_yd": 358
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:39.979Z",
+      "source_last_modified": "2026-08-22T07:50:36.615Z",
       "ownership": {
         "roster_id": 8,
         "owner_id": "1131304330881077248",
@@ -10001,7 +10001,7 @@
         "rush_yd": 263
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:39.990Z",
+      "source_last_modified": "2026-08-22T07:50:36.623Z",
       "ownership": {
         "roster_id": 5,
         "owner_id": "1129909167751426048",
@@ -10049,7 +10049,7 @@
         "rec_yd": 293
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:39.645Z",
+      "source_last_modified": "2026-08-22T07:50:36.367Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 196,
@@ -10095,7 +10095,7 @@
         "rush_yd": 275
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:41.313Z",
+      "source_last_modified": "2026-08-22T07:50:37.641Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 197,
@@ -10142,7 +10142,7 @@
         "rush_yd": 435
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:56.630Z",
+      "source_last_modified": "2026-08-22T07:50:50.305Z",
       "ownership": {
         "roster_id": 2,
         "owner_id": "1129877684336578560",
@@ -10192,7 +10192,7 @@
         "rush_yd": 13
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:54.794Z",
+      "source_last_modified": "2026-08-22T07:50:48.895Z",
       "ownership": {
         "roster_id": 6,
         "owner_id": "1008209629677158400",
@@ -10242,7 +10242,7 @@
         "rush_yd": 13
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.566Z",
+      "source_last_modified": "2026-08-22T07:50:40.336Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 200,
@@ -10287,7 +10287,7 @@
         "rush_yd": 5
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:49.348Z",
+      "source_last_modified": "2026-08-22T07:50:44.410Z",
       "ownership": {
         "roster_id": 5,
         "owner_id": "1129909167751426048",
@@ -10333,7 +10333,7 @@
         "rush_yd": 8
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:38.001Z",
+      "source_last_modified": "2026-08-22T07:50:35.062Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 202,
@@ -10378,7 +10378,7 @@
         "rush_yd": 10
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:42.511Z",
+      "source_last_modified": "2026-08-22T07:50:38.631Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 203,
@@ -10427,7 +10427,7 @@
         "rush_yd": 131
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:49.425Z",
+      "source_last_modified": "2026-08-22T07:50:44.481Z",
       "ownership": {
         "roster_id": 10,
         "owner_id": "937819151345799168",
@@ -10478,7 +10478,7 @@
         "rush_yd": 353
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:52.459Z",
+      "source_last_modified": "2026-08-22T07:50:46.968Z",
       "ownership": {
         "roster_id": 1,
         "owner_id": "1129875387229560832",
@@ -10530,7 +10530,7 @@
         "rush_yd": 185
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:47.432Z",
+      "source_last_modified": "2026-08-22T07:50:42.808Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 206,
@@ -10575,7 +10575,7 @@
         "rush_yd": 9
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:36.247Z",
+      "source_last_modified": "2026-08-22T07:50:33.713Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 207,
@@ -10618,7 +10618,7 @@
         "rec_yd": 384
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.764Z",
+      "source_last_modified": "2026-08-22T07:50:42.141Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 208,
@@ -10663,7 +10663,7 @@
         "rush_yd": 9
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:55.006Z",
+      "source_last_modified": "2026-08-22T07:50:49.064Z",
       "ownership": {
         "roster_id": 4,
         "owner_id": "1129897778072649728",
@@ -10711,7 +10711,7 @@
         "rec_yd": 340
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:52.656Z",
+      "source_last_modified": "2026-08-22T07:50:47.126Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 210,
@@ -10756,7 +10756,7 @@
         "rush_yd": 10
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:55.181Z",
+      "source_last_modified": "2026-08-22T07:50:49.196Z",
       "ownership": {
         "roster_id": 9,
         "owner_id": "859906411432366080",
@@ -10806,7 +10806,7 @@
         "rush_yd": 10
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:35.899Z",
+      "source_last_modified": "2026-08-22T07:50:33.421Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 212,
@@ -10885,7 +10885,7 @@
         "rush_yd": 10
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:38.256Z",
+      "source_last_modified": "2026-08-22T07:50:35.268Z",
       "ownership": {
         "roster_id": 9,
         "owner_id": "859906411432366080",
@@ -10933,7 +10933,7 @@
         "rec_yd": 304
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:51.809Z",
+      "source_last_modified": "2026-08-22T07:50:46.445Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 215,
@@ -10976,7 +10976,7 @@
         "rec_yd": 386
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:39.479Z",
+      "source_last_modified": "2026-08-22T07:50:36.251Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 216,
@@ -11019,7 +11019,7 @@
         "rec_yd": 252
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:51.003Z",
+      "source_last_modified": "2026-08-22T07:50:45.786Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 217,
@@ -11098,7 +11098,7 @@
         "rush_yd": 28
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:40.167Z",
+      "source_last_modified": "2026-08-22T07:50:36.761Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 219,
@@ -11144,7 +11144,7 @@
         "rush_yd": 30
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.776Z",
+      "source_last_modified": "2026-08-22T07:50:43.917Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 220,
@@ -11187,14 +11187,9 @@
         "rec_yd": 230
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:49.429Z",
-      "ownership": {
-        "roster_id": 5,
-        "owner_id": "1129909167751426048",
-        "team_name": "BING BONG",
-        "roster_status": "active_roster"
-      },
-      "league_status": "rostered",
+      "source_last_modified": "2026-08-22T07:50:44.483Z",
+      "ownership": null,
+      "league_status": "free_agent",
       "projection_rank": 221,
       "projection_sources": [
         "sleeper",
@@ -11238,7 +11233,7 @@
         "rush_yd": 137
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:39.456Z",
+      "source_last_modified": "2026-08-22T07:50:36.229Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 222,
@@ -11281,7 +11276,7 @@
         "rec_yd": 348
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:50.433Z",
+      "source_last_modified": "2026-08-22T07:50:45.308Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 223,
@@ -11324,7 +11319,7 @@
         "rec_yd": 365
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:50.985Z",
+      "source_last_modified": "2026-08-22T07:50:45.768Z",
       "ownership": {
         "roster_id": 1,
         "owner_id": "1129875387229560832",
@@ -11372,7 +11367,7 @@
         "rec_yd": 341
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.417Z",
+      "source_last_modified": "2026-08-22T07:50:43.621Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 225,
@@ -11417,7 +11412,7 @@
         "rush_yd": 9
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.762Z",
+      "source_last_modified": "2026-08-22T07:50:42.139Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 226,
@@ -11462,7 +11457,7 @@
         "rush_yd": 13
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:38.554Z",
+      "source_last_modified": "2026-08-22T07:50:35.500Z",
       "ownership": {
         "roster_id": 1,
         "owner_id": "1129875387229560832",
@@ -11512,7 +11507,7 @@
         "rush_yd": 13
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.937Z",
+      "source_last_modified": "2026-08-22T07:50:44.051Z",
       "ownership": {
         "roster_id": 2,
         "owner_id": "1129877684336578560",
@@ -11562,7 +11557,7 @@
         "rush_yd": 261
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.500Z",
+      "source_last_modified": "2026-08-22T07:50:40.290Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 229,
@@ -11607,7 +11602,7 @@
         "rush_yd": 3
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:52.067Z",
+      "source_last_modified": "2026-08-22T07:50:46.648Z",
       "ownership": {
         "roster_id": 9,
         "owner_id": "859906411432366080",
@@ -11657,7 +11652,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:40.832Z",
+      "source_last_modified": "2026-08-22T07:50:37.253Z",
       "ownership": {
         "roster_id": 8,
         "owner_id": "1131304330881077248",
@@ -11707,7 +11702,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:42.723Z",
+      "source_last_modified": "2026-08-22T07:50:38.818Z",
       "ownership": {
         "roster_id": 3,
         "owner_id": "1129881968960901120",
@@ -11757,7 +11752,7 @@
         "rush_yd": 14
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:36.081Z",
+      "source_last_modified": "2026-08-22T07:50:33.570Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 233,
@@ -11800,7 +11795,7 @@
         "rec_yd": 167
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:38.017Z",
+      "source_last_modified": "2026-08-22T07:50:35.072Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 234,
@@ -11845,7 +11840,7 @@
         "rush_yd": 120
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:42.413Z",
+      "source_last_modified": "2026-08-22T07:50:38.544Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 235,
@@ -11888,7 +11883,7 @@
         "rec_yd": 306
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:50.294Z",
+      "source_last_modified": "2026-08-22T07:50:45.195Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 236,
@@ -11935,7 +11930,7 @@
         "rush_yd": 77
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:54.554Z",
+      "source_last_modified": "2026-08-22T07:50:48.694Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 237,
@@ -11981,7 +11976,7 @@
         "rush_yd": 288
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:50.439Z",
+      "source_last_modified": "2026-08-22T07:50:45.313Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 238,
@@ -12026,7 +12021,7 @@
         "rush_yd": 9
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:52.854Z",
+      "source_last_modified": "2026-08-22T07:50:47.325Z",
       "ownership": {
         "roster_id": 2,
         "owner_id": "1129877684336578560",
@@ -12074,7 +12069,7 @@
         "rec_yd": 190
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:40.855Z",
+      "source_last_modified": "2026-08-22T07:50:37.270Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 240,
@@ -12119,7 +12114,7 @@
         "rush_yd": 313
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.504Z",
+      "source_last_modified": "2026-08-22T07:50:40.293Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 241,
@@ -12164,7 +12159,7 @@
         "rush_yd": 233
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:52.648Z",
+      "source_last_modified": "2026-08-22T07:50:47.121Z",
       "ownership": {
         "roster_id": 5,
         "owner_id": "1129909167751426048",
@@ -12214,7 +12209,7 @@
         "rush_yd": 16
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:39.968Z",
+      "source_last_modified": "2026-08-22T07:50:36.607Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 243,
@@ -12260,7 +12255,7 @@
         "rush_yd": 135
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.778Z",
+      "source_last_modified": "2026-08-22T07:50:43.919Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 244,
@@ -12344,7 +12339,7 @@
         "rush_yd": 200
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:42.904Z",
+      "source_last_modified": "2026-08-22T07:50:38.970Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 246,
@@ -12389,7 +12384,7 @@
         "rush_yd": 203
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.527Z",
+      "source_last_modified": "2026-08-22T07:50:43.717Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 247,
@@ -12434,7 +12429,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.929Z",
+      "source_last_modified": "2026-08-22T07:50:44.043Z",
       "ownership": {
         "roster_id": 2,
         "owner_id": "1129877684336578560",
@@ -12482,7 +12477,7 @@
         "rec_yd": 288
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.376Z",
+      "source_last_modified": "2026-08-22T07:50:41.813Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 249,
@@ -12525,7 +12520,7 @@
         "rec_yd": 312
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:36.257Z",
+      "source_last_modified": "2026-08-22T07:50:33.720Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 250,
@@ -12569,7 +12564,7 @@
         "rush_yd": 29
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:37.707Z",
+      "source_last_modified": "2026-08-22T07:50:34.836Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 251,
@@ -12611,7 +12606,7 @@
         "rush_yd": 41
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:56.044Z",
+      "source_last_modified": "2026-08-22T07:50:49.869Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 252,
@@ -12652,7 +12647,7 @@
         "rec_yd": 231
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.060Z",
+      "source_last_modified": "2026-08-22T07:50:39.917Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 253,
@@ -12697,7 +12692,7 @@
         "rush_yd": 289
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:52.832Z",
+      "source_last_modified": "2026-08-22T07:50:47.305Z",
       "ownership": {
         "roster_id": 3,
         "owner_id": "1129881968960901120",
@@ -12779,7 +12774,7 @@
         "rec_yd": 152
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.267Z",
+      "source_last_modified": "2026-08-22T07:50:41.723Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 256,
@@ -12826,7 +12821,7 @@
         "rush_yd": 304
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.958Z",
+      "source_last_modified": "2026-08-22T07:50:40.671Z",
       "ownership": {
         "roster_id": 3,
         "owner_id": "1129881968960901120",
@@ -12876,7 +12871,7 @@
         "rush_yd": 3
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:40.836Z",
+      "source_last_modified": "2026-08-22T07:50:37.256Z",
       "ownership": {
         "roster_id": 5,
         "owner_id": "1129909167751426048",
@@ -12924,7 +12919,7 @@
         "rec_yd": 247
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:55.010Z",
+      "source_last_modified": "2026-08-22T07:50:49.067Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 259,
@@ -12969,7 +12964,7 @@
         "rush_yd": 223
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:38.223Z",
+      "source_last_modified": "2026-08-22T07:50:35.239Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 260,
@@ -13014,7 +13009,7 @@
         "rush_yd": 281
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.511Z",
+      "source_last_modified": "2026-08-22T07:50:40.299Z",
       "ownership": {
         "roster_id": 9,
         "owner_id": "859906411432366080",
@@ -13065,7 +13060,7 @@
         "rush_yd": 281
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:40.834Z",
+      "source_last_modified": "2026-08-22T07:50:37.254Z",
       "ownership": {
         "roster_id": 6,
         "owner_id": "1008209629677158400",
@@ -13117,7 +13112,7 @@
         "rush_yd": 220
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:55.647Z",
+      "source_last_modified": "2026-08-22T07:50:49.559Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 263,
@@ -13160,7 +13155,7 @@
         "rush_yd": 12
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:49.882Z",
+      "source_last_modified": "2026-08-22T07:50:44.854Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 264,
@@ -13205,7 +13200,7 @@
         "rush_yd": 243
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.604Z",
+      "source_last_modified": "2026-08-22T07:50:43.779Z",
       "ownership": {
         "roster_id": 10,
         "owner_id": "937819151345799168",
@@ -13253,7 +13248,7 @@
         "rec_yd": 135
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:55.199Z",
+      "source_last_modified": "2026-08-22T07:50:49.212Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 266,
@@ -13296,7 +13291,7 @@
         "rec_yd": 337
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:43.848Z",
+      "source_last_modified": "2026-08-22T07:50:39.738Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 267,
@@ -13342,7 +13337,7 @@
         "rush_yd": 16
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:51.824Z",
+      "source_last_modified": "2026-08-22T07:50:46.456Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 268,
@@ -13386,7 +13381,7 @@
         "rush_yd": 3
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:39.605Z",
+      "source_last_modified": "2026-08-22T07:50:36.349Z",
       "ownership": {
         "roster_id": 2,
         "owner_id": "1129877684336578560",
@@ -13433,7 +13428,7 @@
         "rush_yd": 160
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:52.841Z",
+      "source_last_modified": "2026-08-22T07:50:47.314Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 270,
@@ -13476,7 +13471,7 @@
         "rush_yd": 5
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:42.876Z",
+      "source_last_modified": "2026-08-22T07:50:38.949Z",
       "ownership": {
         "roster_id": 2,
         "owner_id": "1129877684336578560",
@@ -13524,7 +13519,7 @@
         "rec_yd": 203
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:38.549Z",
+      "source_last_modified": "2026-08-22T07:50:35.495Z",
       "ownership": {
         "roster_id": 10,
         "owner_id": "937819151345799168",
@@ -13570,7 +13565,7 @@
         "rec_yd": 89
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:42.509Z",
+      "source_last_modified": "2026-08-22T07:50:38.629Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 273,
@@ -13615,7 +13610,7 @@
         "rush_yd": 178
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:54.524Z",
+      "source_last_modified": "2026-08-22T07:50:48.665Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 274,
@@ -13656,7 +13651,7 @@
         "rec_yd": 129
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:50.836Z",
+      "source_last_modified": "2026-08-22T07:50:45.650Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 275,
@@ -13699,7 +13694,7 @@
         "rec_yd": 425
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:38.583Z",
+      "source_last_modified": "2026-08-22T07:50:35.522Z",
       "ownership": {
         "roster_id": 2,
         "owner_id": "1129877684336578560",
@@ -13747,7 +13742,7 @@
         "rec_yd": 164
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.939Z",
+      "source_last_modified": "2026-08-22T07:50:44.053Z",
       "ownership": {
         "roster_id": 7,
         "owner_id": "1131294900231815168",
@@ -13797,7 +13792,7 @@
         "rush_yd": 19
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:42.721Z",
+      "source_last_modified": "2026-08-22T07:50:38.815Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 278,
@@ -13838,7 +13833,7 @@
         "rec_yd": 179
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:42.329Z",
+      "source_last_modified": "2026-08-22T07:50:38.473Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 279,
@@ -13883,7 +13878,7 @@
         "rush_yd": 164
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:42.728Z",
+      "source_last_modified": "2026-08-22T07:50:38.821Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 280,
@@ -13926,7 +13921,7 @@
         "rec_yd": 128
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:52.188Z",
+      "source_last_modified": "2026-08-22T07:50:46.745Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 281,
@@ -13969,7 +13964,7 @@
         "rec_yd": 344
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:37.060Z",
+      "source_last_modified": "2026-08-22T07:50:34.326Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 282,
@@ -14014,7 +14009,7 @@
         "rush_yd": 8
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:52.279Z",
+      "source_last_modified": "2026-08-22T07:50:46.812Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 283,
@@ -14055,7 +14050,7 @@
         "rec_yd": 126
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:40.874Z",
+      "source_last_modified": "2026-08-22T07:50:37.289Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 284,
@@ -14132,7 +14127,7 @@
         "rush_yd": 14
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.816Z",
+      "source_last_modified": "2026-08-22T07:50:42.185Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 286,
@@ -14177,7 +14172,7 @@
         "rush_yd": 9
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:45.550Z",
+      "source_last_modified": "2026-08-22T07:50:41.142Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 287,
@@ -14222,7 +14217,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:49.463Z",
+      "source_last_modified": "2026-08-22T07:50:44.512Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 288,
@@ -14265,7 +14260,7 @@
         "rush_yd": 249
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:42.470Z",
+      "source_last_modified": "2026-08-22T07:50:38.592Z",
       "ownership": {
         "roster_id": 10,
         "owner_id": "937819151345799168",
@@ -14313,7 +14308,7 @@
         "rec_yd": 221
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:36.431Z",
+      "source_last_modified": "2026-08-22T07:50:33.856Z",
       "ownership": {
         "roster_id": 7,
         "owner_id": "1131294900231815168",
@@ -14363,7 +14358,7 @@
         "rush_yd": 4
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.942Z",
+      "source_last_modified": "2026-08-22T07:50:40.657Z",
       "ownership": {
         "roster_id": 9,
         "owner_id": "859906411432366080",
@@ -14410,7 +14405,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:52.597Z",
+      "source_last_modified": "2026-08-22T07:50:47.083Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 292,
@@ -14453,7 +14448,7 @@
         "rush_yd": 287
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:50.779Z",
+      "source_last_modified": "2026-08-22T07:50:45.605Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 293,
@@ -14498,7 +14493,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:38.218Z",
+      "source_last_modified": "2026-08-22T07:50:35.235Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 294,
@@ -14543,7 +14538,7 @@
         "rush_yd": 120
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:36.250Z",
+      "source_last_modified": "2026-08-22T07:50:33.715Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 295,
@@ -14586,7 +14581,7 @@
         "rec_yd": 276
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:42.869Z",
+      "source_last_modified": "2026-08-22T07:50:38.945Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 296,
@@ -14630,7 +14625,7 @@
         "rush_yd": 28
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:52.662Z",
+      "source_last_modified": "2026-08-22T07:50:47.131Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 297,
@@ -14673,7 +14668,7 @@
         "rush_yd": 42
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.760Z",
+      "source_last_modified": "2026-08-22T07:50:42.137Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 298,
@@ -14717,7 +14712,7 @@
         "rush_yd": 13
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:49.250Z",
+      "source_last_modified": "2026-08-22T07:50:44.317Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 299,
@@ -14762,7 +14757,7 @@
         "rush_yd": 286
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.944Z",
+      "source_last_modified": "2026-08-22T07:50:44.057Z",
       "ownership": {
         "roster_id": 1,
         "owner_id": "1129875387229560832",
@@ -14812,7 +14807,7 @@
         "rush_yd": 16
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:37.825Z",
+      "source_last_modified": "2026-08-22T07:50:34.932Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 301,
@@ -14855,7 +14850,7 @@
         "rush_yd": 99
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.243Z",
+      "source_last_modified": "2026-08-22T07:50:43.468Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 302,
@@ -14902,7 +14897,7 @@
         "rush_yd": 38
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.926Z",
+      "source_last_modified": "2026-08-22T07:50:44.042Z",
       "ownership": {
         "roster_id": 1,
         "owner_id": "1129875387229560832",
@@ -14950,7 +14945,7 @@
         "rec_yd": 146
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:37.722Z",
+      "source_last_modified": "2026-08-22T07:50:34.848Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 304,
@@ -14994,7 +14989,7 @@
         "rush_yd": 18
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:40.359Z",
+      "source_last_modified": "2026-08-22T07:50:36.899Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 305,
@@ -15039,7 +15034,7 @@
         "rush_yd": 117
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:39.809Z",
+      "source_last_modified": "2026-08-22T07:50:36.496Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 306,
@@ -15080,7 +15075,7 @@
         "rec_yd": 124
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:45.745Z",
+      "source_last_modified": "2026-08-22T07:50:41.298Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 307,
@@ -15123,7 +15118,7 @@
         "rec_yd": 246
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.978Z",
+      "source_last_modified": "2026-08-22T07:50:40.686Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 308,
@@ -15166,7 +15161,7 @@
         "rec_yd": 290
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.995Z",
+      "source_last_modified": "2026-08-22T07:50:40.700Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 309,
@@ -15209,7 +15204,7 @@
         "rush_yd": 22
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.953Z",
+      "source_last_modified": "2026-08-22T07:50:44.064Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 310,
@@ -15250,7 +15245,7 @@
         "rec_yd": 176
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:52.465Z",
+      "source_last_modified": "2026-08-22T07:50:46.972Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 311,
@@ -15295,7 +15290,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:54.790Z",
+      "source_last_modified": "2026-08-22T07:50:48.891Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 312,
@@ -15336,7 +15331,7 @@
         "rec_yd": 305
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:43.652Z",
+      "source_last_modified": "2026-08-22T07:50:39.564Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 313,
@@ -15377,7 +15372,7 @@
         "rec_yd": 147
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.951Z",
+      "source_last_modified": "2026-08-22T07:50:44.063Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 314,
@@ -15421,7 +15416,7 @@
         "rush_yd": 21
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:54.776Z",
+      "source_last_modified": "2026-08-22T07:50:48.880Z",
       "ownership": {
         "roster_id": 3,
         "owner_id": "1129881968960901120",
@@ -15471,7 +15466,7 @@
         "rush_yd": 174
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:36.252Z",
+      "source_last_modified": "2026-08-22T07:50:33.717Z",
       "ownership": {
         "roster_id": 6,
         "owner_id": "1008209629677158400",
@@ -15521,7 +15516,7 @@
         "rush_yd": 10
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:51.469Z",
+      "source_last_modified": "2026-08-22T07:50:46.174Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 317,
@@ -15562,7 +15557,7 @@
         "rush_yd": 5
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.994Z",
+      "source_last_modified": "2026-08-22T07:50:42.332Z",
       "ownership": {
         "roster_id": 10,
         "owner_id": "937819151345799168",
@@ -15610,7 +15605,7 @@
         "rec_yd": 129
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:36.775Z",
+      "source_last_modified": "2026-08-22T07:50:34.149Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 319,
@@ -15651,7 +15646,7 @@
         "rec_yd": 197
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:55.055Z",
+      "source_last_modified": "2026-08-22T07:50:49.104Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 320,
@@ -15694,7 +15689,7 @@
         "rush_yd": 17
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.125Z",
+      "source_last_modified": "2026-08-22T07:50:39.976Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 321,
@@ -15735,7 +15730,7 @@
         "rec_yd": 132
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:53.408Z",
+      "source_last_modified": "2026-08-22T07:50:47.765Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 322,
@@ -15778,7 +15773,7 @@
         "rec_yd": 126
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:56.016Z",
+      "source_last_modified": "2026-08-22T07:50:49.844Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 323,
@@ -15819,7 +15814,7 @@
         "rec_yd": 124
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:52.498Z",
+      "source_last_modified": "2026-08-22T07:50:47.000Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 324,
@@ -15898,7 +15893,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:39.278Z",
+      "source_last_modified": "2026-08-22T07:50:36.069Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 326,
@@ -15941,7 +15936,7 @@
         "rush_yd": 11
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:36.856Z",
+      "source_last_modified": "2026-08-22T07:50:34.214Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 327,
@@ -15986,7 +15981,7 @@
         "rush_yd": 2
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:50.602Z",
+      "source_last_modified": "2026-08-22T07:50:45.438Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 328,
@@ -16026,7 +16021,7 @@
         "rec_yd": 77
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.754Z",
+      "source_last_modified": "2026-08-22T07:50:42.131Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 329,
@@ -16067,7 +16062,7 @@
         "rec_yd": 228
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:55.213Z",
+      "source_last_modified": "2026-08-22T07:50:49.220Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 330,
@@ -16108,7 +16103,7 @@
         "rec_yd": 138
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.958Z",
+      "source_last_modified": "2026-08-22T07:50:44.067Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 331,
@@ -16148,7 +16143,7 @@
         "rush_yd": 5
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.116Z",
+      "source_last_modified": "2026-08-22T07:50:43.372Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 332,
@@ -16193,7 +16188,7 @@
         "rush_yd": 118
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:45.511Z",
+      "source_last_modified": "2026-08-22T07:50:41.107Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 333,
@@ -16233,7 +16228,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.124Z",
+      "source_last_modified": "2026-08-22T07:50:43.377Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 334,
@@ -16276,7 +16271,7 @@
         "rec_yd": 144
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:40.839Z",
+      "source_last_modified": "2026-08-22T07:50:37.257Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 335,
@@ -16319,7 +16314,7 @@
         "rush_yd": 67
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:55.001Z",
+      "source_last_modified": "2026-08-22T07:50:49.060Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 336,
@@ -16362,7 +16357,7 @@
         "rec_yd": 130
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:51.005Z",
+      "source_last_modified": "2026-08-22T07:50:45.788Z",
       "ownership": {
         "roster_id": 7,
         "owner_id": "1131294900231815168",
@@ -16410,7 +16405,7 @@
         "rec_yd": 135
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:43.988Z",
+      "source_last_modified": "2026-08-22T07:50:39.856Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 338,
@@ -16428,6 +16423,47 @@
       "projection_source_spread_points": 32.71,
       "projection_source_spread_percent": 101.42,
       "confidence_score": 50,
+      "ensemble_method": "equal_weight_mean_of_available_sources"
+    },
+    {
+      "player_id": "11596",
+      "name": "Ben Sinnott",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "team": "WAS",
+      "opponent": null,
+      "game_date": null,
+      "projected_points": 32.23,
+      "provider_points": {
+        "ppr": 27.5,
+        "half_ppr": 22,
+        "standard": 16.5
+      },
+      "projected_stats": {
+        "gp": 18,
+        "rec": 11,
+        "rec_td": 1,
+        "rec_yd": 105
+      },
+      "source_company": "multi-source ensemble",
+      "source_last_modified": "2026-08-22T07:50:43.770Z",
+      "ownership": null,
+      "league_status": "free_agent",
+      "projection_rank": 339,
+      "projection_sources": [
+        "sleeper",
+        "stathead"
+      ],
+      "projection_source_names": [
+        "Sleeper/RotoWire",
+        "StatHead open model"
+      ],
+      "projection_source_count": 2,
+      "projection_source_spread_points": 9.46,
+      "projection_source_spread_percent": 29.35,
+      "confidence_score": 50.65,
       "ensemble_method": "equal_weight_mean_of_available_sources"
     },
     {
@@ -16452,10 +16488,10 @@
         "rec_yd": 24
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.300Z",
+      "source_last_modified": "2026-08-22T07:50:43.514Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 339,
+      "projection_rank": 340,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -16493,10 +16529,10 @@
         "rec_yd": 177
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.964Z",
+      "source_last_modified": "2026-08-22T07:50:44.071Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 340,
+      "projection_rank": 341,
       "projection_sources": [
         "sleeper",
         "espn",
@@ -16547,7 +16583,7 @@
       "source_company": "multi-source ensemble",
       "source_last_modified": null,
       "league_status": "free_agent",
-      "projection_rank": 341
+      "projection_rank": 342
     },
     {
       "player_id": "7716",
@@ -16572,10 +16608,10 @@
         "rec_yd": 128
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.185Z",
+      "source_last_modified": "2026-08-22T07:50:41.658Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 342,
+      "projection_rank": 343,
       "projection_sources": [
         "sleeper"
       ],
@@ -16611,10 +16647,15 @@
         "rec_yd": 128
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:53.020Z",
-      "ownership": null,
-      "league_status": "free_agent",
-      "projection_rank": 343,
+      "source_last_modified": "2026-08-22T07:50:47.450Z",
+      "ownership": {
+        "roster_id": 8,
+        "owner_id": "1131304330881077248",
+        "team_name": "PurpleRhane",
+        "roster_status": "active_roster"
+      },
+      "league_status": "rostered",
+      "projection_rank": 344,
       "projection_sources": [
         "sleeper"
       ],
@@ -16650,10 +16691,10 @@
         "rec_yd": 126
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.964Z",
+      "source_last_modified": "2026-08-22T07:50:40.675Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 344,
+      "projection_rank": 345,
       "projection_sources": [
         "sleeper"
       ],
@@ -16689,10 +16730,10 @@
         "rec_yd": 126
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:36.446Z",
+      "source_last_modified": "2026-08-22T07:50:33.870Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 345,
+      "projection_rank": 346,
       "projection_sources": [
         "sleeper"
       ],
@@ -16732,10 +16773,10 @@
         "rush_yd": 8
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:45.171Z",
+      "source_last_modified": "2026-08-22T07:50:40.837Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 346,
+      "projection_rank": 347,
       "projection_sources": [
         "sleeper",
         "espn",
@@ -16775,10 +16816,10 @@
         "rec_yd": 140
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.986Z",
+      "source_last_modified": "2026-08-22T07:50:40.693Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 347,
+      "projection_rank": 348,
       "projection_sources": [
         "sleeper",
         "espn",
@@ -16820,10 +16861,10 @@
         "rush_yd": 160
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.980Z",
+      "source_last_modified": "2026-08-22T07:50:42.319Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 348,
+      "projection_rank": 349,
       "projection_sources": [
         "sleeper"
       ],
@@ -16863,7 +16904,7 @@
         "rush_yd": 270
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:53.013Z",
+      "source_last_modified": "2026-08-22T07:50:47.444Z",
       "ownership": {
         "roster_id": 1,
         "owner_id": "1129875387229560832",
@@ -16871,7 +16912,7 @@
         "roster_status": "taxi"
       },
       "league_status": "rostered",
-      "projection_rank": 349,
+      "projection_rank": 350,
       "projection_sources": [
         "sleeper",
         "espn",
@@ -16886,49 +16927,6 @@
       "projection_source_spread_points": 55.72,
       "projection_source_spread_percent": 182.81,
       "confidence_score": 50,
-      "ensemble_method": "equal_weight_mean_of_available_sources"
-    },
-    {
-      "player_id": "11596",
-      "name": "Ben Sinnott",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "team": "WAS",
-      "opponent": null,
-      "game_date": null,
-      "projected_points": 30.37,
-      "provider_points": {
-        "ppr": 27.5,
-        "half_ppr": 22,
-        "standard": 16.5
-      },
-      "projected_stats": {
-        "gp": 18,
-        "rec": 11,
-        "rec_td": 1,
-        "rec_yd": 105
-      },
-      "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.593Z",
-      "ownership": null,
-      "league_status": "free_agent",
-      "projection_rank": 350,
-      "projection_sources": [
-        "sleeper",
-        "espn",
-        "stathead"
-      ],
-      "projection_source_names": [
-        "Sleeper/RotoWire",
-        "ESPN",
-        "StatHead open model"
-      ],
-      "projection_source_count": 3,
-      "projection_source_spread_points": 10.32,
-      "projection_source_spread_percent": 33.97,
-      "confidence_score": 66.03,
       "ensemble_method": "equal_weight_mean_of_available_sources"
     },
     {
@@ -16956,7 +16954,7 @@
         "rush_yd": 137
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.752Z",
+      "source_last_modified": "2026-08-22T07:50:42.130Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 351,
@@ -17005,7 +17003,7 @@
         "rush_yd": 69
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:42.861Z",
+      "source_last_modified": "2026-08-22T07:50:38.935Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 352,
@@ -17045,7 +17043,7 @@
         "rush_yd": 21
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:54.712Z",
+      "source_last_modified": "2026-08-22T07:50:48.823Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 353,
@@ -17086,7 +17084,7 @@
         "rec_yd": 132
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.935Z",
+      "source_last_modified": "2026-08-22T07:50:44.048Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 354,
@@ -17125,7 +17123,7 @@
         "rec_yd": 131
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:53.035Z",
+      "source_last_modified": "2026-08-22T07:50:47.463Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 355,
@@ -17166,7 +17164,7 @@
         "rush_yd": 10
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.764Z",
+      "source_last_modified": "2026-08-22T07:50:43.907Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 356,
@@ -17247,7 +17245,7 @@
         "rush_yd": 102
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:43.999Z",
+      "source_last_modified": "2026-08-22T07:50:39.866Z",
       "ownership": {
         "roster_id": 6,
         "owner_id": "1008209629677158400",
@@ -17295,7 +17293,7 @@
         "rec_yd": 156
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:51.796Z",
+      "source_last_modified": "2026-08-22T07:50:46.436Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 359,
@@ -17338,7 +17336,7 @@
         "rec_yd": 124
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:55.197Z",
+      "source_last_modified": "2026-08-22T07:50:49.210Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 360,
@@ -17413,7 +17411,7 @@
         "rush_yd": 105
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.507Z",
+      "source_last_modified": "2026-08-22T07:50:40.296Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 362,
@@ -17456,7 +17454,7 @@
         "rec_yd": 128
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:55.424Z",
+      "source_last_modified": "2026-08-22T07:50:49.379Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 363,
@@ -17495,7 +17493,7 @@
         "rec_yd": 108
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:37.567Z",
+      "source_last_modified": "2026-08-22T07:50:34.722Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 364,
@@ -17536,7 +17534,7 @@
         "rec_yd": 113
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:55.446Z",
+      "source_last_modified": "2026-08-22T07:50:49.397Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 365,
@@ -17577,7 +17575,7 @@
         "rush_yd": 2
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:42.162Z",
+      "source_last_modified": "2026-08-22T07:50:38.337Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 366,
@@ -17622,7 +17620,7 @@
         "rush_yd": 22
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:49.811Z",
+      "source_last_modified": "2026-08-22T07:50:44.809Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 367,
@@ -17663,7 +17661,7 @@
         "rush_yd": 138
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:55.777Z",
+      "source_last_modified": "2026-08-22T07:50:49.664Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 368,
@@ -17703,7 +17701,7 @@
         "rush_yd": 20
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:54.569Z",
+      "source_last_modified": "2026-08-22T07:50:48.709Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 369,
@@ -17750,7 +17748,7 @@
         "rush_yd": 120
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:36.074Z",
+      "source_last_modified": "2026-08-22T07:50:33.564Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 370,
@@ -17794,7 +17792,7 @@
         "rush_yd": 13
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:47.162Z",
+      "source_last_modified": "2026-08-22T07:50:42.563Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 371,
@@ -17833,7 +17831,7 @@
         "rec_yd": 100
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:43.497Z",
+      "source_last_modified": "2026-08-22T07:50:39.444Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 372,
@@ -17874,7 +17872,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:47.842Z",
+      "source_last_modified": "2026-08-22T07:50:43.144Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 373,
@@ -17915,7 +17913,7 @@
         "rush_yd": 4
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.784Z",
+      "source_last_modified": "2026-08-22T07:50:43.920Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 374,
@@ -17955,7 +17953,7 @@
         "rec_yd": 53
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:40.365Z",
+      "source_last_modified": "2026-08-22T07:50:36.905Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 375,
@@ -18002,7 +18000,7 @@
         "rush_yd": 26
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:45.225Z",
+      "source_last_modified": "2026-08-22T07:50:40.874Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 376,
@@ -18047,7 +18045,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:36.285Z",
+      "source_last_modified": "2026-08-22T07:50:33.745Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 377,
@@ -18090,7 +18088,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:36.254Z",
+      "source_last_modified": "2026-08-22T07:50:33.718Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 378,
@@ -18131,7 +18129,7 @@
         "rec_yd": 120
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:49.206Z",
+      "source_last_modified": "2026-08-22T07:50:44.278Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 379,
@@ -18174,7 +18172,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.604Z",
+      "source_last_modified": "2026-08-22T07:50:42.001Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 380,
@@ -18213,7 +18211,7 @@
         "rec_yd": 230
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:42.899Z",
+      "source_last_modified": "2026-08-22T07:50:38.967Z",
       "ownership": {
         "roster_id": 10,
         "owner_id": "937819151345799168",
@@ -18263,7 +18261,7 @@
         "rush_yd": 18
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.771Z",
+      "source_last_modified": "2026-08-22T07:50:43.912Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 382,
@@ -18304,7 +18302,7 @@
         "rec_yd": 104
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.971Z",
+      "source_last_modified": "2026-08-22T07:50:42.313Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 383,
@@ -18347,7 +18345,7 @@
         "rush_yd": 122
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:50.989Z",
+      "source_last_modified": "2026-08-22T07:50:45.774Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 384,
@@ -18387,7 +18385,7 @@
         "rec_yd": 114
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:50.994Z",
+      "source_last_modified": "2026-08-22T07:50:45.778Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 385,
@@ -18498,7 +18496,7 @@
         "rush_yd": 184
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:40.878Z",
+      "source_last_modified": "2026-08-22T07:50:37.293Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 388,
@@ -18543,7 +18541,7 @@
         "rush_yd": 16
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.503Z",
+      "source_last_modified": "2026-08-22T07:50:43.693Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 389,
@@ -18588,7 +18586,7 @@
         "rush_yd": 120
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:50.595Z",
+      "source_last_modified": "2026-08-22T07:50:45.432Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 390,
@@ -18633,7 +18631,7 @@
         "rush_yd": 123
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:42.612Z",
+      "source_last_modified": "2026-08-22T07:50:38.723Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 391,
@@ -18681,7 +18679,7 @@
         "rush_yd": 18
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.121Z",
+      "source_last_modified": "2026-08-22T07:50:41.601Z",
       "ownership": {
         "roster_id": 9,
         "owner_id": "859906411432366080",
@@ -18731,7 +18729,7 @@
         "rush_yd": 130
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:45.433Z",
+      "source_last_modified": "2026-08-22T07:50:41.041Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 393,
@@ -18770,7 +18768,7 @@
         "rec_yd": 100
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:45.736Z",
+      "source_last_modified": "2026-08-22T07:50:41.292Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 394,
@@ -18809,7 +18807,7 @@
         "rec_yd": 181
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:49.344Z",
+      "source_last_modified": "2026-08-22T07:50:44.407Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 395,
@@ -18854,7 +18852,7 @@
         "rush_yd": 24
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:56.234Z",
+      "source_last_modified": "2026-08-22T07:50:50.008Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 396,
@@ -18897,7 +18895,7 @@
         "rec_yd": 171
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:52.300Z",
+      "source_last_modified": "2026-08-22T07:50:46.829Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 397,
@@ -18941,7 +18939,7 @@
         "rush_yd": 220
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:53.048Z",
+      "source_last_modified": "2026-08-22T07:50:47.473Z",
       "ownership": {
         "roster_id": 3,
         "owner_id": "1129881968960901120",
@@ -18991,7 +18989,7 @@
         "rush_yd": 103
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:53.015Z",
+      "source_last_modified": "2026-08-22T07:50:47.446Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 399,
@@ -19035,7 +19033,7 @@
         "rush_yd": 2
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:36.436Z",
+      "source_last_modified": "2026-08-22T07:50:33.861Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 400,
@@ -19076,7 +19074,7 @@
         "rush_yd": 127
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.593Z",
+      "source_last_modified": "2026-08-22T07:50:41.992Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 401,
@@ -19119,7 +19117,7 @@
         "rec_yd": 118
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.600Z",
+      "source_last_modified": "2026-08-22T07:50:43.776Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 402,
@@ -19166,7 +19164,7 @@
         "rush_yd": 16
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:52.837Z",
+      "source_last_modified": "2026-08-22T07:50:47.310Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 403,
@@ -19213,7 +19211,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.134Z",
+      "source_last_modified": "2026-08-22T07:50:41.614Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 404,
@@ -19254,7 +19252,7 @@
         "rec_yd": 115
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.952Z",
+      "source_last_modified": "2026-08-22T07:50:40.665Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 405,
@@ -19299,7 +19297,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:36.427Z",
+      "source_last_modified": "2026-08-22T07:50:33.852Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 406,
@@ -19344,7 +19342,7 @@
         "rush_yd": 119
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:42.505Z",
+      "source_last_modified": "2026-08-22T07:50:38.624Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 407,
@@ -19388,7 +19386,7 @@
         "rush_yd": 21
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.769Z",
+      "source_last_modified": "2026-08-22T07:50:43.910Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 408,
@@ -19461,7 +19459,7 @@
         "rec_yd": 103
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.070Z",
+      "source_last_modified": "2026-08-22T07:50:39.927Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 410,
@@ -19503,7 +19501,7 @@
         "rec_yd": 22
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:38.603Z",
+      "source_last_modified": "2026-08-22T07:50:35.536Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 411,
@@ -19548,7 +19546,7 @@
         "rush_yd": 132
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.773Z",
+      "source_last_modified": "2026-08-22T07:50:42.147Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 412,
@@ -19595,7 +19593,7 @@
         "rush_yd": 16
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.749Z",
+      "source_last_modified": "2026-08-22T07:50:40.488Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 413,
@@ -19643,7 +19641,7 @@
         "rush_yd": 46
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:42.320Z",
+      "source_last_modified": "2026-08-22T07:50:38.465Z",
       "ownership": {
         "roster_id": 9,
         "owner_id": "859906411432366080",
@@ -19720,7 +19718,7 @@
         "rec_yd": 29
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:50.456Z",
+      "source_last_modified": "2026-08-22T07:50:45.325Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 416,
@@ -19761,7 +19759,7 @@
         "rec_yd": 128
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:42.901Z",
+      "source_last_modified": "2026-08-22T07:50:38.968Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 417,
@@ -19806,7 +19804,7 @@
         "rush_yd": 17
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:50.310Z",
+      "source_last_modified": "2026-08-22T07:50:45.208Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 418,
@@ -19853,7 +19851,7 @@
         "rush_yd": 16
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.493Z",
+      "source_last_modified": "2026-08-22T07:50:40.284Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 419,
@@ -19896,7 +19894,7 @@
         "rec_yd": 96
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.251Z",
+      "source_last_modified": "2026-08-22T07:50:43.475Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 420,
@@ -19972,7 +19970,7 @@
         "rush_yd": 9
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:38.672Z",
+      "source_last_modified": "2026-08-22T07:50:35.590Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 422,
@@ -20010,7 +20008,7 @@
         "rec_yd": 77
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:41.349Z",
+      "source_last_modified": "2026-08-22T07:50:37.670Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 423,
@@ -20051,7 +20049,7 @@
         "rec_yd": 114
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:50.599Z",
+      "source_last_modified": "2026-08-22T07:50:45.436Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 424,
@@ -20130,7 +20128,7 @@
         "rush_yd": 20
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.933Z",
+      "source_last_modified": "2026-08-22T07:50:44.046Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 426,
@@ -20175,7 +20173,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:38.401Z",
+      "source_last_modified": "2026-08-22T07:50:35.386Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 427,
@@ -20215,7 +20213,7 @@
         "rec_yd": 43
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:52.276Z",
+      "source_last_modified": "2026-08-22T07:50:46.811Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 428,
@@ -20257,7 +20255,7 @@
         "rush_yd": 16
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:54.399Z",
+      "source_last_modified": "2026-08-22T07:50:48.564Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 429,
@@ -20299,7 +20297,7 @@
         "rec_yd": 27
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:52.856Z",
+      "source_last_modified": "2026-08-22T07:50:47.328Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 430,
@@ -20346,7 +20344,7 @@
         "rush_yd": 13
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:38.832Z",
+      "source_last_modified": "2026-08-22T07:50:35.718Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 431,
@@ -20458,7 +20456,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.562Z",
+      "source_last_modified": "2026-08-22T07:50:40.332Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 434,
@@ -20502,7 +20500,7 @@
         "rush_yd": 138
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.960Z",
+      "source_last_modified": "2026-08-22T07:50:40.672Z",
       "ownership": {
         "roster_id": 7,
         "owner_id": "1131294900231815168",
@@ -20550,7 +20548,7 @@
         "rec_yd": 108
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.945Z",
+      "source_last_modified": "2026-08-22T07:50:40.659Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 436,
@@ -20592,7 +20590,7 @@
         "rush_yd": 41
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.265Z",
+      "source_last_modified": "2026-08-22T07:50:41.722Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 437,
@@ -20666,7 +20664,7 @@
         "rec_yd": 74
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:49.434Z",
+      "source_last_modified": "2026-08-22T07:50:44.487Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 439,
@@ -20713,7 +20711,7 @@
         "rush_yd": 43
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.004Z",
+      "source_last_modified": "2026-08-22T07:50:39.869Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 440,
@@ -20755,7 +20753,7 @@
         "rush_yd": 63
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:38.212Z",
+      "source_last_modified": "2026-08-22T07:50:35.231Z",
       "ownership": {
         "roster_id": 4,
         "owner_id": "1129897778072649728",
@@ -20803,7 +20801,7 @@
         "rush_yd": 92
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:40.867Z",
+      "source_last_modified": "2026-08-22T07:50:37.282Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 442,
@@ -20846,7 +20844,7 @@
         "rush_yd": 32
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:50.865Z",
+      "source_last_modified": "2026-08-22T07:50:45.674Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 443,
@@ -20893,7 +20891,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:55.702Z",
+      "source_last_modified": "2026-08-22T07:50:49.603Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 444,
@@ -20939,7 +20937,7 @@
         "rush_yd": 21
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:42.857Z",
+      "source_last_modified": "2026-08-22T07:50:38.932Z",
       "ownership": {
         "roster_id": 8,
         "owner_id": "1131304330881077248",
@@ -21023,7 +21021,7 @@
         "rush_yd": 43
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.767Z",
+      "source_last_modified": "2026-08-22T07:50:42.143Z",
       "ownership": {
         "roster_id": 8,
         "owner_id": "1131304330881077248",
@@ -21070,7 +21068,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:43.781Z",
+      "source_last_modified": "2026-08-22T07:50:39.680Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 448,
@@ -21113,7 +21111,7 @@
         "rec_yd": 109
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.873Z",
+      "source_last_modified": "2026-08-22T07:50:40.598Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 449,
@@ -21160,7 +21158,7 @@
         "rush_yd": 16
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.586Z",
+      "source_last_modified": "2026-08-22T07:50:43.765Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 450,
@@ -21200,7 +21198,7 @@
         "rec_yd": 32
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:35.893Z",
+      "source_last_modified": "2026-08-22T07:50:33.416Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 451,
@@ -21240,7 +21238,7 @@
         "rec_yd": 28
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.619Z",
+      "source_last_modified": "2026-08-22T07:50:40.382Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 452,
@@ -21280,7 +21278,7 @@
         "rec_yd": 74
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:42.522Z",
+      "source_last_modified": "2026-08-22T07:50:38.639Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 453,
@@ -21319,7 +21317,7 @@
         "rec_yd": 111
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.949Z",
+      "source_last_modified": "2026-08-22T07:50:40.663Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 454,
@@ -21461,7 +21459,7 @@
         "rec_yd": 36
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:50.458Z",
+      "source_last_modified": "2026-08-22T07:50:45.327Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 458,
@@ -21508,7 +21506,7 @@
         "rush_yd": 5
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:45.206Z",
+      "source_last_modified": "2026-08-22T07:50:40.862Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 459,
@@ -21551,7 +21549,7 @@
         "rush_yd": 14
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.272Z",
+      "source_last_modified": "2026-08-22T07:50:41.728Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 460,
@@ -21594,7 +21592,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:37.140Z",
+      "source_last_modified": "2026-08-22T07:50:34.391Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 461,
@@ -21634,7 +21632,7 @@
         "rec_yd": 51
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:37.761Z",
+      "source_last_modified": "2026-08-22T07:50:34.879Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 462,
@@ -21674,7 +21672,7 @@
         "rush_yd": 21
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.771Z",
+      "source_last_modified": "2026-08-22T07:50:42.145Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 463,
@@ -21787,7 +21785,7 @@
         "rush_yd": 15
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:49.420Z",
+      "source_last_modified": "2026-08-22T07:50:44.478Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 466,
@@ -21832,7 +21830,7 @@
         "rush_yd": 19
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:40.829Z",
+      "source_last_modified": "2026-08-22T07:50:37.251Z",
       "ownership": {
         "roster_id": 6,
         "owner_id": "1008209629677158400",
@@ -21884,7 +21882,7 @@
         "rush_yd": 17
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:35.999Z",
+      "source_last_modified": "2026-08-22T07:50:33.505Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 468,
@@ -21929,7 +21927,7 @@
         "rush_yd": 106
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:39.973Z",
+      "source_last_modified": "2026-08-22T07:50:36.611Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 469,
@@ -21969,7 +21967,7 @@
         "rec_yd": 7
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:55.815Z",
+      "source_last_modified": "2026-08-22T07:50:49.691Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 470,
@@ -22014,7 +22012,7 @@
         "rush_yd": 12
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:49.624Z",
+      "source_last_modified": "2026-08-22T07:50:44.642Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 471,
@@ -22160,7 +22158,7 @@
         "rush_yd": 20
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:38.397Z",
+      "source_last_modified": "2026-08-22T07:50:35.381Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 475,
@@ -22205,7 +22203,7 @@
         "rush_yd": 15
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:40.176Z",
+      "source_last_modified": "2026-08-22T07:50:36.767Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 476,
@@ -22248,7 +22246,7 @@
         "rush_yd": 22
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:42.909Z",
+      "source_last_modified": "2026-08-22T07:50:38.973Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 477,
@@ -22288,7 +22286,7 @@
         "rush_yd": 42
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:38.877Z",
+      "source_last_modified": "2026-08-22T07:50:35.754Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 478,
@@ -22331,7 +22329,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:51.329Z",
+      "source_last_modified": "2026-08-22T07:50:46.065Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 479,
@@ -22374,7 +22372,7 @@
         "rush_yd": 16
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:38.014Z",
+      "source_last_modified": "2026-08-22T07:50:35.070Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 480,
@@ -22417,7 +22415,7 @@
         "rush_yd": 16
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:36.962Z",
+      "source_last_modified": "2026-08-22T07:50:34.273Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 481,
@@ -22460,7 +22458,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:51.197Z",
+      "source_last_modified": "2026-08-22T07:50:45.957Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 482,
@@ -22500,7 +22498,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:39.983Z",
+      "source_last_modified": "2026-08-22T07:50:36.618Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 483,
@@ -22547,7 +22545,7 @@
         "rush_yd": 13
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:53.966Z",
+      "source_last_modified": "2026-08-22T07:50:48.229Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 484,
@@ -22661,7 +22659,7 @@
         "rush_yd": 21
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:52.306Z",
+      "source_last_modified": "2026-08-22T07:50:46.835Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 487,
@@ -22704,7 +22702,7 @@
         "rush_yd": 13
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.744Z",
+      "source_last_modified": "2026-08-22T07:50:40.484Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 488,
@@ -22747,7 +22745,7 @@
         "rush_yd": 5
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:56.460Z",
+      "source_last_modified": "2026-08-22T07:50:50.178Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 489,
@@ -22826,7 +22824,7 @@
         "rush_yd": 13
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:40.277Z",
+      "source_last_modified": "2026-08-22T07:50:36.849Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 491,
@@ -22871,7 +22869,7 @@
         "rush_yd": 13
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:41.116Z",
+      "source_last_modified": "2026-08-22T07:50:37.481Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 492,
@@ -22911,7 +22909,7 @@
         "rush_yd": 63
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.962Z",
+      "source_last_modified": "2026-08-22T07:50:44.070Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 493,
@@ -22954,7 +22952,7 @@
         "rush_yd": 15
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:56.609Z",
+      "source_last_modified": "2026-08-22T07:50:50.289Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 494,
@@ -22997,7 +22995,7 @@
         "rush_yd": 116
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:36.086Z",
+      "source_last_modified": "2026-08-22T07:50:33.572Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 495,
@@ -23073,7 +23071,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:52.287Z",
+      "source_last_modified": "2026-08-22T07:50:46.820Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 497,
@@ -23113,7 +23111,7 @@
         "rec_yd": 7
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.598Z",
+      "source_last_modified": "2026-08-22T07:50:41.994Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 498,
@@ -23187,7 +23185,7 @@
         "rec_yd": 49
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:39.254Z",
+      "source_last_modified": "2026-08-22T07:50:36.048Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 500,
@@ -23225,7 +23223,7 @@
         "rec_yd": 46
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:36.448Z",
+      "source_last_modified": "2026-08-22T07:50:33.872Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 501,
@@ -23263,7 +23261,7 @@
         "rec_yd": 20
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:47.639Z",
+      "source_last_modified": "2026-08-22T07:50:42.979Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 502,
@@ -23305,7 +23303,7 @@
         "rush_yd": 20
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:41.355Z",
+      "source_last_modified": "2026-08-22T07:50:37.676Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 503,
@@ -23345,7 +23343,7 @@
         "rush_yd": 42
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:53.577Z",
+      "source_last_modified": "2026-08-22T07:50:47.909Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 504,
@@ -23385,7 +23383,7 @@
         "rush_yd": 59
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:43.995Z",
+      "source_last_modified": "2026-08-22T07:50:39.863Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 505,
@@ -23423,7 +23421,7 @@
         "rec_yd": 26
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:50.561Z",
+      "source_last_modified": "2026-08-22T07:50:45.404Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 506,
@@ -23463,7 +23461,7 @@
         "rec_yd": 53
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:49.473Z",
+      "source_last_modified": "2026-08-22T07:50:44.521Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 507,
@@ -23501,7 +23499,7 @@
         "rec_yd": 52
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.001Z",
+      "source_last_modified": "2026-08-22T07:50:43.278Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 508,
@@ -23609,7 +23607,7 @@
         "rush_yd": 7
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:52.642Z",
+      "source_last_modified": "2026-08-22T07:50:47.115Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 511,
@@ -23681,7 +23679,7 @@
         "rec_yd": 49
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:55.074Z",
+      "source_last_modified": "2026-08-22T07:50:49.117Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 513,
@@ -23719,7 +23717,7 @@
         "rec_yd": 45
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:56.224Z",
+      "source_last_modified": "2026-08-22T07:50:50.001Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 514,
@@ -23757,7 +23755,7 @@
         "rec_yd": 48
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:43.693Z",
+      "source_last_modified": "2026-08-22T07:50:39.594Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 515,
@@ -23799,7 +23797,7 @@
         "rush_yd": 46
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:53.017Z",
+      "source_last_modified": "2026-08-22T07:50:47.447Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 516,
@@ -23837,7 +23835,7 @@
         "rec_yd": 41
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.163Z",
+      "source_last_modified": "2026-08-22T07:50:40.009Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 517,
@@ -23875,7 +23873,7 @@
         "rec_yd": 41
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:38.024Z",
+      "source_last_modified": "2026-08-22T07:50:35.075Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 518,
@@ -23947,7 +23945,7 @@
         "rec_yd": 40
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:56.307Z",
+      "source_last_modified": "2026-08-22T07:50:50.063Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 520,
@@ -24019,7 +24017,7 @@
         "rec_yd": 37
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.908Z",
+      "source_last_modified": "2026-08-22T07:50:44.024Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 522,
@@ -24059,7 +24057,7 @@
         "rec_yd": 40
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:52.062Z",
+      "source_last_modified": "2026-08-22T07:50:46.646Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 523,
@@ -24099,7 +24097,7 @@
         "rec_yd": 35
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.515Z",
+      "source_last_modified": "2026-08-22T07:50:40.303Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 524,
@@ -24139,7 +24137,7 @@
         "rush_yd": 41
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.750Z",
+      "source_last_modified": "2026-08-22T07:50:42.128Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 525,
@@ -24179,7 +24177,7 @@
         "rush_yd": 8
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:37.100Z",
+      "source_last_modified": "2026-08-22T07:50:34.358Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 526,
@@ -24217,7 +24215,7 @@
         "rec_yd": 35
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:42.107Z",
+      "source_last_modified": "2026-08-22T07:50:38.290Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 527,
@@ -24257,7 +24255,7 @@
         "rush_yd": 40
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:38.183Z",
+      "source_last_modified": "2026-08-22T07:50:35.209Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 528,
@@ -24295,7 +24293,7 @@
         "rec_yd": 40
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.975Z",
+      "source_last_modified": "2026-08-22T07:50:40.684Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 529,
@@ -24335,7 +24333,7 @@
         "rec_yd": 35
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:54.550Z",
+      "source_last_modified": "2026-08-22T07:50:48.689Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 530,
@@ -24375,7 +24373,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:47.637Z",
+      "source_last_modified": "2026-08-22T07:50:42.977Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 531,
@@ -24413,7 +24411,7 @@
         "rec_yd": 33
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.644Z",
+      "source_last_modified": "2026-08-22T07:50:43.812Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 532,
@@ -24451,7 +24449,7 @@
         "rec_yd": 33
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:45.081Z",
+      "source_last_modified": "2026-08-22T07:50:40.774Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 533,
@@ -24491,7 +24489,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:40.619Z",
+      "source_last_modified": "2026-08-22T07:50:37.091Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 534,
@@ -24531,7 +24529,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.598Z",
+      "source_last_modified": "2026-08-22T07:50:40.363Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 535,
@@ -24569,7 +24567,7 @@
         "rec_yd": 38
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:47.984Z",
+      "source_last_modified": "2026-08-22T07:50:43.264Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 536,
@@ -24607,7 +24605,7 @@
         "rec_yd": 36
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:38.581Z",
+      "source_last_modified": "2026-08-22T07:50:35.520Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 537,
@@ -24645,7 +24643,7 @@
         "rec_yd": 36
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.956Z",
+      "source_last_modified": "2026-08-22T07:50:40.669Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 538,
@@ -24683,7 +24681,7 @@
         "rec_yd": 36
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:36.433Z",
+      "source_last_modified": "2026-08-22T07:50:33.858Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 539,
@@ -24721,7 +24719,7 @@
         "rec_yd": 36
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:38.562Z",
+      "source_last_modified": "2026-08-22T07:50:35.509Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 540,
@@ -24759,7 +24757,7 @@
         "rec_yd": 35
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:35.944Z",
+      "source_last_modified": "2026-08-22T07:50:33.457Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 541,
@@ -24797,7 +24795,7 @@
         "rec_yd": 35
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:53.566Z",
+      "source_last_modified": "2026-08-22T07:50:47.901Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 542,
@@ -24836,7 +24834,7 @@
         "rush_yd": 1
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:48.259Z",
+      "source_last_modified": "2026-08-22T07:50:43.482Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 543,
@@ -24874,7 +24872,7 @@
         "rec_yd": 35
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:45.987Z",
+      "source_last_modified": "2026-08-22T07:50:41.487Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 544,
@@ -24912,7 +24910,7 @@
         "rec_yd": 34
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:41.533Z",
+      "source_last_modified": "2026-08-22T07:50:37.813Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 545,
@@ -24950,7 +24948,7 @@
         "rec_yd": 28
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:45.622Z",
+      "source_last_modified": "2026-08-22T07:50:41.204Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 546,
@@ -24990,7 +24988,7 @@
         "rec_yd": 27
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:50.573Z",
+      "source_last_modified": "2026-08-22T07:50:45.415Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 547,
@@ -25030,7 +25028,7 @@
         "rec_yd": 21
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:42.032Z",
+      "source_last_modified": "2026-08-22T07:50:38.218Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 548,
@@ -25102,7 +25100,7 @@
         "rec_yd": 27
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:41.322Z",
+      "source_last_modified": "2026-08-22T07:50:37.648Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 550,
@@ -25140,7 +25138,7 @@
         "rec_yd": 27
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:54.491Z",
+      "source_last_modified": "2026-08-22T07:50:48.638Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 551,
@@ -25180,7 +25178,7 @@
         "rush_yd": 21
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:36.071Z",
+      "source_last_modified": "2026-08-22T07:50:33.563Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 552,
@@ -25224,7 +25222,7 @@
         "rush_yd": 20
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.283Z",
+      "source_last_modified": "2026-08-22T07:50:41.737Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 553,
@@ -25264,7 +25262,7 @@
         "rush_yd": 20
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:50.788Z",
+      "source_last_modified": "2026-08-22T07:50:45.613Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 554,
@@ -25304,7 +25302,7 @@
         "rush_yd": 21
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:39.987Z",
+      "source_last_modified": "2026-08-22T07:50:36.621Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 555,
@@ -25346,7 +25344,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:36.952Z",
+      "source_last_modified": "2026-08-22T07:50:34.264Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 556,
@@ -25386,7 +25384,7 @@
         "rush_yd": 16
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:54.576Z",
+      "source_last_modified": "2026-08-22T07:50:48.716Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 557,
@@ -25426,7 +25424,7 @@
         "rush_yd": 16
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:56.207Z",
+      "source_last_modified": "2026-08-22T07:50:49.989Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 558,
@@ -25466,7 +25464,7 @@
         "rush_yd": 21
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:37.830Z",
+      "source_last_modified": "2026-08-22T07:50:34.935Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 559,
@@ -25506,7 +25504,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:54.265Z",
+      "source_last_modified": "2026-08-22T07:50:48.463Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 560,
@@ -25546,7 +25544,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:55.017Z",
+      "source_last_modified": "2026-08-22T07:50:49.073Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 561,
@@ -25620,7 +25618,7 @@
         "rec_yd": 26
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:40.055Z",
+      "source_last_modified": "2026-08-22T07:50:36.671Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 563,
@@ -25658,7 +25656,7 @@
         "rec_yd": 24
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:42.418Z",
+      "source_last_modified": "2026-08-22T07:50:38.549Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 564,
@@ -25698,7 +25696,7 @@
         "rush_yd": 8
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:47.934Z",
+      "source_last_modified": "2026-08-22T07:50:43.221Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 565,
@@ -25738,7 +25736,7 @@
         "rush_yd": 13
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.150Z",
+      "source_last_modified": "2026-08-22T07:50:39.998Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 566,
@@ -25778,7 +25776,7 @@
         "rec_yd": 23
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:41.333Z",
+      "source_last_modified": "2026-08-22T07:50:37.657Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 567,
@@ -25818,7 +25816,7 @@
         "rush_yd": 8
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:55.129Z",
+      "source_last_modified": "2026-08-22T07:50:49.156Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 568,
@@ -25858,7 +25856,7 @@
         "rush_yd": 42
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:52.483Z",
+      "source_last_modified": "2026-08-22T07:50:46.987Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 569,
@@ -25898,7 +25896,7 @@
         "rec_yd": 22
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:54.594Z",
+      "source_last_modified": "2026-08-22T07:50:48.731Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 570,
@@ -25936,7 +25934,7 @@
         "rec_yd": 22
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.756Z",
+      "source_last_modified": "2026-08-22T07:50:42.133Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 571,
@@ -25974,7 +25972,7 @@
         "rec_yd": 22
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:56.323Z",
+      "source_last_modified": "2026-08-22T07:50:50.075Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 572,
@@ -26012,7 +26010,7 @@
         "rec_yd": 21
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:47.335Z",
+      "source_last_modified": "2026-08-22T07:50:42.728Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 573,
@@ -26051,7 +26049,7 @@
         "rush_yd": 1
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:53.539Z",
+      "source_last_modified": "2026-08-22T07:50:47.880Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 574,
@@ -26125,7 +26123,7 @@
         "rec_yd": 20
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.447Z",
+      "source_last_modified": "2026-08-22T07:50:41.865Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 576,
@@ -26165,7 +26163,7 @@
         "rush_yd": 25
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:43.037Z",
+      "source_last_modified": "2026-08-22T07:50:39.076Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 577,
@@ -26203,7 +26201,7 @@
         "rec_yd": 20
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.143Z",
+      "source_last_modified": "2026-08-22T07:50:41.621Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 578,
@@ -26242,7 +26240,7 @@
         "rush_yd": 1
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:38.165Z",
+      "source_last_modified": "2026-08-22T07:50:35.197Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 579,
@@ -26280,7 +26278,7 @@
         "rec_yd": 20
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:47.982Z",
+      "source_last_modified": "2026-08-22T07:50:43.262Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 580,
@@ -26322,7 +26320,7 @@
         "rush_yd": 4
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:41.905Z",
+      "source_last_modified": "2026-08-22T07:50:38.106Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 581,
@@ -26360,7 +26358,7 @@
         "rec_yd": 19
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:51.667Z",
+      "source_last_modified": "2026-08-22T07:50:46.329Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 582,
@@ -26400,7 +26398,7 @@
         "rush_yd": 3
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:42.938Z",
+      "source_last_modified": "2026-08-22T07:50:38.995Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 583,
@@ -26438,7 +26436,7 @@
         "rec_yd": 20
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:42.826Z",
+      "source_last_modified": "2026-08-22T07:50:38.905Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 584,
@@ -26478,7 +26476,7 @@
         "rec_yd": 13
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:49.317Z",
+      "source_last_modified": "2026-08-22T07:50:44.384Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 585,
@@ -26519,7 +26517,7 @@
         "rush_yd": 1
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:52.859Z",
+      "source_last_modified": "2026-08-22T07:50:47.330Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 586,
@@ -26559,7 +26557,7 @@
         "rec_yd": 15
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:45.120Z",
+      "source_last_modified": "2026-08-22T07:50:40.804Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 587,
@@ -26599,7 +26597,7 @@
         "rush_yd": 4
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:42.526Z",
+      "source_last_modified": "2026-08-22T07:50:38.644Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 588,
@@ -26639,7 +26637,7 @@
         "rec_yd": 14
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:55.040Z",
+      "source_last_modified": "2026-08-22T07:50:49.090Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 589,
@@ -26677,7 +26675,7 @@
         "rec_yd": 13
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:50.349Z",
+      "source_last_modified": "2026-08-22T07:50:45.240Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 590,
@@ -26715,7 +26713,7 @@
         "rec_yd": 13
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:52.262Z",
+      "source_last_modified": "2026-08-22T07:50:46.798Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 591,
@@ -26753,7 +26751,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:44.045Z",
+      "source_last_modified": "2026-08-22T07:50:39.902Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 592,
@@ -26795,7 +26793,7 @@
         "rush_yd": 2
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:46.123Z",
+      "source_last_modified": "2026-08-22T07:50:41.603Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 593,
@@ -26833,7 +26831,7 @@
         "rec_yd": 9
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:55.157Z",
+      "source_last_modified": "2026-08-22T07:50:49.179Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 594,
@@ -26871,7 +26869,7 @@
         "rec_yd": 9
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:39.175Z",
+      "source_last_modified": "2026-08-22T07:50:35.978Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 595,
@@ -26912,7 +26910,7 @@
         "rush_yd": 11
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:51.282Z",
+      "source_last_modified": "2026-08-22T07:50:46.027Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 596,
@@ -26989,7 +26987,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:40.651Z",
+      "source_last_modified": "2026-08-22T07:50:37.117Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 598,
@@ -27027,7 +27025,7 @@
         "rush_yd": 8
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:51.985Z",
+      "source_last_modified": "2026-08-22T07:50:46.578Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 599,
@@ -27065,7 +27063,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:54.122Z",
+      "source_last_modified": "2026-08-22T07:50:48.352Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 600,
@@ -27088,7 +27086,7 @@
       "fantasy_positions": [
         "WR"
       ],
-      "team": null,
+      "team": "HOU",
       "opponent": null,
       "game_date": null,
       "projected_points": 0.6,
@@ -27103,7 +27101,7 @@
         "rush_yd": 6
       },
       "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-08-21T07:50:53.406Z",
+      "source_last_modified": "2026-08-22T07:50:47.764Z",
       "ownership": null,
       "league_status": "free_agent",
       "projection_rank": 601,
@@ -28339,6 +28337,14 @@
           "team": "BAL",
           "opponent": null,
           "projected_points": 73.78
+        },
+        {
+          "player_id": "13324",
+          "name": "Matt Hibner",
+          "position": "TE",
+          "team": "BAL",
+          "opponent": null,
+          "projected_points": 31.8
         }
       ],
       "projection_rank": 6
@@ -28548,7 +28554,7 @@
       "roster_id": 5,
       "owner_id": "1129909167751426048",
       "team_name": "BING BONG",
-      "projected_points": 1919.18,
+      "projected_points": 1891.21,
       "lineup_projection_coverage": 1,
       "projected_starter_count": 9,
       "projected_starters_with_points": 9,
@@ -28611,13 +28617,13 @@
         {
           "slot": "TE",
           "player": {
-            "player_id": "4217",
-            "name": "George Kittle",
+            "player_id": "5844",
+            "name": "T.J. Hockenson",
             "position": "TE",
-            "team": "SF",
+            "team": "MIN",
             "opponent": null
           },
-          "projected_points": 174.38
+          "projected_points": 146.41
         },
         {
           "slot": "FLEX",
@@ -28695,14 +28701,6 @@
           "projected_points": 155.64
         },
         {
-          "player_id": "5844",
-          "name": "T.J. Hockenson",
-          "position": "TE",
-          "team": "MIN",
-          "opponent": null,
-          "projected_points": 146.41
-        },
-        {
           "player_id": "12530",
           "name": "Travis Hunter",
           "position": "WR",
@@ -28733,14 +28731,6 @@
           "team": null,
           "opponent": null,
           "projected_points": 93.7
-        },
-        {
-          "player_id": "4033",
-          "name": "David Njoku",
-          "position": "TE",
-          "team": "LAC",
-          "opponent": null,
-          "projected_points": 79.47
         },
         {
           "player_id": "11576",
