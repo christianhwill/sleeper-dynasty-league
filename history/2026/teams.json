@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T12:00:30.230Z",
+  "generated_at": "2026-08-23T00:00:36.648Z",
   "season": "2026",
   "teams": [
     {
@@ -730,7 +730,7 @@
           ],
           "team": "WAS",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 25,
           "years_exp": 1
         },
@@ -1213,7 +1213,7 @@
           ],
           "team": "MIN",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 23,
           "years_exp": 2
         },
@@ -1408,7 +1408,7 @@
           ],
           "team": "SF",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 23,
           "years_exp": null
         },
@@ -3052,7 +3052,7 @@
           ],
           "team": "JAX",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 29,
           "years_exp": 7
         },
@@ -3189,7 +3189,7 @@
           ],
           "team": "JAX",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 29,
           "years_exp": 7
         },
@@ -5114,21 +5114,6 @@
           "years_exp": 3
         },
         {
-          "player_id": "11647",
-          "name": "Kimani Vidal",
-          "first_name": "Kimani",
-          "last_name": "Vidal",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "LAC",
-          "status": "Active",
-          "injury_status": null,
-          "age": 24,
-          "years_exp": 2
-        },
-        {
           "player_id": "12484",
           "name": "Jayden Higgins",
           "first_name": "Jayden",
@@ -5159,21 +5144,6 @@
           "years_exp": 1
         },
         {
-          "player_id": "13282",
-          "name": "Jack Endries",
-          "first_name": "Jack",
-          "last_name": "Endries",
-          "position": "TE",
-          "fantasy_positions": [
-            "TE"
-          ],
-          "team": "CIN",
-          "status": "Active",
-          "injury_status": null,
-          "age": 22,
-          "years_exp": null
-        },
-        {
           "player_id": "13400",
           "name": "Justin Joly",
           "first_name": "Justin",
@@ -5200,6 +5170,21 @@
           "team": "BUF",
           "status": "Active",
           "injury_status": "Questionable",
+          "age": 24,
+          "years_exp": null
+        },
+        {
+          "player_id": "13414",
+          "name": "Kaelon Black",
+          "first_name": "Kaelon",
+          "last_name": "Black",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "team": "SF",
+          "status": "Active",
+          "injury_status": null,
           "age": 24,
           "years_exp": null
         },
@@ -5568,21 +5553,6 @@
       ],
       "taxi": [
         {
-          "player_id": "13282",
-          "name": "Jack Endries",
-          "first_name": "Jack",
-          "last_name": "Endries",
-          "position": "TE",
-          "fantasy_positions": [
-            "TE"
-          ],
-          "team": "CIN",
-          "status": "Active",
-          "injury_status": null,
-          "age": 22,
-          "years_exp": null
-        },
-        {
           "player_id": "13400",
           "name": "Justin Joly",
           "first_name": "Justin",
@@ -5609,6 +5579,21 @@
           "team": "BUF",
           "status": "Active",
           "injury_status": "Questionable",
+          "age": 24,
+          "years_exp": null
+        },
+        {
+          "player_id": "13414",
+          "name": "Kaelon Black",
+          "first_name": "Kaelon",
+          "last_name": "Black",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "team": "SF",
+          "status": "Active",
+          "injury_status": null,
           "age": 24,
           "years_exp": null
         }
