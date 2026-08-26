@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T12:00:30.716Z",
+  "generated_at": "2026-08-26T00:00:31.572Z",
   "season": "2026",
   "transactions": [
     {
@@ -99,7 +99,7 @@
             ],
             "team": "MIA",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 23,
             "years_exp": 1
           },
@@ -144,7 +144,7 @@
             ],
             "team": "IND",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 22,
             "years_exp": 1
           },
@@ -238,7 +238,7 @@
             ],
             "team": "NYG",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 25,
             "years_exp": 2
           },
@@ -278,7 +278,7 @@
             ],
             "team": "NYG",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 25,
             "years_exp": 2
           },
@@ -2036,7 +2036,7 @@
             ],
             "team": "TB",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 27,
             "years_exp": 4
           },
@@ -2099,9 +2099,9 @@
             "fantasy_positions": [
               "RB"
             ],
-            "team": "ARI",
+            "team": null,
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": "IR",
             "age": 24,
             "years_exp": 2
           },
@@ -2369,9 +2369,9 @@
             "fantasy_positions": [
               "RB"
             ],
-            "team": "ARI",
+            "team": null,
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": "IR",
             "age": 24,
             "years_exp": 2
           },
@@ -3214,7 +3214,7 @@
             ],
             "team": "NO",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 23,
             "years_exp": null
           },
@@ -3394,7 +3394,7 @@
             ],
             "team": "BUF",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 24,
             "years_exp": null
           },
@@ -4345,9 +4345,9 @@
             "fantasy_positions": [
               "RB"
             ],
-            "team": "ARI",
+            "team": null,
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": "IR",
             "age": 24,
             "years_exp": 2
           },
@@ -4482,7 +4482,7 @@
             ],
             "team": "NYG",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 25,
             "years_exp": 2
           },
@@ -4893,7 +4893,7 @@
             ],
             "team": "IND",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 25,
             "years_exp": 3
           },
@@ -5009,7 +5009,7 @@
             ],
             "team": "IND",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 25,
             "years_exp": 3
           },
