@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T12:00:34.878Z",
+  "generated_at": "2026-08-28T00:00:35.445Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -2927,21 +2927,6 @@
           "years_exp": 3
         },
         {
-          "player_id": "11610",
-          "name": "Malik Washington",
-          "first_name": "Malik",
-          "last_name": "Washington",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "MIA",
-          "status": "Active",
-          "injury_status": null,
-          "age": 25,
-          "years_exp": 2
-        },
-        {
           "player_id": "11637",
           "name": "Keon Coleman",
           "first_name": "Keon",
@@ -3180,6 +3165,21 @@
           "injury_status": "Questionable",
           "age": 29,
           "years_exp": 7
+        },
+        {
+          "player_id": "6783",
+          "name": "Jerry Jeudy",
+          "first_name": "Jerry",
+          "last_name": "Jeudy",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "CLE",
+          "status": "Active",
+          "injury_status": null,
+          "age": 27,
+          "years_exp": 6
         },
         {
           "player_id": "6790",
@@ -7216,6 +7216,71 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1398831876302450688",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1787870017651,
+      "created_iso": "2026-08-27T22:33:37.651Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "1008209629677158400",
+      "roster_ids": [
+        6
+      ],
+      "teams": [
+        {
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "6783",
+            "name": "Jerry Jeudy",
+            "first_name": "Jerry",
+            "last_name": "Jeudy",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "CLE",
+            "status": "Active",
+            "injury_status": null,
+            "age": 27,
+            "years_exp": 6
+          },
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "11610",
+            "name": "Malik Washington",
+            "first_name": "Malik",
+            "last_name": "Washington",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "MIA",
+            "status": "Active",
+            "injury_status": null,
+            "age": 25,
+            "years_exp": 2
+          },
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
     {
       "transaction_id": "1396900051925667840",
       "type": "free_agent",
