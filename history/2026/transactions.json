@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T00:00:35.445Z",
+  "generated_at": "2026-08-28T12:00:31.659Z",
   "season": "2026",
   "transactions": [
     {
@@ -687,7 +687,7 @@
             ],
             "team": "SF",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 22,
             "years_exp": 1
           },
@@ -1178,7 +1178,7 @@
             ],
             "team": "TEN",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 25,
             "years_exp": 4
           },
@@ -1199,7 +1199,7 @@
             ],
             "team": "TEN",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 25,
             "years_exp": 4
           },
@@ -1796,7 +1796,7 @@
             ],
             "team": "SF",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 22,
             "years_exp": 1
           },
@@ -4065,7 +4065,7 @@
             ],
             "team": "LAC",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 24,
             "years_exp": 3
           },
@@ -4162,7 +4162,7 @@
             ],
             "team": "LAC",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 24,
             "years_exp": 3
           },
@@ -4912,7 +4912,7 @@
             ],
             "team": "LAC",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 24,
             "years_exp": 3
           },
@@ -5028,7 +5028,7 @@
             ],
             "team": "LAC",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 24,
             "years_exp": 3
           },
@@ -5324,7 +5324,7 @@
             "team": "LAC",
             "status": "Active",
             "injury_status": null,
-            "age": 24,
+            "age": 25,
             "years_exp": 2
           },
           "roster_id": 10,
