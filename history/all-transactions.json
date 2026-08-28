@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T03:00:39.211Z",
+  "generated_at": "2026-08-28T03:00:31.740Z",
   "league_name": "Oiled Without Consent",
   "seasons": [
     {
@@ -17,11 +17,11 @@
     {
       "season": "2026",
       "league_id": "1327788752298336256",
-      "transaction_count": 86,
+      "transaction_count": 87,
       "trade_count": 12
     }
   ],
-  "transaction_count": 624,
+  "transaction_count": 625,
   "transactions": [
     {
       "transaction_id": "1133549782154219520",
@@ -41115,6 +41115,73 @@
           },
           "roster_id": 10,
           "team_name": "Sugerdaddy"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null,
+      "season": "2026",
+      "league_id": "1327788752298336256"
+    },
+    {
+      "transaction_id": "1398831876302450688",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1787870017651,
+      "created_iso": "2026-08-27T22:33:37.651Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "1008209629677158400",
+      "roster_ids": [
+        6
+      ],
+      "teams": [
+        {
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "6783",
+            "name": "Jerry Jeudy",
+            "first_name": "Jerry",
+            "last_name": "Jeudy",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "CLE",
+            "status": "Active",
+            "injury_status": null,
+            "age": 27,
+            "years_exp": 6
+          },
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "11610",
+            "name": "Malik Washington",
+            "first_name": "Malik",
+            "last_name": "Washington",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "MIA",
+            "status": "Active",
+            "injury_status": null,
+            "age": 25,
+            "years_exp": 2
+          },
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
         }
       ],
       "draft_picks": [],
