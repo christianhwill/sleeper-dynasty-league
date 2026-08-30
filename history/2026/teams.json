@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T12:00:31.045Z",
+  "generated_at": "2026-08-30T00:00:38.516Z",
   "season": "2026",
   "teams": [
     {
@@ -16,7 +16,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 2,
-        "waiver_position": 9,
+        "waiver_position": 8,
         "wins": 0
       },
       "record": {
@@ -572,8 +572,8 @@
         "losses": 0,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 0,
-        "waiver_position": 5,
+        "waiver_budget_used": 21,
+        "waiver_position": 10,
         "wins": 0
       },
       "record": {
@@ -600,6 +600,21 @@
           "years_exp": 2
         },
         {
+          "player_id": "11610",
+          "name": "Malik Washington",
+          "first_name": "Malik",
+          "last_name": "Washington",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "MIA",
+          "status": "Active",
+          "injury_status": null,
+          "age": 25,
+          "years_exp": 2
+        },
+        {
           "player_id": "11624",
           "name": "Xavier Worthy",
           "first_name": "Xavier",
@@ -610,7 +625,7 @@
           ],
           "team": "KC",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 23,
           "years_exp": 2
         },
@@ -670,7 +685,7 @@
           ],
           "team": "NYG",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 26,
           "years_exp": 2
         },
@@ -915,21 +930,6 @@
           "years_exp": 4
         },
         {
-          "player_id": "9502",
-          "name": "Tank Dell",
-          "first_name": "Tank",
-          "last_name": "Dell",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "HOU",
-          "status": "Active",
-          "injury_status": "Questionable",
-          "age": 26,
-          "years_exp": 3
-        },
-        {
           "player_id": "9511",
           "name": "Keaton Mitchell",
           "first_name": "Keaton",
@@ -1161,7 +1161,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 7,
+        "waiver_position": 6,
         "wins": 0
       },
       "record": {
@@ -2231,7 +2231,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 8,
+        "waiver_position": 7,
         "wins": 0
       },
       "record": {
@@ -2374,7 +2374,7 @@
           ],
           "team": null,
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "age": 31,
           "years_exp": 10
         },
@@ -3112,7 +3112,7 @@
           ],
           "team": "DEN",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 24,
           "years_exp": 3
         }
@@ -3859,7 +3859,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": -14,
-        "waiver_position": 6,
+        "waiver_position": 5,
         "wins": 0
       },
       "record": {
@@ -5056,7 +5056,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 1,
-        "waiver_position": 10,
+        "waiver_position": 9,
         "wins": 0
       },
       "record": {
