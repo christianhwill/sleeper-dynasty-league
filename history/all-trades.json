@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T03:00:34.123Z",
+  "generated_at": "2026-08-30T03:00:40.720Z",
   "league_name": "Oiled Without Consent",
   "seasons": [
     {
@@ -17,7 +17,7 @@
     {
       "season": "2026",
       "league_id": "1327788752298336256",
-      "transaction_count": 87,
+      "transaction_count": 88,
       "trade_count": 12
     }
   ],
@@ -8537,7 +8537,7 @@
             ],
             "team": "KC",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 23,
             "years_exp": 2
           },
@@ -8558,7 +8558,7 @@
             ],
             "team": "KC",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 23,
             "years_exp": 2
           },
@@ -8890,7 +8890,7 @@
             ],
             "team": "NYG",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 26,
             "years_exp": 2
           },
@@ -8968,7 +8968,7 @@
             ],
             "team": "NYG",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 26,
             "years_exp": 2
           },
