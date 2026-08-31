@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T12:00:38.627Z",
+  "generated_at": "2026-08-31T00:00:38.494Z",
   "season": "2026",
   "teams": [
     {
@@ -1037,19 +1037,19 @@
           "years_exp": 2
         },
         {
-          "player_id": "5850",
-          "name": "Josh Jacobs",
-          "first_name": "Josh",
-          "last_name": "Jacobs",
-          "position": "RB",
+          "player_id": "13298",
+          "name": "KC Concepcion",
+          "first_name": "KC",
+          "last_name": "Concepcion",
+          "position": "WR",
           "fantasy_positions": [
-            "RB"
+            "WR"
           ],
-          "team": "GB",
+          "team": "CLE",
           "status": "Active",
-          "injury_status": "Questionable",
-          "age": 28,
-          "years_exp": 7
+          "injury_status": null,
+          "age": 21,
+          "years_exp": null
         },
         {
           "player_id": "1466",
@@ -2743,23 +2743,7 @@
           "years_exp": null
         }
       ],
-      "reserve": [
-        {
-          "player_id": "4217",
-          "name": "George Kittle",
-          "first_name": "George",
-          "last_name": "Kittle",
-          "position": "TE",
-          "fantasy_positions": [
-            "TE"
-          ],
-          "team": "SF",
-          "status": "Active",
-          "injury_status": "Questionable",
-          "age": 32,
-          "years_exp": 9
-        }
-      ]
+      "reserve": []
     },
     {
       "roster_id": 6,
