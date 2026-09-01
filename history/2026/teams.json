@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T00:00:38.391Z",
+  "generated_at": "2026-09-01T12:00:39.767Z",
   "season": "2026",
   "teams": [
     {
@@ -158,7 +158,7 @@
           ],
           "team": "ARI",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 23,
           "years_exp": null
         },
@@ -880,7 +880,7 @@
           ],
           "team": "GB",
           "status": "Active",
-          "injury_status": "DNR",
+          "injury_status": "NA",
           "age": 28,
           "years_exp": 7
         },
@@ -5135,7 +5135,7 @@
           "fantasy_positions": [
             "TE"
           ],
-          "team": "DEN",
+          "team": null,
           "status": "Active",
           "injury_status": null,
           "age": 22,
@@ -5544,7 +5544,7 @@
           "fantasy_positions": [
             "TE"
           ],
-          "team": "DEN",
+          "team": null,
           "status": "Active",
           "injury_status": null,
           "age": 22,
