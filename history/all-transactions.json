@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T03:01:40.717Z",
+  "generated_at": "2026-09-01T03:00:38.395Z",
   "league_name": "Oiled Without Consent",
   "seasons": [
     {
@@ -17,11 +17,11 @@
     {
       "season": "2026",
       "league_id": "1327788752298336256",
-      "transaction_count": 88,
+      "transaction_count": 90,
       "trade_count": 12
     }
   ],
-  "transaction_count": 626,
+  "transaction_count": 628,
   "transactions": [
     {
       "transaction_id": "1133549782154219520",
@@ -36735,8 +36735,8 @@
               "QB"
             ],
             "team": "CLE",
-            "status": "Active",
-            "injury_status": null,
+            "status": "Inactive",
+            "injury_status": "IR",
             "age": 25,
             "years_exp": 1
           },
@@ -37517,8 +37517,8 @@
               "WR"
             ],
             "team": "HOU",
-            "status": "Active",
-            "injury_status": "Questionable",
+            "status": "Inactive",
+            "injury_status": "IR",
             "age": 26,
             "years_exp": 3
           },
@@ -37700,7 +37700,7 @@
             "team": "PHI",
             "status": "Active",
             "injury_status": null,
-            "age": 23,
+            "age": 24,
             "years_exp": 3
           },
           "roster_id": 2,
@@ -38115,7 +38115,7 @@
             ],
             "team": "NO",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": "IR",
             "age": 23,
             "years_exp": 1
           },
@@ -38166,7 +38166,7 @@
             ],
             "team": "GB",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": "DNR",
             "age": 28,
             "years_exp": 7
           },
@@ -38225,7 +38225,7 @@
             ],
             "team": "GB",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": "DNR",
             "age": 28,
             "years_exp": 7
           },
@@ -38442,7 +38442,7 @@
             "team": "PHI",
             "status": "Active",
             "injury_status": null,
-            "age": 23,
+            "age": 24,
             "years_exp": 3
           },
           "roster_id": 1,
@@ -38463,7 +38463,7 @@
             "team": "PHI",
             "status": "Active",
             "injury_status": null,
-            "age": 23,
+            "age": 24,
             "years_exp": 3
           },
           "roster_id": 2,
@@ -39502,8 +39502,8 @@
               "RB"
             ],
             "team": "ARI",
-            "status": "Active",
-            "injury_status": "Questionable",
+            "status": "Inactive",
+            "injury_status": "IR",
             "age": 31,
             "years_exp": 9
           },
@@ -40348,7 +40348,7 @@
             ],
             "team": "GB",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": "DNR",
             "age": 28,
             "years_exp": 7
           },
@@ -40426,7 +40426,7 @@
             ],
             "team": "GB",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": "DNR",
             "age": 28,
             "years_exp": 7
           },
@@ -40651,7 +40651,7 @@
             "team": "SEA",
             "status": "Active",
             "injury_status": null,
-            "age": 27,
+            "age": 28,
             "years_exp": 4
           },
           "roster_id": 3,
@@ -40767,7 +40767,7 @@
             "team": "SEA",
             "status": "Active",
             "injury_status": null,
-            "age": 27,
+            "age": 28,
             "years_exp": 4
           },
           "roster_id": 1,
@@ -41242,8 +41242,8 @@
               "WR"
             ],
             "team": "HOU",
-            "status": "Active",
-            "injury_status": "Questionable",
+            "status": "Inactive",
+            "injury_status": "IR",
             "age": 26,
             "years_exp": 3
           },
@@ -41257,6 +41257,140 @@
       "metadata": {
         "notes": "Your waiver claim was processed successfully!"
       },
+      "season": "2026",
+      "league_id": "1327788752298336256"
+    },
+    {
+      "transaction_id": "1399941697030365184",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1788134619533,
+      "created_iso": "2026-08-31T00:03:39.533Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "1129881968960901120",
+      "roster_ids": [
+        3
+      ],
+      "teams": [
+        {
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "11575",
+            "name": "Ray Davis",
+            "first_name": "Ray",
+            "last_name": "Davis",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "BUF",
+            "status": "Active",
+            "injury_status": null,
+            "age": 26,
+            "years_exp": 2
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "12457",
+            "name": "Jaydon Blue",
+            "first_name": "Jaydon",
+            "last_name": "Blue",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "DAL",
+            "status": "Active",
+            "injury_status": null,
+            "age": 22,
+            "years_exp": 1
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null,
+      "season": "2026",
+      "league_id": "1327788752298336256"
+    },
+    {
+      "transaction_id": "1400186012214304768",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1788192868811,
+      "created_iso": "2026-08-31T16:14:28.811Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "1129881968960901120",
+      "roster_ids": [
+        3
+      ],
+      "teams": [
+        {
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "12048",
+            "name": "George Holani",
+            "first_name": "George",
+            "last_name": "Holani",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "SEA",
+            "status": "Active",
+            "injury_status": null,
+            "age": 26,
+            "years_exp": 2
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "11575",
+            "name": "Ray Davis",
+            "first_name": "Ray",
+            "last_name": "Davis",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "BUF",
+            "status": "Active",
+            "injury_status": null,
+            "age": 26,
+            "years_exp": 2
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null,
       "season": "2026",
       "league_id": "1327788752298336256"
     }
