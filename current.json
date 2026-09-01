@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T12:00:39.315Z",
+  "generated_at": "2026-09-01T00:00:38.391Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -1358,21 +1358,6 @@
           "years_exp": 2
         },
         {
-          "player_id": "11575",
-          "name": "Ray Davis",
-          "first_name": "Ray",
-          "last_name": "Davis",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "BUF",
-          "status": "Active",
-          "injury_status": null,
-          "age": 26,
-          "years_exp": 2
-        },
-        {
           "player_id": "11620",
           "name": "Rome Odunze",
           "first_name": "Rome",
@@ -1400,6 +1385,21 @@
           "status": "Active",
           "injury_status": "Questionable",
           "age": 23,
+          "years_exp": 2
+        },
+        {
+          "player_id": "12048",
+          "name": "George Holani",
+          "first_name": "George",
+          "last_name": "Holani",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "team": "SEA",
+          "status": "Active",
+          "injury_status": null,
+          "age": 26,
           "years_exp": 2
         },
         {
@@ -7200,6 +7200,71 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1400186012214304768",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1788192868811,
+      "created_iso": "2026-08-31T16:14:28.811Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "1129881968960901120",
+      "roster_ids": [
+        3
+      ],
+      "teams": [
+        {
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "12048",
+            "name": "George Holani",
+            "first_name": "George",
+            "last_name": "Holani",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "SEA",
+            "status": "Active",
+            "injury_status": null,
+            "age": 26,
+            "years_exp": 2
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "11575",
+            "name": "Ray Davis",
+            "first_name": "Ray",
+            "last_name": "Davis",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "BUF",
+            "status": "Active",
+            "injury_status": null,
+            "age": 26,
+            "years_exp": 2
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
     {
       "transaction_id": "1399941697030365184",
       "type": "free_agent",
