@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T03:00:09.013Z",
+  "generated_at": "2026-09-03T03:01:01.588Z",
   "league_name": "Oiled Without Consent",
   "seasons": [
     {
@@ -17,11 +17,11 @@
     {
       "season": "2026",
       "league_id": "1327788752298336256",
-      "transaction_count": 90,
+      "transaction_count": 92,
       "trade_count": 12
     }
   ],
-  "transaction_count": 628,
+  "transaction_count": 630,
   "transactions": [
     {
       "transaction_id": "1133549782154219520",
@@ -36072,7 +36072,7 @@
             ],
             "team": "CAR",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 23,
             "years_exp": 2
           },
@@ -37020,7 +37020,7 @@
             ],
             "team": "TB",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 24,
             "years_exp": 3
           },
@@ -37064,7 +37064,7 @@
             "fantasy_positions": [
               "WR"
             ],
-            "team": null,
+            "team": "NYG",
             "status": "Active",
             "injury_status": null,
             "age": 30,
@@ -37112,7 +37112,7 @@
             "fantasy_positions": [
               "WR"
             ],
-            "team": null,
+            "team": "NYG",
             "status": "Active",
             "injury_status": null,
             "age": 30,
@@ -37764,7 +37764,7 @@
             "fantasy_positions": [
               "RB"
             ],
-            "team": null,
+            "team": "PHI",
             "status": "Active",
             "injury_status": null,
             "age": 22,
@@ -40060,7 +40060,7 @@
             "fantasy_positions": [
               "RB"
             ],
-            "team": null,
+            "team": "TEN",
             "status": "Active",
             "injury_status": null,
             "age": 27,
@@ -41310,7 +41310,7 @@
             "fantasy_positions": [
               "RB"
             ],
-            "team": null,
+            "team": "PHI",
             "status": "Active",
             "injury_status": null,
             "age": 22,
@@ -41387,6 +41387,100 @@
           "team_name": "Third Down Syndrome"
         }
       ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null,
+      "season": "2026",
+      "league_id": "1327788752298336256"
+    },
+    {
+      "transaction_id": "1400989888228143104",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1788384527788,
+      "created_iso": "2026-09-02T21:28:47.788Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [],
+      "drops": [
+        {
+          "player": {
+            "player_id": "6803",
+            "name": "Brandon Aiyuk",
+            "first_name": "Brandon",
+            "last_name": "Aiyuk",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "SF",
+            "status": "Active",
+            "injury_status": "DNR",
+            "age": 28,
+            "years_exp": 6
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null,
+      "season": "2026",
+      "league_id": "1327788752298336256"
+    },
+    {
+      "transaction_id": "1400990001684070400",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1788384554838,
+      "created_iso": "2026-09-02T21:29:14.838Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "13411",
+            "name": "Zavion Thomas",
+            "first_name": "Zavion",
+            "last_name": "Thomas",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "CHI",
+            "status": "Active",
+            "injury_status": null,
+            "age": 22,
+            "years_exp": null
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "drops": [],
       "draft_picks": [],
       "waiver_budget": [],
       "waiver_bid": null,
