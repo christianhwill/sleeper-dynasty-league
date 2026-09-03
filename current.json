@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T12:00:19.579Z",
+  "generated_at": "2026-09-03T00:00:16.686Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -965,6 +965,21 @@
           "years_exp": null
         },
         {
+          "player_id": "13411",
+          "name": "Zavion Thomas",
+          "first_name": "Zavion",
+          "last_name": "Thomas",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "CHI",
+          "status": "Active",
+          "injury_status": null,
+          "age": 22,
+          "years_exp": null
+        },
+        {
           "player_id": "13413",
           "name": "Cyrus Allen",
           "first_name": "Cyrus",
@@ -1008,21 +1023,6 @@
           "injury_status": "NA",
           "age": 28,
           "years_exp": 7
-        },
-        {
-          "player_id": "6803",
-          "name": "Brandon Aiyuk",
-          "first_name": "Brandon",
-          "last_name": "Aiyuk",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "SF",
-          "status": "Active",
-          "injury_status": "DNR",
-          "age": 28,
-          "years_exp": 6
         },
         {
           "player_id": "7523",
@@ -1256,19 +1256,19 @@
       ],
       "reserve": [
         {
-          "player_id": "6803",
-          "name": "Brandon Aiyuk",
-          "first_name": "Brandon",
-          "last_name": "Aiyuk",
-          "position": "WR",
+          "player_id": "5850",
+          "name": "Josh Jacobs",
+          "first_name": "Josh",
+          "last_name": "Jacobs",
+          "position": "RB",
           "fantasy_positions": [
-            "WR"
+            "RB"
           ],
-          "team": "SF",
+          "team": "GB",
           "status": "Active",
-          "injury_status": "DNR",
+          "injury_status": "NA",
           "age": 28,
-          "years_exp": 6
+          "years_exp": 7
         }
       ]
     },
@@ -1338,7 +1338,7 @@
           ],
           "team": "MIN",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 23,
           "years_exp": 2
         },
@@ -1383,7 +1383,7 @@
           ],
           "team": "JAX",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 23,
           "years_exp": 2
         },
@@ -1428,7 +1428,7 @@
           ],
           "team": "JAX",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 23,
           "years_exp": 1
         },
@@ -1670,7 +1670,7 @@
           ],
           "team": "JAX",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 23,
           "years_exp": 1
         },
@@ -1730,7 +1730,7 @@
           ],
           "team": "JAX",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 23,
           "years_exp": 2
         },
@@ -1848,7 +1848,7 @@
           "fantasy_positions": [
             "RB"
           ],
-          "team": "MIA",
+          "team": null,
           "status": "Active",
           "injury_status": null,
           "age": 23,
@@ -2302,7 +2302,7 @@
           "fantasy_positions": [
             "RB"
           ],
-          "team": "MIA",
+          "team": null,
           "status": "Active",
           "injury_status": null,
           "age": 23,
@@ -2648,8 +2648,8 @@
             "RB"
           ],
           "team": "DET",
-          "status": "Active",
-          "injury_status": "Questionable",
+          "status": "Inactive",
+          "injury_status": "IR",
           "age": 27,
           "years_exp": 4
         },
@@ -3448,7 +3448,7 @@
           ],
           "team": "CAR",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 23,
           "years_exp": 2
         },
@@ -3643,7 +3643,7 @@
           ],
           "team": "CIN",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 27,
           "years_exp": 6
         },
@@ -4125,7 +4125,7 @@
           ],
           "team": "TEN",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 21,
           "years_exp": null
         },
@@ -5457,7 +5457,7 @@
           ],
           "team": "KC",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 25,
           "years_exp": 4
         },
@@ -5639,7 +5639,7 @@
           ],
           "team": "KC",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 25,
           "years_exp": 4
         },
@@ -7201,6 +7201,96 @@
   ],
   "recent_transactions": [
     {
+      "transaction_id": "1400990001684070400",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1788384554838,
+      "created_iso": "2026-09-02T21:29:14.838Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "13411",
+            "name": "Zavion Thomas",
+            "first_name": "Zavion",
+            "last_name": "Thomas",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "CHI",
+            "status": "Active",
+            "injury_status": null,
+            "age": 22,
+            "years_exp": null
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1400989888228143104",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1788384527788,
+      "created_iso": "2026-09-02T21:28:47.788Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [],
+      "drops": [
+        {
+          "player": {
+            "player_id": "6803",
+            "name": "Brandon Aiyuk",
+            "first_name": "Brandon",
+            "last_name": "Aiyuk",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "SF",
+            "status": "Active",
+            "injury_status": "DNR",
+            "age": 28,
+            "years_exp": 6
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
       "transaction_id": "1400186012214304768",
       "type": "free_agent",
       "status": "complete",
@@ -7315,7 +7405,7 @@
             "fantasy_positions": [
               "RB"
             ],
-            "team": null,
+            "team": "PHI",
             "status": "Active",
             "injury_status": null,
             "age": 22,
@@ -8513,7 +8603,7 @@
             "fantasy_positions": [
               "RB"
             ],
-            "team": null,
+            "team": "TEN",
             "status": "Active",
             "injury_status": null,
             "age": 27,
@@ -10713,7 +10803,7 @@
             "fantasy_positions": [
               "RB"
             ],
-            "team": null,
+            "team": "PHI",
             "status": "Active",
             "injury_status": null,
             "age": 22,
@@ -11365,7 +11455,7 @@
             "fantasy_positions": [
               "WR"
             ],
-            "team": null,
+            "team": "NYG",
             "status": "Active",
             "injury_status": null,
             "age": 30,
@@ -11409,7 +11499,7 @@
             "fantasy_positions": [
               "WR"
             ],
-            "team": null,
+            "team": "NYG",
             "status": "Active",
             "injury_status": null,
             "age": 30,
@@ -11477,7 +11567,7 @@
             ],
             "team": "TB",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 24,
             "years_exp": 3
           },
@@ -12353,7 +12443,7 @@
             ],
             "team": "CAR",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 23,
             "years_exp": 2
           },
