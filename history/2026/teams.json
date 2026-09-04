@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T00:00:53.612Z",
+  "generated_at": "2026-09-04T12:00:58.954Z",
   "season": "2026",
   "teams": [
     {
@@ -765,21 +765,6 @@
           "years_exp": 1
         },
         {
-          "player_id": "12535",
-          "name": "Isaac TeSlaa",
-          "first_name": "Isaac",
-          "last_name": "TeSlaa",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "DET",
-          "status": "Active",
-          "injury_status": null,
-          "age": 24,
-          "years_exp": 1
-        },
-        {
           "player_id": "13285",
           "name": "Malachi Fields",
           "first_name": "Malachi",
@@ -928,6 +913,21 @@
           "injury_status": "Questionable",
           "age": 25,
           "years_exp": 4
+        },
+        {
+          "player_id": "9508",
+          "name": "Tyjae Spears",
+          "first_name": "Tyjae",
+          "last_name": "Spears",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "team": "TEN",
+          "status": "Active",
+          "injury_status": null,
+          "age": 25,
+          "years_exp": 3
         },
         {
           "player_id": "9511",
@@ -1114,18 +1114,18 @@
           "years_exp": null
         },
         {
-          "player_id": "13413",
-          "name": "Cyrus Allen",
-          "first_name": "Cyrus",
-          "last_name": "Allen",
+          "player_id": "13411",
+          "name": "Zavion Thomas",
+          "first_name": "Zavion",
+          "last_name": "Thomas",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "KC",
+          "team": "CHI",
           "status": "Active",
           "injury_status": null,
-          "age": 23,
+          "age": 22,
           "years_exp": null
         }
       ],
