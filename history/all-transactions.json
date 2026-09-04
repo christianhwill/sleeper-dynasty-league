@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T03:01:01.588Z",
+  "generated_at": "2026-09-04T03:00:52.034Z",
   "league_name": "Oiled Without Consent",
   "seasons": [
     {
@@ -17,11 +17,11 @@
     {
       "season": "2026",
       "league_id": "1327788752298336256",
-      "transaction_count": 92,
+      "transaction_count": 93,
       "trade_count": 12
     }
   ],
-  "transaction_count": 630,
+  "transaction_count": 631,
   "transactions": [
     {
       "transaction_id": "1133549782154219520",
@@ -38022,7 +38022,7 @@
             "team": "NYG",
             "status": "Active",
             "injury_status": null,
-            "age": 28,
+            "age": 29,
             "years_exp": 7
           },
           "roster_id": 1,
@@ -38115,7 +38115,7 @@
             ],
             "team": "NO",
             "status": "Inactive",
-            "injury_status": "IR",
+            "injury_status": "Questionable",
             "age": 23,
             "years_exp": 1
           },
@@ -41481,6 +41481,53 @@
         }
       ],
       "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null,
+      "season": "2026",
+      "league_id": "1327788752298336256"
+    },
+    {
+      "transaction_id": "1401239133749321728",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1788443952552,
+      "created_iso": "2026-09-03T13:59:12.552Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "859906411432366080",
+      "roster_ids": [
+        9
+      ],
+      "teams": [
+        {
+          "roster_id": 9,
+          "team_name": "The Crusty CreamPies"
+        }
+      ],
+      "adds": [],
+      "drops": [
+        {
+          "player": {
+            "player_id": "7527",
+            "name": "Mac Jones",
+            "first_name": "Mac",
+            "last_name": "Jones",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "SF",
+            "status": "Active",
+            "injury_status": null,
+            "age": 27,
+            "years_exp": 5
+          },
+          "roster_id": 9,
+          "team_name": "The Crusty CreamPies"
+        }
+      ],
       "draft_picks": [],
       "waiver_budget": [],
       "waiver_bid": null,
