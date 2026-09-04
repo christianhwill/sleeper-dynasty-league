@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T12:00:55.791Z",
+  "generated_at": "2026-09-04T00:00:53.612Z",
   "season": "2026",
   "teams": [
     {
@@ -1243,7 +1243,7 @@
           ],
           "team": "CHI",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 24,
           "years_exp": 2
         },
@@ -1620,7 +1620,7 @@
           ],
           "team": "CHI",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 24,
           "years_exp": 2
         },
@@ -1995,7 +1995,7 @@
           ],
           "team": "IND",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 26,
           "years_exp": 4
         },
@@ -2211,7 +2211,7 @@
           ],
           "team": "IND",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 26,
           "years_exp": 4
         }
@@ -3051,7 +3051,7 @@
           ],
           "team": "CHI",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 27,
           "years_exp": 6
         },
@@ -3128,7 +3128,7 @@
           ],
           "team": "CHI",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 27,
           "years_exp": 6
         },
@@ -4713,21 +4713,6 @@
           "years_exp": 5
         },
         {
-          "player_id": "7527",
-          "name": "Mac Jones",
-          "first_name": "Mac",
-          "last_name": "Jones",
-          "position": "QB",
-          "fantasy_positions": [
-            "QB"
-          ],
-          "team": "SF",
-          "status": "Active",
-          "injury_status": null,
-          "age": 27,
-          "years_exp": 5
-        },
-        {
           "player_id": "7588",
           "name": "Javonte Williams",
           "first_name": "Javonte",
@@ -4978,34 +4963,34 @@
       ],
       "taxi": [
         {
-          "player_id": "11581",
-          "name": "MarShawn Lloyd",
-          "first_name": "MarShawn",
-          "last_name": "Lloyd",
-          "position": "RB",
+          "player_id": "13268",
+          "name": "Elijah Sarratt",
+          "first_name": "Elijah",
+          "last_name": "Sarratt",
+          "position": "WR",
           "fantasy_positions": [
-            "RB"
+            "WR"
           ],
-          "team": "GB",
+          "team": "BAL",
           "status": "Active",
           "injury_status": null,
-          "age": 25,
-          "years_exp": 2
+          "age": 23,
+          "years_exp": null
         },
         {
-          "player_id": "12489",
-          "name": "RJ Harvey",
-          "first_name": "RJ",
-          "last_name": "Harvey",
-          "position": "RB",
+          "player_id": "13274",
+          "name": "Germie Bernard",
+          "first_name": "Germie",
+          "last_name": "Bernard",
+          "position": "WR",
           "fantasy_positions": [
-            "RB"
+            "WR"
           ],
-          "team": "DEN",
+          "team": "PIT",
           "status": "Active",
           "injury_status": null,
-          "age": 25,
-          "years_exp": 1
+          "age": 22,
+          "years_exp": null
         }
       ],
       "reserve": [
