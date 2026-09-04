@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T00:00:53.612Z",
+  "generated_at": "2026-09-04T12:00:58.954Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -890,21 +890,6 @@
           "years_exp": 1
         },
         {
-          "player_id": "12535",
-          "name": "Isaac TeSlaa",
-          "first_name": "Isaac",
-          "last_name": "TeSlaa",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "DET",
-          "status": "Active",
-          "injury_status": null,
-          "age": 24,
-          "years_exp": 1
-        },
-        {
           "player_id": "13285",
           "name": "Malachi Fields",
           "first_name": "Malachi",
@@ -1053,6 +1038,21 @@
           "injury_status": "Questionable",
           "age": 25,
           "years_exp": 4
+        },
+        {
+          "player_id": "9508",
+          "name": "Tyjae Spears",
+          "first_name": "Tyjae",
+          "last_name": "Spears",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "team": "TEN",
+          "status": "Active",
+          "injury_status": null,
+          "age": 25,
+          "years_exp": 3
         },
         {
           "player_id": "9511",
@@ -1239,18 +1239,18 @@
           "years_exp": null
         },
         {
-          "player_id": "13413",
-          "name": "Cyrus Allen",
-          "first_name": "Cyrus",
-          "last_name": "Allen",
+          "player_id": "13411",
+          "name": "Zavion Thomas",
+          "first_name": "Zavion",
+          "last_name": "Thomas",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "KC",
+          "team": "CHI",
           "status": "Active",
           "injury_status": null,
-          "age": 23,
+          "age": 22,
           "years_exp": null
         }
       ],
@@ -7185,6 +7185,71 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1401458939719057408",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1788496358379,
+      "created_iso": "2026-09-04T04:32:38.379Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "9508",
+            "name": "Tyjae Spears",
+            "first_name": "Tyjae",
+            "last_name": "Spears",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "TEN",
+            "status": "Active",
+            "injury_status": null,
+            "age": 25,
+            "years_exp": 3
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "12535",
+            "name": "Isaac TeSlaa",
+            "first_name": "Isaac",
+            "last_name": "TeSlaa",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "DET",
+            "status": "Active",
+            "injury_status": null,
+            "age": 24,
+            "years_exp": 1
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
     {
       "transaction_id": "1401239133749321728",
       "type": "free_agent",
