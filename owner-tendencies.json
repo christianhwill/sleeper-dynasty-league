@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T06:01:00.387Z",
+  "generated_at": "2026-09-04T06:01:08.322Z",
   "league_name": "Oiled Without Consent",
   "seasons": [
     "2024",
@@ -2035,16 +2035,16 @@
         "2026": 9
       },
       "activity": {
-        "transactions_involved": 30,
+        "transactions_involved": 31,
         "transaction_types": {
-          "free_agent": 13,
+          "free_agent": 14,
           "waiver": 10,
           "trade": 7
         },
         "waiver_claims_won": 10,
-        "free_agent_transactions": 13,
+        "free_agent_transactions": 14,
         "player_adds": 26,
-        "player_drops": 27,
+        "player_drops": 28,
         "faab_spent": 85,
         "average_successful_faab_bid": 8.5,
         "max_successful_faab_bid": 69
@@ -2224,6 +2224,22 @@
           "draft_picks_sent": 2,
           "firsts_acquired": 1,
           "firsts_sent": 1
+        },
+        "2026": {
+          "transactions_involved": 1,
+          "trades": 0,
+          "trades_created": 0,
+          "waiver_claims_won": 0,
+          "free_agent_transactions": 1,
+          "faab_spent": 0,
+          "player_adds": 0,
+          "player_drops": 1,
+          "players_acquired": 0,
+          "players_sent": 0,
+          "draft_picks_acquired": 0,
+          "draft_picks_sent": 0,
+          "firsts_acquired": 0,
+          "firsts_sent": 0
         }
       },
       "league_ranks": {
