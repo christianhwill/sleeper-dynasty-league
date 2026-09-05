@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T03:00:52.034Z",
+  "generated_at": "2026-09-05T03:01:04.582Z",
   "league_name": "Oiled Without Consent",
   "seasons": [
     {
@@ -17,11 +17,11 @@
     {
       "season": "2026",
       "league_id": "1327788752298336256",
-      "transaction_count": 93,
+      "transaction_count": 94,
       "trade_count": 12
     }
   ],
-  "transaction_count": 631,
+  "transaction_count": 632,
   "transactions": [
     {
       "transaction_id": "1133549782154219520",
@@ -38113,7 +38113,7 @@
             "fantasy_positions": [
               "RB"
             ],
-            "team": "NO",
+            "team": null,
             "status": "Inactive",
             "injury_status": "Questionable",
             "age": 23,
@@ -39216,7 +39216,7 @@
             "fantasy_positions": [
               "TE"
             ],
-            "team": null,
+            "team": "MIA",
             "status": "Active",
             "injury_status": null,
             "age": 22,
@@ -39551,7 +39551,7 @@
             "team": "HOU",
             "status": "Active",
             "injury_status": "Questionable",
-            "age": 23,
+            "age": 24,
             "years_exp": 1
           },
           "roster_id": 3,
@@ -40881,7 +40881,7 @@
             "team": "HOU",
             "status": "Active",
             "injury_status": "Questionable",
-            "age": 23,
+            "age": 24,
             "years_exp": 1
           },
           "roster_id": 3,
@@ -41526,6 +41526,73 @@
           },
           "roster_id": 9,
           "team_name": "The Crusty CreamPies"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null,
+      "season": "2026",
+      "league_id": "1327788752298336256"
+    },
+    {
+      "transaction_id": "1401458939719057408",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1788496358379,
+      "created_iso": "2026-09-04T04:32:38.379Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "9508",
+            "name": "Tyjae Spears",
+            "first_name": "Tyjae",
+            "last_name": "Spears",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "TEN",
+            "status": "Active",
+            "injury_status": null,
+            "age": 25,
+            "years_exp": 3
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "12535",
+            "name": "Isaac TeSlaa",
+            "first_name": "Isaac",
+            "last_name": "TeSlaa",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "DET",
+            "status": "Active",
+            "injury_status": null,
+            "age": 24,
+            "years_exp": 1
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
         }
       ],
       "draft_picks": [],
