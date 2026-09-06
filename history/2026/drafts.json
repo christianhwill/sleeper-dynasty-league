@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T06:00:37.920Z",
+  "generated_at": "2026-09-06T06:00:14.404Z",
   "season": "2026",
   "drafts": [
     {
@@ -115,7 +115,7 @@
             ],
             "team": "TEN",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 21,
             "years_exp": null
           },
@@ -156,8 +156,8 @@
               "WR"
             ],
             "team": "NO",
-            "status": "Active",
-            "injury_status": "Doubtful",
+            "status": "Inactive",
+            "injury_status": "IR",
             "age": 22,
             "years_exp": null
           },
@@ -955,7 +955,7 @@
             ],
             "team": "ARI",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 23,
             "years_exp": null
           },
@@ -1166,7 +1166,7 @@
             "team": "SF",
             "status": "Active",
             "injury_status": null,
-            "age": 27,
+            "age": 28,
             "years_exp": 5
           },
           "roster_name": "The Crusty CreamPies"
