@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T03:01:04.582Z",
+  "generated_at": "2026-09-06T03:00:15.278Z",
   "league_name": "Oiled Without Consent",
   "seasons": [
     {
@@ -17,11 +17,11 @@
     {
       "season": "2026",
       "league_id": "1327788752298336256",
-      "transaction_count": 94,
+      "transaction_count": 98,
       "trade_count": 12
     }
   ],
-  "transaction_count": 632,
+  "transaction_count": 636,
   "transactions": [
     {
       "transaction_id": "1133549782154219520",
@@ -35697,7 +35697,7 @@
             "team": "SF",
             "status": "Active",
             "injury_status": null,
-            "age": 27,
+            "age": 28,
             "years_exp": 5
           },
           "roster_id": 7,
@@ -36954,7 +36954,7 @@
             "team": "SF",
             "status": "Active",
             "injury_status": null,
-            "age": 27,
+            "age": 28,
             "years_exp": 5
           },
           "roster_id": 7,
@@ -41521,7 +41521,7 @@
             "team": "SF",
             "status": "Active",
             "injury_status": null,
-            "age": 27,
+            "age": 28,
             "years_exp": 5
           },
           "roster_id": 9,
@@ -41590,6 +41590,214 @@
             "injury_status": null,
             "age": 24,
             "years_exp": 1
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null,
+      "season": "2026",
+      "league_id": "1327788752298336256"
+    },
+    {
+      "transaction_id": "1402030470492893184",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1788632621934,
+      "created_iso": "2026-09-05T18:23:41.934Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "859906411432366080",
+      "roster_ids": [
+        9
+      ],
+      "teams": [
+        {
+          "roster_id": 9,
+          "team_name": "The Crusty CreamPies"
+        }
+      ],
+      "adds": [],
+      "drops": [
+        {
+          "player": {
+            "player_id": "7090",
+            "name": "Darnell Mooney",
+            "first_name": "Darnell",
+            "last_name": "Mooney",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "NYG",
+            "status": "Active",
+            "injury_status": null,
+            "age": 28,
+            "years_exp": 6
+          },
+          "roster_id": 9,
+          "team_name": "The Crusty CreamPies"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null,
+      "season": "2026",
+      "league_id": "1327788752298336256"
+    },
+    {
+      "transaction_id": "1402031365385375744",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1788632835292,
+      "created_iso": "2026-09-05T18:27:15.292Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "859906411432366080",
+      "roster_ids": [
+        9
+      ],
+      "teams": [
+        {
+          "roster_id": 9,
+          "team_name": "The Crusty CreamPies"
+        }
+      ],
+      "adds": [],
+      "drops": [
+        {
+          "player": {
+            "player_id": "9229",
+            "name": "Anthony Richardson",
+            "first_name": "Anthony",
+            "last_name": "Richardson",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "IND",
+            "status": "Active",
+            "injury_status": null,
+            "age": 24,
+            "years_exp": 3
+          },
+          "roster_id": 9,
+          "team_name": "The Crusty CreamPies"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null,
+      "season": "2026",
+      "league_id": "1327788752298336256"
+    },
+    {
+      "transaction_id": "1402031516711653376",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1788632871371,
+      "created_iso": "2026-09-05T18:27:51.371Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "859906411432366080",
+      "roster_ids": [
+        9
+      ],
+      "teams": [
+        {
+          "roster_id": 9,
+          "team_name": "The Crusty CreamPies"
+        }
+      ],
+      "adds": [],
+      "drops": [
+        {
+          "player": {
+            "player_id": "7049",
+            "name": "Jauan Jennings",
+            "first_name": "Jauan",
+            "last_name": "Jennings",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "MIN",
+            "status": "Active",
+            "injury_status": null,
+            "age": 29,
+            "years_exp": 6
+          },
+          "roster_id": 9,
+          "team_name": "The Crusty CreamPies"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null,
+      "season": "2026",
+      "league_id": "1327788752298336256"
+    },
+    {
+      "transaction_id": "1402039437298266112",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1788634759786,
+      "created_iso": "2026-09-05T18:59:19.786Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "9502",
+            "name": "Tank Dell",
+            "first_name": "Tank",
+            "last_name": "Dell",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "HOU",
+            "status": "Inactive",
+            "injury_status": "IR",
+            "age": 26,
+            "years_exp": 3
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "11655",
+            "name": "Tyrone Tracy",
+            "first_name": "Tyrone",
+            "last_name": "Tracy",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "NYG",
+            "status": "Active",
+            "injury_status": "Questionable",
+            "age": 26,
+            "years_exp": 2
           },
           "roster_id": 2,
           "team_name": "Cam dog"
