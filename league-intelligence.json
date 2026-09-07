@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T15:00:15.035Z",
+  "generated_at": "2026-09-07T15:00:14.822Z",
   "intelligence_version": "1.0",
   "league": {
     "league_id": "1327788752298336256",
@@ -20,7 +20,7 @@
     "completed_regular_season_weeks": 28,
     "excluded_future_or_incomplete_matchups": 90,
     "owners_analyzed": 10,
-    "transaction_participations_analyzed": 635,
+    "transaction_participations_analyzed": 639,
     "future_matchups_excluded_from_historical_metrics": true
   },
   "methodology": {
@@ -434,7 +434,7 @@
       "current_roster_value": {
         "rank": 3,
         "score": 77.78,
-        "lineup_adjusted_value": 53378.85
+        "lineup_adjusted_value": 53423.8
       },
       "franchise_rank": 1
     },
@@ -506,7 +506,7 @@
       "current_roster_value": {
         "rank": 1,
         "score": 100,
-        "lineup_adjusted_value": 72185.25
+        "lineup_adjusted_value": 72223.25
       },
       "franchise_rank": 2
     },
@@ -575,7 +575,7 @@
       "current_roster_value": {
         "rank": 2,
         "score": 88.89,
-        "lineup_adjusted_value": 56848
+        "lineup_adjusted_value": 56906.25
       },
       "franchise_rank": 3
     },
@@ -644,7 +644,7 @@
       "current_roster_value": {
         "rank": 4,
         "score": 66.67,
-        "lineup_adjusted_value": 49790.25
+        "lineup_adjusted_value": 49924.5
       },
       "franchise_rank": 4
     },
@@ -713,7 +713,7 @@
       "current_roster_value": {
         "rank": 10,
         "score": 0,
-        "lineup_adjusted_value": 27147.9
+        "lineup_adjusted_value": 27142
       },
       "franchise_rank": 5
     },
@@ -784,7 +784,7 @@
       "current_roster_value": {
         "rank": 8,
         "score": 22.22,
-        "lineup_adjusted_value": 35016.2
+        "lineup_adjusted_value": 34986.7
       },
       "franchise_rank": 6
     },
@@ -853,7 +853,7 @@
       "current_roster_value": {
         "rank": 6,
         "score": 44.44,
-        "lineup_adjusted_value": 44964.15
+        "lineup_adjusted_value": 44896.75
       },
       "franchise_rank": 7
     },
@@ -922,7 +922,7 @@
       "current_roster_value": {
         "rank": 9,
         "score": 11.11,
-        "lineup_adjusted_value": 31598.5
+        "lineup_adjusted_value": 31657.6
       },
       "franchise_rank": 8
     },
@@ -993,7 +993,7 @@
       "current_roster_value": {
         "rank": 7,
         "score": 33.33,
-        "lineup_adjusted_value": 43665.6
+        "lineup_adjusted_value": 43622.25
       },
       "franchise_rank": 9
     },
@@ -1062,7 +1062,7 @@
       "current_roster_value": {
         "rank": 5,
         "score": 55.56,
-        "lineup_adjusted_value": 48746.35
+        "lineup_adjusted_value": 48716.45
       },
       "franchise_rank": 10
     }
@@ -10348,8 +10348,8 @@
       },
       "evidence": {
         "completed_trades": 32,
-        "transactions_involved": 186,
-        "waiver_and_free_agent_activity_score_raw": 213,
+        "transactions_involved": 187,
+        "waiver_and_free_agent_activity_score_raw": 214,
         "first_round_picks_sent": 7,
         "net_draft_picks_acquired": -5,
         "current_future_firsts": 2,
@@ -10642,8 +10642,8 @@
       },
       "evidence": {
         "completed_trades": 7,
-        "transactions_involved": 31,
-        "waiver_and_free_agent_activity_score_raw": 34,
+        "transactions_involved": 34,
+        "waiver_and_free_agent_activity_score_raw": 37,
         "first_round_picks_sent": 3,
         "net_draft_picks_acquired": -1,
         "current_future_firsts": 2,
