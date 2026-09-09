@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T12:00:15.220Z",
+  "generated_at": "2026-09-09T00:00:14.897Z",
   "season": "2026",
   "transactions": [
     {
@@ -1275,7 +1275,7 @@
             "team": "WAS",
             "status": "Active",
             "injury_status": null,
-            "age": 26,
+            "age": 27,
             "years_exp": 4
           },
           "roster_id": 7,
@@ -1926,7 +1926,7 @@
             ],
             "team": "CLE",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 22,
             "years_exp": 1
           },
@@ -3349,7 +3349,7 @@
             ],
             "team": "MIA",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 23,
             "years_exp": null
           },
@@ -3530,7 +3530,7 @@
             ],
             "team": "MIA",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 23,
             "years_exp": null
           },
@@ -5993,6 +5993,51 @@
           "team_name": "Cam dog"
         }
       ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1403128631311486976",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1788894443875,
+      "created_iso": "2026-09-08T19:07:23.875Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "937819151345799168",
+      "roster_ids": [
+        10
+      ],
+      "teams": [
+        {
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "8800",
+            "name": "Malik Davis",
+            "first_name": "Malik",
+            "last_name": "Davis",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "DAL",
+            "status": "Active",
+            "injury_status": null,
+            "age": 27,
+            "years_exp": 4
+          },
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        }
+      ],
+      "drops": [],
       "draft_picks": [],
       "waiver_budget": [],
       "waiver_bid": null,
