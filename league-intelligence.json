@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T15:00:26.404Z",
+  "generated_at": "2026-09-09T15:00:14.791Z",
   "intelligence_version": "1.0",
   "league": {
     "league_id": "1327788752298336256",
@@ -20,7 +20,7 @@
     "completed_regular_season_weeks": 28,
     "excluded_future_or_incomplete_matchups": 90,
     "owners_analyzed": 10,
-    "transaction_participations_analyzed": 639,
+    "transaction_participations_analyzed": 640,
     "future_matchups_excluded_from_historical_metrics": true
   },
   "methodology": {
@@ -434,7 +434,7 @@
       "current_roster_value": {
         "rank": 3,
         "score": 77.78,
-        "lineup_adjusted_value": 53423.8
+        "lineup_adjusted_value": 53844.8
       },
       "franchise_rank": 1
     },
@@ -506,7 +506,7 @@
       "current_roster_value": {
         "rank": 1,
         "score": 100,
-        "lineup_adjusted_value": 72223.25
+        "lineup_adjusted_value": 72799.4
       },
       "franchise_rank": 2
     },
@@ -575,7 +575,7 @@
       "current_roster_value": {
         "rank": 2,
         "score": 88.89,
-        "lineup_adjusted_value": 56906.25
+        "lineup_adjusted_value": 57422.55
       },
       "franchise_rank": 3
     },
@@ -644,7 +644,7 @@
       "current_roster_value": {
         "rank": 4,
         "score": 66.67,
-        "lineup_adjusted_value": 49924.5
+        "lineup_adjusted_value": 50562.95
       },
       "franchise_rank": 4
     },
@@ -713,7 +713,7 @@
       "current_roster_value": {
         "rank": 10,
         "score": 0,
-        "lineup_adjusted_value": 27142
+        "lineup_adjusted_value": 27463.65
       },
       "franchise_rank": 5
     },
@@ -784,7 +784,7 @@
       "current_roster_value": {
         "rank": 8,
         "score": 22.22,
-        "lineup_adjusted_value": 34986.7
+        "lineup_adjusted_value": 35355.65
       },
       "franchise_rank": 6
     },
@@ -853,7 +853,7 @@
       "current_roster_value": {
         "rank": 6,
         "score": 44.44,
-        "lineup_adjusted_value": 44896.75
+        "lineup_adjusted_value": 45263.5
       },
       "franchise_rank": 7
     },
@@ -922,7 +922,7 @@
       "current_roster_value": {
         "rank": 9,
         "score": 11.11,
-        "lineup_adjusted_value": 31657.6
+        "lineup_adjusted_value": 31837.4
       },
       "franchise_rank": 8
     },
@@ -993,7 +993,7 @@
       "current_roster_value": {
         "rank": 7,
         "score": 33.33,
-        "lineup_adjusted_value": 43622.25
+        "lineup_adjusted_value": 44106.5
       },
       "franchise_rank": 9
     },
@@ -1062,7 +1062,7 @@
       "current_roster_value": {
         "rank": 5,
         "score": 55.56,
-        "lineup_adjusted_value": 48716.45
+        "lineup_adjusted_value": 48995.1
       },
       "franchise_rank": 10
     }
@@ -10300,7 +10300,7 @@
       ],
       "style_scores": {
         "deal_maker": 42.86,
-        "waiver_hawk": 15.42,
+        "waiver_hawk": 14.44,
         "future_builder": 76.67,
         "win_now": 26.66
       },
@@ -10384,7 +10384,7 @@
       ],
       "style_scores": {
         "deal_maker": 86.5,
-        "waiver_hawk": 67.08,
+        "waiver_hawk": 62.23,
         "future_builder": 68.1,
         "win_now": 59.72
       },
@@ -10407,10 +10407,10 @@
       "current_roster_id": 4,
       "current_team_name": "Raw Dawgs",
       "primary_archetype": {
-        "id": "balanced",
-        "label": "The Balanced Operator",
-        "description": "Uses a diversified approach without relying on one dominant management style.",
-        "confidence_score": 60
+        "id": "win_now",
+        "label": "The Win-Now Contender",
+        "description": "Pairs a strong current roster with an aggressive competitive posture.",
+        "confidence_score": 69.17
       },
       "secondary_traits": [
         {
@@ -10421,12 +10421,12 @@
         {
           "id": "waiver_hawk",
           "label": "The Waiver Hawk",
-          "score": 69.17
+          "score": 63.34
         }
       ],
       "style_scores": {
         "deal_maker": 46.03,
-        "waiver_hawk": 69.17,
+        "waiver_hawk": 63.34,
         "future_builder": 19.44,
         "win_now": 69.73
       },
@@ -10458,7 +10458,7 @@
         {
           "id": "waiver_hawk",
           "label": "The Waiver Hawk",
-          "score": 45
+          "score": 41.11
         },
         {
           "id": "deal_maker",
@@ -10468,7 +10468,7 @@
       ],
       "style_scores": {
         "deal_maker": 32.54,
-        "waiver_hawk": 45,
+        "waiver_hawk": 41.11,
         "future_builder": 8.57,
         "win_now": 22.36
       },
@@ -10505,12 +10505,12 @@
         {
           "id": "waiver_hawk",
           "label": "The Waiver Hawk",
-          "score": 39.58
+          "score": 36.66
         }
       ],
       "style_scores": {
         "deal_maker": 70.24,
-        "waiver_hawk": 39.58,
+        "waiver_hawk": 36.66,
         "future_builder": 19.84,
         "win_now": 25.83
       },
@@ -10536,7 +10536,7 @@
         "id": "win_now",
         "label": "The Win-Now Contender",
         "description": "Pairs a strong current roster with an aggressive competitive posture.",
-        "confidence_score": 58.31
+        "confidence_score": 78.74
       },
       "secondary_traits": [
         {
@@ -10547,12 +10547,12 @@
         {
           "id": "waiver_hawk",
           "label": "The Waiver Hawk",
-          "score": 87.92
+          "score": 81.11
         }
       ],
       "style_scores": {
         "deal_maker": 73.02,
-        "waiver_hawk": 87.92,
+        "waiver_hawk": 81.11,
         "future_builder": 71.59,
         "win_now": 90.69
       },
@@ -10636,7 +10636,7 @@
       ],
       "style_scores": {
         "deal_maker": 19.05,
-        "waiver_hawk": 20.83,
+        "waiver_hawk": 18.89,
         "future_builder": 28.41,
         "win_now": 53.33
       },
@@ -10662,13 +10662,13 @@
         "id": "waiver_hawk",
         "label": "The Waiver Hawk",
         "description": "Creates edges through waivers, free agency, and persistent roster churn.",
-        "confidence_score": 83.33
+        "confidence_score": 86.24
       },
       "secondary_traits": [
         {
           "id": "waiver_hawk",
           "label": "The Waiver Hawk",
-          "score": 81.25
+          "score": 82.22
         },
         {
           "id": "win_now",
@@ -10678,14 +10678,14 @@
       ],
       "style_scores": {
         "deal_maker": 48.41,
-        "waiver_hawk": 81.25,
+        "waiver_hawk": 82.22,
         "future_builder": 36.19,
         "win_now": 70.14
       },
       "evidence": {
         "completed_trades": 10,
-        "transactions_involved": 66,
-        "waiver_and_free_agent_activity_score_raw": 82,
+        "transactions_involved": 67,
+        "waiver_and_free_agent_activity_score_raw": 83,
         "first_round_picks_sent": 2,
         "net_draft_picks_acquired": -1,
         "current_future_firsts": 3,
