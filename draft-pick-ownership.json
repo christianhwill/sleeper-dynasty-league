@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T12:00:15.144Z",
+  "generated_at": "2026-09-10T00:01:04.973Z",
   "league": {
     "league_id": "1327788752298336256",
     "name": "Oiled Without Consent",
@@ -370,11 +370,11 @@
       "round": 3,
       "original_roster_id": 1,
       "original_team": "Young N Hip",
-      "current_owner_roster_id": 1,
-      "current_team": "Young N Hip",
-      "previous_owner_roster_id": null,
-      "previous_team": null,
-      "has_been_traded": false
+      "current_owner_roster_id": 2,
+      "current_team": "Cam dog",
+      "previous_owner_roster_id": 1,
+      "previous_team": "Young N Hip",
+      "has_been_traded": true
     },
     {
       "season": "2028",
@@ -1210,10 +1210,10 @@
     {
       "roster_id": 1,
       "team_name": "Young N Hip",
-      "total_future_picks": 13,
+      "total_future_picks": 12,
       "first_round_picks": 3,
       "second_round_picks": 6,
-      "third_round_picks": 4,
+      "third_round_picks": 3,
       "other_round_picks": 0,
       "by_season": {
         "2027": {
@@ -1250,10 +1250,10 @@
           ]
         },
         "2028": {
-          "total": 5,
+          "total": 4,
           "round_1": 1,
           "round_2": 2,
-          "round_3": 2,
+          "round_3": 1,
           "other_rounds": 0,
           "picks": [
             {
@@ -1264,12 +1264,6 @@
             },
             {
               "round": 2,
-              "original_roster_id": 1,
-              "original_team": "Young N Hip",
-              "has_been_traded": false
-            },
-            {
-              "round": 3,
               "original_roster_id": 1,
               "original_team": "Young N Hip",
               "has_been_traded": false
@@ -1866,10 +1860,10 @@
     {
       "roster_id": 2,
       "team_name": "Cam dog",
-      "total_future_picks": 4,
+      "total_future_picks": 5,
       "first_round_picks": 2,
       "second_round_picks": 0,
-      "third_round_picks": 2,
+      "third_round_picks": 3,
       "other_round_picks": 0,
       "by_season": {
         "2027": {
@@ -1889,6 +1883,21 @@
               "round": 1,
               "original_roster_id": 5,
               "original_team": "BING BONG",
+              "has_been_traded": true
+            }
+          ]
+        },
+        "2028": {
+          "total": 1,
+          "round_1": 0,
+          "round_2": 0,
+          "round_3": 1,
+          "other_rounds": 0,
+          "picks": [
+            {
+              "round": 3,
+              "original_roster_id": 1,
+              "original_team": "Young N Hip",
               "has_been_traded": true
             }
           ]
