@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T00:01:04.973Z",
+  "generated_at": "2026-09-10T12:01:09.429Z",
   "season": "2026",
   "teams": [
     {
@@ -811,6 +811,21 @@
           "years_exp": null
         },
         {
+          "player_id": "13303",
+          "name": "Cade Klubnik",
+          "first_name": "Cade",
+          "last_name": "Klubnik",
+          "position": "QB",
+          "fantasy_positions": [
+            "QB"
+          ],
+          "team": "NYJ",
+          "status": "Active",
+          "injury_status": null,
+          "age": 22,
+          "years_exp": null
+        },
+        {
           "player_id": "13349",
           "name": "Eli Stowers",
           "first_name": "Eli",
@@ -914,21 +929,6 @@
           "injury_status": null,
           "age": 25,
           "years_exp": 4
-        },
-        {
-          "player_id": "9482",
-          "name": "Michael Mayer",
-          "first_name": "Michael",
-          "last_name": "Mayer",
-          "position": "TE",
-          "fantasy_positions": [
-            "TE"
-          ],
-          "team": "LV",
-          "status": "Active",
-          "injury_status": null,
-          "age": 25,
-          "years_exp": 3
         },
         {
           "player_id": "9502",
@@ -3463,6 +3463,21 @@
           "years_exp": null
         },
         {
+          "player_id": "1373",
+          "name": "Geno Smith",
+          "first_name": "Geno",
+          "last_name": "Smith",
+          "position": "QB",
+          "fantasy_positions": [
+            "QB"
+          ],
+          "team": "NYJ",
+          "status": "Active",
+          "injury_status": null,
+          "age": 35,
+          "years_exp": 13
+        },
+        {
           "player_id": "3214",
           "name": "Hunter Henry",
           "first_name": "Hunter",
@@ -3476,21 +3491,6 @@
           "injury_status": null,
           "age": 31,
           "years_exp": 10
-        },
-        {
-          "player_id": "4147",
-          "name": "Samaje Perine",
-          "first_name": "Samaje",
-          "last_name": "Perine",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "CIN",
-          "status": "Active",
-          "injury_status": null,
-          "age": 30,
-          "years_exp": 9
         },
         {
           "player_id": "4881",
@@ -5076,19 +5076,19 @@
           "years_exp": 3
         },
         {
-          "player_id": "11435",
-          "name": "Emanuel Wilson",
-          "first_name": "Emanuel",
-          "last_name": "Wilson",
-          "position": "RB",
+          "player_id": "1166",
+          "name": "Kirk Cousins",
+          "first_name": "Kirk",
+          "last_name": "Cousins",
+          "position": "QB",
           "fantasy_positions": [
-            "RB"
+            "QB"
           ],
-          "team": "SEA",
+          "team": "LV",
           "status": "Active",
           "injury_status": null,
-          "age": 27,
-          "years_exp": 3
+          "age": 38,
+          "years_exp": 14
         },
         {
           "player_id": "12484",
