@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T03:01:19.294Z",
+  "generated_at": "2026-09-11T03:01:17.002Z",
   "league_name": "Oiled Without Consent",
   "seasons": [
     {
@@ -17,11 +17,11 @@
     {
       "season": "2026",
       "league_id": "1327788752298336256",
-      "transaction_count": 102,
+      "transaction_count": 107,
       "trade_count": 13
     }
   ],
-  "transaction_count": 640,
+  "transaction_count": 645,
   "transactions": [
     {
       "transaction_id": "1133549782154219520",
@@ -42027,6 +42027,261 @@
         }
       ],
       "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null,
+      "season": "2026",
+      "league_id": "1327788752298336256"
+    },
+    {
+      "transaction_id": "1403574560825122816",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1789000761756,
+      "created_iso": "2026-09-10T00:39:21.756Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "1131294900231815168",
+      "roster_ids": [
+        7
+      ],
+      "teams": [
+        {
+          "roster_id": 7,
+          "team_name": "I Chase Brown People"
+        }
+      ],
+      "adds": [],
+      "drops": [
+        {
+          "player": {
+            "player_id": "4147",
+            "name": "Samaje Perine",
+            "first_name": "Samaje",
+            "last_name": "Perine",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "CIN",
+            "status": "Active",
+            "injury_status": null,
+            "age": 30,
+            "years_exp": 9
+          },
+          "roster_id": 7,
+          "team_name": "I Chase Brown People"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null,
+      "season": "2026",
+      "league_id": "1327788752298336256"
+    },
+    {
+      "transaction_id": "1403574732313341952",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1789000802643,
+      "created_iso": "2026-09-10T00:40:02.643Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "1131294900231815168",
+      "roster_ids": [
+        7
+      ],
+      "teams": [
+        {
+          "roster_id": 7,
+          "team_name": "I Chase Brown People"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "1373",
+            "name": "Geno Smith",
+            "first_name": "Geno",
+            "last_name": "Smith",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "NYJ",
+            "status": "Active",
+            "injury_status": null,
+            "age": 35,
+            "years_exp": 13
+          },
+          "roster_id": 7,
+          "team_name": "I Chase Brown People"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null,
+      "season": "2026",
+      "league_id": "1327788752298336256"
+    },
+    {
+      "transaction_id": "1403576373573881856",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1789001193949,
+      "created_iso": "2026-09-10T00:46:33.949Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "937819151345799168",
+      "roster_ids": [
+        10
+      ],
+      "teams": [
+        {
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        }
+      ],
+      "adds": [],
+      "drops": [
+        {
+          "player": {
+            "player_id": "11435",
+            "name": "Emanuel Wilson",
+            "first_name": "Emanuel",
+            "last_name": "Wilson",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "SEA",
+            "status": "Active",
+            "injury_status": null,
+            "age": 27,
+            "years_exp": 3
+          },
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null,
+      "season": "2026",
+      "league_id": "1327788752298336256"
+    },
+    {
+      "transaction_id": "1403576466154770432",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1789001216023,
+      "created_iso": "2026-09-10T00:46:56.023Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "937819151345799168",
+      "roster_ids": [
+        10
+      ],
+      "teams": [
+        {
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "1166",
+            "name": "Kirk Cousins",
+            "first_name": "Kirk",
+            "last_name": "Cousins",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "LV",
+            "status": "Active",
+            "injury_status": null,
+            "age": 38,
+            "years_exp": 14
+          },
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null,
+      "season": "2026",
+      "league_id": "1327788752298336256"
+    },
+    {
+      "transaction_id": "1403585576250134528",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1789003388038,
+      "created_iso": "2026-09-10T01:23:08.038Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "13303",
+            "name": "Cade Klubnik",
+            "first_name": "Cade",
+            "last_name": "Klubnik",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "NYJ",
+            "status": "Active",
+            "injury_status": null,
+            "age": 22,
+            "years_exp": null
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "9482",
+            "name": "Michael Mayer",
+            "first_name": "Michael",
+            "last_name": "Mayer",
+            "position": "TE",
+            "fantasy_positions": [
+              "TE"
+            ],
+            "team": "LV",
+            "status": "Active",
+            "injury_status": null,
+            "age": 25,
+            "years_exp": 3
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
       "draft_picks": [],
       "waiver_budget": [],
       "waiver_bid": null,
