@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T00:01:03.608Z",
+  "generated_at": "2026-09-11T12:00:51.246Z",
   "season": "2026",
   "transactions": [
     {
@@ -687,7 +687,7 @@
             ],
             "team": "SF",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 22,
             "years_exp": 1
           },
@@ -974,7 +974,7 @@
             ],
             "team": null,
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": null,
             "age": 29,
             "years_exp": 9
           },
@@ -1796,7 +1796,7 @@
             ],
             "team": "SF",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 22,
             "years_exp": 1
           },
@@ -2619,7 +2619,7 @@
             ],
             "team": "SF",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 27,
             "years_exp": 4
           },
@@ -3349,7 +3349,7 @@
             ],
             "team": "MIA",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 23,
             "years_exp": null
           },
@@ -3530,7 +3530,7 @@
             ],
             "team": "MIA",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 23,
             "years_exp": null
           },
@@ -3957,7 +3957,7 @@
             ],
             "team": "MIA",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 22,
             "years_exp": 1
           },
@@ -4008,7 +4008,7 @@
             ],
             "team": "SF",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 32,
             "years_exp": 9
           },
@@ -4105,7 +4105,7 @@
             ],
             "team": "SF",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 32,
             "years_exp": 9
           },
@@ -4855,7 +4855,7 @@
             ],
             "team": "NE",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 29,
             "years_exp": 7
           },
@@ -4971,7 +4971,7 @@
             ],
             "team": "NE",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 29,
             "years_exp": 7
           },
@@ -6448,6 +6448,71 @@
             "status": "Active",
             "injury_status": null,
             "age": 25,
+            "years_exp": 3
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1403955098681389056",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1789091489051,
+      "created_iso": "2026-09-11T01:51:29.051Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "12535",
+            "name": "Isaac TeSlaa",
+            "first_name": "Isaac",
+            "last_name": "TeSlaa",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "DET",
+            "status": "Active",
+            "injury_status": null,
+            "age": 24,
+            "years_exp": 1
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "9511",
+            "name": "Keaton Mitchell",
+            "first_name": "Keaton",
+            "last_name": "Mitchell",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "LAC",
+            "status": "Active",
+            "injury_status": "Questionable",
+            "age": 24,
             "years_exp": 3
           },
           "roster_id": 2,
