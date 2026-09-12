@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T03:01:17.002Z",
+  "generated_at": "2026-09-12T03:00:25.707Z",
   "league_name": "Oiled Without Consent",
   "seasons": [
     {
@@ -17,7 +17,7 @@
     {
       "season": "2026",
       "league_id": "1327788752298336256",
-      "transaction_count": 107,
+      "transaction_count": 108,
       "trade_count": 13
     }
   ],
@@ -8636,7 +8636,7 @@
             ],
             "team": "SF",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 32,
             "years_exp": 9
           },
@@ -8733,7 +8733,7 @@
             ],
             "team": "SF",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 32,
             "years_exp": 9
           },
@@ -9087,7 +9087,7 @@
             ],
             "team": "NE",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 29,
             "years_exp": 7
           },
@@ -9203,7 +9203,7 @@
             ],
             "team": "NE",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 29,
             "years_exp": 7
           },
