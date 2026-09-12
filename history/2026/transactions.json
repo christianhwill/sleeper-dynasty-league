@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T00:01:20.898Z",
+  "generated_at": "2026-09-12T12:00:35.862Z",
   "season": "2026",
   "transactions": [
     {
@@ -6517,6 +6517,71 @@
           },
           "roster_id": 2,
           "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1404329503076921344",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1789180754015,
+      "created_iso": "2026-09-12T02:39:14.015Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "937819151345799168",
+      "roster_ids": [
+        10
+      ],
+      "teams": [
+        {
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "9482",
+            "name": "Michael Mayer",
+            "first_name": "Michael",
+            "last_name": "Mayer",
+            "position": "TE",
+            "fantasy_positions": [
+              "TE"
+            ],
+            "team": "LV",
+            "status": "Active",
+            "injury_status": null,
+            "age": 25,
+            "years_exp": 3
+          },
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "8800",
+            "name": "Malik Davis",
+            "first_name": "Malik",
+            "last_name": "Davis",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "DAL",
+            "status": "Active",
+            "injury_status": null,
+            "age": 27,
+            "years_exp": 4
+          },
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
         }
       ],
       "draft_picks": [],
