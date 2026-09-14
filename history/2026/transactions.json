@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T00:00:22.835Z",
+  "generated_at": "2026-09-14T12:01:00.787Z",
   "season": "2026",
   "transactions": [
     {
@@ -34,7 +34,7 @@
             ],
             "team": "CAR",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 26,
             "years_exp": 4
           },
@@ -99,7 +99,7 @@
             ],
             "team": "JAX",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 23,
             "years_exp": 1
           },
@@ -144,7 +144,7 @@
             ],
             "team": "IND",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 23,
             "years_exp": 1
           },
@@ -1064,7 +1064,7 @@
             "team": "CLE",
             "status": "Active",
             "injury_status": null,
-            "age": 30,
+            "age": 31,
             "years_exp": 9
           },
           "roster_id": 10,
@@ -1274,7 +1274,7 @@
             ],
             "team": "WAS",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 27,
             "years_exp": 4
           },
@@ -1360,7 +1360,7 @@
             ],
             "team": "TB",
             "status": "Active",
-            "injury_status": "Doubtful",
+            "injury_status": "Out",
             "age": 24,
             "years_exp": 3
           },
@@ -3394,7 +3394,7 @@
             ],
             "team": "BUF",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 24,
             "years_exp": null
           },
@@ -3484,7 +3484,7 @@
             ],
             "team": "MIA",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 22,
             "years_exp": null
           },
@@ -3666,7 +3666,7 @@
             ],
             "team": "CIN",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 22,
             "years_exp": null
           },
@@ -4257,7 +4257,7 @@
             ],
             "team": "NO",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": "Out",
             "age": 31,
             "years_exp": 9
           },
@@ -4614,8 +4614,8 @@
             ],
             "team": "CLE",
             "status": "Active",
-            "injury_status": null,
-            "age": 21,
+            "injury_status": "Out",
+            "age": 22,
             "years_exp": 1
           },
           "roster_id": 1,
@@ -4692,8 +4692,8 @@
             ],
             "team": "CLE",
             "status": "Active",
-            "injury_status": null,
-            "age": 21,
+            "injury_status": "Out",
+            "age": 22,
             "years_exp": 1
           },
           "roster_id": 2,
@@ -5258,7 +5258,7 @@
             ],
             "team": "CIN",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 22,
             "years_exp": null
           },
