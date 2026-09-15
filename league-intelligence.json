@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T15:00:27.308Z",
+  "generated_at": "2026-09-15T15:01:01.947Z",
   "intelligence_version": "1.0",
   "league": {
     "league_id": "1327788752298336256",
@@ -14,13 +14,13 @@
       "2026"
     ],
     "stored_game_count": 252,
-    "completed_game_count": 162,
-    "completed_regular_season_games": 140,
+    "completed_game_count": 167,
+    "completed_regular_season_games": 145,
     "completed_postseason_games": 22,
-    "completed_regular_season_weeks": 28,
-    "excluded_future_or_incomplete_matchups": 90,
+    "completed_regular_season_weeks": 29,
+    "excluded_future_or_incomplete_matchups": 85,
     "owners_analyzed": 10,
-    "transaction_participations_analyzed": 651,
+    "transaction_participations_analyzed": 654,
     "future_matchups_excluded_from_historical_metrics": true
   },
   "methodology": {
@@ -382,14 +382,14 @@
         "Raw Dawgs"
       ],
       "regular_season": {
-        "wins": 23,
+        "wins": 24,
         "losses": 5,
         "ties": 0,
-        "games": 28,
-        "win_pct": 0.821,
-        "points_for": 4134.06,
-        "points_against": 3422.02,
-        "points_per_game": 147.64
+        "games": 29,
+        "win_pct": 0.828,
+        "points_for": 4268.52,
+        "points_against": 3548.52,
+        "points_per_game": 147.19
       },
       "postseason": {
         "wins": 3,
@@ -402,26 +402,26 @@
         "points_per_game": 163.66
       },
       "overall": {
-        "wins": 26,
+        "wins": 27,
         "losses": 6,
         "ties": 0,
-        "games": 32,
-        "win_pct": 0.813,
-        "points_for": 4788.7,
-        "points_against": 3992.9,
-        "points_per_game": 149.65
+        "games": 33,
+        "win_pct": 0.818,
+        "points_for": 4923.16,
+        "points_against": 4119.4,
+        "points_per_game": 149.19
       },
       "championships": 1,
       "championship_seasons": [
         "2024"
       ],
       "all_play": {
-        "wins": 176,
-        "losses": 76,
+        "wins": 181,
+        "losses": 80,
         "ties": 0,
-        "win_pct": 0.698,
-        "expected_wins": 19.556,
-        "luck_wins": 3.444,
+        "win_pct": 0.693,
+        "expected_wins": 20.112,
+        "luck_wins": 3.888,
         "rank": 1
       },
       "current_power": {
@@ -454,14 +454,14 @@
         "I Chase Brown People"
       ],
       "regular_season": {
-        "wins": 18,
+        "wins": 19,
         "losses": 10,
         "ties": 0,
-        "games": 28,
-        "win_pct": 0.643,
-        "points_for": 3921.92,
-        "points_against": 3538.34,
-        "points_per_game": 140.07
+        "games": 29,
+        "win_pct": 0.655,
+        "points_for": 4075.44,
+        "points_against": 3634.1,
+        "points_per_game": 140.53
       },
       "postseason": {
         "wins": 4,
@@ -474,26 +474,26 @@
         "points_per_game": 158.32
       },
       "overall": {
-        "wins": 22,
+        "wins": 23,
         "losses": 10,
         "ties": 0,
-        "games": 32,
-        "win_pct": 0.688,
-        "points_for": 4555.2,
-        "points_against": 4070.56,
-        "points_per_game": 142.35
+        "games": 33,
+        "win_pct": 0.697,
+        "points_for": 4708.72,
+        "points_against": 4166.32,
+        "points_per_game": 142.69
       },
       "championships": 1,
       "championship_seasons": [
         "2025"
       ],
       "all_play": {
-        "wins": 153,
-        "losses": 99,
+        "wins": 160,
+        "losses": 101,
         "ties": 0,
-        "win_pct": 0.607,
-        "expected_wins": 17,
-        "luck_wins": 1,
+        "win_pct": 0.613,
+        "expected_wins": 17.778,
+        "luck_wins": 1.222,
         "rank": 3
       },
       "current_power": {
@@ -525,14 +525,14 @@
         "Sugerdaddy"
       ],
       "regular_season": {
-        "wins": 16,
+        "wins": 17,
         "losses": 12,
         "ties": 0,
-        "games": 28,
-        "win_pct": 0.571,
-        "points_for": 4052.56,
-        "points_against": 3694.22,
-        "points_per_game": 144.73
+        "games": 29,
+        "win_pct": 0.586,
+        "points_for": 4236.96,
+        "points_against": 3819.64,
+        "points_per_game": 146.1
       },
       "postseason": {
         "wins": 3,
@@ -545,23 +545,23 @@
         "points_per_game": 134.55
       },
       "overall": {
-        "wins": 19,
+        "wins": 20,
         "losses": 15,
         "ties": 0,
-        "games": 34,
-        "win_pct": 0.559,
-        "points_for": 4859.84,
-        "points_against": 4534.34,
-        "points_per_game": 142.94
+        "games": 35,
+        "win_pct": 0.571,
+        "points_for": 5044.24,
+        "points_against": 4659.76,
+        "points_per_game": 144.12
       },
       "championships": 0,
       "championship_seasons": [],
       "all_play": {
-        "wins": 170,
+        "wins": 179,
         "losses": 82,
         "ties": 0,
-        "win_pct": 0.675,
-        "expected_wins": 18.889,
+        "win_pct": 0.686,
+        "expected_wins": 19.889,
         "luck_wins": -2.889,
         "rank": 2
       },
@@ -594,14 +594,14 @@
         "The Crusty CreamPies"
       ],
       "regular_season": {
-        "wins": 15,
+        "wins": 16,
         "losses": 13,
         "ties": 0,
-        "games": 28,
-        "win_pct": 0.536,
-        "points_for": 3667,
-        "points_against": 3586.6,
-        "points_per_game": 130.96
+        "games": 29,
+        "win_pct": 0.552,
+        "points_for": 3837.72,
+        "points_against": 3705.16,
+        "points_per_game": 132.34
       },
       "postseason": {
         "wins": 3,
@@ -614,24 +614,24 @@
         "points_per_game": 147.21
       },
       "overall": {
-        "wins": 18,
+        "wins": 19,
         "losses": 16,
         "ties": 0,
-        "games": 34,
-        "win_pct": 0.529,
-        "points_for": 4550.26,
-        "points_against": 4391.82,
-        "points_per_game": 133.83
+        "games": 35,
+        "win_pct": 0.543,
+        "points_for": 4720.98,
+        "points_against": 4510.38,
+        "points_per_game": 134.89
       },
       "championships": 0,
       "championship_seasons": [],
       "all_play": {
-        "wins": 131,
-        "losses": 121,
+        "wins": 139,
+        "losses": 122,
         "ties": 0,
-        "win_pct": 0.52,
-        "expected_wins": 14.555,
-        "luck_wins": 0.445,
+        "win_pct": 0.533,
+        "expected_wins": 15.444,
+        "luck_wins": 0.556,
         "rank": 4
       },
       "current_power": {
@@ -663,14 +663,14 @@
         "McCaffrican Americans"
       ],
       "regular_season": {
-        "wins": 14,
+        "wins": 15,
         "losses": 14,
         "ties": 0,
-        "games": 28,
-        "win_pct": 0.5,
-        "points_for": 3501.6,
-        "points_against": 3670.2,
-        "points_per_game": 125.06
+        "games": 29,
+        "win_pct": 0.517,
+        "points_for": 3646.08,
+        "points_against": 3768.12,
+        "points_per_game": 125.73
       },
       "postseason": {
         "wins": 2,
@@ -683,25 +683,25 @@
         "points_per_game": 115.16
       },
       "overall": {
-        "wins": 16,
+        "wins": 17,
         "losses": 16,
         "ties": 0,
-        "games": 32,
-        "win_pct": 0.5,
-        "points_for": 3962.24,
-        "points_against": 4221.24,
-        "points_per_game": 123.82
+        "games": 33,
+        "win_pct": 0.515,
+        "points_for": 4106.72,
+        "points_against": 4319.16,
+        "points_per_game": 124.45
       },
       "championships": 0,
       "championship_seasons": [],
       "all_play": {
-        "wins": 115,
-        "losses": 137,
+        "wins": 121,
+        "losses": 140,
         "ties": 0,
-        "win_pct": 0.456,
-        "expected_wins": 12.778,
-        "luck_wins": 1.222,
-        "rank": 7
+        "win_pct": 0.464,
+        "expected_wins": 13.445,
+        "luck_wins": 1.555,
+        "rank": 6
       },
       "current_power": {
         "rank": 10,
@@ -735,13 +735,13 @@
       ],
       "regular_season": {
         "wins": 14,
-        "losses": 14,
+        "losses": 15,
         "ties": 0,
-        "games": 28,
-        "win_pct": 0.5,
-        "points_for": 3547.76,
-        "points_against": 3603.54,
-        "points_per_game": 126.71
+        "games": 29,
+        "win_pct": 0.483,
+        "points_for": 3643.52,
+        "points_against": 3757.06,
+        "points_per_game": 125.64
       },
       "postseason": {
         "wins": 2,
@@ -755,21 +755,21 @@
       },
       "overall": {
         "wins": 16,
-        "losses": 16,
+        "losses": 17,
         "ties": 0,
-        "games": 32,
-        "win_pct": 0.5,
-        "points_for": 4148.34,
-        "points_against": 4145.6,
-        "points_per_game": 129.64
+        "games": 33,
+        "win_pct": 0.485,
+        "points_for": 4244.1,
+        "points_against": 4299.12,
+        "points_per_game": 128.61
       },
       "championships": 0,
       "championship_seasons": [],
       "all_play": {
         "wins": 122,
-        "losses": 130,
+        "losses": 139,
         "ties": 0,
-        "win_pct": 0.484,
+        "win_pct": 0.467,
         "expected_wins": 13.556,
         "luck_wins": 0.444,
         "rank": 5
@@ -804,13 +804,13 @@
       ],
       "regular_season": {
         "wins": 12,
-        "losses": 16,
+        "losses": 17,
         "ties": 0,
-        "games": 28,
-        "win_pct": 0.429,
-        "points_for": 3400.98,
-        "points_against": 3604.9,
-        "points_per_game": 121.46
+        "games": 29,
+        "win_pct": 0.414,
+        "points_for": 3498.9,
+        "points_against": 3749.38,
+        "points_per_game": 120.65
       },
       "postseason": {
         "wins": 3,
@@ -824,23 +824,23 @@
       },
       "overall": {
         "wins": 15,
-        "losses": 17,
+        "losses": 18,
         "ties": 0,
-        "games": 32,
-        "win_pct": 0.469,
-        "points_for": 3977.48,
-        "points_against": 4124.7,
-        "points_per_game": 124.3
+        "games": 33,
+        "win_pct": 0.455,
+        "points_for": 4075.4,
+        "points_against": 4269.18,
+        "points_per_game": 123.5
       },
       "championships": 0,
       "championship_seasons": [],
       "all_play": {
-        "wins": 101,
-        "losses": 151,
+        "wins": 102,
+        "losses": 159,
         "ties": 0,
-        "win_pct": 0.401,
-        "expected_wins": 11.223,
-        "luck_wins": 0.777,
+        "win_pct": 0.391,
+        "expected_wins": 11.334,
+        "luck_wins": 0.666,
         "rank": 8
       },
       "current_power": {
@@ -873,13 +873,13 @@
       ],
       "regular_season": {
         "wins": 11,
-        "losses": 17,
+        "losses": 18,
         "ties": 0,
-        "games": 28,
-        "win_pct": 0.393,
-        "points_for": 3303.34,
-        "points_against": 3710.34,
-        "points_per_game": 117.98
+        "games": 29,
+        "win_pct": 0.379,
+        "points_for": 3421.9,
+        "points_against": 3881.06,
+        "points_per_game": 118
       },
       "postseason": {
         "wins": 1,
@@ -893,23 +893,23 @@
       },
       "overall": {
         "wins": 12,
-        "losses": 20,
+        "losses": 21,
         "ties": 0,
-        "games": 32,
-        "win_pct": 0.375,
-        "points_for": 3769.54,
-        "points_against": 4278.18,
-        "points_per_game": 117.8
+        "games": 33,
+        "win_pct": 0.364,
+        "points_for": 3888.1,
+        "points_against": 4448.9,
+        "points_per_game": 117.82
       },
       "championships": 0,
       "championship_seasons": [],
       "all_play": {
-        "wins": 84,
-        "losses": 168,
+        "wins": 86,
+        "losses": 175,
         "ties": 0,
-        "win_pct": 0.333,
-        "expected_wins": 9.333,
-        "luck_wins": 1.667,
+        "win_pct": 0.33,
+        "expected_wins": 9.555,
+        "luck_wins": 1.445,
         "rank": 10
       },
       "current_power": {
@@ -944,13 +944,13 @@
       ],
       "regular_season": {
         "wins": 11,
-        "losses": 17,
+        "losses": 18,
         "ties": 0,
-        "games": 28,
-        "win_pct": 0.393,
-        "points_for": 3597.34,
-        "points_against": 3764.46,
-        "points_per_game": 128.48
+        "games": 29,
+        "win_pct": 0.379,
+        "points_for": 3723.84,
+        "points_against": 3898.92,
+        "points_per_game": 128.41
       },
       "postseason": {
         "wins": 0,
@@ -964,24 +964,24 @@
       },
       "overall": {
         "wins": 11,
-        "losses": 21,
+        "losses": 22,
         "ties": 0,
-        "games": 32,
-        "win_pct": 0.344,
-        "points_for": 4047.76,
-        "points_against": 4312.72,
+        "games": 33,
+        "win_pct": 0.333,
+        "points_for": 4174.26,
+        "points_against": 4447.18,
         "points_per_game": 126.49
       },
       "championships": 0,
       "championship_seasons": [],
       "all_play": {
-        "wins": 116,
-        "losses": 136,
+        "wins": 120,
+        "losses": 141,
         "ties": 0,
         "win_pct": 0.46,
-        "expected_wins": 12.889,
-        "luck_wins": -1.889,
-        "rank": 6
+        "expected_wins": 13.333,
+        "luck_wins": -2.333,
+        "rank": 7
       },
       "current_power": {
         "rank": 8,
@@ -1013,13 +1013,13 @@
       ],
       "regular_season": {
         "wins": 6,
-        "losses": 22,
+        "losses": 23,
         "ties": 0,
-        "games": 28,
-        "win_pct": 0.214,
-        "points_for": 3320.08,
-        "points_against": 3852.02,
-        "points_per_game": 118.57
+        "games": 29,
+        "win_pct": 0.207,
+        "points_for": 3445.5,
+        "points_against": 4036.42,
+        "points_per_game": 118.81
       },
       "postseason": {
         "wins": 1,
@@ -1033,23 +1033,23 @@
       },
       "overall": {
         "wins": 7,
-        "losses": 25,
+        "losses": 26,
         "ties": 0,
-        "games": 32,
-        "win_pct": 0.219,
-        "points_for": 3791,
-        "points_against": 4378.3,
-        "points_per_game": 118.47
+        "games": 33,
+        "win_pct": 0.212,
+        "points_for": 3916.42,
+        "points_against": 4562.7,
+        "points_per_game": 118.68
       },
       "championships": 0,
       "championship_seasons": [],
       "all_play": {
-        "wins": 92,
-        "losses": 160,
+        "wins": 95,
+        "losses": 166,
         "ties": 0,
-        "win_pct": 0.365,
-        "expected_wins": 10.222,
-        "luck_wins": -4.222,
+        "win_pct": 0.364,
+        "expected_wins": 10.555,
+        "luck_wins": -4.555,
         "rank": 9
       },
       "current_power": {
@@ -4475,6 +4475,406 @@
         "luck_rank": 9,
         "unluckiest_rank": 2,
         "schedule_strength_rank": 1
+      },
+      {
+        "season": "2026",
+        "owner_key": "user:937819151345799168",
+        "owner_id": "937819151345799168",
+        "display_name": "gsugerman",
+        "current_roster_id": 10,
+        "current_team_name": "Sugerdaddy",
+        "weeks": 1,
+        "actual_wins": 1,
+        "actual_losses": 0,
+        "actual_ties": 0,
+        "actual_win_equivalents": 1,
+        "all_play_wins": 9,
+        "all_play_losses": 0,
+        "all_play_ties": 0,
+        "expected_wins": 1,
+        "points_for": 184.4,
+        "points_against": 125.42,
+        "opponent_points_sum": 125.42,
+        "weekly": [
+          {
+            "week": 1,
+            "points": 184.4,
+            "opponent_points": 125.42,
+            "actual_result": "win",
+            "all_play_wins": 9,
+            "all_play_losses": 0,
+            "all_play_ties": 0,
+            "expected_wins": 1
+          }
+        ],
+        "luck_wins": 0,
+        "all_play_win_pct": 1,
+        "points_per_week": 184.4,
+        "average_opponent_points": 125.42,
+        "all_play_rank": 1,
+        "luck_rank": 5,
+        "unluckiest_rank": 5,
+        "schedule_strength_rank": 7
+      },
+      {
+        "season": "2026",
+        "owner_key": "user:859906411432366080",
+        "owner_id": "859906411432366080",
+        "display_name": "kuntlicker5",
+        "current_roster_id": 9,
+        "current_team_name": "The Crusty CreamPies",
+        "weeks": 1,
+        "actual_wins": 1,
+        "actual_losses": 0,
+        "actual_ties": 0,
+        "actual_win_equivalents": 1,
+        "all_play_wins": 8,
+        "all_play_losses": 1,
+        "all_play_ties": 0,
+        "expected_wins": 0.889,
+        "points_for": 170.72,
+        "points_against": 118.56,
+        "opponent_points_sum": 118.56,
+        "weekly": [
+          {
+            "week": 1,
+            "points": 170.72,
+            "opponent_points": 118.56,
+            "actual_result": "win",
+            "all_play_wins": 8,
+            "all_play_losses": 1,
+            "all_play_ties": 0,
+            "expected_wins": 0.889
+          }
+        ],
+        "luck_wins": 0.111,
+        "all_play_win_pct": 0.889,
+        "points_per_week": 170.72,
+        "average_opponent_points": 118.56,
+        "all_play_rank": 2,
+        "luck_rank": 4,
+        "unluckiest_rank": 6,
+        "schedule_strength_rank": 8
+      },
+      {
+        "season": "2026",
+        "owner_key": "user:1131294900231815168",
+        "owner_id": "1131294900231815168",
+        "display_name": "CalJansen",
+        "current_roster_id": 7,
+        "current_team_name": "I Chase Brown People",
+        "weeks": 1,
+        "actual_wins": 1,
+        "actual_losses": 0,
+        "actual_ties": 0,
+        "actual_win_equivalents": 1,
+        "all_play_wins": 7,
+        "all_play_losses": 2,
+        "all_play_ties": 0,
+        "expected_wins": 0.778,
+        "points_for": 153.52,
+        "points_against": 95.76,
+        "opponent_points_sum": 95.76,
+        "weekly": [
+          {
+            "week": 1,
+            "points": 153.52,
+            "opponent_points": 95.76,
+            "actual_result": "win",
+            "all_play_wins": 7,
+            "all_play_losses": 2,
+            "all_play_ties": 0,
+            "expected_wins": 0.778
+          }
+        ],
+        "luck_wins": 0.222,
+        "all_play_win_pct": 0.778,
+        "points_per_week": 153.52,
+        "average_opponent_points": 95.76,
+        "all_play_rank": 3,
+        "luck_rank": 3,
+        "unluckiest_rank": 7,
+        "schedule_strength_rank": 10
+      },
+      {
+        "season": "2026",
+        "owner_key": "user:1008209629677158400",
+        "owner_id": "1008209629677158400",
+        "display_name": "Jordansm12",
+        "current_roster_id": 6,
+        "current_team_name": "McCaffrican Americans",
+        "weeks": 1,
+        "actual_wins": 1,
+        "actual_losses": 0,
+        "actual_ties": 0,
+        "actual_win_equivalents": 1,
+        "all_play_wins": 6,
+        "all_play_losses": 3,
+        "all_play_ties": 0,
+        "expected_wins": 0.667,
+        "points_for": 144.48,
+        "points_against": 97.92,
+        "opponent_points_sum": 97.92,
+        "weekly": [
+          {
+            "week": 1,
+            "points": 144.48,
+            "opponent_points": 97.92,
+            "actual_result": "win",
+            "all_play_wins": 6,
+            "all_play_losses": 3,
+            "all_play_ties": 0,
+            "expected_wins": 0.667
+          }
+        ],
+        "luck_wins": 0.333,
+        "all_play_win_pct": 0.667,
+        "points_per_week": 144.48,
+        "average_opponent_points": 97.92,
+        "all_play_rank": 4,
+        "luck_rank": 2,
+        "unluckiest_rank": 8,
+        "schedule_strength_rank": 9
+      },
+      {
+        "season": "2026",
+        "owner_key": "user:1129897778072649728",
+        "owner_id": "1129897778072649728",
+        "display_name": "jfrelich",
+        "current_roster_id": 4,
+        "current_team_name": "Raw Dawgs",
+        "weeks": 1,
+        "actual_wins": 1,
+        "actual_losses": 0,
+        "actual_ties": 0,
+        "actual_win_equivalents": 1,
+        "all_play_wins": 5,
+        "all_play_losses": 4,
+        "all_play_ties": 0,
+        "expected_wins": 0.556,
+        "points_for": 134.46,
+        "points_against": 126.5,
+        "opponent_points_sum": 126.5,
+        "weekly": [
+          {
+            "week": 1,
+            "points": 134.46,
+            "opponent_points": 126.5,
+            "actual_result": "win",
+            "all_play_wins": 5,
+            "all_play_losses": 4,
+            "all_play_ties": 0,
+            "expected_wins": 0.556
+          }
+        ],
+        "luck_wins": 0.444,
+        "all_play_win_pct": 0.556,
+        "points_per_week": 134.46,
+        "average_opponent_points": 126.5,
+        "all_play_rank": 5,
+        "luck_rank": 1,
+        "unluckiest_rank": 9,
+        "schedule_strength_rank": 6
+      },
+      {
+        "season": "2026",
+        "owner_key": "user:1129877684336578560",
+        "owner_id": "1129877684336578560",
+        "display_name": "cjosiecki",
+        "current_roster_id": 2,
+        "current_team_name": "Cam dog",
+        "weeks": 1,
+        "actual_wins": 0,
+        "actual_losses": 1,
+        "actual_ties": 0,
+        "actual_win_equivalents": 0,
+        "all_play_wins": 4,
+        "all_play_losses": 5,
+        "all_play_ties": 0,
+        "expected_wins": 0.444,
+        "points_for": 126.5,
+        "points_against": 134.46,
+        "opponent_points_sum": 134.46,
+        "weekly": [
+          {
+            "week": 1,
+            "points": 126.5,
+            "opponent_points": 134.46,
+            "actual_result": "loss",
+            "all_play_wins": 4,
+            "all_play_losses": 5,
+            "all_play_ties": 0,
+            "expected_wins": 0.444
+          }
+        ],
+        "luck_wins": -0.444,
+        "all_play_win_pct": 0.444,
+        "points_per_week": 126.5,
+        "average_opponent_points": 134.46,
+        "all_play_rank": 6,
+        "luck_rank": 9,
+        "unluckiest_rank": 1,
+        "schedule_strength_rank": 5
+      },
+      {
+        "season": "2026",
+        "owner_key": "user:1129881968960901120",
+        "owner_id": "1129881968960901120",
+        "display_name": "colemueller1010",
+        "current_roster_id": 3,
+        "current_team_name": "Third Down Syndrome",
+        "weeks": 1,
+        "actual_wins": 0,
+        "actual_losses": 1,
+        "actual_ties": 0,
+        "actual_win_equivalents": 0,
+        "all_play_wins": 3,
+        "all_play_losses": 6,
+        "all_play_ties": 0,
+        "expected_wins": 0.333,
+        "points_for": 125.42,
+        "points_against": 184.4,
+        "opponent_points_sum": 184.4,
+        "weekly": [
+          {
+            "week": 1,
+            "points": 125.42,
+            "opponent_points": 184.4,
+            "actual_result": "loss",
+            "all_play_wins": 3,
+            "all_play_losses": 6,
+            "all_play_ties": 0,
+            "expected_wins": 0.333
+          }
+        ],
+        "luck_wins": -0.333,
+        "all_play_win_pct": 0.333,
+        "points_per_week": 125.42,
+        "average_opponent_points": 184.4,
+        "all_play_rank": 7,
+        "luck_rank": 8,
+        "unluckiest_rank": 2,
+        "schedule_strength_rank": 1
+      },
+      {
+        "season": "2026",
+        "owner_key": "user:1129909167751426048",
+        "owner_id": "1129909167751426048",
+        "display_name": "DuggyP",
+        "current_roster_id": 5,
+        "current_team_name": "BING BONG",
+        "weeks": 1,
+        "actual_wins": 0,
+        "actual_losses": 1,
+        "actual_ties": 0,
+        "actual_win_equivalents": 0,
+        "all_play_wins": 2,
+        "all_play_losses": 7,
+        "all_play_ties": 0,
+        "expected_wins": 0.222,
+        "points_for": 118.56,
+        "points_against": 170.72,
+        "opponent_points_sum": 170.72,
+        "weekly": [
+          {
+            "week": 1,
+            "points": 118.56,
+            "opponent_points": 170.72,
+            "actual_result": "loss",
+            "all_play_wins": 2,
+            "all_play_losses": 7,
+            "all_play_ties": 0,
+            "expected_wins": 0.222
+          }
+        ],
+        "luck_wins": -0.222,
+        "all_play_win_pct": 0.222,
+        "points_per_week": 118.56,
+        "average_opponent_points": 170.72,
+        "all_play_rank": 8,
+        "luck_rank": 7,
+        "unluckiest_rank": 3,
+        "schedule_strength_rank": 2
+      },
+      {
+        "season": "2026",
+        "owner_key": "user:1131304330881077248",
+        "owner_id": "1131304330881077248",
+        "display_name": "RhaneJones",
+        "current_roster_id": 8,
+        "current_team_name": "PurpleRhane",
+        "weeks": 1,
+        "actual_wins": 0,
+        "actual_losses": 1,
+        "actual_ties": 0,
+        "actual_win_equivalents": 0,
+        "all_play_wins": 1,
+        "all_play_losses": 8,
+        "all_play_ties": 0,
+        "expected_wins": 0.111,
+        "points_for": 97.92,
+        "points_against": 144.48,
+        "opponent_points_sum": 144.48,
+        "weekly": [
+          {
+            "week": 1,
+            "points": 97.92,
+            "opponent_points": 144.48,
+            "actual_result": "loss",
+            "all_play_wins": 1,
+            "all_play_losses": 8,
+            "all_play_ties": 0,
+            "expected_wins": 0.111
+          }
+        ],
+        "luck_wins": -0.111,
+        "all_play_win_pct": 0.111,
+        "points_per_week": 97.92,
+        "average_opponent_points": 144.48,
+        "all_play_rank": 9,
+        "luck_rank": 6,
+        "unluckiest_rank": 4,
+        "schedule_strength_rank": 4
+      },
+      {
+        "season": "2026",
+        "owner_key": "user:1129875387229560832",
+        "owner_id": "1129875387229560832",
+        "display_name": "christianhw17",
+        "current_roster_id": 1,
+        "current_team_name": "Young N Hip",
+        "weeks": 1,
+        "actual_wins": 0,
+        "actual_losses": 1,
+        "actual_ties": 0,
+        "actual_win_equivalents": 0,
+        "all_play_wins": 0,
+        "all_play_losses": 9,
+        "all_play_ties": 0,
+        "expected_wins": 0,
+        "points_for": 95.76,
+        "points_against": 153.52,
+        "opponent_points_sum": 153.52,
+        "weekly": [
+          {
+            "week": 1,
+            "points": 95.76,
+            "opponent_points": 153.52,
+            "actual_result": "loss",
+            "all_play_wins": 0,
+            "all_play_losses": 9,
+            "all_play_ties": 0,
+            "expected_wins": 0
+          }
+        ],
+        "luck_wins": 0,
+        "all_play_win_pct": 0,
+        "points_per_week": 95.76,
+        "average_opponent_points": 153.52,
+        "all_play_rank": 10,
+        "luck_rank": 5,
+        "unluckiest_rank": 5,
+        "schedule_strength_rank": 3
       }
     ],
     "career": [
@@ -4486,24 +4886,25 @@
         "current_team_name": "Raw Dawgs",
         "seasons": [
           "2024",
-          "2025"
+          "2025",
+          "2026"
         ],
-        "weeks": 28,
-        "actual_wins": 23,
+        "weeks": 29,
+        "actual_wins": 24,
         "actual_losses": 5,
         "actual_ties": 0,
-        "actual_win_equivalents": 23,
-        "all_play_wins": 176,
-        "all_play_losses": 76,
+        "actual_win_equivalents": 24,
+        "all_play_wins": 181,
+        "all_play_losses": 80,
         "all_play_ties": 0,
-        "expected_wins": 19.556,
-        "points_for": 4134.06,
-        "points_against": 3422.02,
-        "opponent_points_sum": 3422.02,
-        "luck_wins": 3.444,
-        "all_play_win_pct": 0.698,
-        "points_per_week": 147.64,
-        "average_opponent_points": 122.22,
+        "expected_wins": 20.112,
+        "points_for": 4268.52,
+        "points_against": 3548.52,
+        "opponent_points_sum": 3548.52,
+        "luck_wins": 3.888,
+        "all_play_win_pct": 0.693,
+        "points_per_week": 147.19,
+        "average_opponent_points": 122.36,
         "all_play_rank": 1,
         "luck_rank": 1,
         "unluckiest_rank": 10,
@@ -4517,24 +4918,25 @@
         "current_team_name": "Sugerdaddy",
         "seasons": [
           "2024",
-          "2025"
+          "2025",
+          "2026"
         ],
-        "weeks": 28,
-        "actual_wins": 16,
+        "weeks": 29,
+        "actual_wins": 17,
         "actual_losses": 12,
         "actual_ties": 0,
-        "actual_win_equivalents": 16,
-        "all_play_wins": 170,
+        "actual_win_equivalents": 17,
+        "all_play_wins": 179,
         "all_play_losses": 82,
         "all_play_ties": 0,
-        "expected_wins": 18.889,
-        "points_for": 4052.56,
-        "points_against": 3694.22,
-        "opponent_points_sum": 3694.22,
+        "expected_wins": 19.889,
+        "points_for": 4236.96,
+        "points_against": 3819.64,
+        "opponent_points_sum": 3819.64,
         "luck_wins": -2.889,
-        "all_play_win_pct": 0.675,
-        "points_per_week": 144.73,
-        "average_opponent_points": 131.94,
+        "all_play_win_pct": 0.686,
+        "points_per_week": 146.1,
+        "average_opponent_points": 131.71,
         "all_play_rank": 2,
         "luck_rank": 9,
         "unluckiest_rank": 2,
@@ -4548,24 +4950,25 @@
         "current_team_name": "I Chase Brown People",
         "seasons": [
           "2024",
-          "2025"
+          "2025",
+          "2026"
         ],
-        "weeks": 28,
-        "actual_wins": 18,
+        "weeks": 29,
+        "actual_wins": 19,
         "actual_losses": 10,
         "actual_ties": 0,
-        "actual_win_equivalents": 18,
-        "all_play_wins": 153,
-        "all_play_losses": 99,
+        "actual_win_equivalents": 19,
+        "all_play_wins": 160,
+        "all_play_losses": 101,
         "all_play_ties": 0,
-        "expected_wins": 17,
-        "points_for": 3921.92,
-        "points_against": 3538.34,
-        "opponent_points_sum": 3538.34,
-        "luck_wins": 1,
-        "all_play_win_pct": 0.607,
-        "points_per_week": 140.07,
-        "average_opponent_points": 126.37,
+        "expected_wins": 17.778,
+        "points_for": 4075.44,
+        "points_against": 3634.1,
+        "opponent_points_sum": 3634.1,
+        "luck_wins": 1.222,
+        "all_play_win_pct": 0.613,
+        "points_per_week": 140.53,
+        "average_opponent_points": 125.31,
         "all_play_rank": 3,
         "luck_rank": 4,
         "unluckiest_rank": 7,
@@ -4579,24 +4982,25 @@
         "current_team_name": "The Crusty CreamPies",
         "seasons": [
           "2024",
-          "2025"
+          "2025",
+          "2026"
         ],
-        "weeks": 28,
-        "actual_wins": 15,
+        "weeks": 29,
+        "actual_wins": 16,
         "actual_losses": 13,
         "actual_ties": 0,
-        "actual_win_equivalents": 15,
-        "all_play_wins": 131,
-        "all_play_losses": 121,
+        "actual_win_equivalents": 16,
+        "all_play_wins": 139,
+        "all_play_losses": 122,
         "all_play_ties": 0,
-        "expected_wins": 14.555,
-        "points_for": 3667,
-        "points_against": 3586.6,
-        "opponent_points_sum": 3586.6,
-        "luck_wins": 0.445,
-        "all_play_win_pct": 0.52,
-        "points_per_week": 130.96,
-        "average_opponent_points": 128.09,
+        "expected_wins": 15.444,
+        "points_for": 3837.72,
+        "points_against": 3705.16,
+        "opponent_points_sum": 3705.16,
+        "luck_wins": 0.556,
+        "all_play_win_pct": 0.533,
+        "points_per_week": 132.34,
+        "average_opponent_points": 127.76,
         "all_play_rank": 4,
         "luck_rank": 6,
         "unluckiest_rank": 5,
@@ -4610,59 +5014,29 @@
         "current_team_name": "Young N Hip",
         "seasons": [
           "2024",
-          "2025"
+          "2025",
+          "2026"
         ],
-        "weeks": 28,
+        "weeks": 29,
         "actual_wins": 14,
-        "actual_losses": 14,
+        "actual_losses": 15,
         "actual_ties": 0,
         "actual_win_equivalents": 14,
         "all_play_wins": 122,
-        "all_play_losses": 130,
+        "all_play_losses": 139,
         "all_play_ties": 0,
         "expected_wins": 13.556,
-        "points_for": 3547.76,
-        "points_against": 3603.54,
-        "opponent_points_sum": 3603.54,
+        "points_for": 3643.52,
+        "points_against": 3757.06,
+        "opponent_points_sum": 3757.06,
         "luck_wins": 0.444,
-        "all_play_win_pct": 0.484,
-        "points_per_week": 126.71,
-        "average_opponent_points": 128.7,
+        "all_play_win_pct": 0.467,
+        "points_per_week": 125.64,
+        "average_opponent_points": 129.55,
         "all_play_rank": 5,
         "luck_rank": 7,
         "unluckiest_rank": 4,
-        "schedule_strength_rank": 7
-      },
-      {
-        "owner_key": "user:1129877684336578560",
-        "owner_id": "1129877684336578560",
-        "display_name": "cjosiecki",
-        "current_roster_id": 2,
-        "current_team_name": "Cam dog",
-        "seasons": [
-          "2024",
-          "2025"
-        ],
-        "weeks": 28,
-        "actual_wins": 11,
-        "actual_losses": 17,
-        "actual_ties": 0,
-        "actual_win_equivalents": 11,
-        "all_play_wins": 116,
-        "all_play_losses": 136,
-        "all_play_ties": 0,
-        "expected_wins": 12.889,
-        "points_for": 3597.34,
-        "points_against": 3764.46,
-        "opponent_points_sum": 3764.46,
-        "luck_wins": -1.889,
-        "all_play_win_pct": 0.46,
-        "points_per_week": 128.48,
-        "average_opponent_points": 134.44,
-        "all_play_rank": 6,
-        "luck_rank": 8,
-        "unluckiest_rank": 3,
-        "schedule_strength_rank": 2
+        "schedule_strength_rank": 6
       },
       {
         "owner_key": "user:1008209629677158400",
@@ -4672,28 +5046,61 @@
         "current_team_name": "McCaffrican Americans",
         "seasons": [
           "2024",
-          "2025"
+          "2025",
+          "2026"
         ],
-        "weeks": 28,
-        "actual_wins": 14,
+        "weeks": 29,
+        "actual_wins": 15,
         "actual_losses": 14,
         "actual_ties": 0,
-        "actual_win_equivalents": 14,
-        "all_play_wins": 115,
-        "all_play_losses": 137,
+        "actual_win_equivalents": 15,
+        "all_play_wins": 121,
+        "all_play_losses": 140,
         "all_play_ties": 0,
-        "expected_wins": 12.778,
-        "points_for": 3501.6,
-        "points_against": 3670.2,
-        "opponent_points_sum": 3670.2,
-        "luck_wins": 1.222,
-        "all_play_win_pct": 0.456,
-        "points_per_week": 125.06,
-        "average_opponent_points": 131.08,
-        "all_play_rank": 7,
-        "luck_rank": 3,
-        "unluckiest_rank": 8,
+        "expected_wins": 13.445,
+        "points_for": 3646.08,
+        "points_against": 3768.12,
+        "opponent_points_sum": 3768.12,
+        "luck_wins": 1.555,
+        "all_play_win_pct": 0.464,
+        "points_per_week": 125.73,
+        "average_opponent_points": 129.94,
+        "all_play_rank": 6,
+        "luck_rank": 2,
+        "unluckiest_rank": 9,
         "schedule_strength_rank": 5
+      },
+      {
+        "owner_key": "user:1129877684336578560",
+        "owner_id": "1129877684336578560",
+        "display_name": "cjosiecki",
+        "current_roster_id": 2,
+        "current_team_name": "Cam dog",
+        "seasons": [
+          "2024",
+          "2025",
+          "2026"
+        ],
+        "weeks": 29,
+        "actual_wins": 11,
+        "actual_losses": 18,
+        "actual_ties": 0,
+        "actual_win_equivalents": 11,
+        "all_play_wins": 120,
+        "all_play_losses": 141,
+        "all_play_ties": 0,
+        "expected_wins": 13.333,
+        "points_for": 3723.84,
+        "points_against": 3898.92,
+        "opponent_points_sum": 3898.92,
+        "luck_wins": -2.333,
+        "all_play_win_pct": 0.46,
+        "points_per_week": 128.41,
+        "average_opponent_points": 134.45,
+        "all_play_rank": 7,
+        "luck_rank": 8,
+        "unluckiest_rank": 3,
+        "schedule_strength_rank": 2
       },
       {
         "owner_key": "user:1131304330881077248",
@@ -4703,28 +5110,29 @@
         "current_team_name": "PurpleRhane",
         "seasons": [
           "2024",
-          "2025"
+          "2025",
+          "2026"
         ],
-        "weeks": 28,
+        "weeks": 29,
         "actual_wins": 12,
-        "actual_losses": 16,
+        "actual_losses": 17,
         "actual_ties": 0,
         "actual_win_equivalents": 12,
-        "all_play_wins": 101,
-        "all_play_losses": 151,
+        "all_play_wins": 102,
+        "all_play_losses": 159,
         "all_play_ties": 0,
-        "expected_wins": 11.223,
-        "points_for": 3400.98,
-        "points_against": 3604.9,
-        "opponent_points_sum": 3604.9,
-        "luck_wins": 0.777,
-        "all_play_win_pct": 0.401,
-        "points_per_week": 121.46,
-        "average_opponent_points": 128.75,
+        "expected_wins": 11.334,
+        "points_for": 3498.9,
+        "points_against": 3749.38,
+        "opponent_points_sum": 3749.38,
+        "luck_wins": 0.666,
+        "all_play_win_pct": 0.391,
+        "points_per_week": 120.65,
+        "average_opponent_points": 129.29,
         "all_play_rank": 8,
         "luck_rank": 5,
         "unluckiest_rank": 6,
-        "schedule_strength_rank": 6
+        "schedule_strength_rank": 7
       },
       {
         "owner_key": "user:1129881968960901120",
@@ -4734,24 +5142,25 @@
         "current_team_name": "Third Down Syndrome",
         "seasons": [
           "2024",
-          "2025"
+          "2025",
+          "2026"
         ],
-        "weeks": 28,
+        "weeks": 29,
         "actual_wins": 6,
-        "actual_losses": 22,
+        "actual_losses": 23,
         "actual_ties": 0,
         "actual_win_equivalents": 6,
-        "all_play_wins": 92,
-        "all_play_losses": 160,
+        "all_play_wins": 95,
+        "all_play_losses": 166,
         "all_play_ties": 0,
-        "expected_wins": 10.222,
-        "points_for": 3320.08,
-        "points_against": 3852.02,
-        "opponent_points_sum": 3852.02,
-        "luck_wins": -4.222,
-        "all_play_win_pct": 0.365,
-        "points_per_week": 118.57,
-        "average_opponent_points": 137.57,
+        "expected_wins": 10.555,
+        "points_for": 3445.5,
+        "points_against": 4036.42,
+        "opponent_points_sum": 4036.42,
+        "luck_wins": -4.555,
+        "all_play_win_pct": 0.364,
+        "points_per_week": 118.81,
+        "average_opponent_points": 139.19,
         "all_play_rank": 9,
         "luck_rank": 10,
         "unluckiest_rank": 1,
@@ -4765,27 +5174,28 @@
         "current_team_name": "BING BONG",
         "seasons": [
           "2024",
-          "2025"
+          "2025",
+          "2026"
         ],
-        "weeks": 28,
+        "weeks": 29,
         "actual_wins": 11,
-        "actual_losses": 17,
+        "actual_losses": 18,
         "actual_ties": 0,
         "actual_win_equivalents": 11,
-        "all_play_wins": 84,
-        "all_play_losses": 168,
+        "all_play_wins": 86,
+        "all_play_losses": 175,
         "all_play_ties": 0,
-        "expected_wins": 9.333,
-        "points_for": 3303.34,
-        "points_against": 3710.34,
-        "opponent_points_sum": 3710.34,
-        "luck_wins": 1.667,
-        "all_play_win_pct": 0.333,
-        "points_per_week": 117.98,
-        "average_opponent_points": 132.51,
+        "expected_wins": 9.555,
+        "points_for": 3421.9,
+        "points_against": 3881.06,
+        "opponent_points_sum": 3881.06,
+        "luck_wins": 1.445,
+        "all_play_win_pct": 0.33,
+        "points_per_week": 118,
+        "average_opponent_points": 133.83,
         "all_play_rank": 10,
-        "luck_rank": 2,
-        "unluckiest_rank": 9,
+        "luck_rank": 3,
+        "unluckiest_rank": 8,
         "schedule_strength_rank": 3
       }
     ]
@@ -7308,82 +7718,6 @@
         "rivalry_rank": 14
       },
       {
-        "rivalry_id": "user:1129909167751426048__user:859906411432366080",
-        "owner_1": {
-          "owner_key": "user:1129909167751426048",
-          "owner_id": "1129909167751426048",
-          "display_name": "DuggyP",
-          "current_roster_id": 5,
-          "current_team_name": "BING BONG"
-        },
-        "owner_2": {
-          "owner_key": "user:859906411432366080",
-          "owner_id": "859906411432366080",
-          "display_name": "kuntlicker5",
-          "current_roster_id": 9,
-          "current_team_name": "The Crusty CreamPies"
-        },
-        "games": 2,
-        "wins_1": 1,
-        "wins_2": 1,
-        "ties": 0,
-        "points_1": 208.66,
-        "points_2": 220.16,
-        "average_margin": 19.99,
-        "postseason_meetings": 0,
-        "one_score_games": 0,
-        "series_leader": null,
-        "rivalry_type": "Emerging Rivalry",
-        "rivalry_score": 47.51,
-        "closest_meeting": {
-          "season": "2024",
-          "week": 7,
-          "phase": "regular",
-          "team_1_name_at_time": "BING BONG",
-          "team_2_name_at_time": "The Crusty CreamPies",
-          "points_1": 121.86,
-          "points_2": 107.62,
-          "winner_owner_key": "user:1129909167751426048",
-          "margin": 14.24
-        },
-        "biggest_blowout": {
-          "season": "2025",
-          "week": 9,
-          "phase": "regular",
-          "team_1_name_at_time": "BING BONG",
-          "team_2_name_at_time": "The Crusty CreamPies",
-          "points_1": 86.8,
-          "points_2": 112.54,
-          "winner_owner_key": "user:859906411432366080",
-          "margin": 25.74
-        },
-        "meetings": [
-          {
-            "season": "2024",
-            "week": 7,
-            "phase": "regular",
-            "team_1_name_at_time": "BING BONG",
-            "team_2_name_at_time": "The Crusty CreamPies",
-            "points_1": 121.86,
-            "points_2": 107.62,
-            "winner_owner_key": "user:1129909167751426048",
-            "margin": 14.24
-          },
-          {
-            "season": "2025",
-            "week": 9,
-            "phase": "regular",
-            "team_1_name_at_time": "BING BONG",
-            "team_2_name_at_time": "The Crusty CreamPies",
-            "points_1": 86.8,
-            "points_2": 112.54,
-            "winner_owner_key": "user:859906411432366080",
-            "margin": 25.74
-          }
-        ],
-        "rivalry_rank": 15
-      },
-      {
         "rivalry_id": "user:1131304330881077248__user:859906411432366080",
         "owner_1": {
           "owner_key": "user:1131304330881077248",
@@ -7485,7 +7819,7 @@
             "margin": 23.6
           }
         ],
-        "rivalry_rank": 16
+        "rivalry_rank": 15
       },
       {
         "rivalry_id": "user:1008209629677158400__user:937819151345799168",
@@ -7583,7 +7917,7 @@
             "margin": 98.78
           }
         ],
-        "rivalry_rank": 17
+        "rivalry_rank": 16
       },
       {
         "rivalry_id": "user:1129909167751426048__user:937819151345799168",
@@ -7698,7 +8032,7 @@
             "margin": 28.32
           }
         ],
-        "rivalry_rank": 18
+        "rivalry_rank": 17
       },
       {
         "rivalry_id": "user:1129881968960901120__user:859906411432366080",
@@ -7789,6 +8123,99 @@
             "points_2": 160.46,
             "winner_owner_key": "user:859906411432366080",
             "margin": 18.24
+          }
+        ],
+        "rivalry_rank": 18
+      },
+      {
+        "rivalry_id": "user:1008209629677158400__user:1131304330881077248",
+        "owner_1": {
+          "owner_key": "user:1008209629677158400",
+          "owner_id": "1008209629677158400",
+          "display_name": "Jordansm12",
+          "current_roster_id": 6,
+          "current_team_name": "McCaffrican Americans"
+        },
+        "owner_2": {
+          "owner_key": "user:1131304330881077248",
+          "owner_id": "1131304330881077248",
+          "display_name": "RhaneJones",
+          "current_roster_id": 8,
+          "current_team_name": "PurpleRhane"
+        },
+        "games": 3,
+        "wins_1": 1,
+        "wins_2": 2,
+        "ties": 0,
+        "points_1": 348.48,
+        "points_2": 314.94,
+        "average_margin": 19.86,
+        "postseason_meetings": 0,
+        "one_score_games": 1,
+        "series_leader": {
+          "owner_key": "user:1131304330881077248",
+          "owner_id": "1131304330881077248",
+          "display_name": "RhaneJones",
+          "current_roster_id": 8,
+          "current_team_name": "PurpleRhane"
+        },
+        "rivalry_type": "Emerging Rivalry",
+        "rivalry_score": 44.25,
+        "closest_meeting": {
+          "season": "2024",
+          "week": 7,
+          "phase": "regular",
+          "team_1_name_at_time": "McCaffrican Americans",
+          "team_2_name_at_time": "PurpleRhane",
+          "points_1": 114.62,
+          "points_2": 116,
+          "winner_owner_key": "user:1131304330881077248",
+          "margin": 1.38
+        },
+        "biggest_blowout": {
+          "season": "2026",
+          "week": 1,
+          "phase": "regular",
+          "team_1_name_at_time": "McCaffrican Americans",
+          "team_2_name_at_time": "PurpleRhane",
+          "points_1": 144.48,
+          "points_2": 97.92,
+          "winner_owner_key": "user:1008209629677158400",
+          "margin": 46.56
+        },
+        "meetings": [
+          {
+            "season": "2024",
+            "week": 7,
+            "phase": "regular",
+            "team_1_name_at_time": "McCaffrican Americans",
+            "team_2_name_at_time": "PurpleRhane",
+            "points_1": 114.62,
+            "points_2": 116,
+            "winner_owner_key": "user:1131304330881077248",
+            "margin": 1.38
+          },
+          {
+            "season": "2025",
+            "week": 7,
+            "phase": "regular",
+            "team_1_name_at_time": "McCaffrican Americans",
+            "team_2_name_at_time": "PurpleRhane",
+            "points_1": 89.38,
+            "points_2": 101.02,
+            "winner_owner_key": "user:1131304330881077248",
+            "margin": 11.64
+          },
+          {
+            "season": "2026",
+            "week": 1,
+            "phase": "regular",
+            "team_1_name_at_time": "McCaffrican Americans",
+            "team_2_name_at_time": "PurpleRhane",
+            "points_1": 144.48,
+            "points_2": 97.92,
+            "winner_owner_key": "user:1008209629677158400",
+            "margin": 46.56
           }
         ],
         "rivalry_rank": 19
@@ -8576,6 +9003,214 @@
         "rivalry_rank": 27
       },
       {
+        "rivalry_id": "user:1129909167751426048__user:859906411432366080",
+        "owner_1": {
+          "owner_key": "user:1129909167751426048",
+          "owner_id": "1129909167751426048",
+          "display_name": "DuggyP",
+          "current_roster_id": 5,
+          "current_team_name": "BING BONG"
+        },
+        "owner_2": {
+          "owner_key": "user:859906411432366080",
+          "owner_id": "859906411432366080",
+          "display_name": "kuntlicker5",
+          "current_roster_id": 9,
+          "current_team_name": "The Crusty CreamPies"
+        },
+        "games": 3,
+        "wins_1": 1,
+        "wins_2": 2,
+        "ties": 0,
+        "points_1": 327.22,
+        "points_2": 390.88,
+        "average_margin": 30.71,
+        "postseason_meetings": 0,
+        "one_score_games": 0,
+        "series_leader": {
+          "owner_key": "user:859906411432366080",
+          "owner_id": "859906411432366080",
+          "display_name": "kuntlicker5",
+          "current_roster_id": 9,
+          "current_team_name": "The Crusty CreamPies"
+        },
+        "rivalry_type": "Emerging Rivalry",
+        "rivalry_score": 37.47,
+        "closest_meeting": {
+          "season": "2024",
+          "week": 7,
+          "phase": "regular",
+          "team_1_name_at_time": "BING BONG",
+          "team_2_name_at_time": "The Crusty CreamPies",
+          "points_1": 121.86,
+          "points_2": 107.62,
+          "winner_owner_key": "user:1129909167751426048",
+          "margin": 14.24
+        },
+        "biggest_blowout": {
+          "season": "2026",
+          "week": 1,
+          "phase": "regular",
+          "team_1_name_at_time": "BING BONG",
+          "team_2_name_at_time": "The Crusty CreamPies",
+          "points_1": 118.56,
+          "points_2": 170.72,
+          "winner_owner_key": "user:859906411432366080",
+          "margin": 52.16
+        },
+        "meetings": [
+          {
+            "season": "2024",
+            "week": 7,
+            "phase": "regular",
+            "team_1_name_at_time": "BING BONG",
+            "team_2_name_at_time": "The Crusty CreamPies",
+            "points_1": 121.86,
+            "points_2": 107.62,
+            "winner_owner_key": "user:1129909167751426048",
+            "margin": 14.24
+          },
+          {
+            "season": "2025",
+            "week": 9,
+            "phase": "regular",
+            "team_1_name_at_time": "BING BONG",
+            "team_2_name_at_time": "The Crusty CreamPies",
+            "points_1": 86.8,
+            "points_2": 112.54,
+            "winner_owner_key": "user:859906411432366080",
+            "margin": 25.74
+          },
+          {
+            "season": "2026",
+            "week": 1,
+            "phase": "regular",
+            "team_1_name_at_time": "BING BONG",
+            "team_2_name_at_time": "The Crusty CreamPies",
+            "points_1": 118.56,
+            "points_2": 170.72,
+            "winner_owner_key": "user:859906411432366080",
+            "margin": 52.16
+          }
+        ],
+        "rivalry_rank": 28
+      },
+      {
+        "rivalry_id": "user:1129877684336578560__user:1129897778072649728",
+        "owner_1": {
+          "owner_key": "user:1129877684336578560",
+          "owner_id": "1129877684336578560",
+          "display_name": "cjosiecki",
+          "current_roster_id": 2,
+          "current_team_name": "Cam dog"
+        },
+        "owner_2": {
+          "owner_key": "user:1129897778072649728",
+          "owner_id": "1129897778072649728",
+          "display_name": "jfrelich",
+          "current_roster_id": 4,
+          "current_team_name": "Raw Dawgs"
+        },
+        "games": 5,
+        "wins_1": 0,
+        "wins_2": 5,
+        "ties": 0,
+        "points_1": 639.48,
+        "points_2": 741.9,
+        "average_margin": 20.48,
+        "postseason_meetings": 0,
+        "one_score_games": 1,
+        "series_leader": {
+          "owner_key": "user:1129897778072649728",
+          "owner_id": "1129897778072649728",
+          "display_name": "jfrelich",
+          "current_roster_id": 4,
+          "current_team_name": "Raw Dawgs"
+        },
+        "rivalry_type": "One-Sided Feud",
+        "rivalry_score": 37.2,
+        "closest_meeting": {
+          "season": "2026",
+          "week": 1,
+          "phase": "regular",
+          "team_1_name_at_time": "Cam dog",
+          "team_2_name_at_time": "Raw Dawgs",
+          "points_1": 126.5,
+          "points_2": 134.46,
+          "winner_owner_key": "user:1129897778072649728",
+          "margin": 7.96
+        },
+        "biggest_blowout": {
+          "season": "2025",
+          "week": 4,
+          "phase": "regular",
+          "team_1_name_at_time": "the Giants",
+          "team_2_name_at_time": "Purdy Boys",
+          "points_1": 114.5,
+          "points_2": 150.58,
+          "winner_owner_key": "user:1129897778072649728",
+          "margin": 36.08
+        },
+        "meetings": [
+          {
+            "season": "2024",
+            "week": 5,
+            "phase": "regular",
+            "team_1_name_at_time": "Roscoe Arbuckle",
+            "team_2_name_at_time": "Purdy Boys",
+            "points_1": 136.5,
+            "points_2": 153.36,
+            "winner_owner_key": "user:1129897778072649728",
+            "margin": 16.86
+          },
+          {
+            "season": "2024",
+            "week": 14,
+            "phase": "regular",
+            "team_1_name_at_time": "Roscoe Arbuckle",
+            "team_2_name_at_time": "Purdy Boys",
+            "points_1": 146.86,
+            "points_2": 157.72,
+            "winner_owner_key": "user:1129897778072649728",
+            "margin": 10.86
+          },
+          {
+            "season": "2025",
+            "week": 4,
+            "phase": "regular",
+            "team_1_name_at_time": "the Giants",
+            "team_2_name_at_time": "Purdy Boys",
+            "points_1": 114.5,
+            "points_2": 150.58,
+            "winner_owner_key": "user:1129897778072649728",
+            "margin": 36.08
+          },
+          {
+            "season": "2025",
+            "week": 13,
+            "phase": "regular",
+            "team_1_name_at_time": "the Giants",
+            "team_2_name_at_time": "Purdy Boys",
+            "points_1": 115.12,
+            "points_2": 145.78,
+            "winner_owner_key": "user:1129897778072649728",
+            "margin": 30.66
+          },
+          {
+            "season": "2026",
+            "week": 1,
+            "phase": "regular",
+            "team_1_name_at_time": "Cam dog",
+            "team_2_name_at_time": "Raw Dawgs",
+            "points_1": 126.5,
+            "points_2": 134.46,
+            "winner_owner_key": "user:1129897778072649728",
+            "margin": 7.96
+          }
+        ],
+        "rivalry_rank": 29
+      },
+      {
         "rivalry_id": "user:1129877684336578560__user:1129881968960901120",
         "owner_1": {
           "owner_key": "user:1129877684336578560",
@@ -8666,100 +9301,7 @@
             "margin": 87.72
           }
         ],
-        "rivalry_rank": 28
-      },
-      {
-        "rivalry_id": "user:1129875387229560832__user:1131294900231815168",
-        "owner_1": {
-          "owner_key": "user:1129875387229560832",
-          "owner_id": "1129875387229560832",
-          "display_name": "christianhw17",
-          "current_roster_id": 1,
-          "current_team_name": "Young N Hip"
-        },
-        "owner_2": {
-          "owner_key": "user:1131294900231815168",
-          "owner_id": "1131294900231815168",
-          "display_name": "CalJansen",
-          "current_roster_id": 7,
-          "current_team_name": "I Chase Brown People"
-        },
-        "games": 3,
-        "wins_1": 1,
-        "wins_2": 2,
-        "ties": 0,
-        "points_1": 415.44,
-        "points_2": 424.24,
-        "average_margin": 33.19,
-        "postseason_meetings": 0,
-        "one_score_games": 1,
-        "series_leader": {
-          "owner_key": "user:1131294900231815168",
-          "owner_id": "1131294900231815168",
-          "display_name": "CalJansen",
-          "current_roster_id": 7,
-          "current_team_name": "I Chase Brown People"
-        },
-        "rivalry_type": "Emerging Rivalry",
-        "rivalry_score": 35.93,
-        "closest_meeting": {
-          "season": "2025",
-          "week": 13,
-          "phase": "regular",
-          "team_1_name_at_time": "Jacking Goff",
-          "team_2_name_at_time": "I Chase Brown People",
-          "points_1": 138.58,
-          "points_2": 138.68,
-          "winner_owner_key": "user:1131294900231815168",
-          "margin": 0.1
-        },
-        "biggest_blowout": {
-          "season": "2025",
-          "week": 4,
-          "phase": "regular",
-          "team_1_name_at_time": "Jacking Goff",
-          "team_2_name_at_time": "I Chase Brown People",
-          "points_1": 123.24,
-          "points_2": 177.32,
-          "winner_owner_key": "user:1131294900231815168",
-          "margin": 54.08
-        },
-        "meetings": [
-          {
-            "season": "2024",
-            "week": 8,
-            "phase": "regular",
-            "team_1_name_at_time": "Amon-Ra Fondling God",
-            "team_2_name_at_time": "Calmydia",
-            "points_1": 153.62,
-            "points_2": 108.24,
-            "winner_owner_key": "user:1129875387229560832",
-            "margin": 45.38
-          },
-          {
-            "season": "2025",
-            "week": 4,
-            "phase": "regular",
-            "team_1_name_at_time": "Jacking Goff",
-            "team_2_name_at_time": "I Chase Brown People",
-            "points_1": 123.24,
-            "points_2": 177.32,
-            "winner_owner_key": "user:1131294900231815168",
-            "margin": 54.08
-          },
-          {
-            "season": "2025",
-            "week": 13,
-            "phase": "regular",
-            "team_1_name_at_time": "Jacking Goff",
-            "team_2_name_at_time": "I Chase Brown People",
-            "points_1": 138.58,
-            "points_2": 138.68,
-            "winner_owner_key": "user:1131294900231815168",
-            "margin": 0.1
-          }
-        ],
-        "rivalry_rank": 29
+        "rivalry_rank": 30
       },
       {
         "rivalry_id": "user:1129909167751426048__user:1131304330881077248",
@@ -8852,7 +9394,111 @@
             "margin": 14.84
           }
         ],
-        "rivalry_rank": 30
+        "rivalry_rank": 31
+      },
+      {
+        "rivalry_id": "user:1129875387229560832__user:1131294900231815168",
+        "owner_1": {
+          "owner_key": "user:1129875387229560832",
+          "owner_id": "1129875387229560832",
+          "display_name": "christianhw17",
+          "current_roster_id": 1,
+          "current_team_name": "Young N Hip"
+        },
+        "owner_2": {
+          "owner_key": "user:1131294900231815168",
+          "owner_id": "1131294900231815168",
+          "display_name": "CalJansen",
+          "current_roster_id": 7,
+          "current_team_name": "I Chase Brown People"
+        },
+        "games": 4,
+        "wins_1": 1,
+        "wins_2": 3,
+        "ties": 0,
+        "points_1": 511.2,
+        "points_2": 577.76,
+        "average_margin": 39.33,
+        "postseason_meetings": 0,
+        "one_score_games": 1,
+        "series_leader": {
+          "owner_key": "user:1131294900231815168",
+          "owner_id": "1131294900231815168",
+          "display_name": "CalJansen",
+          "current_roster_id": 7,
+          "current_team_name": "I Chase Brown People"
+        },
+        "rivalry_type": "One-Sided Feud",
+        "rivalry_score": 32.92,
+        "closest_meeting": {
+          "season": "2025",
+          "week": 13,
+          "phase": "regular",
+          "team_1_name_at_time": "Jacking Goff",
+          "team_2_name_at_time": "I Chase Brown People",
+          "points_1": 138.58,
+          "points_2": 138.68,
+          "winner_owner_key": "user:1131294900231815168",
+          "margin": 0.1
+        },
+        "biggest_blowout": {
+          "season": "2026",
+          "week": 1,
+          "phase": "regular",
+          "team_1_name_at_time": "Young N Hip",
+          "team_2_name_at_time": "I Chase Brown People",
+          "points_1": 95.76,
+          "points_2": 153.52,
+          "winner_owner_key": "user:1131294900231815168",
+          "margin": 57.76
+        },
+        "meetings": [
+          {
+            "season": "2024",
+            "week": 8,
+            "phase": "regular",
+            "team_1_name_at_time": "Amon-Ra Fondling God",
+            "team_2_name_at_time": "Calmydia",
+            "points_1": 153.62,
+            "points_2": 108.24,
+            "winner_owner_key": "user:1129875387229560832",
+            "margin": 45.38
+          },
+          {
+            "season": "2025",
+            "week": 4,
+            "phase": "regular",
+            "team_1_name_at_time": "Jacking Goff",
+            "team_2_name_at_time": "I Chase Brown People",
+            "points_1": 123.24,
+            "points_2": 177.32,
+            "winner_owner_key": "user:1131294900231815168",
+            "margin": 54.08
+          },
+          {
+            "season": "2025",
+            "week": 13,
+            "phase": "regular",
+            "team_1_name_at_time": "Jacking Goff",
+            "team_2_name_at_time": "I Chase Brown People",
+            "points_1": 138.58,
+            "points_2": 138.68,
+            "winner_owner_key": "user:1131294900231815168",
+            "margin": 0.1
+          },
+          {
+            "season": "2026",
+            "week": 1,
+            "phase": "regular",
+            "team_1_name_at_time": "Young N Hip",
+            "team_2_name_at_time": "I Chase Brown People",
+            "points_1": 95.76,
+            "points_2": 153.52,
+            "winner_owner_key": "user:1131294900231815168",
+            "margin": 57.76
+          }
+        ],
+        "rivalry_rank": 32
       },
       {
         "rivalry_id": "user:1129897778072649728__user:1129909167751426048",
@@ -8956,7 +9602,7 @@
             "margin": 11.22
           }
         ],
-        "rivalry_rank": 31
+        "rivalry_rank": 33
       },
       {
         "rivalry_id": "user:1008209629677158400__user:1129881968960901120",
@@ -9049,7 +9695,7 @@
             "margin": 30.76
           }
         ],
-        "rivalry_rank": 32
+        "rivalry_rank": 34
       },
       {
         "rivalry_id": "user:1129877684336578560__user:1131294900231815168",
@@ -9164,7 +9810,7 @@
             "margin": 56.64
           }
         ],
-        "rivalry_rank": 33
+        "rivalry_rank": 35
       },
       {
         "rivalry_id": "user:1008209629677158400__user:1129897778072649728",
@@ -9257,7 +9903,7 @@
             "margin": 99.5
           }
         ],
-        "rivalry_rank": 34
+        "rivalry_rank": 36
       },
       {
         "rivalry_id": "user:1129909167751426048__user:1131294900231815168",
@@ -9350,7 +9996,7 @@
             "margin": 79.5
           }
         ],
-        "rivalry_rank": 35
+        "rivalry_rank": 37
       },
       {
         "rivalry_id": "user:1131294900231815168__user:937819151345799168",
@@ -9441,192 +10087,6 @@
             "points_2": 104.6,
             "winner_owner_key": "user:1131294900231815168",
             "margin": 54.9
-          }
-        ],
-        "rivalry_rank": 36
-      },
-      {
-        "rivalry_id": "user:1008209629677158400__user:1131304330881077248",
-        "owner_1": {
-          "owner_key": "user:1008209629677158400",
-          "owner_id": "1008209629677158400",
-          "display_name": "Jordansm12",
-          "current_roster_id": 6,
-          "current_team_name": "McCaffrican Americans"
-        },
-        "owner_2": {
-          "owner_key": "user:1131304330881077248",
-          "owner_id": "1131304330881077248",
-          "display_name": "RhaneJones",
-          "current_roster_id": 8,
-          "current_team_name": "PurpleRhane"
-        },
-        "games": 2,
-        "wins_1": 0,
-        "wins_2": 2,
-        "ties": 0,
-        "points_1": 204,
-        "points_2": 217.02,
-        "average_margin": 6.51,
-        "postseason_meetings": 0,
-        "one_score_games": 1,
-        "series_leader": {
-          "owner_key": "user:1131304330881077248",
-          "owner_id": "1131304330881077248",
-          "display_name": "RhaneJones",
-          "current_roster_id": 8,
-          "current_team_name": "PurpleRhane"
-        },
-        "rivalry_type": "Emerging Rivalry",
-        "rivalry_score": 30.93,
-        "closest_meeting": {
-          "season": "2024",
-          "week": 7,
-          "phase": "regular",
-          "team_1_name_at_time": "McCaffrican Americans",
-          "team_2_name_at_time": "PurpleRhane",
-          "points_1": 114.62,
-          "points_2": 116,
-          "winner_owner_key": "user:1131304330881077248",
-          "margin": 1.38
-        },
-        "biggest_blowout": {
-          "season": "2025",
-          "week": 7,
-          "phase": "regular",
-          "team_1_name_at_time": "McCaffrican Americans",
-          "team_2_name_at_time": "PurpleRhane",
-          "points_1": 89.38,
-          "points_2": 101.02,
-          "winner_owner_key": "user:1131304330881077248",
-          "margin": 11.64
-        },
-        "meetings": [
-          {
-            "season": "2024",
-            "week": 7,
-            "phase": "regular",
-            "team_1_name_at_time": "McCaffrican Americans",
-            "team_2_name_at_time": "PurpleRhane",
-            "points_1": 114.62,
-            "points_2": 116,
-            "winner_owner_key": "user:1131304330881077248",
-            "margin": 1.38
-          },
-          {
-            "season": "2025",
-            "week": 7,
-            "phase": "regular",
-            "team_1_name_at_time": "McCaffrican Americans",
-            "team_2_name_at_time": "PurpleRhane",
-            "points_1": 89.38,
-            "points_2": 101.02,
-            "winner_owner_key": "user:1131304330881077248",
-            "margin": 11.64
-          }
-        ],
-        "rivalry_rank": 37
-      },
-      {
-        "rivalry_id": "user:1129877684336578560__user:1129897778072649728",
-        "owner_1": {
-          "owner_key": "user:1129877684336578560",
-          "owner_id": "1129877684336578560",
-          "display_name": "cjosiecki",
-          "current_roster_id": 2,
-          "current_team_name": "Cam dog"
-        },
-        "owner_2": {
-          "owner_key": "user:1129897778072649728",
-          "owner_id": "1129897778072649728",
-          "display_name": "jfrelich",
-          "current_roster_id": 4,
-          "current_team_name": "Raw Dawgs"
-        },
-        "games": 4,
-        "wins_1": 0,
-        "wins_2": 4,
-        "ties": 0,
-        "points_1": 512.98,
-        "points_2": 607.44,
-        "average_margin": 23.62,
-        "postseason_meetings": 0,
-        "one_score_games": 0,
-        "series_leader": {
-          "owner_key": "user:1129897778072649728",
-          "owner_id": "1129897778072649728",
-          "display_name": "jfrelich",
-          "current_roster_id": 4,
-          "current_team_name": "Raw Dawgs"
-        },
-        "rivalry_type": "One-Sided Feud",
-        "rivalry_score": 30.24,
-        "closest_meeting": {
-          "season": "2024",
-          "week": 14,
-          "phase": "regular",
-          "team_1_name_at_time": "Roscoe Arbuckle",
-          "team_2_name_at_time": "Purdy Boys",
-          "points_1": 146.86,
-          "points_2": 157.72,
-          "winner_owner_key": "user:1129897778072649728",
-          "margin": 10.86
-        },
-        "biggest_blowout": {
-          "season": "2025",
-          "week": 4,
-          "phase": "regular",
-          "team_1_name_at_time": "the Giants",
-          "team_2_name_at_time": "Purdy Boys",
-          "points_1": 114.5,
-          "points_2": 150.58,
-          "winner_owner_key": "user:1129897778072649728",
-          "margin": 36.08
-        },
-        "meetings": [
-          {
-            "season": "2024",
-            "week": 5,
-            "phase": "regular",
-            "team_1_name_at_time": "Roscoe Arbuckle",
-            "team_2_name_at_time": "Purdy Boys",
-            "points_1": 136.5,
-            "points_2": 153.36,
-            "winner_owner_key": "user:1129897778072649728",
-            "margin": 16.86
-          },
-          {
-            "season": "2024",
-            "week": 14,
-            "phase": "regular",
-            "team_1_name_at_time": "Roscoe Arbuckle",
-            "team_2_name_at_time": "Purdy Boys",
-            "points_1": 146.86,
-            "points_2": 157.72,
-            "winner_owner_key": "user:1129897778072649728",
-            "margin": 10.86
-          },
-          {
-            "season": "2025",
-            "week": 4,
-            "phase": "regular",
-            "team_1_name_at_time": "the Giants",
-            "team_2_name_at_time": "Purdy Boys",
-            "points_1": 114.5,
-            "points_2": 150.58,
-            "winner_owner_key": "user:1129897778072649728",
-            "margin": 36.08
-          },
-          {
-            "season": "2025",
-            "week": 13,
-            "phase": "regular",
-            "team_1_name_at_time": "the Giants",
-            "team_2_name_at_time": "Purdy Boys",
-            "points_1": 115.12,
-            "points_2": 145.78,
-            "winner_owner_key": "user:1129897778072649728",
-            "margin": 30.66
           }
         ],
         "rivalry_rank": 38
@@ -9937,13 +10397,13 @@
           "current_roster_id": 10,
           "current_team_name": "Sugerdaddy"
         },
-        "games": 3,
+        "games": 4,
         "wins_1": 0,
-        "wins_2": 3,
+        "wins_2": 4,
         "ties": 0,
-        "points_1": 356,
-        "points_2": 443.12,
-        "average_margin": 29.04,
+        "points_1": 481.42,
+        "points_2": 627.52,
+        "average_margin": 36.53,
         "postseason_meetings": 0,
         "one_score_games": 0,
         "series_leader": {
@@ -9953,8 +10413,8 @@
           "current_roster_id": 10,
           "current_team_name": "Sugerdaddy"
         },
-        "rivalry_type": "Emerging Rivalry",
-        "rivalry_score": 21.85,
+        "rivalry_type": "One-Sided Feud",
+        "rivalry_score": 22.17,
         "closest_meeting": {
           "season": "2024",
           "week": 8,
@@ -9967,15 +10427,15 @@
           "margin": 18.62
         },
         "biggest_blowout": {
-          "season": "2025",
-          "week": 4,
+          "season": "2026",
+          "week": 1,
           "phase": "regular",
           "team_1_name_at_time": "Third Down Syndrome",
           "team_2_name_at_time": "Sugerdaddy",
-          "points_1": 107.28,
-          "points_2": 155.62,
+          "points_1": 125.42,
+          "points_2": 184.4,
           "winner_owner_key": "user:937819151345799168",
-          "margin": 48.34
+          "margin": 58.98
         },
         "meetings": [
           {
@@ -10010,6 +10470,17 @@
             "points_2": 121.68,
             "winner_owner_key": "user:937819151345799168",
             "margin": 20.16
+          },
+          {
+            "season": "2026",
+            "week": 1,
+            "phase": "regular",
+            "team_1_name_at_time": "Third Down Syndrome",
+            "team_2_name_at_time": "Sugerdaddy",
+            "points_1": 125.42,
+            "points_2": 184.4,
+            "winner_owner_key": "user:937819151345799168",
+            "margin": 58.98
           }
         ],
         "rivalry_rank": 42
@@ -10300,7 +10771,7 @@
       ],
       "style_scores": {
         "deal_maker": 46.88,
-        "waiver_hawk": 14.44,
+        "waiver_hawk": 15.28,
         "future_builder": 76.67,
         "win_now": 27.91
       },
@@ -10384,14 +10855,14 @@
       ],
       "style_scores": {
         "deal_maker": 87.5,
-        "waiver_hawk": 58.89,
+        "waiver_hawk": 61.39,
         "future_builder": 75.56,
         "win_now": 58.12
       },
       "evidence": {
         "completed_trades": 20,
-        "transactions_involved": 69,
-        "waiver_and_free_agent_activity_score_raw": 70,
+        "transactions_involved": 70,
+        "waiver_and_free_agent_activity_score_raw": 71,
         "first_round_picks_sent": 6,
         "net_draft_picks_acquired": 4,
         "current_future_firsts": 4,
@@ -10407,10 +10878,10 @@
       "current_roster_id": 4,
       "current_team_name": "Raw Dawgs",
       "primary_archetype": {
-        "id": "win_now",
-        "label": "The Win-Now Contender",
-        "description": "Pairs a strong current roster with an aggressive competitive posture.",
-        "confidence_score": 65
+        "id": "balanced",
+        "label": "The Balanced Operator",
+        "description": "Uses a diversified approach without relying on one dominant management style.",
+        "confidence_score": 60
       },
       "secondary_traits": [
         {
@@ -10421,19 +10892,19 @@
         {
           "id": "waiver_hawk",
           "label": "The Waiver Hawk",
-          "score": 63.34
+          "score": 65.42
         }
       ],
       "style_scores": {
         "deal_maker": 40.63,
-        "waiver_hawk": 63.34,
+        "waiver_hawk": 65.42,
         "future_builder": 23.33,
         "win_now": 68.34
       },
       "evidence": {
         "completed_trades": 9,
-        "transactions_involved": 59,
-        "waiver_and_free_agent_activity_score_raw": 74,
+        "transactions_involved": 61,
+        "waiver_and_free_agent_activity_score_raw": 76,
         "first_round_picks_sent": 3,
         "net_draft_picks_acquired": -5,
         "current_future_firsts": 3,
@@ -10458,7 +10929,7 @@
         {
           "id": "waiver_hawk",
           "label": "The Waiver Hawk",
-          "score": 41.11
+          "score": 42.36
         },
         {
           "id": "deal_maker",
@@ -10468,7 +10939,7 @@
       ],
       "style_scores": {
         "deal_maker": 28.13,
-        "waiver_hawk": 41.11,
+        "waiver_hawk": 42.36,
         "future_builder": 10,
         "win_now": 20.63
       },
@@ -10505,12 +10976,12 @@
         {
           "id": "waiver_hawk",
           "label": "The Waiver Hawk",
-          "score": 36.66
+          "score": 38.33
         }
       ],
       "style_scores": {
         "deal_maker": 71.88,
-        "waiver_hawk": 36.66,
+        "waiver_hawk": 38.33,
         "future_builder": 20.55,
         "win_now": 23.55
       },
@@ -10536,7 +11007,7 @@
         "id": "win_now",
         "label": "The Win-Now Contender",
         "description": "Pairs a strong current roster with an aggressive competitive posture.",
-        "confidence_score": 76.67
+        "confidence_score": 77.9
       },
       "secondary_traits": [
         {
@@ -10547,12 +11018,12 @@
         {
           "id": "waiver_hawk",
           "label": "The Waiver Hawk",
-          "score": 81.11
+          "score": 80.7
         }
       ],
       "style_scores": {
         "deal_maker": 75,
-        "waiver_hawk": 81.11,
+        "waiver_hawk": 80.7,
         "future_builder": 74.45,
         "win_now": 90
       },
@@ -10636,7 +11107,7 @@
       ],
       "style_scores": {
         "deal_maker": 15.63,
-        "waiver_hawk": 18.89,
+        "waiver_hawk": 19.3,
         "future_builder": 30.55,
         "win_now": 51.25
       },
@@ -10668,7 +11139,7 @@
         {
           "id": "waiver_hawk",
           "label": "The Waiver Hawk",
-          "score": 85.56
+          "score": 84.72
         },
         {
           "id": "win_now",
@@ -10678,7 +11149,7 @@
       ],
       "style_scores": {
         "deal_maker": 40.63,
-        "waiver_hawk": 85.56,
+        "waiver_hawk": 84.72,
         "future_builder": 34.44,
         "win_now": 67.71
       },
@@ -11878,152 +12349,319 @@
     },
     {
       "season": "2026",
-      "status": "awaiting_completed_games",
-      "completed_games": 0,
-      "completed_regular_season_games": 0,
+      "status": "completed_games_available",
+      "completed_games": 5,
+      "completed_regular_season_games": 5,
       "completed_postseason_games": 0,
       "champion": null,
-      "regular_season_best_record": null,
-      "regular_season_scoring_champion": null,
-      "all_play_champion": null,
-      "luckiest_team": null,
-      "unluckiest_team": null,
-      "highest_weekly_score": null,
-      "lowest_weekly_score": null
-    }
-  ],
-  "awards": {
-    "latest_completed_week": {
-      "season": "2025",
-      "week": 17,
-      "phase": "postseason",
-      "top_score": {
-        "season": "2025",
-        "week": 17,
-        "phase": "postseason",
-        "matchup_id": 1,
-        "owner_key": "user:1131294900231815168",
-        "owner_id": "1131294900231815168",
-        "display_name": "CalJansen",
-        "current_roster_id": 7,
-        "current_team_name": "I Chase Brown People",
-        "historical_team_name": "I Chase Brown People",
-        "opponent_team_name": "Purdy Boys",
-        "points": 158.58,
-        "opponent_points": 138.56,
-        "result": "win"
+      "regular_season_best_record": {
+        "owner_key": "user:937819151345799168",
+        "owner_id": "937819151345799168",
+        "display_name": "gsugerman",
+        "current_roster_id": 10,
+        "current_team_name": "Sugerdaddy",
+        "wins": 1,
+        "losses": 0,
+        "ties": 0,
+        "points": 184.4
       },
-      "low_score": {
-        "season": "2025",
-        "week": 17,
-        "phase": "postseason",
-        "matchup_id": 2,
-        "owner_key": "user:859906411432366080",
-        "owner_id": "859906411432366080",
-        "display_name": "kuntlicker5",
-        "current_roster_id": 9,
-        "current_team_name": "The Crusty CreamPies",
-        "historical_team_name": "The Crusty CreamPies",
-        "opponent_team_name": "Sugerdaddy",
-        "points": 126.88,
-        "opponent_points": 127.42,
-        "result": "loss"
+      "regular_season_scoring_champion": {
+        "owner_key": "user:937819151345799168",
+        "owner_id": "937819151345799168",
+        "display_name": "gsugerman",
+        "current_roster_id": 10,
+        "current_team_name": "Sugerdaddy",
+        "wins": 1,
+        "losses": 0,
+        "ties": 0,
+        "points": 184.4
       },
-      "player_of_the_week": {
-        "owner_key": "user:859906411432366080",
-        "current_team_name": "The Crusty CreamPies",
-        "historical_team_name": null,
-        "opponent_team_name": "Sugerdaddy",
-        "player_id": "9509",
-        "player_name": "Bijan Robinson",
-        "position": "RB",
-        "fantasy_points": 39.9
+      "all_play_champion": {
+        "season": "2026",
+        "owner_key": "user:937819151345799168",
+        "owner_id": "937819151345799168",
+        "display_name": "gsugerman",
+        "current_roster_id": 10,
+        "current_team_name": "Sugerdaddy",
+        "weeks": 1,
+        "actual_wins": 1,
+        "actual_losses": 0,
+        "actual_ties": 0,
+        "actual_win_equivalents": 1,
+        "all_play_wins": 9,
+        "all_play_losses": 0,
+        "all_play_ties": 0,
+        "expected_wins": 1,
+        "points_for": 184.4,
+        "points_against": 125.42,
+        "opponent_points_sum": 125.42,
+        "weekly": [
+          {
+            "week": 1,
+            "points": 184.4,
+            "opponent_points": 125.42,
+            "actual_result": "win",
+            "all_play_wins": 9,
+            "all_play_losses": 0,
+            "all_play_ties": 0,
+            "expected_wins": 1
+          }
+        ],
+        "luck_wins": 0,
+        "all_play_win_pct": 1,
+        "points_per_week": 184.4,
+        "average_opponent_points": 125.42,
+        "all_play_rank": 1,
+        "luck_rank": 5,
+        "unluckiest_rank": 5,
+        "schedule_strength_rank": 7
       },
-      "bench_explosion": {
-        "owner_key": "user:1129897778072649728",
-        "current_team_name": "Raw Dawgs",
-        "historical_team_name": null,
-        "opponent_team_name": "I Chase Brown People",
-        "player_id": "8161",
-        "player_name": "Malik Willis",
-        "position": "QB",
-        "fantasy_points": 31.52
-      },
-      "heartbreak": {
-        "season": "2025",
-        "week": 17,
-        "phase": "postseason",
-        "matchup_id": 1,
+      "luckiest_team": {
+        "season": "2026",
         "owner_key": "user:1129897778072649728",
         "owner_id": "1129897778072649728",
         "display_name": "jfrelich",
         "current_roster_id": 4,
         "current_team_name": "Raw Dawgs",
-        "historical_team_name": "Purdy Boys",
-        "opponent_team_name": "I Chase Brown People",
-        "points": 138.56,
-        "opponent_points": 158.58,
-        "result": "loss",
-        "all_play_wins_that_week": 2,
-        "all_play_losses_that_week": 1,
-        "field_size": 4
+        "weeks": 1,
+        "actual_wins": 1,
+        "actual_losses": 0,
+        "actual_ties": 0,
+        "actual_win_equivalents": 1,
+        "all_play_wins": 5,
+        "all_play_losses": 4,
+        "all_play_ties": 0,
+        "expected_wins": 0.556,
+        "points_for": 134.46,
+        "points_against": 126.5,
+        "opponent_points_sum": 126.5,
+        "weekly": [
+          {
+            "week": 1,
+            "points": 134.46,
+            "opponent_points": 126.5,
+            "actual_result": "win",
+            "all_play_wins": 5,
+            "all_play_losses": 4,
+            "all_play_ties": 0,
+            "expected_wins": 0.556
+          }
+        ],
+        "luck_wins": 0.444,
+        "all_play_win_pct": 0.556,
+        "points_per_week": 134.46,
+        "average_opponent_points": 126.5,
+        "all_play_rank": 5,
+        "luck_rank": 1,
+        "unluckiest_rank": 9,
+        "schedule_strength_rank": 6
       },
-      "escape_artist": {
-        "season": "2025",
-        "week": 17,
-        "phase": "postseason",
-        "matchup_id": 2,
+      "unluckiest_team": {
+        "season": "2026",
+        "owner_key": "user:1129877684336578560",
+        "owner_id": "1129877684336578560",
+        "display_name": "cjosiecki",
+        "current_roster_id": 2,
+        "current_team_name": "Cam dog",
+        "weeks": 1,
+        "actual_wins": 0,
+        "actual_losses": 1,
+        "actual_ties": 0,
+        "actual_win_equivalents": 0,
+        "all_play_wins": 4,
+        "all_play_losses": 5,
+        "all_play_ties": 0,
+        "expected_wins": 0.444,
+        "points_for": 126.5,
+        "points_against": 134.46,
+        "opponent_points_sum": 134.46,
+        "weekly": [
+          {
+            "week": 1,
+            "points": 126.5,
+            "opponent_points": 134.46,
+            "actual_result": "loss",
+            "all_play_wins": 4,
+            "all_play_losses": 5,
+            "all_play_ties": 0,
+            "expected_wins": 0.444
+          }
+        ],
+        "luck_wins": -0.444,
+        "all_play_win_pct": 0.444,
+        "points_per_week": 126.5,
+        "average_opponent_points": 134.46,
+        "all_play_rank": 6,
+        "luck_rank": 9,
+        "unluckiest_rank": 1,
+        "schedule_strength_rank": 5
+      },
+      "highest_weekly_score": {
+        "season": "2026",
+        "week": 1,
+        "phase": "regular",
+        "matchup_id": 4,
         "owner_key": "user:937819151345799168",
         "owner_id": "937819151345799168",
         "display_name": "gsugerman",
         "current_roster_id": 10,
         "current_team_name": "Sugerdaddy",
         "historical_team_name": "Sugerdaddy",
-        "opponent_team_name": "The Crusty CreamPies",
-        "points": 127.42,
-        "opponent_points": 126.88,
+        "opponent_team_name": "Third Down Syndrome",
+        "points": 184.4,
+        "opponent_points": 125.42,
+        "result": "win"
+      },
+      "lowest_weekly_score": {
+        "season": "2026",
+        "week": 1,
+        "phase": "regular",
+        "matchup_id": 2,
+        "owner_key": "user:1129875387229560832",
+        "owner_id": "1129875387229560832",
+        "display_name": "christianhw17",
+        "current_roster_id": 1,
+        "current_team_name": "Young N Hip",
+        "historical_team_name": "Young N Hip",
+        "opponent_team_name": "I Chase Brown People",
+        "points": 95.76,
+        "opponent_points": 153.52,
+        "result": "loss"
+      }
+    }
+  ],
+  "awards": {
+    "latest_completed_week": {
+      "season": "2026",
+      "week": 1,
+      "phase": "regular",
+      "top_score": {
+        "season": "2026",
+        "week": 1,
+        "phase": "regular",
+        "matchup_id": 4,
+        "owner_key": "user:937819151345799168",
+        "owner_id": "937819151345799168",
+        "display_name": "gsugerman",
+        "current_roster_id": 10,
+        "current_team_name": "Sugerdaddy",
+        "historical_team_name": "Sugerdaddy",
+        "opponent_team_name": "Third Down Syndrome",
+        "points": 184.4,
+        "opponent_points": 125.42,
+        "result": "win"
+      },
+      "low_score": {
+        "season": "2026",
+        "week": 1,
+        "phase": "regular",
+        "matchup_id": 2,
+        "owner_key": "user:1129875387229560832",
+        "owner_id": "1129875387229560832",
+        "display_name": "christianhw17",
+        "current_roster_id": 1,
+        "current_team_name": "Young N Hip",
+        "historical_team_name": "Young N Hip",
+        "opponent_team_name": "I Chase Brown People",
+        "points": 95.76,
+        "opponent_points": 153.52,
+        "result": "loss"
+      },
+      "player_of_the_week": {
+        "owner_key": "user:1129881968960901120",
+        "current_team_name": "Third Down Syndrome",
+        "historical_team_name": null,
+        "opponent_team_name": "Sugerdaddy",
+        "player_id": "11560",
+        "player_name": "Caleb Williams",
+        "position": "QB",
+        "fantasy_points": 37.26
+      },
+      "bench_explosion": {
+        "owner_key": "user:937819151345799168",
+        "current_team_name": "Sugerdaddy",
+        "historical_team_name": null,
+        "opponent_team_name": "Third Down Syndrome",
+        "player_id": "8151",
+        "player_name": "Kenneth Walker",
+        "position": "RB",
+        "fantasy_points": 34.1
+      },
+      "heartbreak": {
+        "season": "2026",
+        "week": 1,
+        "phase": "regular",
+        "matchup_id": 3,
+        "owner_key": "user:1129877684336578560",
+        "owner_id": "1129877684336578560",
+        "display_name": "cjosiecki",
+        "current_roster_id": 2,
+        "current_team_name": "Cam dog",
+        "historical_team_name": "Cam dog",
+        "opponent_team_name": "Raw Dawgs",
+        "points": 126.5,
+        "opponent_points": 134.46,
+        "result": "loss",
+        "all_play_wins_that_week": 4,
+        "all_play_losses_that_week": 5,
+        "field_size": 10
+      },
+      "escape_artist": {
+        "season": "2026",
+        "week": 1,
+        "phase": "regular",
+        "matchup_id": 3,
+        "owner_key": "user:1129897778072649728",
+        "owner_id": "1129897778072649728",
+        "display_name": "jfrelich",
+        "current_roster_id": 4,
+        "current_team_name": "Raw Dawgs",
+        "historical_team_name": "Raw Dawgs",
+        "opponent_team_name": "Cam dog",
+        "points": 134.46,
+        "opponent_points": 126.5,
         "result": "win",
-        "all_play_wins_that_week": 1,
-        "all_play_losses_that_week": 2,
-        "field_size": 4
+        "all_play_wins_that_week": 5,
+        "all_play_losses_that_week": 4,
+        "field_size": 10
       },
       "biggest_blowout": {
-        "season": "2025",
-        "week": 17,
-        "phase": "postseason",
+        "season": "2026",
+        "week": 1,
+        "phase": "regular",
         "team_1": {
-          "season": "2025",
-          "week": 17,
-          "phase": "postseason",
-          "matchup_id": 1,
-          "owner_key": "user:1129897778072649728",
-          "owner_id": "1129897778072649728",
-          "display_name": "jfrelich",
-          "current_roster_id": 4,
-          "current_team_name": "Raw Dawgs",
-          "historical_team_name": "Purdy Boys",
-          "opponent_team_name": "I Chase Brown People",
-          "points": 138.56,
-          "opponent_points": 158.58,
+          "season": "2026",
+          "week": 1,
+          "phase": "regular",
+          "matchup_id": 4,
+          "owner_key": "user:1129881968960901120",
+          "owner_id": "1129881968960901120",
+          "display_name": "colemueller1010",
+          "current_roster_id": 3,
+          "current_team_name": "Third Down Syndrome",
+          "historical_team_name": "Third Down Syndrome",
+          "opponent_team_name": "Sugerdaddy",
+          "points": 125.42,
+          "opponent_points": 184.4,
           "result": "loss"
         },
         "team_2": {
-          "season": "2025",
-          "week": 17,
-          "phase": "postseason",
-          "matchup_id": 1,
-          "owner_key": "user:1131294900231815168",
-          "owner_id": "1131294900231815168",
-          "display_name": "CalJansen",
-          "current_roster_id": 7,
-          "current_team_name": "I Chase Brown People",
-          "historical_team_name": "I Chase Brown People",
-          "opponent_team_name": "Purdy Boys",
-          "points": 158.58,
-          "opponent_points": 138.56,
+          "season": "2026",
+          "week": 1,
+          "phase": "regular",
+          "matchup_id": 4,
+          "owner_key": "user:937819151345799168",
+          "owner_id": "937819151345799168",
+          "display_name": "gsugerman",
+          "current_roster_id": 10,
+          "current_team_name": "Sugerdaddy",
+          "historical_team_name": "Sugerdaddy",
+          "opponent_team_name": "Third Down Syndrome",
+          "points": 184.4,
+          "opponent_points": 125.42,
           "result": "win"
         },
-        "margin": 20.02
+        "margin": 58.98
       }
     },
     "all_time": {
@@ -13390,11 +14028,153 @@
       {
         "season": "2026",
         "champion": null,
-        "scoring_champion": null,
-        "all_play_champion": null,
-        "luckiest_team": null,
-        "unluckiest_team": null,
-        "highest_weekly_score": null
+        "scoring_champion": {
+          "owner_key": "user:937819151345799168",
+          "owner_id": "937819151345799168",
+          "display_name": "gsugerman",
+          "current_roster_id": 10,
+          "current_team_name": "Sugerdaddy",
+          "wins": 1,
+          "losses": 0,
+          "ties": 0,
+          "points": 184.4
+        },
+        "all_play_champion": {
+          "season": "2026",
+          "owner_key": "user:937819151345799168",
+          "owner_id": "937819151345799168",
+          "display_name": "gsugerman",
+          "current_roster_id": 10,
+          "current_team_name": "Sugerdaddy",
+          "weeks": 1,
+          "actual_wins": 1,
+          "actual_losses": 0,
+          "actual_ties": 0,
+          "actual_win_equivalents": 1,
+          "all_play_wins": 9,
+          "all_play_losses": 0,
+          "all_play_ties": 0,
+          "expected_wins": 1,
+          "points_for": 184.4,
+          "points_against": 125.42,
+          "opponent_points_sum": 125.42,
+          "weekly": [
+            {
+              "week": 1,
+              "points": 184.4,
+              "opponent_points": 125.42,
+              "actual_result": "win",
+              "all_play_wins": 9,
+              "all_play_losses": 0,
+              "all_play_ties": 0,
+              "expected_wins": 1
+            }
+          ],
+          "luck_wins": 0,
+          "all_play_win_pct": 1,
+          "points_per_week": 184.4,
+          "average_opponent_points": 125.42,
+          "all_play_rank": 1,
+          "luck_rank": 5,
+          "unluckiest_rank": 5,
+          "schedule_strength_rank": 7
+        },
+        "luckiest_team": {
+          "season": "2026",
+          "owner_key": "user:1129897778072649728",
+          "owner_id": "1129897778072649728",
+          "display_name": "jfrelich",
+          "current_roster_id": 4,
+          "current_team_name": "Raw Dawgs",
+          "weeks": 1,
+          "actual_wins": 1,
+          "actual_losses": 0,
+          "actual_ties": 0,
+          "actual_win_equivalents": 1,
+          "all_play_wins": 5,
+          "all_play_losses": 4,
+          "all_play_ties": 0,
+          "expected_wins": 0.556,
+          "points_for": 134.46,
+          "points_against": 126.5,
+          "opponent_points_sum": 126.5,
+          "weekly": [
+            {
+              "week": 1,
+              "points": 134.46,
+              "opponent_points": 126.5,
+              "actual_result": "win",
+              "all_play_wins": 5,
+              "all_play_losses": 4,
+              "all_play_ties": 0,
+              "expected_wins": 0.556
+            }
+          ],
+          "luck_wins": 0.444,
+          "all_play_win_pct": 0.556,
+          "points_per_week": 134.46,
+          "average_opponent_points": 126.5,
+          "all_play_rank": 5,
+          "luck_rank": 1,
+          "unluckiest_rank": 9,
+          "schedule_strength_rank": 6
+        },
+        "unluckiest_team": {
+          "season": "2026",
+          "owner_key": "user:1129877684336578560",
+          "owner_id": "1129877684336578560",
+          "display_name": "cjosiecki",
+          "current_roster_id": 2,
+          "current_team_name": "Cam dog",
+          "weeks": 1,
+          "actual_wins": 0,
+          "actual_losses": 1,
+          "actual_ties": 0,
+          "actual_win_equivalents": 0,
+          "all_play_wins": 4,
+          "all_play_losses": 5,
+          "all_play_ties": 0,
+          "expected_wins": 0.444,
+          "points_for": 126.5,
+          "points_against": 134.46,
+          "opponent_points_sum": 134.46,
+          "weekly": [
+            {
+              "week": 1,
+              "points": 126.5,
+              "opponent_points": 134.46,
+              "actual_result": "loss",
+              "all_play_wins": 4,
+              "all_play_losses": 5,
+              "all_play_ties": 0,
+              "expected_wins": 0.444
+            }
+          ],
+          "luck_wins": -0.444,
+          "all_play_win_pct": 0.444,
+          "points_per_week": 126.5,
+          "average_opponent_points": 134.46,
+          "all_play_rank": 6,
+          "luck_rank": 9,
+          "unluckiest_rank": 1,
+          "schedule_strength_rank": 5
+        },
+        "highest_weekly_score": {
+          "season": "2026",
+          "week": 1,
+          "phase": "regular",
+          "matchup_id": 4,
+          "owner_key": "user:937819151345799168",
+          "owner_id": "937819151345799168",
+          "display_name": "gsugerman",
+          "current_roster_id": 10,
+          "current_team_name": "Sugerdaddy",
+          "historical_team_name": "Sugerdaddy",
+          "opponent_team_name": "Third Down Syndrome",
+          "points": 184.4,
+          "opponent_points": 125.42,
+          "result": "win"
+        }
       }
     ]
   }
