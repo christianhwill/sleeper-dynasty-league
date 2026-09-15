@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T12:01:00.787Z",
+  "generated_at": "2026-09-15T00:00:40.703Z",
   "season": "2026",
   "teams": [
     {
@@ -1339,6 +1339,21 @@
           "years_exp": 1
         },
         {
+          "player_id": "12492",
+          "name": "Pat Bryant",
+          "first_name": "Pat",
+          "last_name": "Bryant",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "DEN",
+          "status": "Active",
+          "injury_status": null,
+          "age": 23,
+          "years_exp": 1
+        },
+        {
           "player_id": "12509",
           "name": "Tre' Harris",
           "first_name": "Tre'",
@@ -1673,34 +1688,49 @@
       ],
       "taxi": [
         {
-          "player_id": "12487",
-          "name": "Terrance Ferguson",
-          "first_name": "Terrance",
-          "last_name": "Ferguson",
-          "position": "TE",
+          "player_id": "13345",
+          "name": "Jonah Coleman",
+          "first_name": "Jonah",
+          "last_name": "Coleman",
+          "position": "RB",
           "fantasy_positions": [
-            "TE"
+            "RB"
           ],
-          "team": "LAR",
+          "team": "DEN",
           "status": "Active",
           "injury_status": null,
           "age": 23,
-          "years_exp": 1
+          "years_exp": null
         },
         {
-          "player_id": "12509",
-          "name": "Tre' Harris",
-          "first_name": "Tre'",
-          "last_name": "Harris",
+          "player_id": "13405",
+          "name": "Kaytron Allen",
+          "first_name": "Kaytron",
+          "last_name": "Allen",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "team": "WAS",
+          "status": "Active",
+          "injury_status": null,
+          "age": 23,
+          "years_exp": null
+        },
+        {
+          "player_id": "13417",
+          "name": "De'Zhaun Stribling",
+          "first_name": "De'Zhaun",
+          "last_name": "Stribling",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "LAC",
+          "team": "SF",
           "status": "Active",
-          "injury_status": null,
-          "age": 24,
-          "years_exp": 1
+          "injury_status": "Out",
+          "age": 23,
+          "years_exp": null
         }
       ],
       "reserve": []
@@ -1746,21 +1776,6 @@
           "years_exp": 3
         },
         {
-          "player_id": "11569",
-          "name": "Jarquez Hunter",
-          "first_name": "Jarquez",
-          "last_name": "Hunter",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "MIA",
-          "status": "Active",
-          "injury_status": null,
-          "age": 23,
-          "years_exp": 1
-        },
-        {
           "player_id": "11584",
           "name": "Bucky Irving",
           "first_name": "Bucky",
@@ -1804,21 +1819,6 @@
           "injury_status": null,
           "age": 24,
           "years_exp": 2
-        },
-        {
-          "player_id": "12483",
-          "name": "Jack Bech",
-          "first_name": "Jack",
-          "last_name": "Bech",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "LV",
-          "status": "Active",
-          "injury_status": null,
-          "age": 23,
-          "years_exp": 1
         },
         {
           "player_id": "12517",
@@ -2198,38 +2198,7 @@
           "years_exp": 4
         }
       ],
-      "taxi": [
-        {
-          "player_id": "11569",
-          "name": "Jarquez Hunter",
-          "first_name": "Jarquez",
-          "last_name": "Hunter",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "MIA",
-          "status": "Active",
-          "injury_status": null,
-          "age": 23,
-          "years_exp": 1
-        },
-        {
-          "player_id": "12483",
-          "name": "Jack Bech",
-          "first_name": "Jack",
-          "last_name": "Bech",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "LV",
-          "status": "Active",
-          "injury_status": null,
-          "age": 23,
-          "years_exp": 1
-        }
-      ],
+      "taxi": [],
       "reserve": []
     },
     {
