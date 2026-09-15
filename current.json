@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T12:01:00.787Z",
+  "generated_at": "2026-09-15T00:00:40.703Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -1464,6 +1464,21 @@
           "years_exp": 1
         },
         {
+          "player_id": "12492",
+          "name": "Pat Bryant",
+          "first_name": "Pat",
+          "last_name": "Bryant",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "DEN",
+          "status": "Active",
+          "injury_status": null,
+          "age": 23,
+          "years_exp": 1
+        },
+        {
           "player_id": "12509",
           "name": "Tre' Harris",
           "first_name": "Tre'",
@@ -1798,34 +1813,49 @@
       ],
       "taxi": [
         {
-          "player_id": "12487",
-          "name": "Terrance Ferguson",
-          "first_name": "Terrance",
-          "last_name": "Ferguson",
-          "position": "TE",
+          "player_id": "13345",
+          "name": "Jonah Coleman",
+          "first_name": "Jonah",
+          "last_name": "Coleman",
+          "position": "RB",
           "fantasy_positions": [
-            "TE"
+            "RB"
           ],
-          "team": "LAR",
+          "team": "DEN",
           "status": "Active",
           "injury_status": null,
           "age": 23,
-          "years_exp": 1
+          "years_exp": null
         },
         {
-          "player_id": "12509",
-          "name": "Tre' Harris",
-          "first_name": "Tre'",
-          "last_name": "Harris",
+          "player_id": "13405",
+          "name": "Kaytron Allen",
+          "first_name": "Kaytron",
+          "last_name": "Allen",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "team": "WAS",
+          "status": "Active",
+          "injury_status": null,
+          "age": 23,
+          "years_exp": null
+        },
+        {
+          "player_id": "13417",
+          "name": "De'Zhaun Stribling",
+          "first_name": "De'Zhaun",
+          "last_name": "Stribling",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "LAC",
+          "team": "SF",
           "status": "Active",
-          "injury_status": null,
-          "age": 24,
-          "years_exp": 1
+          "injury_status": "Out",
+          "age": 23,
+          "years_exp": null
         }
       ],
       "reserve": []
@@ -1871,21 +1901,6 @@
           "years_exp": 3
         },
         {
-          "player_id": "11569",
-          "name": "Jarquez Hunter",
-          "first_name": "Jarquez",
-          "last_name": "Hunter",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "MIA",
-          "status": "Active",
-          "injury_status": null,
-          "age": 23,
-          "years_exp": 1
-        },
-        {
           "player_id": "11584",
           "name": "Bucky Irving",
           "first_name": "Bucky",
@@ -1929,21 +1944,6 @@
           "injury_status": null,
           "age": 24,
           "years_exp": 2
-        },
-        {
-          "player_id": "12483",
-          "name": "Jack Bech",
-          "first_name": "Jack",
-          "last_name": "Bech",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "LV",
-          "status": "Active",
-          "injury_status": null,
-          "age": 23,
-          "years_exp": 1
         },
         {
           "player_id": "12517",
@@ -2323,38 +2323,7 @@
           "years_exp": 4
         }
       ],
-      "taxi": [
-        {
-          "player_id": "11569",
-          "name": "Jarquez Hunter",
-          "first_name": "Jarquez",
-          "last_name": "Hunter",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "MIA",
-          "status": "Active",
-          "injury_status": null,
-          "age": 23,
-          "years_exp": 1
-        },
-        {
-          "player_id": "12483",
-          "name": "Jack Bech",
-          "first_name": "Jack",
-          "last_name": "Bech",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "LV",
-          "status": "Active",
-          "injury_status": null,
-          "age": 23,
-          "years_exp": 1
-        }
-      ],
+      "taxi": [],
       "reserve": []
     },
     {
@@ -7219,6 +7188,141 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1405267137425080320",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1789404303465,
+      "created_iso": "2026-09-14T16:45:03.465Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "1129897778072649728",
+      "roster_ids": [
+        4
+      ],
+      "teams": [
+        {
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        }
+      ],
+      "adds": [],
+      "drops": [
+        {
+          "player": {
+            "player_id": "12483",
+            "name": "Jack Bech",
+            "first_name": "Jack",
+            "last_name": "Bech",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "LV",
+            "status": "Active",
+            "injury_status": null,
+            "age": 23,
+            "years_exp": 1
+          },
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1405266994260946944",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1789404269331,
+      "created_iso": "2026-09-14T16:44:29.331Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "1129897778072649728",
+      "roster_ids": [
+        4
+      ],
+      "teams": [
+        {
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        }
+      ],
+      "adds": [],
+      "drops": [
+        {
+          "player": {
+            "player_id": "11569",
+            "name": "Jarquez Hunter",
+            "first_name": "Jarquez",
+            "last_name": "Hunter",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "MIA",
+            "status": "Active",
+            "injury_status": null,
+            "age": 23,
+            "years_exp": 1
+          },
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1405243122996281344",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1789398577979,
+      "created_iso": "2026-09-14T15:09:37.979Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "1129881968960901120",
+      "roster_ids": [
+        3
+      ],
+      "teams": [
+        {
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "12492",
+            "name": "Pat Bryant",
+            "first_name": "Pat",
+            "last_name": "Bryant",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "DEN",
+            "status": "Active",
+            "injury_status": null,
+            "age": 23,
+            "years_exp": 1
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
     {
       "transaction_id": "1404329503076921344",
       "type": "free_agent",
@@ -13147,141 +13251,6 @@
           "team_name": "Third Down Syndrome"
         }
       ],
-      "draft_picks": [],
-      "waiver_budget": [],
-      "waiver_bid": null,
-      "metadata": null
-    },
-    {
-      "transaction_id": "1344898736752459776",
-      "type": "free_agent",
-      "status": "complete",
-      "created": 1775011355154,
-      "created_iso": "2026-04-01T02:42:35.154Z",
-      "week": 1,
-      "leg": 1,
-      "creator": "1131304330881077248",
-      "roster_ids": [
-        8
-      ],
-      "teams": [
-        {
-          "roster_id": 8,
-          "team_name": "PurpleRhane"
-        }
-      ],
-      "adds": [],
-      "drops": [
-        {
-          "player": {
-            "player_id": "12521",
-            "name": "Elijah Arroyo",
-            "first_name": "Elijah",
-            "last_name": "Arroyo",
-            "position": "TE",
-            "fantasy_positions": [
-              "TE"
-            ],
-            "team": "SEA",
-            "status": "Active",
-            "injury_status": null,
-            "age": 23,
-            "years_exp": 1
-          },
-          "roster_id": 8,
-          "team_name": "PurpleRhane"
-        }
-      ],
-      "draft_picks": [],
-      "waiver_budget": [],
-      "waiver_bid": null,
-      "metadata": null
-    },
-    {
-      "transaction_id": "1339463119709143040",
-      "type": "free_agent",
-      "status": "complete",
-      "created": 1773715403061,
-      "created_iso": "2026-03-17T02:43:23.061Z",
-      "week": 1,
-      "leg": 1,
-      "creator": "1129877684336578560",
-      "roster_ids": [
-        2
-      ],
-      "teams": [
-        {
-          "roster_id": 2,
-          "team_name": "Cam dog"
-        }
-      ],
-      "adds": [],
-      "drops": [
-        {
-          "player": {
-            "player_id": "2449",
-            "name": "Stefon Diggs",
-            "first_name": "Stefon",
-            "last_name": "Diggs",
-            "position": "WR",
-            "fantasy_positions": [
-              "WR"
-            ],
-            "team": "WAS",
-            "status": "Active",
-            "injury_status": null,
-            "age": 32,
-            "years_exp": 11
-          },
-          "roster_id": 2,
-          "team_name": "Cam dog"
-        }
-      ],
-      "draft_picks": [],
-      "waiver_budget": [],
-      "waiver_bid": null,
-      "metadata": null
-    },
-    {
-      "transaction_id": "1338019968523980800",
-      "type": "free_agent",
-      "status": "complete",
-      "created": 1773371329006,
-      "created_iso": "2026-03-13T03:08:49.006Z",
-      "week": 1,
-      "leg": 1,
-      "creator": "937819151345799168",
-      "roster_ids": [
-        10
-      ],
-      "teams": [
-        {
-          "roster_id": 10,
-          "team_name": "Sugerdaddy"
-        }
-      ],
-      "adds": [
-        {
-          "player": {
-            "player_id": "10219",
-            "name": "Chris Rodriguez",
-            "first_name": "Chris",
-            "last_name": "Rodriguez",
-            "position": "RB",
-            "fantasy_positions": [
-              "RB"
-            ],
-            "team": "JAX",
-            "status": "Active",
-            "injury_status": null,
-            "age": 26,
-            "years_exp": 3
-          },
-          "roster_id": 10,
-          "team_name": "Sugerdaddy"
-        }
-      ],
-      "drops": [],
       "draft_picks": [],
       "waiver_budget": [],
       "waiver_bid": null,
