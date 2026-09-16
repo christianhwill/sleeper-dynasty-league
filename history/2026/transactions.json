@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T00:00:45.122Z",
+  "generated_at": "2026-09-16T12:00:25.398Z",
   "season": "2026",
   "transactions": [
     {
@@ -6723,6 +6723,120 @@
       "waiver_budget": [],
       "waiver_bid": null,
       "metadata": null
+    },
+    {
+      "transaction_id": "1405680176355926016",
+      "type": "waiver",
+      "status": "complete",
+      "created": 1789502779620,
+      "created_iso": "2026-09-15T20:06:19.620Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "9486",
+            "name": "Dontayvion Wicks",
+            "first_name": "Dontayvion",
+            "last_name": "Wicks",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "PHI",
+            "status": "Active",
+            "injury_status": null,
+            "age": 25,
+            "years_exp": 3
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "13303",
+            "name": "Cade Klubnik",
+            "first_name": "Cade",
+            "last_name": "Klubnik",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "NYJ",
+            "status": "Active",
+            "injury_status": null,
+            "age": 22,
+            "years_exp": null
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 29,
+      "metadata": {
+        "notes": "Your waiver claim was processed successfully!"
+      }
+    },
+    {
+      "transaction_id": "1405685078096367616",
+      "type": "waiver",
+      "status": "complete",
+      "created": 1789503948285,
+      "created_iso": "2026-09-15T20:25:48.285Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "1008209629677158400",
+      "roster_ids": [
+        6
+      ],
+      "teams": [
+        {
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "5854",
+            "name": "Drew Lock",
+            "first_name": "Drew",
+            "last_name": "Lock",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "SEA",
+            "status": "Active",
+            "injury_status": null,
+            "age": 29,
+            "years_exp": 7
+          },
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0,
+      "metadata": {
+        "notes": "Your waiver claim was processed successfully!"
+      }
     }
   ]
 }
