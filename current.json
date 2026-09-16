@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T00:00:45.122Z",
+  "generated_at": "2026-09-16T12:00:25.398Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -55,7 +55,7 @@
       "trade_review_days": 1,
       "bench_lock": 0,
       "offseason_adds": 1,
-      "leg": 1,
+      "leg": 2,
       "reserve_slots": 1,
       "reserve_allow_cov": 1,
       "daily_waivers_last_ran": 11
@@ -147,7 +147,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 2,
-        "waiver_position": 8,
+        "waiver_position": 7,
         "wins": 0
       },
       "record": {
@@ -738,8 +738,8 @@
         "ppts_decimal": 60,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 21,
-        "waiver_position": 10,
+        "waiver_budget_used": 50,
+        "waiver_position": 9,
         "wins": 0
       },
       "record": {
@@ -961,21 +961,6 @@
           "years_exp": null
         },
         {
-          "player_id": "13303",
-          "name": "Cade Klubnik",
-          "first_name": "Cade",
-          "last_name": "Klubnik",
-          "position": "QB",
-          "fantasy_positions": [
-            "QB"
-          ],
-          "team": "NYJ",
-          "status": "Active",
-          "injury_status": null,
-          "age": 22,
-          "years_exp": null
-        },
-        {
           "player_id": "13349",
           "name": "Eli Stowers",
           "first_name": "Eli",
@@ -1079,6 +1064,21 @@
           "injury_status": null,
           "age": 25,
           "years_exp": 4
+        },
+        {
+          "player_id": "9486",
+          "name": "Dontayvion Wicks",
+          "first_name": "Dontayvion",
+          "last_name": "Wicks",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "PHI",
+          "status": "Active",
+          "injury_status": null,
+          "age": 25,
+          "years_exp": 3
         },
         {
           "player_id": "9502",
@@ -1331,7 +1331,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 6,
+        "waiver_position": 5,
         "wins": 0
       },
       "record": {
@@ -2222,19 +2222,19 @@
       ],
       "starters": [
         {
-          "player_id": "6797",
-          "name": "Justin Herbert",
-          "first_name": "Justin",
-          "last_name": "Herbert",
+          "player_id": "8183",
+          "name": "Brock Purdy",
+          "first_name": "Brock",
+          "last_name": "Purdy",
           "position": "QB",
           "fantasy_positions": [
             "QB"
           ],
-          "team": "LAC",
+          "team": "SF",
           "status": "Active",
           "injury_status": null,
-          "age": 28,
-          "years_exp": 6
+          "age": 26,
+          "years_exp": 4
         },
         {
           "player_id": "6813",
@@ -2342,19 +2342,19 @@
           "years_exp": 2
         },
         {
-          "player_id": "8183",
-          "name": "Brock Purdy",
-          "first_name": "Brock",
-          "last_name": "Purdy",
+          "player_id": "6797",
+          "name": "Justin Herbert",
+          "first_name": "Justin",
+          "last_name": "Herbert",
           "position": "QB",
           "fantasy_positions": [
             "QB"
           ],
-          "team": "SF",
+          "team": "LAC",
           "status": "Active",
           "injury_status": null,
-          "age": 26,
-          "years_exp": 4
+          "age": 28,
+          "years_exp": 6
         }
       ],
       "taxi": [],
@@ -2378,7 +2378,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 7,
+        "waiver_position": 6,
         "wins": 0
       },
       "record": {
@@ -2910,7 +2910,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 4,
+        "waiver_position": 10,
         "wins": 1
       },
       "record": {
@@ -3130,6 +3130,21 @@
           "injury_status": null,
           "age": 31,
           "years_exp": 8
+        },
+        {
+          "player_id": "5854",
+          "name": "Drew Lock",
+          "first_name": "Drew",
+          "last_name": "Lock",
+          "position": "QB",
+          "fantasy_positions": [
+            "QB"
+          ],
+          "team": "SEA",
+          "status": "Active",
+          "injury_status": null,
+          "age": 29,
+          "years_exp": 7
         },
         {
           "player_id": "5872",
@@ -4040,7 +4055,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": -14,
-        "waiver_position": 5,
+        "waiver_position": 4,
         "wins": 0
       },
       "record": {
@@ -5193,7 +5208,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 1,
-        "waiver_position": 9,
+        "waiver_position": 8,
         "wins": 1
       },
       "record": {
@@ -7253,6 +7268,120 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1405685078096367616",
+      "type": "waiver",
+      "status": "complete",
+      "created": 1789503948285,
+      "created_iso": "2026-09-15T20:25:48.285Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "1008209629677158400",
+      "roster_ids": [
+        6
+      ],
+      "teams": [
+        {
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "5854",
+            "name": "Drew Lock",
+            "first_name": "Drew",
+            "last_name": "Lock",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "SEA",
+            "status": "Active",
+            "injury_status": null,
+            "age": 29,
+            "years_exp": 7
+          },
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0,
+      "metadata": {
+        "notes": "Your waiver claim was processed successfully!"
+      }
+    },
+    {
+      "transaction_id": "1405680176355926016",
+      "type": "waiver",
+      "status": "complete",
+      "created": 1789502779620,
+      "created_iso": "2026-09-15T20:06:19.620Z",
+      "week": 1,
+      "leg": 1,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "9486",
+            "name": "Dontayvion Wicks",
+            "first_name": "Dontayvion",
+            "last_name": "Wicks",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "PHI",
+            "status": "Active",
+            "injury_status": null,
+            "age": 25,
+            "years_exp": 3
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "13303",
+            "name": "Cade Klubnik",
+            "first_name": "Cade",
+            "last_name": "Klubnik",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "NYJ",
+            "status": "Active",
+            "injury_status": null,
+            "age": 22,
+            "years_exp": null
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 29,
+      "metadata": {
+        "notes": "Your waiver claim was processed successfully!"
+      }
+    },
     {
       "transaction_id": "1405267137425080320",
       "type": "free_agent",
@@ -13204,116 +13333,6 @@
           },
           "roster_id": 6,
           "team_name": "McCaffrican Americans"
-        }
-      ],
-      "draft_picks": [],
-      "waiver_budget": [],
-      "waiver_bid": null,
-      "metadata": null
-    },
-    {
-      "transaction_id": "1353366081703510016",
-      "type": "free_agent",
-      "status": "complete",
-      "created": 1777030127506,
-      "created_iso": "2026-04-24T11:28:47.506Z",
-      "week": 1,
-      "leg": 1,
-      "creator": "1008209629677158400",
-      "roster_ids": [
-        6
-      ],
-      "teams": [
-        {
-          "roster_id": 6,
-          "team_name": "McCaffrican Americans"
-        }
-      ],
-      "adds": [],
-      "drops": [
-        {
-          "player": {
-            "player_id": "6011",
-            "name": "Gardner Minshew",
-            "first_name": "Gardner",
-            "last_name": "Minshew",
-            "position": "QB",
-            "fantasy_positions": [
-              "QB"
-            ],
-            "team": "ARI",
-            "status": "Active",
-            "injury_status": null,
-            "age": 30,
-            "years_exp": 7
-          },
-          "roster_id": 6,
-          "team_name": "McCaffrican Americans"
-        }
-      ],
-      "draft_picks": [],
-      "waiver_budget": [],
-      "waiver_bid": null,
-      "metadata": null
-    },
-    {
-      "transaction_id": "1347569335748550656",
-      "type": "free_agent",
-      "status": "complete",
-      "created": 1775648075571,
-      "created_iso": "2026-04-08T11:34:35.571Z",
-      "week": 1,
-      "leg": 1,
-      "creator": "1129881968960901120",
-      "roster_ids": [
-        3
-      ],
-      "teams": [
-        {
-          "roster_id": 3,
-          "team_name": "Third Down Syndrome"
-        }
-      ],
-      "adds": [
-        {
-          "player": {
-            "player_id": "12467",
-            "name": "Jordan James",
-            "first_name": "Jordan",
-            "last_name": "James",
-            "position": "RB",
-            "fantasy_positions": [
-              "RB"
-            ],
-            "team": "SF",
-            "status": "Active",
-            "injury_status": "Out",
-            "age": 22,
-            "years_exp": 1
-          },
-          "roster_id": 3,
-          "team_name": "Third Down Syndrome"
-        }
-      ],
-      "drops": [
-        {
-          "player": {
-            "player_id": "12540",
-            "name": "Chimere Dike",
-            "first_name": "Chimere",
-            "last_name": "Dike",
-            "position": "WR",
-            "fantasy_positions": [
-              "WR"
-            ],
-            "team": "TEN",
-            "status": "Active",
-            "injury_status": null,
-            "age": 24,
-            "years_exp": 1
-          },
-          "roster_id": 3,
-          "team_name": "Third Down Syndrome"
         }
       ],
       "draft_picks": [],
