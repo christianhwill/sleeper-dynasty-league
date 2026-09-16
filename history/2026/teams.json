@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T00:00:45.122Z",
+  "generated_at": "2026-09-16T12:00:25.398Z",
   "season": "2026",
   "teams": [
     {
@@ -20,7 +20,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 2,
-        "waiver_position": 8,
+        "waiver_position": 7,
         "wins": 0
       },
       "record": {
@@ -611,8 +611,8 @@
         "ppts_decimal": 60,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 21,
-        "waiver_position": 10,
+        "waiver_budget_used": 50,
+        "waiver_position": 9,
         "wins": 0
       },
       "record": {
@@ -834,21 +834,6 @@
           "years_exp": null
         },
         {
-          "player_id": "13303",
-          "name": "Cade Klubnik",
-          "first_name": "Cade",
-          "last_name": "Klubnik",
-          "position": "QB",
-          "fantasy_positions": [
-            "QB"
-          ],
-          "team": "NYJ",
-          "status": "Active",
-          "injury_status": null,
-          "age": 22,
-          "years_exp": null
-        },
-        {
           "player_id": "13349",
           "name": "Eli Stowers",
           "first_name": "Eli",
@@ -952,6 +937,21 @@
           "injury_status": null,
           "age": 25,
           "years_exp": 4
+        },
+        {
+          "player_id": "9486",
+          "name": "Dontayvion Wicks",
+          "first_name": "Dontayvion",
+          "last_name": "Wicks",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "PHI",
+          "status": "Active",
+          "injury_status": null,
+          "age": 25,
+          "years_exp": 3
         },
         {
           "player_id": "9502",
@@ -1204,7 +1204,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 6,
+        "waiver_position": 5,
         "wins": 0
       },
       "record": {
@@ -2095,19 +2095,19 @@
       ],
       "starters": [
         {
-          "player_id": "6797",
-          "name": "Justin Herbert",
-          "first_name": "Justin",
-          "last_name": "Herbert",
+          "player_id": "8183",
+          "name": "Brock Purdy",
+          "first_name": "Brock",
+          "last_name": "Purdy",
           "position": "QB",
           "fantasy_positions": [
             "QB"
           ],
-          "team": "LAC",
+          "team": "SF",
           "status": "Active",
           "injury_status": null,
-          "age": 28,
-          "years_exp": 6
+          "age": 26,
+          "years_exp": 4
         },
         {
           "player_id": "6813",
@@ -2215,19 +2215,19 @@
           "years_exp": 2
         },
         {
-          "player_id": "8183",
-          "name": "Brock Purdy",
-          "first_name": "Brock",
-          "last_name": "Purdy",
+          "player_id": "6797",
+          "name": "Justin Herbert",
+          "first_name": "Justin",
+          "last_name": "Herbert",
           "position": "QB",
           "fantasy_positions": [
             "QB"
           ],
-          "team": "SF",
+          "team": "LAC",
           "status": "Active",
           "injury_status": null,
-          "age": 26,
-          "years_exp": 4
+          "age": 28,
+          "years_exp": 6
         }
       ],
       "taxi": [],
@@ -2251,7 +2251,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 7,
+        "waiver_position": 6,
         "wins": 0
       },
       "record": {
@@ -2783,7 +2783,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 4,
+        "waiver_position": 10,
         "wins": 1
       },
       "record": {
@@ -3003,6 +3003,21 @@
           "injury_status": null,
           "age": 31,
           "years_exp": 8
+        },
+        {
+          "player_id": "5854",
+          "name": "Drew Lock",
+          "first_name": "Drew",
+          "last_name": "Lock",
+          "position": "QB",
+          "fantasy_positions": [
+            "QB"
+          ],
+          "team": "SEA",
+          "status": "Active",
+          "injury_status": null,
+          "age": 29,
+          "years_exp": 7
         },
         {
           "player_id": "5872",
@@ -3913,7 +3928,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": -14,
-        "waiver_position": 5,
+        "waiver_position": 4,
         "wins": 0
       },
       "record": {
@@ -5066,7 +5081,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 1,
-        "waiver_position": 9,
+        "waiver_position": 8,
         "wins": 1
       },
       "record": {
