@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T00:01:26.745Z",
+  "generated_at": "2026-09-18T12:01:41.538Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -147,7 +147,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 2,
-        "waiver_position": 7,
+        "waiver_position": 6,
         "wins": 0
       },
       "record": {
@@ -739,7 +739,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 50,
-        "waiver_position": 9,
+        "waiver_position": 8,
         "wins": 0
       },
       "record": {
@@ -1331,7 +1331,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 5,
+        "waiver_position": 4,
         "wins": 0
       },
       "record": {
@@ -1907,8 +1907,8 @@
         "ppts_decimal": 40,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 15,
-        "waiver_position": 2,
+        "waiver_budget_used": 36,
+        "waiver_position": 10,
         "wins": 1
       },
       "record": {
@@ -1993,6 +1993,21 @@
           "injury_status": null,
           "age": 22,
           "years_exp": 1
+        },
+        {
+          "player_id": "13303",
+          "name": "Cade Klubnik",
+          "first_name": "Cade",
+          "last_name": "Klubnik",
+          "position": "QB",
+          "fantasy_positions": [
+            "QB"
+          ],
+          "team": "NYJ",
+          "status": "Active",
+          "injury_status": null,
+          "age": 22,
+          "years_exp": null
         },
         {
           "player_id": "2133",
@@ -2082,21 +2097,6 @@
           "status": "Active",
           "injury_status": null,
           "age": 27,
-          "years_exp": 6
-        },
-        {
-          "player_id": "7021",
-          "name": "Rico Dowdle",
-          "first_name": "Rico",
-          "last_name": "Dowdle",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "PIT",
-          "status": "Active",
-          "injury_status": null,
-          "age": 28,
           "years_exp": 6
         },
         {
@@ -2378,7 +2378,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 6,
+        "waiver_position": 5,
         "wins": 0
       },
       "record": {
@@ -2926,7 +2926,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 10,
+        "waiver_position": 9,
         "wins": 1
       },
       "record": {
@@ -3785,21 +3785,6 @@
           "years_exp": 4
         },
         {
-          "player_id": "8210",
-          "name": "Chig Okonkwo",
-          "first_name": "Chig",
-          "last_name": "Okonkwo",
-          "position": "TE",
-          "fantasy_positions": [
-            "TE"
-          ],
-          "team": "WAS",
-          "status": "Active",
-          "injury_status": "Questionable",
-          "age": 27,
-          "years_exp": 4
-        },
-        {
           "player_id": "9224",
           "name": "Chase Brown",
           "first_name": "Chase",
@@ -4044,23 +4029,7 @@
           "years_exp": null
         }
       ],
-      "reserve": [
-        {
-          "player_id": "12529",
-          "name": "TreVeyon Henderson",
-          "first_name": "TreVeyon",
-          "last_name": "Henderson",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "NE",
-          "status": "Active",
-          "injury_status": null,
-          "age": 23,
-          "years_exp": 1
-        }
-      ]
+      "reserve": []
     },
     {
       "roster_id": 8,
@@ -4080,7 +4049,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": -14,
-        "waiver_position": 4,
+        "waiver_position": 3,
         "wins": 0
       },
       "record": {
@@ -4642,7 +4611,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 3,
+        "waiver_position": 2,
         "wins": 1
       },
       "record": {
@@ -5203,7 +5172,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 1,
-        "waiver_position": 8,
+        "waiver_position": 7,
         "wins": 1
       },
       "record": {
@@ -7264,6 +7233,51 @@
   ],
   "recent_transactions": [
     {
+      "transaction_id": "1406478028644638720",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1789693002429,
+      "created_iso": "2026-09-18T00:56:42.429Z",
+      "week": 2,
+      "leg": 2,
+      "creator": "1131294900231815168",
+      "roster_ids": [
+        7
+      ],
+      "teams": [
+        {
+          "roster_id": 7,
+          "team_name": "I Chase Brown People"
+        }
+      ],
+      "adds": [],
+      "drops": [
+        {
+          "player": {
+            "player_id": "8210",
+            "name": "Chig Okonkwo",
+            "first_name": "Chig",
+            "last_name": "Okonkwo",
+            "position": "TE",
+            "fantasy_positions": [
+              "TE"
+            ],
+            "team": "WAS",
+            "status": "Active",
+            "injury_status": "Questionable",
+            "age": 27,
+            "years_exp": 4
+          },
+          "roster_id": 7,
+          "team_name": "I Chase Brown People"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
       "transaction_id": "1406431945457512448",
       "type": "free_agent",
       "status": "complete",
@@ -7352,6 +7366,73 @@
       "waiver_budget": [],
       "waiver_bid": null,
       "metadata": null
+    },
+    {
+      "transaction_id": "1406028252589326336",
+      "type": "waiver",
+      "status": "complete",
+      "created": 1789585767460,
+      "created_iso": "2026-09-16T19:09:27.460Z",
+      "week": 2,
+      "leg": 2,
+      "creator": "1129897778072649728",
+      "roster_ids": [
+        4
+      ],
+      "teams": [
+        {
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "13303",
+            "name": "Cade Klubnik",
+            "first_name": "Cade",
+            "last_name": "Klubnik",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "NYJ",
+            "status": "Active",
+            "injury_status": null,
+            "age": 22,
+            "years_exp": null
+          },
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "7021",
+            "name": "Rico Dowdle",
+            "first_name": "Rico",
+            "last_name": "Dowdle",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "PIT",
+            "status": "Active",
+            "injury_status": null,
+            "age": 28,
+            "years_exp": 6
+          },
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 21,
+      "metadata": {
+        "notes": "Your waiver claim was processed successfully!"
+      }
     },
     {
       "transaction_id": "1406023474039750656",
@@ -13131,116 +13212,6 @@
           },
           "roster_id": 3,
           "team_name": "Third Down Syndrome"
-        }
-      ],
-      "drops": [],
-      "draft_picks": [],
-      "waiver_budget": [],
-      "waiver_bid": null,
-      "metadata": null
-    },
-    {
-      "transaction_id": "1356102217609797632",
-      "type": "free_agent",
-      "status": "complete",
-      "created": 1777682473140,
-      "created_iso": "2026-05-02T00:41:13.140Z",
-      "week": 1,
-      "leg": 1,
-      "creator": "937819151345799168",
-      "roster_ids": [
-        10
-      ],
-      "teams": [
-        {
-          "roster_id": 10,
-          "team_name": "Sugerdaddy"
-        }
-      ],
-      "adds": [
-        {
-          "player": {
-            "player_id": "4017",
-            "name": "Deshaun Watson",
-            "first_name": "Deshaun",
-            "last_name": "Watson",
-            "position": "QB",
-            "fantasy_positions": [
-              "QB"
-            ],
-            "team": "CLE",
-            "status": "Active",
-            "injury_status": null,
-            "age": 31,
-            "years_exp": 9
-          },
-          "roster_id": 10,
-          "team_name": "Sugerdaddy"
-        }
-      ],
-      "drops": [
-        {
-          "player": {
-            "player_id": "12486",
-            "name": "Dillon Gabriel",
-            "first_name": "Dillon",
-            "last_name": "Gabriel",
-            "position": "QB",
-            "fantasy_positions": [
-              "QB"
-            ],
-            "team": "CLE",
-            "status": "Inactive",
-            "injury_status": "IR",
-            "age": 25,
-            "years_exp": 1
-          },
-          "roster_id": 10,
-          "team_name": "Sugerdaddy"
-        }
-      ],
-      "draft_picks": [],
-      "waiver_budget": [],
-      "waiver_bid": null,
-      "metadata": null
-    },
-    {
-      "transaction_id": "1356070728478232576",
-      "type": "free_agent",
-      "status": "complete",
-      "created": 1777674965546,
-      "created_iso": "2026-05-01T22:36:05.546Z",
-      "week": 1,
-      "leg": 1,
-      "creator": "1129877684336578560",
-      "roster_ids": [
-        2
-      ],
-      "teams": [
-        {
-          "roster_id": 2,
-          "team_name": "Cam dog"
-        }
-      ],
-      "adds": [
-        {
-          "player": {
-            "player_id": "6789",
-            "name": "Henry Ruggs",
-            "first_name": "Henry",
-            "last_name": "Ruggs",
-            "position": "WR",
-            "fantasy_positions": [
-              "WR"
-            ],
-            "team": null,
-            "status": "Active",
-            "injury_status": null,
-            "age": 22,
-            "years_exp": 2
-          },
-          "roster_id": 2,
-          "team_name": "Cam dog"
         }
       ],
       "drops": [],
