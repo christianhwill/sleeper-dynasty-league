@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T12:00:49.718Z",
+  "generated_at": "2026-09-18T00:01:26.745Z",
   "season": "2026",
   "teams": [
     {
@@ -849,21 +849,6 @@
           "years_exp": null
         },
         {
-          "player_id": "13411",
-          "name": "Zavion Thomas",
-          "first_name": "Zavion",
-          "last_name": "Thomas",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "CHI",
-          "status": "Active",
-          "injury_status": null,
-          "age": 22,
-          "years_exp": null
-        },
-        {
           "player_id": "13413",
           "name": "Cyrus Allen",
           "first_name": "Cyrus",
@@ -892,6 +877,21 @@
           "injury_status": null,
           "age": 36,
           "years_exp": 13
+        },
+        {
+          "player_id": "4035",
+          "name": "Alvin Kamara",
+          "first_name": "Alvin",
+          "last_name": "Kamara",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "team": "NO",
+          "status": "Active",
+          "injury_status": null,
+          "age": 31,
+          "years_exp": 9
         },
         {
           "player_id": "5850",
@@ -1123,6 +1123,21 @@
       ],
       "taxi": [
         {
+          "player_id": "13285",
+          "name": "Malachi Fields",
+          "first_name": "Malachi",
+          "last_name": "Fields",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "NYG",
+          "status": "Active",
+          "injury_status": null,
+          "age": 23,
+          "years_exp": null
+        },
+        {
           "player_id": "13349",
           "name": "Eli Stowers",
           "first_name": "Eli",
@@ -1135,21 +1150,6 @@
           "status": "Inactive",
           "injury_status": "IR",
           "age": 23,
-          "years_exp": null
-        },
-        {
-          "player_id": "13411",
-          "name": "Zavion Thomas",
-          "first_name": "Zavion",
-          "last_name": "Thomas",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "CHI",
-          "status": "Active",
-          "injury_status": null,
-          "age": 22,
           "years_exp": null
         },
         {
@@ -2058,7 +2058,7 @@
           ],
           "team": "IND",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 26,
           "years_exp": 4
         },
@@ -2596,19 +2596,19 @@
       ],
       "starters": [
         {
-          "player_id": "5849",
-          "name": "Kyler Murray",
-          "first_name": "Kyler",
-          "last_name": "Murray",
+          "player_id": "6804",
+          "name": "Jordan Love",
+          "first_name": "Jordan",
+          "last_name": "Love",
           "position": "QB",
           "fantasy_positions": [
             "QB"
           ],
-          "team": "MIN",
+          "team": "GB",
           "status": "Active",
-          "injury_status": "Questionable",
-          "age": 29,
-          "years_exp": 7
+          "injury_status": null,
+          "age": 27,
+          "years_exp": 6
         },
         {
           "player_id": "3198",
@@ -2626,19 +2626,19 @@
           "years_exp": 10
         },
         {
-          "player_id": "5967",
-          "name": "Tony Pollard",
-          "first_name": "Tony",
-          "last_name": "Pollard",
+          "player_id": "8136",
+          "name": "Rachaad White",
+          "first_name": "Rachaad",
+          "last_name": "White",
           "position": "RB",
           "fantasy_positions": [
             "RB"
           ],
-          "team": "TEN",
+          "team": "WAS",
           "status": "Active",
           "injury_status": null,
-          "age": 29,
-          "years_exp": 7
+          "age": 27,
+          "years_exp": 4
         },
         {
           "player_id": "8146",
@@ -2763,7 +2763,23 @@
           "years_exp": null
         }
       ],
-      "reserve": []
+      "reserve": [
+        {
+          "player_id": "8205",
+          "name": "Isiah Pacheco",
+          "first_name": "Isiah",
+          "last_name": "Pacheco",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "team": "DET",
+          "status": "Inactive",
+          "injury_status": "IR",
+          "age": 27,
+          "years_exp": 4
+        }
+      ]
     },
     {
       "roster_id": 6,
@@ -2941,7 +2957,7 @@
           "team": "KC",
           "status": "Active",
           "injury_status": null,
-          "age": 30,
+          "age": 31,
           "years_exp": 9
         },
         {
@@ -3153,7 +3169,7 @@
           "team": "KC",
           "status": "Active",
           "injury_status": null,
-          "age": 30,
+          "age": 31,
           "years_exp": 9
         },
         {
@@ -4123,7 +4139,7 @@
             "WR"
           ],
           "team": "BAL",
-          "status": "Active",
+          "status": "Inactive",
           "injury_status": "IR",
           "age": 22,
           "years_exp": null
@@ -5172,7 +5188,7 @@
           ],
           "team": "BUF",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 24,
           "years_exp": null
         },
@@ -5187,7 +5203,7 @@
           ],
           "team": "SF",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 24,
           "years_exp": null
         },
@@ -5337,7 +5353,7 @@
           ],
           "team": "NO",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 26,
           "years_exp": 4
         },
@@ -5494,19 +5510,19 @@
           "years_exp": 5
         },
         {
-          "player_id": "7569",
-          "name": "Nico Collins",
-          "first_name": "Nico",
-          "last_name": "Collins",
+          "player_id": "8144",
+          "name": "Chris Olave",
+          "first_name": "Chris",
+          "last_name": "Olave",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "HOU",
+          "team": "NO",
           "status": "Active",
           "injury_status": "Questionable",
-          "age": 27,
-          "years_exp": 5
+          "age": 26,
+          "years_exp": 4
         },
         {
           "player_id": "10236",
@@ -5596,7 +5612,7 @@
           ],
           "team": "BUF",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 24,
           "years_exp": null
         },
@@ -5611,7 +5627,7 @@
           ],
           "team": "SF",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 24,
           "years_exp": null
         }
