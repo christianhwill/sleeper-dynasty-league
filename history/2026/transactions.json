@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T00:00:45.829Z",
+  "generated_at": "2026-09-20T12:01:18.942Z",
   "season": "2026",
   "transactions": [
     {
@@ -7084,6 +7084,120 @@
       "waiver_budget": [],
       "waiver_bid": null,
       "metadata": null
+    },
+    {
+      "transaction_id": "1406649391456002048",
+      "type": "waiver",
+      "status": "complete",
+      "created": 1789733858506,
+      "created_iso": "2026-09-18T12:17:38.506Z",
+      "week": 2,
+      "leg": 2,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "7021",
+            "name": "Rico Dowdle",
+            "first_name": "Rico",
+            "last_name": "Dowdle",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "PIT",
+            "status": "Active",
+            "injury_status": null,
+            "age": 28,
+            "years_exp": 6
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "4035",
+            "name": "Alvin Kamara",
+            "first_name": "Alvin",
+            "last_name": "Kamara",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "NO",
+            "status": "Active",
+            "injury_status": null,
+            "age": 31,
+            "years_exp": 9
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 27,
+      "metadata": {
+        "notes": "Your waiver claim was processed successfully!"
+      }
+    },
+    {
+      "transaction_id": "1406674606235951104",
+      "type": "waiver",
+      "status": "failed",
+      "created": 1789739870178,
+      "created_iso": "2026-09-18T13:57:50.178Z",
+      "week": 2,
+      "leg": 2,
+      "creator": "1129897778072649728",
+      "roster_ids": [
+        4
+      ],
+      "teams": [
+        {
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "7021",
+            "name": "Rico Dowdle",
+            "first_name": "Rico",
+            "last_name": "Dowdle",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "PIT",
+            "status": "Active",
+            "injury_status": null,
+            "age": 28,
+            "years_exp": 6
+          },
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0,
+      "metadata": {
+        "notes": "This player was claimed by another owner."
+      }
     }
   ]
 }
