@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T00:00:45.829Z",
+  "generated_at": "2026-09-20T12:01:18.942Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -738,8 +738,8 @@
         "ppts_decimal": 60,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 50,
-        "waiver_position": 8,
+        "waiver_budget_used": 77,
+        "waiver_position": 10,
         "wins": 0
       },
       "record": {
@@ -1006,21 +1006,6 @@
           "years_exp": 13
         },
         {
-          "player_id": "4035",
-          "name": "Alvin Kamara",
-          "first_name": "Alvin",
-          "last_name": "Kamara",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "NO",
-          "status": "Active",
-          "injury_status": null,
-          "age": 31,
-          "years_exp": 9
-        },
-        {
           "player_id": "5850",
           "name": "Josh Jacobs",
           "first_name": "Josh",
@@ -1034,6 +1019,21 @@
           "injury_status": "NA",
           "age": 28,
           "years_exp": 7
+        },
+        {
+          "player_id": "7021",
+          "name": "Rico Dowdle",
+          "first_name": "Rico",
+          "last_name": "Dowdle",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "team": "PIT",
+          "status": "Active",
+          "injury_status": null,
+          "age": 28,
+          "years_exp": 6
         },
         {
           "player_id": "7523",
@@ -1593,7 +1593,7 @@
           ],
           "team": "SF",
           "status": "Inactive",
-          "injury_status": "Out",
+          "injury_status": "IR",
           "age": 23,
           "years_exp": null
         },
@@ -1867,7 +1867,7 @@
           ],
           "team": "SF",
           "status": "Inactive",
-          "injury_status": "Out",
+          "injury_status": "IR",
           "age": 23,
           "years_exp": null
         }
@@ -1908,7 +1908,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 36,
-        "waiver_position": 10,
+        "waiver_position": 9,
         "wins": 1
       },
       "record": {
@@ -2461,8 +2461,8 @@
             "WR"
           ],
           "team": "NYJ",
-          "status": "Active",
-          "injury_status": "Out",
+          "status": "Inactive",
+          "injury_status": "IR",
           "age": 22,
           "years_exp": null
         },
@@ -2885,8 +2885,8 @@
             "WR"
           ],
           "team": "NYJ",
-          "status": "Active",
-          "injury_status": "Out",
+          "status": "Inactive",
+          "injury_status": "IR",
           "age": 22,
           "years_exp": null
         },
@@ -2942,7 +2942,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 9,
+        "waiver_position": 8,
         "wins": 1
       },
       "record": {
@@ -4417,7 +4417,7 @@
           ],
           "team": "BAL",
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "age": 26,
           "years_exp": 3
         }
@@ -4494,7 +4494,7 @@
           ],
           "team": "BAL",
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "age": 26,
           "years_exp": 3
         },
@@ -4844,7 +4844,7 @@
           ],
           "team": "PIT",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "age": 28,
           "years_exp": 6
         },
@@ -7248,6 +7248,120 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1406674606235951104",
+      "type": "waiver",
+      "status": "failed",
+      "created": 1789739870178,
+      "created_iso": "2026-09-18T13:57:50.178Z",
+      "week": 2,
+      "leg": 2,
+      "creator": "1129897778072649728",
+      "roster_ids": [
+        4
+      ],
+      "teams": [
+        {
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "7021",
+            "name": "Rico Dowdle",
+            "first_name": "Rico",
+            "last_name": "Dowdle",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "PIT",
+            "status": "Active",
+            "injury_status": null,
+            "age": 28,
+            "years_exp": 6
+          },
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0,
+      "metadata": {
+        "notes": "This player was claimed by another owner."
+      }
+    },
+    {
+      "transaction_id": "1406649391456002048",
+      "type": "waiver",
+      "status": "complete",
+      "created": 1789733858506,
+      "created_iso": "2026-09-18T12:17:38.506Z",
+      "week": 2,
+      "leg": 2,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "7021",
+            "name": "Rico Dowdle",
+            "first_name": "Rico",
+            "last_name": "Dowdle",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "PIT",
+            "status": "Active",
+            "injury_status": null,
+            "age": 28,
+            "years_exp": 6
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "4035",
+            "name": "Alvin Kamara",
+            "first_name": "Alvin",
+            "last_name": "Kamara",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "NO",
+            "status": "Active",
+            "injury_status": null,
+            "age": 31,
+            "years_exp": 9
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 27,
+      "metadata": {
+        "notes": "Your waiver claim was processed successfully!"
+      }
+    },
     {
       "transaction_id": "1406478028644638720",
       "type": "free_agent",
@@ -13085,152 +13199,6 @@
           "team_name": "I Chase Brown People"
         }
       ],
-      "draft_picks": [],
-      "waiver_budget": [],
-      "waiver_bid": null,
-      "metadata": null
-    },
-    {
-      "transaction_id": "1358632890203672576",
-      "type": "trade",
-      "status": "complete",
-      "created": 1778285832505,
-      "created_iso": "2026-05-09T00:17:12.505Z",
-      "week": 1,
-      "leg": 1,
-      "creator": "1129877684336578560",
-      "roster_ids": [
-        2,
-        4
-      ],
-      "teams": [
-        {
-          "roster_id": 2,
-          "team_name": "Cam dog"
-        },
-        {
-          "roster_id": 4,
-          "team_name": "Raw Dawgs"
-        }
-      ],
-      "adds": [
-        {
-          "player": {
-            "player_id": "8126",
-            "name": "Wan'Dale Robinson",
-            "first_name": "Wan'Dale",
-            "last_name": "Robinson",
-            "position": "WR",
-            "fantasy_positions": [
-              "WR"
-            ],
-            "team": "TEN",
-            "status": "Active",
-            "injury_status": null,
-            "age": 25,
-            "years_exp": 4
-          },
-          "roster_id": 4,
-          "team_name": "Raw Dawgs"
-        }
-      ],
-      "drops": [
-        {
-          "player": {
-            "player_id": "8126",
-            "name": "Wan'Dale Robinson",
-            "first_name": "Wan'Dale",
-            "last_name": "Robinson",
-            "position": "WR",
-            "fantasy_positions": [
-              "WR"
-            ],
-            "team": "TEN",
-            "status": "Active",
-            "injury_status": null,
-            "age": 25,
-            "years_exp": 4
-          },
-          "roster_id": 2,
-          "team_name": "Cam dog"
-        }
-      ],
-      "draft_picks": [
-        {
-          "season": "2027",
-          "round": 1,
-          "original_roster_id": 3,
-          "previous_owner_roster_id": 2,
-          "current_owner_roster_id": 4,
-          "original_team": "Third Down Syndrome",
-          "previous_team": "Cam dog",
-          "current_team": "Raw Dawgs"
-        },
-        {
-          "season": "2026",
-          "round": 1,
-          "original_roster_id": 4,
-          "previous_owner_roster_id": 4,
-          "current_owner_roster_id": 2,
-          "original_team": "Raw Dawgs",
-          "previous_team": "Raw Dawgs",
-          "current_team": "Cam dog"
-        },
-        {
-          "season": "2028",
-          "round": 2,
-          "original_roster_id": 4,
-          "previous_owner_roster_id": 4,
-          "current_owner_roster_id": 2,
-          "original_team": "Raw Dawgs",
-          "previous_team": "Raw Dawgs",
-          "current_team": "Cam dog"
-        }
-      ],
-      "waiver_budget": [],
-      "waiver_bid": null,
-      "metadata": null
-    },
-    {
-      "transaction_id": "1356508591200178176",
-      "type": "free_agent",
-      "status": "complete",
-      "created": 1777779360154,
-      "created_iso": "2026-05-03T03:36:00.154Z",
-      "week": 1,
-      "leg": 1,
-      "creator": "1129881968960901120",
-      "roster_ids": [
-        3
-      ],
-      "teams": [
-        {
-          "roster_id": 3,
-          "team_name": "Third Down Syndrome"
-        }
-      ],
-      "adds": [
-        {
-          "player": {
-            "player_id": "2449",
-            "name": "Stefon Diggs",
-            "first_name": "Stefon",
-            "last_name": "Diggs",
-            "position": "WR",
-            "fantasy_positions": [
-              "WR"
-            ],
-            "team": "WAS",
-            "status": "Active",
-            "injury_status": null,
-            "age": 32,
-            "years_exp": 11
-          },
-          "roster_id": 3,
-          "team_name": "Third Down Syndrome"
-        }
-      ],
-      "drops": [],
       "draft_picks": [],
       "waiver_budget": [],
       "waiver_bid": null,
