@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T00:00:45.829Z",
+  "generated_at": "2026-09-20T12:01:18.942Z",
   "season": "2026",
   "teams": [
     {
@@ -611,8 +611,8 @@
         "ppts_decimal": 60,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 50,
-        "waiver_position": 8,
+        "waiver_budget_used": 77,
+        "waiver_position": 10,
         "wins": 0
       },
       "record": {
@@ -879,21 +879,6 @@
           "years_exp": 13
         },
         {
-          "player_id": "4035",
-          "name": "Alvin Kamara",
-          "first_name": "Alvin",
-          "last_name": "Kamara",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "NO",
-          "status": "Active",
-          "injury_status": null,
-          "age": 31,
-          "years_exp": 9
-        },
-        {
           "player_id": "5850",
           "name": "Josh Jacobs",
           "first_name": "Josh",
@@ -907,6 +892,21 @@
           "injury_status": "NA",
           "age": 28,
           "years_exp": 7
+        },
+        {
+          "player_id": "7021",
+          "name": "Rico Dowdle",
+          "first_name": "Rico",
+          "last_name": "Dowdle",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "team": "PIT",
+          "status": "Active",
+          "injury_status": null,
+          "age": 28,
+          "years_exp": 6
         },
         {
           "player_id": "7523",
@@ -1466,7 +1466,7 @@
           ],
           "team": "SF",
           "status": "Inactive",
-          "injury_status": "Out",
+          "injury_status": "IR",
           "age": 23,
           "years_exp": null
         },
@@ -1740,7 +1740,7 @@
           ],
           "team": "SF",
           "status": "Inactive",
-          "injury_status": "Out",
+          "injury_status": "IR",
           "age": 23,
           "years_exp": null
         }
@@ -1781,7 +1781,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 36,
-        "waiver_position": 10,
+        "waiver_position": 9,
         "wins": 1
       },
       "record": {
@@ -2334,8 +2334,8 @@
             "WR"
           ],
           "team": "NYJ",
-          "status": "Active",
-          "injury_status": "Out",
+          "status": "Inactive",
+          "injury_status": "IR",
           "age": 22,
           "years_exp": null
         },
@@ -2758,8 +2758,8 @@
             "WR"
           ],
           "team": "NYJ",
-          "status": "Active",
-          "injury_status": "Out",
+          "status": "Inactive",
+          "injury_status": "IR",
           "age": 22,
           "years_exp": null
         },
@@ -2815,7 +2815,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 9,
+        "waiver_position": 8,
         "wins": 1
       },
       "record": {
@@ -4290,7 +4290,7 @@
           ],
           "team": "BAL",
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "age": 26,
           "years_exp": 3
         }
@@ -4367,7 +4367,7 @@
           ],
           "team": "BAL",
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "age": 26,
           "years_exp": 3
         },
@@ -4717,7 +4717,7 @@
           ],
           "team": "PIT",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "age": 28,
           "years_exp": 6
         },
