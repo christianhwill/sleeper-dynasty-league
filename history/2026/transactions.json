@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T12:00:46.113Z",
+  "generated_at": "2026-09-22T00:00:49.406Z",
   "season": "2026",
   "transactions": [
     {
@@ -99,7 +99,7 @@
             ],
             "team": "JAX",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 23,
             "years_exp": 1
           },
@@ -144,7 +144,7 @@
             ],
             "team": "IND",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": "Out",
             "age": 23,
             "years_exp": 1
           },
@@ -189,7 +189,7 @@
             ],
             "team": "MIA",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 23,
             "years_exp": 2
           },
@@ -442,7 +442,7 @@
             ],
             "team": "CAR",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 23,
             "years_exp": 2
           },
@@ -508,7 +508,7 @@
             ],
             "team": "ATL",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 27,
             "years_exp": 4
           },
@@ -847,7 +847,7 @@
             ],
             "team": "WAS",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 25,
             "years_exp": 2
           },
@@ -887,7 +887,7 @@
             ],
             "team": "WAS",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 25,
             "years_exp": 2
           },
@@ -2280,7 +2280,7 @@
             "fantasy_positions": [
               "TE"
             ],
-            "team": null,
+            "team": "PHI",
             "status": "Active",
             "injury_status": null,
             "age": 35,
@@ -2970,7 +2970,7 @@
             ],
             "team": "NYJ",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 22,
             "years_exp": 1
           },
@@ -3259,7 +3259,7 @@
             ],
             "team": "NE",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 22,
             "years_exp": null
           },
@@ -3484,7 +3484,7 @@
             ],
             "team": "MIA",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 22,
             "years_exp": null
           },
@@ -4236,7 +4236,7 @@
             ],
             "team": "MIA",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 23,
             "years_exp": null
           },
@@ -5167,8 +5167,8 @@
               "TE"
             ],
             "team": "LAC",
-            "status": "Active",
-            "injury_status": null,
+            "status": "Inactive",
+            "injury_status": "Out",
             "age": 30,
             "years_exp": 9
           },
@@ -5302,7 +5302,7 @@
             ],
             "team": "SF",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 24,
             "years_exp": null
           },
@@ -6935,7 +6935,7 @@
             ],
             "team": "PIT",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 28,
             "years_exp": 6
           },
@@ -7116,7 +7116,7 @@
             ],
             "team": "PIT",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 28,
             "years_exp": 6
           },
@@ -7183,7 +7183,7 @@
             ],
             "team": "PIT",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 28,
             "years_exp": 6
           },
