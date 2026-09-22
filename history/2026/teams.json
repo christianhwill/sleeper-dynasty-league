@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T12:00:46.113Z",
+  "generated_at": "2026-09-22T00:00:49.406Z",
   "season": "2026",
   "teams": [
     {
@@ -162,7 +162,7 @@
           ],
           "team": "ARI",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 23,
           "years_exp": null
         },
@@ -192,7 +192,7 @@
           ],
           "team": "MIA",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 23,
           "years_exp": null
         },
@@ -282,7 +282,7 @@
           ],
           "team": "DEN",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 27,
           "years_exp": 6
         },
@@ -419,7 +419,7 @@
           ],
           "team": "DEN",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 27,
           "years_exp": 6
         },
@@ -509,7 +509,7 @@
           ],
           "team": "MIA",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 23,
           "years_exp": null
         },
@@ -634,7 +634,7 @@
           ],
           "team": "LV",
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "age": 23,
           "years_exp": 2
         },
@@ -904,7 +904,7 @@
           ],
           "team": "PIT",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 28,
           "years_exp": 6
         },
@@ -1086,7 +1086,7 @@
           ],
           "team": "PIT",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 28,
           "years_exp": 6
         },
@@ -1241,7 +1241,7 @@
           ],
           "team": "CHI",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 24,
           "years_exp": 2
         },
@@ -1271,7 +1271,7 @@
           ],
           "team": "WAS",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 25,
           "years_exp": 2
         },
@@ -1573,7 +1573,7 @@
           ],
           "team": "WAS",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 25,
           "years_exp": 2
         },
@@ -1693,7 +1693,7 @@
           ],
           "team": "CHI",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 24,
           "years_exp": 2
         }
@@ -1803,7 +1803,7 @@
           ],
           "team": "GB",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 26,
           "years_exp": 3
         },
@@ -2058,7 +2058,7 @@
           ],
           "team": "IND",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 26,
           "years_exp": 4
         },
@@ -2365,7 +2365,7 @@
           ],
           "team": "SF",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 33,
           "years_exp": 12
         },
@@ -2712,7 +2712,7 @@
           ],
           "team": "SF",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 33,
           "years_exp": 12
         },
@@ -2897,7 +2897,7 @@
           ],
           "team": "LAR",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 23,
           "years_exp": null
         },
@@ -2912,7 +2912,7 @@
           ],
           "team": "SEA",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 22,
           "years_exp": null
         },
@@ -3032,7 +3032,7 @@
           ],
           "team": "PHI",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 31,
           "years_exp": 8
         },
@@ -3259,7 +3259,7 @@
           ],
           "team": "PHI",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 31,
           "years_exp": 8
         },
@@ -3274,7 +3274,7 @@
           ],
           "team": "SEA",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 22,
           "years_exp": null
         },
@@ -3321,7 +3321,7 @@
           ],
           "team": "LAR",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 23,
           "years_exp": null
         },
@@ -3414,7 +3414,7 @@
           ],
           "team": "CAR",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 23,
           "years_exp": 2
         },
@@ -3429,7 +3429,7 @@
           ],
           "team": "LAC",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 24,
           "years_exp": 2
         },
@@ -3534,7 +3534,7 @@
           ],
           "team": "NE",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 22,
           "years_exp": null
         },
@@ -3594,7 +3594,7 @@
           ],
           "team": "CIN",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 29,
           "years_exp": 6
         },
@@ -3729,7 +3729,7 @@
           ],
           "team": "LAR",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "age": 25,
           "years_exp": 3
         }
@@ -3746,7 +3746,7 @@
           ],
           "team": "CIN",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 29,
           "years_exp": 6
         },
@@ -3791,7 +3791,7 @@
           ],
           "team": "LAR",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "age": 25,
           "years_exp": 3
         },
@@ -3913,7 +3913,7 @@
           ],
           "team": "NE",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 22,
           "years_exp": null
         }
@@ -4110,7 +4110,7 @@
           ],
           "team": "PIT",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 22,
           "years_exp": null
         },
@@ -4170,7 +4170,7 @@
           ],
           "team": "MIN",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 31,
           "years_exp": 9
         },
@@ -4275,7 +4275,7 @@
           ],
           "team": "ATL",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 27,
           "years_exp": 4
         },
@@ -4459,7 +4459,7 @@
           ],
           "team": "PIT",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 22,
           "years_exp": null
         }
@@ -4552,7 +4552,7 @@
           ],
           "team": "TB",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 24,
           "years_exp": 2
         },
@@ -4582,7 +4582,7 @@
           ],
           "team": "DEN",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "age": 25,
           "years_exp": 1
         },
@@ -4687,7 +4687,7 @@
           ],
           "team": "ATL",
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "age": 28,
           "years_exp": 6
         },
@@ -5158,7 +5158,7 @@
           ],
           "team": "MIA",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 22,
           "years_exp": null
         },
@@ -5188,7 +5188,7 @@
           ],
           "team": "SF",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 24,
           "years_exp": null
         },
@@ -5233,7 +5233,7 @@
           ],
           "team": "PHI",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 29,
           "years_exp": 8
         },
@@ -5338,7 +5338,7 @@
           ],
           "team": "NO",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 26,
           "years_exp": 4
         },
@@ -5505,7 +5505,7 @@
           ],
           "team": "NO",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 26,
           "years_exp": 4
         },
@@ -5550,7 +5550,7 @@
           ],
           "team": "PHI",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 29,
           "years_exp": 8
         },
@@ -5582,7 +5582,7 @@
           ],
           "team": "MIA",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 22,
           "years_exp": null
         },
@@ -5612,7 +5612,7 @@
           ],
           "team": "SF",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 24,
           "years_exp": null
         }
