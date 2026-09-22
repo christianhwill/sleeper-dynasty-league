@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T00:00:49.406Z",
+  "generated_at": "2026-09-22T12:00:43.454Z",
   "season": "2026",
   "transactions": [
     {
@@ -7197,6 +7197,137 @@
       "waiver_bid": 0,
       "metadata": {
         "notes": "This player was claimed by another owner."
+      }
+    },
+    {
+      "transaction_id": "1407536658995331072",
+      "type": "trade",
+      "status": "complete",
+      "created": 1789945399573,
+      "created_iso": "2026-09-20T23:03:19.573Z",
+      "week": 2,
+      "leg": 2,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2,
+        3
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        },
+        {
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "5859",
+            "name": "A.J. Brown",
+            "first_name": "A.J.",
+            "last_name": "Brown",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "NE",
+            "status": "Inactive",
+            "injury_status": "IR",
+            "age": 29,
+            "years_exp": 7
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        },
+        {
+          "player": {
+            "player_id": "13298",
+            "name": "KC Concepcion",
+            "first_name": "KC",
+            "last_name": "Concepcion",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "CLE",
+            "status": "Active",
+            "injury_status": null,
+            "age": 21,
+            "years_exp": null
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "5859",
+            "name": "A.J. Brown",
+            "first_name": "A.J.",
+            "last_name": "Brown",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "NE",
+            "status": "Inactive",
+            "injury_status": "IR",
+            "age": 29,
+            "years_exp": 7
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        },
+        {
+          "player": {
+            "player_id": "13298",
+            "name": "KC Concepcion",
+            "first_name": "KC",
+            "last_name": "Concepcion",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "CLE",
+            "status": "Active",
+            "injury_status": null,
+            "age": 21,
+            "years_exp": null
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [
+        {
+          "season": "2028",
+          "round": 3,
+          "original_roster_id": 2,
+          "previous_owner_roster_id": 3,
+          "current_owner_roster_id": 2,
+          "original_team": "Cam dog",
+          "previous_team": "Third Down Syndrome",
+          "current_team": "Cam dog"
+        },
+        {
+          "season": "2028",
+          "round": 3,
+          "original_roster_id": 3,
+          "previous_owner_roster_id": 3,
+          "current_owner_roster_id": 2,
+          "original_team": "Third Down Syndrome",
+          "previous_team": "Third Down Syndrome",
+          "current_team": "Cam dog"
+        }
+      ],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": {
+        "notes": "Your trade was processed successfully!"
       }
     }
   ]
