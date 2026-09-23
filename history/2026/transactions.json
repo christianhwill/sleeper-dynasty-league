@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T00:00:57.616Z",
+  "generated_at": "2026-09-23T12:01:08.819Z",
   "season": "2026",
   "transactions": [
     {
@@ -7328,6 +7328,355 @@
       "waiver_bid": null,
       "metadata": {
         "notes": "Your trade was processed successfully!"
+      }
+    },
+    {
+      "transaction_id": "1407588800774807552",
+      "type": "waiver",
+      "status": "complete",
+      "created": 1789957831141,
+      "created_iso": "2026-09-21T02:30:31.141Z",
+      "week": 2,
+      "leg": 2,
+      "creator": "1129897778072649728",
+      "roster_ids": [
+        4
+      ],
+      "teams": [
+        {
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "7600",
+            "name": "Pat Freiermuth",
+            "first_name": "Pat",
+            "last_name": "Freiermuth",
+            "position": "TE",
+            "fantasy_positions": [
+              "TE"
+            ],
+            "team": "PIT",
+            "status": "Active",
+            "injury_status": null,
+            "age": 27,
+            "years_exp": 5
+          },
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 6,
+      "metadata": {
+        "notes": "Your waiver claim was processed successfully!"
+      }
+    },
+    {
+      "transaction_id": "1408122989416898560",
+      "type": "waiver",
+      "status": "complete",
+      "created": 1790085191638,
+      "created_iso": "2026-09-22T13:53:11.638Z",
+      "week": 2,
+      "leg": 2,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "2306",
+            "name": "Jameis Winston",
+            "first_name": "Jameis",
+            "last_name": "Winston",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "NYG",
+            "status": "Active",
+            "injury_status": null,
+            "age": 32,
+            "years_exp": 11
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "12535",
+            "name": "Isaac TeSlaa",
+            "first_name": "Isaac",
+            "last_name": "TeSlaa",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "DET",
+            "status": "Active",
+            "injury_status": null,
+            "age": 24,
+            "years_exp": 1
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 7,
+      "metadata": {
+        "notes": "Your waiver claim was processed successfully!"
+      }
+    },
+    {
+      "transaction_id": "1408133069390589952",
+      "type": "waiver",
+      "status": "failed",
+      "created": 1790087594891,
+      "created_iso": "2026-09-22T14:33:14.891Z",
+      "week": 2,
+      "leg": 2,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "2307",
+            "name": "Marcus Mariota",
+            "first_name": "Marcus",
+            "last_name": "Mariota",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "WAS",
+            "status": "Active",
+            "injury_status": null,
+            "age": 32,
+            "years_exp": 11
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 6,
+      "metadata": {
+        "notes": "Unfortunately, your roster will have too many players after this transaction."
+      }
+    },
+    {
+      "transaction_id": "1408133105692254208",
+      "type": "waiver",
+      "status": "failed",
+      "created": 1790087603547,
+      "created_iso": "2026-09-22T14:33:23.547Z",
+      "week": 2,
+      "leg": 2,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "11256",
+            "name": "Tyson Bagent",
+            "first_name": "Tyson",
+            "last_name": "Bagent",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "CHI",
+            "status": "Active",
+            "injury_status": "Questionable",
+            "age": 26,
+            "years_exp": 3
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 6,
+      "metadata": {
+        "notes": "Unfortunately, your roster will have too many players after this transaction."
+      }
+    },
+    {
+      "transaction_id": "1408143412762345472",
+      "type": "waiver",
+      "status": "complete",
+      "created": 1790090060944,
+      "created_iso": "2026-09-22T15:14:20.944Z",
+      "week": 2,
+      "leg": 2,
+      "creator": "859906411432366080",
+      "roster_ids": [
+        9
+      ],
+      "teams": [
+        {
+          "roster_id": 9,
+          "team_name": "The Crusty CreamPies"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "4035",
+            "name": "Alvin Kamara",
+            "first_name": "Alvin",
+            "last_name": "Kamara",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "NO",
+            "status": "Active",
+            "injury_status": null,
+            "age": 31,
+            "years_exp": 9
+          },
+          "roster_id": 9,
+          "team_name": "The Crusty CreamPies"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0,
+      "metadata": {
+        "notes": "Your waiver claim was processed successfully!"
+      }
+    },
+    {
+      "transaction_id": "1408232881960017920",
+      "type": "waiver",
+      "status": "failed",
+      "created": 1790111392063,
+      "created_iso": "2026-09-22T21:09:52.063Z",
+      "week": 2,
+      "leg": 2,
+      "creator": "937819151345799168",
+      "roster_ids": [
+        10
+      ],
+      "teams": [
+        {
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "4035",
+            "name": "Alvin Kamara",
+            "first_name": "Alvin",
+            "last_name": "Kamara",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "NO",
+            "status": "Active",
+            "injury_status": null,
+            "age": 31,
+            "years_exp": 9
+          },
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0,
+      "metadata": {
+        "notes": "This player was claimed by another owner."
+      }
+    },
+    {
+      "transaction_id": "1408293156042076160",
+      "type": "waiver",
+      "status": "failed",
+      "created": 1790125762524,
+      "created_iso": "2026-09-23T01:09:22.524Z",
+      "week": 2,
+      "leg": 2,
+      "creator": "937819151345799168",
+      "roster_ids": [
+        10
+      ],
+      "teams": [
+        {
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "2306",
+            "name": "Jameis Winston",
+            "first_name": "Jameis",
+            "last_name": "Winston",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "NYG",
+            "status": "Active",
+            "injury_status": null,
+            "age": 32,
+            "years_exp": 11
+          },
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 4,
+      "metadata": {
+        "notes": "This player was claimed by another owner."
       }
     }
   ]
