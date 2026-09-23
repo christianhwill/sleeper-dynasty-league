@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T12:00:43.454Z",
+  "generated_at": "2026-09-23T00:00:57.616Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -10,7 +10,7 @@
     "total_rosters": 10,
     "settings": {
       "best_ball": 0,
-      "last_report": 1,
+      "last_report": 2,
       "waiver_budget": 100,
       "disable_adds": 0,
       "capacity_override": 0,
@@ -836,7 +836,7 @@
           ],
           "team": "NYG",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 23,
           "years_exp": 2
         },
@@ -866,7 +866,7 @@
           ],
           "team": "NYG",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 23,
           "years_exp": 1
         },
@@ -1031,7 +1031,7 @@
           ],
           "team": "PIT",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "age": 28,
           "years_exp": 6
         },
@@ -1123,7 +1123,7 @@
           ],
           "team": "NYG",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 23,
           "years_exp": 1
         },
@@ -1168,23 +1168,38 @@
           ],
           "team": "NYG",
           "status": "Active",
+          "injury_status": "Questionable",
+          "age": 23,
+          "years_exp": 2
+        },
+        {
+          "player_id": "11624",
+          "name": "Xavier Worthy",
+          "first_name": "Xavier",
+          "last_name": "Worthy",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "KC",
+          "status": "Active",
           "injury_status": null,
           "age": 23,
           "years_exp": 2
         },
         {
-          "player_id": "11628",
-          "name": "Marvin Harrison",
-          "first_name": "Marvin",
-          "last_name": "Harrison",
-          "position": "WR",
+          "player_id": "11604",
+          "name": "Brock Bowers",
+          "first_name": "Brock",
+          "last_name": "Bowers",
+          "position": "TE",
           "fantasy_positions": [
-            "WR"
+            "TE"
           ],
-          "team": "ARI",
+          "team": "LV",
           "status": "Active",
-          "injury_status": null,
-          "age": 24,
+          "injury_status": "Out",
+          "age": 23,
           "years_exp": 2
         },
         {
@@ -1213,24 +1228,9 @@
           ],
           "team": "PIT",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "age": 28,
           "years_exp": 6
-        },
-        {
-          "player_id": "12533",
-          "name": "Jacory Croskey-Merritt",
-          "first_name": "Jacory",
-          "last_name": "Croskey-Merritt",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "WAS",
-          "status": "Active",
-          "injury_status": null,
-          "age": 25,
-          "years_exp": 1
         },
         {
           "player_id": "7523",
@@ -3054,7 +3054,7 @@
           "team": "CAR",
           "status": "Inactive",
           "injury_status": "IR",
-          "age": 22,
+          "age": 23,
           "years_exp": null
         },
         {
@@ -3360,17 +3360,17 @@
           "years_exp": 7
         },
         {
-          "player_id": "5022",
-          "name": "Dallas Goedert",
-          "first_name": "Dallas",
-          "last_name": "Goedert",
+          "player_id": "5012",
+          "name": "Mark Andrews",
+          "first_name": "Mark",
+          "last_name": "Andrews",
           "position": "TE",
           "fantasy_positions": [
             "TE"
           ],
-          "team": "PHI",
+          "team": "BAL",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 31,
           "years_exp": 8
         },
@@ -3390,19 +3390,19 @@
           "years_exp": null
         },
         {
-          "player_id": "7567",
-          "name": "Kenny Gainwell",
-          "first_name": "Kenny",
-          "last_name": "Gainwell",
-          "position": "RB",
+          "player_id": "10213",
+          "name": "Tre Tucker",
+          "first_name": "Tre",
+          "last_name": "Tucker",
+          "position": "WR",
           "fantasy_positions": [
-            "RB"
+            "WR"
           ],
-          "team": "TB",
+          "team": "LV",
           "status": "Active",
           "injury_status": null,
-          "age": 27,
-          "years_exp": 5
+          "age": 25,
+          "years_exp": 3
         },
         {
           "player_id": "5854",
@@ -3448,7 +3448,7 @@
           "team": "CAR",
           "status": "Inactive",
           "injury_status": "IR",
-          "age": 22,
+          "age": 23,
           "years_exp": null
         }
       ],
@@ -3892,19 +3892,19 @@
           "years_exp": 3
         },
         {
-          "player_id": "9493",
-          "name": "Puka Nacua",
-          "first_name": "Puka",
-          "last_name": "Nacua",
+          "player_id": "6801",
+          "name": "Tee Higgins",
+          "first_name": "Tee",
+          "last_name": "Higgins",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "LAR",
+          "team": "CIN",
           "status": "Active",
-          "injury_status": "Out",
-          "age": 25,
-          "years_exp": 3
+          "injury_status": null,
+          "age": 27,
+          "years_exp": 6
         },
         {
           "player_id": "9488",
@@ -3952,19 +3952,19 @@
           "years_exp": 6
         },
         {
-          "player_id": "8112",
-          "name": "Drake London",
-          "first_name": "Drake",
-          "last_name": "London",
-          "position": "WR",
+          "player_id": "12527",
+          "name": "Ashton Jeanty",
+          "first_name": "Ashton",
+          "last_name": "Jeanty",
+          "position": "RB",
           "fantasy_positions": [
-            "WR"
+            "RB"
           ],
-          "team": "ATL",
+          "team": "LV",
           "status": "Active",
           "injury_status": null,
-          "age": 25,
-          "years_exp": 4
+          "age": 22,
+          "years_exp": 1
         },
         {
           "player_id": "4881",
@@ -4029,7 +4029,23 @@
           "years_exp": null
         }
       ],
-      "reserve": []
+      "reserve": [
+        {
+          "player_id": "9493",
+          "name": "Puka Nacua",
+          "first_name": "Puka",
+          "last_name": "Nacua",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "LAR",
+          "status": "Active",
+          "injury_status": "Out",
+          "age": 25,
+          "years_exp": 3
+        }
+      ]
     },
     {
       "roster_id": 8,
@@ -5152,7 +5168,23 @@
           "years_exp": null
         }
       ],
-      "reserve": []
+      "reserve": [
+        {
+          "player_id": "6768",
+          "name": "Tua Tagovailoa",
+          "first_name": "Tua",
+          "last_name": "Tagovailoa",
+          "position": "QB",
+          "fantasy_positions": [
+            "QB"
+          ],
+          "team": "ATL",
+          "status": "Active",
+          "injury_status": "Out",
+          "age": 28,
+          "years_exp": 6
+        }
+      ]
     },
     {
       "roster_id": 10,
@@ -5651,19 +5683,19 @@
           "years_exp": 4
         },
         {
-          "player_id": "4866",
-          "name": "Saquon Barkley",
-          "first_name": "Saquon",
-          "last_name": "Barkley",
-          "position": "RB",
+          "player_id": "8167",
+          "name": "Christian Watson",
+          "first_name": "Christian",
+          "last_name": "Watson",
+          "position": "WR",
           "fantasy_positions": [
-            "RB"
+            "WR"
           ],
-          "team": "PHI",
+          "team": "GB",
           "status": "Active",
-          "injury_status": "Questionable",
-          "age": 29,
-          "years_exp": 8
+          "injury_status": null,
+          "age": 27,
+          "years_exp": 4
         },
         {
           "player_id": "4892",
@@ -7404,7 +7436,7 @@
             ],
             "team": "PIT",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 28,
             "years_exp": 6
           },
@@ -7451,7 +7483,7 @@
             ],
             "team": "PIT",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 28,
             "years_exp": 6
           },
@@ -7674,7 +7706,7 @@
             ],
             "team": "PIT",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 28,
             "years_exp": 6
           },
