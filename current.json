@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T12:01:08.819Z",
+  "generated_at": "2026-09-24T00:00:51.113Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -1690,19 +1690,19 @@
       ],
       "starters": [
         {
-          "player_id": "11566",
-          "name": "Jayden Daniels",
-          "first_name": "Jayden",
-          "last_name": "Daniels",
+          "player_id": "3163",
+          "name": "Jared Goff",
+          "first_name": "Jared",
+          "last_name": "Goff",
           "position": "QB",
           "fantasy_positions": [
             "QB"
           ],
-          "team": "WAS",
+          "team": "DET",
           "status": "Active",
-          "injury_status": "Out",
-          "age": 25,
-          "years_exp": 2
+          "injury_status": null,
+          "age": 31,
+          "years_exp": 10
         },
         {
           "player_id": "13287",
@@ -1810,19 +1810,19 @@
           "years_exp": 2
         },
         {
-          "player_id": "11560",
-          "name": "Caleb Williams",
-          "first_name": "Caleb",
-          "last_name": "Williams",
-          "position": "QB",
+          "player_id": "13298",
+          "name": "KC Concepcion",
+          "first_name": "KC",
+          "last_name": "Concepcion",
+          "position": "WR",
           "fantasy_positions": [
-            "QB"
+            "WR"
           ],
-          "team": "CHI",
+          "team": "CLE",
           "status": "Active",
-          "injury_status": "Out",
-          "age": 24,
-          "years_exp": 2
+          "injury_status": null,
+          "age": 21,
+          "years_exp": null
         }
       ],
       "taxi": [
