@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T00:00:37.989Z",
+  "generated_at": "2026-09-25T12:00:41.250Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -158,6 +158,21 @@
         "points_against": 292.1
       },
       "players": [
+        {
+          "player_id": "11435",
+          "name": "Emanuel Wilson",
+          "first_name": "Emanuel",
+          "last_name": "Wilson",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "team": "SEA",
+          "status": "Active",
+          "injury_status": null,
+          "age": 27,
+          "years_exp": 3
+        },
         {
           "player_id": "11559",
           "name": "Michael Penix",
@@ -399,21 +414,6 @@
           "years_exp": 8
         },
         {
-          "player_id": "6806",
-          "name": "J.K. Dobbins",
-          "first_name": "J.K.",
-          "last_name": "Dobbins",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "DEN",
-          "status": "Active",
-          "injury_status": "Questionable",
-          "age": 27,
-          "years_exp": 6
-        },
-        {
           "player_id": "7553",
           "name": "Kyle Pitts",
           "first_name": "Kyle",
@@ -469,7 +469,7 @@
           ],
           "team": "PHI",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 24,
           "years_exp": 3
         },
@@ -806,7 +806,7 @@
           ],
           "team": "NYJ",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 23,
           "years_exp": 2
         },
@@ -836,7 +836,7 @@
           ],
           "team": "NYG",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 23,
           "years_exp": 2
         },
@@ -865,8 +865,8 @@
             "QB"
           ],
           "team": "NYG",
-          "status": "Active",
-          "injury_status": "Out",
+          "status": "Inactive",
+          "injury_status": "IR",
           "age": 23,
           "years_exp": 1
         },
@@ -1168,7 +1168,7 @@
           ],
           "team": "NYG",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 23,
           "years_exp": 2
         },
@@ -1443,7 +1443,7 @@
           ],
           "team": "SEA",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 26,
           "years_exp": 2
         },
@@ -1458,7 +1458,7 @@
           ],
           "team": "LAR",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 23,
           "years_exp": 1
         },
@@ -1593,7 +1593,7 @@
           ],
           "team": "WAS",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 23,
           "years_exp": null
         },
@@ -1852,7 +1852,7 @@
           ],
           "team": "WAS",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 23,
           "years_exp": null
         },
@@ -2170,7 +2170,7 @@
           "team": "BUF",
           "status": "Active",
           "injury_status": null,
-          "age": 26,
+          "age": 27,
           "years_exp": 4
         },
         {
@@ -2262,7 +2262,7 @@
           "team": "BUF",
           "status": "Active",
           "injury_status": null,
-          "age": 26,
+          "age": 27,
           "years_exp": 4
         },
         {
@@ -3083,7 +3083,7 @@
           ],
           "team": "SEA",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 33,
           "years_exp": 9
         },
@@ -3113,7 +3113,7 @@
           ],
           "team": "SEA",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 29,
           "years_exp": 8
         },
@@ -4724,7 +4724,7 @@
           ],
           "team": "DEN",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 25,
           "years_exp": 1
         },
@@ -4904,7 +4904,7 @@
           ],
           "team": "PHI",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 27,
           "years_exp": 5
         },
@@ -5086,7 +5086,7 @@
           ],
           "team": "PHI",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 27,
           "years_exp": 5
         },
@@ -7305,6 +7305,71 @@
   ],
   "recent_transactions": [
     {
+      "transaction_id": "1409033092076748800",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1790302177022,
+      "created_iso": "2026-09-25T02:09:37.022Z",
+      "week": 3,
+      "leg": 3,
+      "creator": "1129875387229560832",
+      "roster_ids": [
+        1
+      ],
+      "teams": [
+        {
+          "roster_id": 1,
+          "team_name": "Young N Hip"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "11435",
+            "name": "Emanuel Wilson",
+            "first_name": "Emanuel",
+            "last_name": "Wilson",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "SEA",
+            "status": "Active",
+            "injury_status": null,
+            "age": 27,
+            "years_exp": 3
+          },
+          "roster_id": 1,
+          "team_name": "Young N Hip"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "6806",
+            "name": "J.K. Dobbins",
+            "first_name": "J.K.",
+            "last_name": "Dobbins",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "DEN",
+            "status": "Active",
+            "injury_status": null,
+            "age": 27,
+            "years_exp": 6
+          },
+          "roster_id": 1,
+          "team_name": "Young N Hip"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
       "transaction_id": "1408293156042076160",
       "type": "waiver",
       "status": "failed",
@@ -9416,7 +9481,7 @@
             ],
             "team": "SEA",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 26,
             "years_exp": 2
           },
@@ -10564,7 +10629,7 @@
             ],
             "team": "WAS",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 23,
             "years_exp": null
           },
@@ -12174,7 +12239,7 @@
             ],
             "team": "CAR",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 25,
             "years_exp": 2
           },
@@ -12223,7 +12288,7 @@
             ],
             "team": "PHI",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 24,
             "years_exp": 3
           },
@@ -12244,7 +12309,7 @@
             ],
             "team": "PHI",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 24,
             "years_exp": 3
           },
@@ -12965,7 +13030,7 @@
             ],
             "team": "PHI",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 24,
             "years_exp": 3
           },
@@ -13212,71 +13277,6 @@
           },
           "roster_id": 3,
           "team_name": "Third Down Syndrome"
-        }
-      ],
-      "draft_picks": [],
-      "waiver_budget": [],
-      "waiver_bid": null,
-      "metadata": null
-    },
-    {
-      "transaction_id": "1383122932774998016",
-      "type": "free_agent",
-      "status": "complete",
-      "created": 1784124713657,
-      "created_iso": "2026-07-15T14:11:53.657Z",
-      "week": 1,
-      "leg": 1,
-      "creator": "1129877684336578560",
-      "roster_ids": [
-        2
-      ],
-      "teams": [
-        {
-          "roster_id": 2,
-          "team_name": "Cam dog"
-        }
-      ],
-      "adds": [
-        {
-          "player": {
-            "player_id": "8188",
-            "name": "Tyquan Thornton",
-            "first_name": "Tyquan",
-            "last_name": "Thornton",
-            "position": "WR",
-            "fantasy_positions": [
-              "WR"
-            ],
-            "team": "KC",
-            "status": "Active",
-            "injury_status": null,
-            "age": 26,
-            "years_exp": 4
-          },
-          "roster_id": 2,
-          "team_name": "Cam dog"
-        }
-      ],
-      "drops": [
-        {
-          "player": {
-            "player_id": "2078",
-            "name": "Odell Beckham",
-            "first_name": "Odell",
-            "last_name": "Beckham",
-            "position": "WR",
-            "fantasy_positions": [
-              "WR"
-            ],
-            "team": "NYG",
-            "status": "Active",
-            "injury_status": null,
-            "age": 33,
-            "years_exp": 12
-          },
-          "roster_id": 2,
-          "team_name": "Cam dog"
         }
       ],
       "draft_picks": [],
