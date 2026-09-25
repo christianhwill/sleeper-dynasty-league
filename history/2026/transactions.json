@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T00:00:37.989Z",
+  "generated_at": "2026-09-25T12:00:41.250Z",
   "season": "2026",
   "transactions": [
     {
@@ -2015,7 +2015,7 @@
             ],
             "team": "PHI",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 24,
             "years_exp": 3
           },
@@ -2735,7 +2735,7 @@
             ],
             "team": "PHI",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 24,
             "years_exp": 3
           },
@@ -2756,7 +2756,7 @@
             ],
             "team": "PHI",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 24,
             "years_exp": 3
           },
@@ -2828,7 +2828,7 @@
             ],
             "team": "CAR",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 25,
             "years_exp": 2
           },
@@ -4436,7 +4436,7 @@
             ],
             "team": "WAS",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 23,
             "years_exp": null
           },
@@ -5564,7 +5564,7 @@
             ],
             "team": "SEA",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 26,
             "years_exp": 2
           },
@@ -7678,6 +7678,71 @@
       "metadata": {
         "notes": "This player was claimed by another owner."
       }
+    },
+    {
+      "transaction_id": "1409033092076748800",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1790302177022,
+      "created_iso": "2026-09-25T02:09:37.022Z",
+      "week": 3,
+      "leg": 3,
+      "creator": "1129875387229560832",
+      "roster_ids": [
+        1
+      ],
+      "teams": [
+        {
+          "roster_id": 1,
+          "team_name": "Young N Hip"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "11435",
+            "name": "Emanuel Wilson",
+            "first_name": "Emanuel",
+            "last_name": "Wilson",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "SEA",
+            "status": "Active",
+            "injury_status": null,
+            "age": 27,
+            "years_exp": 3
+          },
+          "roster_id": 1,
+          "team_name": "Young N Hip"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "6806",
+            "name": "J.K. Dobbins",
+            "first_name": "J.K.",
+            "last_name": "Dobbins",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "DEN",
+            "status": "Active",
+            "injury_status": null,
+            "age": 27,
+            "years_exp": 6
+          },
+          "roster_id": 1,
+          "team_name": "Young N Hip"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
     }
   ]
 }
