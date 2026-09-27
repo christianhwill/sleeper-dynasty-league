@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T03:00:58.518Z",
+  "generated_at": "2026-09-27T03:00:52.860Z",
   "league_name": "Oiled Without Consent",
   "seasons": [
     {
@@ -17,11 +17,11 @@
     {
       "season": "2026",
       "league_id": "1327788752298336256",
-      "transaction_count": 130,
-      "trade_count": 14
+      "transaction_count": 134,
+      "trade_count": 15
     }
   ],
-  "trade_count": 69,
+  "trade_count": 70,
   "trades": [
     {
       "transaction_id": "1133549782154219520",
@@ -9518,6 +9518,109 @@
       "metadata": {
         "notes": "Your trade was processed successfully!"
       },
+      "season": "2026",
+      "league_id": "1327788752298336256"
+    },
+    {
+      "transaction_id": "1409644673420521472",
+      "type": "trade",
+      "status": "complete",
+      "created": 1790447989376,
+      "created_iso": "2026-09-26T18:39:49.376Z",
+      "week": 3,
+      "leg": 3,
+      "creator": "1008209629677158400",
+      "roster_ids": [
+        2,
+        6
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        },
+        {
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "12533",
+            "name": "Jacory Croskey-Merritt",
+            "first_name": "Jacory",
+            "last_name": "Croskey-Merritt",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "WAS",
+            "status": "Active",
+            "injury_status": null,
+            "age": 25,
+            "years_exp": 1
+          },
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "12533",
+            "name": "Jacory Croskey-Merritt",
+            "first_name": "Jacory",
+            "last_name": "Croskey-Merritt",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "WAS",
+            "status": "Active",
+            "injury_status": null,
+            "age": 25,
+            "years_exp": 1
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [
+        {
+          "season": "2027",
+          "round": 3,
+          "original_roster_id": 2,
+          "previous_owner_roster_id": 2,
+          "current_owner_roster_id": 6,
+          "original_team": "Cam dog",
+          "previous_team": "Cam dog",
+          "current_team": "McCaffrican Americans"
+        },
+        {
+          "season": "2028",
+          "round": 1,
+          "original_roster_id": 6,
+          "previous_owner_roster_id": 6,
+          "current_owner_roster_id": 2,
+          "original_team": "McCaffrican Americans",
+          "previous_team": "McCaffrican Americans",
+          "current_team": "Cam dog"
+        },
+        {
+          "season": "2029",
+          "round": 3,
+          "original_roster_id": 6,
+          "previous_owner_roster_id": 6,
+          "current_owner_roster_id": 2,
+          "original_team": "McCaffrican Americans",
+          "previous_team": "McCaffrican Americans",
+          "current_team": "Cam dog"
+        }
+      ],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null,
       "season": "2026",
       "league_id": "1327788752298336256"
     }
