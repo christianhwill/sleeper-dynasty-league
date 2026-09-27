@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T06:00:44.261Z",
+  "generated_at": "2026-09-27T06:00:44.057Z",
   "season": "2026",
   "drafts": [
     {
@@ -410,7 +410,7 @@
             "team": "CLE",
             "status": "Active",
             "injury_status": null,
-            "age": 21,
+            "age": 22,
             "years_exp": null
           },
           "roster_name": "Cam dog"
@@ -492,8 +492,8 @@
               "WR"
             ],
             "team": "NYJ",
-            "status": "Active",
-            "injury_status": "Out",
+            "status": "Inactive",
+            "injury_status": "IR",
             "age": 22,
             "years_exp": null
           },
@@ -535,7 +535,7 @@
             ],
             "team": "DEN",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 23,
             "years_exp": null
           },
@@ -703,7 +703,7 @@
             ],
             "team": "SF",
             "status": "Inactive",
-            "injury_status": "Out",
+            "injury_status": "IR",
             "age": 23,
             "years_exp": null
           },
@@ -1208,7 +1208,7 @@
             "team": "CAR",
             "status": "Inactive",
             "injury_status": "IR",
-            "age": 22,
+            "age": 23,
             "years_exp": null
           },
           "roster_name": "McCaffrican Americans"
