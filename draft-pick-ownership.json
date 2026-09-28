@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T12:01:08.372Z",
+  "generated_at": "2026-09-28T00:01:55.912Z",
   "league": {
     "league_id": "1327788752298336256",
     "name": "Oiled Without Consent",
@@ -326,11 +326,11 @@
       "round": 2,
       "original_roster_id": 10,
       "original_team": "Sugerdaddy",
-      "current_owner_roster_id": 10,
-      "current_team": "Sugerdaddy",
-      "previous_owner_roster_id": null,
-      "previous_team": null,
-      "has_been_traded": false
+      "current_owner_roster_id": 6,
+      "current_team": "McCaffrican Americans",
+      "previous_owner_roster_id": 10,
+      "previous_team": "Sugerdaddy",
+      "has_been_traded": true
     },
     {
       "season": "2027",
@@ -645,22 +645,22 @@
       "round": 1,
       "original_roster_id": 10,
       "original_team": "Sugerdaddy",
-      "current_owner_roster_id": 10,
-      "current_team": "Sugerdaddy",
-      "previous_owner_roster_id": null,
-      "previous_team": null,
-      "has_been_traded": false
+      "current_owner_roster_id": 6,
+      "current_team": "McCaffrican Americans",
+      "previous_owner_roster_id": 10,
+      "previous_team": "Sugerdaddy",
+      "has_been_traded": true
     },
     {
       "season": "2028",
       "round": 2,
       "original_roster_id": 10,
       "original_team": "Sugerdaddy",
-      "current_owner_roster_id": 10,
-      "current_team": "Sugerdaddy",
-      "previous_owner_roster_id": null,
-      "previous_team": null,
-      "has_been_traded": false
+      "current_owner_roster_id": 6,
+      "current_team": "McCaffrican Americans",
+      "previous_owner_roster_id": 10,
+      "previous_team": "Sugerdaddy",
+      "has_been_traded": true
     },
     {
       "season": "2028",
@@ -1410,104 +1410,6 @@
       }
     },
     {
-      "roster_id": 10,
-      "team_name": "Sugerdaddy",
-      "total_future_picks": 10,
-      "first_round_picks": 3,
-      "second_round_picks": 5,
-      "third_round_picks": 2,
-      "other_round_picks": 0,
-      "by_season": {
-        "2027": {
-          "total": 4,
-          "round_1": 1,
-          "round_2": 2,
-          "round_3": 1,
-          "other_rounds": 0,
-          "picks": [
-            {
-              "round": 2,
-              "original_roster_id": 4,
-              "original_team": "Raw Dawgs",
-              "has_been_traded": true
-            },
-            {
-              "round": 1,
-              "original_roster_id": 10,
-              "original_team": "Sugerdaddy",
-              "has_been_traded": false
-            },
-            {
-              "round": 2,
-              "original_roster_id": 10,
-              "original_team": "Sugerdaddy",
-              "has_been_traded": false
-            },
-            {
-              "round": 3,
-              "original_roster_id": 10,
-              "original_team": "Sugerdaddy",
-              "has_been_traded": true
-            }
-          ]
-        },
-        "2028": {
-          "total": 3,
-          "round_1": 1,
-          "round_2": 2,
-          "round_3": 0,
-          "other_rounds": 0,
-          "picks": [
-            {
-              "round": 2,
-              "original_roster_id": 2,
-              "original_team": "Cam dog",
-              "has_been_traded": true
-            },
-            {
-              "round": 1,
-              "original_roster_id": 10,
-              "original_team": "Sugerdaddy",
-              "has_been_traded": false
-            },
-            {
-              "round": 2,
-              "original_roster_id": 10,
-              "original_team": "Sugerdaddy",
-              "has_been_traded": false
-            }
-          ]
-        },
-        "2029": {
-          "total": 3,
-          "round_1": 1,
-          "round_2": 1,
-          "round_3": 1,
-          "other_rounds": 0,
-          "picks": [
-            {
-              "round": 1,
-              "original_roster_id": 10,
-              "original_team": "Sugerdaddy",
-              "has_been_traded": false
-            },
-            {
-              "round": 2,
-              "original_roster_id": 10,
-              "original_team": "Sugerdaddy",
-              "has_been_traded": false
-            },
-            {
-              "round": 3,
-              "original_roster_id": 10,
-              "original_team": "Sugerdaddy",
-              "has_been_traded": false
-            }
-          ]
-        }
-      }
-    },
-    {
       "roster_id": 2,
       "team_name": "Cam dog",
       "total_future_picks": 8,
@@ -1673,6 +1575,92 @@
               "round": 3,
               "original_roster_id": 4,
               "original_team": "Raw Dawgs",
+              "has_been_traded": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "roster_id": 6,
+      "team_name": "McCaffrican Americans",
+      "total_future_picks": 8,
+      "first_round_picks": 3,
+      "second_round_picks": 3,
+      "third_round_picks": 2,
+      "other_round_picks": 0,
+      "by_season": {
+        "2027": {
+          "total": 3,
+          "round_1": 0,
+          "round_2": 1,
+          "round_3": 2,
+          "other_rounds": 0,
+          "picks": [
+            {
+              "round": 3,
+              "original_roster_id": 2,
+              "original_team": "Cam dog",
+              "has_been_traded": true
+            },
+            {
+              "round": 3,
+              "original_roster_id": 3,
+              "original_team": "Third Down Syndrome",
+              "has_been_traded": true
+            },
+            {
+              "round": 2,
+              "original_roster_id": 10,
+              "original_team": "Sugerdaddy",
+              "has_been_traded": true
+            }
+          ]
+        },
+        "2028": {
+          "total": 3,
+          "round_1": 2,
+          "round_2": 1,
+          "round_3": 0,
+          "other_rounds": 0,
+          "picks": [
+            {
+              "round": 1,
+              "original_roster_id": 2,
+              "original_team": "Cam dog",
+              "has_been_traded": true
+            },
+            {
+              "round": 1,
+              "original_roster_id": 10,
+              "original_team": "Sugerdaddy",
+              "has_been_traded": true
+            },
+            {
+              "round": 2,
+              "original_roster_id": 10,
+              "original_team": "Sugerdaddy",
+              "has_been_traded": true
+            }
+          ]
+        },
+        "2029": {
+          "total": 2,
+          "round_1": 1,
+          "round_2": 1,
+          "round_3": 0,
+          "other_rounds": 0,
+          "picks": [
+            {
+              "round": 1,
+              "original_roster_id": 6,
+              "original_team": "McCaffrican Americans",
+              "has_been_traded": false
+            },
+            {
+              "round": 2,
+              "original_roster_id": 6,
+              "original_team": "McCaffrican Americans",
               "has_been_traded": false
             }
           ]
@@ -1858,44 +1846,50 @@
       }
     },
     {
-      "roster_id": 6,
-      "team_name": "McCaffrican Americans",
-      "total_future_picks": 5,
+      "roster_id": 10,
+      "team_name": "Sugerdaddy",
+      "total_future_picks": 7,
       "first_round_picks": 2,
-      "second_round_picks": 1,
+      "second_round_picks": 3,
       "third_round_picks": 2,
       "other_round_picks": 0,
       "by_season": {
         "2027": {
-          "total": 2,
-          "round_1": 0,
-          "round_2": 0,
-          "round_3": 2,
+          "total": 3,
+          "round_1": 1,
+          "round_2": 1,
+          "round_3": 1,
           "other_rounds": 0,
           "picks": [
             {
-              "round": 3,
-              "original_roster_id": 2,
-              "original_team": "Cam dog",
+              "round": 2,
+              "original_roster_id": 4,
+              "original_team": "Raw Dawgs",
               "has_been_traded": true
             },
             {
+              "round": 1,
+              "original_roster_id": 10,
+              "original_team": "Sugerdaddy",
+              "has_been_traded": false
+            },
+            {
               "round": 3,
-              "original_roster_id": 3,
-              "original_team": "Third Down Syndrome",
+              "original_roster_id": 10,
+              "original_team": "Sugerdaddy",
               "has_been_traded": true
             }
           ]
         },
         "2028": {
           "total": 1,
-          "round_1": 1,
-          "round_2": 0,
+          "round_1": 0,
+          "round_2": 1,
           "round_3": 0,
           "other_rounds": 0,
           "picks": [
             {
-              "round": 1,
+              "round": 2,
               "original_roster_id": 2,
               "original_team": "Cam dog",
               "has_been_traded": true
@@ -1903,22 +1897,28 @@
           ]
         },
         "2029": {
-          "total": 2,
+          "total": 3,
           "round_1": 1,
           "round_2": 1,
-          "round_3": 0,
+          "round_3": 1,
           "other_rounds": 0,
           "picks": [
             {
               "round": 1,
-              "original_roster_id": 6,
-              "original_team": "McCaffrican Americans",
+              "original_roster_id": 10,
+              "original_team": "Sugerdaddy",
               "has_been_traded": false
             },
             {
               "round": 2,
-              "original_roster_id": 6,
-              "original_team": "McCaffrican Americans",
+              "original_roster_id": 10,
+              "original_team": "Sugerdaddy",
+              "has_been_traded": false
+            },
+            {
+              "round": 3,
+              "original_roster_id": 10,
+              "original_team": "Sugerdaddy",
               "has_been_traded": false
             }
           ]
