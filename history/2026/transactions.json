@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T12:01:08.372Z",
+  "generated_at": "2026-09-28T00:01:55.912Z",
   "season": "2026",
   "transactions": [
     {
@@ -144,7 +144,7 @@
             ],
             "team": "IND",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 23,
             "years_exp": 1
           },
@@ -189,7 +189,7 @@
             ],
             "team": "MIA",
             "status": "Active",
-            "injury_status": "Doubtful",
+            "injury_status": "Out",
             "age": 23,
             "years_exp": 2
           },
@@ -2015,7 +2015,7 @@
             ],
             "team": "PHI",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 24,
             "years_exp": 3
           },
@@ -2327,7 +2327,7 @@
             ],
             "team": "NYG",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 29,
             "years_exp": 7
           },
@@ -2735,7 +2735,7 @@
             ],
             "team": "PHI",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 24,
             "years_exp": 3
           },
@@ -2756,7 +2756,7 @@
             ],
             "team": "PHI",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 24,
             "years_exp": 3
           },
@@ -2828,7 +2828,7 @@
             ],
             "team": "CAR",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": "Out",
             "age": 25,
             "years_exp": 2
           },
@@ -3259,7 +3259,7 @@
             ],
             "team": "NE",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": "Out",
             "age": 22,
             "years_exp": null
           },
@@ -3394,7 +3394,7 @@
             ],
             "team": "BUF",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 24,
             "years_exp": null
           },
@@ -3666,7 +3666,7 @@
             ],
             "team": "CIN",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 22,
             "years_exp": null
           },
@@ -3892,7 +3892,7 @@
             ],
             "team": "PHI",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": "Out",
             "age": 29,
             "years_exp": 7
           },
@@ -3957,7 +3957,7 @@
             ],
             "team": "MIA",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 22,
             "years_exp": 1
           },
@@ -4302,7 +4302,7 @@
             ],
             "team": "TEN",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 27,
             "years_exp": 5
           },
@@ -5258,7 +5258,7 @@
             ],
             "team": "CIN",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 22,
             "years_exp": null
           },
@@ -6710,8 +6710,8 @@
               "WR"
             ],
             "team": "LV",
-            "status": "Active",
-            "injury_status": null,
+            "status": "Inactive",
+            "injury_status": "Out",
             "age": 23,
             "years_exp": 1
           },
@@ -6870,7 +6870,7 @@
             ],
             "team": "SEA",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 23,
             "years_exp": 1
           },
@@ -7522,7 +7522,7 @@
             ],
             "team": "CHI",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 26,
             "years_exp": 3
           },
@@ -7995,6 +7995,300 @@
           "team_name": "Raw Dawgs"
         }
       ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1409910550590148608",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1790511379433,
+      "created_iso": "2026-09-27T12:16:19.433Z",
+      "week": 3,
+      "leg": 3,
+      "creator": "1008209629677158400",
+      "roster_ids": [
+        6
+      ],
+      "teams": [
+        {
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        }
+      ],
+      "adds": [],
+      "drops": [
+        {
+          "player": {
+            "player_id": "5854",
+            "name": "Drew Lock",
+            "first_name": "Drew",
+            "last_name": "Lock",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "SEA",
+            "status": "Active",
+            "injury_status": null,
+            "age": 29,
+            "years_exp": 7
+          },
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1409933966164738048",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1790516962142,
+      "created_iso": "2026-09-27T13:49:22.142Z",
+      "week": 3,
+      "leg": 3,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "6806",
+            "name": "J.K. Dobbins",
+            "first_name": "J.K.",
+            "last_name": "Dobbins",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "DEN",
+            "status": "Active",
+            "injury_status": null,
+            "age": 27,
+            "years_exp": 6
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "2307",
+            "name": "Marcus Mariota",
+            "first_name": "Marcus",
+            "last_name": "Mariota",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "WAS",
+            "status": "Active",
+            "injury_status": null,
+            "age": 32,
+            "years_exp": 11
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1409971067807694848",
+      "type": "trade",
+      "status": "complete",
+      "created": 1790525807862,
+      "created_iso": "2026-09-27T16:16:47.862Z",
+      "week": 3,
+      "leg": 3,
+      "creator": "937819151345799168",
+      "roster_ids": [
+        6,
+        10
+      ],
+      "teams": [
+        {
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        },
+        {
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "4046",
+            "name": "Patrick Mahomes",
+            "first_name": "Patrick",
+            "last_name": "Mahomes",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "KC",
+            "status": "Active",
+            "injury_status": null,
+            "age": 31,
+            "years_exp": 9
+          },
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        },
+        {
+          "player": {
+            "player_id": "4892",
+            "name": "Baker Mayfield",
+            "first_name": "Baker",
+            "last_name": "Mayfield",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "TB",
+            "status": "Active",
+            "injury_status": "Questionable",
+            "age": 31,
+            "years_exp": 8
+          },
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "4046",
+            "name": "Patrick Mahomes",
+            "first_name": "Patrick",
+            "last_name": "Mahomes",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "KC",
+            "status": "Active",
+            "injury_status": null,
+            "age": 31,
+            "years_exp": 9
+          },
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        },
+        {
+          "player": {
+            "player_id": "4892",
+            "name": "Baker Mayfield",
+            "first_name": "Baker",
+            "last_name": "Mayfield",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "TB",
+            "status": "Active",
+            "injury_status": "Questionable",
+            "age": 31,
+            "years_exp": 8
+          },
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        }
+      ],
+      "draft_picks": [
+        {
+          "season": "2027",
+          "round": 2,
+          "original_roster_id": 10,
+          "previous_owner_roster_id": 10,
+          "current_owner_roster_id": 6,
+          "original_team": "Sugerdaddy",
+          "previous_team": "Sugerdaddy",
+          "current_team": "McCaffrican Americans"
+        },
+        {
+          "season": "2028",
+          "round": 1,
+          "original_roster_id": 10,
+          "previous_owner_roster_id": 10,
+          "current_owner_roster_id": 6,
+          "original_team": "Sugerdaddy",
+          "previous_team": "Sugerdaddy",
+          "current_team": "McCaffrican Americans"
+        },
+        {
+          "season": "2028",
+          "round": 2,
+          "original_roster_id": 10,
+          "previous_owner_roster_id": 10,
+          "current_owner_roster_id": 6,
+          "original_team": "Sugerdaddy",
+          "previous_team": "Sugerdaddy",
+          "current_team": "McCaffrican Americans"
+        }
+      ],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1410024812557910016",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1790538621609,
+      "created_iso": "2026-09-27T19:50:21.609Z",
+      "week": 3,
+      "leg": 3,
+      "creator": "1131294900231815168",
+      "roster_ids": [
+        7
+      ],
+      "teams": [
+        {
+          "roster_id": 7,
+          "team_name": "I Chase Brown People"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "11783",
+            "name": "Ryan Flournoy",
+            "first_name": "Ryan",
+            "last_name": "Flournoy",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "DAL",
+            "status": "Active",
+            "injury_status": null,
+            "age": 26,
+            "years_exp": 2
+          },
+          "roster_id": 7,
+          "team_name": "I Chase Brown People"
+        }
+      ],
+      "drops": [],
       "draft_picks": [],
       "waiver_budget": [],
       "waiver_bid": null,
