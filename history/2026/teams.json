@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T00:00:50.402Z",
+  "generated_at": "2026-09-29T12:00:39.659Z",
   "season": "2026",
   "teams": [
     {
@@ -10,13 +10,13 @@
       "team_name": "Young N Hip",
       "is_commissioner": true,
       "settings": {
-        "fpts": 196,
-        "fpts_against": 292,
-        "fpts_against_decimal": 10,
-        "fpts_decimal": 16,
-        "losses": 2,
-        "ppts": 245,
-        "ppts_decimal": 96,
+        "fpts": 295,
+        "fpts_against": 392,
+        "fpts_against_decimal": 16,
+        "fpts_decimal": 34,
+        "losses": 3,
+        "ppts": 361,
+        "ppts_decimal": 90,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 2,
@@ -25,10 +25,10 @@
       },
       "record": {
         "wins": 0,
-        "losses": 2,
+        "losses": 3,
         "ties": 0,
-        "points_for": 196.16,
-        "points_against": 292.1
+        "points_for": 295.34,
+        "points_against": 392.16
       },
       "players": [
         {
@@ -148,7 +148,7 @@
           "team": "NO",
           "status": "Active",
           "injury_status": null,
-          "age": 26,
+          "age": 27,
           "years_exp": 1
         },
         {
@@ -405,7 +405,7 @@
           "team": "NO",
           "status": "Active",
           "injury_status": null,
-          "age": 26,
+          "age": 27,
           "years_exp": 1
         },
         {
@@ -602,13 +602,13 @@
       "team_name": "Cam dog",
       "is_commissioner": false,
       "settings": {
-        "fpts": 196,
-        "fpts_against": 219,
-        "fpts_against_decimal": 44,
-        "fpts_decimal": 56,
-        "losses": 2,
-        "ppts": 263,
-        "ppts_decimal": 46,
+        "fpts": 304,
+        "fpts_against": 398,
+        "fpts_against_decimal": 14,
+        "fpts_decimal": 36,
+        "losses": 3,
+        "ppts": 379,
+        "ppts_decimal": 24,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 84,
@@ -617,10 +617,10 @@
       },
       "record": {
         "wins": 0,
-        "losses": 2,
+        "losses": 3,
         "ties": 0,
-        "points_for": 196.56,
-        "points_against": 219.44
+        "points_for": 304.36,
+        "points_against": 398.14
       },
       "players": [
         {
@@ -1194,25 +1194,25 @@
       "team_name": "Third Down Syndrome",
       "is_commissioner": false,
       "settings": {
-        "fpts": 222,
-        "fpts_against": 344,
-        "fpts_against_decimal": 68,
-        "fpts_decimal": 38,
+        "fpts": 322,
+        "fpts_against": 443,
+        "fpts_against_decimal": 86,
+        "fpts_decimal": 44,
         "losses": 2,
-        "ppts": 270,
-        "ppts_decimal": 84,
+        "ppts": 397,
+        "ppts_decimal": 70,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
         "waiver_position": 3,
-        "wins": 0
+        "wins": 1
       },
       "record": {
-        "wins": 0,
+        "wins": 1,
         "losses": 2,
         "ties": 0,
-        "points_for": 222.38,
-        "points_against": 344.68
+        "points_for": 322.44,
+        "points_against": 443.86
       },
       "players": [
         {
@@ -1254,7 +1254,7 @@
           "fantasy_positions": [
             "QB"
           ],
-          "team": "MIN",
+          "team": "NYG",
           "status": "Active",
           "injury_status": "Out",
           "age": 23,
@@ -1331,7 +1331,7 @@
           ],
           "team": "LAR",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 23,
           "years_exp": 1
         },
@@ -1755,13 +1755,13 @@
       "team_name": "Raw Dawgs",
       "is_commissioner": false,
       "settings": {
-        "fpts": 288,
-        "fpts_against": 279,
-        "fpts_against_decimal": 42,
-        "fpts_decimal": 32,
-        "losses": 0,
-        "ppts": 361,
-        "ppts_decimal": 88,
+        "fpts": 425,
+        "fpts_against": 436,
+        "fpts_against_decimal": 8,
+        "fpts_decimal": 84,
+        "losses": 1,
+        "ppts": 533,
+        "ppts_decimal": 76,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 42,
@@ -1770,10 +1770,10 @@
       },
       "record": {
         "wins": 2,
-        "losses": 0,
+        "losses": 1,
         "ties": 0,
-        "points_for": 288.32,
-        "points_against": 279.42
+        "points_for": 425.84,
+        "points_against": 436.08
       },
       "players": [
         {
@@ -2287,25 +2287,25 @@
       "team_name": "BING BONG",
       "is_commissioner": false,
       "settings": {
-        "fpts": 257,
-        "fpts_against": 271,
-        "fpts_against_decimal": 12,
-        "fpts_decimal": 14,
+        "fpts": 413,
+        "fpts_against": 408,
+        "fpts_against_decimal": 64,
+        "fpts_decimal": 80,
         "losses": 1,
-        "ppts": 299,
-        "ppts_decimal": 80,
+        "ppts": 486,
+        "ppts_decimal": 88,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
         "waiver_position": 4,
-        "wins": 1
+        "wins": 2
       },
       "record": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
         "ties": 0,
-        "points_for": 257.14,
-        "points_against": 271.12
+        "points_for": 413.8,
+        "points_against": 408.64
       },
       "players": [
         {
@@ -2835,13 +2835,13 @@
       "team_name": "McCaffrican Americans",
       "is_commissioner": false,
       "settings": {
-        "fpts": 229,
-        "fpts_against": 167,
-        "fpts_against_decimal": 98,
-        "fpts_decimal": 46,
-        "losses": 0,
-        "ppts": 300,
-        "ppts_decimal": 94,
+        "fpts": 338,
+        "fpts_against": 314,
+        "fpts_against_decimal": 4,
+        "fpts_decimal": 30,
+        "losses": 1,
+        "ppts": 432,
+        "ppts_decimal": 58,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
@@ -2850,10 +2850,10 @@
       },
       "record": {
         "wins": 2,
-        "losses": 0,
+        "losses": 1,
         "ties": 0,
-        "points_for": 229.46,
-        "points_against": 167.98
+        "points_for": 338.3,
+        "points_against": 314.04
       },
       "players": [
         {
@@ -3017,7 +3017,7 @@
           ],
           "team": "TB",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "age": 31,
           "years_exp": 8
         },
@@ -3214,7 +3214,7 @@
           ],
           "team": "TB",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "age": 31,
           "years_exp": 8
         },
@@ -3397,25 +3397,25 @@
       "team_name": "I Chase Brown People",
       "is_commissioner": false,
       "settings": {
-        "fpts": 313,
-        "fpts_against": 192,
-        "fpts_against_decimal": 72,
-        "fpts_decimal": 80,
+        "fpts": 472,
+        "fpts_against": 305,
+        "fpts_against_decimal": 48,
+        "fpts_decimal": 78,
         "losses": 0,
-        "ppts": 370,
-        "ppts_decimal": 80,
+        "ppts": 571,
+        "ppts_decimal": 64,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
         "waiver_position": 1,
-        "wins": 2
+        "wins": 3
       },
       "record": {
-        "wins": 2,
+        "wins": 3,
         "losses": 0,
         "ties": 0,
-        "points_for": 313.8,
-        "points_against": 192.72
+        "points_for": 472.78,
+        "points_against": 305.48
       },
       "players": [
         {
@@ -3743,8 +3743,8 @@
             "RB"
           ],
           "team": "MIA",
-          "status": "Active",
-          "injury_status": "Out",
+          "status": "Inactive",
+          "injury_status": "IR",
           "age": 24,
           "years_exp": 3
         },
@@ -3805,8 +3805,8 @@
             "RB"
           ],
           "team": "MIA",
-          "status": "Active",
-          "injury_status": "Out",
+          "status": "Inactive",
+          "injury_status": "IR",
           "age": 24,
           "years_exp": 3
         },
@@ -3989,13 +3989,13 @@
       "team_name": "PurpleRhane",
       "is_commissioner": false,
       "settings": {
-        "fpts": 215,
-        "fpts_against": 351,
-        "fpts_against_decimal": 48,
-        "fpts_decimal": 2,
-        "losses": 2,
-        "ppts": 285,
-        "ppts_decimal": 62,
+        "fpts": 327,
+        "fpts_against": 510,
+        "fpts_against_decimal": 46,
+        "fpts_decimal": 78,
+        "losses": 3,
+        "ppts": 416,
+        "ppts_decimal": 96,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": -14,
@@ -4004,10 +4004,10 @@
       },
       "record": {
         "wins": 0,
-        "losses": 2,
+        "losses": 3,
         "ties": 0,
-        "points_for": 215.02,
-        "points_against": 351.48
+        "points_for": 327.78,
+        "points_against": 510.46
       },
       "players": [
         {
@@ -4276,7 +4276,7 @@
           ],
           "team": "NO",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "age": 27,
           "years_exp": 5
         },
@@ -4398,7 +4398,7 @@
           ],
           "team": "NO",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "age": 27,
           "years_exp": 5
         },
@@ -4551,25 +4551,25 @@
       "team_name": "The Crusty CreamPies",
       "is_commissioner": false,
       "settings": {
-        "fpts": 323,
-        "fpts_against": 272,
-        "fpts_against_decimal": 42,
-        "fpts_decimal": 64,
+        "fpts": 469,
+        "fpts_against": 381,
+        "fpts_against_decimal": 26,
+        "fpts_decimal": 70,
         "losses": 1,
-        "ppts": 366,
-        "ppts_decimal": 74,
+        "ppts": 551,
+        "ppts_decimal": 80,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
         "waiver_position": 10,
-        "wins": 1
+        "wins": 2
       },
       "record": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
         "ties": 0,
-        "points_for": 323.64,
-        "points_against": 272.42
+        "points_for": 469.7,
+        "points_against": 381.26
       },
       "players": [
         {
@@ -4613,7 +4613,7 @@
           ],
           "team": "TB",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "age": 24,
           "years_exp": 2
         },
@@ -4643,7 +4643,7 @@
           ],
           "team": "DEN",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 25,
           "years_exp": 1
         },
@@ -5117,23 +5117,7 @@
           "years_exp": null
         }
       ],
-      "reserve": [
-        {
-          "player_id": "6768",
-          "name": "Tua Tagovailoa",
-          "first_name": "Tua",
-          "last_name": "Tagovailoa",
-          "position": "QB",
-          "fantasy_positions": [
-            "QB"
-          ],
-          "team": "ATL",
-          "status": "Active",
-          "injury_status": null,
-          "age": 28,
-          "years_exp": 6
-        }
-      ]
+      "reserve": []
     },
     {
       "roster_id": 10,
@@ -5143,25 +5127,25 @@
       "team_name": "Sugerdaddy",
       "is_commissioner": false,
       "settings": {
-        "fpts": 391,
-        "fpts_against": 242,
-        "fpts_against_decimal": 52,
-        "fpts_decimal": 40,
+        "fpts": 570,
+        "fpts_against": 350,
+        "fpts_against_decimal": 32,
+        "fpts_decimal": 10,
         "losses": 0,
-        "ppts": 480,
-        "ppts_decimal": 30,
+        "ppts": 682,
+        "ppts_decimal": 58,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 1,
         "waiver_position": 6,
-        "wins": 2
+        "wins": 3
       },
       "record": {
-        "wins": 2,
+        "wins": 3,
         "losses": 0,
         "ties": 0,
-        "points_for": 391.4,
-        "points_against": 242.52
+        "points_for": 570.1,
+        "points_against": 350.32
       },
       "players": [
         {
@@ -5355,7 +5339,7 @@
           ],
           "team": "BUF",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 30,
           "years_exp": 8
         },
@@ -5537,7 +5521,7 @@
           ],
           "team": "BUF",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 30,
           "years_exp": 8
         },
