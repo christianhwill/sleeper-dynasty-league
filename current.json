@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T12:00:39.659Z",
+  "generated_at": "2026-09-30T00:00:28.205Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -10,7 +10,7 @@
     "total_rosters": 10,
     "settings": {
       "best_ball": 0,
-      "last_report": 2,
+      "last_report": 3,
       "waiver_budget": 100,
       "disable_adds": 0,
       "capacity_override": 0,
@@ -1128,19 +1128,19 @@
           "years_exp": 5
         },
         {
-          "player_id": "8155",
-          "name": "Breece Hall",
-          "first_name": "Breece",
-          "last_name": "Hall",
+          "player_id": "7021",
+          "name": "Rico Dowdle",
+          "first_name": "Rico",
+          "last_name": "Dowdle",
           "position": "RB",
           "fantasy_positions": [
             "RB"
           ],
-          "team": "NYJ",
-          "status": "Active",
+          "team": "PIT",
+          "status": "Inactive",
           "injury_status": "Out",
-          "age": 25,
-          "years_exp": 4
+          "age": 28,
+          "years_exp": 6
         },
         {
           "player_id": "12481",
@@ -1218,19 +1218,19 @@
           "years_exp": 2
         },
         {
-          "player_id": "6806",
-          "name": "J.K. Dobbins",
-          "first_name": "J.K.",
-          "last_name": "Dobbins",
+          "player_id": "12534",
+          "name": "Kyle Monangai",
+          "first_name": "Kyle",
+          "last_name": "Monangai",
           "position": "RB",
           "fantasy_positions": [
             "RB"
           ],
-          "team": "DEN",
+          "team": "CHI",
           "status": "Active",
           "injury_status": null,
-          "age": 27,
-          "years_exp": 6
+          "age": 24,
+          "years_exp": 1
         },
         {
           "player_id": "2306",
@@ -1750,19 +1750,19 @@
           "years_exp": 3
         },
         {
-          "player_id": "11631",
-          "name": "Brian Thomas",
-          "first_name": "Brian",
-          "last_name": "Thomas",
+          "player_id": "12509",
+          "name": "Tre' Harris",
+          "first_name": "Tre'",
+          "last_name": "Harris",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "JAX",
+          "team": "LAC",
           "status": "Active",
           "injury_status": null,
-          "age": 23,
-          "years_exp": 2
+          "age": 24,
+          "years_exp": 1
         },
         {
           "player_id": "9484",
@@ -3923,19 +3923,19 @@
           "years_exp": 6
         },
         {
-          "player_id": "9226",
-          "name": "De'Von Achane",
-          "first_name": "De'Von",
-          "last_name": "Achane",
+          "player_id": "12527",
+          "name": "Ashton Jeanty",
+          "first_name": "Ashton",
+          "last_name": "Jeanty",
           "position": "RB",
           "fantasy_positions": [
             "RB"
           ],
-          "team": "MIA",
-          "status": "Inactive",
-          "injury_status": "IR",
-          "age": 24,
-          "years_exp": 3
+          "team": "LV",
+          "status": "Active",
+          "injury_status": null,
+          "age": 22,
+          "years_exp": 1
         },
         {
           "player_id": "9224",
@@ -4013,19 +4013,19 @@
           "years_exp": 6
         },
         {
-          "player_id": "12527",
-          "name": "Ashton Jeanty",
-          "first_name": "Ashton",
-          "last_name": "Jeanty",
-          "position": "RB",
+          "player_id": "8112",
+          "name": "Drake London",
+          "first_name": "Drake",
+          "last_name": "London",
+          "position": "WR",
           "fantasy_positions": [
-            "RB"
+            "WR"
           ],
-          "team": "LV",
+          "team": "ATL",
           "status": "Active",
           "injury_status": null,
-          "age": 22,
-          "years_exp": 1
+          "age": 25,
+          "years_exp": 4
         },
         {
           "player_id": "4881",
@@ -4092,19 +4092,19 @@
       ],
       "reserve": [
         {
-          "player_id": "11583",
-          "name": "Jonathon Brooks",
-          "first_name": "Jonathon",
-          "last_name": "Brooks",
+          "player_id": "9226",
+          "name": "De'Von Achane",
+          "first_name": "De'Von",
+          "last_name": "Achane",
           "position": "RB",
           "fantasy_positions": [
             "RB"
           ],
-          "team": "CAR",
+          "team": "MIA",
           "status": "Inactive",
           "injury_status": "IR",
-          "age": 23,
-          "years_exp": 2
+          "age": 24,
+          "years_exp": 3
         }
       ]
     },
@@ -5244,7 +5244,23 @@
           "years_exp": null
         }
       ],
-      "reserve": []
+      "reserve": [
+        {
+          "player_id": "11618",
+          "name": "Jalen McMillan",
+          "first_name": "Jalen",
+          "last_name": "McMillan",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "TB",
+          "status": "Active",
+          "injury_status": "Out",
+          "age": 24,
+          "years_exp": 2
+        }
+      ]
     },
     {
       "roster_id": 10,
