@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T00:00:28.205Z",
+  "generated_at": "2026-09-30T12:00:52.276Z",
   "league": {
     "league_id": "1327788752298336256",
     "name": "Oiled Without Consent",
@@ -403,10 +403,10 @@
       "round": 3,
       "original_roster_id": 2,
       "original_team": "Cam dog",
-      "current_owner_roster_id": 2,
-      "current_team": "Cam dog",
-      "previous_owner_roster_id": 3,
-      "previous_team": "Third Down Syndrome",
+      "current_owner_roster_id": 8,
+      "current_team": "PurpleRhane",
+      "previous_owner_roster_id": 2,
+      "previous_team": "Cam dog",
       "has_been_traded": true
     },
     {
@@ -733,11 +733,11 @@
       "round": 3,
       "original_roster_id": 2,
       "original_team": "Cam dog",
-      "current_owner_roster_id": 2,
-      "current_team": "Cam dog",
-      "previous_owner_roster_id": null,
-      "previous_team": null,
-      "has_been_traded": false
+      "current_owner_roster_id": 8,
+      "current_team": "PurpleRhane",
+      "previous_owner_roster_id": 2,
+      "previous_team": "Cam dog",
+      "has_been_traded": true
     },
     {
       "season": "2029",
@@ -1196,6 +1196,122 @@
       }
     },
     {
+      "roster_id": 8,
+      "team_name": "PurpleRhane",
+      "total_future_picks": 13,
+      "first_round_picks": 3,
+      "second_round_picks": 3,
+      "third_round_picks": 7,
+      "other_round_picks": 0,
+      "by_season": {
+        "2027": {
+          "total": 4,
+          "round_1": 1,
+          "round_2": 1,
+          "round_3": 2,
+          "other_rounds": 0,
+          "picks": [
+            {
+              "round": 3,
+              "original_roster_id": 6,
+              "original_team": "McCaffrican Americans",
+              "has_been_traded": true
+            },
+            {
+              "round": 1,
+              "original_roster_id": 8,
+              "original_team": "PurpleRhane",
+              "has_been_traded": false
+            },
+            {
+              "round": 2,
+              "original_roster_id": 8,
+              "original_team": "PurpleRhane",
+              "has_been_traded": false
+            },
+            {
+              "round": 3,
+              "original_roster_id": 8,
+              "original_team": "PurpleRhane",
+              "has_been_traded": false
+            }
+          ]
+        },
+        "2028": {
+          "total": 5,
+          "round_1": 1,
+          "round_2": 1,
+          "round_3": 3,
+          "other_rounds": 0,
+          "picks": [
+            {
+              "round": 3,
+              "original_roster_id": 2,
+              "original_team": "Cam dog",
+              "has_been_traded": true
+            },
+            {
+              "round": 3,
+              "original_roster_id": 6,
+              "original_team": "McCaffrican Americans",
+              "has_been_traded": true
+            },
+            {
+              "round": 1,
+              "original_roster_id": 8,
+              "original_team": "PurpleRhane",
+              "has_been_traded": false
+            },
+            {
+              "round": 2,
+              "original_roster_id": 8,
+              "original_team": "PurpleRhane",
+              "has_been_traded": false
+            },
+            {
+              "round": 3,
+              "original_roster_id": 8,
+              "original_team": "PurpleRhane",
+              "has_been_traded": false
+            }
+          ]
+        },
+        "2029": {
+          "total": 4,
+          "round_1": 1,
+          "round_2": 1,
+          "round_3": 2,
+          "other_rounds": 0,
+          "picks": [
+            {
+              "round": 3,
+              "original_roster_id": 2,
+              "original_team": "Cam dog",
+              "has_been_traded": true
+            },
+            {
+              "round": 1,
+              "original_roster_id": 8,
+              "original_team": "PurpleRhane",
+              "has_been_traded": false
+            },
+            {
+              "round": 2,
+              "original_roster_id": 8,
+              "original_team": "PurpleRhane",
+              "has_been_traded": false
+            },
+            {
+              "round": 3,
+              "original_roster_id": 8,
+              "original_team": "PurpleRhane",
+              "has_been_traded": false
+            }
+          ]
+        }
+      }
+    },
+    {
       "roster_id": 1,
       "team_name": "Young N Hip",
       "total_future_picks": 12,
@@ -1299,196 +1415,6 @@
               "round": 2,
               "original_roster_id": 2,
               "original_team": "Cam dog",
-              "has_been_traded": true
-            }
-          ]
-        }
-      }
-    },
-    {
-      "roster_id": 8,
-      "team_name": "PurpleRhane",
-      "total_future_picks": 11,
-      "first_round_picks": 3,
-      "second_round_picks": 3,
-      "third_round_picks": 5,
-      "other_round_picks": 0,
-      "by_season": {
-        "2027": {
-          "total": 4,
-          "round_1": 1,
-          "round_2": 1,
-          "round_3": 2,
-          "other_rounds": 0,
-          "picks": [
-            {
-              "round": 3,
-              "original_roster_id": 6,
-              "original_team": "McCaffrican Americans",
-              "has_been_traded": true
-            },
-            {
-              "round": 1,
-              "original_roster_id": 8,
-              "original_team": "PurpleRhane",
-              "has_been_traded": false
-            },
-            {
-              "round": 2,
-              "original_roster_id": 8,
-              "original_team": "PurpleRhane",
-              "has_been_traded": false
-            },
-            {
-              "round": 3,
-              "original_roster_id": 8,
-              "original_team": "PurpleRhane",
-              "has_been_traded": false
-            }
-          ]
-        },
-        "2028": {
-          "total": 4,
-          "round_1": 1,
-          "round_2": 1,
-          "round_3": 2,
-          "other_rounds": 0,
-          "picks": [
-            {
-              "round": 3,
-              "original_roster_id": 6,
-              "original_team": "McCaffrican Americans",
-              "has_been_traded": true
-            },
-            {
-              "round": 1,
-              "original_roster_id": 8,
-              "original_team": "PurpleRhane",
-              "has_been_traded": false
-            },
-            {
-              "round": 2,
-              "original_roster_id": 8,
-              "original_team": "PurpleRhane",
-              "has_been_traded": false
-            },
-            {
-              "round": 3,
-              "original_roster_id": 8,
-              "original_team": "PurpleRhane",
-              "has_been_traded": false
-            }
-          ]
-        },
-        "2029": {
-          "total": 3,
-          "round_1": 1,
-          "round_2": 1,
-          "round_3": 1,
-          "other_rounds": 0,
-          "picks": [
-            {
-              "round": 1,
-              "original_roster_id": 8,
-              "original_team": "PurpleRhane",
-              "has_been_traded": false
-            },
-            {
-              "round": 2,
-              "original_roster_id": 8,
-              "original_team": "PurpleRhane",
-              "has_been_traded": false
-            },
-            {
-              "round": 3,
-              "original_roster_id": 8,
-              "original_team": "PurpleRhane",
-              "has_been_traded": false
-            }
-          ]
-        }
-      }
-    },
-    {
-      "roster_id": 2,
-      "team_name": "Cam dog",
-      "total_future_picks": 8,
-      "first_round_picks": 3,
-      "second_round_picks": 0,
-      "third_round_picks": 5,
-      "other_round_picks": 0,
-      "by_season": {
-        "2027": {
-          "total": 1,
-          "round_1": 1,
-          "round_2": 0,
-          "round_3": 0,
-          "other_rounds": 0,
-          "picks": [
-            {
-              "round": 1,
-              "original_roster_id": 5,
-              "original_team": "BING BONG",
-              "has_been_traded": true
-            }
-          ]
-        },
-        "2028": {
-          "total": 4,
-          "round_1": 1,
-          "round_2": 0,
-          "round_3": 3,
-          "other_rounds": 0,
-          "picks": [
-            {
-              "round": 3,
-              "original_roster_id": 1,
-              "original_team": "Young N Hip",
-              "has_been_traded": true
-            },
-            {
-              "round": 3,
-              "original_roster_id": 2,
-              "original_team": "Cam dog",
-              "has_been_traded": true
-            },
-            {
-              "round": 3,
-              "original_roster_id": 3,
-              "original_team": "Third Down Syndrome",
-              "has_been_traded": true
-            },
-            {
-              "round": 1,
-              "original_roster_id": 6,
-              "original_team": "McCaffrican Americans",
-              "has_been_traded": true
-            }
-          ]
-        },
-        "2029": {
-          "total": 3,
-          "round_1": 1,
-          "round_2": 0,
-          "round_3": 2,
-          "other_rounds": 0,
-          "picks": [
-            {
-              "round": 1,
-              "original_roster_id": 2,
-              "original_team": "Cam dog",
-              "has_been_traded": false
-            },
-            {
-              "round": 3,
-              "original_roster_id": 2,
-              "original_team": "Cam dog",
-              "has_been_traded": false
-            },
-            {
-              "round": 3,
-              "original_roster_id": 6,
-              "original_team": "McCaffrican Americans",
               "has_been_traded": true
             }
           ]
@@ -1662,6 +1588,80 @@
               "original_roster_id": 6,
               "original_team": "McCaffrican Americans",
               "has_been_traded": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "roster_id": 2,
+      "team_name": "Cam dog",
+      "total_future_picks": 6,
+      "first_round_picks": 3,
+      "second_round_picks": 0,
+      "third_round_picks": 3,
+      "other_round_picks": 0,
+      "by_season": {
+        "2027": {
+          "total": 1,
+          "round_1": 1,
+          "round_2": 0,
+          "round_3": 0,
+          "other_rounds": 0,
+          "picks": [
+            {
+              "round": 1,
+              "original_roster_id": 5,
+              "original_team": "BING BONG",
+              "has_been_traded": true
+            }
+          ]
+        },
+        "2028": {
+          "total": 3,
+          "round_1": 1,
+          "round_2": 0,
+          "round_3": 2,
+          "other_rounds": 0,
+          "picks": [
+            {
+              "round": 3,
+              "original_roster_id": 1,
+              "original_team": "Young N Hip",
+              "has_been_traded": true
+            },
+            {
+              "round": 3,
+              "original_roster_id": 3,
+              "original_team": "Third Down Syndrome",
+              "has_been_traded": true
+            },
+            {
+              "round": 1,
+              "original_roster_id": 6,
+              "original_team": "McCaffrican Americans",
+              "has_been_traded": true
+            }
+          ]
+        },
+        "2029": {
+          "total": 2,
+          "round_1": 1,
+          "round_2": 0,
+          "round_3": 1,
+          "other_rounds": 0,
+          "picks": [
+            {
+              "round": 1,
+              "original_roster_id": 2,
+              "original_team": "Cam dog",
+              "has_been_traded": false
+            },
+            {
+              "round": 3,
+              "original_roster_id": 6,
+              "original_team": "McCaffrican Americans",
+              "has_been_traded": true
             }
           ]
         }
