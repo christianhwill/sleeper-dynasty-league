@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T12:00:52.276Z",
+  "generated_at": "2026-10-01T00:00:31.201Z",
   "season": "2026",
   "trades": [
     {
@@ -2185,6 +2185,47 @@
         },
         {
           "amount": 5,
+          "sender": 4,
+          "receiver": 1
+        }
+      ],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1411008415509094400",
+      "type": "trade",
+      "status": "complete",
+      "created": 1790773130827,
+      "created_iso": "2026-09-30T12:58:50.827Z",
+      "week": 4,
+      "leg": 4,
+      "creator": "1129875387229560832",
+      "roster_ids": [
+        1,
+        4
+      ],
+      "teams": [
+        {
+          "roster_id": 1,
+          "team_name": "Young N Hip"
+        },
+        {
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        }
+      ],
+      "adds": [],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [
+        {
+          "amount": 5,
+          "sender": 1,
+          "receiver": 4
+        },
+        {
+          "amount": 1,
           "sender": 4,
           "receiver": 1
         }
