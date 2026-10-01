@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T12:00:52.276Z",
+  "generated_at": "2026-10-01T00:00:31.201Z",
   "season": "2026",
   "teams": [
     {
@@ -19,7 +19,7 @@
         "ppts_decimal": 90,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": -2,
+        "waiver_budget_used": 2,
         "waiver_position": 10,
         "wins": 0
       },
@@ -639,21 +639,6 @@
           "years_exp": 2
         },
         {
-          "player_id": "11610",
-          "name": "Malik Washington",
-          "first_name": "Malik",
-          "last_name": "Washington",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "MIA",
-          "status": "Active",
-          "injury_status": null,
-          "age": 25,
-          "years_exp": 2
-        },
-        {
           "player_id": "11624",
           "name": "Xavier Worthy",
           "first_name": "Xavier",
@@ -846,6 +831,21 @@
           "status": "Active",
           "injury_status": null,
           "age": 36,
+          "years_exp": 13
+        },
+        {
+          "player_id": "1479",
+          "name": "Keenan Allen",
+          "first_name": "Keenan",
+          "last_name": "Allen",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "IND",
+          "status": "Active",
+          "injury_status": null,
+          "age": 34,
           "years_exp": 13
         },
         {
@@ -1091,19 +1091,19 @@
           "years_exp": 2
         },
         {
-          "player_id": "12534",
-          "name": "Kyle Monangai",
-          "first_name": "Kyle",
-          "last_name": "Monangai",
-          "position": "RB",
+          "player_id": "1479",
+          "name": "Keenan Allen",
+          "first_name": "Keenan",
+          "last_name": "Allen",
+          "position": "WR",
           "fantasy_positions": [
-            "RB"
+            "WR"
           ],
-          "team": "CHI",
+          "team": "IND",
           "status": "Active",
           "injury_status": null,
-          "age": 24,
-          "years_exp": 1
+          "age": 34,
+          "years_exp": 13
         },
         {
           "player_id": "2306",
@@ -1764,7 +1764,7 @@
         "ppts_decimal": 76,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 57,
+        "waiver_budget_used": 53,
         "waiver_position": 8,
         "wins": 2
       },
@@ -3204,18 +3204,18 @@
       ],
       "starters": [
         {
-          "player_id": "4892",
-          "name": "Baker Mayfield",
-          "first_name": "Baker",
-          "last_name": "Mayfield",
+          "player_id": "4943",
+          "name": "Sam Darnold",
+          "first_name": "Sam",
+          "last_name": "Darnold",
           "position": "QB",
           "fantasy_positions": [
             "QB"
           ],
-          "team": "TB",
+          "team": "SEA",
           "status": "Active",
-          "injury_status": "Out",
-          "age": 31,
+          "injury_status": null,
+          "age": 29,
           "years_exp": 8
         },
         {
@@ -3309,34 +3309,34 @@
           "years_exp": null
         },
         {
-          "player_id": "4039",
-          "name": "Cooper Kupp",
-          "first_name": "Cooper",
-          "last_name": "Kupp",
+          "player_id": "5947",
+          "name": "Jakobi Meyers",
+          "first_name": "Jakobi",
+          "last_name": "Meyers",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "SEA",
-          "status": "Active",
-          "injury_status": null,
-          "age": 33,
-          "years_exp": 9
-        },
-        {
-          "player_id": "4943",
-          "name": "Sam Darnold",
-          "first_name": "Sam",
-          "last_name": "Darnold",
-          "position": "QB",
-          "fantasy_positions": [
-            "QB"
-          ],
-          "team": "SEA",
+          "team": "JAX",
           "status": "Active",
           "injury_status": null,
           "age": 29,
-          "years_exp": 8
+          "years_exp": 7
+        },
+        {
+          "player_id": "12533",
+          "name": "Jacory Croskey-Merritt",
+          "first_name": "Jacory",
+          "last_name": "Croskey-Merritt",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "team": "WAS",
+          "status": "Active",
+          "injury_status": null,
+          "age": 25,
+          "years_exp": 1
         }
       ],
       "taxi": [
@@ -4935,19 +4935,19 @@
       ],
       "starters": [
         {
-          "player_id": "6904",
-          "name": "Jalen Hurts",
-          "first_name": "Jalen",
-          "last_name": "Hurts",
+          "player_id": "3294",
+          "name": "Dak Prescott",
+          "first_name": "Dak",
+          "last_name": "Prescott",
           "position": "QB",
           "fantasy_positions": [
             "QB"
           ],
-          "team": "PHI",
+          "team": "DAL",
           "status": "Active",
           "injury_status": null,
-          "age": 28,
-          "years_exp": 6
+          "age": 33,
+          "years_exp": 10
         },
         {
           "player_id": "9509",
@@ -4980,21 +4980,6 @@
           "years_exp": 5
         },
         {
-          "player_id": "6794",
-          "name": "Justin Jefferson",
-          "first_name": "Justin",
-          "last_name": "Jefferson",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "MIN",
-          "status": "Active",
-          "injury_status": "Questionable",
-          "age": 27,
-          "years_exp": 6
-        },
-        {
           "player_id": "7525",
           "name": "DeVonta Smith",
           "first_name": "DeVonta",
@@ -5008,6 +4993,21 @@
           "injury_status": null,
           "age": 27,
           "years_exp": 5
+        },
+        {
+          "player_id": "9487",
+          "name": "Parker Washington",
+          "first_name": "Parker",
+          "last_name": "Washington",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "JAX",
+          "status": "Active",
+          "injury_status": null,
+          "age": 24,
+          "years_exp": 3
         },
         {
           "player_id": "10859",
@@ -5040,34 +5040,34 @@
           "years_exp": 4
         },
         {
-          "player_id": "9487",
-          "name": "Parker Washington",
-          "first_name": "Parker",
-          "last_name": "Washington",
+          "player_id": "8228",
+          "name": "Jaylen Warren",
+          "first_name": "Jaylen",
+          "last_name": "Warren",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "team": "PIT",
+          "status": "Active",
+          "injury_status": null,
+          "age": 27,
+          "years_exp": 4
+        },
+        {
+          "player_id": "6794",
+          "name": "Justin Jefferson",
+          "first_name": "Justin",
+          "last_name": "Jefferson",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "JAX",
+          "team": "MIN",
           "status": "Active",
-          "injury_status": null,
-          "age": 24,
-          "years_exp": 3
-        },
-        {
-          "player_id": "3294",
-          "name": "Dak Prescott",
-          "first_name": "Dak",
-          "last_name": "Prescott",
-          "position": "QB",
-          "fantasy_positions": [
-            "QB"
-          ],
-          "team": "DAL",
-          "status": "Active",
-          "injury_status": null,
-          "age": 33,
-          "years_exp": 10
+          "injury_status": "Questionable",
+          "age": 27,
+          "years_exp": 6
         }
       ],
       "taxi": [
