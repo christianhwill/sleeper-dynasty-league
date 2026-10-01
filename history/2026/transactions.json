@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T00:00:31.201Z",
+  "generated_at": "2026-10-01T12:01:02.333Z",
   "season": "2026",
   "transactions": [
     {
@@ -463,7 +463,7 @@
             ],
             "team": "TEN",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 25,
             "years_exp": 3
           },
@@ -1492,7 +1492,7 @@
             "fantasy_positions": [
               "WR"
             ],
-            "team": "NYG",
+            "team": null,
             "status": "Active",
             "injury_status": null,
             "age": 33,
@@ -1749,7 +1749,7 @@
             "fantasy_positions": [
               "WR"
             ],
-            "team": "NYG",
+            "team": null,
             "status": "Active",
             "injury_status": null,
             "age": 33,
@@ -2828,7 +2828,7 @@
             ],
             "team": "CAR",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": "Doubtful",
             "age": 25,
             "years_exp": 2
           },
@@ -2970,7 +2970,7 @@
             ],
             "team": "NYJ",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": "Doubtful",
             "age": 22,
             "years_exp": 1
           },
@@ -3170,7 +3170,7 @@
             ],
             "team": "NYG",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 26,
             "years_exp": 2
           },
@@ -3936,7 +3936,7 @@
             ],
             "team": "NYG",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 26,
             "years_exp": 2
           },
@@ -4595,7 +4595,7 @@
             ],
             "team": "NYG",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 26,
             "years_exp": 2
           },
@@ -4673,7 +4673,7 @@
             ],
             "team": "NYG",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 26,
             "years_exp": 2
           },
@@ -5564,7 +5564,7 @@
             ],
             "team": "SEA",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 26,
             "years_exp": 2
           },
@@ -5764,7 +5764,7 @@
             ],
             "team": "TEN",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 25,
             "years_exp": 3
           },
@@ -5985,7 +5985,7 @@
             ],
             "team": "NYG",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 26,
             "years_exp": 2
           },
@@ -6511,7 +6511,7 @@
             ],
             "team": "LAC",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 24,
             "years_exp": 3
           },
@@ -6935,7 +6935,7 @@
             ],
             "team": "PIT",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": "Out",
             "age": 28,
             "years_exp": 6
           },
@@ -7116,7 +7116,7 @@
             ],
             "team": "PIT",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": "Out",
             "age": 28,
             "years_exp": 6
           },
@@ -7183,7 +7183,7 @@
             ],
             "team": "PIT",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": "Out",
             "age": 28,
             "years_exp": 6
           },
@@ -8627,7 +8627,7 @@
             ],
             "team": "LAC",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 24,
             "years_exp": 3
           },
@@ -8674,7 +8674,7 @@
             ],
             "team": "LAC",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 24,
             "years_exp": 3
           },
@@ -8819,7 +8819,7 @@
             ],
             "team": "TEN",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 25,
             "years_exp": 3
           },
@@ -8926,8 +8926,8 @@
               "WR"
             ],
             "team": "GB",
-            "status": "Active",
-            "injury_status": "Doubtful",
+            "status": "Inactive",
+            "injury_status": "IR",
             "age": 26,
             "years_exp": 3
           },
