@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T09:01:23.793Z",
+  "generated_at": "2026-10-01T09:01:42.109Z",
   "league": {
     "league_id": "1327788752298336256",
     "name": "Oiled Without Consent",
@@ -196,86 +196,86 @@
         }
       },
       "roster_value": {
-        "full_roster_consensus_value": 93552,
-        "lineup_adjusted_value": 71928.5,
+        "full_roster_consensus_value": 93423,
+        "lineup_adjusted_value": 71925.35,
         "valuation_coverage": 1,
         "top_assets": [
           {
             "player_id": "9488",
             "name": "Jaxon Smith-Njigba",
             "position": "WR",
-            "consensus_value": 9297,
+            "consensus_value": 9287,
             "consensus_rank": 2
           },
           {
             "player_id": "4881",
             "name": "Lamar Jackson",
             "position": "QB",
-            "consensus_value": 8027,
+            "consensus_value": 8008,
             "consensus_rank": 6
           },
           {
             "player_id": "9493",
             "name": "Puka Nacua",
             "position": "WR",
-            "consensus_value": 7675,
+            "consensus_value": 7651,
             "consensus_rank": 8
           },
           {
             "player_id": "6786",
             "name": "CeeDee Lamb",
             "position": "WR",
-            "consensus_value": 7433,
+            "consensus_value": 7470,
             "consensus_rank": 9
           },
           {
             "player_id": "6770",
             "name": "Joe Burrow",
             "position": "QB",
-            "consensus_value": 7329,
+            "consensus_value": 7284,
             "consensus_rank": 10
           },
           {
             "player_id": "12527",
             "name": "Ashton Jeanty",
             "position": "RB",
-            "consensus_value": 7015,
+            "consensus_value": 7021,
             "consensus_rank": 15
-          },
-          {
-            "player_id": "8130",
-            "name": "Trey McBride",
-            "position": "TE",
-            "consensus_value": 5917,
-            "consensus_rank": 23
           },
           {
             "player_id": "8112",
             "name": "Drake London",
             "position": "WR",
-            "consensus_value": 5858,
-            "consensus_rank": 25
+            "consensus_value": 5935,
+            "consensus_rank": 23
+          },
+          {
+            "player_id": "8130",
+            "name": "Trey McBride",
+            "position": "TE",
+            "consensus_value": 5907,
+            "consensus_rank": 24
           },
           {
             "player_id": "9226",
             "name": "De'Von Achane",
             "position": "RB",
-            "consensus_value": 5146,
+            "consensus_value": 5159,
             "consensus_rank": 31
           },
           {
             "player_id": "11563",
             "name": "Bo Nix",
             "position": "QB",
-            "consensus_value": 5065,
+            "consensus_value": 5053,
             "consensus_rank": 34
           }
         ]
       },
       "projection": {
-        "consensus_full_season_lineup_projection": 2459.88,
-        "provider_full_season_lineup_projection": 2459.88,
-        "average_weekly_projected_points": 163.12,
+        "consensus_full_season_lineup_projection": 2459.9,
+        "provider_full_season_lineup_projection": 2459.9,
+        "average_weekly_projected_points": 163.15,
         "available_week_count": 18,
         "projected_regular_season_record": {
           "wins": 14,
@@ -442,15 +442,15 @@
         }
       },
       "roster_value": {
-        "full_roster_consensus_value": 79535,
-        "lineup_adjusted_value": 62736.8,
+        "full_roster_consensus_value": 79231,
+        "lineup_adjusted_value": 62579.2,
         "valuation_coverage": 1,
         "top_assets": [
           {
             "player_id": "4984",
             "name": "Josh Allen",
             "position": "QB",
-            "consensus_value": 9921,
+            "consensus_value": 9864,
             "consensus_rank": 1
           },
           {
@@ -464,64 +464,64 @@
             "player_id": "7547",
             "name": "Amon-Ra St. Brown",
             "position": "WR",
-            "consensus_value": 7896,
+            "consensus_value": 7894,
             "consensus_rank": 7
           },
           {
             "player_id": "4046",
             "name": "Patrick Mahomes",
             "position": "QB",
-            "consensus_value": 7175,
+            "consensus_value": 7154,
             "consensus_rank": 12
           },
           {
             "player_id": "8151",
             "name": "Kenneth Walker",
             "position": "RB",
-            "consensus_value": 5535,
+            "consensus_value": 5567,
             "consensus_rank": 27
           },
           {
             "player_id": "8144",
             "name": "Chris Olave",
             "position": "WR",
-            "consensus_value": 5408,
-            "consensus_rank": 30
+            "consensus_value": 5450,
+            "consensus_rank": 29
           },
           {
             "player_id": "7569",
             "name": "Nico Collins",
             "position": "WR",
-            "consensus_value": 4751,
+            "consensus_value": 4718,
             "consensus_rank": 39
           },
           {
             "player_id": "4034",
             "name": "Christian McCaffrey",
             "position": "RB",
-            "consensus_value": 4318,
-            "consensus_rank": 43
+            "consensus_value": 4252,
+            "consensus_rank": 45
           },
           {
             "player_id": "4866",
             "name": "Saquon Barkley",
             "position": "RB",
-            "consensus_value": 3431,
-            "consensus_rank": 60
+            "consensus_value": 3413,
+            "consensus_rank": 61
           },
           {
             "player_id": "10236",
             "name": "Dalton Kincaid",
             "position": "TE",
-            "consensus_value": 3262,
+            "consensus_value": 3235,
             "consensus_rank": 66
           }
         ]
       },
       "projection": {
-        "consensus_full_season_lineup_projection": 2544.89,
-        "provider_full_season_lineup_projection": 2544.89,
-        "average_weekly_projected_points": 168.11,
+        "consensus_full_season_lineup_projection": 2545.27,
+        "provider_full_season_lineup_projection": 2545.27,
+        "average_weekly_projected_points": 169.23,
         "available_week_count": 18,
         "projected_regular_season_record": {
           "wins": 13,
@@ -546,12 +546,12 @@
         "reserve_count": 1
       },
       "recent_performance_score": 100,
-      "draft_capital_score": 11.11,
+      "draft_capital_score": 22.22,
       "roster_value_score": 88.89,
       "current_projection_score": 100,
       "competitive_score": 100,
-      "baseline_power_score": 73.33,
-      "power_score": 76.67,
+      "baseline_power_score": 76.67,
+      "power_score": 78.89,
       "rank": 2,
       "previous_rank": 2,
       "rank_change": 0
@@ -694,86 +694,86 @@
         }
       },
       "roster_value": {
-        "full_roster_consensus_value": 68465,
-        "lineup_adjusted_value": 51935.3,
+        "full_roster_consensus_value": 67765,
+        "lineup_adjusted_value": 51838.95,
         "valuation_coverage": 1,
         "top_assets": [
           {
             "player_id": "7564",
             "name": "Ja'Marr Chase",
             "position": "WR",
-            "consensus_value": 9042,
+            "consensus_value": 9007,
             "consensus_rank": 3
           },
           {
             "player_id": "6797",
             "name": "Justin Herbert",
             "position": "QB",
-            "consensus_value": 6180,
-            "consensus_rank": 20
+            "consensus_value": 6109,
+            "consensus_rank": 21
           },
           {
             "player_id": "8138",
             "name": "James Cook",
             "position": "RB",
-            "consensus_value": 5960,
+            "consensus_value": 5981,
             "consensus_rank": 22
           },
           {
             "player_id": "8183",
             "name": "Brock Purdy",
             "position": "QB",
-            "consensus_value": 5734,
+            "consensus_value": 5731,
             "consensus_rank": 26
           },
           {
             "player_id": "6813",
             "name": "Jonathan Taylor",
             "position": "RB",
-            "consensus_value": 5486,
+            "consensus_value": 5496,
             "consensus_rank": 28
           },
           {
             "player_id": "8137",
             "name": "George Pickens",
             "position": "WR",
-            "consensus_value": 4924,
-            "consensus_rank": 37
+            "consensus_value": 4971,
+            "consensus_rank": 36
           },
           {
             "player_id": "12517",
             "name": "Colston Loveland",
             "position": "TE",
-            "consensus_value": 4182,
-            "consensus_rank": 46
+            "consensus_value": 4162,
+            "consensus_rank": 47
           },
           {
             "player_id": "11584",
             "name": "Bucky Irving",
             "position": "RB",
-            "consensus_value": 2945,
+            "consensus_value": 2924,
             "consensus_rank": 78
-          },
-          {
-            "player_id": "8161",
-            "name": "Malik Willis",
-            "position": "QB",
-            "consensus_value": 2254,
-            "consensus_rank": 96
           },
           {
             "player_id": "2133",
             "name": "Davante Adams",
             "position": "WR",
-            "consensus_value": 2174,
-            "consensus_rank": 98
+            "consensus_value": 2257,
+            "consensus_rank": 95
+          },
+          {
+            "player_id": "8161",
+            "name": "Malik Willis",
+            "position": "QB",
+            "consensus_value": 2237,
+            "consensus_rank": 96
           }
         ]
       },
       "projection": {
-        "consensus_full_season_lineup_projection": 2228.36,
-        "provider_full_season_lineup_projection": 2228.36,
-        "average_weekly_projected_points": 146.53,
+        "consensus_full_season_lineup_projection": 2228.39,
+        "provider_full_season_lineup_projection": 2228.39,
+        "average_weekly_projected_points": 146.81,
         "available_week_count": 18,
         "projected_regular_season_record": {
           "wins": 10,
@@ -784,12 +784,12 @@
       "roster_profile": {
         "total_players": 22,
         "fantasy_players": 22,
-        "average_age": 26.64,
-        "average_years_experience": 4.64,
-        "players_with_2_or_fewer_years_experience": 4,
+        "average_age": 26.5,
+        "average_years_experience": 4.59,
+        "players_with_2_or_fewer_years_experience": 5,
         "position_counts": {
-          "WR": 10,
-          "RB": 4,
+          "WR": 9,
+          "RB": 5,
           "TE": 2,
           "QB": 6
         },
@@ -952,86 +952,86 @@
         }
       },
       "roster_value": {
-        "full_roster_consensus_value": 66265,
-        "lineup_adjusted_value": 50300.1,
+        "full_roster_consensus_value": 65856,
+        "lineup_adjusted_value": 50038.05,
         "valuation_coverage": 1,
         "top_assets": [
           {
             "player_id": "9509",
             "name": "Bijan Robinson",
             "position": "RB",
-            "consensus_value": 8935,
+            "consensus_value": 8908,
             "consensus_rank": 4
           },
           {
             "player_id": "6794",
             "name": "Justin Jefferson",
             "position": "WR",
-            "consensus_value": 7180,
+            "consensus_value": 7188,
             "consensus_rank": 11
           },
           {
             "player_id": "6904",
             "name": "Jalen Hurts",
             "position": "QB",
-            "consensus_value": 7070,
+            "consensus_value": 7028,
             "consensus_rank": 14
           },
           {
             "player_id": "3294",
             "name": "Dak Prescott",
             "position": "QB",
-            "consensus_value": 4967,
-            "consensus_rank": 36
+            "consensus_value": 4932,
+            "consensus_rank": 37
           },
           {
             "player_id": "7525",
             "name": "DeVonta Smith",
             "position": "WR",
-            "consensus_value": 4304,
-            "consensus_rank": 44
+            "consensus_value": 4224,
+            "consensus_rank": 46
           },
           {
             "player_id": "10859",
             "name": "Sam LaPorta",
             "position": "TE",
-            "consensus_value": 3530,
+            "consensus_value": 3506,
             "consensus_rank": 58
           },
           {
             "player_id": "8150",
             "name": "Kyren Williams",
             "position": "RB",
-            "consensus_value": 3327,
-            "consensus_rank": 65
+            "consensus_value": 3315,
+            "consensus_rank": 63
           },
           {
             "player_id": "9487",
             "name": "Parker Washington",
             "position": "WR",
-            "consensus_value": 3116,
-            "consensus_rank": 73
+            "consensus_value": 3141,
+            "consensus_rank": 70
           },
           {
             "player_id": "7588",
             "name": "Javonte Williams",
             "position": "RB",
-            "consensus_value": 3020,
-            "consensus_rank": 76
+            "consensus_value": 2976,
+            "consensus_rank": 77
           },
           {
             "player_id": "13330",
             "name": "Kenyon Sadiq",
             "position": "TE",
-            "consensus_value": 2468,
-            "consensus_rank": 89
+            "consensus_value": 2503,
+            "consensus_rank": 88
           }
         ]
       },
       "projection": {
-        "consensus_full_season_lineup_projection": 2251.93,
-        "provider_full_season_lineup_projection": 2251.93,
-        "average_weekly_projected_points": 145.73,
+        "consensus_full_season_lineup_projection": 2252.51,
+        "provider_full_season_lineup_projection": 2252.51,
+        "average_weekly_projected_points": 146.44,
         "available_week_count": 18,
         "projected_regular_season_record": {
           "wins": 9,
@@ -1204,78 +1204,78 @@
         }
       },
       "roster_value": {
-        "full_roster_consensus_value": 58728,
-        "lineup_adjusted_value": 44330.8,
+        "full_roster_consensus_value": 58819,
+        "lineup_adjusted_value": 44133.2,
         "valuation_coverage": 1,
         "top_assets": [
           {
             "player_id": "11560",
             "name": "Caleb Williams",
             "position": "QB",
-            "consensus_value": 7134,
+            "consensus_value": 7063,
             "consensus_rank": 13
           },
           {
             "player_id": "13287",
             "name": "Jeremiyah Love",
             "position": "RB",
-            "consensus_value": 6548,
+            "consensus_value": 6617,
             "consensus_rank": 16
           },
           {
             "player_id": "11566",
             "name": "Jayden Daniels",
             "position": "QB",
-            "consensus_value": 6284,
+            "consensus_value": 6219,
             "consensus_rank": 18
           },
           {
             "player_id": "3163",
             "name": "Jared Goff",
             "position": "QB",
-            "consensus_value": 4129,
-            "consensus_rank": 48
+            "consensus_value": 4074,
+            "consensus_rank": 49
           },
           {
             "player_id": "10229",
             "name": "Rashee Rice",
             "position": "WR",
-            "consensus_value": 3544,
-            "consensus_rank": 57
+            "consensus_value": 3494,
+            "consensus_rank": 59
           },
           {
             "player_id": "11620",
             "name": "Rome Odunze",
             "position": "WR",
-            "consensus_value": 3342,
-            "consensus_rank": 63
+            "consensus_value": 3263,
+            "consensus_rank": 65
           },
           {
             "player_id": "9484",
             "name": "Tucker Kraft",
             "position": "TE",
-            "consensus_value": 3242,
+            "consensus_value": 3219,
             "consensus_rank": 67
           },
           {
             "player_id": "13294",
             "name": "Makai Lemon",
             "position": "WR",
-            "consensus_value": 3079,
+            "consensus_value": 3063,
             "consensus_rank": 75
           },
           {
             "player_id": "13298",
             "name": "KC Concepcion",
             "position": "WR",
-            "consensus_value": 2428,
-            "consensus_rank": 90
+            "consensus_value": 2465,
+            "consensus_rank": 89
           },
           {
             "player_id": "12490",
             "name": "Bhayshul Tuten",
             "position": "RB",
-            "consensus_value": 2383,
+            "consensus_value": 2440,
             "consensus_rank": 91
           }
         ]
@@ -1283,7 +1283,7 @@
       "projection": {
         "consensus_full_season_lineup_projection": 1797.13,
         "provider_full_season_lineup_projection": 1797.13,
-        "average_weekly_projected_points": 117.37,
+        "average_weekly_projected_points": 117.68,
         "available_week_count": 18,
         "projected_regular_season_record": {
           "wins": 3,
@@ -1294,13 +1294,13 @@
       "roster_profile": {
         "total_players": 23,
         "fantasy_players": 23,
-        "average_age": 24.48,
-        "average_years_experience": 2.22,
-        "players_with_2_or_fewer_years_experience": 17,
+        "average_age": 24.65,
+        "average_years_experience": 2.61,
+        "players_with_2_or_fewer_years_experience": 16,
         "position_counts": {
-          "WR": 11,
-          "QB": 4,
-          "RB": 5,
+          "WR": 9,
+          "QB": 5,
+          "RB": 6,
           "TE": 3
         },
         "starter_count": 9,
@@ -1308,12 +1308,12 @@
         "reserve_count": 0
       },
       "recent_performance_score": 0,
-      "draft_capital_score": 77.78,
+      "draft_capital_score": 66.67,
       "roster_value_score": 55.56,
       "current_projection_score": 33.33,
       "competitive_score": 16.66,
-      "baseline_power_score": 23.33,
-      "power_score": 48.33,
+      "baseline_power_score": 20,
+      "power_score": 46.11,
       "rank": 5,
       "previous_rank": 5,
       "rank_change": 0
@@ -1373,10 +1373,10 @@
         "points_against": 510.46
       },
       "draft_capital": {
-        "total_future_picks": 11,
+        "total_future_picks": 13,
         "first_round_picks": 3,
         "second_round_picks": 3,
-        "third_round_picks": 5,
+        "third_round_picks": 7,
         "by_season": {
           "2027": {
             "total": 4,
@@ -1412,12 +1412,18 @@
             ]
           },
           "2028": {
-            "total": 4,
+            "total": 5,
             "round_1": 1,
             "round_2": 1,
-            "round_3": 2,
+            "round_3": 3,
             "other_rounds": 0,
             "picks": [
+              {
+                "round": 3,
+                "original_roster_id": 2,
+                "original_team": "Cam dog",
+                "has_been_traded": true
+              },
               {
                 "round": 3,
                 "original_roster_id": 6,
@@ -1445,12 +1451,18 @@
             ]
           },
           "2029": {
-            "total": 3,
+            "total": 4,
             "round_1": 1,
             "round_2": 1,
-            "round_3": 1,
+            "round_3": 2,
             "other_rounds": 0,
             "picks": [
+              {
+                "round": 3,
+                "original_roster_id": 2,
+                "original_team": "Cam dog",
+                "has_been_traded": true
+              },
               {
                 "round": 1,
                 "original_roster_id": 8,
@@ -1474,86 +1486,86 @@
         }
       },
       "roster_value": {
-        "full_roster_consensus_value": 59430,
-        "lineup_adjusted_value": 42598.15,
+        "full_roster_consensus_value": 58834,
+        "lineup_adjusted_value": 42264.15,
         "valuation_coverage": 1,
         "top_assets": [
           {
             "player_id": "11564",
             "name": "Drake Maye",
             "position": "QB",
-            "consensus_value": 6339,
+            "consensus_value": 6279,
             "consensus_rank": 17
           },
           {
             "player_id": "12507",
             "name": "Omarion Hampton",
             "position": "RB",
-            "consensus_value": 5416,
-            "consensus_rank": 29
+            "consensus_value": 5280,
+            "consensus_rank": 30
           },
           {
             "player_id": "12514",
             "name": "Emeka Egbuka",
             "position": "WR",
-            "consensus_value": 4525,
+            "consensus_value": 4500,
             "consensus_rank": 42
           },
           {
             "player_id": "13279",
             "name": "Carnell Tate",
             "position": "WR",
-            "consensus_value": 4249,
-            "consensus_rank": 45
+            "consensus_value": 4268,
+            "consensus_rank": 43
           },
           {
             "player_id": "9997",
             "name": "Zay Flowers",
             "position": "WR",
-            "consensus_value": 4178,
-            "consensus_rank": 47
+            "consensus_value": 4264,
+            "consensus_rank": 44
           },
           {
             "player_id": "13281",
             "name": "Jordyn Tyson",
             "position": "WR",
-            "consensus_value": 3329,
+            "consensus_value": 3285,
             "consensus_rank": 64
           },
           {
             "player_id": "12512",
             "name": "Quinshon Judkins",
             "position": "RB",
-            "consensus_value": 3103,
+            "consensus_value": 3063,
             "consensus_rank": 74
           },
           {
             "player_id": "12506",
             "name": "Harold Fannin",
             "position": "TE",
-            "consensus_value": 2812,
-            "consensus_rank": 80
+            "consensus_value": 2783,
+            "consensus_rank": 79
           },
           {
             "player_id": "8148",
             "name": "Jameson Williams",
             "position": "WR",
-            "consensus_value": 2770,
+            "consensus_value": 2758,
             "consensus_rank": 81
           },
           {
             "player_id": "421",
             "name": "Matthew Stafford",
             "position": "QB",
-            "consensus_value": 2628,
-            "consensus_rank": 83
+            "consensus_value": 2603,
+            "consensus_rank": 84
           }
         ]
       },
       "projection": {
         "consensus_full_season_lineup_projection": 1926.45,
         "provider_full_season_lineup_projection": 1926.45,
-        "average_weekly_projected_points": 126.21,
+        "average_weekly_projected_points": 125.44,
         "available_week_count": 18,
         "projected_regular_season_record": {
           "wins": 7,
@@ -1578,12 +1590,12 @@
         "reserve_count": 1
       },
       "recent_performance_score": 33.33,
-      "draft_capital_score": 66.67,
+      "draft_capital_score": 77.78,
       "roster_value_score": 33.33,
       "current_projection_score": 44.44,
       "competitive_score": 38.88,
-      "baseline_power_score": 43.33,
-      "power_score": 41.66,
+      "baseline_power_score": 46.66,
+      "power_score": 43.89,
       "rank": 6,
       "previous_rank": 6,
       "rank_change": 0
@@ -1750,86 +1762,86 @@
         }
       },
       "roster_value": {
-        "full_roster_consensus_value": 47334,
-        "lineup_adjusted_value": 33365.45,
+        "full_roster_consensus_value": 48073,
+        "lineup_adjusted_value": 33514.05,
         "valuation_coverage": 1,
         "top_assets": [
           {
             "player_id": "12526",
             "name": "Tetairoa McMillan",
             "position": "WR",
-            "consensus_value": 5075,
-            "consensus_rank": 33
+            "consensus_value": 5033,
+            "consensus_rank": 35
           },
           {
             "player_id": "12518",
             "name": "Tyler Warren",
             "position": "TE",
-            "consensus_value": 3862,
+            "consensus_value": 3877,
             "consensus_rank": 50
           },
           {
             "player_id": "12545",
             "name": "Tyler Shough",
             "position": "QB",
-            "consensus_value": 3832,
+            "consensus_value": 3823,
             "consensus_rank": 51
           },
           {
             "player_id": "9758",
             "name": "C.J. Stroud",
             "position": "QB",
-            "consensus_value": 3637,
+            "consensus_value": 3603,
             "consensus_rank": 55
           },
           {
             "player_id": "12519",
             "name": "Luther Burden",
             "position": "WR",
-            "consensus_value": 3565,
+            "consensus_value": 3569,
             "consensus_rank": 56
           },
           {
             "player_id": "13269",
             "name": "Fernando Mendoza",
             "position": "QB",
-            "consensus_value": 3389,
-            "consensus_rank": 62
+            "consensus_value": 3425,
+            "consensus_rank": 60
           },
           {
             "player_id": "7553",
             "name": "Kyle Pitts",
             "position": "TE",
-            "consensus_value": 2594,
-            "consensus_rank": 84
-          },
-          {
-            "player_id": "9500",
-            "name": "Josh Downs",
-            "position": "WR",
-            "consensus_value": 1727,
-            "consensus_rank": 117
+            "consensus_value": 2569,
+            "consensus_rank": 85
           },
           {
             "player_id": "11559",
             "name": "Michael Penix",
             "position": "QB",
-            "consensus_value": 1726,
-            "consensus_rank": 118
+            "consensus_value": 1752,
+            "consensus_rank": 113
           },
           {
-            "player_id": "11586",
-            "name": "Blake Corum",
-            "position": "RB",
-            "consensus_value": 1568,
-            "consensus_rank": 126
+            "player_id": "9500",
+            "name": "Josh Downs",
+            "position": "WR",
+            "consensus_value": 1749,
+            "consensus_rank": 114
+          },
+          {
+            "player_id": "13425",
+            "name": "Jalon Daniels",
+            "position": "QB",
+            "consensus_value": 1732,
+            "consensus_rank": 116
           }
         ]
       },
       "projection": {
-        "consensus_full_season_lineup_projection": 1737.48,
-        "provider_full_season_lineup_projection": 1737.48,
-        "average_weekly_projected_points": 114.71,
+        "consensus_full_season_lineup_projection": 1737.5,
+        "provider_full_season_lineup_projection": 1737.5,
+        "average_weekly_projected_points": 114.94,
         "available_week_count": 18,
         "projected_regular_season_record": {
           "wins": 1,
@@ -1840,12 +1852,12 @@
       "roster_profile": {
         "total_players": 24,
         "fantasy_players": 24,
-        "average_age": 24.25,
-        "average_years_experience": 1.92,
-        "players_with_2_or_fewer_years_experience": 15,
+        "average_age": 24.08,
+        "average_years_experience": 1.79,
+        "players_with_2_or_fewer_years_experience": 16,
         "position_counts": {
-          "RB": 8,
-          "QB": 5,
+          "QB": 6,
+          "RB": 7,
           "TE": 2,
           "WR": 9
         },
@@ -1919,10 +1931,10 @@
         "points_against": 398.14
       },
       "draft_capital": {
-        "total_future_picks": 8,
+        "total_future_picks": 6,
         "first_round_picks": 3,
         "second_round_picks": 0,
-        "third_round_picks": 5,
+        "third_round_picks": 3,
         "by_season": {
           "2027": {
             "total": 1,
@@ -1940,22 +1952,16 @@
             ]
           },
           "2028": {
-            "total": 4,
+            "total": 3,
             "round_1": 1,
             "round_2": 0,
-            "round_3": 3,
+            "round_3": 2,
             "other_rounds": 0,
             "picks": [
               {
                 "round": 3,
                 "original_roster_id": 1,
                 "original_team": "Young N Hip",
-                "has_been_traded": true
-              },
-              {
-                "round": 3,
-                "original_roster_id": 2,
-                "original_team": "Cam dog",
                 "has_been_traded": true
               },
               {
@@ -1973,20 +1979,14 @@
             ]
           },
           "2029": {
-            "total": 3,
+            "total": 2,
             "round_1": 1,
             "round_2": 0,
-            "round_3": 2,
+            "round_3": 1,
             "other_rounds": 0,
             "picks": [
               {
                 "round": 1,
-                "original_roster_id": 2,
-                "original_team": "Cam dog",
-                "has_been_traded": false
-              },
-              {
-                "round": 3,
                 "original_roster_id": 2,
                 "original_team": "Cam dog",
                 "has_been_traded": false
@@ -2002,86 +2002,86 @@
         }
       },
       "roster_value": {
-        "full_roster_consensus_value": 58503,
-        "lineup_adjusted_value": 43699.05,
+        "full_roster_consensus_value": 58185,
+        "lineup_adjusted_value": 43512,
         "valuation_coverage": 1,
         "top_assets": [
-          {
-            "player_id": "11632",
-            "name": "Malik Nabers",
-            "position": "WR",
-            "consensus_value": 6232,
-            "consensus_rank": 19
-          },
           {
             "player_id": "11604",
             "name": "Brock Bowers",
             "position": "TE",
-            "consensus_value": 6130,
-            "consensus_rank": 21
+            "consensus_value": 6173,
+            "consensus_rank": 19
+          },
+          {
+            "player_id": "11632",
+            "name": "Malik Nabers",
+            "position": "WR",
+            "consensus_value": 6173,
+            "consensus_rank": 20
           },
           {
             "player_id": "7523",
             "name": "Trevor Lawrence",
             "position": "QB",
-            "consensus_value": 5874,
-            "consensus_rank": 24
+            "consensus_value": 5858,
+            "consensus_rank": 25
           },
           {
             "player_id": "12508",
             "name": "Jaxson Dart",
             "position": "QB",
-            "consensus_value": 5126,
+            "consensus_value": 5114,
             "consensus_rank": 32
           },
           {
             "player_id": "8155",
             "name": "Breece Hall",
             "position": "RB",
-            "consensus_value": 4645,
+            "consensus_value": 4618,
             "consensus_rank": 40
           },
           {
             "player_id": "5859",
             "name": "A.J. Brown",
             "position": "WR",
-            "consensus_value": 3796,
+            "consensus_value": 3782,
             "consensus_rank": 52
           },
           {
             "player_id": "11628",
             "name": "Marvin Harrison Jr",
             "position": "WR",
-            "consensus_value": 3224,
+            "consensus_value": 3195,
             "consensus_rank": 68
           },
           {
             "player_id": "12481",
             "name": "Cam Skattebo",
             "position": "RB",
-            "consensus_value": 2587,
-            "consensus_rank": 85
-          },
-          {
-            "player_id": "2306",
-            "name": "Jameis Winston",
-            "position": "QB",
-            "consensus_value": 1876,
-            "consensus_rank": 111
+            "consensus_value": 2635,
+            "consensus_rank": 83
           },
           {
             "player_id": "5850",
             "name": "Josh Jacobs",
             "position": "RB",
-            "consensus_value": 1825,
-            "consensus_rank": 113
+            "consensus_value": 1802,
+            "consensus_rank": 111
+          },
+          {
+            "player_id": "2306",
+            "name": "Jameis Winston",
+            "position": "QB",
+            "consensus_value": 1744,
+            "consensus_rank": 115
           }
         ]
       },
       "projection": {
-        "consensus_full_season_lineup_projection": 1756.46,
-        "provider_full_season_lineup_projection": 1756.46,
-        "average_weekly_projected_points": 124.31,
+        "consensus_full_season_lineup_projection": 1750.96,
+        "provider_full_season_lineup_projection": 1750.96,
+        "average_weekly_projected_points": 123.23,
         "available_week_count": 18,
         "projected_regular_season_record": {
           "wins": 4,
@@ -2092,8 +2092,8 @@
       "roster_profile": {
         "total_players": 24,
         "fantasy_players": 24,
-        "average_age": 25.5,
-        "average_years_experience": 3.5,
+        "average_age": 25.75,
+        "average_years_experience": 3.88,
         "players_with_2_or_fewer_years_experience": 13,
         "position_counts": {
           "TE": 3,
@@ -2106,12 +2106,12 @@
         "reserve_count": 1
       },
       "recent_performance_score": 11.11,
-      "draft_capital_score": 22.22,
+      "draft_capital_score": 0,
       "roster_value_score": 44.44,
       "current_projection_score": 22.22,
       "competitive_score": 16.66,
-      "baseline_power_score": 14.44,
-      "power_score": 31.66,
+      "baseline_power_score": 7.78,
+      "power_score": 27.22,
       "rank": 8,
       "previous_rank": 8,
       "rank_change": 0
@@ -2254,16 +2254,16 @@
         }
       },
       "roster_value": {
-        "full_roster_consensus_value": 44639,
-        "lineup_adjusted_value": 32513.35,
+        "full_roster_consensus_value": 44459,
+        "lineup_adjusted_value": 32417.65,
         "valuation_coverage": 1,
         "top_assets": [
           {
             "player_id": "8146",
             "name": "Garrett Wilson",
             "position": "WR",
-            "consensus_value": 5036,
-            "consensus_rank": 35
+            "consensus_value": 5096,
+            "consensus_rank": 33
           },
           {
             "player_id": "6804",
@@ -2276,68 +2276,68 @@
             "player_id": "7526",
             "name": "Jaylen Waddle",
             "position": "WR",
-            "consensus_value": 3735,
-            "consensus_rank": 53
+            "consensus_value": 3690,
+            "consensus_rank": 54
           },
           {
             "player_id": "9228",
             "name": "Bryce Young",
             "position": "QB",
-            "consensus_value": 3403,
-            "consensus_rank": 61
+            "consensus_value": 3335,
+            "consensus_rank": 62
           },
           {
             "player_id": "5849",
             "name": "Kyler Murray",
             "position": "QB",
-            "consensus_value": 3121,
+            "consensus_value": 3112,
             "consensus_rank": 72
           },
           {
             "player_id": "3198",
             "name": "Derrick Henry",
             "position": "RB",
-            "consensus_value": 2969,
-            "consensus_rank": 77
+            "consensus_value": 3001,
+            "consensus_rank": 76
           },
           {
             "player_id": "4217",
             "name": "George Kittle",
             "position": "TE",
-            "consensus_value": 2088,
+            "consensus_value": 2071,
             "consensus_rank": 100
           },
           {
             "player_id": "10232",
             "name": "Michael Wilson",
             "position": "WR",
-            "consensus_value": 1967,
-            "consensus_rank": 107
+            "consensus_value": 1981,
+            "consensus_rank": 106
           },
           {
             "player_id": "2216",
             "name": "Mike Evans",
             "position": "WR",
-            "consensus_value": 1740,
-            "consensus_rank": 116
+            "consensus_value": 1710,
+            "consensus_rank": 118
           },
           {
             "player_id": "13276",
             "name": "Omar Cooper",
             "position": "WR",
-            "consensus_value": 1577,
-            "consensus_rank": 124
+            "consensus_value": 1555,
+            "consensus_rank": 125
           }
         ]
       },
       "projection": {
-        "consensus_full_season_lineup_projection": 1976.4,
-        "provider_full_season_lineup_projection": 1976.4,
-        "average_weekly_projected_points": 127.67,
+        "consensus_full_season_lineup_projection": 1976.78,
+        "provider_full_season_lineup_projection": 1976.78,
+        "average_weekly_projected_points": 129.29,
         "available_week_count": 18,
         "projected_regular_season_record": {
-          "wins": 6,
-          "losses": 8,
+          "wins": 7,
+          "losses": 7,
           "ties": 0
         }
       },
@@ -2359,15 +2359,15 @@
         "reserve_count": 1
       },
       "recent_performance_score": 44.44,
-      "draft_capital_score": 0,
+      "draft_capital_score": 11.11,
       "roster_value_score": 11.11,
       "current_projection_score": 55.56,
       "competitive_score": 50,
-      "baseline_power_score": 31.11,
-      "power_score": 20.55,
+      "baseline_power_score": 34.44,
+      "power_score": 22.78,
       "rank": 9,
-      "previous_rank": 10,
-      "rank_change": 1
+      "previous_rank": 9,
+      "rank_change": 0
     },
     {
       "owner_id": "1008209629677158400",
@@ -2507,78 +2507,78 @@
         }
       },
       "roster_value": {
-        "full_roster_consensus_value": 34068,
-        "lineup_adjusted_value": 23529.15,
+        "full_roster_consensus_value": 33638,
+        "lineup_adjusted_value": 23321.15,
         "valuation_coverage": 1,
         "top_assets": [
           {
             "player_id": "4892",
             "name": "Baker Mayfield",
             "position": "QB",
-            "consensus_value": 3158,
-            "consensus_rank": 70
-          },
-          {
-            "player_id": "13286",
-            "name": "Jadarian Price",
-            "position": "RB",
-            "consensus_value": 2826,
-            "consensus_rank": 79
+            "consensus_value": 3127,
+            "consensus_rank": 71
           },
           {
             "player_id": "4943",
             "name": "Sam Darnold",
             "position": "QB",
-            "consensus_value": 2748,
+            "consensus_value": 2764,
+            "consensus_rank": 80
+          },
+          {
+            "player_id": "13286",
+            "name": "Jadarian Price",
+            "position": "RB",
+            "consensus_value": 2731,
             "consensus_rank": 82
           },
           {
             "player_id": "6790",
             "name": "D'Andre Swift",
             "position": "RB",
-            "consensus_value": 2474,
-            "consensus_rank": 88
+            "consensus_value": 2457,
+            "consensus_rank": 90
           },
           {
             "player_id": "4983",
             "name": "DJ Moore",
             "position": "WR",
             "consensus_value": 2343,
-            "consensus_rank": 94
+            "consensus_rank": 92
           },
           {
             "player_id": "5892",
             "name": "David Montgomery",
             "position": "RB",
-            "consensus_value": 2030,
-            "consensus_rank": 103
+            "consensus_value": 2024,
+            "consensus_rank": 104
           },
           {
             "player_id": "13275",
             "name": "Ty Simpson",
             "position": "QB",
-            "consensus_value": 1880,
-            "consensus_rank": 110
+            "consensus_value": 1878,
+            "consensus_rank": 109
           },
           {
             "player_id": "5022",
             "name": "Dallas Goedert",
             "position": "TE",
-            "consensus_value": 1468,
+            "consensus_value": 1470,
             "consensus_rank": 137
-          },
-          {
-            "player_id": "5012",
-            "name": "Mark Andrews",
-            "position": "TE",
-            "consensus_value": 1377,
-            "consensus_rank": 155
           },
           {
             "player_id": "5947",
             "name": "Jakobi Meyers",
             "position": "WR",
-            "consensus_value": 1371,
+            "consensus_value": 1360,
+            "consensus_rank": 155
+          },
+          {
+            "player_id": "5012",
+            "name": "Mark Andrews",
+            "position": "TE",
+            "consensus_value": 1349,
             "consensus_rank": 157
           }
         ]
@@ -2586,11 +2586,11 @@
       "projection": {
         "consensus_full_season_lineup_projection": 1693.06,
         "provider_full_season_lineup_projection": 1693.06,
-        "average_weekly_projected_points": 119.54,
+        "average_weekly_projected_points": 118.46,
         "available_week_count": 18,
         "projected_regular_season_record": {
-          "wins": 3,
-          "losses": 11,
+          "wins": 2,
+          "losses": 12,
           "ties": 0
         }
       },
@@ -2618,8 +2618,8 @@
       "baseline_power_score": 55.56,
       "power_score": 19.45,
       "rank": 10,
-      "previous_rank": 9,
-      "rank_change": -1
+      "previous_rank": 10,
+      "rank_change": 0
     }
   ]
 }
