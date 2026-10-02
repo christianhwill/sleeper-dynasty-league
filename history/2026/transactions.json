@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T00:00:52.625Z",
+  "generated_at": "2026-10-02T12:01:24.615Z",
   "season": "2026",
   "transactions": [
     {
@@ -189,7 +189,7 @@
             ],
             "team": "MIA",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 23,
             "years_exp": 2
           },
@@ -974,7 +974,7 @@
             ],
             "team": null,
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": null,
             "age": 29,
             "years_exp": 9
           },
@@ -8906,7 +8906,7 @@
             ],
             "team": "MIA",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 23,
             "years_exp": 2
           },
@@ -9081,7 +9081,7 @@
             ],
             "team": "IND",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 34,
             "years_exp": 13
           },
