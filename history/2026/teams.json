@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T12:01:02.333Z",
+  "generated_at": "2026-10-02T00:00:52.625Z",
   "season": "2026",
   "teams": [
     {
@@ -639,21 +639,6 @@
           "years_exp": 2
         },
         {
-          "player_id": "11624",
-          "name": "Xavier Worthy",
-          "first_name": "Xavier",
-          "last_name": "Worthy",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "KC",
-          "status": "Active",
-          "injury_status": null,
-          "age": 23,
-          "years_exp": 2
-        },
-        {
           "player_id": "11625",
           "name": "Adonai Mitchell",
           "first_name": "Adonai",
@@ -864,6 +849,21 @@
           "years_exp": 11
         },
         {
+          "player_id": "3321",
+          "name": "Tyreek Hill",
+          "first_name": "Tyreek",
+          "last_name": "Hill",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": null,
+          "status": "Active",
+          "injury_status": null,
+          "age": 31,
+          "years_exp": 10
+        },
+        {
           "player_id": "5850",
           "name": "Josh Jacobs",
           "first_name": "Josh",
@@ -1046,19 +1046,19 @@
           "years_exp": 2
         },
         {
-          "player_id": "11624",
-          "name": "Xavier Worthy",
-          "first_name": "Xavier",
-          "last_name": "Worthy",
+          "player_id": "9486",
+          "name": "Dontayvion Wicks",
+          "first_name": "Dontayvion",
+          "last_name": "Wicks",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "KC",
+          "team": "PHI",
           "status": "Active",
           "injury_status": null,
-          "age": 23,
-          "years_exp": 2
+          "age": 25,
+          "years_exp": 3
         },
         {
           "player_id": "1466",
@@ -2184,19 +2184,19 @@
           "years_exp": 4
         },
         {
-          "player_id": "7600",
-          "name": "Pat Freiermuth",
-          "first_name": "Pat",
-          "last_name": "Freiermuth",
+          "player_id": "12517",
+          "name": "Colston Loveland",
+          "first_name": "Colston",
+          "last_name": "Loveland",
           "position": "TE",
           "fantasy_positions": [
             "TE"
           ],
-          "team": "PIT",
+          "team": "CHI",
           "status": "Active",
           "injury_status": null,
-          "age": 27,
-          "years_exp": 5
+          "age": 22,
+          "years_exp": 1
         },
         {
           "player_id": "7594",
@@ -2339,6 +2339,21 @@
           "years_exp": 2
         },
         {
+          "player_id": "11624",
+          "name": "Xavier Worthy",
+          "first_name": "Xavier",
+          "last_name": "Worthy",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "KC",
+          "status": "Active",
+          "injury_status": null,
+          "age": 23,
+          "years_exp": 2
+        },
+        {
           "player_id": "12530",
           "name": "Travis Hunter",
           "first_name": "Travis",
@@ -2427,21 +2442,6 @@
           "status": "Active",
           "injury_status": null,
           "age": 33,
-          "years_exp": 10
-        },
-        {
-          "player_id": "3321",
-          "name": "Tyreek Hill",
-          "first_name": "Tyreek",
-          "last_name": "Hill",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": null,
-          "status": "Active",
-          "injury_status": null,
-          "age": 31,
           "years_exp": 10
         },
         {
@@ -2672,19 +2672,19 @@
           "years_exp": 10
         },
         {
-          "player_id": "8136",
-          "name": "Rachaad White",
-          "first_name": "Rachaad",
-          "last_name": "White",
+          "player_id": "11576",
+          "name": "Braelon Allen",
+          "first_name": "Braelon",
+          "last_name": "Allen",
           "position": "RB",
           "fantasy_positions": [
             "RB"
           ],
-          "team": "WAS",
+          "team": "NYJ",
           "status": "Active",
-          "injury_status": "Questionable",
-          "age": 27,
-          "years_exp": 4
+          "injury_status": null,
+          "age": 22,
+          "years_exp": 2
         },
         {
           "player_id": "8146",
@@ -4980,19 +4980,19 @@
           "years_exp": 5
         },
         {
-          "player_id": "7525",
-          "name": "DeVonta Smith",
-          "first_name": "DeVonta",
-          "last_name": "Smith",
+          "player_id": "6794",
+          "name": "Justin Jefferson",
+          "first_name": "Justin",
+          "last_name": "Jefferson",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "PHI",
+          "team": "MIN",
           "status": "Active",
           "injury_status": "Questionable",
           "age": 27,
-          "years_exp": 5
+          "years_exp": 6
         },
         {
           "player_id": "9487",
@@ -5055,18 +5055,18 @@
           "years_exp": 4
         },
         {
-          "player_id": "6794",
-          "name": "Justin Jefferson",
-          "first_name": "Justin",
-          "last_name": "Jefferson",
-          "position": "WR",
+          "player_id": "6904",
+          "name": "Jalen Hurts",
+          "first_name": "Jalen",
+          "last_name": "Hurts",
+          "position": "QB",
           "fantasy_positions": [
-            "WR"
+            "QB"
           ],
-          "team": "MIN",
+          "team": "PHI",
           "status": "Active",
-          "injury_status": "Questionable",
-          "age": 27,
+          "injury_status": null,
+          "age": 28,
           "years_exp": 6
         }
       ],
