@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T12:01:02.333Z",
+  "generated_at": "2026-10-02T00:00:52.625Z",
   "season": "2026",
   "transactions": [
     {
@@ -9111,6 +9111,125 @@
         }
       ],
       "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1411465967313108992",
+      "type": "trade",
+      "status": "complete",
+      "created": 1790882219679,
+      "created_iso": "2026-10-01T19:16:59.679Z",
+      "week": 4,
+      "leg": 4,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2,
+        5
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        },
+        {
+          "roster_id": 5,
+          "team_name": "BING BONG"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "3321",
+            "name": "Tyreek Hill",
+            "first_name": "Tyreek",
+            "last_name": "Hill",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": null,
+            "status": "Active",
+            "injury_status": null,
+            "age": 31,
+            "years_exp": 10
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        },
+        {
+          "player": {
+            "player_id": "11624",
+            "name": "Xavier Worthy",
+            "first_name": "Xavier",
+            "last_name": "Worthy",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "KC",
+            "status": "Active",
+            "injury_status": null,
+            "age": 23,
+            "years_exp": 2
+          },
+          "roster_id": 5,
+          "team_name": "BING BONG"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "3321",
+            "name": "Tyreek Hill",
+            "first_name": "Tyreek",
+            "last_name": "Hill",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": null,
+            "status": "Active",
+            "injury_status": null,
+            "age": 31,
+            "years_exp": 10
+          },
+          "roster_id": 5,
+          "team_name": "BING BONG"
+        },
+        {
+          "player": {
+            "player_id": "11624",
+            "name": "Xavier Worthy",
+            "first_name": "Xavier",
+            "last_name": "Worthy",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "KC",
+            "status": "Active",
+            "injury_status": null,
+            "age": 23,
+            "years_exp": 2
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [
+        {
+          "season": "2028",
+          "round": 3,
+          "original_roster_id": 5,
+          "previous_owner_roster_id": 5,
+          "current_owner_roster_id": 2,
+          "original_team": "BING BONG",
+          "previous_team": "BING BONG",
+          "current_team": "Cam dog"
+        }
+      ],
       "waiver_budget": [],
       "waiver_bid": null,
       "metadata": null
