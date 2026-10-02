@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T12:01:02.333Z",
+  "generated_at": "2026-10-02T00:00:52.625Z",
   "league": {
     "league_id": "1327788752298336256",
     "name": "Oiled Without Consent",
@@ -502,11 +502,11 @@
       "round": 3,
       "original_roster_id": 5,
       "original_team": "BING BONG",
-      "current_owner_roster_id": 5,
-      "current_team": "BING BONG",
-      "previous_owner_roster_id": null,
-      "previous_team": null,
-      "has_been_traded": false
+      "current_owner_roster_id": 2,
+      "current_team": "Cam dog",
+      "previous_owner_roster_id": 5,
+      "previous_team": "BING BONG",
+      "has_been_traded": true
     },
     {
       "season": "2028",
@@ -1596,10 +1596,10 @@
     {
       "roster_id": 2,
       "team_name": "Cam dog",
-      "total_future_picks": 6,
+      "total_future_picks": 7,
       "first_round_picks": 3,
       "second_round_picks": 0,
-      "third_round_picks": 3,
+      "third_round_picks": 4,
       "other_round_picks": 0,
       "by_season": {
         "2027": {
@@ -1618,10 +1618,10 @@
           ]
         },
         "2028": {
-          "total": 3,
+          "total": 4,
           "round_1": 1,
           "round_2": 0,
-          "round_3": 2,
+          "round_3": 3,
           "other_rounds": 0,
           "picks": [
             {
@@ -1634,6 +1634,12 @@
               "round": 3,
               "original_roster_id": 3,
               "original_team": "Third Down Syndrome",
+              "has_been_traded": true
+            },
+            {
+              "round": 3,
+              "original_roster_id": 5,
+              "original_team": "BING BONG",
               "has_been_traded": true
             },
             {
@@ -1762,10 +1768,10 @@
     {
       "roster_id": 5,
       "team_name": "BING BONG",
-      "total_future_picks": 8,
+      "total_future_picks": 7,
       "first_round_picks": 2,
       "second_round_picks": 3,
-      "third_round_picks": 3,
+      "third_round_picks": 2,
       "other_round_picks": 0,
       "by_season": {
         "2027": {
@@ -1784,10 +1790,10 @@
           ]
         },
         "2028": {
-          "total": 4,
+          "total": 3,
           "round_1": 1,
           "round_2": 2,
-          "round_3": 1,
+          "round_3": 0,
           "other_rounds": 0,
           "picks": [
             {
@@ -1804,12 +1810,6 @@
             },
             {
               "round": 2,
-              "original_roster_id": 5,
-              "original_team": "BING BONG",
-              "has_been_traded": false
-            },
-            {
-              "round": 3,
               "original_roster_id": 5,
               "original_team": "BING BONG",
               "has_been_traded": false
