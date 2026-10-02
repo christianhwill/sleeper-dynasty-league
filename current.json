@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T12:01:02.333Z",
+  "generated_at": "2026-10-02T00:00:52.625Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -766,21 +766,6 @@
           "years_exp": 2
         },
         {
-          "player_id": "11624",
-          "name": "Xavier Worthy",
-          "first_name": "Xavier",
-          "last_name": "Worthy",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "KC",
-          "status": "Active",
-          "injury_status": null,
-          "age": 23,
-          "years_exp": 2
-        },
-        {
           "player_id": "11625",
           "name": "Adonai Mitchell",
           "first_name": "Adonai",
@@ -991,6 +976,21 @@
           "years_exp": 11
         },
         {
+          "player_id": "3321",
+          "name": "Tyreek Hill",
+          "first_name": "Tyreek",
+          "last_name": "Hill",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": null,
+          "status": "Active",
+          "injury_status": null,
+          "age": 31,
+          "years_exp": 10
+        },
+        {
           "player_id": "5850",
           "name": "Josh Jacobs",
           "first_name": "Josh",
@@ -1173,19 +1173,19 @@
           "years_exp": 2
         },
         {
-          "player_id": "11624",
-          "name": "Xavier Worthy",
-          "first_name": "Xavier",
-          "last_name": "Worthy",
+          "player_id": "9486",
+          "name": "Dontayvion Wicks",
+          "first_name": "Dontayvion",
+          "last_name": "Wicks",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "KC",
+          "team": "PHI",
           "status": "Active",
           "injury_status": null,
-          "age": 23,
-          "years_exp": 2
+          "age": 25,
+          "years_exp": 3
         },
         {
           "player_id": "1466",
@@ -2311,19 +2311,19 @@
           "years_exp": 4
         },
         {
-          "player_id": "7600",
-          "name": "Pat Freiermuth",
-          "first_name": "Pat",
-          "last_name": "Freiermuth",
+          "player_id": "12517",
+          "name": "Colston Loveland",
+          "first_name": "Colston",
+          "last_name": "Loveland",
           "position": "TE",
           "fantasy_positions": [
             "TE"
           ],
-          "team": "PIT",
+          "team": "CHI",
           "status": "Active",
           "injury_status": null,
-          "age": 27,
-          "years_exp": 5
+          "age": 22,
+          "years_exp": 1
         },
         {
           "player_id": "7594",
@@ -2466,6 +2466,21 @@
           "years_exp": 2
         },
         {
+          "player_id": "11624",
+          "name": "Xavier Worthy",
+          "first_name": "Xavier",
+          "last_name": "Worthy",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "KC",
+          "status": "Active",
+          "injury_status": null,
+          "age": 23,
+          "years_exp": 2
+        },
+        {
           "player_id": "12530",
           "name": "Travis Hunter",
           "first_name": "Travis",
@@ -2554,21 +2569,6 @@
           "status": "Active",
           "injury_status": null,
           "age": 33,
-          "years_exp": 10
-        },
-        {
-          "player_id": "3321",
-          "name": "Tyreek Hill",
-          "first_name": "Tyreek",
-          "last_name": "Hill",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": null,
-          "status": "Active",
-          "injury_status": null,
-          "age": 31,
           "years_exp": 10
         },
         {
@@ -2799,19 +2799,19 @@
           "years_exp": 10
         },
         {
-          "player_id": "8136",
-          "name": "Rachaad White",
-          "first_name": "Rachaad",
-          "last_name": "White",
+          "player_id": "11576",
+          "name": "Braelon Allen",
+          "first_name": "Braelon",
+          "last_name": "Allen",
           "position": "RB",
           "fantasy_positions": [
             "RB"
           ],
-          "team": "WAS",
+          "team": "NYJ",
           "status": "Active",
-          "injury_status": "Questionable",
-          "age": 27,
-          "years_exp": 4
+          "injury_status": null,
+          "age": 22,
+          "years_exp": 2
         },
         {
           "player_id": "8146",
@@ -5107,19 +5107,19 @@
           "years_exp": 5
         },
         {
-          "player_id": "7525",
-          "name": "DeVonta Smith",
-          "first_name": "DeVonta",
-          "last_name": "Smith",
+          "player_id": "6794",
+          "name": "Justin Jefferson",
+          "first_name": "Justin",
+          "last_name": "Jefferson",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "PHI",
+          "team": "MIN",
           "status": "Active",
           "injury_status": "Questionable",
           "age": 27,
-          "years_exp": 5
+          "years_exp": 6
         },
         {
           "player_id": "9487",
@@ -5182,18 +5182,18 @@
           "years_exp": 4
         },
         {
-          "player_id": "6794",
-          "name": "Justin Jefferson",
-          "first_name": "Justin",
-          "last_name": "Jefferson",
-          "position": "WR",
+          "player_id": "6904",
+          "name": "Jalen Hurts",
+          "first_name": "Jalen",
+          "last_name": "Hurts",
+          "position": "QB",
           "fantasy_positions": [
-            "WR"
+            "QB"
           ],
-          "team": "MIN",
+          "team": "PHI",
           "status": "Active",
-          "injury_status": "Questionable",
-          "age": 27,
+          "injury_status": null,
+          "age": 28,
           "years_exp": 6
         }
       ],
@@ -6177,6 +6177,16 @@
       "current_team": "Third Down Syndrome"
     },
     {
+      "season": "2028",
+      "round": 3,
+      "original_roster_id": 5,
+      "previous_owner_roster_id": 5,
+      "current_owner_roster_id": 2,
+      "original_team": "BING BONG",
+      "previous_team": "BING BONG",
+      "current_team": "Cam dog"
+    },
+    {
       "season": "2026",
       "round": 2,
       "original_roster_id": 6,
@@ -6917,11 +6927,11 @@
       "round": 3,
       "original_roster_id": 5,
       "original_team": "BING BONG",
-      "current_owner_roster_id": 5,
-      "current_team": "BING BONG",
-      "previous_owner_roster_id": null,
-      "previous_team": null,
-      "has_been_traded": false
+      "current_owner_roster_id": 2,
+      "current_team": "Cam dog",
+      "previous_owner_roster_id": 5,
+      "previous_team": "BING BONG",
+      "has_been_traded": true
     },
     {
       "season": "2028",
@@ -7420,6 +7430,125 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1411465967313108992",
+      "type": "trade",
+      "status": "complete",
+      "created": 1790882219679,
+      "created_iso": "2026-10-01T19:16:59.679Z",
+      "week": 4,
+      "leg": 4,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2,
+        5
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        },
+        {
+          "roster_id": 5,
+          "team_name": "BING BONG"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "3321",
+            "name": "Tyreek Hill",
+            "first_name": "Tyreek",
+            "last_name": "Hill",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": null,
+            "status": "Active",
+            "injury_status": null,
+            "age": 31,
+            "years_exp": 10
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        },
+        {
+          "player": {
+            "player_id": "11624",
+            "name": "Xavier Worthy",
+            "first_name": "Xavier",
+            "last_name": "Worthy",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "KC",
+            "status": "Active",
+            "injury_status": null,
+            "age": 23,
+            "years_exp": 2
+          },
+          "roster_id": 5,
+          "team_name": "BING BONG"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "3321",
+            "name": "Tyreek Hill",
+            "first_name": "Tyreek",
+            "last_name": "Hill",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": null,
+            "status": "Active",
+            "injury_status": null,
+            "age": 31,
+            "years_exp": 10
+          },
+          "roster_id": 5,
+          "team_name": "BING BONG"
+        },
+        {
+          "player": {
+            "player_id": "11624",
+            "name": "Xavier Worthy",
+            "first_name": "Xavier",
+            "last_name": "Worthy",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "KC",
+            "status": "Active",
+            "injury_status": null,
+            "age": 23,
+            "years_exp": 2
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [
+        {
+          "season": "2028",
+          "round": 3,
+          "original_roster_id": 5,
+          "previous_owner_roster_id": 5,
+          "current_owner_roster_id": 2,
+          "original_team": "BING BONG",
+          "previous_team": "BING BONG",
+          "current_team": "Cam dog"
+        }
+      ],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
     {
       "transaction_id": "1411125172152344576",
       "type": "free_agent",
@@ -13295,51 +13424,6 @@
             "status": "Active",
             "injury_status": "Questionable",
             "age": 22,
-            "years_exp": null
-          },
-          "roster_id": 7,
-          "team_name": "I Chase Brown People"
-        }
-      ],
-      "drops": [],
-      "draft_picks": [],
-      "waiver_budget": [],
-      "waiver_bid": null,
-      "metadata": null
-    },
-    {
-      "transaction_id": "1393047849112993792",
-      "type": "free_agent",
-      "status": "complete",
-      "created": 1786490998107,
-      "created_iso": "2026-08-11T23:29:58.107Z",
-      "week": 1,
-      "leg": 1,
-      "creator": "1131294900231815168",
-      "roster_ids": [
-        7
-      ],
-      "teams": [
-        {
-          "roster_id": 7,
-          "team_name": "I Chase Brown People"
-        }
-      ],
-      "adds": [
-        {
-          "player": {
-            "player_id": "13319",
-            "name": "Oscar Delp",
-            "first_name": "Oscar",
-            "last_name": "Delp",
-            "position": "TE",
-            "fantasy_positions": [
-              "TE"
-            ],
-            "team": "NO",
-            "status": "Active",
-            "injury_status": null,
-            "age": 23,
             "years_exp": null
           },
           "roster_id": 7,
