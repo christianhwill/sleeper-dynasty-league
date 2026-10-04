@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T00:02:02.914Z",
+  "generated_at": "2026-10-04T12:01:21.446Z",
   "season": "2026",
   "teams": [
     {
@@ -2536,6 +2536,21 @@
           "years_exp": 7
         },
         {
+          "player_id": "6790",
+          "name": "D'Andre Swift",
+          "first_name": "D'Andre",
+          "last_name": "Swift",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "team": "CHI",
+          "status": "Active",
+          "injury_status": null,
+          "age": 27,
+          "years_exp": 6
+        },
+        {
           "player_id": "6804",
           "name": "Jordan Love",
           "first_name": "Jordan",
@@ -2626,21 +2641,6 @@
           "years_exp": 4
         },
         {
-          "player_id": "9228",
-          "name": "Bryce Young",
-          "first_name": "Bryce",
-          "last_name": "Young",
-          "position": "QB",
-          "fantasy_positions": [
-            "QB"
-          ],
-          "team": "CAR",
-          "status": "Active",
-          "injury_status": null,
-          "age": 25,
-          "years_exp": 3
-        },
-        {
           "player_id": "9504",
           "name": "Kayshon Boutte",
           "first_name": "Kayshon",
@@ -2703,19 +2703,19 @@
           "years_exp": 10
         },
         {
-          "player_id": "11576",
-          "name": "Braelon Allen",
-          "first_name": "Braelon",
-          "last_name": "Allen",
+          "player_id": "6790",
+          "name": "D'Andre Swift",
+          "first_name": "D'Andre",
+          "last_name": "Swift",
           "position": "RB",
           "fantasy_positions": [
             "RB"
           ],
-          "team": "NYJ",
+          "team": "CHI",
           "status": "Active",
           "injury_status": null,
-          "age": 22,
-          "years_exp": 2
+          "age": 27,
+          "years_exp": 6
         },
         {
           "player_id": "8146",
@@ -2793,19 +2793,19 @@
           "years_exp": 3
         },
         {
-          "player_id": "9228",
-          "name": "Bryce Young",
-          "first_name": "Bryce",
-          "last_name": "Young",
+          "player_id": "6804",
+          "name": "Jordan Love",
+          "first_name": "Jordan",
+          "last_name": "Love",
           "position": "QB",
           "fantasy_positions": [
             "QB"
           ],
-          "team": "CAR",
+          "team": "GB",
           "status": "Active",
           "injury_status": null,
-          "age": 25,
-          "years_exp": 3
+          "age": 27,
+          "years_exp": 6
         }
       ],
       "taxi": [
@@ -3173,21 +3173,6 @@
           "years_exp": 6
         },
         {
-          "player_id": "6790",
-          "name": "D'Andre Swift",
-          "first_name": "D'Andre",
-          "last_name": "Swift",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "CHI",
-          "status": "Active",
-          "injury_status": null,
-          "age": 27,
-          "years_exp": 6
-        },
-        {
           "player_id": "7567",
           "name": "Kenny Gainwell",
           "first_name": "Kenny",
@@ -3216,6 +3201,21 @@
           "injury_status": null,
           "age": 27,
           "years_exp": 5
+        },
+        {
+          "player_id": "9228",
+          "name": "Bryce Young",
+          "first_name": "Bryce",
+          "last_name": "Young",
+          "position": "QB",
+          "fantasy_positions": [
+            "QB"
+          ],
+          "team": "CAR",
+          "status": "Active",
+          "injury_status": null,
+          "age": 25,
+          "years_exp": 3
         },
         {
           "player_id": "9494",
@@ -3250,19 +3250,10 @@
           "years_exp": 8
         },
         {
-          "player_id": "6790",
-          "name": "D'Andre Swift",
-          "first_name": "D'Andre",
-          "last_name": "Swift",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "CHI",
-          "status": "Active",
-          "injury_status": null,
-          "age": 27,
-          "years_exp": 6
+          "player_id": "0",
+          "name": "0",
+          "position": "DEF",
+          "team": "0"
         },
         {
           "player_id": "5892",
