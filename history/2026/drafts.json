@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T06:00:44.057Z",
+  "generated_at": "2026-10-04T06:01:18.590Z",
   "season": "2026",
   "drafts": [
     {
@@ -200,7 +200,7 @@
             "team": "LV",
             "status": "Active",
             "injury_status": null,
-            "age": 22,
+            "age": 23,
             "years_exp": null
           },
           "roster_name": "Young N Hip"
@@ -283,7 +283,7 @@
             ],
             "team": "SEA",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 22,
             "years_exp": null
           },
@@ -325,7 +325,7 @@
             ],
             "team": "NYJ",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 21,
             "years_exp": null
           },
@@ -534,8 +534,8 @@
               "RB"
             ],
             "team": "DEN",
-            "status": "Active",
-            "injury_status": "Out",
+            "status": "Inactive",
+            "injury_status": "IR",
             "age": 23,
             "years_exp": null
           },
@@ -1249,7 +1249,7 @@
             ],
             "team": "PIT",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 22,
             "years_exp": null
           },
