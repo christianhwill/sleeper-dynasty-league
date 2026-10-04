@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T12:01:31.897Z",
+  "generated_at": "2026-10-04T00:02:02.914Z",
   "season": "2026",
   "teams": [
     {
@@ -819,21 +819,6 @@
           "years_exp": 13
         },
         {
-          "player_id": "1479",
-          "name": "Keenan Allen",
-          "first_name": "Keenan",
-          "last_name": "Allen",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "IND",
-          "status": "Active",
-          "injury_status": "Questionable",
-          "age": 34,
-          "years_exp": 13
-        },
-        {
           "player_id": "2306",
           "name": "Jameis Winston",
           "first_name": "Jameis",
@@ -921,6 +906,21 @@
           "status": "Active",
           "injury_status": "Out",
           "age": 28,
+          "years_exp": 6
+        },
+        {
+          "player_id": "7049",
+          "name": "Jauan Jennings",
+          "first_name": "Jauan",
+          "last_name": "Jennings",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "MIN",
+          "status": "Active",
+          "injury_status": null,
+          "age": 29,
           "years_exp": 6
         },
         {
@@ -1091,19 +1091,19 @@
           "years_exp": 2
         },
         {
-          "player_id": "1479",
-          "name": "Keenan Allen",
-          "first_name": "Keenan",
-          "last_name": "Allen",
+          "player_id": "7049",
+          "name": "Jauan Jennings",
+          "first_name": "Jauan",
+          "last_name": "Jennings",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "IND",
+          "team": "MIN",
           "status": "Active",
-          "injury_status": "Questionable",
-          "age": 34,
-          "years_exp": 13
+          "injury_status": null,
+          "age": 29,
+          "years_exp": 6
         },
         {
           "player_id": "2306",
@@ -3325,19 +3325,19 @@
           "years_exp": 8
         },
         {
-          "player_id": "13286",
-          "name": "Jadarian Price",
-          "first_name": "Jadarian",
-          "last_name": "Price",
-          "position": "RB",
+          "player_id": "10213",
+          "name": "Tre Tucker",
+          "first_name": "Tre",
+          "last_name": "Tucker",
+          "position": "WR",
           "fantasy_positions": [
-            "RB"
+            "WR"
           ],
-          "team": "SEA",
+          "team": "LV",
           "status": "Active",
-          "injury_status": "Out",
-          "age": 22,
-          "years_exp": null
+          "injury_status": null,
+          "age": 25,
+          "years_exp": 3
         },
         {
           "player_id": "5947",
@@ -3404,19 +3404,19 @@
       ],
       "reserve": [
         {
-          "player_id": "5022",
-          "name": "Dallas Goedert",
-          "first_name": "Dallas",
-          "last_name": "Goedert",
-          "position": "TE",
+          "player_id": "13286",
+          "name": "Jadarian Price",
+          "first_name": "Jadarian",
+          "last_name": "Price",
+          "position": "RB",
           "fantasy_positions": [
-            "TE"
+            "RB"
           ],
-          "team": "PHI",
+          "team": "SEA",
           "status": "Active",
           "injury_status": "Out",
-          "age": 31,
-          "years_exp": 8
+          "age": 22,
+          "years_exp": null
         }
       ]
     },
