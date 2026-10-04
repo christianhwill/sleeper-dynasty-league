@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T12:01:31.897Z",
+  "generated_at": "2026-10-04T00:02:02.914Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -946,21 +946,6 @@
           "years_exp": 13
         },
         {
-          "player_id": "1479",
-          "name": "Keenan Allen",
-          "first_name": "Keenan",
-          "last_name": "Allen",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "IND",
-          "status": "Active",
-          "injury_status": "Questionable",
-          "age": 34,
-          "years_exp": 13
-        },
-        {
           "player_id": "2306",
           "name": "Jameis Winston",
           "first_name": "Jameis",
@@ -1048,6 +1033,21 @@
           "status": "Active",
           "injury_status": "Out",
           "age": 28,
+          "years_exp": 6
+        },
+        {
+          "player_id": "7049",
+          "name": "Jauan Jennings",
+          "first_name": "Jauan",
+          "last_name": "Jennings",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "MIN",
+          "status": "Active",
+          "injury_status": null,
+          "age": 29,
           "years_exp": 6
         },
         {
@@ -1218,19 +1218,19 @@
           "years_exp": 2
         },
         {
-          "player_id": "1479",
-          "name": "Keenan Allen",
-          "first_name": "Keenan",
-          "last_name": "Allen",
+          "player_id": "7049",
+          "name": "Jauan Jennings",
+          "first_name": "Jauan",
+          "last_name": "Jennings",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "IND",
+          "team": "MIN",
           "status": "Active",
-          "injury_status": "Questionable",
-          "age": 34,
-          "years_exp": 13
+          "injury_status": null,
+          "age": 29,
+          "years_exp": 6
         },
         {
           "player_id": "2306",
@@ -3452,19 +3452,19 @@
           "years_exp": 8
         },
         {
-          "player_id": "13286",
-          "name": "Jadarian Price",
-          "first_name": "Jadarian",
-          "last_name": "Price",
-          "position": "RB",
+          "player_id": "10213",
+          "name": "Tre Tucker",
+          "first_name": "Tre",
+          "last_name": "Tucker",
+          "position": "WR",
           "fantasy_positions": [
-            "RB"
+            "WR"
           ],
-          "team": "SEA",
+          "team": "LV",
           "status": "Active",
-          "injury_status": "Out",
-          "age": 22,
-          "years_exp": null
+          "injury_status": null,
+          "age": 25,
+          "years_exp": 3
         },
         {
           "player_id": "5947",
@@ -3531,19 +3531,19 @@
       ],
       "reserve": [
         {
-          "player_id": "5022",
-          "name": "Dallas Goedert",
-          "first_name": "Dallas",
-          "last_name": "Goedert",
-          "position": "TE",
+          "player_id": "13286",
+          "name": "Jadarian Price",
+          "first_name": "Jadarian",
+          "last_name": "Price",
+          "position": "RB",
           "fantasy_positions": [
-            "TE"
+            "RB"
           ],
-          "team": "PHI",
+          "team": "SEA",
           "status": "Active",
           "injury_status": "Out",
-          "age": 31,
-          "years_exp": 8
+          "age": 22,
+          "years_exp": null
         }
       ]
     },
@@ -7461,6 +7461,71 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1412155790025863168",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1791046686230,
+      "created_iso": "2026-10-03T16:58:06.230Z",
+      "week": 4,
+      "leg": 4,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "7049",
+            "name": "Jauan Jennings",
+            "first_name": "Jauan",
+            "last_name": "Jennings",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "MIN",
+            "status": "Active",
+            "injury_status": null,
+            "age": 29,
+            "years_exp": 6
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "1479",
+            "name": "Keenan Allen",
+            "first_name": "Keenan",
+            "last_name": "Allen",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "IND",
+            "status": "Active",
+            "injury_status": "Questionable",
+            "age": 34,
+            "years_exp": 13
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
     {
       "transaction_id": "1411868015267528704",
       "type": "free_agent",
@@ -13430,51 +13495,6 @@
             "status": "Active",
             "injury_status": null,
             "age": 24,
-            "years_exp": null
-          },
-          "roster_id": 10,
-          "team_name": "Sugerdaddy"
-        }
-      ],
-      "drops": [],
-      "draft_picks": [],
-      "waiver_budget": [],
-      "waiver_bid": null,
-      "metadata": null
-    },
-    {
-      "transaction_id": "1393049168963973120",
-      "type": "free_agent",
-      "status": "complete",
-      "created": 1786491312784,
-      "created_iso": "2026-08-11T23:35:12.784Z",
-      "week": 1,
-      "leg": 1,
-      "creator": "937819151345799168",
-      "roster_ids": [
-        10
-      ],
-      "teams": [
-        {
-          "roster_id": 10,
-          "team_name": "Sugerdaddy"
-        }
-      ],
-      "adds": [
-        {
-          "player": {
-            "player_id": "13434",
-            "name": "Will Kacmarek",
-            "first_name": "Will",
-            "last_name": "Kacmarek",
-            "position": "TE",
-            "fantasy_positions": [
-              "TE"
-            ],
-            "team": "MIA",
-            "status": "Active",
-            "injury_status": null,
-            "age": 23,
             "years_exp": null
           },
           "roster_id": 10,
