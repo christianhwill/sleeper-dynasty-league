@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T00:02:02.914Z",
+  "generated_at": "2026-10-04T12:01:21.446Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -2663,6 +2663,21 @@
           "years_exp": 7
         },
         {
+          "player_id": "6790",
+          "name": "D'Andre Swift",
+          "first_name": "D'Andre",
+          "last_name": "Swift",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "team": "CHI",
+          "status": "Active",
+          "injury_status": null,
+          "age": 27,
+          "years_exp": 6
+        },
+        {
           "player_id": "6804",
           "name": "Jordan Love",
           "first_name": "Jordan",
@@ -2753,21 +2768,6 @@
           "years_exp": 4
         },
         {
-          "player_id": "9228",
-          "name": "Bryce Young",
-          "first_name": "Bryce",
-          "last_name": "Young",
-          "position": "QB",
-          "fantasy_positions": [
-            "QB"
-          ],
-          "team": "CAR",
-          "status": "Active",
-          "injury_status": null,
-          "age": 25,
-          "years_exp": 3
-        },
-        {
           "player_id": "9504",
           "name": "Kayshon Boutte",
           "first_name": "Kayshon",
@@ -2830,19 +2830,19 @@
           "years_exp": 10
         },
         {
-          "player_id": "11576",
-          "name": "Braelon Allen",
-          "first_name": "Braelon",
-          "last_name": "Allen",
+          "player_id": "6790",
+          "name": "D'Andre Swift",
+          "first_name": "D'Andre",
+          "last_name": "Swift",
           "position": "RB",
           "fantasy_positions": [
             "RB"
           ],
-          "team": "NYJ",
+          "team": "CHI",
           "status": "Active",
           "injury_status": null,
-          "age": 22,
-          "years_exp": 2
+          "age": 27,
+          "years_exp": 6
         },
         {
           "player_id": "8146",
@@ -2920,19 +2920,19 @@
           "years_exp": 3
         },
         {
-          "player_id": "9228",
-          "name": "Bryce Young",
-          "first_name": "Bryce",
-          "last_name": "Young",
+          "player_id": "6804",
+          "name": "Jordan Love",
+          "first_name": "Jordan",
+          "last_name": "Love",
           "position": "QB",
           "fantasy_positions": [
             "QB"
           ],
-          "team": "CAR",
+          "team": "GB",
           "status": "Active",
           "injury_status": null,
-          "age": 25,
-          "years_exp": 3
+          "age": 27,
+          "years_exp": 6
         }
       ],
       "taxi": [
@@ -3300,21 +3300,6 @@
           "years_exp": 6
         },
         {
-          "player_id": "6790",
-          "name": "D'Andre Swift",
-          "first_name": "D'Andre",
-          "last_name": "Swift",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "CHI",
-          "status": "Active",
-          "injury_status": null,
-          "age": 27,
-          "years_exp": 6
-        },
-        {
           "player_id": "7567",
           "name": "Kenny Gainwell",
           "first_name": "Kenny",
@@ -3343,6 +3328,21 @@
           "injury_status": null,
           "age": 27,
           "years_exp": 5
+        },
+        {
+          "player_id": "9228",
+          "name": "Bryce Young",
+          "first_name": "Bryce",
+          "last_name": "Young",
+          "position": "QB",
+          "fantasy_positions": [
+            "QB"
+          ],
+          "team": "CAR",
+          "status": "Active",
+          "injury_status": null,
+          "age": 25,
+          "years_exp": 3
         },
         {
           "player_id": "9494",
@@ -3377,19 +3377,10 @@
           "years_exp": 8
         },
         {
-          "player_id": "6790",
-          "name": "D'Andre Swift",
-          "first_name": "D'Andre",
-          "last_name": "Swift",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "CHI",
-          "status": "Active",
-          "injury_status": null,
-          "age": 27,
-          "years_exp": 6
+          "player_id": "0",
+          "name": "0",
+          "position": "DEF",
+          "team": "0"
         },
         {
           "player_id": "5892",
@@ -7519,6 +7510,114 @@
           },
           "roster_id": 2,
           "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1412148926592589824",
+      "type": "trade",
+      "status": "complete",
+      "created": 1791045049859,
+      "created_iso": "2026-10-03T16:30:49.859Z",
+      "week": 4,
+      "leg": 4,
+      "creator": "1008209629677158400",
+      "roster_ids": [
+        5,
+        6
+      ],
+      "teams": [
+        {
+          "roster_id": 5,
+          "team_name": "BING BONG"
+        },
+        {
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "6790",
+            "name": "D'Andre Swift",
+            "first_name": "D'Andre",
+            "last_name": "Swift",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "CHI",
+            "status": "Active",
+            "injury_status": null,
+            "age": 27,
+            "years_exp": 6
+          },
+          "roster_id": 5,
+          "team_name": "BING BONG"
+        },
+        {
+          "player": {
+            "player_id": "9228",
+            "name": "Bryce Young",
+            "first_name": "Bryce",
+            "last_name": "Young",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "CAR",
+            "status": "Active",
+            "injury_status": null,
+            "age": 25,
+            "years_exp": 3
+          },
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "6790",
+            "name": "D'Andre Swift",
+            "first_name": "D'Andre",
+            "last_name": "Swift",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "CHI",
+            "status": "Active",
+            "injury_status": null,
+            "age": 27,
+            "years_exp": 6
+          },
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        },
+        {
+          "player": {
+            "player_id": "9228",
+            "name": "Bryce Young",
+            "first_name": "Bryce",
+            "last_name": "Young",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "CAR",
+            "status": "Active",
+            "injury_status": null,
+            "age": 25,
+            "years_exp": 3
+          },
+          "roster_id": 5,
+          "team_name": "BING BONG"
         }
       ],
       "draft_picks": [],
@@ -13457,51 +13556,6 @@
           "team_name": "Sugerdaddy"
         }
       ],
-      "draft_picks": [],
-      "waiver_budget": [],
-      "waiver_bid": null,
-      "metadata": null
-    },
-    {
-      "transaction_id": "1393058410156539904",
-      "type": "free_agent",
-      "status": "complete",
-      "created": 1786493516056,
-      "created_iso": "2026-08-12T00:11:56.056Z",
-      "week": 1,
-      "leg": 1,
-      "creator": "937819151345799168",
-      "roster_ids": [
-        10
-      ],
-      "teams": [
-        {
-          "roster_id": 10,
-          "team_name": "Sugerdaddy"
-        }
-      ],
-      "adds": [
-        {
-          "player": {
-            "player_id": "13402",
-            "name": "Skyler Bell",
-            "first_name": "Skyler",
-            "last_name": "Bell",
-            "position": "WR",
-            "fantasy_positions": [
-              "WR"
-            ],
-            "team": "BUF",
-            "status": "Active",
-            "injury_status": null,
-            "age": 24,
-            "years_exp": null
-          },
-          "roster_id": 10,
-          "team_name": "Sugerdaddy"
-        }
-      ],
-      "drops": [],
       "draft_picks": [],
       "waiver_budget": [],
       "waiver_bid": null,
