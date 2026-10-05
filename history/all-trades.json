@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T03:01:03.393Z",
+  "generated_at": "2026-10-05T03:00:57.588Z",
   "league_name": "Oiled Without Consent",
   "seasons": [
     {
@@ -17,11 +17,11 @@
     {
       "season": "2026",
       "league_id": "1327788752298336256",
-      "transaction_count": 157,
-      "trade_count": 20
+      "transaction_count": 159,
+      "trade_count": 21
     }
   ],
-  "trade_count": 75,
+  "trade_count": 76,
   "trades": [
     {
       "transaction_id": "1133549782154219520",
@@ -8438,7 +8438,7 @@
             ],
             "team": "PHI",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 24,
             "years_exp": 3
           },
@@ -8459,7 +8459,7 @@
             ],
             "team": "PHI",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 24,
             "years_exp": 3
           },
@@ -10025,6 +10025,116 @@
           "current_team": "Cam dog"
         }
       ],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null,
+      "season": "2026",
+      "league_id": "1327788752298336256"
+    },
+    {
+      "transaction_id": "1412148926592589824",
+      "type": "trade",
+      "status": "complete",
+      "created": 1791045049859,
+      "created_iso": "2026-10-03T16:30:49.859Z",
+      "week": 4,
+      "leg": 4,
+      "creator": "1008209629677158400",
+      "roster_ids": [
+        5,
+        6
+      ],
+      "teams": [
+        {
+          "roster_id": 5,
+          "team_name": "BING BONG"
+        },
+        {
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "6790",
+            "name": "D'Andre Swift",
+            "first_name": "D'Andre",
+            "last_name": "Swift",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "CHI",
+            "status": "Active",
+            "injury_status": null,
+            "age": 27,
+            "years_exp": 6
+          },
+          "roster_id": 5,
+          "team_name": "BING BONG"
+        },
+        {
+          "player": {
+            "player_id": "9228",
+            "name": "Bryce Young",
+            "first_name": "Bryce",
+            "last_name": "Young",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "CAR",
+            "status": "Active",
+            "injury_status": null,
+            "age": 25,
+            "years_exp": 3
+          },
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "6790",
+            "name": "D'Andre Swift",
+            "first_name": "D'Andre",
+            "last_name": "Swift",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "CHI",
+            "status": "Active",
+            "injury_status": null,
+            "age": 27,
+            "years_exp": 6
+          },
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        },
+        {
+          "player": {
+            "player_id": "9228",
+            "name": "Bryce Young",
+            "first_name": "Bryce",
+            "last_name": "Young",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "CAR",
+            "status": "Active",
+            "injury_status": null,
+            "age": 25,
+            "years_exp": 3
+          },
+          "roster_id": 5,
+          "team_name": "BING BONG"
+        }
+      ],
+      "draft_picks": [],
       "waiver_budget": [],
       "waiver_bid": null,
       "metadata": null,
