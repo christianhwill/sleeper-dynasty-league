@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T12:01:31.773Z",
+  "generated_at": "2026-10-06T00:01:09.689Z",
   "season": "2026",
   "teams": [
     {
@@ -1913,6 +1913,21 @@
           "years_exp": 12
         },
         {
+          "player_id": "4018",
+          "name": "Joe Mixon",
+          "first_name": "Joe",
+          "last_name": "Mixon",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "team": null,
+          "status": "Active",
+          "injury_status": "Active",
+          "age": 29,
+          "years_exp": 9
+        },
+        {
           "player_id": "4037",
           "name": "Chris Godwin",
           "first_name": "Chris",
@@ -1986,21 +2001,6 @@
           "injury_status": null,
           "age": 27,
           "years_exp": 6
-        },
-        {
-          "player_id": "7527",
-          "name": "Mac Jones",
-          "first_name": "Mac",
-          "last_name": "Jones",
-          "position": "QB",
-          "fantasy_positions": [
-            "QB"
-          ],
-          "team": "SF",
-          "status": "Active",
-          "injury_status": null,
-          "age": 28,
-          "years_exp": 5
         },
         {
           "player_id": "7564",
