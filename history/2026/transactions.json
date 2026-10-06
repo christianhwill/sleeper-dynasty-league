@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T12:01:31.773Z",
+  "generated_at": "2026-10-06T00:01:09.689Z",
   "season": "2026",
   "transactions": [
     {
@@ -9575,6 +9575,71 @@
           },
           "roster_id": 2,
           "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1412960033460805632",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1791238432806,
+      "created_iso": "2026-10-05T22:13:52.806Z",
+      "week": 4,
+      "leg": 4,
+      "creator": "1129897778072649728",
+      "roster_ids": [
+        4
+      ],
+      "teams": [
+        {
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "4018",
+            "name": "Joe Mixon",
+            "first_name": "Joe",
+            "last_name": "Mixon",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": null,
+            "status": "Active",
+            "injury_status": "Active",
+            "age": 29,
+            "years_exp": 9
+          },
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "7527",
+            "name": "Mac Jones",
+            "first_name": "Mac",
+            "last_name": "Jones",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "SF",
+            "status": "Active",
+            "injury_status": null,
+            "age": 28,
+            "years_exp": 5
+          },
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
         }
       ],
       "draft_picks": [],
