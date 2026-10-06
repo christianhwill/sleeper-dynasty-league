@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T00:01:09.689Z",
+  "generated_at": "2026-10-06T12:01:31.859Z",
   "season": "2026",
   "trades": [
     {
@@ -390,7 +390,7 @@
             "team": "KC",
             "status": "Active",
             "injury_status": null,
-            "age": 36,
+            "age": 37,
             "years_exp": 13
           },
           "roster_id": 2,
@@ -411,7 +411,7 @@
             "team": "KC",
             "status": "Active",
             "injury_status": null,
-            "age": 36,
+            "age": 37,
             "years_exp": 13
           },
           "roster_id": 4,
@@ -784,8 +784,8 @@
               "RB"
             ],
             "team": "PHI",
-            "status": "Active",
-            "injury_status": "Questionable",
+            "status": "Inactive",
+            "injury_status": "Out",
             "age": 24,
             "years_exp": 3
           },
@@ -805,8 +805,8 @@
               "RB"
             ],
             "team": "PHI",
-            "status": "Active",
-            "injury_status": "Questionable",
+            "status": "Inactive",
+            "injury_status": "Out",
             "age": 24,
             "years_exp": 3
           },
