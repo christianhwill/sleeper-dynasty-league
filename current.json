@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T00:01:10.792Z",
+  "generated_at": "2026-10-08T12:01:01.509Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -1825,10 +1825,19 @@
           "years_exp": 11
         },
         {
-          "player_id": "0",
-          "name": "0",
-          "position": "DEF",
-          "team": "0"
+          "player_id": "11566",
+          "name": "Jayden Daniels",
+          "first_name": "Jayden",
+          "last_name": "Daniels",
+          "position": "QB",
+          "fantasy_positions": [
+            "QB"
+          ],
+          "team": "WAS",
+          "status": "Active",
+          "injury_status": "Questionable",
+          "age": 25,
+          "years_exp": 2
         }
       ],
       "taxi": [
