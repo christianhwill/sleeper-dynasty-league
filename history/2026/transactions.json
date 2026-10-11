@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T00:01:15.773Z",
+  "generated_at": "2026-10-11T12:00:58.940Z",
   "season": "2026",
   "transactions": [
     {
@@ -10387,6 +10387,71 @@
           },
           "roster_id": 2,
           "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1414977086224928768",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1791719335660,
+      "created_iso": "2026-10-11T11:48:55.660Z",
+      "week": 5,
+      "leg": 5,
+      "creator": "1008209629677158400",
+      "roster_ids": [
+        6
+      ],
+      "teams": [
+        {
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "3271",
+            "name": "Tyler Higbee",
+            "first_name": "Tyler",
+            "last_name": "Higbee",
+            "position": "TE",
+            "fantasy_positions": [
+              "TE"
+            ],
+            "team": "LAR",
+            "status": "Active",
+            "injury_status": null,
+            "age": 33,
+            "years_exp": 10
+          },
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "6783",
+            "name": "Jerry Jeudy",
+            "first_name": "Jerry",
+            "last_name": "Jeudy",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "CLE",
+            "status": "Active",
+            "injury_status": null,
+            "age": 27,
+            "years_exp": 6
+          },
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
         }
       ],
       "draft_picks": [],
