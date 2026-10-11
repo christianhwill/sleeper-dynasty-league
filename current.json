@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T12:01:10.008Z",
+  "generated_at": "2026-10-11T00:01:15.773Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -380,7 +380,7 @@
           "team": "KC",
           "status": "Active",
           "injury_status": null,
-          "age": 22,
+          "age": 23,
           "years_exp": null
         },
         {
@@ -410,7 +410,7 @@
           "team": "DEN",
           "status": "Active",
           "injury_status": null,
-          "age": 30,
+          "age": 31,
           "years_exp": 8
         },
         {
@@ -592,7 +592,7 @@
           "team": "DEN",
           "status": "Active",
           "injury_status": null,
-          "age": 30,
+          "age": 31,
           "years_exp": 8
         },
         {
@@ -699,7 +699,7 @@
           "team": "KC",
           "status": "Active",
           "injury_status": null,
-          "age": 22,
+          "age": 23,
           "years_exp": null
         }
       ],
@@ -821,7 +821,7 @@
           ],
           "team": "ARI",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 24,
           "years_exp": 2
         },
@@ -1795,19 +1795,19 @@
           "years_exp": 3
         },
         {
-          "player_id": "9511",
-          "name": "Keaton Mitchell",
-          "first_name": "Keaton",
-          "last_name": "Mitchell",
-          "position": "RB",
+          "player_id": "12509",
+          "name": "Tre' Harris",
+          "first_name": "Tre'",
+          "last_name": "Harris",
+          "position": "WR",
           "fantasy_positions": [
-            "RB"
+            "WR"
           ],
           "team": "LAC",
           "status": "Active",
           "injury_status": null,
           "age": 24,
-          "years_exp": 3
+          "years_exp": 1
         },
         {
           "player_id": "11577",
@@ -2021,7 +2021,7 @@
           "team": "NYJ",
           "status": "Active",
           "injury_status": null,
-          "age": 22,
+          "age": 23,
           "years_exp": null
         },
         {
@@ -2415,7 +2415,7 @@
           "team": "NYJ",
           "status": "Active",
           "injury_status": null,
-          "age": 22,
+          "age": 23,
           "years_exp": null
         }
       ],
@@ -3753,7 +3753,7 @@
           "team": "NYJ",
           "status": "Active",
           "injury_status": null,
-          "age": 35,
+          "age": 36,
           "years_exp": 13
         },
         {
@@ -4950,8 +4950,8 @@
             "WR"
           ],
           "team": "PIT",
-          "status": "Active",
-          "injury_status": "Out",
+          "status": "Inactive",
+          "injury_status": "IR",
           "age": 29,
           "years_exp": 6
         },
@@ -10937,7 +10937,7 @@
             "team": "NYJ",
             "status": "Active",
             "injury_status": null,
-            "age": 22,
+            "age": 23,
             "years_exp": null
           },
           "roster_id": 4,
@@ -11117,7 +11117,7 @@
             "team": "NYJ",
             "status": "Active",
             "injury_status": null,
-            "age": 22,
+            "age": 23,
             "years_exp": null
           },
           "roster_id": 2,
@@ -11428,7 +11428,7 @@
             "team": "NYJ",
             "status": "Active",
             "injury_status": null,
-            "age": 22,
+            "age": 23,
             "years_exp": null
           },
           "roster_id": 2,
@@ -11583,7 +11583,7 @@
             "team": "NYJ",
             "status": "Active",
             "injury_status": null,
-            "age": 35,
+            "age": 36,
             "years_exp": 13
           },
           "roster_id": 7,
@@ -13108,7 +13108,7 @@
             "team": "NYJ",
             "status": "Active",
             "injury_status": null,
-            "age": 22,
+            "age": 23,
             "years_exp": null
           },
           "roster_id": 2,
@@ -13214,7 +13214,7 @@
             "team": "KC",
             "status": "Active",
             "injury_status": null,
-            "age": 22,
+            "age": 23,
             "years_exp": null
           },
           "roster_id": 1,
@@ -13292,7 +13292,7 @@
             "team": "KC",
             "status": "Active",
             "injury_status": null,
-            "age": 22,
+            "age": 23,
             "years_exp": null
           },
           "roster_id": 2,
@@ -13482,7 +13482,7 @@
             "team": "NYJ",
             "status": "Active",
             "injury_status": null,
-            "age": 22,
+            "age": 23,
             "years_exp": null
           },
           "roster_id": 2,
