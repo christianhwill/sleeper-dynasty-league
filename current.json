@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T12:00:58.940Z",
+  "generated_at": "2026-10-12T00:01:05.528Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -1203,19 +1203,19 @@
           "years_exp": 2
         },
         {
-          "player_id": "7021",
-          "name": "Rico Dowdle",
-          "first_name": "Rico",
-          "last_name": "Dowdle",
-          "position": "RB",
+          "player_id": "12535",
+          "name": "Isaac TeSlaa",
+          "first_name": "Isaac",
+          "last_name": "TeSlaa",
+          "position": "WR",
           "fantasy_positions": [
-            "RB"
+            "WR"
           ],
-          "team": "PIT",
+          "team": "DET",
           "status": "Active",
-          "injury_status": "Questionable",
-          "age": 28,
-          "years_exp": 6
+          "injury_status": null,
+          "age": 24,
+          "years_exp": 1
         },
         {
           "player_id": "11435",
@@ -2845,21 +2845,6 @@
           "years_exp": 6
         },
         {
-          "player_id": "8146",
-          "name": "Garrett Wilson",
-          "first_name": "Garrett",
-          "last_name": "Wilson",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "NYJ",
-          "status": "Active",
-          "injury_status": null,
-          "age": 26,
-          "years_exp": 4
-        },
-        {
           "player_id": "7526",
           "name": "Jaylen Waddle",
           "first_name": "Jaylen",
@@ -2873,6 +2858,21 @@
           "injury_status": null,
           "age": 27,
           "years_exp": 5
+        },
+        {
+          "player_id": "8146",
+          "name": "Garrett Wilson",
+          "first_name": "Garrett",
+          "last_name": "Wilson",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "NYJ",
+          "status": "Active",
+          "injury_status": null,
+          "age": 26,
+          "years_exp": 4
         },
         {
           "player_id": "4217",
@@ -2890,19 +2890,19 @@
           "years_exp": 9
         },
         {
-          "player_id": "2216",
-          "name": "Mike Evans",
-          "first_name": "Mike",
-          "last_name": "Evans",
-          "position": "WR",
+          "player_id": "11576",
+          "name": "Braelon Allen",
+          "first_name": "Braelon",
+          "last_name": "Allen",
+          "position": "RB",
           "fantasy_positions": [
-            "WR"
+            "RB"
           ],
-          "team": "SF",
+          "team": "NYJ",
           "status": "Active",
           "injury_status": null,
-          "age": 33,
-          "years_exp": 12
+          "age": 22,
+          "years_exp": 2
         },
         {
           "player_id": "10232",
@@ -3954,18 +3954,18 @@
           "years_exp": 6
         },
         {
-          "player_id": "12527",
-          "name": "Ashton Jeanty",
-          "first_name": "Ashton",
-          "last_name": "Jeanty",
+          "player_id": "12529",
+          "name": "TreVeyon Henderson",
+          "first_name": "TreVeyon",
+          "last_name": "Henderson",
           "position": "RB",
           "fantasy_positions": [
             "RB"
           ],
-          "team": "LV",
+          "team": "NE",
           "status": "Active",
-          "injury_status": "Questionable",
-          "age": 22,
+          "injury_status": null,
+          "age": 23,
           "years_exp": 1
         },
         {
@@ -4029,19 +4029,19 @@
           "years_exp": 4
         },
         {
-          "player_id": "6801",
-          "name": "Tee Higgins",
-          "first_name": "Tee",
-          "last_name": "Higgins",
+          "player_id": "9493",
+          "name": "Puka Nacua",
+          "first_name": "Puka",
+          "last_name": "Nacua",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "CIN",
+          "team": "LAR",
           "status": "Active",
-          "injury_status": "Questionable",
-          "age": 27,
-          "years_exp": 6
+          "injury_status": null,
+          "age": 25,
+          "years_exp": 3
         },
         {
           "player_id": "8112",
@@ -4059,19 +4059,19 @@
           "years_exp": 4
         },
         {
-          "player_id": "4881",
-          "name": "Lamar Jackson",
-          "first_name": "Lamar",
-          "last_name": "Jackson",
+          "player_id": "11563",
+          "name": "Bo Nix",
+          "first_name": "Bo",
+          "last_name": "Nix",
           "position": "QB",
           "fantasy_positions": [
             "QB"
           ],
-          "team": "BAL",
+          "team": "DEN",
           "status": "Active",
-          "injury_status": "Out",
-          "age": 29,
-          "years_exp": 8
+          "injury_status": null,
+          "age": 26,
+          "years_exp": 2
         }
       ],
       "taxi": [
@@ -4561,19 +4561,19 @@
           "years_exp": 9
         },
         {
-          "player_id": "8148",
-          "name": "Jameson Williams",
-          "first_name": "Jameson",
-          "last_name": "Williams",
+          "player_id": "13279",
+          "name": "Carnell Tate",
+          "first_name": "Carnell",
+          "last_name": "Tate",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "DET",
+          "team": "TEN",
           "status": "Active",
-          "injury_status": null,
-          "age": 25,
-          "years_exp": 4
+          "injury_status": "Questionable",
+          "age": 21,
+          "years_exp": null
         },
         {
           "player_id": "9997",
@@ -4621,19 +4621,19 @@
           "years_exp": 1
         },
         {
-          "player_id": "13279",
-          "name": "Carnell Tate",
-          "first_name": "Carnell",
-          "last_name": "Tate",
-          "position": "WR",
+          "player_id": "12507",
+          "name": "Omarion Hampton",
+          "first_name": "Omarion",
+          "last_name": "Hampton",
+          "position": "RB",
           "fantasy_positions": [
-            "WR"
+            "RB"
           ],
-          "team": "TEN",
+          "team": "LAC",
           "status": "Active",
-          "injury_status": "Questionable",
-          "age": 21,
-          "years_exp": null
+          "injury_status": null,
+          "age": 23,
+          "years_exp": 1
         },
         {
           "player_id": "421",
