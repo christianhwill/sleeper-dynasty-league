@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T12:00:51.658Z",
+  "generated_at": "2026-10-13T12:01:33.382Z",
   "season": "2026",
   "transactions": [
     {
@@ -1729,8 +1729,8 @@
               "WR"
             ],
             "team": "KC",
-            "status": "Active",
-            "injury_status": "Out",
+            "status": "Inactive",
+            "injury_status": "IR",
             "age": 26,
             "years_exp": 4
           },
@@ -1860,8 +1860,8 @@
               "WR"
             ],
             "team": "KC",
-            "status": "Active",
-            "injury_status": "Out",
+            "status": "Inactive",
+            "injury_status": "IR",
             "age": 26,
             "years_exp": 4
           },
@@ -6822,7 +6822,7 @@
             ],
             "team": "SEA",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 29,
             "years_exp": 7
           },
@@ -8032,7 +8032,7 @@
             ],
             "team": "SEA",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 29,
             "years_exp": 7
           },
