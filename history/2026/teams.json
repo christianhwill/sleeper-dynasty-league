@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T12:01:33.382Z",
+  "generated_at": "2026-10-14T00:01:11.507Z",
   "season": "2026",
   "teams": [
     {
@@ -439,6 +439,21 @@
           "years_exp": 5
         },
         {
+          "player_id": "12526",
+          "name": "Tetairoa McMillan",
+          "first_name": "Tetairoa",
+          "last_name": "McMillan",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "CAR",
+          "status": "Active",
+          "injury_status": null,
+          "age": 23,
+          "years_exp": 1
+        },
+        {
           "player_id": "9500",
           "name": "Josh Downs",
           "first_name": "Josh",
@@ -452,21 +467,6 @@
           "injury_status": null,
           "age": 25,
           "years_exp": 3
-        },
-        {
-          "player_id": "5045",
-          "name": "Courtland Sutton",
-          "first_name": "Courtland",
-          "last_name": "Sutton",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "DEN",
-          "status": "Active",
-          "injury_status": null,
-          "age": 31,
-          "years_exp": 8
         },
         {
           "player_id": "12518",
@@ -1001,19 +1001,19 @@
           "years_exp": 5
         },
         {
-          "player_id": "12495",
-          "name": "Ollie Gordon",
-          "first_name": "Ollie",
-          "last_name": "Gordon",
+          "player_id": "11435",
+          "name": "Emanuel Wilson",
+          "first_name": "Emanuel",
+          "last_name": "Wilson",
           "position": "RB",
           "fantasy_positions": [
             "RB"
           ],
-          "team": "MIA",
+          "team": "SEA",
           "status": "Active",
-          "injury_status": "Questionable",
-          "age": 22,
-          "years_exp": 1
+          "injury_status": null,
+          "age": 27,
+          "years_exp": 3
         },
         {
           "player_id": "12481",
@@ -1046,19 +1046,19 @@
           "years_exp": 2
         },
         {
-          "player_id": "11610",
-          "name": "Malik Washington",
-          "first_name": "Malik",
-          "last_name": "Washington",
+          "player_id": "5859",
+          "name": "A.J. Brown",
+          "first_name": "A.J.",
+          "last_name": "Brown",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "MIA",
-          "status": "Active",
-          "injury_status": null,
-          "age": 25,
-          "years_exp": 2
+          "team": "NE",
+          "status": "Inactive",
+          "injury_status": "IR",
+          "age": 29,
+          "years_exp": 7
         },
         {
           "player_id": "11604",
@@ -1076,34 +1076,34 @@
           "years_exp": 2
         },
         {
-          "player_id": "12535",
-          "name": "Isaac TeSlaa",
-          "first_name": "Isaac",
-          "last_name": "TeSlaa",
-          "position": "WR",
+          "player_id": "1466",
+          "name": "Travis Kelce",
+          "first_name": "Travis",
+          "last_name": "Kelce",
+          "position": "TE",
           "fantasy_positions": [
-            "WR"
+            "TE"
           ],
-          "team": "DET",
+          "team": "KC",
           "status": "Active",
           "injury_status": null,
-          "age": 24,
-          "years_exp": 1
+          "age": 37,
+          "years_exp": 13
         },
         {
-          "player_id": "11435",
-          "name": "Emanuel Wilson",
-          "first_name": "Emanuel",
-          "last_name": "Wilson",
+          "player_id": "8155",
+          "name": "Breece Hall",
+          "first_name": "Breece",
+          "last_name": "Hall",
           "position": "RB",
           "fantasy_positions": [
             "RB"
           ],
-          "team": "SEA",
+          "team": "NYJ",
           "status": "Active",
-          "injury_status": null,
-          "age": 27,
-          "years_exp": 3
+          "injury_status": "Out",
+          "age": 25,
+          "years_exp": 4
         },
         {
           "player_id": "2306",
@@ -1578,19 +1578,19 @@
       ],
       "starters": [
         {
-          "player_id": "3163",
-          "name": "Jared Goff",
-          "first_name": "Jared",
-          "last_name": "Goff",
+          "player_id": "11560",
+          "name": "Caleb Williams",
+          "first_name": "Caleb",
+          "last_name": "Williams",
           "position": "QB",
           "fantasy_positions": [
             "QB"
           ],
-          "team": "DET",
+          "team": "CHI",
           "status": "Active",
-          "injury_status": null,
-          "age": 31,
-          "years_exp": 10
+          "injury_status": "Out",
+          "age": 24,
+          "years_exp": 2
         },
         {
           "player_id": "13287",
@@ -1638,19 +1638,19 @@
           "years_exp": 2
         },
         {
-          "player_id": "13298",
-          "name": "KC Concepcion",
-          "first_name": "KC",
-          "last_name": "Concepcion",
+          "player_id": "10229",
+          "name": "Rashee Rice",
+          "first_name": "Rashee",
+          "last_name": "Rice",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "CLE",
+          "team": "KC",
           "status": "Active",
-          "injury_status": "Out",
-          "age": 22,
-          "years_exp": null
+          "injury_status": "Questionable",
+          "age": 26,
+          "years_exp": 3
         },
         {
           "player_id": "9484",
@@ -1668,34 +1668,34 @@
           "years_exp": 3
         },
         {
-          "player_id": "12509",
-          "name": "Tre' Harris",
-          "first_name": "Tre'",
-          "last_name": "Harris",
+          "player_id": "13294",
+          "name": "Makai Lemon",
+          "first_name": "Makai",
+          "last_name": "Lemon",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "LAC",
-          "status": "Active",
-          "injury_status": "Questionable",
-          "age": 24,
-          "years_exp": 1
-        },
-        {
-          "player_id": "11577",
-          "name": "Will Shipley",
-          "first_name": "Will",
-          "last_name": "Shipley",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
           "team": "PHI",
           "status": "Active",
-          "injury_status": "Out",
-          "age": 24,
-          "years_exp": 2
+          "injury_status": null,
+          "age": 22,
+          "years_exp": null
+        },
+        {
+          "player_id": "9480",
+          "name": "Brenton Strange",
+          "first_name": "Brenton",
+          "last_name": "Strange",
+          "position": "TE",
+          "fantasy_positions": [
+            "TE"
+          ],
+          "team": "JAX",
+          "status": "Active",
+          "injury_status": null,
+          "age": 25,
+          "years_exp": 3
         },
         {
           "player_id": "11566",
@@ -2185,21 +2185,6 @@
           "years_exp": 4
         },
         {
-          "player_id": "7564",
-          "name": "Ja'Marr Chase",
-          "first_name": "Ja'Marr",
-          "last_name": "Chase",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "CIN",
-          "status": "Active",
-          "injury_status": null,
-          "age": 26,
-          "years_exp": 5
-        },
-        {
           "player_id": "2133",
           "name": "Davante Adams",
           "first_name": "Davante",
@@ -2215,21 +2200,6 @@
           "years_exp": 12
         },
         {
-          "player_id": "12517",
-          "name": "Colston Loveland",
-          "first_name": "Colston",
-          "last_name": "Loveland",
-          "position": "TE",
-          "fantasy_positions": [
-            "TE"
-          ],
-          "team": "CHI",
-          "status": "Active",
-          "injury_status": null,
-          "age": 22,
-          "years_exp": 1
-        },
-        {
           "player_id": "8137",
           "name": "George Pickens",
           "first_name": "George",
@@ -2243,6 +2213,36 @@
           "injury_status": null,
           "age": 25,
           "years_exp": 4
+        },
+        {
+          "player_id": "7600",
+          "name": "Pat Freiermuth",
+          "first_name": "Pat",
+          "last_name": "Freiermuth",
+          "position": "TE",
+          "fantasy_positions": [
+            "TE"
+          ],
+          "team": "PIT",
+          "status": "Active",
+          "injury_status": null,
+          "age": 27,
+          "years_exp": 5
+        },
+        {
+          "player_id": "7594",
+          "name": "Chuba Hubbard",
+          "first_name": "Chuba",
+          "last_name": "Hubbard",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "team": "CAR",
+          "status": "Active",
+          "injury_status": null,
+          "age": 27,
+          "years_exp": 5
         },
         {
           "player_id": "11584",
@@ -5573,19 +5573,19 @@
           "years_exp": 8
         },
         {
-          "player_id": "9221",
-          "name": "Jahmyr Gibbs",
-          "first_name": "Jahmyr",
-          "last_name": "Gibbs",
+          "player_id": "8151",
+          "name": "Kenneth Walker",
+          "first_name": "Kenneth",
+          "last_name": "Walker",
           "position": "RB",
           "fantasy_positions": [
             "RB"
           ],
-          "team": "DET",
+          "team": "KC",
           "status": "Active",
           "injury_status": null,
-          "age": 24,
-          "years_exp": 3
+          "age": 25,
+          "years_exp": 4
         },
         {
           "player_id": "4034",
@@ -5603,18 +5603,18 @@
           "years_exp": 9
         },
         {
-          "player_id": "7547",
-          "name": "Amon-Ra St. Brown",
-          "first_name": "Amon-Ra",
-          "last_name": "St. Brown",
+          "player_id": "7569",
+          "name": "Nico Collins",
+          "first_name": "Nico",
+          "last_name": "Collins",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "DET",
+          "team": "HOU",
           "status": "Active",
           "injury_status": null,
-          "age": 26,
+          "age": 27,
           "years_exp": 5
         },
         {
@@ -5663,34 +5663,34 @@
           "years_exp": 4
         },
         {
-          "player_id": "7569",
-          "name": "Nico Collins",
-          "first_name": "Nico",
-          "last_name": "Collins",
+          "player_id": "12501",
+          "name": "Matthew Golden",
+          "first_name": "Matthew",
+          "last_name": "Golden",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "HOU",
+          "team": "GB",
           "status": "Active",
           "injury_status": null,
-          "age": 27,
-          "years_exp": 5
+          "age": 23,
+          "years_exp": 1
         },
         {
-          "player_id": "1166",
-          "name": "Kirk Cousins",
-          "first_name": "Kirk",
-          "last_name": "Cousins",
+          "player_id": "4046",
+          "name": "Patrick Mahomes",
+          "first_name": "Patrick",
+          "last_name": "Mahomes",
           "position": "QB",
           "fantasy_positions": [
             "QB"
           ],
-          "team": "LV",
+          "team": "KC",
           "status": "Active",
           "injury_status": null,
-          "age": 38,
-          "years_exp": 14
+          "age": 31,
+          "years_exp": 9
         }
       ],
       "taxi": [
