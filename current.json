@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T00:01:11.507Z",
+  "generated_at": "2026-10-14T12:01:16.814Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -55,7 +55,7 @@
       "trade_review_days": 1,
       "bench_lock": 0,
       "offseason_adds": 1,
-      "leg": 5,
+      "leg": 6,
       "reserve_slots": 1,
       "reserve_allow_cov": 1,
       "daily_waivers_last_ran": 11
@@ -3392,19 +3392,19 @@
           "years_exp": 1
         },
         {
-          "player_id": "5892",
-          "name": "David Montgomery",
-          "first_name": "David",
-          "last_name": "Montgomery",
+          "player_id": "7567",
+          "name": "Kenny Gainwell",
+          "first_name": "Kenny",
+          "last_name": "Gainwell",
           "position": "RB",
           "fantasy_positions": [
             "RB"
           ],
-          "team": "HOU",
+          "team": "TB",
           "status": "Active",
-          "injury_status": "Out",
-          "age": 29,
-          "years_exp": 7
+          "injury_status": null,
+          "age": 27,
+          "years_exp": 5
         },
         {
           "player_id": "4983",
@@ -3422,19 +3422,19 @@
           "years_exp": 8
         },
         {
-          "player_id": "5872",
-          "name": "Deebo Samuel",
-          "first_name": "Deebo",
-          "last_name": "Samuel",
+          "player_id": "11637",
+          "name": "Keon Coleman",
+          "first_name": "Keon",
+          "last_name": "Coleman",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "SF",
+          "team": "BUF",
           "status": "Active",
-          "injury_status": "Out",
-          "age": 30,
-          "years_exp": 7
+          "injury_status": null,
+          "age": 23,
+          "years_exp": 2
         },
         {
           "player_id": "5012",
@@ -3452,19 +3452,19 @@
           "years_exp": 8
         },
         {
-          "player_id": "3271",
-          "name": "Tyler Higbee",
-          "first_name": "Tyler",
-          "last_name": "Higbee",
+          "player_id": "5022",
+          "name": "Dallas Goedert",
+          "first_name": "Dallas",
+          "last_name": "Goedert",
           "position": "TE",
           "fantasy_positions": [
             "TE"
           ],
-          "team": "LAR",
+          "team": "PHI",
           "status": "Active",
           "injury_status": null,
-          "age": 33,
-          "years_exp": 10
+          "age": 31,
+          "years_exp": 8
         },
         {
           "player_id": "5947",
@@ -3482,19 +3482,19 @@
           "years_exp": 7
         },
         {
-          "player_id": "11637",
-          "name": "Keon Coleman",
-          "first_name": "Keon",
-          "last_name": "Coleman",
-          "position": "WR",
+          "player_id": "9228",
+          "name": "Bryce Young",
+          "first_name": "Bryce",
+          "last_name": "Young",
+          "position": "QB",
           "fantasy_positions": [
-            "WR"
+            "QB"
           ],
-          "team": "BUF",
+          "team": "CAR",
           "status": "Active",
           "injury_status": null,
-          "age": 23,
-          "years_exp": 2
+          "age": 25,
+          "years_exp": 3
         }
       ],
       "taxi": [
