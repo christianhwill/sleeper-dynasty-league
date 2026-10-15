@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T15:01:12.014Z",
+  "generated_at": "2026-10-15T15:01:32.114Z",
   "intelligence_version": "1.0",
   "league": {
     "league_id": "1327788752298336256",
@@ -20,7 +20,7 @@
     "completed_regular_season_weeks": 33,
     "excluded_future_or_incomplete_matchups": 65,
     "owners_analyzed": 10,
-    "transaction_participations_analyzed": 707,
+    "transaction_participations_analyzed": 709,
     "future_matchups_excluded_from_historical_metrics": true
   },
   "methodology": {
@@ -434,7 +434,7 @@
       "current_roster_value": {
         "rank": 3,
         "score": 77.78,
-        "lineup_adjusted_value": 51465.05
+        "lineup_adjusted_value": 51569.15
       },
       "franchise_rank": 1
     },
@@ -506,7 +506,7 @@
       "current_roster_value": {
         "rank": 1,
         "score": 100,
-        "lineup_adjusted_value": 72237.05
+        "lineup_adjusted_value": 72339
       },
       "franchise_rank": 2
     },
@@ -575,7 +575,7 @@
       "current_roster_value": {
         "rank": 2,
         "score": 88.89,
-        "lineup_adjusted_value": 63556.4
+        "lineup_adjusted_value": 63905.95
       },
       "franchise_rank": 3
     },
@@ -644,7 +644,7 @@
       "current_roster_value": {
         "rank": 4,
         "score": 66.67,
-        "lineup_adjusted_value": 50564.75
+        "lineup_adjusted_value": 51056.45
       },
       "franchise_rank": 4
     },
@@ -713,7 +713,7 @@
       "current_roster_value": {
         "rank": 10,
         "score": 0,
-        "lineup_adjusted_value": 24128.35
+        "lineup_adjusted_value": 24115.95
       },
       "franchise_rank": 5
     },
@@ -782,7 +782,7 @@
       "current_roster_value": {
         "rank": 9,
         "score": 11.11,
-        "lineup_adjusted_value": 32482.55
+        "lineup_adjusted_value": 32615.4
       },
       "franchise_rank": 6
     },
@@ -851,7 +851,7 @@
       "current_roster_value": {
         "rank": 7,
         "score": 33.33,
-        "lineup_adjusted_value": 42276.8
+        "lineup_adjusted_value": 42266.05
       },
       "franchise_rank": 7
     },
@@ -922,7 +922,7 @@
       "current_roster_value": {
         "rank": 8,
         "score": 22.22,
-        "lineup_adjusted_value": 35052.05
+        "lineup_adjusted_value": 35262
       },
       "franchise_rank": 8
     },
@@ -993,7 +993,7 @@
       "current_roster_value": {
         "rank": 6,
         "score": 44.44,
-        "lineup_adjusted_value": 43078.75
+        "lineup_adjusted_value": 43199.7
       },
       "franchise_rank": 9
     },
@@ -1062,7 +1062,7 @@
       "current_roster_value": {
         "rank": 5,
         "score": 55.56,
-        "lineup_adjusted_value": 44517.5
+        "lineup_adjusted_value": 44720.7
       },
       "franchise_rank": 10
     }
@@ -11509,7 +11509,7 @@
         {
           "id": "future_builder",
           "label": "The Future Builder",
-          "score": 71.66
+          "score": 67.78
         },
         {
           "id": "deal_maker",
@@ -11520,17 +11520,17 @@
       "style_scores": {
         "deal_maker": 32.14,
         "waiver_hawk": 15.42,
-        "future_builder": 71.66,
+        "future_builder": 67.78,
         "win_now": 24.16
       },
       "evidence": {
         "completed_trades": 13,
-        "transactions_involved": 40,
-        "waiver_and_free_agent_activity_score_raw": 31,
+        "transactions_involved": 41,
+        "waiver_and_free_agent_activity_score_raw": 32,
         "first_round_picks_sent": 1,
         "net_draft_picks_acquired": 6,
         "current_future_firsts": 3,
-        "current_average_roster_age": 24.29,
+        "current_average_roster_age": 24.42,
         "current_power_rank": 7,
         "current_power_score": 32.22
       }
@@ -11567,12 +11567,12 @@
       },
       "evidence": {
         "completed_trades": 37,
-        "transactions_involved": 210,
-        "waiver_and_free_agent_activity_score_raw": 237,
+        "transactions_involved": 211,
+        "waiver_and_free_agent_activity_score_raw": 238,
         "first_round_picks_sent": 7,
         "net_draft_picks_acquired": -2,
         "current_future_firsts": 3,
-        "current_average_roster_age": 25.96,
+        "current_average_roster_age": 26.21,
         "current_power_rank": 8,
         "current_power_score": 31.11
       }
@@ -11587,7 +11587,7 @@
         "id": "deal_maker",
         "label": "The Deal Maker",
         "description": "Builds through trades and is consistently willing to reshape the roster.",
-        "confidence_score": 83.78
+        "confidence_score": 72.11
       },
       "secondary_traits": [
         {
@@ -11598,13 +11598,13 @@
         {
           "id": "future_builder",
           "label": "The Future Builder",
-          "score": 74.45
+          "score": 78.34
         }
       ],
       "style_scores": {
         "deal_maker": 85.71,
         "waiver_hawk": 67.08,
-        "future_builder": 74.45,
+        "future_builder": 78.34,
         "win_now": 56.01
       },
       "evidence": {
@@ -11614,7 +11614,7 @@
         "first_round_picks_sent": 6,
         "net_draft_picks_acquired": 2,
         "current_future_firsts": 4,
-        "current_average_roster_age": 24.33,
+        "current_average_roster_age": 24.38,
         "current_power_rank": 5,
         "current_power_score": 46.11
       }
@@ -11824,7 +11824,7 @@
         "first_round_picks_sent": 1,
         "net_draft_picks_acquired": 8,
         "current_future_firsts": 3,
-        "current_average_roster_age": 24.96,
+        "current_average_roster_age": 25,
         "current_power_rank": 6,
         "current_power_score": 45.55
       }
