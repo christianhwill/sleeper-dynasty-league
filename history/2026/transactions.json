@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T00:00:47.119Z",
+  "generated_at": "2026-10-16T12:00:44.981Z",
   "season": "2026",
   "transactions": [
     {
@@ -643,7 +643,7 @@
             ],
             "team": "SEA",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Doubtful",
             "age": 23,
             "years_exp": 1
           },
@@ -4893,7 +4893,7 @@
             ],
             "team": "IND",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 25,
             "years_exp": 3
           },
@@ -5009,7 +5009,7 @@
             ],
             "team": "IND",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 25,
             "years_exp": 3
           },
@@ -5830,7 +5830,7 @@
             ],
             "team": "NYG",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 28,
             "years_exp": 6
           },
@@ -6870,7 +6870,7 @@
             ],
             "team": "SEA",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 23,
             "years_exp": 1
           },
@@ -6935,7 +6935,7 @@
             ],
             "team": "PIT",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 28,
             "years_exp": 6
           },
@@ -7116,7 +7116,7 @@
             ],
             "team": "PIT",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 28,
             "years_exp": 6
           },
@@ -7183,7 +7183,7 @@
             ],
             "team": "PIT",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 28,
             "years_exp": 6
           },
@@ -7780,7 +7780,7 @@
             ],
             "team": "WAS",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 25,
             "years_exp": 1
           },
@@ -7801,7 +7801,7 @@
             ],
             "team": "WAS",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 25,
             "years_exp": 1
           },
@@ -10692,6 +10692,136 @@
           },
           "roster_id": 4,
           "team_name": "Raw Dawgs"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1416666348955656192",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1792122087281,
+      "created_iso": "2026-10-16T03:41:27.281Z",
+      "week": 6,
+      "leg": 6,
+      "creator": "1129875387229560832",
+      "roster_ids": [
+        1
+      ],
+      "teams": [
+        {
+          "roster_id": 1,
+          "team_name": "Young N Hip"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "9486",
+            "name": "Dontayvion Wicks",
+            "first_name": "Dontayvion",
+            "last_name": "Wicks",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "PHI",
+            "status": "Active",
+            "injury_status": "Questionable",
+            "age": 25,
+            "years_exp": 3
+          },
+          "roster_id": 1,
+          "team_name": "Young N Hip"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "5045",
+            "name": "Courtland Sutton",
+            "first_name": "Courtland",
+            "last_name": "Sutton",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "DEN",
+            "status": "Active",
+            "injury_status": null,
+            "age": 31,
+            "years_exp": 8
+          },
+          "roster_id": 1,
+          "team_name": "Young N Hip"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1416666702011219968",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1792122171455,
+      "created_iso": "2026-10-16T03:42:51.455Z",
+      "week": 6,
+      "leg": 6,
+      "creator": "1129875387229560832",
+      "roster_ids": [
+        1
+      ],
+      "teams": [
+        {
+          "roster_id": 1,
+          "team_name": "Young N Hip"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "11647",
+            "name": "Kimani Vidal",
+            "first_name": "Kimani",
+            "last_name": "Vidal",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "LAC",
+            "status": "Active",
+            "injury_status": null,
+            "age": 25,
+            "years_exp": 2
+          },
+          "roster_id": 1,
+          "team_name": "Young N Hip"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "9486",
+            "name": "Dontayvion Wicks",
+            "first_name": "Dontayvion",
+            "last_name": "Wicks",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "PHI",
+            "status": "Active",
+            "injury_status": "Questionable",
+            "age": 25,
+            "years_exp": 3
+          },
+          "roster_id": 1,
+          "team_name": "Young N Hip"
         }
       ],
       "draft_picks": [],
