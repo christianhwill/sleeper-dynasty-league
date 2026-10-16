@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T12:01:16.164Z",
+  "generated_at": "2026-10-16T00:00:47.119Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -705,19 +705,19 @@
       ],
       "reserve": [
         {
-          "player_id": "12469",
-          "name": "Dylan Sampson",
-          "first_name": "Dylan",
-          "last_name": "Sampson",
+          "player_id": "8408",
+          "name": "Jordan Mason",
+          "first_name": "Jordan",
+          "last_name": "Mason",
           "position": "RB",
           "fantasy_positions": [
             "RB"
           ],
-          "team": "CLE",
+          "team": "MIN",
           "status": "Inactive",
           "injury_status": "IR",
-          "age": 22,
-          "years_exp": 1
+          "age": 27,
+          "years_exp": 4
         }
       ]
     },
@@ -901,21 +901,6 @@
           "years_exp": 1
         },
         {
-          "player_id": "12535",
-          "name": "Isaac TeSlaa",
-          "first_name": "Isaac",
-          "last_name": "TeSlaa",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "DET",
-          "status": "Active",
-          "injury_status": null,
-          "age": 24,
-          "years_exp": 1
-        },
-        {
           "player_id": "13285",
           "name": "Malachi Fields",
           "first_name": "Malachi",
@@ -1049,6 +1034,21 @@
           "injury_status": "IR",
           "age": 29,
           "years_exp": 7
+        },
+        {
+          "player_id": "6806",
+          "name": "J.K. Dobbins",
+          "first_name": "J.K.",
+          "last_name": "Dobbins",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "team": "DEN",
+          "status": "Active",
+          "injury_status": null,
+          "age": 27,
+          "years_exp": 6
         },
         {
           "player_id": "7021",
@@ -2040,21 +2040,6 @@
           "years_exp": 12
         },
         {
-          "player_id": "4018",
-          "name": "Joe Mixon",
-          "first_name": "Joe",
-          "last_name": "Mixon",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": null,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "age": 30,
-          "years_exp": 9
-        },
-        {
           "player_id": "4037",
           "name": "Chris Godwin",
           "first_name": "Chris",
@@ -2342,19 +2327,19 @@
           "years_exp": 4
         },
         {
-          "player_id": "7600",
-          "name": "Pat Freiermuth",
-          "first_name": "Pat",
-          "last_name": "Freiermuth",
+          "player_id": "12517",
+          "name": "Colston Loveland",
+          "first_name": "Colston",
+          "last_name": "Loveland",
           "position": "TE",
           "fantasy_positions": [
             "TE"
           ],
-          "team": "PIT",
+          "team": "CHI",
           "status": "Active",
           "injury_status": null,
-          "age": 27,
-          "years_exp": 5
+          "age": 22,
+          "years_exp": 1
         },
         {
           "player_id": "7594",
@@ -2845,19 +2830,19 @@
           "years_exp": 6
         },
         {
-          "player_id": "7526",
-          "name": "Jaylen Waddle",
-          "first_name": "Jaylen",
-          "last_name": "Waddle",
+          "player_id": "2216",
+          "name": "Mike Evans",
+          "first_name": "Mike",
+          "last_name": "Evans",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "DEN",
+          "team": "SF",
           "status": "Active",
           "injury_status": null,
-          "age": 27,
-          "years_exp": 5
+          "age": 33,
+          "years_exp": 12
         },
         {
           "player_id": "8146",
@@ -3939,19 +3924,19 @@
       ],
       "starters": [
         {
-          "player_id": "6770",
-          "name": "Joe Burrow",
-          "first_name": "Joe",
-          "last_name": "Burrow",
+          "player_id": "11563",
+          "name": "Bo Nix",
+          "first_name": "Bo",
+          "last_name": "Nix",
           "position": "QB",
           "fantasy_positions": [
             "QB"
           ],
-          "team": "CIN",
+          "team": "DEN",
           "status": "Active",
           "injury_status": null,
-          "age": 29,
-          "years_exp": 6
+          "age": 26,
+          "years_exp": 2
         },
         {
           "player_id": "12529",
@@ -3969,19 +3954,19 @@
           "years_exp": 1
         },
         {
-          "player_id": "9224",
-          "name": "Chase Brown",
-          "first_name": "Chase",
-          "last_name": "Brown",
+          "player_id": "12527",
+          "name": "Ashton Jeanty",
+          "first_name": "Ashton",
+          "last_name": "Jeanty",
           "position": "RB",
           "fantasy_positions": [
             "RB"
           ],
-          "team": "CIN",
+          "team": "LV",
           "status": "Active",
           "injury_status": null,
-          "age": 26,
-          "years_exp": 3
+          "age": 22,
+          "years_exp": 1
         },
         {
           "player_id": "6786",
@@ -4059,19 +4044,19 @@
           "years_exp": 4
         },
         {
-          "player_id": "11563",
-          "name": "Bo Nix",
-          "first_name": "Bo",
-          "last_name": "Nix",
+          "player_id": "4881",
+          "name": "Lamar Jackson",
+          "first_name": "Lamar",
+          "last_name": "Jackson",
           "position": "QB",
           "fantasy_positions": [
             "QB"
           ],
-          "team": "DEN",
+          "team": "BAL",
           "status": "Active",
-          "injury_status": null,
-          "age": 26,
-          "years_exp": 2
+          "injury_status": "Questionable",
+          "age": 29,
+          "years_exp": 8
         }
       ],
       "taxi": [
@@ -5213,19 +5198,19 @@
           "years_exp": 4
         },
         {
-          "player_id": "6904",
-          "name": "Jalen Hurts",
-          "first_name": "Jalen",
-          "last_name": "Hurts",
-          "position": "QB",
+          "player_id": "11581",
+          "name": "MarShawn Lloyd",
+          "first_name": "MarShawn",
+          "last_name": "Lloyd",
+          "position": "RB",
           "fantasy_positions": [
-            "QB"
+            "RB"
           ],
-          "team": "PHI",
+          "team": "GB",
           "status": "Active",
           "injury_status": null,
-          "age": 28,
-          "years_exp": 6
+          "age": 25,
+          "years_exp": 2
         }
       ],
       "taxi": [
@@ -7461,6 +7446,116 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1416534132615290880",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1792090564448,
+      "created_iso": "2026-10-15T18:56:04.448Z",
+      "week": 6,
+      "leg": 6,
+      "creator": "1129897778072649728",
+      "roster_ids": [
+        4
+      ],
+      "teams": [
+        {
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        }
+      ],
+      "adds": [],
+      "drops": [
+        {
+          "player": {
+            "player_id": "4018",
+            "name": "Joe Mixon",
+            "first_name": "Joe",
+            "last_name": "Mixon",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": null,
+            "status": "Active",
+            "injury_status": "Questionable",
+            "age": 30,
+            "years_exp": 9
+          },
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1416497516312002560",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1792081834441,
+      "created_iso": "2026-10-15T16:30:34.441Z",
+      "week": 6,
+      "leg": 6,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "6806",
+            "name": "J.K. Dobbins",
+            "first_name": "J.K.",
+            "last_name": "Dobbins",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "DEN",
+            "status": "Active",
+            "injury_status": null,
+            "age": 27,
+            "years_exp": 6
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "12535",
+            "name": "Isaac TeSlaa",
+            "first_name": "Isaac",
+            "last_name": "TeSlaa",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "DET",
+            "status": "Active",
+            "injury_status": null,
+            "age": 24,
+            "years_exp": 1
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
     {
       "transaction_id": "1416234077354205184",
       "type": "free_agent",
@@ -13506,96 +13601,6 @@
           "current_team": "Young N Hip"
         }
       ],
-      "waiver_budget": [],
-      "waiver_bid": null,
-      "metadata": null
-    },
-    {
-      "transaction_id": "1395202505696116736",
-      "type": "free_agent",
-      "status": "complete",
-      "created": 1787004708269,
-      "created_iso": "2026-08-17T22:11:48.269Z",
-      "week": 1,
-      "leg": 1,
-      "creator": "1129877684336578560",
-      "roster_ids": [
-        2
-      ],
-      "teams": [
-        {
-          "roster_id": 2,
-          "team_name": "Cam dog"
-        }
-      ],
-      "adds": [
-        {
-          "player": {
-            "player_id": "13317",
-            "name": "Ted Hurst",
-            "first_name": "Ted",
-            "last_name": "Hurst",
-            "position": "WR",
-            "fantasy_positions": [
-              "WR"
-            ],
-            "team": "TB",
-            "status": "Active",
-            "injury_status": null,
-            "age": 22,
-            "years_exp": null
-          },
-          "roster_id": 2,
-          "team_name": "Cam dog"
-        }
-      ],
-      "drops": [],
-      "draft_picks": [],
-      "waiver_budget": [],
-      "waiver_bid": null,
-      "metadata": null
-    },
-    {
-      "transaction_id": "1395202134479241216",
-      "type": "free_agent",
-      "status": "complete",
-      "created": 1787004619764,
-      "created_iso": "2026-08-17T22:10:19.764Z",
-      "week": 1,
-      "leg": 1,
-      "creator": "1129877684336578560",
-      "roster_ids": [
-        2
-      ],
-      "teams": [
-        {
-          "roster_id": 2,
-          "team_name": "Cam dog"
-        }
-      ],
-      "adds": [],
-      "drops": [
-        {
-          "player": {
-            "player_id": "11597",
-            "name": "Theo Johnson",
-            "first_name": "Theo",
-            "last_name": "Johnson",
-            "position": "TE",
-            "fantasy_positions": [
-              "TE"
-            ],
-            "team": "NYG",
-            "status": "Active",
-            "injury_status": "Questionable",
-            "age": 25,
-            "years_exp": 2
-          },
-          "roster_id": 2,
-          "team_name": "Cam dog"
-        }
-      ],
-      "draft_picks": [],
       "waiver_budget": [],
       "waiver_bid": null,
       "metadata": null
