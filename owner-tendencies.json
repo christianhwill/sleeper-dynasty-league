@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T06:01:05.255Z",
+  "generated_at": "2026-10-17T06:00:48.564Z",
   "league_name": "Oiled Without Consent",
   "seasons": [
     "2024",
@@ -39,16 +39,16 @@
         "2026": 1
       },
       "activity": {
-        "transactions_involved": 41,
+        "transactions_involved": 43,
         "transaction_types": {
           "trade": 13,
           "waiver": 4,
-          "free_agent": 24
+          "free_agent": 26
         },
         "waiver_claims_won": 4,
-        "free_agent_transactions": 24,
-        "player_adds": 32,
-        "player_drops": 40,
+        "free_agent_transactions": 26,
+        "player_adds": 34,
+        "player_drops": 42,
         "faab_spent": 3,
         "average_successful_faab_bid": 0.75,
         "max_successful_faab_bid": 3
@@ -262,14 +262,14 @@
           "firsts_sent": 1
         },
         "2026": {
-          "transactions_involved": 18,
+          "transactions_involved": 20,
           "trades": 7,
           "trades_created": 3,
           "waiver_claims_won": 2,
-          "free_agent_transactions": 9,
+          "free_agent_transactions": 11,
           "faab_spent": 3,
-          "player_adds": 14,
-          "player_drops": 17,
+          "player_adds": 16,
+          "player_drops": 19,
           "players_acquired": 9,
           "players_sent": 6,
           "draft_picks_acquired": 4,
@@ -282,7 +282,7 @@
         "trade_activity": 5,
         "waiver_claims": 10,
         "faab_spent": 8,
-        "future_firsts": 3,
+        "future_firsts": 2,
         "future_picks": 2
       }
     },
@@ -546,7 +546,7 @@
         "trade_activity": 1,
         "waiver_claims": 1,
         "faab_spent": 1,
-        "future_firsts": 3,
+        "future_firsts": 2,
         "future_picks": 6
       }
     },
@@ -571,49 +571,49 @@
         "2026": 3
       },
       "activity": {
-        "transactions_involved": 76,
+        "transactions_involved": 78,
         "transaction_types": {
-          "trade": 21,
+          "trade": 22,
           "waiver": 25,
-          "free_agent": 30
+          "free_agent": 31
         },
         "waiver_claims_won": 25,
-        "free_agent_transactions": 30,
-        "player_adds": 73,
-        "player_drops": 81,
+        "free_agent_transactions": 31,
+        "player_adds": 76,
+        "player_drops": 84,
         "faab_spent": 87,
         "average_successful_faab_bid": 3.48,
         "max_successful_faab_bid": 22
       },
       "trade_profile": {
-        "trades": 21,
-        "trades_created": 12,
-        "players_acquired": 33,
-        "players_sent": 33,
+        "trades": 22,
+        "trades_created": 13,
+        "players_acquired": 36,
+        "players_sent": 35,
         "positions_acquired": {
-          "WR": 15,
+          "WR": 16,
           "RB": 4,
-          "TE": 4,
-          "QB": 10
+          "TE": 5,
+          "QB": 11
         },
         "positions_sent": {
           "WR": 15,
           "RB": 5,
-          "QB": 10,
-          "TE": 3
+          "QB": 11,
+          "TE": 4
         },
-        "draft_picks_acquired": 19,
-        "draft_picks_sent": 17,
-        "firsts_acquired": 9,
+        "draft_picks_acquired": 20,
+        "draft_picks_sent": 18,
+        "firsts_acquired": 10,
         "firsts_sent": 6,
         "seconds_acquired": 8,
-        "seconds_sent": 7,
+        "seconds_sent": 8,
         "thirds_acquired": 2,
         "thirds_sent": 4,
-        "trades_involving_picks": 18,
-        "trades_involving_players": 21,
+        "trades_involving_picks": 19,
+        "trades_involving_players": 22,
         "net_draft_picks": 2,
-        "net_first_round_picks": 3,
+        "net_first_round_picks": 4,
         "favorite_trade_partner": {
           "owner_key": "user:1129877684336578560",
           "owner_id": "1129877684336578560",
@@ -661,7 +661,7 @@
             "owner_key": "user:1129897778072649728",
             "owner_id": "1129897778072649728",
             "team_name": "Raw Dawgs",
-            "trades": 1
+            "trades": 2
           },
           {
             "owner_key": "user:1129875387229560832",
@@ -673,27 +673,27 @@
       },
       "current_draft_capital": {
         "total_future_picks": 8,
-        "first_round_picks": 4,
-        "second_round_picks": 3,
+        "first_round_picks": 5,
+        "second_round_picks": 2,
         "third_round_picks": 1,
         "by_season": {
           "2027": {
             "total": 3,
-            "round_1": 2,
-            "round_2": 1,
+            "round_1": 3,
+            "round_2": 0,
             "round_3": 0,
             "other_rounds": 0,
             "picks": [
               {
                 "round": 1,
-                "original_roster_id": 4,
-                "original_team": "Raw Dawgs",
+                "original_roster_id": 3,
+                "original_team": "Third Down Syndrome",
                 "has_been_traded": true
               },
               {
-                "round": 2,
-                "original_roster_id": 5,
-                "original_team": "BING BONG",
+                "round": 1,
+                "original_roster_id": 4,
+                "original_team": "Raw Dawgs",
                 "has_been_traded": true
               },
               {
@@ -788,19 +788,19 @@
           "firsts_sent": 5
         },
         "2026": {
-          "transactions_involved": 26,
-          "trades": 5,
-          "trades_created": 3,
+          "transactions_involved": 28,
+          "trades": 6,
+          "trades_created": 4,
           "waiver_claims_won": 4,
-          "free_agent_transactions": 17,
+          "free_agent_transactions": 18,
           "faab_spent": 20,
-          "player_adds": 22,
-          "player_drops": 26,
-          "players_acquired": 8,
-          "players_sent": 9,
-          "draft_picks_acquired": 3,
-          "draft_picks_sent": 4,
-          "firsts_acquired": 0,
+          "player_adds": 25,
+          "player_drops": 29,
+          "players_acquired": 11,
+          "players_sent": 11,
+          "draft_picks_acquired": 4,
+          "draft_picks_sent": 5,
+          "firsts_acquired": 1,
           "firsts_sent": 1
         }
       },
@@ -808,7 +808,7 @@
         "trade_activity": 2,
         "waiver_claims": 4,
         "faab_spent": 3,
-        "future_firsts": 2,
+        "future_firsts": 1,
         "future_picks": 5
       }
     },
@@ -834,48 +834,49 @@
         "2026": 4
       },
       "activity": {
-        "transactions_involved": 71,
+        "transactions_involved": 74,
         "transaction_types": {
-          "free_agent": 32,
-          "waiver": 28,
-          "trade": 11
+          "free_agent": 33,
+          "waiver": 29,
+          "trade": 12
         },
-        "waiver_claims_won": 28,
-        "free_agent_transactions": 32,
-        "player_adds": 49,
-        "player_drops": 53,
-        "faab_spent": 108,
-        "average_successful_faab_bid": 3.86,
+        "waiver_claims_won": 29,
+        "free_agent_transactions": 33,
+        "player_adds": 53,
+        "player_drops": 56,
+        "faab_spent": 113,
+        "average_successful_faab_bid": 3.9,
         "max_successful_faab_bid": 21
       },
       "trade_profile": {
-        "trades": 11,
+        "trades": 12,
         "trades_created": 4,
-        "players_acquired": 8,
-        "players_sent": 6,
+        "players_acquired": 10,
+        "players_sent": 9,
         "positions_acquired": {
           "RB": 2,
           "WR": 5,
-          "QB": 1
-        },
-        "positions_sent": {
-          "WR": 2,
-          "RB": 2,
-          "QB": 1,
+          "QB": 2,
           "TE": 1
         },
-        "draft_picks_acquired": 6,
-        "draft_picks_sent": 11,
+        "positions_sent": {
+          "WR": 3,
+          "RB": 2,
+          "QB": 2,
+          "TE": 2
+        },
+        "draft_picks_acquired": 7,
+        "draft_picks_sent": 12,
         "firsts_acquired": 1,
-        "firsts_sent": 3,
-        "seconds_acquired": 3,
+        "firsts_sent": 4,
+        "seconds_acquired": 4,
         "seconds_sent": 4,
         "thirds_acquired": 2,
         "thirds_sent": 4,
-        "trades_involving_picks": 9,
-        "trades_involving_players": 7,
+        "trades_involving_picks": 10,
+        "trades_involving_players": 8,
         "net_draft_picks": -5,
-        "net_first_round_picks": -2,
+        "net_first_round_picks": -3,
         "favorite_trade_partner": {
           "owner_key": "user:1129877684336578560",
           "owner_id": "1129877684336578560",
@@ -890,6 +891,12 @@
             "trades": 7
           },
           {
+            "owner_key": "user:1129881968960901120",
+            "owner_id": "1129881968960901120",
+            "team_name": "Third Down Syndrome",
+            "trades": 2
+          },
+          {
             "owner_key": "user:1129875387229560832",
             "owner_id": "1129875387229560832",
             "team_name": "Young N Hip",
@@ -900,38 +907,32 @@
             "owner_id": "1131304330881077248",
             "team_name": "PurpleRhane",
             "trades": 1
-          },
-          {
-            "owner_key": "user:1129881968960901120",
-            "owner_id": "1129881968960901120",
-            "team_name": "Third Down Syndrome",
-            "trades": 1
           }
         ]
       },
       "current_draft_capital": {
         "total_future_picks": 8,
-        "first_round_picks": 3,
-        "second_round_picks": 2,
+        "first_round_picks": 2,
+        "second_round_picks": 3,
         "third_round_picks": 3,
         "by_season": {
           "2027": {
             "total": 2,
-            "round_1": 1,
-            "round_2": 0,
+            "round_1": 0,
+            "round_2": 1,
             "round_3": 1,
             "other_rounds": 0,
             "picks": [
               {
-                "round": 1,
-                "original_roster_id": 3,
-                "original_team": "Third Down Syndrome",
-                "has_been_traded": true
-              },
-              {
                 "round": 3,
                 "original_roster_id": 4,
                 "original_team": "Raw Dawgs",
+                "has_been_traded": true
+              },
+              {
+                "round": 2,
+                "original_roster_id": 5,
+                "original_team": "BING BONG",
                 "has_been_traded": true
               }
             ]
@@ -1026,20 +1027,20 @@
           "firsts_sent": 2
         },
         "2026": {
-          "transactions_involved": 16,
-          "trades": 5,
+          "transactions_involved": 19,
+          "trades": 6,
           "trades_created": 1,
-          "waiver_claims_won": 4,
-          "free_agent_transactions": 7,
-          "faab_spent": 53,
-          "player_adds": 8,
-          "player_drops": 10,
-          "players_acquired": 1,
-          "players_sent": 1,
-          "draft_picks_acquired": 3,
-          "draft_picks_sent": 4,
+          "waiver_claims_won": 5,
+          "free_agent_transactions": 8,
+          "faab_spent": 58,
+          "player_adds": 12,
+          "player_drops": 13,
+          "players_acquired": 3,
+          "players_sent": 4,
+          "draft_picks_acquired": 4,
+          "draft_picks_sent": 5,
           "firsts_acquired": 1,
-          "firsts_sent": 1
+          "firsts_sent": 2
         }
       },
       "league_ranks": {
@@ -1277,7 +1278,7 @@
         "trade_activity": 7,
         "waiver_claims": 7,
         "faab_spent": 9,
-        "future_firsts": 4,
+        "future_firsts": 3,
         "future_picks": 6
       }
     },
@@ -1526,7 +1527,7 @@
         "trade_activity": 3,
         "waiver_claims": 8,
         "faab_spent": 9,
-        "future_firsts": 3,
+        "future_firsts": 2,
         "future_picks": 5
       }
     },
@@ -1814,46 +1815,47 @@
         "2026": 8
       },
       "activity": {
-        "transactions_involved": 24,
+        "transactions_involved": 25,
         "transaction_types": {
           "free_agent": 12,
-          "trade": 7,
+          "trade": 8,
           "waiver": 5
         },
         "waiver_claims_won": 5,
         "free_agent_transactions": 12,
-        "player_adds": 12,
-        "player_drops": 22,
+        "player_adds": 13,
+        "player_drops": 23,
         "faab_spent": 10,
         "average_successful_faab_bid": 2,
         "max_successful_faab_bid": 10
       },
       "trade_profile": {
-        "trades": 7,
-        "trades_created": 1,
-        "players_acquired": 5,
-        "players_sent": 8,
+        "trades": 8,
+        "trades_created": 2,
+        "players_acquired": 6,
+        "players_sent": 9,
         "positions_acquired": {
           "WR": 3,
-          "QB": 2
+          "QB": 2,
+          "TE": 1
         },
         "positions_sent": {
           "QB": 2,
           "WR": 4,
           "RB": 1,
-          "TE": 1
+          "TE": 2
         },
-        "draft_picks_acquired": 13,
+        "draft_picks_acquired": 14,
         "draft_picks_sent": 5,
         "firsts_acquired": 5,
         "firsts_sent": 1,
-        "seconds_acquired": 3,
+        "seconds_acquired": 4,
         "seconds_sent": 4,
         "thirds_acquired": 5,
         "thirds_sent": 0,
-        "trades_involving_picks": 7,
-        "trades_involving_players": 5,
-        "net_draft_picks": 8,
+        "trades_involving_picks": 8,
+        "trades_involving_players": 6,
+        "net_draft_picks": 9,
         "net_first_round_picks": 4,
         "favorite_trade_partner": {
           "owner_key": "user:1129877684336578560",
@@ -1866,6 +1868,12 @@
             "owner_key": "user:1129877684336578560",
             "owner_id": "1129877684336578560",
             "team_name": "Cam dog",
+            "trades": 2
+          },
+          {
+            "owner_key": "user:937819151345799168",
+            "owner_id": "937819151345799168",
+            "team_name": "Sugerdaddy",
             "trades": 2
           },
           {
@@ -1885,19 +1893,13 @@
             "owner_id": "1129897778072649728",
             "team_name": "Raw Dawgs",
             "trades": 1
-          },
-          {
-            "owner_key": "user:937819151345799168",
-            "owner_id": "937819151345799168",
-            "team_name": "Sugerdaddy",
-            "trades": 1
           }
         ]
       },
       "current_draft_capital": {
-        "total_future_picks": 13,
+        "total_future_picks": 14,
         "first_round_picks": 3,
-        "second_round_picks": 3,
+        "second_round_picks": 4,
         "third_round_picks": 7,
         "by_season": {
           "2027": {
@@ -1934,12 +1936,18 @@
             ]
           },
           "2028": {
-            "total": 5,
+            "total": 6,
             "round_1": 1,
-            "round_2": 1,
+            "round_2": 2,
             "round_3": 3,
             "other_rounds": 0,
             "picks": [
+              {
+                "round": 2,
+                "original_roster_id": 2,
+                "original_team": "Cam dog",
+                "has_been_traded": true
+              },
               {
                 "round": 3,
                 "original_roster_id": 2,
@@ -2041,17 +2049,17 @@
           "firsts_sent": 1
         },
         "2026": {
-          "transactions_involved": 9,
-          "trades": 3,
-          "trades_created": 0,
+          "transactions_involved": 10,
+          "trades": 4,
+          "trades_created": 1,
           "waiver_claims_won": 0,
           "free_agent_transactions": 6,
           "faab_spent": 0,
-          "player_adds": 2,
-          "player_drops": 7,
-          "players_acquired": 1,
-          "players_sent": 2,
-          "draft_picks_acquired": 5,
+          "player_adds": 3,
+          "player_drops": 8,
+          "players_acquired": 2,
+          "players_sent": 3,
+          "draft_picks_acquired": 6,
           "draft_picks_sent": 1,
           "firsts_acquired": 1,
           "firsts_sent": 0
@@ -2061,7 +2069,7 @@
         "trade_activity": 8,
         "waiver_claims": 9,
         "faab_spent": 7,
-        "future_firsts": 3,
+        "future_firsts": 2,
         "future_picks": 1
       }
     },
@@ -2294,10 +2302,10 @@
         }
       },
       "league_ranks": {
-        "trade_activity": 8,
+        "trade_activity": 9,
         "waiver_claims": 6,
         "faab_spent": 4,
-        "future_firsts": 4,
+        "future_firsts": 3,
         "future_picks": 4
       }
     },
@@ -2322,48 +2330,48 @@
         "2026": 10
       },
       "activity": {
-        "transactions_involved": 72,
+        "transactions_involved": 73,
         "transaction_types": {
           "waiver": 27,
           "free_agent": 34,
-          "trade": 11
+          "trade": 12
         },
         "waiver_claims_won": 27,
         "free_agent_transactions": 34,
-        "player_adds": 64,
-        "player_drops": 67,
+        "player_adds": 65,
+        "player_drops": 68,
         "faab_spent": 48,
         "average_successful_faab_bid": 1.78,
         "max_successful_faab_bid": 18
       },
       "trade_profile": {
-        "trades": 11,
+        "trades": 12,
         "trades_created": 8,
-        "players_acquired": 13,
-        "players_sent": 16,
+        "players_acquired": 14,
+        "players_sent": 17,
         "positions_acquired": {
           "WR": 5,
           "RB": 4,
-          "TE": 2,
+          "TE": 3,
           "QB": 2
         },
         "positions_sent": {
           "WR": 9,
           "RB": 4,
           "QB": 2,
-          "TE": 1
+          "TE": 2
         },
         "draft_picks_acquired": 5,
-        "draft_picks_sent": 9,
+        "draft_picks_sent": 10,
         "firsts_acquired": 1,
         "firsts_sent": 3,
         "seconds_acquired": 3,
-        "seconds_sent": 3,
+        "seconds_sent": 4,
         "thirds_acquired": 1,
         "thirds_sent": 3,
-        "trades_involving_picks": 9,
-        "trades_involving_players": 11,
-        "net_draft_picks": -4,
+        "trades_involving_picks": 10,
+        "trades_involving_players": 12,
+        "net_draft_picks": -5,
         "net_first_round_picks": -2,
         "favorite_trade_partner": {
           "owner_key": "user:1129877684336578560",
@@ -2391,23 +2399,23 @@
             "trades": 2
           },
           {
+            "owner_key": "user:1131304330881077248",
+            "owner_id": "1131304330881077248",
+            "team_name": "PurpleRhane",
+            "trades": 2
+          },
+          {
             "owner_key": "user:1129875387229560832",
             "owner_id": "1129875387229560832",
             "team_name": "Young N Hip",
             "trades": 2
-          },
-          {
-            "owner_key": "user:1131304330881077248",
-            "owner_id": "1131304330881077248",
-            "team_name": "PurpleRhane",
-            "trades": 1
           }
         ]
       },
       "current_draft_capital": {
-        "total_future_picks": 7,
+        "total_future_picks": 6,
         "first_round_picks": 2,
-        "second_round_picks": 3,
+        "second_round_picks": 2,
         "third_round_picks": 2,
         "by_season": {
           "2027": {
@@ -2433,21 +2441,6 @@
                 "round": 3,
                 "original_roster_id": 10,
                 "original_team": "Sugerdaddy",
-                "has_been_traded": true
-              }
-            ]
-          },
-          "2028": {
-            "total": 1,
-            "round_1": 0,
-            "round_2": 1,
-            "round_3": 0,
-            "other_rounds": 0,
-            "picks": [
-              {
-                "round": 2,
-                "original_roster_id": 2,
-                "original_team": "Cam dog",
                 "has_been_traded": true
               }
             ]
@@ -2515,18 +2508,18 @@
           "firsts_sent": 2
         },
         "2026": {
-          "transactions_involved": 20,
-          "trades": 2,
+          "transactions_involved": 21,
+          "trades": 3,
           "trades_created": 2,
           "waiver_claims_won": 2,
           "free_agent_transactions": 16,
           "faab_spent": 4,
-          "player_adds": 15,
-          "player_drops": 13,
-          "players_acquired": 2,
-          "players_sent": 3,
+          "player_adds": 16,
+          "player_drops": 14,
+          "players_acquired": 3,
+          "players_sent": 4,
           "draft_picks_acquired": 0,
-          "draft_picks_sent": 4,
+          "draft_picks_sent": 5,
           "firsts_acquired": 0,
           "firsts_sent": 1
         }
@@ -2535,8 +2528,8 @@
         "trade_activity": 6,
         "waiver_claims": 3,
         "faab_spent": 5,
-        "future_firsts": 4,
-        "future_picks": 6
+        "future_firsts": 3,
+        "future_picks": 7
       }
     }
   ]
