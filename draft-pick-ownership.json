@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T12:00:44.981Z",
+  "generated_at": "2026-10-17T00:00:45.289Z",
   "league": {
     "league_id": "1327788752298336256",
     "name": "Oiled Without Consent",
@@ -84,10 +84,10 @@
       "round": 1,
       "original_roster_id": 3,
       "original_team": "Third Down Syndrome",
-      "current_owner_roster_id": 4,
-      "current_team": "Raw Dawgs",
-      "previous_owner_roster_id": 2,
-      "previous_team": "Cam dog",
+      "current_owner_roster_id": 3,
+      "current_team": "Third Down Syndrome",
+      "previous_owner_roster_id": 4,
+      "previous_team": "Raw Dawgs",
       "has_been_traded": true
     },
     {
@@ -161,10 +161,10 @@
       "round": 2,
       "original_roster_id": 5,
       "original_team": "BING BONG",
-      "current_owner_roster_id": 3,
-      "current_team": "Third Down Syndrome",
-      "previous_owner_roster_id": 5,
-      "previous_team": "BING BONG",
+      "current_owner_roster_id": 4,
+      "current_team": "Raw Dawgs",
+      "previous_owner_roster_id": 3,
+      "previous_team": "Third Down Syndrome",
       "has_been_traded": true
     },
     {
@@ -392,10 +392,10 @@
       "round": 2,
       "original_roster_id": 2,
       "original_team": "Cam dog",
-      "current_owner_roster_id": 10,
-      "current_team": "Sugerdaddy",
-      "previous_owner_roster_id": 2,
-      "previous_team": "Cam dog",
+      "current_owner_roster_id": 8,
+      "current_team": "PurpleRhane",
+      "previous_owner_roster_id": 10,
+      "previous_team": "Sugerdaddy",
       "has_been_traded": true
     },
     {
@@ -1113,28 +1113,28 @@
       "roster_id": 3,
       "team_name": "Third Down Syndrome",
       "total_future_picks": 8,
-      "first_round_picks": 4,
-      "second_round_picks": 3,
+      "first_round_picks": 5,
+      "second_round_picks": 2,
       "third_round_picks": 1,
       "other_round_picks": 0,
       "by_season": {
         "2027": {
           "total": 3,
-          "round_1": 2,
-          "round_2": 1,
+          "round_1": 3,
+          "round_2": 0,
           "round_3": 0,
           "other_rounds": 0,
           "picks": [
             {
               "round": 1,
-              "original_roster_id": 4,
-              "original_team": "Raw Dawgs",
+              "original_roster_id": 3,
+              "original_team": "Third Down Syndrome",
               "has_been_traded": true
             },
             {
-              "round": 2,
-              "original_roster_id": 5,
-              "original_team": "BING BONG",
+              "round": 1,
+              "original_roster_id": 4,
+              "original_team": "Raw Dawgs",
               "has_been_traded": true
             },
             {
@@ -1198,9 +1198,9 @@
     {
       "roster_id": 8,
       "team_name": "PurpleRhane",
-      "total_future_picks": 13,
+      "total_future_picks": 14,
       "first_round_picks": 3,
-      "second_round_picks": 3,
+      "second_round_picks": 4,
       "third_round_picks": 7,
       "other_round_picks": 0,
       "by_season": {
@@ -1238,12 +1238,18 @@
           ]
         },
         "2028": {
-          "total": 5,
+          "total": 6,
           "round_1": 1,
-          "round_2": 1,
+          "round_2": 2,
           "round_3": 3,
           "other_rounds": 0,
           "picks": [
+            {
+              "round": 2,
+              "original_roster_id": 2,
+              "original_team": "Cam dog",
+              "has_been_traded": true
+            },
             {
               "round": 3,
               "original_roster_id": 2,
@@ -1416,92 +1422,6 @@
               "original_roster_id": 2,
               "original_team": "Cam dog",
               "has_been_traded": true
-            }
-          ]
-        }
-      }
-    },
-    {
-      "roster_id": 4,
-      "team_name": "Raw Dawgs",
-      "total_future_picks": 8,
-      "first_round_picks": 3,
-      "second_round_picks": 2,
-      "third_round_picks": 3,
-      "other_round_picks": 0,
-      "by_season": {
-        "2027": {
-          "total": 2,
-          "round_1": 1,
-          "round_2": 0,
-          "round_3": 1,
-          "other_rounds": 0,
-          "picks": [
-            {
-              "round": 1,
-              "original_roster_id": 3,
-              "original_team": "Third Down Syndrome",
-              "has_been_traded": true
-            },
-            {
-              "round": 3,
-              "original_roster_id": 4,
-              "original_team": "Raw Dawgs",
-              "has_been_traded": true
-            }
-          ]
-        },
-        "2028": {
-          "total": 3,
-          "round_1": 1,
-          "round_2": 1,
-          "round_3": 1,
-          "other_rounds": 0,
-          "picks": [
-            {
-              "round": 1,
-              "original_roster_id": 4,
-              "original_team": "Raw Dawgs",
-              "has_been_traded": false
-            },
-            {
-              "round": 2,
-              "original_roster_id": 4,
-              "original_team": "Raw Dawgs",
-              "has_been_traded": true
-            },
-            {
-              "round": 3,
-              "original_roster_id": 4,
-              "original_team": "Raw Dawgs",
-              "has_been_traded": false
-            }
-          ]
-        },
-        "2029": {
-          "total": 3,
-          "round_1": 1,
-          "round_2": 1,
-          "round_3": 1,
-          "other_rounds": 0,
-          "picks": [
-            {
-              "round": 1,
-              "original_roster_id": 4,
-              "original_team": "Raw Dawgs",
-              "has_been_traded": false
-            },
-            {
-              "round": 2,
-              "original_roster_id": 4,
-              "original_team": "Raw Dawgs",
-              "has_been_traded": false
-            },
-            {
-              "round": 3,
-              "original_roster_id": 4,
-              "original_team": "Raw Dawgs",
-              "has_been_traded": false
             }
           ]
         }
@@ -1766,6 +1686,92 @@
       }
     },
     {
+      "roster_id": 4,
+      "team_name": "Raw Dawgs",
+      "total_future_picks": 8,
+      "first_round_picks": 2,
+      "second_round_picks": 3,
+      "third_round_picks": 3,
+      "other_round_picks": 0,
+      "by_season": {
+        "2027": {
+          "total": 2,
+          "round_1": 0,
+          "round_2": 1,
+          "round_3": 1,
+          "other_rounds": 0,
+          "picks": [
+            {
+              "round": 3,
+              "original_roster_id": 4,
+              "original_team": "Raw Dawgs",
+              "has_been_traded": true
+            },
+            {
+              "round": 2,
+              "original_roster_id": 5,
+              "original_team": "BING BONG",
+              "has_been_traded": true
+            }
+          ]
+        },
+        "2028": {
+          "total": 3,
+          "round_1": 1,
+          "round_2": 1,
+          "round_3": 1,
+          "other_rounds": 0,
+          "picks": [
+            {
+              "round": 1,
+              "original_roster_id": 4,
+              "original_team": "Raw Dawgs",
+              "has_been_traded": false
+            },
+            {
+              "round": 2,
+              "original_roster_id": 4,
+              "original_team": "Raw Dawgs",
+              "has_been_traded": true
+            },
+            {
+              "round": 3,
+              "original_roster_id": 4,
+              "original_team": "Raw Dawgs",
+              "has_been_traded": false
+            }
+          ]
+        },
+        "2029": {
+          "total": 3,
+          "round_1": 1,
+          "round_2": 1,
+          "round_3": 1,
+          "other_rounds": 0,
+          "picks": [
+            {
+              "round": 1,
+              "original_roster_id": 4,
+              "original_team": "Raw Dawgs",
+              "has_been_traded": false
+            },
+            {
+              "round": 2,
+              "original_roster_id": 4,
+              "original_team": "Raw Dawgs",
+              "has_been_traded": false
+            },
+            {
+              "round": 3,
+              "original_roster_id": 4,
+              "original_team": "Raw Dawgs",
+              "has_been_traded": false
+            }
+          ]
+        }
+      }
+    },
+    {
       "roster_id": 5,
       "team_name": "BING BONG",
       "total_future_picks": 7,
@@ -1848,9 +1854,9 @@
     {
       "roster_id": 10,
       "team_name": "Sugerdaddy",
-      "total_future_picks": 7,
+      "total_future_picks": 6,
       "first_round_picks": 2,
-      "second_round_picks": 3,
+      "second_round_picks": 2,
       "third_round_picks": 2,
       "other_round_picks": 0,
       "by_season": {
@@ -1877,21 +1883,6 @@
               "round": 3,
               "original_roster_id": 10,
               "original_team": "Sugerdaddy",
-              "has_been_traded": true
-            }
-          ]
-        },
-        "2028": {
-          "total": 1,
-          "round_1": 0,
-          "round_2": 1,
-          "round_3": 0,
-          "other_rounds": 0,
-          "picks": [
-            {
-              "round": 2,
-              "original_roster_id": 2,
-              "original_team": "Cam dog",
               "has_been_traded": true
             }
           ]
