@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T12:00:44.981Z",
+  "generated_at": "2026-10-17T00:00:45.289Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -739,7 +739,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 100,
-        "waiver_position": 9,
+        "waiver_position": 8,
         "wins": 1
       },
       "record": {
@@ -1331,7 +1331,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 20,
-        "waiver_position": 10,
+        "waiver_position": 9,
         "wins": 1
       },
       "record": {
@@ -1356,36 +1356,6 @@
           "injury_status": "Questionable",
           "age": 26,
           "years_exp": 3
-        },
-        {
-          "player_id": "11256",
-          "name": "Tyson Bagent",
-          "first_name": "Tyson",
-          "last_name": "Bagent",
-          "position": "QB",
-          "fantasy_positions": [
-            "QB"
-          ],
-          "team": "CHI",
-          "status": "Active",
-          "injury_status": null,
-          "age": 26,
-          "years_exp": 3
-        },
-        {
-          "player_id": "11560",
-          "name": "Caleb Williams",
-          "first_name": "Caleb",
-          "last_name": "Williams",
-          "position": "QB",
-          "fantasy_positions": [
-            "QB"
-          ],
-          "team": "CHI",
-          "status": "Active",
-          "injury_status": "Questionable",
-          "age": 24,
-          "years_exp": 2
         },
         {
           "player_id": "11565",
@@ -1523,6 +1493,21 @@
           "years_exp": 1
         },
         {
+          "player_id": "12517",
+          "name": "Colston Loveland",
+          "first_name": "Colston",
+          "last_name": "Loveland",
+          "position": "TE",
+          "fantasy_positions": [
+            "TE"
+          ],
+          "team": "CHI",
+          "status": "Active",
+          "injury_status": null,
+          "age": 22,
+          "years_exp": 1
+        },
+        {
           "player_id": "13287",
           "name": "Jeremiyah Love",
           "first_name": "Jeremiyah",
@@ -1643,6 +1628,36 @@
           "years_exp": 10
         },
         {
+          "player_id": "6797",
+          "name": "Justin Herbert",
+          "first_name": "Justin",
+          "last_name": "Herbert",
+          "position": "QB",
+          "fantasy_positions": [
+            "QB"
+          ],
+          "team": "LAC",
+          "status": "Active",
+          "injury_status": null,
+          "age": 28,
+          "years_exp": 6
+        },
+        {
+          "player_id": "8142",
+          "name": "Alec Pierce",
+          "first_name": "Alec",
+          "last_name": "Pierce",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "IND",
+          "status": "Inactive",
+          "injury_status": "IR",
+          "age": 26,
+          "years_exp": 4
+        },
+        {
           "player_id": "9480",
           "name": "Brenton Strange",
           "first_name": "Brenton",
@@ -1652,21 +1667,6 @@
             "TE"
           ],
           "team": "JAX",
-          "status": "Active",
-          "injury_status": null,
-          "age": 25,
-          "years_exp": 3
-        },
-        {
-          "player_id": "9484",
-          "name": "Tucker Kraft",
-          "first_name": "Tucker",
-          "last_name": "Kraft",
-          "position": "TE",
-          "fantasy_positions": [
-            "TE"
-          ],
-          "team": "GB",
           "status": "Active",
           "injury_status": null,
           "age": 25,
@@ -1705,34 +1705,34 @@
       ],
       "starters": [
         {
-          "player_id": "11560",
-          "name": "Caleb Williams",
-          "first_name": "Caleb",
-          "last_name": "Williams",
+          "player_id": "11566",
+          "name": "Jayden Daniels",
+          "first_name": "Jayden",
+          "last_name": "Daniels",
           "position": "QB",
           "fantasy_positions": [
             "QB"
           ],
-          "team": "CHI",
+          "team": "WAS",
           "status": "Active",
-          "injury_status": "Questionable",
-          "age": 24,
+          "injury_status": null,
+          "age": 25,
           "years_exp": 2
         },
         {
-          "player_id": "13287",
-          "name": "Jeremiyah Love",
-          "first_name": "Jeremiyah",
-          "last_name": "Love",
+          "player_id": "9757",
+          "name": "Kendre Miller",
+          "first_name": "Kendre",
+          "last_name": "Miller",
           "position": "RB",
           "fantasy_positions": [
             "RB"
           ],
-          "team": "ARI",
+          "team": "NO",
           "status": "Active",
-          "injury_status": "Questionable",
-          "age": 21,
-          "years_exp": null
+          "injury_status": null,
+          "age": 24,
+          "years_exp": 3
         },
         {
           "player_id": "12490",
@@ -1765,49 +1765,19 @@
           "years_exp": 2
         },
         {
-          "player_id": "10229",
-          "name": "Rashee Rice",
-          "first_name": "Rashee",
-          "last_name": "Rice",
+          "player_id": "2449",
+          "name": "Stefon Diggs",
+          "first_name": "Stefon",
+          "last_name": "Diggs",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "KC",
+          "team": "WAS",
           "status": "Active",
           "injury_status": "Questionable",
-          "age": 26,
-          "years_exp": 3
-        },
-        {
-          "player_id": "9484",
-          "name": "Tucker Kraft",
-          "first_name": "Tucker",
-          "last_name": "Kraft",
-          "position": "TE",
-          "fantasy_positions": [
-            "TE"
-          ],
-          "team": "GB",
-          "status": "Active",
-          "injury_status": null,
-          "age": 25,
-          "years_exp": 3
-        },
-        {
-          "player_id": "13294",
-          "name": "Makai Lemon",
-          "first_name": "Makai",
-          "last_name": "Lemon",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "PHI",
-          "status": "Active",
-          "injury_status": null,
-          "age": 22,
-          "years_exp": null
+          "age": 32,
+          "years_exp": 11
         },
         {
           "player_id": "9480",
@@ -1825,19 +1795,49 @@
           "years_exp": 3
         },
         {
-          "player_id": "11566",
-          "name": "Jayden Daniels",
-          "first_name": "Jayden",
-          "last_name": "Daniels",
+          "player_id": "13298",
+          "name": "KC Concepcion",
+          "first_name": "KC",
+          "last_name": "Concepcion",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "CLE",
+          "status": "Active",
+          "injury_status": "Questionable",
+          "age": 22,
+          "years_exp": null
+        },
+        {
+          "player_id": "12517",
+          "name": "Colston Loveland",
+          "first_name": "Colston",
+          "last_name": "Loveland",
+          "position": "TE",
+          "fantasy_positions": [
+            "TE"
+          ],
+          "team": "CHI",
+          "status": "Active",
+          "injury_status": null,
+          "age": 22,
+          "years_exp": 1
+        },
+        {
+          "player_id": "6797",
+          "name": "Justin Herbert",
+          "first_name": "Justin",
+          "last_name": "Herbert",
           "position": "QB",
           "fantasy_positions": [
             "QB"
           ],
-          "team": "WAS",
+          "team": "LAC",
           "status": "Active",
           "injury_status": null,
-          "age": 25,
-          "years_exp": 2
+          "age": 28,
+          "years_exp": 6
         }
       ],
       "taxi": [
@@ -1922,8 +1922,8 @@
         "ppts_decimal": 58,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 68,
-        "waiver_position": 7,
+        "waiver_budget_used": 73,
+        "waiver_position": 10,
         "wins": 3
       },
       "record": {
@@ -1934,6 +1934,21 @@
         "points_against": 700.58
       },
       "players": [
+        {
+          "player_id": "11560",
+          "name": "Caleb Williams",
+          "first_name": "Caleb",
+          "last_name": "Williams",
+          "position": "QB",
+          "fantasy_positions": [
+            "QB"
+          ],
+          "team": "CHI",
+          "status": "Active",
+          "injury_status": "Questionable",
+          "age": 24,
+          "years_exp": 2
+        },
         {
           "player_id": "11584",
           "name": "Bucky Irving",
@@ -1995,18 +2010,18 @@
           "years_exp": 2
         },
         {
-          "player_id": "12517",
-          "name": "Colston Loveland",
-          "first_name": "Colston",
-          "last_name": "Loveland",
-          "position": "TE",
+          "player_id": "13150",
+          "name": "Darius Cooper",
+          "first_name": "Darius",
+          "last_name": "Cooper",
+          "position": "WR",
           "fantasy_positions": [
-            "TE"
+            "WR"
           ],
-          "team": "CHI",
+          "team": "PHI",
           "status": "Active",
           "injury_status": null,
-          "age": 22,
+          "age": 24,
           "years_exp": 1
         },
         {
@@ -2019,6 +2034,21 @@
             "QB"
           ],
           "team": "NYJ",
+          "status": "Active",
+          "injury_status": null,
+          "age": 23,
+          "years_exp": null
+        },
+        {
+          "player_id": "13425",
+          "name": "Jalon Daniels",
+          "first_name": "Jalon",
+          "last_name": "Daniels",
+          "position": "QB",
+          "fantasy_positions": [
+            "QB"
+          ],
+          "team": "TB",
           "status": "Active",
           "injury_status": null,
           "age": 23,
@@ -2083,21 +2113,6 @@
           "injury_status": "Questionable",
           "age": 31,
           "years_exp": 7
-        },
-        {
-          "player_id": "6797",
-          "name": "Justin Herbert",
-          "first_name": "Justin",
-          "last_name": "Herbert",
-          "position": "QB",
-          "fantasy_positions": [
-            "QB"
-          ],
-          "team": "LAC",
-          "status": "Active",
-          "injury_status": null,
-          "age": 28,
-          "years_exp": 6
         },
         {
           "player_id": "6813",
@@ -2205,21 +2220,6 @@
           "years_exp": 4
         },
         {
-          "player_id": "8142",
-          "name": "Alec Pierce",
-          "first_name": "Alec",
-          "last_name": "Pierce",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "IND",
-          "status": "Inactive",
-          "injury_status": "IR",
-          "age": 26,
-          "years_exp": 4
-        },
-        {
           "player_id": "8161",
           "name": "Malik Willis",
           "first_name": "Malik",
@@ -2248,6 +2248,21 @@
           "injury_status": null,
           "age": 26,
           "years_exp": 4
+        },
+        {
+          "player_id": "9484",
+          "name": "Tucker Kraft",
+          "first_name": "Tucker",
+          "last_name": "Kraft",
+          "position": "TE",
+          "fantasy_positions": [
+            "TE"
+          ],
+          "team": "GB",
+          "status": "Active",
+          "injury_status": null,
+          "age": 25,
+          "years_exp": 3
         }
       ],
       "starters": [
@@ -2327,19 +2342,19 @@
           "years_exp": 4
         },
         {
-          "player_id": "12517",
-          "name": "Colston Loveland",
-          "first_name": "Colston",
-          "last_name": "Loveland",
+          "player_id": "9484",
+          "name": "Tucker Kraft",
+          "first_name": "Tucker",
+          "last_name": "Kraft",
           "position": "TE",
           "fantasy_positions": [
             "TE"
           ],
-          "team": "CHI",
+          "team": "GB",
           "status": "Active",
           "injury_status": null,
-          "age": 22,
-          "years_exp": 1
+          "age": 25,
+          "years_exp": 3
         },
         {
           "player_id": "7594",
@@ -2372,19 +2387,19 @@
           "years_exp": 2
         },
         {
-          "player_id": "6797",
-          "name": "Justin Herbert",
-          "first_name": "Justin",
-          "last_name": "Herbert",
+          "player_id": "11560",
+          "name": "Caleb Williams",
+          "first_name": "Caleb",
+          "last_name": "Williams",
           "position": "QB",
           "fantasy_positions": [
             "QB"
           ],
-          "team": "LAC",
+          "team": "CHI",
           "status": "Active",
-          "injury_status": null,
-          "age": 28,
-          "years_exp": 6
+          "injury_status": "Questionable",
+          "age": 24,
+          "years_exp": 2
         }
       ],
       "taxi": [
@@ -2406,19 +2421,19 @@
       ],
       "reserve": [
         {
-          "player_id": "8142",
-          "name": "Alec Pierce",
-          "first_name": "Alec",
-          "last_name": "Pierce",
+          "player_id": "11630",
+          "name": "Roman Wilson",
+          "first_name": "Roman",
+          "last_name": "Wilson",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "IND",
-          "status": "Inactive",
-          "injury_status": "IR",
-          "age": 26,
-          "years_exp": 4
+          "team": "PIT",
+          "status": "Active",
+          "injury_status": "Out",
+          "age": 25,
+          "years_exp": 2
         }
       ]
     },
@@ -4199,21 +4214,6 @@
           "years_exp": 1
         },
         {
-          "player_id": "12506",
-          "name": "Harold Fannin",
-          "first_name": "Harold",
-          "last_name": "Fannin",
-          "position": "TE",
-          "fantasy_positions": [
-            "TE"
-          ],
-          "team": "CLE",
-          "status": "Active",
-          "injury_status": null,
-          "age": 22,
-          "years_exp": 1
-        },
-        {
           "player_id": "12507",
           "name": "Omarion Hampton",
           "first_name": "Omarion",
@@ -4437,6 +4437,21 @@
           "injury_status": "Questionable",
           "age": 26,
           "years_exp": 5
+        },
+        {
+          "player_id": "8110",
+          "name": "Jake Ferguson",
+          "first_name": "Jake",
+          "last_name": "Ferguson",
+          "position": "TE",
+          "fantasy_positions": [
+            "TE"
+          ],
+          "team": "DAL",
+          "status": "Active",
+          "injury_status": null,
+          "age": 27,
+          "years_exp": 4
         },
         {
           "player_id": "8131",
@@ -5296,7 +5311,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 4,
-        "waiver_position": 8,
+        "waiver_position": 7,
         "wins": 4
       },
       "record": {
@@ -5380,6 +5395,21 @@
           "status": "Active",
           "injury_status": null,
           "age": 23,
+          "years_exp": 1
+        },
+        {
+          "player_id": "12506",
+          "name": "Harold Fannin",
+          "first_name": "Harold",
+          "last_name": "Fannin",
+          "position": "TE",
+          "fantasy_positions": [
+            "TE"
+          ],
+          "team": "CLE",
+          "status": "Active",
+          "injury_status": null,
+          "age": 22,
           "years_exp": 1
         },
         {
@@ -5546,21 +5576,6 @@
           "injury_status": null,
           "age": 27,
           "years_exp": 5
-        },
-        {
-          "player_id": "8110",
-          "name": "Jake Ferguson",
-          "first_name": "Jake",
-          "last_name": "Ferguson",
-          "position": "TE",
-          "fantasy_positions": [
-            "TE"
-          ],
-          "team": "DAL",
-          "status": "Active",
-          "injury_status": null,
-          "age": 27,
-          "years_exp": 4
         },
         {
           "player_id": "8134",
@@ -5745,19 +5760,19 @@
           "years_exp": 4
         },
         {
-          "player_id": "10236",
-          "name": "Dalton Kincaid",
-          "first_name": "Dalton",
-          "last_name": "Kincaid",
+          "player_id": "12506",
+          "name": "Harold Fannin",
+          "first_name": "Harold",
+          "last_name": "Fannin",
           "position": "TE",
           "fantasy_positions": [
             "TE"
           ],
-          "team": "BUF",
+          "team": "CLE",
           "status": "Active",
           "injury_status": null,
-          "age": 26,
-          "years_exp": 3
+          "age": 22,
+          "years_exp": 1
         },
         {
           "player_id": "8167",
@@ -5976,11 +5991,11 @@
       "season": "2028",
       "round": 2,
       "original_roster_id": 2,
-      "previous_owner_roster_id": 2,
-      "current_owner_roster_id": 10,
+      "previous_owner_roster_id": 10,
+      "current_owner_roster_id": 8,
       "original_team": "Cam dog",
-      "previous_team": "Cam dog",
-      "current_team": "Sugerdaddy"
+      "previous_team": "Sugerdaddy",
+      "current_team": "PurpleRhane"
     },
     {
       "season": "2028",
@@ -6036,11 +6051,11 @@
       "season": "2027",
       "round": 1,
       "original_roster_id": 3,
-      "previous_owner_roster_id": 2,
-      "current_owner_roster_id": 4,
+      "previous_owner_roster_id": 4,
+      "current_owner_roster_id": 3,
       "original_team": "Third Down Syndrome",
-      "previous_team": "Cam dog",
-      "current_team": "Raw Dawgs"
+      "previous_team": "Raw Dawgs",
+      "current_team": "Third Down Syndrome"
     },
     {
       "season": "2027",
@@ -6186,11 +6201,11 @@
       "season": "2027",
       "round": 2,
       "original_roster_id": 5,
-      "previous_owner_roster_id": 5,
-      "current_owner_roster_id": 3,
+      "previous_owner_roster_id": 3,
+      "current_owner_roster_id": 4,
       "original_team": "BING BONG",
-      "previous_team": "BING BONG",
-      "current_team": "Third Down Syndrome"
+      "previous_team": "Third Down Syndrome",
+      "current_team": "Raw Dawgs"
     },
     {
       "season": "2028",
@@ -6525,10 +6540,10 @@
       "round": 1,
       "original_roster_id": 3,
       "original_team": "Third Down Syndrome",
-      "current_owner_roster_id": 4,
-      "current_team": "Raw Dawgs",
-      "previous_owner_roster_id": 2,
-      "previous_team": "Cam dog",
+      "current_owner_roster_id": 3,
+      "current_team": "Third Down Syndrome",
+      "previous_owner_roster_id": 4,
+      "previous_team": "Raw Dawgs",
       "has_been_traded": true
     },
     {
@@ -6602,10 +6617,10 @@
       "round": 2,
       "original_roster_id": 5,
       "original_team": "BING BONG",
-      "current_owner_roster_id": 3,
-      "current_team": "Third Down Syndrome",
-      "previous_owner_roster_id": 5,
-      "previous_team": "BING BONG",
+      "current_owner_roster_id": 4,
+      "current_team": "Raw Dawgs",
+      "previous_owner_roster_id": 3,
+      "previous_team": "Third Down Syndrome",
       "has_been_traded": true
     },
     {
@@ -6833,10 +6848,10 @@
       "round": 2,
       "original_roster_id": 2,
       "original_team": "Cam dog",
-      "current_owner_roster_id": 10,
-      "current_team": "Sugerdaddy",
-      "previous_owner_roster_id": 2,
-      "previous_team": "Cam dog",
+      "current_owner_roster_id": 8,
+      "current_team": "PurpleRhane",
+      "previous_owner_roster_id": 10,
+      "previous_team": "Sugerdaddy",
       "has_been_traded": true
     },
     {
@@ -7447,6 +7462,458 @@
   ],
   "recent_transactions": [
     {
+      "transaction_id": "1416849817103048704",
+      "type": "trade",
+      "status": "complete",
+      "created": 1792165829496,
+      "created_iso": "2026-10-16T15:50:29.496Z",
+      "week": 6,
+      "leg": 6,
+      "creator": "1131304330881077248",
+      "roster_ids": [
+        8,
+        10
+      ],
+      "teams": [
+        {
+          "roster_id": 8,
+          "team_name": "PurpleRhane"
+        },
+        {
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "8110",
+            "name": "Jake Ferguson",
+            "first_name": "Jake",
+            "last_name": "Ferguson",
+            "position": "TE",
+            "fantasy_positions": [
+              "TE"
+            ],
+            "team": "DAL",
+            "status": "Active",
+            "injury_status": null,
+            "age": 27,
+            "years_exp": 4
+          },
+          "roster_id": 8,
+          "team_name": "PurpleRhane"
+        },
+        {
+          "player": {
+            "player_id": "12506",
+            "name": "Harold Fannin",
+            "first_name": "Harold",
+            "last_name": "Fannin",
+            "position": "TE",
+            "fantasy_positions": [
+              "TE"
+            ],
+            "team": "CLE",
+            "status": "Active",
+            "injury_status": null,
+            "age": 22,
+            "years_exp": 1
+          },
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "8110",
+            "name": "Jake Ferguson",
+            "first_name": "Jake",
+            "last_name": "Ferguson",
+            "position": "TE",
+            "fantasy_positions": [
+              "TE"
+            ],
+            "team": "DAL",
+            "status": "Active",
+            "injury_status": null,
+            "age": 27,
+            "years_exp": 4
+          },
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        },
+        {
+          "player": {
+            "player_id": "12506",
+            "name": "Harold Fannin",
+            "first_name": "Harold",
+            "last_name": "Fannin",
+            "position": "TE",
+            "fantasy_positions": [
+              "TE"
+            ],
+            "team": "CLE",
+            "status": "Active",
+            "injury_status": null,
+            "age": 22,
+            "years_exp": 1
+          },
+          "roster_id": 8,
+          "team_name": "PurpleRhane"
+        }
+      ],
+      "draft_picks": [
+        {
+          "season": "2028",
+          "round": 2,
+          "original_roster_id": 2,
+          "previous_owner_roster_id": 10,
+          "current_owner_roster_id": 8,
+          "original_team": "Cam dog",
+          "previous_team": "Sugerdaddy",
+          "current_team": "PurpleRhane"
+        }
+      ],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1416837999861248000",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1792163012046,
+      "created_iso": "2026-10-16T15:03:32.046Z",
+      "week": 6,
+      "leg": 6,
+      "creator": "1129897778072649728",
+      "roster_ids": [
+        4
+      ],
+      "teams": [
+        {
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "13150",
+            "name": "Darius Cooper",
+            "first_name": "Darius",
+            "last_name": "Cooper",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "PHI",
+            "status": "Active",
+            "injury_status": null,
+            "age": 24,
+            "years_exp": 1
+          },
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1416824568214999040",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1792159809691,
+      "created_iso": "2026-10-16T14:10:09.691Z",
+      "week": 6,
+      "leg": 6,
+      "creator": "1129881968960901120",
+      "roster_ids": [
+        3
+      ],
+      "teams": [
+        {
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "adds": [],
+      "drops": [
+        {
+          "player": {
+            "player_id": "11256",
+            "name": "Tyson Bagent",
+            "first_name": "Tyson",
+            "last_name": "Bagent",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "CHI",
+            "status": "Active",
+            "injury_status": null,
+            "age": 26,
+            "years_exp": 3
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1416823327829340160",
+      "type": "trade",
+      "status": "complete",
+      "created": 1792159513960,
+      "created_iso": "2026-10-16T14:05:13.960Z",
+      "week": 6,
+      "leg": 6,
+      "creator": "1129881968960901120",
+      "roster_ids": [
+        3,
+        4
+      ],
+      "teams": [
+        {
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        },
+        {
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "6797",
+            "name": "Justin Herbert",
+            "first_name": "Justin",
+            "last_name": "Herbert",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "LAC",
+            "status": "Active",
+            "injury_status": null,
+            "age": 28,
+            "years_exp": 6
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        },
+        {
+          "player": {
+            "player_id": "8142",
+            "name": "Alec Pierce",
+            "first_name": "Alec",
+            "last_name": "Pierce",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "IND",
+            "status": "Inactive",
+            "injury_status": "IR",
+            "age": 26,
+            "years_exp": 4
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        },
+        {
+          "player": {
+            "player_id": "9484",
+            "name": "Tucker Kraft",
+            "first_name": "Tucker",
+            "last_name": "Kraft",
+            "position": "TE",
+            "fantasy_positions": [
+              "TE"
+            ],
+            "team": "GB",
+            "status": "Active",
+            "injury_status": null,
+            "age": 25,
+            "years_exp": 3
+          },
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        },
+        {
+          "player": {
+            "player_id": "11560",
+            "name": "Caleb Williams",
+            "first_name": "Caleb",
+            "last_name": "Williams",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "CHI",
+            "status": "Active",
+            "injury_status": "Questionable",
+            "age": 24,
+            "years_exp": 2
+          },
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        },
+        {
+          "player": {
+            "player_id": "12517",
+            "name": "Colston Loveland",
+            "first_name": "Colston",
+            "last_name": "Loveland",
+            "position": "TE",
+            "fantasy_positions": [
+              "TE"
+            ],
+            "team": "CHI",
+            "status": "Active",
+            "injury_status": null,
+            "age": 22,
+            "years_exp": 1
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "6797",
+            "name": "Justin Herbert",
+            "first_name": "Justin",
+            "last_name": "Herbert",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "LAC",
+            "status": "Active",
+            "injury_status": null,
+            "age": 28,
+            "years_exp": 6
+          },
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        },
+        {
+          "player": {
+            "player_id": "8142",
+            "name": "Alec Pierce",
+            "first_name": "Alec",
+            "last_name": "Pierce",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "IND",
+            "status": "Inactive",
+            "injury_status": "IR",
+            "age": 26,
+            "years_exp": 4
+          },
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        },
+        {
+          "player": {
+            "player_id": "9484",
+            "name": "Tucker Kraft",
+            "first_name": "Tucker",
+            "last_name": "Kraft",
+            "position": "TE",
+            "fantasy_positions": [
+              "TE"
+            ],
+            "team": "GB",
+            "status": "Active",
+            "injury_status": null,
+            "age": 25,
+            "years_exp": 3
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        },
+        {
+          "player": {
+            "player_id": "11560",
+            "name": "Caleb Williams",
+            "first_name": "Caleb",
+            "last_name": "Williams",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "CHI",
+            "status": "Active",
+            "injury_status": "Questionable",
+            "age": 24,
+            "years_exp": 2
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        },
+        {
+          "player": {
+            "player_id": "12517",
+            "name": "Colston Loveland",
+            "first_name": "Colston",
+            "last_name": "Loveland",
+            "position": "TE",
+            "fantasy_positions": [
+              "TE"
+            ],
+            "team": "CHI",
+            "status": "Active",
+            "injury_status": null,
+            "age": 22,
+            "years_exp": 1
+          },
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        }
+      ],
+      "draft_picks": [
+        {
+          "season": "2027",
+          "round": 1,
+          "original_roster_id": 3,
+          "previous_owner_roster_id": 4,
+          "current_owner_roster_id": 3,
+          "original_team": "Third Down Syndrome",
+          "previous_team": "Raw Dawgs",
+          "current_team": "Third Down Syndrome"
+        },
+        {
+          "season": "2027",
+          "round": 2,
+          "original_roster_id": 5,
+          "previous_owner_roster_id": 3,
+          "current_owner_roster_id": 4,
+          "original_team": "BING BONG",
+          "previous_team": "Third Down Syndrome",
+          "current_team": "Raw Dawgs"
+        }
+      ],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
       "transaction_id": "1416666702011219968",
       "type": "free_agent",
       "status": "complete",
@@ -7575,6 +8042,53 @@
       "waiver_budget": [],
       "waiver_bid": null,
       "metadata": null
+    },
+    {
+      "transaction_id": "1416534405811277824",
+      "type": "waiver",
+      "status": "complete",
+      "created": 1792090629583,
+      "created_iso": "2026-10-15T18:57:09.583Z",
+      "week": 6,
+      "leg": 6,
+      "creator": "1129897778072649728",
+      "roster_ids": [
+        4
+      ],
+      "teams": [
+        {
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "13425",
+            "name": "Jalon Daniels",
+            "first_name": "Jalon",
+            "last_name": "Daniels",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "TB",
+            "status": "Active",
+            "injury_status": null,
+            "age": 23,
+            "years_exp": null
+          },
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 5,
+      "metadata": {
+        "notes": "Your waiver claim was processed successfully!"
+      }
     },
     {
       "transaction_id": "1416534132615290880",
@@ -13000,477 +13514,6 @@
         }
       ],
       "draft_picks": [],
-      "waiver_budget": [],
-      "waiver_bid": null,
-      "metadata": null
-    },
-    {
-      "transaction_id": "1396899379335454720",
-      "type": "free_agent",
-      "status": "complete",
-      "created": 1787409274470,
-      "created_iso": "2026-08-22T14:34:34.470Z",
-      "week": 1,
-      "leg": 1,
-      "creator": "937819151345799168",
-      "roster_ids": [
-        10
-      ],
-      "teams": [
-        {
-          "roster_id": 10,
-          "team_name": "Sugerdaddy"
-        }
-      ],
-      "adds": [],
-      "drops": [
-        {
-          "player": {
-            "player_id": "13282",
-            "name": "Jack Endries",
-            "first_name": "Jack",
-            "last_name": "Endries",
-            "position": "TE",
-            "fantasy_positions": [
-              "TE"
-            ],
-            "team": "CIN",
-            "status": "Active",
-            "injury_status": "Out",
-            "age": 22,
-            "years_exp": null
-          },
-          "roster_id": 10,
-          "team_name": "Sugerdaddy"
-        }
-      ],
-      "draft_picks": [],
-      "waiver_budget": [],
-      "waiver_bid": null,
-      "metadata": null
-    },
-    {
-      "transaction_id": "1396552862141534208",
-      "type": "free_agent",
-      "status": "complete",
-      "created": 1787326658334,
-      "created_iso": "2026-08-21T15:37:38.334Z",
-      "week": 1,
-      "leg": 1,
-      "creator": "1131304330881077248",
-      "roster_ids": [
-        8
-      ],
-      "teams": [
-        {
-          "roster_id": 8,
-          "team_name": "PurpleRhane"
-        }
-      ],
-      "adds": [
-        {
-          "player": {
-            "player_id": "13324",
-            "name": "Matt Hibner",
-            "first_name": "Matt",
-            "last_name": "Hibner",
-            "position": "TE",
-            "fantasy_positions": [
-              "TE"
-            ],
-            "team": "BAL",
-            "status": "Active",
-            "injury_status": "Questionable",
-            "age": 24,
-            "years_exp": null
-          },
-          "roster_id": 8,
-          "team_name": "PurpleRhane"
-        }
-      ],
-      "drops": [],
-      "draft_picks": [],
-      "waiver_budget": [],
-      "waiver_bid": null,
-      "metadata": null
-    },
-    {
-      "transaction_id": "1396543472537706496",
-      "type": "free_agent",
-      "status": "complete",
-      "created": 1787324419677,
-      "created_iso": "2026-08-21T15:00:19.677Z",
-      "week": 1,
-      "leg": 1,
-      "creator": "1129909167751426048",
-      "roster_ids": [
-        5
-      ],
-      "teams": [
-        {
-          "roster_id": 5,
-          "team_name": "BING BONG"
-        }
-      ],
-      "adds": [],
-      "drops": [
-        {
-          "player": {
-            "player_id": "4033",
-            "name": "David Njoku",
-            "first_name": "David",
-            "last_name": "Njoku",
-            "position": "TE",
-            "fantasy_positions": [
-              "TE"
-            ],
-            "team": "LAC",
-            "status": "Inactive",
-            "injury_status": "IR",
-            "age": 30,
-            "years_exp": 9
-          },
-          "roster_id": 5,
-          "team_name": "BING BONG"
-        }
-      ],
-      "draft_picks": [],
-      "waiver_budget": [],
-      "waiver_bid": null,
-      "metadata": null
-    },
-    {
-      "transaction_id": "1395873388618063872",
-      "type": "free_agent",
-      "status": "complete",
-      "created": 1787164659221,
-      "created_iso": "2026-08-19T18:37:39.221Z",
-      "week": 1,
-      "leg": 1,
-      "creator": "1129881968960901120",
-      "roster_ids": [
-        3
-      ],
-      "teams": [
-        {
-          "roster_id": 3,
-          "team_name": "Third Down Syndrome"
-        }
-      ],
-      "adds": [
-        {
-          "player": {
-            "player_id": "12536",
-            "name": "Jaylin Noel",
-            "first_name": "Jaylin",
-            "last_name": "Noel",
-            "position": "WR",
-            "fantasy_positions": [
-              "WR"
-            ],
-            "team": "HOU",
-            "status": "Active",
-            "injury_status": null,
-            "age": 24,
-            "years_exp": 1
-          },
-          "roster_id": 3,
-          "team_name": "Third Down Syndrome"
-        }
-      ],
-      "drops": [
-        {
-          "player": {
-            "player_id": "12492",
-            "name": "Pat Bryant",
-            "first_name": "Pat",
-            "last_name": "Bryant",
-            "position": "WR",
-            "fantasy_positions": [
-              "WR"
-            ],
-            "team": "DEN",
-            "status": "Inactive",
-            "injury_status": "IR",
-            "age": 23,
-            "years_exp": 1
-          },
-          "roster_id": 3,
-          "team_name": "Third Down Syndrome"
-        }
-      ],
-      "draft_picks": [],
-      "waiver_budget": [],
-      "waiver_bid": null,
-      "metadata": null
-    },
-    {
-      "transaction_id": "1395254374443270144",
-      "type": "trade",
-      "status": "complete",
-      "created": 1787017074742,
-      "created_iso": "2026-08-18T01:37:54.742Z",
-      "week": 1,
-      "leg": 1,
-      "creator": "1129875387229560832",
-      "roster_ids": [
-        1,
-        3
-      ],
-      "teams": [
-        {
-          "roster_id": 1,
-          "team_name": "Young N Hip"
-        },
-        {
-          "roster_id": 3,
-          "team_name": "Third Down Syndrome"
-        }
-      ],
-      "adds": [
-        {
-          "player": {
-            "player_id": "3163",
-            "name": "Jared Goff",
-            "first_name": "Jared",
-            "last_name": "Goff",
-            "position": "QB",
-            "fantasy_positions": [
-              "QB"
-            ],
-            "team": "DET",
-            "status": "Active",
-            "injury_status": null,
-            "age": 32,
-            "years_exp": 10
-          },
-          "roster_id": 3,
-          "team_name": "Third Down Syndrome"
-        },
-        {
-          "player": {
-            "player_id": "5859",
-            "name": "A.J. Brown",
-            "first_name": "A.J.",
-            "last_name": "Brown",
-            "position": "WR",
-            "fantasy_positions": [
-              "WR"
-            ],
-            "team": "NE",
-            "status": "Inactive",
-            "injury_status": "IR",
-            "age": 29,
-            "years_exp": 7
-          },
-          "roster_id": 3,
-          "team_name": "Third Down Syndrome"
-        },
-        {
-          "player": {
-            "player_id": "8676",
-            "name": "Rashid Shaheed",
-            "first_name": "Rashid",
-            "last_name": "Shaheed",
-            "position": "WR",
-            "fantasy_positions": [
-              "WR"
-            ],
-            "team": "SEA",
-            "status": "Active",
-            "injury_status": null,
-            "age": 28,
-            "years_exp": 4
-          },
-          "roster_id": 3,
-          "team_name": "Third Down Syndrome"
-        },
-        {
-          "player": {
-            "player_id": "9500",
-            "name": "Josh Downs",
-            "first_name": "Josh",
-            "last_name": "Downs",
-            "position": "WR",
-            "fantasy_positions": [
-              "WR"
-            ],
-            "team": "IND",
-            "status": "Active",
-            "injury_status": null,
-            "age": 25,
-            "years_exp": 3
-          },
-          "roster_id": 1,
-          "team_name": "Young N Hip"
-        },
-        {
-          "player": {
-            "player_id": "9754",
-            "name": "Quentin Johnston",
-            "first_name": "Quentin",
-            "last_name": "Johnston",
-            "position": "WR",
-            "fantasy_positions": [
-              "WR"
-            ],
-            "team": "LAC",
-            "status": "Active",
-            "injury_status": "Questionable",
-            "age": 25,
-            "years_exp": 3
-          },
-          "roster_id": 1,
-          "team_name": "Young N Hip"
-        },
-        {
-          "player": {
-            "player_id": "12545",
-            "name": "Tyler Shough",
-            "first_name": "Tyler",
-            "last_name": "Shough",
-            "position": "QB",
-            "fantasy_positions": [
-              "QB"
-            ],
-            "team": "NO",
-            "status": "Active",
-            "injury_status": null,
-            "age": 27,
-            "years_exp": 1
-          },
-          "roster_id": 1,
-          "team_name": "Young N Hip"
-        }
-      ],
-      "drops": [
-        {
-          "player": {
-            "player_id": "3163",
-            "name": "Jared Goff",
-            "first_name": "Jared",
-            "last_name": "Goff",
-            "position": "QB",
-            "fantasy_positions": [
-              "QB"
-            ],
-            "team": "DET",
-            "status": "Active",
-            "injury_status": null,
-            "age": 32,
-            "years_exp": 10
-          },
-          "roster_id": 1,
-          "team_name": "Young N Hip"
-        },
-        {
-          "player": {
-            "player_id": "5859",
-            "name": "A.J. Brown",
-            "first_name": "A.J.",
-            "last_name": "Brown",
-            "position": "WR",
-            "fantasy_positions": [
-              "WR"
-            ],
-            "team": "NE",
-            "status": "Inactive",
-            "injury_status": "IR",
-            "age": 29,
-            "years_exp": 7
-          },
-          "roster_id": 1,
-          "team_name": "Young N Hip"
-        },
-        {
-          "player": {
-            "player_id": "8676",
-            "name": "Rashid Shaheed",
-            "first_name": "Rashid",
-            "last_name": "Shaheed",
-            "position": "WR",
-            "fantasy_positions": [
-              "WR"
-            ],
-            "team": "SEA",
-            "status": "Active",
-            "injury_status": null,
-            "age": 28,
-            "years_exp": 4
-          },
-          "roster_id": 1,
-          "team_name": "Young N Hip"
-        },
-        {
-          "player": {
-            "player_id": "9500",
-            "name": "Josh Downs",
-            "first_name": "Josh",
-            "last_name": "Downs",
-            "position": "WR",
-            "fantasy_positions": [
-              "WR"
-            ],
-            "team": "IND",
-            "status": "Active",
-            "injury_status": null,
-            "age": 25,
-            "years_exp": 3
-          },
-          "roster_id": 3,
-          "team_name": "Third Down Syndrome"
-        },
-        {
-          "player": {
-            "player_id": "9754",
-            "name": "Quentin Johnston",
-            "first_name": "Quentin",
-            "last_name": "Johnston",
-            "position": "WR",
-            "fantasy_positions": [
-              "WR"
-            ],
-            "team": "LAC",
-            "status": "Active",
-            "injury_status": "Questionable",
-            "age": 25,
-            "years_exp": 3
-          },
-          "roster_id": 3,
-          "team_name": "Third Down Syndrome"
-        },
-        {
-          "player": {
-            "player_id": "12545",
-            "name": "Tyler Shough",
-            "first_name": "Tyler",
-            "last_name": "Shough",
-            "position": "QB",
-            "fantasy_positions": [
-              "QB"
-            ],
-            "team": "NO",
-            "status": "Active",
-            "injury_status": null,
-            "age": 27,
-            "years_exp": 1
-          },
-          "roster_id": 3,
-          "team_name": "Third Down Syndrome"
-        }
-      ],
-      "draft_picks": [
-        {
-          "season": "2027",
-          "round": 2,
-          "original_roster_id": 7,
-          "previous_owner_roster_id": 3,
-          "current_owner_roster_id": 1,
-          "original_team": "I Chase Brown People",
-          "previous_team": "Third Down Syndrome",
-          "current_team": "Young N Hip"
-        }
-      ],
       "waiver_budget": [],
       "waiver_bid": null,
       "metadata": null
