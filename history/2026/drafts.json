@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T06:00:54.902Z",
+  "generated_at": "2026-10-18T06:00:10.386Z",
   "season": "2026",
   "drafts": [
     {
@@ -73,7 +73,7 @@
             ],
             "team": "ARI",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 21,
             "years_exp": null
           },
@@ -115,7 +115,7 @@
             ],
             "team": "TEN",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 21,
             "years_exp": null
           },
@@ -325,7 +325,7 @@
             ],
             "team": "NYJ",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 21,
             "years_exp": null
           },
@@ -492,8 +492,8 @@
               "WR"
             ],
             "team": "NYJ",
-            "status": "Inactive",
-            "injury_status": "IR",
+            "status": "Active",
+            "injury_status": "Questionable",
             "age": 22,
             "years_exp": null
           },
@@ -996,8 +996,8 @@
               "WR"
             ],
             "team": "BAL",
-            "status": "Inactive",
-            "injury_status": "IR",
+            "status": "Active",
+            "injury_status": "Questionable",
             "age": 22,
             "years_exp": null
           },
