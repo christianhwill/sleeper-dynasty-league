@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T00:00:51.856Z",
+  "generated_at": "2026-10-22T12:00:45.684Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -160,9 +160,9 @@
       "players": [
         {
           "player_id": "11559",
-          "name": "Michael Penix",
+          "name": "Michael Penix Jr.",
           "first_name": "Michael",
-          "last_name": "Penix",
+          "last_name": "Penix Jr.",
           "position": "QB",
           "fantasy_positions": [
             "QB"
@@ -235,9 +235,9 @@
         },
         {
           "player_id": "12519",
-          "name": "Luther Burden",
+          "name": "Luther Burden III",
           "first_name": "Luther",
-          "last_name": "Burden",
+          "last_name": "Burden III",
           "position": "WR",
           "fantasy_positions": [
             "WR"
@@ -304,7 +304,7 @@
           ],
           "team": "ARI",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 23,
           "years_exp": null
         },
@@ -385,9 +385,9 @@
         },
         {
           "player_id": "7553",
-          "name": "Kyle Pitts",
+          "name": "Kyle Pitts Sr.",
           "first_name": "Kyle",
-          "last_name": "Pitts",
+          "last_name": "Pitts Sr.",
           "position": "TE",
           "fantasy_positions": [
             "TE"
@@ -582,9 +582,9 @@
         },
         {
           "player_id": "12519",
-          "name": "Luther Burden",
+          "name": "Luther Burden III",
           "first_name": "Luther",
-          "last_name": "Burden",
+          "last_name": "Burden III",
           "position": "WR",
           "fantasy_positions": [
             "WR"
@@ -597,9 +597,9 @@
         },
         {
           "player_id": "7553",
-          "name": "Kyle Pitts",
+          "name": "Kyle Pitts Sr.",
           "first_name": "Kyle",
-          "last_name": "Pitts",
+          "last_name": "Pitts Sr.",
           "position": "TE",
           "fantasy_positions": [
             "TE"
@@ -791,7 +791,7 @@
           ],
           "team": "LV",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 23,
           "years_exp": 2
         },
@@ -821,15 +821,15 @@
           ],
           "team": "NYJ",
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Questionable",
           "age": 24,
           "years_exp": 2
         },
         {
           "player_id": "11628",
-          "name": "Marvin Harrison",
+          "name": "Marvin Harrison Jr.",
           "first_name": "Marvin",
-          "last_name": "Harrison",
+          "last_name": "Harrison Jr.",
           "position": "WR",
           "fantasy_positions": [
             "WR"
@@ -872,9 +872,9 @@
         },
         {
           "player_id": "12495",
-          "name": "Ollie Gordon",
+          "name": "Ollie Gordon II",
           "first_name": "Ollie",
-          "last_name": "Gordon",
+          "last_name": "Gordon II",
           "position": "RB",
           "fantasy_positions": [
             "RB"
@@ -911,7 +911,7 @@
           ],
           "team": "CHI",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "age": 24,
           "years_exp": 1
         },
@@ -971,7 +971,7 @@
           ],
           "team": "KC",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 37,
           "years_exp": 13
         },
@@ -1016,7 +1016,7 @@
           ],
           "team": "NE",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 29,
           "years_exp": 7
         },
@@ -1046,7 +1046,7 @@
           ],
           "team": "PIT",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 28,
           "years_exp": 6
         },
@@ -1183,7 +1183,7 @@
           ],
           "team": "NE",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 29,
           "years_exp": 7
         },
@@ -1198,7 +1198,7 @@
           ],
           "team": "LV",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 23,
           "years_exp": 2
         },
@@ -1213,15 +1213,15 @@
           ],
           "team": "KC",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 37,
           "years_exp": 13
         },
         {
           "player_id": "12495",
-          "name": "Ollie Gordon",
+          "name": "Ollie Gordon II",
           "first_name": "Ollie",
-          "last_name": "Gordon",
+          "last_name": "Gordon II",
           "position": "RB",
           "fantasy_positions": [
             "RB"
@@ -1389,9 +1389,9 @@
         },
         {
           "player_id": "11631",
-          "name": "Brian Thomas",
+          "name": "Brian Thomas Jr.",
           "first_name": "Brian",
-          "last_name": "Thomas",
+          "last_name": "Thomas Jr.",
           "position": "WR",
           "fantasy_positions": [
             "WR"
@@ -1509,16 +1509,16 @@
         },
         {
           "player_id": "13298",
-          "name": "KC Concepcion",
+          "name": "KC Concepcion Jr.",
           "first_name": "KC",
-          "last_name": "Concepcion",
+          "last_name": "Concepcion Jr.",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
           "team": "CLE",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 22,
           "years_exp": null
         },
@@ -1796,16 +1796,16 @@
         },
         {
           "player_id": "13298",
-          "name": "KC Concepcion",
+          "name": "KC Concepcion Jr.",
           "first_name": "KC",
-          "last_name": "Concepcion",
+          "last_name": "Concepcion Jr.",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
           "team": "CLE",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 22,
           "years_exp": null
         },
@@ -1960,7 +1960,7 @@
           ],
           "team": "TB",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 24,
           "years_exp": 2
         },
@@ -1990,7 +1990,7 @@
           ],
           "team": "MIA",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 23,
           "years_exp": 2
         },
@@ -2056,9 +2056,9 @@
         },
         {
           "player_id": "4037",
-          "name": "Chris Godwin",
+          "name": "Chris Godwin Jr.",
           "first_name": "Chris",
-          "last_name": "Godwin",
+          "last_name": "Godwin Jr.",
           "position": "WR",
           "fantasy_positions": [
             "WR"
@@ -2206,9 +2206,9 @@
         },
         {
           "player_id": "8138",
-          "name": "James Cook",
+          "name": "James Cook III",
           "first_name": "James",
-          "last_name": "Cook",
+          "last_name": "Cook III",
           "position": "RB",
           "fantasy_positions": [
             "RB"
@@ -2382,7 +2382,7 @@
           ],
           "team": "TB",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 24,
           "years_exp": 2
         },
@@ -2529,9 +2529,9 @@
         },
         {
           "player_id": "13276",
-          "name": "Omar Cooper",
+          "name": "Omar Cooper Jr.",
           "first_name": "Omar",
-          "last_name": "Cooper",
+          "last_name": "Cooper Jr.",
           "position": "WR",
           "fantasy_positions": [
             "WR"
@@ -2688,7 +2688,7 @@
           ],
           "team": "GB",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 27,
           "years_exp": 6
         },
@@ -2703,7 +2703,7 @@
           ],
           "team": "DEN",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 27,
           "years_exp": 5
         },
@@ -2810,7 +2810,7 @@
           ],
           "team": "GB",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 27,
           "years_exp": 6
         },
@@ -2938,9 +2938,9 @@
       "taxi": [
         {
           "player_id": "13276",
-          "name": "Omar Cooper",
+          "name": "Omar Cooper Jr.",
           "first_name": "Omar",
-          "last_name": "Cooper",
+          "last_name": "Cooper Jr.",
           "position": "WR",
           "fantasy_positions": [
             "WR"
@@ -3121,24 +3121,24 @@
         },
         {
           "player_id": "13305",
-          "name": "Mike Washington",
+          "name": "Mike Washington Jr.",
           "first_name": "Mike",
-          "last_name": "Washington",
+          "last_name": "Washington Jr.",
           "position": "RB",
           "fantasy_positions": [
             "RB"
           ],
           "team": "LV",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 23,
           "years_exp": null
         },
         {
           "player_id": "13353",
-          "name": "Chris Brazzell",
+          "name": "Chris Brazzell II",
           "first_name": "Chris",
-          "last_name": "Brazzell",
+          "last_name": "Brazzell II",
           "position": "WR",
           "fantasy_positions": [
             "WR"
@@ -3256,9 +3256,9 @@
         },
         {
           "player_id": "5872",
-          "name": "Deebo Samuel",
+          "name": "Deebo Samuel Sr.",
           "first_name": "Deebo",
-          "last_name": "Samuel",
+          "last_name": "Samuel Sr.",
           "position": "WR",
           "fantasy_positions": [
             "WR"
@@ -3346,9 +3346,9 @@
         },
         {
           "player_id": "9494",
-          "name": "Marvin Mims",
+          "name": "Marvin Mims Jr.",
           "first_name": "Marvin",
-          "last_name": "Mims",
+          "last_name": "Mims Jr.",
           "position": "WR",
           "fantasy_positions": [
             "WR"
@@ -3378,16 +3378,16 @@
         },
         {
           "player_id": "13305",
-          "name": "Mike Washington",
+          "name": "Mike Washington Jr.",
           "first_name": "Mike",
-          "last_name": "Washington",
+          "last_name": "Washington Jr.",
           "position": "RB",
           "fantasy_positions": [
             "RB"
           ],
           "team": "LV",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 23,
           "years_exp": null
         },
@@ -3515,9 +3515,9 @@
         },
         {
           "player_id": "13353",
-          "name": "Chris Brazzell",
+          "name": "Chris Brazzell II",
           "first_name": "Chris",
-          "last_name": "Brazzell",
+          "last_name": "Brazzell II",
           "position": "WR",
           "fantasy_positions": [
             "WR"
@@ -3678,7 +3678,7 @@
           "team": "NE",
           "status": "Active",
           "injury_status": null,
-          "age": 23,
+          "age": 24,
           "years_exp": 1
         },
         {
@@ -4239,7 +4239,7 @@
           ],
           "team": "TB",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 24,
           "years_exp": 1
         },
@@ -4344,15 +4344,15 @@
           ],
           "team": "CLE",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 22,
           "years_exp": null
         },
         {
           "player_id": "4199",
-          "name": "Aaron Jones",
+          "name": "Aaron Jones Sr.",
           "first_name": "Aaron",
-          "last_name": "Jones",
+          "last_name": "Jones Sr.",
           "position": "RB",
           "fantasy_positions": [
             "RB"
@@ -4395,9 +4395,9 @@
         },
         {
           "player_id": "7543",
-          "name": "Travis Etienne",
+          "name": "Travis Etienne Jr.",
           "first_name": "Travis",
-          "last_name": "Etienne",
+          "last_name": "Etienne Jr.",
           "position": "RB",
           "fantasy_positions": [
             "RB"
@@ -4470,16 +4470,16 @@
         },
         {
           "player_id": "8154",
-          "name": "Brian Robinson",
+          "name": "Brian Robinson Jr.",
           "first_name": "Brian",
-          "last_name": "Robinson",
+          "last_name": "Robinson Jr.",
           "position": "RB",
           "fantasy_positions": [
             "RB"
           ],
           "team": "ATL",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 27,
           "years_exp": 4
         },
@@ -4532,9 +4532,9 @@
         },
         {
           "player_id": "4199",
-          "name": "Aaron Jones",
+          "name": "Aaron Jones Sr.",
           "first_name": "Aaron",
-          "last_name": "Jones",
+          "last_name": "Jones Sr.",
           "position": "RB",
           "fantasy_positions": [
             "RB"
@@ -4601,7 +4601,7 @@
           ],
           "team": "TB",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 24,
           "years_exp": 1
         },
@@ -4846,7 +4846,7 @@
           ],
           "team": "NO",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 31,
           "years_exp": 9
         },
@@ -4861,7 +4861,7 @@
           ],
           "team": "HOU",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 30,
           "years_exp": 8
         },
@@ -4891,15 +4891,15 @@
           ],
           "team": "MIN",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 27,
           "years_exp": 6
         },
         {
           "player_id": "6819",
-          "name": "Michael Pittman",
+          "name": "Michael Pittman Jr.",
           "first_name": "Michael",
-          "last_name": "Pittman",
+          "last_name": "Pittman Jr.",
           "position": "WR",
           "fantasy_positions": [
             "WR"
@@ -5002,9 +5002,9 @@
         },
         {
           "player_id": "9229",
-          "name": "Anthony Richardson",
+          "name": "Anthony Richardson Sr.",
           "first_name": "Anthony",
-          "last_name": "Richardson",
+          "last_name": "Richardson Sr.",
           "position": "QB",
           "fantasy_positions": [
             "QB"
@@ -5056,7 +5056,7 @@
           ],
           "team": "MIN",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 24,
           "years_exp": 3
         }
@@ -5148,7 +5148,7 @@
           ],
           "team": "HOU",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 30,
           "years_exp": 8
         },
@@ -5294,9 +5294,9 @@
       "players": [
         {
           "player_id": "10219",
-          "name": "Chris Rodriguez",
+          "name": "Chris Rodriguez Jr.",
           "first_name": "Chris",
-          "last_name": "Rodriguez",
+          "last_name": "Rodriguez Jr.",
           "position": "RB",
           "fantasy_positions": [
             "RB"
@@ -5363,15 +5363,15 @@
           ],
           "team": "GB",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 23,
           "years_exp": 1
         },
         {
           "player_id": "12506",
-          "name": "Harold Fannin",
+          "name": "Harold Fannin Jr.",
           "first_name": "Harold",
-          "last_name": "Fannin",
+          "last_name": "Fannin Jr.",
           "position": "TE",
           "fantasy_positions": [
             "TE"
@@ -5408,7 +5408,7 @@
           ],
           "team": "MIA",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 22,
           "years_exp": null
         },
@@ -5579,9 +5579,9 @@
         },
         {
           "player_id": "8151",
-          "name": "Kenneth Walker",
+          "name": "Kenneth Walker III",
           "first_name": "Kenneth",
-          "last_name": "Walker",
+          "last_name": "Walker III",
           "position": "RB",
           "fantasy_positions": [
             "RB"
@@ -5603,7 +5603,7 @@
           ],
           "team": "GB",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 27,
           "years_exp": 4
         },
@@ -5671,9 +5671,9 @@
         },
         {
           "player_id": "8151",
-          "name": "Kenneth Walker",
+          "name": "Kenneth Walker III",
           "first_name": "Kenneth",
-          "last_name": "Walker",
+          "last_name": "Walker III",
           "position": "RB",
           "fantasy_positions": [
             "RB"
@@ -5731,9 +5731,9 @@
         },
         {
           "player_id": "12506",
-          "name": "Harold Fannin",
+          "name": "Harold Fannin Jr.",
           "first_name": "Harold",
-          "last_name": "Fannin",
+          "last_name": "Fannin Jr.",
           "position": "TE",
           "fantasy_positions": [
             "TE"
@@ -5802,7 +5802,7 @@
           ],
           "team": "MIA",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 22,
           "years_exp": null
         },
@@ -7494,9 +7494,9 @@
         {
           "player": {
             "player_id": "13317",
-            "name": "Ted Hurst",
+            "name": "Ted Hurst III",
             "first_name": "Ted",
-            "last_name": "Hurst",
+            "last_name": "Hurst III",
             "position": "WR",
             "fantasy_positions": [
               "WR"
@@ -8079,9 +8079,9 @@
         {
           "player": {
             "player_id": "9229",
-            "name": "Anthony Richardson",
+            "name": "Anthony Richardson Sr.",
             "first_name": "Anthony",
-            "last_name": "Richardson",
+            "last_name": "Richardson Sr.",
             "position": "QB",
             "fantasy_positions": [
               "QB"
@@ -8176,7 +8176,7 @@
             ],
             "team": null,
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 31,
             "years_exp": 10
           },
@@ -8300,9 +8300,9 @@
         {
           "player": {
             "player_id": "12506",
-            "name": "Harold Fannin",
+            "name": "Harold Fannin Jr.",
             "first_name": "Harold",
-            "last_name": "Fannin",
+            "last_name": "Fannin Jr.",
             "position": "TE",
             "fantasy_positions": [
               "TE"
@@ -8340,9 +8340,9 @@
         {
           "player": {
             "player_id": "12506",
-            "name": "Harold Fannin",
+            "name": "Harold Fannin Jr.",
             "first_name": "Harold",
-            "last_name": "Fannin",
+            "last_name": "Fannin Jr.",
             "position": "TE",
             "fantasy_positions": [
               "TE"
@@ -10384,7 +10384,7 @@
             ],
             "team": null,
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 31,
             "years_exp": 10
           },
@@ -10424,7 +10424,7 @@
             ],
             "team": null,
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 31,
             "years_exp": 10
           },
@@ -10671,7 +10671,7 @@
             ],
             "team": "MIA",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 23,
             "years_exp": 2
           },
@@ -10770,9 +10770,9 @@
         {
           "player": {
             "player_id": "12495",
-            "name": "Ollie Gordon",
+            "name": "Ollie Gordon II",
             "first_name": "Ollie",
-            "last_name": "Gordon",
+            "last_name": "Gordon II",
             "position": "RB",
             "fantasy_positions": [
               "RB"
@@ -10924,7 +10924,7 @@
             ],
             "team": "SEA",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 28,
             "years_exp": 4
           },
@@ -11008,9 +11008,9 @@
         {
           "player": {
             "player_id": "12495",
-            "name": "Ollie Gordon",
+            "name": "Ollie Gordon II",
             "first_name": "Ollie",
-            "last_name": "Gordon",
+            "last_name": "Gordon II",
             "position": "RB",
             "fantasy_positions": [
               "RB"
@@ -11122,9 +11122,9 @@
         {
           "player": {
             "player_id": "12495",
-            "name": "Ollie Gordon",
+            "name": "Ollie Gordon II",
             "first_name": "Ollie",
-            "last_name": "Gordon",
+            "last_name": "Gordon II",
             "position": "RB",
             "fantasy_positions": [
               "RB"
@@ -11216,9 +11216,9 @@
         {
           "player": {
             "player_id": "12495",
-            "name": "Ollie Gordon",
+            "name": "Ollie Gordon II",
             "first_name": "Ollie",
-            "last_name": "Gordon",
+            "last_name": "Gordon II",
             "position": "RB",
             "fantasy_positions": [
               "RB"
@@ -11263,9 +11263,9 @@
         {
           "player": {
             "player_id": "12495",
-            "name": "Ollie Gordon",
+            "name": "Ollie Gordon II",
             "first_name": "Ollie",
-            "last_name": "Gordon",
+            "last_name": "Gordon II",
             "position": "RB",
             "fantasy_positions": [
               "RB"
@@ -11569,7 +11569,7 @@
             ],
             "team": "SEA",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 29,
             "years_exp": 7
           },
@@ -11981,7 +11981,7 @@
             ],
             "team": "NO",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 31,
             "years_exp": 9
           },
@@ -12028,7 +12028,7 @@
             ],
             "team": "NO",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 31,
             "years_exp": 9
           },
@@ -12288,7 +12288,7 @@
             ],
             "team": "NE",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 29,
             "years_exp": 7
           },
@@ -12298,16 +12298,16 @@
         {
           "player": {
             "player_id": "13298",
-            "name": "KC Concepcion",
+            "name": "KC Concepcion Jr.",
             "first_name": "KC",
-            "last_name": "Concepcion",
+            "last_name": "Concepcion Jr.",
             "position": "WR",
             "fantasy_positions": [
               "WR"
             ],
             "team": "CLE",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 22,
             "years_exp": null
           },
@@ -12328,7 +12328,7 @@
             ],
             "team": "NE",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 29,
             "years_exp": 7
           },
@@ -12338,16 +12338,16 @@
         {
           "player": {
             "player_id": "13298",
-            "name": "KC Concepcion",
+            "name": "KC Concepcion Jr.",
             "first_name": "KC",
-            "last_name": "Concepcion",
+            "last_name": "Concepcion Jr.",
             "position": "WR",
             "fantasy_positions": [
               "WR"
             ],
             "team": "CLE",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 22,
             "years_exp": null
           },
@@ -12414,7 +12414,7 @@
             ],
             "team": "PIT",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 28,
             "years_exp": 6
           },
@@ -12461,7 +12461,7 @@
             ],
             "team": "PIT",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 28,
             "years_exp": 6
           },
@@ -12482,7 +12482,7 @@
             ],
             "team": "NO",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 31,
             "years_exp": 9
           },
@@ -12573,7 +12573,7 @@
             ],
             "team": "NO",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 31,
             "years_exp": 9
           },
@@ -12684,7 +12684,7 @@
             ],
             "team": "PIT",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 28,
             "years_exp": 6
           },
@@ -12775,7 +12775,7 @@
             ],
             "team": "SEA",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 29,
             "years_exp": 7
           },
@@ -13440,9 +13440,9 @@
         {
           "player": {
             "player_id": "13317",
-            "name": "Ted Hurst",
+            "name": "Ted Hurst III",
             "first_name": "Ted",
-            "last_name": "Hurst",
+            "last_name": "Hurst III",
             "position": "WR",
             "fantasy_positions": [
               "WR"
@@ -13461,9 +13461,9 @@
         {
           "player": {
             "player_id": "13317",
-            "name": "Ted Hurst",
+            "name": "Ted Hurst III",
             "first_name": "Ted",
-            "last_name": "Hurst",
+            "last_name": "Hurst III",
             "position": "WR",
             "fantasy_positions": [
               "WR"
