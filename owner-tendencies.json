@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T06:00:45.639Z",
+  "generated_at": "2026-10-22T06:00:45.588Z",
   "league_name": "Oiled Without Consent",
   "seasons": [
     "2024",
@@ -39,19 +39,19 @@
         "2026": 1
       },
       "activity": {
-        "transactions_involved": 43,
+        "transactions_involved": 44,
         "transaction_types": {
           "trade": 13,
-          "waiver": 4,
+          "waiver": 5,
           "free_agent": 26
         },
-        "waiver_claims_won": 4,
+        "waiver_claims_won": 5,
         "free_agent_transactions": 26,
-        "player_adds": 34,
-        "player_drops": 42,
-        "faab_spent": 3,
-        "average_successful_faab_bid": 0.75,
-        "max_successful_faab_bid": 3
+        "player_adds": 35,
+        "player_drops": 43,
+        "faab_spent": 26,
+        "average_successful_faab_bid": 5.2,
+        "max_successful_faab_bid": 23
       },
       "trade_profile": {
         "trades": 13,
@@ -262,14 +262,14 @@
           "firsts_sent": 1
         },
         "2026": {
-          "transactions_involved": 20,
+          "transactions_involved": 21,
           "trades": 7,
           "trades_created": 3,
-          "waiver_claims_won": 2,
+          "waiver_claims_won": 3,
           "free_agent_transactions": 11,
-          "faab_spent": 3,
-          "player_adds": 16,
-          "player_drops": 19,
+          "faab_spent": 26,
+          "player_adds": 17,
+          "player_drops": 20,
           "players_acquired": 9,
           "players_sent": 6,
           "draft_picks_acquired": 4,
@@ -280,8 +280,8 @@
       },
       "league_ranks": {
         "trade_activity": 5,
-        "waiver_claims": 10,
-        "faab_spent": 8,
+        "waiver_claims": 9,
+        "faab_spent": 7,
         "future_firsts": 3,
         "future_picks": 2
       }
@@ -309,18 +309,18 @@
         "2026": 2
       },
       "activity": {
-        "transactions_involved": 215,
+        "transactions_involved": 217,
         "transaction_types": {
           "trade": 38,
           "free_agent": 113,
-          "waiver": 64
+          "waiver": 66
         },
-        "waiver_claims_won": 64,
+        "waiver_claims_won": 66,
         "free_agent_transactions": 113,
-        "player_adds": 173,
-        "player_drops": 178,
-        "faab_spent": 284,
-        "average_successful_faab_bid": 4.44,
+        "player_adds": 175,
+        "player_drops": 180,
+        "faab_spent": 324,
+        "average_successful_faab_bid": 4.91,
         "max_successful_faab_bid": 101
       },
       "trade_profile": {
@@ -520,14 +520,14 @@
           "firsts_sent": 3
         },
         "2026": {
-          "transactions_involved": 59,
+          "transactions_involved": 61,
           "trades": 14,
           "trades_created": 11,
-          "waiver_claims_won": 6,
+          "waiver_claims_won": 8,
           "free_agent_transactions": 39,
-          "faab_spent": 185,
-          "player_adds": 44,
-          "player_drops": 45,
+          "faab_spent": 225,
+          "player_adds": 46,
+          "player_drops": 47,
           "players_acquired": 8,
           "players_sent": 10,
           "draft_picks_acquired": 14,
@@ -565,18 +565,18 @@
         "2026": 3
       },
       "activity": {
-        "transactions_involved": 80,
+        "transactions_involved": 81,
         "transaction_types": {
           "trade": 23,
-          "waiver": 25,
+          "waiver": 26,
           "free_agent": 32
         },
-        "waiver_claims_won": 25,
+        "waiver_claims_won": 26,
         "free_agent_transactions": 32,
-        "player_adds": 77,
+        "player_adds": 78,
         "player_drops": 86,
         "faab_spent": 87,
-        "average_successful_faab_bid": 3.48,
+        "average_successful_faab_bid": 3.35,
         "max_successful_faab_bid": 22
       },
       "trade_profile": {
@@ -788,13 +788,13 @@
           "firsts_sent": 5
         },
         "2026": {
-          "transactions_involved": 30,
+          "transactions_involved": 31,
           "trades": 7,
           "trades_created": 4,
-          "waiver_claims_won": 4,
+          "waiver_claims_won": 5,
           "free_agent_transactions": 19,
           "faab_spent": 20,
-          "player_adds": 26,
+          "player_adds": 27,
           "player_drops": 31,
           "players_acquired": 11,
           "players_sent": 12,
@@ -834,18 +834,18 @@
         "2026": 4
       },
       "activity": {
-        "transactions_involved": 74,
+        "transactions_involved": 75,
         "transaction_types": {
           "free_agent": 33,
-          "waiver": 29,
+          "waiver": 30,
           "trade": 12
         },
-        "waiver_claims_won": 29,
+        "waiver_claims_won": 30,
         "free_agent_transactions": 33,
-        "player_adds": 53,
-        "player_drops": 56,
+        "player_adds": 54,
+        "player_drops": 57,
         "faab_spent": 113,
-        "average_successful_faab_bid": 3.9,
+        "average_successful_faab_bid": 3.77,
         "max_successful_faab_bid": 21
       },
       "trade_profile": {
@@ -1027,14 +1027,14 @@
           "firsts_sent": 2
         },
         "2026": {
-          "transactions_involved": 19,
+          "transactions_involved": 20,
           "trades": 6,
           "trades_created": 1,
-          "waiver_claims_won": 5,
+          "waiver_claims_won": 6,
           "free_agent_transactions": 8,
           "faab_spent": 58,
-          "player_adds": 12,
-          "player_drops": 13,
+          "player_adds": 13,
+          "player_drops": 14,
           "players_acquired": 3,
           "players_sent": 4,
           "draft_picks_acquired": 4,
@@ -2068,7 +2068,7 @@
       "league_ranks": {
         "trade_activity": 8,
         "waiver_claims": 9,
-        "faab_spent": 7,
+        "faab_spent": 8,
         "future_firsts": 3,
         "future_picks": 1
       }
@@ -2094,18 +2094,18 @@
         "2026": 9
       },
       "activity": {
-        "transactions_involved": 35,
+        "transactions_involved": 36,
         "transaction_types": {
           "free_agent": 17,
-          "waiver": 11,
+          "waiver": 12,
           "trade": 7
         },
-        "waiver_claims_won": 11,
+        "waiver_claims_won": 12,
         "free_agent_transactions": 17,
-        "player_adds": 27,
-        "player_drops": 31,
+        "player_adds": 28,
+        "player_drops": 32,
         "faab_spent": 85,
-        "average_successful_faab_bid": 7.73,
+        "average_successful_faab_bid": 7.08,
         "max_successful_faab_bid": 69
       },
       "trade_profile": {
@@ -2285,14 +2285,14 @@
           "firsts_sent": 1
         },
         "2026": {
-          "transactions_involved": 5,
+          "transactions_involved": 6,
           "trades": 0,
           "trades_created": 0,
-          "waiver_claims_won": 1,
+          "waiver_claims_won": 2,
           "free_agent_transactions": 4,
           "faab_spent": 0,
-          "player_adds": 1,
-          "player_drops": 4,
+          "player_adds": 2,
+          "player_drops": 5,
           "players_acquired": 0,
           "players_sent": 0,
           "draft_picks_acquired": 0,
