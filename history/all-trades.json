@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T03:00:15.162Z",
+  "generated_at": "2026-10-22T03:00:51.779Z",
   "league_name": "Oiled Without Consent",
   "seasons": [
     {
@@ -17,7 +17,7 @@
     {
       "season": "2026",
       "league_id": "1327788752298336256",
-      "transaction_count": 190,
+      "transaction_count": 198,
       "trade_count": 24
     }
   ],
@@ -7677,7 +7677,7 @@
             ],
             "team": "NYG",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 25,
             "years_exp": 2
           },
@@ -7717,7 +7717,7 @@
             ],
             "team": "NYG",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 25,
             "years_exp": 2
           },
@@ -8210,7 +8210,7 @@
             ],
             "team": "GB",
             "status": "Active",
-            "injury_status": "NA",
+            "injury_status": null,
             "age": 28,
             "years_exp": 7
           },
@@ -8269,7 +8269,7 @@
             ],
             "team": "GB",
             "status": "Active",
-            "injury_status": "NA",
+            "injury_status": null,
             "age": 28,
             "years_exp": 7
           },
@@ -8393,8 +8393,8 @@
       "waiver_budget": [
         {
           "amount": 15,
-          "receiver": 2,
-          "sender": 4
+          "sender": 4,
+          "receiver": 2
         }
       ],
       "waiver_bid": null,
@@ -8492,8 +8492,8 @@
       "waiver_budget": [
         {
           "amount": 1,
-          "receiver": 1,
-          "sender": 2
+          "sender": 2,
+          "receiver": 1
         }
       ],
       "waiver_bid": null,
@@ -8591,8 +8591,8 @@
       "waiver_budget": [
         {
           "amount": 14,
-          "receiver": 8,
-          "sender": 2
+          "sender": 2,
+          "receiver": 8
         }
       ],
       "waiver_bid": null,
@@ -8871,7 +8871,7 @@
             ],
             "team": "GB",
             "status": "Active",
-            "injury_status": "NA",
+            "injury_status": null,
             "age": 28,
             "years_exp": 7
           },
@@ -8949,7 +8949,7 @@
             ],
             "team": "GB",
             "status": "Active",
-            "injury_status": "NA",
+            "injury_status": null,
             "age": 28,
             "years_exp": 7
           },
@@ -9679,7 +9679,7 @@
             ],
             "team": "TB",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 31,
             "years_exp": 8
           },
@@ -9719,7 +9719,7 @@
             ],
             "team": "TB",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 31,
             "years_exp": 8
           },
@@ -9946,7 +9946,7 @@
             ],
             "team": null,
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 31,
             "years_exp": 10
           },
@@ -9986,7 +9986,7 @@
             ],
             "team": null,
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 31,
             "years_exp": 10
           },
