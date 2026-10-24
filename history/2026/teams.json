@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T12:00:22.129Z",
+  "generated_at": "2026-10-24T00:00:21.907Z",
   "season": "2026",
   "teams": [
     {
@@ -789,6 +789,21 @@
           "years_exp": 1
         },
         {
+          "player_id": "12718",
+          "name": "Konata Mumpfield",
+          "first_name": "Konata",
+          "last_name": "Mumpfield",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "LAR",
+          "status": "Active",
+          "injury_status": null,
+          "age": 23,
+          "years_exp": 1
+        },
+        {
           "player_id": "13285",
           "name": "Malachi Fields",
           "first_name": "Malachi",
@@ -847,21 +862,6 @@
           "injury_status": "Questionable",
           "age": 37,
           "years_exp": 13
-        },
-        {
-          "player_id": "2306",
-          "name": "Jameis Winston",
-          "first_name": "Jameis",
-          "last_name": "Winston",
-          "position": "QB",
-          "fantasy_positions": [
-            "QB"
-          ],
-          "team": "NYG",
-          "status": "Active",
-          "injury_status": null,
-          "age": 32,
-          "years_exp": 11
         },
         {
           "player_id": "5850",
@@ -1076,19 +1076,19 @@
           "years_exp": 2
         },
         {
-          "player_id": "1466",
-          "name": "Travis Kelce",
-          "first_name": "Travis",
-          "last_name": "Kelce",
-          "position": "TE",
+          "player_id": "6806",
+          "name": "J.K. Dobbins",
+          "first_name": "J.K.",
+          "last_name": "Dobbins",
+          "position": "RB",
           "fantasy_positions": [
-            "TE"
+            "RB"
           ],
-          "team": "KC",
+          "team": "DEN",
           "status": "Active",
-          "injury_status": "Questionable",
-          "age": 37,
-          "years_exp": 13
+          "injury_status": null,
+          "age": 27,
+          "years_exp": 6
         },
         {
           "player_id": "12495",
@@ -1306,21 +1306,6 @@
           "years_exp": 1
         },
         {
-          "player_id": "12492",
-          "name": "Pat Bryant",
-          "first_name": "Pat",
-          "last_name": "Bryant",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "DEN",
-          "status": "Inactive",
-          "injury_status": "IR",
-          "age": 23,
-          "years_exp": 1
-        },
-        {
           "player_id": "12509",
           "name": "Tre' Harris",
           "first_name": "Tre'",
@@ -1348,6 +1333,21 @@
           "status": "Active",
           "injury_status": null,
           "age": 22,
+          "years_exp": 1
+        },
+        {
+          "player_id": "12536",
+          "name": "Jaylin Noel",
+          "first_name": "Jaylin",
+          "last_name": "Noel",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "HOU",
+          "status": "Active",
+          "injury_status": null,
+          "age": 24,
           "years_exp": 1
         },
         {
@@ -1392,6 +1392,21 @@
           "team": "CLE",
           "status": "Active",
           "injury_status": "Questionable",
+          "age": 22,
+          "years_exp": null
+        },
+        {
+          "player_id": "13317",
+          "name": "Ted Hurst III",
+          "first_name": "Ted",
+          "last_name": "Hurst III",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "TB",
+          "status": "Active",
+          "injury_status": null,
           "age": 22,
           "years_exp": null
         },
@@ -1441,21 +1456,6 @@
           "years_exp": null
         },
         {
-          "player_id": "13424",
-          "name": "Seth McGowan",
-          "first_name": "Seth",
-          "last_name": "McGowan",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "IND",
-          "status": "Active",
-          "injury_status": null,
-          "age": 25,
-          "years_exp": null
-        },
-        {
           "player_id": "2449",
           "name": "Stefon Diggs",
           "first_name": "Stefon",
@@ -1486,21 +1486,6 @@
           "years_exp": 10
         },
         {
-          "player_id": "4454",
-          "name": "Kendrick Bourne",
-          "first_name": "Kendrick",
-          "last_name": "Bourne",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "ARI",
-          "status": "Active",
-          "injury_status": null,
-          "age": 31,
-          "years_exp": 9
-        },
-        {
           "player_id": "6797",
           "name": "Justin Herbert",
           "first_name": "Justin",
@@ -1514,6 +1499,21 @@
           "injury_status": null,
           "age": 28,
           "years_exp": 6
+        },
+        {
+          "player_id": "8122",
+          "name": "Zonovan Knight",
+          "first_name": "Zonovan",
+          "last_name": "Knight",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "team": "ARI",
+          "status": "Active",
+          "injury_status": null,
+          "age": 25,
+          "years_exp": 4
         },
         {
           "player_id": "8142",
@@ -1608,19 +1608,19 @@
           "years_exp": 3
         },
         {
-          "player_id": "13287",
-          "name": "Jeremiyah Love",
-          "first_name": "Jeremiyah",
-          "last_name": "Love",
+          "player_id": "8122",
+          "name": "Zonovan Knight",
+          "first_name": "Zonovan",
+          "last_name": "Knight",
           "position": "RB",
           "fantasy_positions": [
             "RB"
           ],
           "team": "ARI",
           "status": "Active",
-          "injury_status": "Questionable",
-          "age": 21,
-          "years_exp": null
+          "injury_status": null,
+          "age": 25,
+          "years_exp": 4
         },
         {
           "player_id": "11620",
@@ -1638,19 +1638,19 @@
           "years_exp": 2
         },
         {
-          "player_id": "10229",
-          "name": "Rashee Rice",
-          "first_name": "Rashee",
-          "last_name": "Rice",
+          "player_id": "12536",
+          "name": "Jaylin Noel",
+          "first_name": "Jaylin",
+          "last_name": "Noel",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "KC",
+          "team": "HOU",
           "status": "Active",
-          "injury_status": "Questionable",
-          "age": 26,
-          "years_exp": 3
+          "injury_status": null,
+          "age": 24,
+          "years_exp": 1
         },
         {
           "player_id": "12517",
@@ -1683,19 +1683,19 @@
           "years_exp": null
         },
         {
-          "player_id": "4454",
-          "name": "Kendrick Bourne",
-          "first_name": "Kendrick",
-          "last_name": "Bourne",
+          "player_id": "13317",
+          "name": "Ted Hurst III",
+          "first_name": "Ted",
+          "last_name": "Hurst III",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "ARI",
+          "team": "TB",
           "status": "Active",
           "injury_status": null,
-          "age": 31,
-          "years_exp": 9
+          "age": 22,
+          "years_exp": null
         },
         {
           "player_id": "13294",
@@ -5543,6 +5543,21 @@
           "years_exp": 9
         },
         {
+          "player_id": "9221",
+          "name": "Jahmyr Gibbs",
+          "first_name": "Jahmyr",
+          "last_name": "Gibbs",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "team": "DET",
+          "status": "Active",
+          "injury_status": null,
+          "age": 24,
+          "years_exp": 3
+        },
+        {
           "player_id": "8151",
           "name": "Kenneth Walker III",
           "first_name": "Kenneth",
@@ -5556,21 +5571,6 @@
           "injury_status": null,
           "age": 26,
           "years_exp": 4
-        },
-        {
-          "player_id": "4034",
-          "name": "Christian McCaffrey",
-          "first_name": "Christian",
-          "last_name": "McCaffrey",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "SF",
-          "status": "Active",
-          "injury_status": null,
-          "age": 30,
-          "years_exp": 9
         },
         {
           "player_id": "7547",
@@ -5618,6 +5618,21 @@
           "years_exp": 1
         },
         {
+          "player_id": "4034",
+          "name": "Christian McCaffrey",
+          "first_name": "Christian",
+          "last_name": "McCaffrey",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "team": "SF",
+          "status": "Active",
+          "injury_status": null,
+          "age": 30,
+          "years_exp": 9
+        },
+        {
           "player_id": "7569",
           "name": "Nico Collins",
           "first_name": "Nico",
@@ -5631,21 +5646,6 @@
           "injury_status": null,
           "age": 27,
           "years_exp": 5
-        },
-        {
-          "player_id": "9221",
-          "name": "Jahmyr Gibbs",
-          "first_name": "Jahmyr",
-          "last_name": "Gibbs",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "DET",
-          "status": "Active",
-          "injury_status": null,
-          "age": 24,
-          "years_exp": 3
         },
         {
           "player_id": "1166",
