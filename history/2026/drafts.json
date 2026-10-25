@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T06:00:10.386Z",
+  "generated_at": "2026-10-25T06:00:43.450Z",
   "season": "2026",
   "drafts": [
     {
@@ -325,7 +325,7 @@
             ],
             "team": "NYJ",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 21,
             "years_exp": null
           },
@@ -400,9 +400,9 @@
           "round": 1,
           "player": {
             "player_id": "13298",
-            "name": "KC Concepcion",
+            "name": "KC Concepcion Jr.",
             "first_name": "KC",
-            "last_name": "Concepcion",
+            "last_name": "Concepcion Jr.",
             "position": "WR",
             "fantasy_positions": [
               "WR"
@@ -484,16 +484,16 @@
           "round": 2,
           "player": {
             "player_id": "13276",
-            "name": "Omar Cooper",
+            "name": "Omar Cooper Jr.",
             "first_name": "Omar",
-            "last_name": "Cooper",
+            "last_name": "Cooper Jr.",
             "position": "WR",
             "fantasy_positions": [
               "WR"
             ],
             "team": "NYJ",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 22,
             "years_exp": null
           },
@@ -568,16 +568,16 @@
           "round": 2,
           "player": {
             "player_id": "8154",
-            "name": "Brian Robinson",
+            "name": "Brian Robinson Jr.",
             "first_name": "Brian",
-            "last_name": "Robinson",
+            "last_name": "Robinson Jr.",
             "position": "RB",
             "fantasy_positions": [
               "RB"
             ],
             "team": "ATL",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 27,
             "years_exp": 4
           },
@@ -955,7 +955,7 @@
             ],
             "team": "ARI",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 23,
             "years_exp": null
           },
@@ -997,7 +997,7 @@
             ],
             "team": "BAL",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 22,
             "years_exp": null
           },
@@ -1114,16 +1114,16 @@
           "round": 3,
           "player": {
             "player_id": "13305",
-            "name": "Mike Washington",
+            "name": "Mike Washington Jr.",
             "first_name": "Mike",
-            "last_name": "Washington",
+            "last_name": "Washington Jr.",
             "position": "RB",
             "fantasy_positions": [
               "RB"
             ],
             "team": "LV",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 23,
             "years_exp": null
           },
@@ -1198,9 +1198,9 @@
           "round": 3,
           "player": {
             "player_id": "13353",
-            "name": "Chris Brazzell",
+            "name": "Chris Brazzell II",
             "first_name": "Chris",
-            "last_name": "Brazzell",
+            "last_name": "Brazzell II",
             "position": "WR",
             "fantasy_positions": [
               "WR"
