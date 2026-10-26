@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T03:00:50.554Z",
+  "generated_at": "2026-10-26T03:00:47.718Z",
   "league_name": "Oiled Without Consent",
   "seasons": [
     {
@@ -17,7 +17,7 @@
     {
       "season": "2026",
       "league_id": "1327788752298336256",
-      "transaction_count": 202,
+      "transaction_count": 203,
       "trade_count": 24
     }
   ],
@@ -7677,7 +7677,7 @@
             ],
             "team": "NYG",
             "status": "Active",
-            "injury_status": "Doubtful",
+            "injury_status": "Out",
             "age": 25,
             "years_exp": 2
           },
@@ -7717,7 +7717,7 @@
             ],
             "team": "NYG",
             "status": "Active",
-            "injury_status": "Doubtful",
+            "injury_status": "Out",
             "age": 25,
             "years_exp": 2
           },
@@ -8190,7 +8190,7 @@
       "teams": [
         {
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         },
         {
           "roster_id": 10,
@@ -8215,7 +8215,7 @@
             "years_exp": 7
           },
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         },
         {
           "player": {
@@ -8253,7 +8253,7 @@
             "years_exp": 1
           },
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         }
       ],
       "drops": [
@@ -8293,7 +8293,7 @@
             "years_exp": 5
           },
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         },
         {
           "player": {
@@ -8324,7 +8324,7 @@
           "current_owner_roster_id": 1,
           "original_team": "Sugerdaddy",
           "previous_team": "Sugerdaddy",
-          "current_team": "Young N Hip"
+          "current_team": "Imperialist Junta"
         }
       ],
       "waiver_budget": [],
@@ -8418,7 +8418,7 @@
       "teams": [
         {
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         },
         {
           "roster_id": 2,
@@ -8443,7 +8443,7 @@
             "years_exp": 3
           },
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         }
       ],
       "drops": [
@@ -8475,7 +8475,7 @@
           "previous_owner_roster_id": 1,
           "current_owner_roster_id": 2,
           "original_team": "Cam dog",
-          "previous_team": "Young N Hip",
+          "previous_team": "Imperialist Junta",
           "current_team": "Cam dog"
         },
         {
@@ -8486,7 +8486,7 @@
           "current_owner_roster_id": 1,
           "original_team": "Cam dog",
           "previous_team": "Cam dog",
-          "current_team": "Young N Hip"
+          "current_team": "Imperialist Junta"
         }
       ],
       "waiver_budget": [
@@ -8851,7 +8851,7 @@
       "teams": [
         {
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         },
         {
           "roster_id": 2,
@@ -8890,7 +8890,7 @@
             ],
             "team": "NYG",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 26,
             "years_exp": 2
           },
@@ -8908,13 +8908,13 @@
               "RB"
             ],
             "team": "CLE",
-            "status": "Inactive",
-            "injury_status": "IR",
+            "status": "Active",
+            "injury_status": null,
             "age": 22,
             "years_exp": 1
           },
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         },
         {
           "player": {
@@ -8933,7 +8933,7 @@
             "years_exp": null
           },
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         }
       ],
       "drops": [
@@ -8954,7 +8954,7 @@
             "years_exp": 7
           },
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         },
         {
           "player": {
@@ -8968,12 +8968,12 @@
             ],
             "team": "NYG",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 26,
             "years_exp": 2
           },
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         },
         {
           "player": {
@@ -8986,8 +8986,8 @@
               "RB"
             ],
             "team": "CLE",
-            "status": "Inactive",
-            "injury_status": "IR",
+            "status": "Active",
+            "injury_status": null,
             "age": 22,
             "years_exp": 1
           },
@@ -9023,7 +9023,7 @@
           "current_owner_roster_id": 1,
           "original_team": "Cam dog",
           "previous_team": "Cam dog",
-          "current_team": "Young N Hip"
+          "current_team": "Imperialist Junta"
         }
       ],
       "waiver_budget": [],
@@ -9048,7 +9048,7 @@
       "teams": [
         {
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         },
         {
           "roster_id": 3,
@@ -9130,7 +9130,7 @@
             "years_exp": 3
           },
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         },
         {
           "player": {
@@ -9149,7 +9149,7 @@
             "years_exp": 3
           },
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         },
         {
           "player": {
@@ -9168,7 +9168,7 @@
             "years_exp": 1
           },
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         }
       ],
       "drops": [
@@ -9189,7 +9189,7 @@
             "years_exp": 10
           },
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         },
         {
           "player": {
@@ -9208,7 +9208,7 @@
             "years_exp": 7
           },
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         },
         {
           "player": {
@@ -9227,7 +9227,7 @@
             "years_exp": 4
           },
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         },
         {
           "player": {
@@ -9296,7 +9296,7 @@
           "current_owner_roster_id": 1,
           "original_team": "I Chase Brown People",
           "previous_team": "Third Down Syndrome",
-          "current_team": "Young N Hip"
+          "current_team": "Imperialist Junta"
         }
       ],
       "waiver_budget": [],
@@ -9321,7 +9321,7 @@
       "teams": [
         {
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         },
         {
           "roster_id": 2,
@@ -9346,7 +9346,7 @@
             "years_exp": null
           },
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         }
       ],
       "drops": [
@@ -9377,8 +9377,8 @@
           "original_roster_id": 1,
           "previous_owner_roster_id": 1,
           "current_owner_roster_id": 2,
-          "original_team": "Young N Hip",
-          "previous_team": "Young N Hip",
+          "original_team": "Imperialist Junta",
+          "previous_team": "Imperialist Junta",
           "current_team": "Cam dog"
         }
       ],
@@ -9679,7 +9679,7 @@
             ],
             "team": "TB",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 31,
             "years_exp": 8
           },
@@ -9719,7 +9719,7 @@
             ],
             "team": "TB",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 31,
             "years_exp": 8
           },
@@ -9840,7 +9840,7 @@
       "teams": [
         {
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         },
         {
           "roster_id": 4,
@@ -9883,7 +9883,7 @@
       "teams": [
         {
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         },
         {
           "roster_id": 4,
