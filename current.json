@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T12:00:46.102Z",
+  "generated_at": "2026-10-26T00:00:47.253Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -134,7 +134,7 @@
       "owner_id": "1129875387229560832",
       "username": null,
       "display_name": "christianhw17",
-      "team_name": "Young N Hip",
+      "team_name": "Imperialist Junta",
       "is_commissioner": true,
       "settings": {
         "fpts": 693,
@@ -213,8 +213,8 @@
             "RB"
           ],
           "team": "CLE",
-          "status": "Inactive",
-          "injury_status": "IR",
+          "status": "Active",
+          "injury_status": null,
           "age": 22,
           "years_exp": 1
         },
@@ -304,7 +304,7 @@
           ],
           "team": "ARI",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "age": 23,
           "years_exp": null
         },
@@ -319,7 +319,7 @@
           ],
           "team": "TEN",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 22,
           "years_exp": null
         },
@@ -438,8 +438,8 @@
             "RB"
           ],
           "team": "MIN",
-          "status": "Inactive",
-          "injury_status": "IR",
+          "status": "Active",
+          "injury_status": null,
           "age": 27,
           "years_exp": 4
         },
@@ -545,8 +545,8 @@
             "RB"
           ],
           "team": "MIN",
-          "status": "Inactive",
-          "injury_status": "IR",
+          "status": "Active",
+          "injury_status": null,
           "age": 27,
           "years_exp": 4
         },
@@ -668,7 +668,7 @@
           ],
           "team": "TEN",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 22,
           "years_exp": null
         },
@@ -866,7 +866,7 @@
           ],
           "team": "NYG",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 24,
           "years_exp": 1
         },
@@ -1046,7 +1046,7 @@
           ],
           "team": "PIT",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 28,
           "years_exp": 6
         },
@@ -1076,7 +1076,7 @@
           ],
           "team": "NYJ",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "age": 25,
           "years_exp": 4
         },
@@ -1105,8 +1105,8 @@
             "WR"
           ],
           "team": "HOU",
-          "status": "Inactive",
-          "injury_status": "IR",
+          "status": "Active",
+          "injury_status": null,
           "age": 26,
           "years_exp": 3
         }
@@ -1128,19 +1128,19 @@
           "years_exp": 2
         },
         {
-          "player_id": "8155",
-          "name": "Breece Hall",
-          "first_name": "Breece",
-          "last_name": "Hall",
+          "player_id": "12495",
+          "name": "Ollie Gordon II",
+          "first_name": "Ollie",
+          "last_name": "Gordon II",
           "position": "RB",
           "fantasy_positions": [
             "RB"
           ],
-          "team": "NYJ",
+          "team": "MIA",
           "status": "Active",
-          "injury_status": "Questionable",
-          "age": 25,
-          "years_exp": 4
+          "injury_status": null,
+          "age": 22,
+          "years_exp": 1
         },
         {
           "player_id": "5850",
@@ -1218,19 +1218,19 @@
           "years_exp": 6
         },
         {
-          "player_id": "12495",
-          "name": "Ollie Gordon II",
-          "first_name": "Ollie",
-          "last_name": "Gordon II",
-          "position": "RB",
+          "player_id": "1466",
+          "name": "Travis Kelce",
+          "first_name": "Travis",
+          "last_name": "Kelce",
+          "position": "TE",
           "fantasy_positions": [
-            "RB"
+            "TE"
           ],
-          "team": "MIA",
+          "team": "KC",
           "status": "Active",
           "injury_status": null,
-          "age": 22,
-          "years_exp": 1
+          "age": 37,
+          "years_exp": 13
         },
         {
           "player_id": "9230",
@@ -1473,7 +1473,7 @@
           ],
           "team": "HOU",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 24,
           "years_exp": 1
         },
@@ -1547,8 +1547,8 @@
             "RB"
           ],
           "team": "DEN",
-          "status": "Inactive",
-          "injury_status": "IR",
+          "status": "Active",
+          "injury_status": null,
           "age": 23,
           "years_exp": null
         },
@@ -1775,7 +1775,7 @@
           ],
           "team": "HOU",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 24,
           "years_exp": 1
         },
@@ -1851,8 +1851,8 @@
             "RB"
           ],
           "team": "DEN",
-          "status": "Inactive",
-          "injury_status": "IR",
+          "status": "Active",
+          "injury_status": null,
           "age": 23,
           "years_exp": null
         },
@@ -1990,7 +1990,7 @@
           ],
           "team": "MIA",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 23,
           "years_exp": 2
         },
@@ -2079,8 +2079,8 @@
             "WR"
           ],
           "team": "SF",
-          "status": "Inactive",
-          "injury_status": "IR",
+          "status": "Active",
+          "injury_status": null,
           "age": 29,
           "years_exp": 8
         },
@@ -2171,7 +2171,7 @@
           "team": "PIT",
           "status": "Active",
           "injury_status": null,
-          "age": 27,
+          "age": 28,
           "years_exp": 5
         },
         {
@@ -2703,7 +2703,7 @@
           ],
           "team": "DEN",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 27,
           "years_exp": 5
         },
@@ -3030,6 +3030,21 @@
           "years_exp": 3
         },
         {
+          "player_id": "11435",
+          "name": "Emanuel Wilson",
+          "first_name": "Emanuel",
+          "last_name": "Wilson",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "team": "SEA",
+          "status": "Active",
+          "injury_status": null,
+          "age": 27,
+          "years_exp": 3
+        },
+        {
           "player_id": "11637",
           "name": "Keon Coleman",
           "first_name": "Keon",
@@ -3070,7 +3085,7 @@
           ],
           "team": "GB",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 23,
           "years_exp": 1
         },
@@ -3100,7 +3115,7 @@
           ],
           "team": "LAR",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 23,
           "years_exp": null
         },
@@ -3116,21 +3131,6 @@
           "team": "SEA",
           "status": "Inactive",
           "injury_status": "IR",
-          "age": 23,
-          "years_exp": null
-        },
-        {
-          "player_id": "13305",
-          "name": "Mike Washington Jr.",
-          "first_name": "Mike",
-          "last_name": "Washington Jr.",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "LV",
-          "status": "Active",
-          "injury_status": "Questionable",
           "age": 23,
           "years_exp": null
         },
@@ -3190,7 +3190,7 @@
           ],
           "team": "TB",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 31,
           "years_exp": 8
         },
@@ -3250,7 +3250,7 @@
           ],
           "team": "PHI",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 31,
           "years_exp": 8
         },
@@ -3310,7 +3310,7 @@
           ],
           "team": "TB",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 27,
           "years_exp": 5
         },
@@ -3377,19 +3377,19 @@
           "years_exp": 8
         },
         {
-          "player_id": "13305",
-          "name": "Mike Washington Jr.",
-          "first_name": "Mike",
-          "last_name": "Washington Jr.",
+          "player_id": "11435",
+          "name": "Emanuel Wilson",
+          "first_name": "Emanuel",
+          "last_name": "Wilson",
           "position": "RB",
           "fantasy_positions": [
             "RB"
           ],
-          "team": "LV",
+          "team": "SEA",
           "status": "Active",
-          "injury_status": "Questionable",
-          "age": 23,
-          "years_exp": null
+          "injury_status": null,
+          "age": 27,
+          "years_exp": 3
         },
         {
           "player_id": "7567",
@@ -3402,7 +3402,7 @@
           ],
           "team": "TB",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 27,
           "years_exp": 5
         },
@@ -3462,7 +3462,7 @@
           ],
           "team": "PHI",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 31,
           "years_exp": 8
         },
@@ -3509,7 +3509,7 @@
           ],
           "team": "LAR",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 23,
           "years_exp": null
         },
@@ -3647,7 +3647,7 @@
           ],
           "team": "HOU",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 25,
           "years_exp": 1
         },
@@ -3692,7 +3692,7 @@
           ],
           "team": "LAR",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 23,
           "years_exp": null
         },
@@ -3722,7 +3722,7 @@
           ],
           "team": "MIN",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 23,
           "years_exp": null
         },
@@ -3782,7 +3782,7 @@
           ],
           "team": "BAL",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "age": 29,
           "years_exp": 8
         },
@@ -3857,7 +3857,7 @@
           ],
           "team": "ATL",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 25,
           "years_exp": 4
         },
@@ -3932,7 +3932,7 @@
           ],
           "team": "LAR",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 25,
           "years_exp": 3
         }
@@ -3964,7 +3964,7 @@
           ],
           "team": "HOU",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 25,
           "years_exp": 1
         },
@@ -4054,7 +4054,7 @@
           ],
           "team": "ATL",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 25,
           "years_exp": 4
         },
@@ -4086,7 +4086,7 @@
           ],
           "team": "LAR",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 23,
           "years_exp": null
         },
@@ -4299,7 +4299,7 @@
           ],
           "team": "PIT",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 22,
           "years_exp": null
         },
@@ -4359,7 +4359,7 @@
           ],
           "team": "MIN",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 31,
           "years_exp": 9
         },
@@ -4541,7 +4541,7 @@
           ],
           "team": "MIN",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 31,
           "years_exp": 9
         },
@@ -4648,7 +4648,7 @@
           ],
           "team": "PIT",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 22,
           "years_exp": null
         }
@@ -4786,7 +4786,7 @@
           ],
           "team": "BAL",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 23,
           "years_exp": null
         },
@@ -4936,7 +4936,7 @@
           ],
           "team": "PHI",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "age": 27,
           "years_exp": 5
         },
@@ -5123,19 +5123,19 @@
           "years_exp": 6
         },
         {
-          "player_id": "7525",
-          "name": "DeVonta Smith",
-          "first_name": "DeVonta",
-          "last_name": "Smith",
+          "player_id": "9756",
+          "name": "Jordan Addison",
+          "first_name": "Jordan",
+          "last_name": "Addison",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "PHI",
+          "team": "MIN",
           "status": "Active",
-          "injury_status": "Questionable",
-          "age": 27,
-          "years_exp": 5
+          "injury_status": null,
+          "age": 24,
+          "years_exp": 3
         },
         {
           "player_id": "10859",
@@ -5183,19 +5183,19 @@
           "years_exp": 4
         },
         {
-          "player_id": "11581",
-          "name": "MarShawn Lloyd",
-          "first_name": "MarShawn",
-          "last_name": "Lloyd",
+          "player_id": "12489",
+          "name": "RJ Harvey",
+          "first_name": "RJ",
+          "last_name": "Harvey",
           "position": "RB",
           "fantasy_positions": [
             "RB"
           ],
-          "team": "GB",
+          "team": "DEN",
           "status": "Active",
           "injury_status": null,
           "age": 25,
-          "years_exp": 2
+          "years_exp": 1
         }
       ],
       "taxi": [
@@ -5210,7 +5210,7 @@
           ],
           "team": "BAL",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 23,
           "years_exp": null
         },
@@ -5468,7 +5468,7 @@
           ],
           "team": "SF",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 30,
           "years_exp": 9
         },
@@ -5755,7 +5755,7 @@
           ],
           "team": "SF",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 30,
           "years_exp": 9
         },
@@ -5863,7 +5863,7 @@
       "original_roster_id": 1,
       "previous_owner_roster_id": 2,
       "current_owner_roster_id": 9,
-      "original_team": "Young N Hip",
+      "original_team": "Imperialist Junta",
       "previous_team": "Cam dog",
       "current_team": "The Crusty CreamPies"
     },
@@ -5873,8 +5873,8 @@
       "original_roster_id": 1,
       "previous_owner_roster_id": 1,
       "current_owner_roster_id": 7,
-      "original_team": "Young N Hip",
-      "previous_team": "Young N Hip",
+      "original_team": "Imperialist Junta",
+      "previous_team": "Imperialist Junta",
       "current_team": "I Chase Brown People"
     },
     {
@@ -5883,8 +5883,8 @@
       "original_roster_id": 1,
       "previous_owner_roster_id": 1,
       "current_owner_roster_id": 2,
-      "original_team": "Young N Hip",
-      "previous_team": "Young N Hip",
+      "original_team": "Imperialist Junta",
+      "previous_team": "Imperialist Junta",
       "current_team": "Cam dog"
     },
     {
@@ -5904,7 +5904,7 @@
       "previous_owner_roster_id": 1,
       "current_owner_roster_id": 2,
       "original_team": "Cam dog",
-      "previous_team": "Young N Hip",
+      "previous_team": "Imperialist Junta",
       "current_team": "Cam dog"
     },
     {
@@ -5915,7 +5915,7 @@
       "current_owner_roster_id": 1,
       "original_team": "Cam dog",
       "previous_team": "Cam dog",
-      "current_team": "Young N Hip"
+      "current_team": "Imperialist Junta"
     },
     {
       "season": "2027",
@@ -5995,7 +5995,7 @@
       "current_owner_roster_id": 1,
       "original_team": "Cam dog",
       "previous_team": "Cam dog",
-      "current_team": "Young N Hip"
+      "current_team": "Imperialist Junta"
     },
     {
       "season": "2029",
@@ -6025,7 +6025,7 @@
       "current_owner_roster_id": 1,
       "original_team": "Third Down Syndrome",
       "previous_team": "Cam dog",
-      "current_team": "Young N Hip"
+      "current_team": "Imperialist Junta"
     },
     {
       "season": "2027",
@@ -6105,7 +6105,7 @@
       "current_owner_roster_id": 1,
       "original_team": "Raw Dawgs",
       "previous_team": "Cam dog",
-      "current_team": "Young N Hip"
+      "current_team": "Imperialist Junta"
     },
     {
       "season": "2026",
@@ -6335,7 +6335,7 @@
       "current_owner_roster_id": 1,
       "original_team": "I Chase Brown People",
       "previous_team": "Third Down Syndrome",
-      "current_team": "Young N Hip"
+      "current_team": "Imperialist Junta"
     },
     {
       "season": "2027",
@@ -6355,7 +6355,7 @@
       "current_owner_roster_id": 1,
       "original_team": "I Chase Brown People",
       "previous_team": "I Chase Brown People",
-      "current_team": "Young N Hip"
+      "current_team": "Imperialist Junta"
     },
     {
       "season": "2026",
@@ -6395,7 +6395,7 @@
       "current_owner_roster_id": 1,
       "original_team": "Sugerdaddy",
       "previous_team": "Sugerdaddy",
-      "current_team": "Young N Hip"
+      "current_team": "Imperialist Junta"
     },
     {
       "season": "2026",
@@ -6455,7 +6455,7 @@
       "current_owner_roster_id": 1,
       "original_team": "Sugerdaddy",
       "previous_team": "Sugerdaddy",
-      "current_team": "Young N Hip"
+      "current_team": "Imperialist Junta"
     }
   ],
   "draft_pick_ownership": [
@@ -6463,9 +6463,9 @@
       "season": "2027",
       "round": 1,
       "original_roster_id": 1,
-      "original_team": "Young N Hip",
+      "original_team": "Imperialist Junta",
       "current_owner_roster_id": 1,
-      "current_team": "Young N Hip",
+      "current_team": "Imperialist Junta",
       "previous_owner_roster_id": null,
       "previous_team": null,
       "has_been_traded": false
@@ -6474,9 +6474,9 @@
       "season": "2027",
       "round": 2,
       "original_roster_id": 1,
-      "original_team": "Young N Hip",
+      "original_team": "Imperialist Junta",
       "current_owner_roster_id": 1,
-      "current_team": "Young N Hip",
+      "current_team": "Imperialist Junta",
       "previous_owner_roster_id": null,
       "previous_team": null,
       "has_been_traded": false
@@ -6485,9 +6485,9 @@
       "season": "2027",
       "round": 3,
       "original_roster_id": 1,
-      "original_team": "Young N Hip",
+      "original_team": "Imperialist Junta",
       "current_owner_roster_id": 1,
-      "current_team": "Young N Hip",
+      "current_team": "Imperialist Junta",
       "previous_owner_roster_id": null,
       "previous_team": null,
       "has_been_traded": false
@@ -6674,7 +6674,7 @@
       "original_roster_id": 7,
       "original_team": "I Chase Brown People",
       "current_owner_roster_id": 1,
-      "current_team": "Young N Hip",
+      "current_team": "Imperialist Junta",
       "previous_owner_roster_id": 3,
       "previous_team": "Third Down Syndrome",
       "has_been_traded": true
@@ -6793,9 +6793,9 @@
       "season": "2028",
       "round": 1,
       "original_roster_id": 1,
-      "original_team": "Young N Hip",
+      "original_team": "Imperialist Junta",
       "current_owner_roster_id": 1,
-      "current_team": "Young N Hip",
+      "current_team": "Imperialist Junta",
       "previous_owner_roster_id": null,
       "previous_team": null,
       "has_been_traded": false
@@ -6804,9 +6804,9 @@
       "season": "2028",
       "round": 2,
       "original_roster_id": 1,
-      "original_team": "Young N Hip",
+      "original_team": "Imperialist Junta",
       "current_owner_roster_id": 1,
-      "current_team": "Young N Hip",
+      "current_team": "Imperialist Junta",
       "previous_owner_roster_id": null,
       "previous_team": null,
       "has_been_traded": false
@@ -6815,11 +6815,11 @@
       "season": "2028",
       "round": 3,
       "original_roster_id": 1,
-      "original_team": "Young N Hip",
+      "original_team": "Imperialist Junta",
       "current_owner_roster_id": 2,
       "current_team": "Cam dog",
       "previous_owner_roster_id": 1,
-      "previous_team": "Young N Hip",
+      "previous_team": "Imperialist Junta",
       "has_been_traded": true
     },
     {
@@ -7004,7 +7004,7 @@
       "original_roster_id": 7,
       "original_team": "I Chase Brown People",
       "current_owner_roster_id": 1,
-      "current_team": "Young N Hip",
+      "current_team": "Imperialist Junta",
       "previous_owner_roster_id": 7,
       "previous_team": "I Chase Brown People",
       "has_been_traded": true
@@ -7114,7 +7114,7 @@
       "original_roster_id": 10,
       "original_team": "Sugerdaddy",
       "current_owner_roster_id": 1,
-      "current_team": "Young N Hip",
+      "current_team": "Imperialist Junta",
       "previous_owner_roster_id": 10,
       "previous_team": "Sugerdaddy",
       "has_been_traded": true
@@ -7123,9 +7123,9 @@
       "season": "2029",
       "round": 1,
       "original_roster_id": 1,
-      "original_team": "Young N Hip",
+      "original_team": "Imperialist Junta",
       "current_owner_roster_id": 1,
-      "current_team": "Young N Hip",
+      "current_team": "Imperialist Junta",
       "previous_owner_roster_id": null,
       "previous_team": null,
       "has_been_traded": false
@@ -7134,9 +7134,9 @@
       "season": "2029",
       "round": 2,
       "original_roster_id": 1,
-      "original_team": "Young N Hip",
+      "original_team": "Imperialist Junta",
       "current_owner_roster_id": 1,
-      "current_team": "Young N Hip",
+      "current_team": "Imperialist Junta",
       "previous_owner_roster_id": null,
       "previous_team": null,
       "has_been_traded": false
@@ -7145,9 +7145,9 @@
       "season": "2029",
       "round": 3,
       "original_roster_id": 1,
-      "original_team": "Young N Hip",
+      "original_team": "Imperialist Junta",
       "current_owner_roster_id": 1,
-      "current_team": "Young N Hip",
+      "current_team": "Imperialist Junta",
       "previous_owner_roster_id": null,
       "previous_team": null,
       "has_been_traded": false
@@ -7169,7 +7169,7 @@
       "original_roster_id": 2,
       "original_team": "Cam dog",
       "current_owner_roster_id": 1,
-      "current_team": "Young N Hip",
+      "current_team": "Imperialist Junta",
       "previous_owner_roster_id": 2,
       "previous_team": "Cam dog",
       "has_been_traded": true
@@ -7452,6 +7452,71 @@
   ],
   "recent_transactions": [
     {
+      "transaction_id": "1420056276829822976",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1792930309067,
+      "created_iso": "2026-10-25T12:11:49.067Z",
+      "week": 7,
+      "leg": 7,
+      "creator": "1008209629677158400",
+      "roster_ids": [
+        6
+      ],
+      "teams": [
+        {
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "11435",
+            "name": "Emanuel Wilson",
+            "first_name": "Emanuel",
+            "last_name": "Wilson",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "SEA",
+            "status": "Active",
+            "injury_status": null,
+            "age": 27,
+            "years_exp": 3
+          },
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "13305",
+            "name": "Mike Washington Jr.",
+            "first_name": "Mike",
+            "last_name": "Washington Jr.",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "LV",
+            "status": "Active",
+            "injury_status": null,
+            "age": 23,
+            "years_exp": null
+          },
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
       "transaction_id": "1419428144267411456",
       "type": "free_agent",
       "status": "complete",
@@ -7547,7 +7612,7 @@
             ],
             "team": "HOU",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 24,
             "years_exp": 1
           },
@@ -7726,7 +7791,7 @@
       "teams": [
         {
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         }
       ],
       "adds": [
@@ -7747,7 +7812,7 @@
             "years_exp": 3
           },
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         }
       ],
       "drops": [
@@ -7768,7 +7833,7 @@
             "years_exp": null
           },
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         }
       ],
       "draft_picks": [],
@@ -7942,8 +8007,8 @@
               "WR"
             ],
             "team": "SF",
-            "status": "Inactive",
-            "injury_status": "IR",
+            "status": "Active",
+            "injury_status": null,
             "age": 29,
             "years_exp": 8
           },
@@ -8102,7 +8167,7 @@
             ],
             "team": "TEN",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": "Out",
             "age": 25,
             "years_exp": 3
           },
@@ -8981,7 +9046,7 @@
       "teams": [
         {
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         }
       ],
       "adds": [
@@ -9002,7 +9067,7 @@
             "years_exp": 2
           },
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         }
       ],
       "drops": [
@@ -9018,12 +9083,12 @@
             ],
             "team": "PHI",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": "Out",
             "age": 25,
             "years_exp": 3
           },
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         }
       ],
       "draft_picks": [],
@@ -9046,7 +9111,7 @@
       "teams": [
         {
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         }
       ],
       "adds": [
@@ -9062,12 +9127,12 @@
             ],
             "team": "PHI",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": "Out",
             "age": 25,
             "years_exp": 3
           },
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         }
       ],
       "drops": [
@@ -9088,7 +9153,7 @@
             "years_exp": 8
           },
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         }
       ],
       "draft_picks": [],
@@ -9333,7 +9398,7 @@
       "teams": [
         {
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         }
       ],
       "adds": [
@@ -9354,7 +9419,7 @@
             "years_exp": 4
           },
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         }
       ],
       "drops": [
@@ -9375,7 +9440,7 @@
             "years_exp": null
           },
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         }
       ],
       "draft_picks": [],
@@ -9500,7 +9565,7 @@
             ],
             "team": "PHI",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": "Out",
             "age": 25,
             "years_exp": 3
           },
@@ -9656,7 +9721,7 @@
             ],
             "team": "TEN",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": "Out",
             "age": 25,
             "years_exp": 3
           },
@@ -10808,7 +10873,7 @@
       "teams": [
         {
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         },
         {
           "roster_id": 4,
@@ -10848,7 +10913,7 @@
       "teams": [
         {
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         }
       ],
       "adds": [
@@ -10869,7 +10934,7 @@
             "years_exp": null
           },
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         }
       ],
       "drops": [
@@ -10890,7 +10955,7 @@
             "years_exp": 3
           },
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         }
       ],
       "draft_picks": [],
@@ -10931,7 +10996,7 @@
             ],
             "team": "MIA",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 23,
             "years_exp": 2
           },
@@ -10983,7 +11048,7 @@
       "teams": [
         {
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         },
         {
           "roster_id": 4,
@@ -11060,7 +11125,7 @@
             ],
             "team": "TEN",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": "Out",
             "age": 25,
             "years_exp": 3
           },
@@ -11345,7 +11410,7 @@
             ],
             "team": "HOU",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 24,
             "years_exp": 1
           },
@@ -11516,7 +11581,7 @@
       "teams": [
         {
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         }
       ],
       "adds": [
@@ -11537,7 +11602,7 @@
             "years_exp": 1
           },
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         }
       ],
       "drops": [],
@@ -11648,7 +11713,7 @@
             ],
             "team": "TB",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 31,
             "years_exp": 8
           },
@@ -11688,7 +11753,7 @@
             ],
             "team": "TB",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 31,
             "years_exp": 8
           },
@@ -11829,7 +11894,7 @@
             ],
             "team": "SEA",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": "Out",
             "age": 29,
             "years_exp": 7
           },
@@ -12113,7 +12178,7 @@
       "teams": [
         {
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         }
       ],
       "adds": [
@@ -12134,7 +12199,7 @@
             "years_exp": 3
           },
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         }
       ],
       "drops": [
@@ -12155,7 +12220,7 @@
             "years_exp": 6
           },
           "roster_id": 1,
-          "team_name": "Young N Hip"
+          "team_name": "Imperialist Junta"
         }
       ],
       "draft_picks": [],
@@ -12497,7 +12562,7 @@
             "team": "PIT",
             "status": "Active",
             "injury_status": null,
-            "age": 27,
+            "age": 28,
             "years_exp": 5
           },
           "roster_id": 4,
@@ -12674,7 +12739,7 @@
             ],
             "team": "PIT",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 28,
             "years_exp": 6
           },
@@ -12721,7 +12786,7 @@
             ],
             "team": "PIT",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 28,
             "years_exp": 6
           },
@@ -12944,7 +13009,7 @@
             ],
             "team": "PIT",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 28,
             "years_exp": 6
           },
@@ -13035,7 +13100,7 @@
             ],
             "team": "SEA",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": "Out",
             "age": 29,
             "years_exp": 7
           },
@@ -13082,7 +13147,7 @@
             ],
             "team": "PHI",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": "Out",
             "age": 25,
             "years_exp": 3
           },
@@ -13578,51 +13643,6 @@
         }
       ],
       "drops": [],
-      "draft_picks": [],
-      "waiver_budget": [],
-      "waiver_bid": null,
-      "metadata": null
-    },
-    {
-      "transaction_id": "1403574560825122816",
-      "type": "free_agent",
-      "status": "complete",
-      "created": 1789000761756,
-      "created_iso": "2026-09-10T00:39:21.756Z",
-      "week": 1,
-      "leg": 1,
-      "creator": "1131294900231815168",
-      "roster_ids": [
-        7
-      ],
-      "teams": [
-        {
-          "roster_id": 7,
-          "team_name": "I Chase Brown People"
-        }
-      ],
-      "adds": [],
-      "drops": [
-        {
-          "player": {
-            "player_id": "4147",
-            "name": "Samaje Perine",
-            "first_name": "Samaje",
-            "last_name": "Perine",
-            "position": "RB",
-            "fantasy_positions": [
-              "RB"
-            ],
-            "team": "CIN",
-            "status": "Active",
-            "injury_status": null,
-            "age": 31,
-            "years_exp": 9
-          },
-          "roster_id": 7,
-          "team_name": "I Chase Brown People"
-        }
-      ],
       "draft_picks": [],
       "waiver_budget": [],
       "waiver_bid": null,
