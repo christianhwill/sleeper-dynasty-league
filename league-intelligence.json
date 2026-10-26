@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T15:00:46.508Z",
+  "generated_at": "2026-10-26T15:00:46.116Z",
   "intelligence_version": "1.0",
   "league": {
     "league_id": "1327788752298336256",
@@ -20,7 +20,7 @@
     "completed_regular_season_weeks": 34,
     "excluded_future_or_incomplete_matchups": 60,
     "owners_analyzed": 10,
-    "transaction_participations_analyzed": 736,
+    "transaction_participations_analyzed": 737,
     "future_matchups_excluded_from_historical_metrics": true
   },
   "methodology": {
@@ -195,7 +195,7 @@
           "owner_id": "1129875387229560832",
           "display_name": "christianhw17",
           "current_roster_id": 1,
-          "current_team_name": "Young N Hip",
+          "current_team_name": "Imperialist Junta",
           "historical_team_name": "Jacking Goff",
           "opponent_team_name": "Sugerdaddy",
           "points": 88.8,
@@ -235,7 +235,7 @@
           "owner_id": "1129875387229560832",
           "display_name": "christianhw17",
           "current_roster_id": 1,
-          "current_team_name": "Young N Hip",
+          "current_team_name": "Imperialist Junta",
           "historical_team_name": "Jacking Goff",
           "opponent_team_name": "I Chase Brown People",
           "points": 138.58,
@@ -434,7 +434,7 @@
       "current_roster_value": {
         "rank": 3,
         "score": 77.78,
-        "lineup_adjusted_value": 52890.25
+        "lineup_adjusted_value": 52932.85
       },
       "franchise_rank": 1
     },
@@ -506,7 +506,7 @@
       "current_roster_value": {
         "rank": 1,
         "score": 100,
-        "lineup_adjusted_value": 70864.5
+        "lineup_adjusted_value": 70919.4
       },
       "franchise_rank": 2
     },
@@ -575,7 +575,7 @@
       "current_roster_value": {
         "rank": 2,
         "score": 88.89,
-        "lineup_adjusted_value": 65166.65
+        "lineup_adjusted_value": 65264.55
       },
       "franchise_rank": 3
     },
@@ -644,7 +644,7 @@
       "current_roster_value": {
         "rank": 4,
         "score": 66.67,
-        "lineup_adjusted_value": 51138.2
+        "lineup_adjusted_value": 51141.45
       },
       "franchise_rank": 4
     },
@@ -713,7 +713,7 @@
       "current_roster_value": {
         "rank": 10,
         "score": 0,
-        "lineup_adjusted_value": 23540.55
+        "lineup_adjusted_value": 23432.15
       },
       "franchise_rank": 5
     },
@@ -782,9 +782,80 @@
       "current_roster_value": {
         "rank": 9,
         "score": 11.11,
-        "lineup_adjusted_value": 33294.05
+        "lineup_adjusted_value": 33463
       },
       "franchise_rank": 6
+    },
+    {
+      "owner_key": "user:1129875387229560832",
+      "owner_id": "1129875387229560832",
+      "display_name": "christianhw17",
+      "current_roster_id": 1,
+      "current_team_name": "Imperialist Junta",
+      "seasons_active": [
+        "2024",
+        "2025",
+        "2026"
+      ],
+      "team_names_used": [
+        "Amon-Ra Fondling God",
+        "Jacking Goff",
+        "Imperialist Junta"
+      ],
+      "regular_season": {
+        "wins": 15,
+        "losses": 19,
+        "ties": 0,
+        "games": 34,
+        "win_pct": 0.441,
+        "points_for": 4241.44,
+        "points_against": 4391.74,
+        "points_per_game": 124.75
+      },
+      "postseason": {
+        "wins": 2,
+        "losses": 2,
+        "ties": 0,
+        "games": 4,
+        "win_pct": 0.5,
+        "points_for": 600.58,
+        "points_against": 542.06,
+        "points_per_game": 150.15
+      },
+      "overall": {
+        "wins": 17,
+        "losses": 21,
+        "ties": 0,
+        "games": 38,
+        "win_pct": 0.447,
+        "points_for": 4842.02,
+        "points_against": 4933.8,
+        "points_per_game": 127.42
+      },
+      "championships": 0,
+      "championship_seasons": [],
+      "all_play": {
+        "wins": 140,
+        "losses": 166,
+        "ties": 0,
+        "win_pct": 0.458,
+        "expected_wins": 15.556,
+        "luck_wins": -0.556,
+        "rank": 5
+      },
+      "current_power": {
+        "rank": 7,
+        "power_score": 31.11,
+        "roster_value_score": 22.22,
+        "competitive_score": 16.66,
+        "draft_capital_score": 75
+      },
+      "current_roster_value": {
+        "rank": 8,
+        "score": 22.22,
+        "lineup_adjusted_value": 36376.1
+      },
+      "franchise_rank": 7
     },
     {
       "owner_key": "user:1131304330881077248",
@@ -851,78 +922,7 @@
       "current_roster_value": {
         "rank": 7,
         "score": 33.33,
-        "lineup_adjusted_value": 40947.8
-      },
-      "franchise_rank": 7
-    },
-    {
-      "owner_key": "user:1129875387229560832",
-      "owner_id": "1129875387229560832",
-      "display_name": "christianhw17",
-      "current_roster_id": 1,
-      "current_team_name": "Young N Hip",
-      "seasons_active": [
-        "2024",
-        "2025",
-        "2026"
-      ],
-      "team_names_used": [
-        "Amon-Ra Fondling God",
-        "Jacking Goff",
-        "Young N Hip"
-      ],
-      "regular_season": {
-        "wins": 15,
-        "losses": 19,
-        "ties": 0,
-        "games": 34,
-        "win_pct": 0.441,
-        "points_for": 4241.44,
-        "points_against": 4391.74,
-        "points_per_game": 124.75
-      },
-      "postseason": {
-        "wins": 2,
-        "losses": 2,
-        "ties": 0,
-        "games": 4,
-        "win_pct": 0.5,
-        "points_for": 600.58,
-        "points_against": 542.06,
-        "points_per_game": 150.15
-      },
-      "overall": {
-        "wins": 17,
-        "losses": 21,
-        "ties": 0,
-        "games": 38,
-        "win_pct": 0.447,
-        "points_for": 4842.02,
-        "points_against": 4933.8,
-        "points_per_game": 127.42
-      },
-      "championships": 0,
-      "championship_seasons": [],
-      "all_play": {
-        "wins": 140,
-        "losses": 166,
-        "ties": 0,
-        "win_pct": 0.458,
-        "expected_wins": 15.556,
-        "luck_wins": -0.556,
-        "rank": 5
-      },
-      "current_power": {
-        "rank": 7,
-        "power_score": 31.11,
-        "roster_value_score": 22.22,
-        "competitive_score": 16.66,
-        "draft_capital_score": 75
-      },
-      "current_roster_value": {
-        "rank": 8,
-        "score": 22.22,
-        "lineup_adjusted_value": 36318.45
+        "lineup_adjusted_value": 41173.7
       },
       "franchise_rank": 8
     },
@@ -993,7 +993,7 @@
       "current_roster_value": {
         "rank": 6,
         "score": 44.44,
-        "lineup_adjusted_value": 42901.85
+        "lineup_adjusted_value": 43065.45
       },
       "franchise_rank": 9
     },
@@ -1062,7 +1062,7 @@
       "current_roster_value": {
         "rank": 5,
         "score": 55.56,
-        "lineup_adjusted_value": 43358.55
+        "lineup_adjusted_value": 43578.6
       },
       "franchise_rank": 10
     }
@@ -1252,7 +1252,7 @@
         "owner_id": "1129875387229560832",
         "display_name": "christianhw17",
         "current_roster_id": 1,
-        "current_team_name": "Young N Hip",
+        "current_team_name": "Imperialist Junta",
         "weeks": 14,
         "actual_wins": 10,
         "actual_losses": 4,
@@ -3972,7 +3972,7 @@
         "owner_id": "1129875387229560832",
         "display_name": "christianhw17",
         "current_roster_id": 1,
-        "current_team_name": "Young N Hip",
+        "current_team_name": "Imperialist Junta",
         "weeks": 14,
         "actual_wins": 4,
         "actual_losses": 10,
@@ -5022,7 +5022,7 @@
         "owner_id": "1129875387229560832",
         "display_name": "christianhw17",
         "current_roster_id": 1,
-        "current_team_name": "Young N Hip",
+        "current_team_name": "Imperialist Junta",
         "weeks": 6,
         "actual_wins": 1,
         "actual_losses": 5,
@@ -5511,7 +5511,7 @@
         "owner_id": "1129875387229560832",
         "display_name": "christianhw17",
         "current_roster_id": 1,
-        "current_team_name": "Young N Hip",
+        "current_team_name": "Imperialist Junta",
         "seasons": [
           "2024",
           "2025",
@@ -5967,7 +5967,7 @@
           "owner_id": "1129875387229560832",
           "display_name": "christianhw17",
           "current_roster_id": 1,
-          "current_team_name": "Young N Hip"
+          "current_team_name": "Imperialist Junta"
         },
         "owner_2": {
           "owner_key": "user:1131304330881077248",
@@ -6334,7 +6334,7 @@
           "owner_id": "1129875387229560832",
           "display_name": "christianhw17",
           "current_roster_id": 1,
-          "current_team_name": "Young N Hip"
+          "current_team_name": "Imperialist Junta"
         },
         "owner_2": {
           "owner_key": "user:1129877684336578560",
@@ -7128,7 +7128,7 @@
           "owner_id": "1129875387229560832",
           "display_name": "christianhw17",
           "current_roster_id": 1,
-          "current_team_name": "Young N Hip"
+          "current_team_name": "Imperialist Junta"
         },
         "owner_2": {
           "owner_key": "user:1131304330881077248",
@@ -7495,7 +7495,7 @@
           "owner_id": "1129875387229560832",
           "display_name": "christianhw17",
           "current_roster_id": 1,
-          "current_team_name": "Young N Hip"
+          "current_team_name": "Imperialist Junta"
         },
         "owner_2": {
           "owner_key": "user:1129877684336578560",
@@ -8566,7 +8566,7 @@
           "owner_id": "1129875387229560832",
           "display_name": "christianhw17",
           "current_roster_id": 1,
-          "current_team_name": "Young N Hip"
+          "current_team_name": "Imperialist Junta"
         },
         "owner_2": {
           "owner_key": "user:1129909167751426048",
@@ -8589,7 +8589,7 @@
           "owner_id": "1129875387229560832",
           "display_name": "christianhw17",
           "current_roster_id": 1,
-          "current_team_name": "Young N Hip"
+          "current_team_name": "Imperialist Junta"
         },
         "rivalry_type": "Dead-Even Rivalry",
         "rivalry_score": 50,
@@ -8796,7 +8796,7 @@
           "owner_id": "1129875387229560832",
           "display_name": "christianhw17",
           "current_roster_id": 1,
-          "current_team_name": "Young N Hip"
+          "current_team_name": "Imperialist Junta"
         },
         "owner_2": {
           "owner_key": "user:937819151345799168",
@@ -8894,7 +8894,7 @@
           "owner_id": "1129875387229560832",
           "display_name": "christianhw17",
           "current_roster_id": 1,
-          "current_team_name": "Young N Hip"
+          "current_team_name": "Imperialist Junta"
         },
         "owner_2": {
           "owner_key": "user:859906411432366080",
@@ -9131,7 +9131,7 @@
           "owner_id": "1129875387229560832",
           "display_name": "christianhw17",
           "current_roster_id": 1,
-          "current_team_name": "Young N Hip"
+          "current_team_name": "Imperialist Junta"
         },
         "games": 2,
         "wins_1": 1,
@@ -9200,7 +9200,7 @@
           "owner_id": "1129875387229560832",
           "display_name": "christianhw17",
           "current_roster_id": 1,
-          "current_team_name": "Young N Hip"
+          "current_team_name": "Imperialist Junta"
         },
         "owner_2": {
           "owner_key": "user:1129881968960901120",
@@ -9223,7 +9223,7 @@
           "owner_id": "1129875387229560832",
           "display_name": "christianhw17",
           "current_roster_id": 1,
-          "current_team_name": "Young N Hip"
+          "current_team_name": "Imperialist Junta"
         },
         "rivalry_type": "One-Sided Feud",
         "rivalry_score": 47.56,
@@ -10119,7 +10119,7 @@
           "owner_id": "1129875387229560832",
           "display_name": "christianhw17",
           "current_roster_id": 1,
-          "current_team_name": "Young N Hip"
+          "current_team_name": "Imperialist Junta"
         },
         "owner_2": {
           "owner_key": "user:1129897778072649728",
@@ -10557,7 +10557,7 @@
           "owner_id": "1129875387229560832",
           "display_name": "christianhw17",
           "current_roster_id": 1,
-          "current_team_name": "Young N Hip"
+          "current_team_name": "Imperialist Junta"
         },
         "owner_2": {
           "owner_key": "user:1131294900231815168",
@@ -11636,7 +11636,7 @@
       "owner_id": "1129875387229560832",
       "display_name": "christianhw17",
       "current_roster_id": 1,
-      "current_team_name": "Young N Hip",
+      "current_team_name": "Imperialist Junta",
       "primary_archetype": {
         "id": "future_builder",
         "label": "The Future Builder",
@@ -11794,7 +11794,7 @@
         "first_round_picks_sent": 4,
         "net_draft_picks_acquired": -5,
         "current_future_firsts": 2,
-        "current_average_roster_age": 26.36,
+        "current_average_roster_age": 26.41,
         "current_power_rank": 3,
         "current_power_score": 71.39
       }
@@ -11873,12 +11873,12 @@
       },
       "evidence": {
         "completed_trades": 19,
-        "transactions_involved": 55,
-        "waiver_and_free_agent_activity_score_raw": 43,
+        "transactions_involved": 56,
+        "waiver_and_free_agent_activity_score_raw": 44,
         "first_round_picks_sent": 4,
         "net_draft_picks_acquired": -2,
         "current_future_firsts": 3,
-        "current_average_roster_age": 26.96,
+        "current_average_roster_age": 27.13,
         "current_power_rank": 10,
         "current_power_score": 17.5
       }
@@ -12074,7 +12074,7 @@
           "owner_id": "1129875387229560832",
           "display_name": "christianhw17",
           "current_roster_id": 1,
-          "current_team_name": "Young N Hip"
+          "current_team_name": "Imperialist Junta"
         },
         "runner_up_team_name_at_time": "Amon-Ra Fondling God"
       },
@@ -12619,7 +12619,7 @@
         "owner_id": "1129875387229560832",
         "display_name": "christianhw17",
         "current_roster_id": 1,
-        "current_team_name": "Young N Hip",
+        "current_team_name": "Imperialist Junta",
         "historical_team_name": "Amon-Ra Fondling God",
         "opponent_team_name": "BING BONG",
         "points": 186.48,
@@ -13448,7 +13448,7 @@
         "owner_id": "1129875387229560832",
         "display_name": "christianhw17",
         "current_roster_id": 1,
-        "current_team_name": "Young N Hip",
+        "current_team_name": "Imperialist Junta",
         "weeks": 6,
         "actual_wins": 1,
         "actual_losses": 5,
@@ -13674,7 +13674,7 @@
           "owner_id": "1129875387229560832",
           "display_name": "christianhw17",
           "current_roster_id": 1,
-          "current_team_name": "Young N Hip",
+          "current_team_name": "Imperialist Junta",
           "historical_team_name": "Young N Hip",
           "opponent_team_name": "The Crusty CreamPies",
           "points": 140.34,
@@ -13795,7 +13795,7 @@
           "owner_id": "1129875387229560832",
           "display_name": "christianhw17",
           "current_roster_id": 1,
-          "current_team_name": "Young N Hip",
+          "current_team_name": "Imperialist Junta",
           "historical_team_name": "Jacking Goff",
           "opponent_team_name": "Sugerdaddy",
           "points": 88.8,
@@ -13960,7 +13960,7 @@
             "owner_id": "1129875387229560832",
             "display_name": "christianhw17",
             "current_roster_id": 1,
-            "current_team_name": "Young N Hip"
+            "current_team_name": "Imperialist Junta"
           },
           "runner_up_team_name_at_time": "Amon-Ra Fondling God"
         },
@@ -14494,7 +14494,7 @@
           "owner_id": "1129875387229560832",
           "display_name": "christianhw17",
           "current_roster_id": 1,
-          "current_team_name": "Young N Hip",
+          "current_team_name": "Imperialist Junta",
           "historical_team_name": "Amon-Ra Fondling God",
           "opponent_team_name": "BING BONG",
           "points": 186.48,
@@ -15261,7 +15261,7 @@
           "owner_id": "1129875387229560832",
           "display_name": "christianhw17",
           "current_roster_id": 1,
-          "current_team_name": "Young N Hip",
+          "current_team_name": "Imperialist Junta",
           "weeks": 6,
           "actual_wins": 1,
           "actual_losses": 5,
