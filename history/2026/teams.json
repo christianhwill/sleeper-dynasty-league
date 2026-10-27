@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T12:00:43.564Z",
+  "generated_at": "2026-10-27T00:00:46.632Z",
   "season": "2026",
   "teams": [
     {
@@ -789,21 +789,6 @@
           "years_exp": 1
         },
         {
-          "player_id": "12718",
-          "name": "Konata Mumpfield",
-          "first_name": "Konata",
-          "last_name": "Mumpfield",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "LAR",
-          "status": "Active",
-          "injury_status": null,
-          "age": 24,
-          "years_exp": 1
-        },
-        {
           "player_id": "13285",
           "name": "Malachi Fields",
           "first_name": "Malachi",
@@ -862,6 +847,21 @@
           "injury_status": null,
           "age": 37,
           "years_exp": 13
+        },
+        {
+          "player_id": "3321",
+          "name": "Tyreek Hill",
+          "first_name": "Tyreek",
+          "last_name": "Hill",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": null,
+          "status": "Active",
+          "injury_status": null,
+          "age": 31,
+          "years_exp": 10
         },
         {
           "player_id": "5850",
