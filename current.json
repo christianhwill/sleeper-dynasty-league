@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T12:00:43.564Z",
+  "generated_at": "2026-10-27T00:00:46.632Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -916,21 +916,6 @@
           "years_exp": 1
         },
         {
-          "player_id": "12718",
-          "name": "Konata Mumpfield",
-          "first_name": "Konata",
-          "last_name": "Mumpfield",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "LAR",
-          "status": "Active",
-          "injury_status": null,
-          "age": 24,
-          "years_exp": 1
-        },
-        {
           "player_id": "13285",
           "name": "Malachi Fields",
           "first_name": "Malachi",
@@ -989,6 +974,21 @@
           "injury_status": null,
           "age": 37,
           "years_exp": 13
+        },
+        {
+          "player_id": "3321",
+          "name": "Tyreek Hill",
+          "first_name": "Tyreek",
+          "last_name": "Hill",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": null,
+          "status": "Active",
+          "injury_status": null,
+          "age": 31,
+          "years_exp": 10
         },
         {
           "player_id": "5850",
@@ -7452,6 +7452,71 @@
   ],
   "recent_transactions": [
     {
+      "transaction_id": "1420512560188321792",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1793039095497,
+      "created_iso": "2026-10-26T18:24:55.497Z",
+      "week": 7,
+      "leg": 7,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "3321",
+            "name": "Tyreek Hill",
+            "first_name": "Tyreek",
+            "last_name": "Hill",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": null,
+            "status": "Active",
+            "injury_status": null,
+            "age": 31,
+            "years_exp": 10
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "12718",
+            "name": "Konata Mumpfield",
+            "first_name": "Konata",
+            "last_name": "Mumpfield",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "LAR",
+            "status": "Active",
+            "injury_status": null,
+            "age": 24,
+            "years_exp": 1
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
       "transaction_id": "1420056276829822976",
       "type": "free_agent",
       "status": "complete",
@@ -13598,51 +13663,6 @@
           "team_name": "Sugerdaddy"
         }
       ],
-      "draft_picks": [],
-      "waiver_budget": [],
-      "waiver_bid": null,
-      "metadata": null
-    },
-    {
-      "transaction_id": "1403574732313341952",
-      "type": "free_agent",
-      "status": "complete",
-      "created": 1789000802643,
-      "created_iso": "2026-09-10T00:40:02.643Z",
-      "week": 1,
-      "leg": 1,
-      "creator": "1131294900231815168",
-      "roster_ids": [
-        7
-      ],
-      "teams": [
-        {
-          "roster_id": 7,
-          "team_name": "I Chase Brown People"
-        }
-      ],
-      "adds": [
-        {
-          "player": {
-            "player_id": "1373",
-            "name": "Geno Smith",
-            "first_name": "Geno",
-            "last_name": "Smith",
-            "position": "QB",
-            "fantasy_positions": [
-              "QB"
-            ],
-            "team": "NYJ",
-            "status": "Active",
-            "injury_status": null,
-            "age": 36,
-            "years_exp": 13
-          },
-          "roster_id": 7,
-          "team_name": "I Chase Brown People"
-        }
-      ],
-      "drops": [],
       "draft_picks": [],
       "waiver_budget": [],
       "waiver_bid": null,
