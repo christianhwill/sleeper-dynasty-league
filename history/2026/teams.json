@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T00:00:12.859Z",
+  "generated_at": "2026-10-28T12:00:13.227Z",
   "season": "2026",
   "teams": [
     {
@@ -20,7 +20,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 25,
-        "waiver_position": 6,
+        "waiver_position": 5,
         "wins": 1
       },
       "record": {
@@ -102,7 +102,7 @@
           ],
           "team": "IND",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "age": 24,
           "years_exp": 1
         },
@@ -177,7 +177,7 @@
           ],
           "team": "ARI",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "age": 23,
           "years_exp": null
         },
@@ -192,7 +192,7 @@
           ],
           "team": "TEN",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": null,
           "age": 22,
           "years_exp": null
         },
@@ -297,7 +297,7 @@
           ],
           "team": "PHI",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 26,
           "years_exp": 4
         },
@@ -541,7 +541,7 @@
           ],
           "team": "TEN",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": null,
           "age": 22,
           "years_exp": null
         },
@@ -612,7 +612,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 100,
-        "waiver_position": 7,
+        "waiver_position": 6,
         "wins": 1
       },
       "record": {
@@ -784,7 +784,7 @@
           ],
           "team": "CHI",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "age": 24,
           "years_exp": 1
         },
@@ -859,7 +859,7 @@
           ],
           "team": null,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 31,
           "years_exp": 10
         },
@@ -949,7 +949,7 @@
           ],
           "team": "NYJ",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "age": 25,
           "years_exp": 4
         },
@@ -1011,7 +1011,7 @@
           ],
           "team": "NYJ",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "age": 25,
           "years_exp": 4
         },
@@ -1203,8 +1203,8 @@
         "ppts_decimal": 42,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 60,
-        "waiver_position": 9,
+        "waiver_budget_used": 69,
+        "waiver_position": 10,
         "wins": 2
       },
       "record": {
@@ -1226,7 +1226,7 @@
           ],
           "team": "KC",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "age": 26,
           "years_exp": 3
         },
@@ -1316,7 +1316,7 @@
           ],
           "team": "LAC",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "age": 24,
           "years_exp": 1
         },
@@ -1336,21 +1336,6 @@
           "years_exp": 1
         },
         {
-          "player_id": "12536",
-          "name": "Jaylin Noel",
-          "first_name": "Jaylin",
-          "last_name": "Noel",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "HOU",
-          "status": "Active",
-          "injury_status": "Questionable",
-          "age": 24,
-          "years_exp": 1
-        },
-        {
           "player_id": "13287",
           "name": "Jeremiyah Love",
           "first_name": "Jeremiyah",
@@ -1361,7 +1346,7 @@
           ],
           "team": "ARI",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "age": 21,
           "years_exp": null
         },
@@ -1396,18 +1381,18 @@
           "years_exp": null
         },
         {
-          "player_id": "13317",
-          "name": "Ted Hurst III",
-          "first_name": "Ted",
-          "last_name": "Hurst III",
-          "position": "WR",
+          "player_id": "13305",
+          "name": "Mike Washington Jr.",
+          "first_name": "Mike",
+          "last_name": "Washington Jr.",
+          "position": "RB",
           "fantasy_positions": [
-            "WR"
+            "RB"
           ],
-          "team": "TB",
+          "team": "LV",
           "status": "Active",
           "injury_status": null,
-          "age": 22,
+          "age": 23,
           "years_exp": null
         },
         {
@@ -1528,6 +1513,21 @@
           "status": "Inactive",
           "injury_status": "IR",
           "age": 26,
+          "years_exp": 4
+        },
+        {
+          "player_id": "8210",
+          "name": "Chig Okonkwo",
+          "first_name": "Chig",
+          "last_name": "Okonkwo",
+          "position": "TE",
+          "fantasy_positions": [
+            "TE"
+          ],
+          "team": "WAS",
+          "status": "Active",
+          "injury_status": null,
+          "age": 27,
           "years_exp": 4
         },
         {
@@ -1796,7 +1796,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 73,
-        "waiver_position": 10,
+        "waiver_position": 8,
         "wins": 5
       },
       "record": {
@@ -1878,7 +1878,7 @@
           ],
           "team": "CAR",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 24,
           "years_exp": 2
         },
@@ -2240,7 +2240,7 @@
           ],
           "team": "CAR",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 24,
           "years_exp": 2
         },
@@ -2328,7 +2328,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 3,
+        "waiver_position": 2,
         "wins": 4
       },
       "record": {
@@ -2867,8 +2867,8 @@
       "is_commissioner": false,
       "settings": {
         "fpts": 702,
-        "fpts_against": 950,
-        "fpts_against_decimal": 10,
+        "fpts_against": 949,
+        "fpts_against_decimal": 99,
         "fpts_decimal": 4,
         "losses": 5,
         "ppts": 854,
@@ -2876,7 +2876,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 4,
+        "waiver_position": 3,
         "wins": 2
       },
       "record": {
@@ -2884,7 +2884,7 @@
         "losses": 5,
         "ties": 0,
         "points_for": 702.04,
-        "points_against": 950.1
+        "points_against": 949.99
       },
       "players": [
         {
@@ -2958,7 +2958,7 @@
           ],
           "team": "GB",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": null,
           "age": 23,
           "years_exp": 1
         },
@@ -2988,7 +2988,7 @@
           ],
           "team": "LAR",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": null,
           "age": 23,
           "years_exp": null
         },
@@ -3093,7 +3093,7 @@
           ],
           "team": "BUF",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "age": 29,
           "years_exp": 8
         },
@@ -3183,7 +3183,7 @@
           ],
           "team": "TB",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 27,
           "years_exp": 5
         },
@@ -3275,7 +3275,7 @@
           ],
           "team": "TB",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 27,
           "years_exp": 5
         },
@@ -3382,7 +3382,7 @@
           ],
           "team": "LAR",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": null,
           "age": 23,
           "years_exp": null
         },
@@ -3431,21 +3431,21 @@
         "fpts": 1142,
         "fpts_against": 829,
         "fpts_against_decimal": 6,
-        "fpts_decimal": 42,
+        "fpts_decimal": 32,
         "losses": 2,
         "ppts": 1306,
-        "ppts_decimal": 58,
+        "ppts_decimal": 48,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 0,
-        "waiver_position": 1,
+        "waiver_budget_used": 13,
+        "waiver_position": 9,
         "wins": 5
       },
       "record": {
         "wins": 5,
         "losses": 2,
         "ties": 0,
-        "points_for": 1142.42,
+        "points_for": 1142.32,
         "points_against": 829.06
       },
       "players": [
@@ -3490,7 +3490,7 @@
           ],
           "team": "LAC",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "age": 24,
           "years_exp": 2
         },
@@ -3565,7 +3565,7 @@
           ],
           "team": "LAR",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": null,
           "age": 23,
           "years_exp": null
         },
@@ -3585,21 +3585,6 @@
           "years_exp": null
         },
         {
-          "player_id": "13347",
-          "name": "Demond Claiborne",
-          "first_name": "Demond",
-          "last_name": "Claiborne",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "MIN",
-          "status": "Active",
-          "injury_status": "Out",
-          "age": 23,
-          "years_exp": null
-        },
-        {
           "player_id": "13421",
           "name": "Eli Raridon",
           "first_name": "Eli",
@@ -3612,6 +3597,21 @@
           "status": "Active",
           "injury_status": null,
           "age": 22,
+          "years_exp": null
+        },
+        {
+          "player_id": "13424",
+          "name": "Seth McGowan",
+          "first_name": "Seth",
+          "last_name": "McGowan",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "team": "IND",
+          "status": "Active",
+          "injury_status": null,
+          "age": 25,
           "years_exp": null
         },
         {
@@ -3655,7 +3655,7 @@
           ],
           "team": "BAL",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "age": 29,
           "years_exp": 8
         },
@@ -3730,7 +3730,7 @@
           ],
           "team": "ATL",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 25,
           "years_exp": 4
         },
@@ -3827,19 +3827,19 @@
           "years_exp": 2
         },
         {
-          "player_id": "12474",
-          "name": "Woody Marks",
-          "first_name": "Woody",
-          "last_name": "Marks",
+          "player_id": "9224",
+          "name": "Chase Brown",
+          "first_name": "Chase",
+          "last_name": "Brown",
           "position": "RB",
           "fantasy_positions": [
             "RB"
           ],
-          "team": "HOU",
+          "team": "CIN",
           "status": "Active",
-          "injury_status": "Questionable",
-          "age": 25,
-          "years_exp": 1
+          "injury_status": null,
+          "age": 26,
+          "years_exp": 3
         },
         {
           "player_id": "12527",
@@ -3927,24 +3927,24 @@
           ],
           "team": "ATL",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 25,
           "years_exp": 4
         },
         {
-          "player_id": "1373",
-          "name": "Geno Smith",
-          "first_name": "Geno",
-          "last_name": "Smith",
+          "player_id": "6770",
+          "name": "Joe Burrow",
+          "first_name": "Joe",
+          "last_name": "Burrow",
           "position": "QB",
           "fantasy_positions": [
             "QB"
           ],
-          "team": "NYJ",
+          "team": "CIN",
           "status": "Active",
           "injury_status": null,
-          "age": 36,
-          "years_exp": 13
+          "age": 29,
+          "years_exp": 6
         }
       ],
       "taxi": [
@@ -3959,7 +3959,7 @@
           ],
           "team": "LAR",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": null,
           "age": 23,
           "years_exp": null
         },
@@ -4030,7 +4030,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 71,
-        "waiver_position": 2,
+        "waiver_position": 1,
         "wins": 4
       },
       "record": {
@@ -4112,7 +4112,7 @@
           ],
           "team": "TB",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "age": 24,
           "years_exp": 1
         },
@@ -4172,7 +4172,7 @@
           ],
           "team": "PIT",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": null,
           "age": 22,
           "years_exp": null
         },
@@ -4352,7 +4352,7 @@
           ],
           "team": "ATL",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "age": 27,
           "years_exp": 4
         },
@@ -4474,7 +4474,7 @@
           ],
           "team": "TB",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "age": 24,
           "years_exp": 1
         },
@@ -4521,7 +4521,7 @@
           ],
           "team": "PIT",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": null,
           "age": 22,
           "years_exp": null
         }
@@ -4562,7 +4562,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 8,
+        "waiver_position": 7,
         "wins": 5
       },
       "record": {
@@ -4659,7 +4659,7 @@
           ],
           "team": "BAL",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": null,
           "age": 23,
           "years_exp": null
         },
@@ -4809,7 +4809,7 @@
           ],
           "team": "PHI",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "age": 27,
           "years_exp": 5
         },
@@ -5083,7 +5083,7 @@
           ],
           "team": "BAL",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": null,
           "age": 23,
           "years_exp": null
         },
@@ -5154,7 +5154,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 4,
-        "waiver_position": 5,
+        "waiver_position": 4,
         "wins": 6
       },
       "record": {
@@ -5191,7 +5191,7 @@
           ],
           "team": "BUF",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 27,
           "years_exp": 3
         },
@@ -5521,7 +5521,7 @@
           ],
           "team": "SEA",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "age": 25,
           "years_exp": 3
         }
