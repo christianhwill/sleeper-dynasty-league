@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T12:00:13.227Z",
+  "generated_at": "2026-10-29T00:00:13.754Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -521,34 +521,19 @@
       ],
       "starters": [
         {
-          "player_id": "12545",
-          "name": "Tyler Shough",
-          "first_name": "Tyler",
-          "last_name": "Shough",
+          "player_id": "11559",
+          "name": "Michael Penix Jr.",
+          "first_name": "Michael",
+          "last_name": "Penix Jr.",
           "position": "QB",
           "fantasy_positions": [
             "QB"
           ],
-          "team": "NO",
+          "team": "ATL",
           "status": "Active",
           "injury_status": null,
-          "age": 27,
-          "years_exp": 1
-        },
-        {
-          "player_id": "8408",
-          "name": "Jordan Mason",
-          "first_name": "Jordan",
-          "last_name": "Mason",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "MIN",
-          "status": "Active",
-          "injury_status": null,
-          "age": 27,
-          "years_exp": 4
+          "age": 26,
+          "years_exp": 2
         },
         {
           "player_id": "7611",
@@ -564,6 +549,21 @@
           "injury_status": null,
           "age": 28,
           "years_exp": 5
+        },
+        {
+          "player_id": "8408",
+          "name": "Jordan Mason",
+          "first_name": "Jordan",
+          "last_name": "Mason",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "team": "MIN",
+          "status": "Active",
+          "injury_status": null,
+          "age": 27,
+          "years_exp": 4
         },
         {
           "player_id": "12526",
@@ -596,19 +596,19 @@
           "years_exp": 1
         },
         {
-          "player_id": "7553",
-          "name": "Kyle Pitts Sr.",
-          "first_name": "Kyle",
-          "last_name": "Pitts Sr.",
+          "player_id": "12518",
+          "name": "Tyler Warren",
+          "first_name": "Tyler",
+          "last_name": "Warren",
           "position": "TE",
           "fantasy_positions": [
             "TE"
           ],
-          "team": "ATL",
+          "team": "IND",
           "status": "Active",
-          "injury_status": null,
-          "age": 26,
-          "years_exp": 5
+          "injury_status": "Questionable",
+          "age": 24,
+          "years_exp": 1
         },
         {
           "player_id": "9500",
@@ -626,34 +626,34 @@
           "years_exp": 3
         },
         {
-          "player_id": "9501",
-          "name": "DeMario Douglas",
-          "first_name": "DeMario",
-          "last_name": "Douglas",
-          "position": "WR",
+          "player_id": "7553",
+          "name": "Kyle Pitts Sr.",
+          "first_name": "Kyle",
+          "last_name": "Pitts Sr.",
+          "position": "TE",
           "fantasy_positions": [
-            "WR"
+            "TE"
           ],
-          "team": "NE",
+          "team": "ATL",
           "status": "Active",
           "injury_status": null,
-          "age": 25,
-          "years_exp": 3
+          "age": 26,
+          "years_exp": 5
         },
         {
-          "player_id": "9758",
-          "name": "C.J. Stroud",
-          "first_name": "C.J.",
-          "last_name": "Stroud",
+          "player_id": "13269",
+          "name": "Fernando Mendoza",
+          "first_name": "Fernando",
+          "last_name": "Mendoza",
           "position": "QB",
           "fantasy_positions": [
             "QB"
           ],
-          "team": "HOU",
+          "team": "LV",
           "status": "Active",
           "injury_status": null,
-          "age": 25,
-          "years_exp": 3
+          "age": 23,
+          "years_exp": null
         }
       ],
       "taxi": [
@@ -871,6 +871,21 @@
           "years_exp": 1
         },
         {
+          "player_id": "12482",
+          "name": "Savion Williams",
+          "first_name": "Savion",
+          "last_name": "Williams",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "GB",
+          "status": "Active",
+          "injury_status": null,
+          "age": 24,
+          "years_exp": 1
+        },
+        {
           "player_id": "12495",
           "name": "Ollie Gordon II",
           "first_name": "Ollie",
@@ -1019,21 +1034,6 @@
           "injury_status": null,
           "age": 29,
           "years_exp": 7
-        },
-        {
-          "player_id": "6806",
-          "name": "J.K. Dobbins",
-          "first_name": "J.K.",
-          "last_name": "Dobbins",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "DEN",
-          "status": "Active",
-          "injury_status": null,
-          "age": 27,
-          "years_exp": 6
         },
         {
           "player_id": "7021",
@@ -1810,19 +1810,19 @@
           "years_exp": 2
         },
         {
-          "player_id": "11631",
-          "name": "Brian Thomas Jr.",
-          "first_name": "Brian",
-          "last_name": "Thomas Jr.",
+          "player_id": "2449",
+          "name": "Stefon Diggs",
+          "first_name": "Stefon",
+          "last_name": "Diggs",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "JAX",
+          "team": "WAS",
           "status": "Active",
           "injury_status": null,
-          "age": 24,
-          "years_exp": 2
+          "age": 32,
+          "years_exp": 11
         },
         {
           "player_id": "11566",
@@ -2297,19 +2297,19 @@
           "years_exp": 6
         },
         {
-          "player_id": "7594",
-          "name": "Chuba Hubbard",
-          "first_name": "Chuba",
-          "last_name": "Hubbard",
+          "player_id": "8138",
+          "name": "James Cook III",
+          "first_name": "James",
+          "last_name": "Cook III",
           "position": "RB",
           "fantasy_positions": [
             "RB"
           ],
-          "team": "CAR",
+          "team": "BUF",
           "status": "Active",
           "injury_status": null,
           "age": 27,
-          "years_exp": 5
+          "years_exp": 4
         },
         {
           "player_id": "7564",
@@ -2357,19 +2357,19 @@
           "years_exp": 3
         },
         {
-          "player_id": "11646",
-          "name": "Jalen Coker",
-          "first_name": "Jalen",
-          "last_name": "Coker",
-          "position": "WR",
+          "player_id": "7594",
+          "name": "Chuba Hubbard",
+          "first_name": "Chuba",
+          "last_name": "Hubbard",
+          "position": "RB",
           "fantasy_positions": [
-            "WR"
+            "RB"
           ],
           "team": "CAR",
           "status": "Active",
           "injury_status": null,
-          "age": 24,
-          "years_exp": 2
+          "age": 27,
+          "years_exp": 5
         },
         {
           "player_id": "11584",
@@ -3422,19 +3422,19 @@
           "years_exp": 3
         },
         {
-          "player_id": "4039",
-          "name": "Cooper Kupp",
-          "first_name": "Cooper",
-          "last_name": "Kupp",
+          "player_id": "4983",
+          "name": "DJ Moore",
+          "first_name": "DJ",
+          "last_name": "Moore",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "SEA",
+          "team": "BUF",
           "status": "Active",
-          "injury_status": null,
-          "age": 33,
-          "years_exp": 9
+          "injury_status": "Questionable",
+          "age": 29,
+          "years_exp": 8
         },
         {
           "player_id": "3271",
@@ -3467,19 +3467,19 @@
           "years_exp": 8
         },
         {
-          "player_id": "5012",
-          "name": "Mark Andrews",
-          "first_name": "Mark",
-          "last_name": "Andrews",
-          "position": "TE",
+          "player_id": "5947",
+          "name": "Jakobi Meyers",
+          "first_name": "Jakobi",
+          "last_name": "Meyers",
+          "position": "WR",
           "fantasy_positions": [
-            "TE"
+            "WR"
           ],
-          "team": "BAL",
+          "team": "JAX",
           "status": "Active",
           "injury_status": null,
-          "age": 31,
-          "years_exp": 8
+          "age": 29,
+          "years_exp": 7
         },
         {
           "player_id": "9228",
@@ -5730,19 +5730,19 @@
           "years_exp": 4
         },
         {
-          "player_id": "12506",
-          "name": "Harold Fannin Jr.",
-          "first_name": "Harold",
-          "last_name": "Fannin Jr.",
+          "player_id": "10236",
+          "name": "Dalton Kincaid",
+          "first_name": "Dalton",
+          "last_name": "Kincaid",
           "position": "TE",
           "fantasy_positions": [
             "TE"
           ],
-          "team": "CLE",
+          "team": "BUF",
           "status": "Active",
           "injury_status": null,
-          "age": 22,
-          "years_exp": 1
+          "age": 27,
+          "years_exp": 3
         },
         {
           "player_id": "4866",
@@ -5775,19 +5775,19 @@
           "years_exp": 1
         },
         {
-          "player_id": "4046",
-          "name": "Patrick Mahomes",
-          "first_name": "Patrick",
-          "last_name": "Mahomes",
+          "player_id": "1166",
+          "name": "Kirk Cousins",
+          "first_name": "Kirk",
+          "last_name": "Cousins",
           "position": "QB",
           "fantasy_positions": [
             "QB"
           ],
-          "team": "KC",
+          "team": "LV",
           "status": "Active",
           "injury_status": null,
-          "age": 31,
-          "years_exp": 9
+          "age": 38,
+          "years_exp": 14
         }
       ],
       "taxi": [
@@ -7451,6 +7451,71 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1421274351667306496",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1793220720739,
+      "created_iso": "2026-10-28T20:52:00.739Z",
+      "week": 8,
+      "leg": 8,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "12482",
+            "name": "Savion Williams",
+            "first_name": "Savion",
+            "last_name": "Williams",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "GB",
+            "status": "Active",
+            "injury_status": null,
+            "age": 24,
+            "years_exp": 1
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "6806",
+            "name": "J.K. Dobbins",
+            "first_name": "J.K.",
+            "last_name": "Dobbins",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "DEN",
+            "status": "Active",
+            "injury_status": null,
+            "age": 27,
+            "years_exp": 6
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
     {
       "transaction_id": "1420992238279766016",
       "type": "waiver",
@@ -13623,51 +13688,6 @@
             "team": "LV",
             "status": "Inactive",
             "injury_status": "IR",
-            "age": 23,
-            "years_exp": 1
-          },
-          "roster_id": 4,
-          "team_name": "Raw Dawgs"
-        }
-      ],
-      "draft_picks": [],
-      "waiver_budget": [],
-      "waiver_bid": null,
-      "metadata": null
-    },
-    {
-      "transaction_id": "1405266994260946944",
-      "type": "free_agent",
-      "status": "complete",
-      "created": 1789404269331,
-      "created_iso": "2026-09-14T16:44:29.331Z",
-      "week": 1,
-      "leg": 1,
-      "creator": "1129897778072649728",
-      "roster_ids": [
-        4
-      ],
-      "teams": [
-        {
-          "roster_id": 4,
-          "team_name": "Raw Dawgs"
-        }
-      ],
-      "adds": [],
-      "drops": [
-        {
-          "player": {
-            "player_id": "11569",
-            "name": "Jarquez Hunter",
-            "first_name": "Jarquez",
-            "last_name": "Hunter",
-            "position": "RB",
-            "fantasy_positions": [
-              "RB"
-            ],
-            "team": "NO",
-            "status": "Active",
-            "injury_status": null,
             "age": 23,
             "years_exp": 1
           },
