@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T00:00:13.754Z",
+  "generated_at": "2026-10-29T12:00:45.638Z",
   "league": {
     "league_id": "1327788752298336256",
     "name": "Oiled Without Consent",
@@ -304,11 +304,11 @@
       "round": 3,
       "original_roster_id": 9,
       "original_team": "The Crusty CreamPies",
-      "current_owner_roster_id": 9,
-      "current_team": "The Crusty CreamPies",
-      "previous_owner_roster_id": null,
-      "previous_team": null,
-      "has_been_traded": false
+      "current_owner_roster_id": 3,
+      "current_team": "Third Down Syndrome",
+      "previous_owner_roster_id": 9,
+      "previous_team": "The Crusty CreamPies",
+      "has_been_traded": true
     },
     {
       "season": "2027",
@@ -612,11 +612,11 @@
       "round": 1,
       "original_roster_id": 9,
       "original_team": "The Crusty CreamPies",
-      "current_owner_roster_id": 9,
-      "current_team": "The Crusty CreamPies",
-      "previous_owner_roster_id": null,
-      "previous_team": null,
-      "has_been_traded": false
+      "current_owner_roster_id": 3,
+      "current_team": "Third Down Syndrome",
+      "previous_owner_roster_id": 9,
+      "previous_team": "The Crusty CreamPies",
+      "has_been_traded": true
     },
     {
       "season": "2028",
@@ -1008,17 +1008,17 @@
     {
       "roster_id": 3,
       "team_name": "Third Down Syndrome",
-      "total_future_picks": 9,
-      "first_round_picks": 6,
+      "total_future_picks": 11,
+      "first_round_picks": 7,
       "second_round_picks": 1,
-      "third_round_picks": 2,
+      "third_round_picks": 3,
       "other_round_picks": 0,
       "by_season": {
         "2027": {
-          "total": 3,
+          "total": 4,
           "round_1": 3,
           "round_2": 0,
-          "round_3": 0,
+          "round_3": 1,
           "other_rounds": 0,
           "picks": [
             {
@@ -1038,12 +1038,18 @@
               "original_roster_id": 9,
               "original_team": "The Crusty CreamPies",
               "has_been_traded": true
+            },
+            {
+              "round": 3,
+              "original_roster_id": 9,
+              "original_team": "The Crusty CreamPies",
+              "has_been_traded": true
             }
           ]
         },
         "2028": {
-          "total": 3,
-          "round_1": 1,
+          "total": 4,
+          "round_1": 2,
           "round_2": 1,
           "round_3": 1,
           "other_rounds": 0,
@@ -1064,6 +1070,12 @@
               "round": 2,
               "original_roster_id": 6,
               "original_team": "McCaffrican Americans",
+              "has_been_traded": true
+            },
+            {
+              "round": 1,
+              "original_roster_id": 9,
+              "original_team": "The Crusty CreamPies",
               "has_been_traded": true
             }
           ]
@@ -1520,98 +1532,6 @@
       }
     },
     {
-      "roster_id": 9,
-      "team_name": "The Crusty CreamPies",
-      "total_future_picks": 9,
-      "first_round_picks": 2,
-      "second_round_picks": 3,
-      "third_round_picks": 4,
-      "other_round_picks": 0,
-      "by_season": {
-        "2027": {
-          "total": 3,
-          "round_1": 0,
-          "round_2": 1,
-          "round_3": 2,
-          "other_rounds": 0,
-          "picks": [
-            {
-              "round": 3,
-              "original_roster_id": 7,
-              "original_team": "I Chase Brown People",
-              "has_been_traded": true
-            },
-            {
-              "round": 2,
-              "original_roster_id": 9,
-              "original_team": "The Crusty CreamPies",
-              "has_been_traded": false
-            },
-            {
-              "round": 3,
-              "original_roster_id": 9,
-              "original_team": "The Crusty CreamPies",
-              "has_been_traded": false
-            }
-          ]
-        },
-        "2028": {
-          "total": 3,
-          "round_1": 1,
-          "round_2": 1,
-          "round_3": 1,
-          "other_rounds": 0,
-          "picks": [
-            {
-              "round": 1,
-              "original_roster_id": 9,
-              "original_team": "The Crusty CreamPies",
-              "has_been_traded": false
-            },
-            {
-              "round": 2,
-              "original_roster_id": 9,
-              "original_team": "The Crusty CreamPies",
-              "has_been_traded": false
-            },
-            {
-              "round": 3,
-              "original_roster_id": 9,
-              "original_team": "The Crusty CreamPies",
-              "has_been_traded": false
-            }
-          ]
-        },
-        "2029": {
-          "total": 3,
-          "round_1": 1,
-          "round_2": 1,
-          "round_3": 1,
-          "other_rounds": 0,
-          "picks": [
-            {
-              "round": 1,
-              "original_roster_id": 9,
-              "original_team": "The Crusty CreamPies",
-              "has_been_traded": false
-            },
-            {
-              "round": 2,
-              "original_roster_id": 9,
-              "original_team": "The Crusty CreamPies",
-              "has_been_traded": false
-            },
-            {
-              "round": 3,
-              "original_roster_id": 9,
-              "original_team": "The Crusty CreamPies",
-              "has_been_traded": false
-            }
-          ]
-        }
-      }
-    },
-    {
       "roster_id": 4,
       "team_name": "Raw Dawgs",
       "total_future_picks": 8,
@@ -1910,6 +1830,86 @@
               "round": 3,
               "original_roster_id": 10,
               "original_team": "Sugerdaddy",
+              "has_been_traded": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "roster_id": 9,
+      "team_name": "The Crusty CreamPies",
+      "total_future_picks": 7,
+      "first_round_picks": 1,
+      "second_round_picks": 3,
+      "third_round_picks": 3,
+      "other_round_picks": 0,
+      "by_season": {
+        "2027": {
+          "total": 2,
+          "round_1": 0,
+          "round_2": 1,
+          "round_3": 1,
+          "other_rounds": 0,
+          "picks": [
+            {
+              "round": 3,
+              "original_roster_id": 7,
+              "original_team": "I Chase Brown People",
+              "has_been_traded": true
+            },
+            {
+              "round": 2,
+              "original_roster_id": 9,
+              "original_team": "The Crusty CreamPies",
+              "has_been_traded": false
+            }
+          ]
+        },
+        "2028": {
+          "total": 2,
+          "round_1": 0,
+          "round_2": 1,
+          "round_3": 1,
+          "other_rounds": 0,
+          "picks": [
+            {
+              "round": 2,
+              "original_roster_id": 9,
+              "original_team": "The Crusty CreamPies",
+              "has_been_traded": false
+            },
+            {
+              "round": 3,
+              "original_roster_id": 9,
+              "original_team": "The Crusty CreamPies",
+              "has_been_traded": false
+            }
+          ]
+        },
+        "2029": {
+          "total": 3,
+          "round_1": 1,
+          "round_2": 1,
+          "round_3": 1,
+          "other_rounds": 0,
+          "picks": [
+            {
+              "round": 1,
+              "original_roster_id": 9,
+              "original_team": "The Crusty CreamPies",
+              "has_been_traded": false
+            },
+            {
+              "round": 2,
+              "original_roster_id": 9,
+              "original_team": "The Crusty CreamPies",
+              "has_been_traded": false
+            },
+            {
+              "round": 3,
+              "original_roster_id": 9,
+              "original_team": "The Crusty CreamPies",
               "has_been_traded": false
             }
           ]
