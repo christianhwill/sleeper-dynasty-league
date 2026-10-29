@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T12:00:13.227Z",
+  "generated_at": "2026-10-29T00:00:13.754Z",
   "season": "2026",
   "transactions": [
     {
@@ -12862,6 +12862,71 @@
       "metadata": {
         "notes": "Your waiver claim was processed successfully!"
       }
+    },
+    {
+      "transaction_id": "1421274351667306496",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1793220720739,
+      "created_iso": "2026-10-28T20:52:00.739Z",
+      "week": 8,
+      "leg": 8,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "12482",
+            "name": "Savion Williams",
+            "first_name": "Savion",
+            "last_name": "Williams",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "GB",
+            "status": "Active",
+            "injury_status": null,
+            "age": 24,
+            "years_exp": 1
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "6806",
+            "name": "J.K. Dobbins",
+            "first_name": "J.K.",
+            "last_name": "Dobbins",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "DEN",
+            "status": "Active",
+            "injury_status": null,
+            "age": 27,
+            "years_exp": 6
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
     }
   ]
 }
