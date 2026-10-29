@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T03:00:13.217Z",
+  "generated_at": "2026-10-29T03:00:13.691Z",
   "league_name": "Oiled Without Consent",
   "seasons": [
     {
@@ -17,11 +17,11 @@
     {
       "season": "2026",
       "league_id": "1327788752298336256",
-      "transaction_count": 204,
+      "transaction_count": 211,
       "trade_count": 24
     }
   ],
-  "transaction_count": 742,
+  "transaction_count": 749,
   "transactions": [
     {
       "transaction_id": "1133549782154219520",
@@ -36093,7 +36093,7 @@
             ],
             "team": "TEN",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 25,
             "years_exp": 3
           },
@@ -36140,7 +36140,7 @@
             ],
             "team": "ATL",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 27,
             "years_exp": 4
           },
@@ -36736,7 +36736,7 @@
             ],
             "team": "CLE",
             "status": "Active",
-            "injury_status": "IR",
+            "injury_status": null,
             "age": 25,
             "years_exp": 1
           },
@@ -38889,8 +38889,8 @@
               "RB"
             ],
             "team": "NYG",
-            "status": "Active",
-            "injury_status": "Questionable",
+            "status": "Inactive",
+            "injury_status": "IR",
             "age": 26,
             "years_exp": 2
           },
@@ -39689,8 +39689,8 @@
               "RB"
             ],
             "team": "NYG",
-            "status": "Active",
-            "injury_status": "Questionable",
+            "status": "Inactive",
+            "injury_status": "IR",
             "age": 26,
             "years_exp": 2
           },
@@ -40366,8 +40366,8 @@
               "RB"
             ],
             "team": "NYG",
-            "status": "Active",
-            "injury_status": "Questionable",
+            "status": "Inactive",
+            "injury_status": "IR",
             "age": 26,
             "years_exp": 2
           },
@@ -40444,8 +40444,8 @@
               "RB"
             ],
             "team": "NYG",
-            "status": "Active",
-            "injury_status": "Questionable",
+            "status": "Inactive",
+            "injury_status": "IR",
             "age": 26,
             "years_exp": 2
           },
@@ -40650,7 +40650,7 @@
             ],
             "team": "SEA",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 28,
             "years_exp": 4
           },
@@ -40766,7 +40766,7 @@
             ],
             "team": "SEA",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 28,
             "years_exp": 4
           },
@@ -41566,7 +41566,7 @@
             ],
             "team": "TEN",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 25,
             "years_exp": 3
           },
@@ -41794,8 +41794,8 @@
               "RB"
             ],
             "team": "NYG",
-            "status": "Active",
-            "injury_status": "Questionable",
+            "status": "Inactive",
+            "injury_status": "IR",
             "age": 26,
             "years_exp": 2
           },
@@ -42595,7 +42595,7 @@
             ],
             "team": "PHI",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 25,
             "years_exp": 3
           },
@@ -42664,7 +42664,7 @@
             ],
             "team": "SEA",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 29,
             "years_exp": 7
           },
@@ -43339,7 +43339,7 @@
             ],
             "team": "WAS",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 32,
             "years_exp": 11
           },
@@ -43754,7 +43754,7 @@
             ],
             "team": "WAS",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 32,
             "years_exp": 11
           },
@@ -43916,7 +43916,7 @@
             ],
             "team": "SEA",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 29,
             "years_exp": 7
           },
@@ -43983,7 +43983,7 @@
             ],
             "team": "WAS",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 32,
             "years_exp": 11
           },
@@ -44315,7 +44315,7 @@
             ],
             "team": "WAS",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 32,
             "years_exp": 11
           },
@@ -44413,7 +44413,7 @@
             ],
             "team": "WAS",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 32,
             "years_exp": 11
           },
@@ -44601,7 +44601,7 @@
             ],
             "team": "SEA",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 28,
             "years_exp": 4
           },
@@ -44729,7 +44729,7 @@
             ],
             "team": "TEN",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 25,
             "years_exp": 3
           },
@@ -45073,7 +45073,7 @@
             ],
             "team": null,
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 31,
             "years_exp": 10
           },
@@ -45113,7 +45113,7 @@
             ],
             "team": null,
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 31,
             "years_exp": 10
           },
@@ -46038,7 +46038,7 @@
             ],
             "team": "WAS",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 32,
             "years_exp": 11
           },
@@ -46155,7 +46155,7 @@
             ],
             "team": "TEN",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 25,
             "years_exp": 3
           },
@@ -46341,7 +46341,7 @@
             ],
             "team": "PHI",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 25,
             "years_exp": 3
           },
@@ -46454,7 +46454,7 @@
             ],
             "team": "PHI",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 26,
             "years_exp": 4
           },
@@ -46751,7 +46751,7 @@
             ],
             "team": "PHI",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 25,
             "years_exp": 3
           },
@@ -46839,7 +46839,7 @@
             ],
             "team": "PHI",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 25,
             "years_exp": 3
           },
@@ -47433,7 +47433,7 @@
             ],
             "team": null,
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 31,
             "years_exp": 10
           },
@@ -47753,7 +47753,7 @@
             ],
             "team": "TEN",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 25,
             "years_exp": 3
           },
@@ -48479,6 +48479,75 @@
       "league_id": "1327788752298336256"
     },
     {
+      "transaction_id": "1420059124711923712",
+      "type": "waiver",
+      "status": "complete",
+      "created": 1792930988056,
+      "created_iso": "2026-10-25T12:23:08.056Z",
+      "week": 7,
+      "leg": 7,
+      "creator": "1129881968960901120",
+      "roster_ids": [
+        3
+      ],
+      "teams": [
+        {
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "13305",
+            "name": "Mike Washington Jr.",
+            "first_name": "Mike",
+            "last_name": "Washington Jr.",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "LV",
+            "status": "Active",
+            "injury_status": null,
+            "age": 23,
+            "years_exp": null
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "13317",
+            "name": "Ted Hurst III",
+            "first_name": "Ted",
+            "last_name": "Hurst III",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "TB",
+            "status": "Active",
+            "injury_status": null,
+            "age": 22,
+            "years_exp": null
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 7,
+      "metadata": {
+        "notes": "Your waiver claim was processed successfully!"
+      },
+      "season": "2026",
+      "league_id": "1327788752298336256"
+    },
+    {
       "transaction_id": "1420512560188321792",
       "type": "free_agent",
       "status": "complete",
@@ -48509,7 +48578,7 @@
             ],
             "team": null,
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 31,
             "years_exp": 10
           },
@@ -48533,6 +48602,358 @@
             "injury_status": null,
             "age": 24,
             "years_exp": 1
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null,
+      "season": "2026",
+      "league_id": "1327788752298336256"
+    },
+    {
+      "transaction_id": "1420811023199309824",
+      "type": "waiver",
+      "status": "failed",
+      "created": 1793110254624,
+      "created_iso": "2026-10-27T14:10:54.624Z",
+      "week": 7,
+      "leg": 7,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "13305",
+            "name": "Mike Washington Jr.",
+            "first_name": "Mike",
+            "last_name": "Washington Jr.",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "LV",
+            "status": "Active",
+            "injury_status": null,
+            "age": 23,
+            "years_exp": null
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0,
+      "metadata": {
+        "notes": "This player was claimed by another owner."
+      },
+      "season": "2026",
+      "league_id": "1327788752298336256"
+    },
+    {
+      "transaction_id": "1420818964170190848",
+      "type": "waiver",
+      "status": "failed",
+      "created": 1793112147900,
+      "created_iso": "2026-10-27T14:42:27.900Z",
+      "week": 7,
+      "leg": 7,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "13424",
+            "name": "Seth McGowan",
+            "first_name": "Seth",
+            "last_name": "McGowan",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "IND",
+            "status": "Active",
+            "injury_status": null,
+            "age": 25,
+            "years_exp": null
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0,
+      "metadata": {
+        "notes": "This player was claimed by another owner."
+      },
+      "season": "2026",
+      "league_id": "1327788752298336256"
+    },
+    {
+      "transaction_id": "1420832749056434176",
+      "type": "waiver",
+      "status": "complete",
+      "created": 1793115434472,
+      "created_iso": "2026-10-27T15:37:14.472Z",
+      "week": 7,
+      "leg": 7,
+      "creator": "1129881968960901120",
+      "roster_ids": [
+        3
+      ],
+      "teams": [
+        {
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "8210",
+            "name": "Chig Okonkwo",
+            "first_name": "Chig",
+            "last_name": "Okonkwo",
+            "position": "TE",
+            "fantasy_positions": [
+              "TE"
+            ],
+            "team": "WAS",
+            "status": "Active",
+            "injury_status": null,
+            "age": 27,
+            "years_exp": 4
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "12536",
+            "name": "Jaylin Noel",
+            "first_name": "Jaylin",
+            "last_name": "Noel",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "HOU",
+            "status": "Active",
+            "injury_status": "Questionable",
+            "age": 24,
+            "years_exp": 1
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 2,
+      "metadata": {
+        "notes": "Your waiver claim was processed successfully!"
+      },
+      "season": "2026",
+      "league_id": "1327788752298336256"
+    },
+    {
+      "transaction_id": "1420942373080276992",
+      "type": "waiver",
+      "status": "failed",
+      "created": 1793141570876,
+      "created_iso": "2026-10-27T22:52:50.876Z",
+      "week": 7,
+      "leg": 7,
+      "creator": "937819151345799168",
+      "roster_ids": [
+        10
+      ],
+      "teams": [
+        {
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "13424",
+            "name": "Seth McGowan",
+            "first_name": "Seth",
+            "last_name": "McGowan",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "IND",
+            "status": "Active",
+            "injury_status": null,
+            "age": 25,
+            "years_exp": null
+          },
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 11,
+      "metadata": {
+        "notes": "This player was claimed by another owner."
+      },
+      "season": "2026",
+      "league_id": "1327788752298336256"
+    },
+    {
+      "transaction_id": "1420992238279766016",
+      "type": "waiver",
+      "status": "complete",
+      "created": 1793153459666,
+      "created_iso": "2026-10-28T02:10:59.666Z",
+      "week": 7,
+      "leg": 7,
+      "creator": "1131294900231815168",
+      "roster_ids": [
+        7
+      ],
+      "teams": [
+        {
+          "roster_id": 7,
+          "team_name": "I Chase Brown People"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "13424",
+            "name": "Seth McGowan",
+            "first_name": "Seth",
+            "last_name": "McGowan",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "IND",
+            "status": "Active",
+            "injury_status": null,
+            "age": 25,
+            "years_exp": null
+          },
+          "roster_id": 7,
+          "team_name": "I Chase Brown People"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "13347",
+            "name": "Demond Claiborne",
+            "first_name": "Demond",
+            "last_name": "Claiborne",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "MIN",
+            "status": "Active",
+            "injury_status": null,
+            "age": 23,
+            "years_exp": null
+          },
+          "roster_id": 7,
+          "team_name": "I Chase Brown People"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 13,
+      "metadata": {
+        "notes": "Your waiver claim was processed successfully!"
+      },
+      "season": "2026",
+      "league_id": "1327788752298336256"
+    },
+    {
+      "transaction_id": "1421274351667306496",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1793220720739,
+      "created_iso": "2026-10-28T20:52:00.739Z",
+      "week": 8,
+      "leg": 8,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "12482",
+            "name": "Savion Williams",
+            "first_name": "Savion",
+            "last_name": "Williams",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "GB",
+            "status": "Active",
+            "injury_status": null,
+            "age": 24,
+            "years_exp": 1
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "6806",
+            "name": "J.K. Dobbins",
+            "first_name": "J.K.",
+            "last_name": "Dobbins",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "DEN",
+            "status": "Active",
+            "injury_status": null,
+            "age": 27,
+            "years_exp": 6
           },
           "roster_id": 2,
           "team_name": "Cam dog"
