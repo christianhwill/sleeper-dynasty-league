@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T00:00:47.473Z",
+  "generated_at": "2026-10-30T12:00:44.537Z",
   "season": "2026",
   "transactions": [
     {
@@ -13245,6 +13245,71 @@
         }
       ],
       "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1421733994705289216",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1793330308179,
+      "created_iso": "2026-10-30T03:18:28.179Z",
+      "week": 8,
+      "leg": 8,
+      "creator": "1129875387229560832",
+      "roster_ids": [
+        1
+      ],
+      "teams": [
+        {
+          "roster_id": 1,
+          "team_name": "Imperialist Junta"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "7561",
+            "name": "Elijah Mitchell",
+            "first_name": "Elijah",
+            "last_name": "Mitchell",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "PHI",
+            "status": "Active",
+            "injury_status": null,
+            "age": 28,
+            "years_exp": 5
+          },
+          "roster_id": 1,
+          "team_name": "Imperialist Junta"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "8129",
+            "name": "Dameon Pierce",
+            "first_name": "Dameon",
+            "last_name": "Pierce",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "PHI",
+            "status": "Inactive",
+            "injury_status": "IR",
+            "age": 26,
+            "years_exp": 4
+          },
+          "roster_id": 1,
+          "team_name": "Imperialist Junta"
+        }
+      ],
       "draft_picks": [],
       "waiver_budget": [],
       "waiver_bid": null,
