@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T00:00:47.473Z",
+  "generated_at": "2026-10-30T12:00:44.537Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -399,6 +399,21 @@
           "years_exp": 5
         },
         {
+          "player_id": "7561",
+          "name": "Elijah Mitchell",
+          "first_name": "Elijah",
+          "last_name": "Mitchell",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "team": "PHI",
+          "status": "Active",
+          "injury_status": null,
+          "age": 28,
+          "years_exp": 5
+        },
+        {
           "player_id": "7611",
           "name": "Rhamondre Stevenson",
           "first_name": "Rhamondre",
@@ -412,21 +427,6 @@
           "injury_status": null,
           "age": 28,
           "years_exp": 5
-        },
-        {
-          "player_id": "8129",
-          "name": "Dameon Pierce",
-          "first_name": "Dameon",
-          "last_name": "Pierce",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "PHI",
-          "status": "Inactive",
-          "injury_status": "IR",
-          "age": 26,
-          "years_exp": 4
         },
         {
           "player_id": "8408",
@@ -7457,6 +7457,71 @@
   ],
   "recent_transactions": [
     {
+      "transaction_id": "1421733994705289216",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1793330308179,
+      "created_iso": "2026-10-30T03:18:28.179Z",
+      "week": 8,
+      "leg": 8,
+      "creator": "1129875387229560832",
+      "roster_ids": [
+        1
+      ],
+      "teams": [
+        {
+          "roster_id": 1,
+          "team_name": "Imperialist Junta"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "7561",
+            "name": "Elijah Mitchell",
+            "first_name": "Elijah",
+            "last_name": "Mitchell",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "PHI",
+            "status": "Active",
+            "injury_status": null,
+            "age": 28,
+            "years_exp": 5
+          },
+          "roster_id": 1,
+          "team_name": "Imperialist Junta"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "8129",
+            "name": "Dameon Pierce",
+            "first_name": "Dameon",
+            "last_name": "Pierce",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "PHI",
+            "status": "Inactive",
+            "injury_status": "IR",
+            "age": 26,
+            "years_exp": 4
+          },
+          "roster_id": 1,
+          "team_name": "Imperialist Junta"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
       "transaction_id": "1421659569267953664",
       "type": "free_agent",
       "status": "complete",
@@ -13755,73 +13820,6 @@
       "waiver_budget": [],
       "waiver_bid": null,
       "metadata": null
-    },
-    {
-      "transaction_id": "1406028252589326336",
-      "type": "waiver",
-      "status": "complete",
-      "created": 1789585767460,
-      "created_iso": "2026-09-16T19:09:27.460Z",
-      "week": 2,
-      "leg": 2,
-      "creator": "1129897778072649728",
-      "roster_ids": [
-        4
-      ],
-      "teams": [
-        {
-          "roster_id": 4,
-          "team_name": "Raw Dawgs"
-        }
-      ],
-      "adds": [
-        {
-          "player": {
-            "player_id": "13303",
-            "name": "Cade Klubnik",
-            "first_name": "Cade",
-            "last_name": "Klubnik",
-            "position": "QB",
-            "fantasy_positions": [
-              "QB"
-            ],
-            "team": "NYJ",
-            "status": "Active",
-            "injury_status": null,
-            "age": 23,
-            "years_exp": null
-          },
-          "roster_id": 4,
-          "team_name": "Raw Dawgs"
-        }
-      ],
-      "drops": [
-        {
-          "player": {
-            "player_id": "7021",
-            "name": "Rico Dowdle",
-            "first_name": "Rico",
-            "last_name": "Dowdle",
-            "position": "RB",
-            "fantasy_positions": [
-              "RB"
-            ],
-            "team": "PIT",
-            "status": "Active",
-            "injury_status": null,
-            "age": 28,
-            "years_exp": 6
-          },
-          "roster_id": 4,
-          "team_name": "Raw Dawgs"
-        }
-      ],
-      "draft_picks": [],
-      "waiver_budget": [],
-      "waiver_bid": 21,
-      "metadata": {
-        "notes": "Your waiver claim was processed successfully!"
-      }
     }
   ]
 }
