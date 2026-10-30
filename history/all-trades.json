@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T03:00:13.691Z",
+  "generated_at": "2026-10-30T03:00:48.247Z",
   "league_name": "Oiled Without Consent",
   "seasons": [
     {
@@ -17,11 +17,11 @@
     {
       "season": "2026",
       "league_id": "1327788752298336256",
-      "transaction_count": 211,
-      "trade_count": 24
+      "transaction_count": 215,
+      "trade_count": 25
     }
   ],
-  "trade_count": 79,
+  "trade_count": 80,
   "trades": [
     {
       "transaction_id": "1133549782154219520",
@@ -8909,7 +8909,7 @@
             ],
             "team": "CLE",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 22,
             "years_exp": 1
           },
@@ -8987,7 +8987,7 @@
             ],
             "team": "CLE",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 22,
             "years_exp": 1
           },
@@ -9087,7 +9087,7 @@
             ],
             "team": "NE",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 29,
             "years_exp": 7
           },
@@ -9203,7 +9203,7 @@
             ],
             "team": "NE",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 29,
             "years_exp": 7
           },
@@ -9424,7 +9424,7 @@
             ],
             "team": "NE",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 29,
             "years_exp": 7
           },
@@ -9464,7 +9464,7 @@
             ],
             "team": "NE",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 29,
             "years_exp": 7
           },
@@ -10611,6 +10611,175 @@
           "receiver": 2
         }
       ],
+      "waiver_bid": null,
+      "metadata": null,
+      "season": "2026",
+      "league_id": "1327788752298336256"
+    },
+    {
+      "transaction_id": "1421350384345026561",
+      "type": "trade",
+      "status": "complete",
+      "created": 1793238848343,
+      "created_iso": "2026-10-29T01:54:08.343Z",
+      "week": 8,
+      "leg": 8,
+      "creator": "1129881968960901120",
+      "roster_ids": [
+        3,
+        9
+      ],
+      "teams": [
+        {
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        },
+        {
+          "roster_id": 9,
+          "team_name": "The Crusty CreamPies"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "3163",
+            "name": "Jared Goff",
+            "first_name": "Jared",
+            "last_name": "Goff",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "DET",
+            "status": "Active",
+            "injury_status": null,
+            "age": 32,
+            "years_exp": 10
+          },
+          "roster_id": 9,
+          "team_name": "The Crusty CreamPies"
+        },
+        {
+          "player": {
+            "player_id": "6904",
+            "name": "Jalen Hurts",
+            "first_name": "Jalen",
+            "last_name": "Hurts",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "PHI",
+            "status": "Inactive",
+            "injury_status": "IR",
+            "age": 28,
+            "years_exp": 6
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        },
+        {
+          "player": {
+            "player_id": "10229",
+            "name": "Rashee Rice",
+            "first_name": "Rashee",
+            "last_name": "Rice",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "KC",
+            "status": "Active",
+            "injury_status": "Questionable",
+            "age": 26,
+            "years_exp": 3
+          },
+          "roster_id": 9,
+          "team_name": "The Crusty CreamPies"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "3163",
+            "name": "Jared Goff",
+            "first_name": "Jared",
+            "last_name": "Goff",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "DET",
+            "status": "Active",
+            "injury_status": null,
+            "age": 32,
+            "years_exp": 10
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        },
+        {
+          "player": {
+            "player_id": "6904",
+            "name": "Jalen Hurts",
+            "first_name": "Jalen",
+            "last_name": "Hurts",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "PHI",
+            "status": "Inactive",
+            "injury_status": "IR",
+            "age": 28,
+            "years_exp": 6
+          },
+          "roster_id": 9,
+          "team_name": "The Crusty CreamPies"
+        },
+        {
+          "player": {
+            "player_id": "10229",
+            "name": "Rashee Rice",
+            "first_name": "Rashee",
+            "last_name": "Rice",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "KC",
+            "status": "Active",
+            "injury_status": "Questionable",
+            "age": 26,
+            "years_exp": 3
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "draft_picks": [
+        {
+          "season": "2027",
+          "round": 3,
+          "original_roster_id": 9,
+          "previous_owner_roster_id": 9,
+          "current_owner_roster_id": 3,
+          "original_team": "The Crusty CreamPies",
+          "previous_team": "The Crusty CreamPies",
+          "current_team": "Third Down Syndrome"
+        },
+        {
+          "season": "2028",
+          "round": 1,
+          "original_roster_id": 9,
+          "previous_owner_roster_id": 9,
+          "current_owner_roster_id": 3,
+          "original_team": "The Crusty CreamPies",
+          "previous_team": "The Crusty CreamPies",
+          "current_team": "Third Down Syndrome"
+        }
+      ],
+      "waiver_budget": [],
       "waiver_bid": null,
       "metadata": null,
       "season": "2026",
