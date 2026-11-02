@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T06:00:46.700Z",
+  "generated_at": "2026-11-02T06:00:46.124Z",
   "league_name": "Oiled Without Consent",
   "seasons": [
     "2024",
@@ -39,29 +39,29 @@
         "2026": 1
       },
       "activity": {
-        "transactions_involved": 45,
+        "transactions_involved": 47,
         "transaction_types": {
-          "trade": 13,
+          "trade": 14,
           "waiver": 5,
-          "free_agent": 27
+          "free_agent": 28
         },
         "waiver_claims_won": 5,
-        "free_agent_transactions": 27,
-        "player_adds": 36,
-        "player_drops": 44,
+        "free_agent_transactions": 28,
+        "player_adds": 37,
+        "player_drops": 45,
         "faab_spent": 26,
         "average_successful_faab_bid": 5.2,
         "max_successful_faab_bid": 23
       },
       "trade_profile": {
-        "trades": 13,
-        "trades_created": 3,
-        "players_acquired": 16,
+        "trades": 14,
+        "trades_created": 4,
+        "players_acquired": 17,
         "players_sent": 12,
         "positions_acquired": {
           "WR": 5,
           "QB": 2,
-          "RB": 7,
+          "RB": 8,
           "TE": 2
         },
         "positions_sent": {
@@ -71,17 +71,17 @@
           "RB": 4
         },
         "draft_picks_acquired": 11,
-        "draft_picks_sent": 5,
+        "draft_picks_sent": 6,
         "firsts_acquired": 0,
-        "firsts_sent": 1,
+        "firsts_sent": 2,
         "seconds_acquired": 8,
         "seconds_sent": 2,
         "thirds_acquired": 3,
         "thirds_sent": 2,
-        "trades_involving_picks": 10,
-        "trades_involving_players": 10,
-        "net_draft_picks": 6,
-        "net_first_round_picks": -1,
+        "trades_involving_picks": 11,
+        "trades_involving_players": 11,
+        "net_draft_picks": 5,
+        "net_first_round_picks": -2,
         "favorite_trade_partner": {
           "owner_key": "user:1129877684336578560",
           "owner_id": "1129877684336578560",
@@ -117,13 +117,13 @@
             "owner_key": "user:1129881968960901120",
             "owner_id": "1129881968960901120",
             "team_name": "Third Down Syndrome",
-            "trades": 1
+            "trades": 2
           }
         ]
       },
       "current_draft_capital": {
-        "total_future_picks": 12,
-        "first_round_picks": 3,
+        "total_future_picks": 11,
+        "first_round_picks": 2,
         "second_round_picks": 6,
         "third_round_picks": 3,
         "by_season": {
@@ -161,18 +161,12 @@
             ]
           },
           "2028": {
-            "total": 4,
-            "round_1": 1,
+            "total": 3,
+            "round_1": 0,
             "round_2": 2,
             "round_3": 1,
             "other_rounds": 0,
             "picks": [
-              {
-                "round": 1,
-                "original_roster_id": 1,
-                "original_team": "Imperialist Junta",
-                "has_been_traded": false
-              },
               {
                 "round": 2,
                 "original_roster_id": 1,
@@ -262,28 +256,28 @@
           "firsts_sent": 1
         },
         "2026": {
-          "transactions_involved": 22,
-          "trades": 7,
-          "trades_created": 3,
+          "transactions_involved": 24,
+          "trades": 8,
+          "trades_created": 4,
           "waiver_claims_won": 3,
-          "free_agent_transactions": 12,
+          "free_agent_transactions": 13,
           "faab_spent": 26,
-          "player_adds": 18,
-          "player_drops": 21,
-          "players_acquired": 9,
+          "player_adds": 19,
+          "player_drops": 22,
+          "players_acquired": 10,
           "players_sent": 6,
           "draft_picks_acquired": 4,
-          "draft_picks_sent": 2,
+          "draft_picks_sent": 3,
           "firsts_acquired": 0,
-          "firsts_sent": 0
+          "firsts_sent": 1
         }
       },
       "league_ranks": {
         "trade_activity": 5,
         "waiver_claims": 9,
         "faab_spent": 7,
-        "future_firsts": 3,
-        "future_picks": 2
+        "future_firsts": 4,
+        "future_picks": 3
       }
     },
     {
@@ -309,16 +303,16 @@
         "2026": 2
       },
       "activity": {
-        "transactions_involved": 222,
+        "transactions_involved": 223,
         "transaction_types": {
           "trade": 38,
-          "free_agent": 118,
+          "free_agent": 119,
           "waiver": 66
         },
         "waiver_claims_won": 66,
-        "free_agent_transactions": 118,
-        "player_adds": 180,
-        "player_drops": 185,
+        "free_agent_transactions": 119,
+        "player_adds": 181,
+        "player_drops": 186,
         "faab_spent": 324,
         "average_successful_faab_bid": 4.91,
         "max_successful_faab_bid": 101
@@ -520,14 +514,14 @@
           "firsts_sent": 3
         },
         "2026": {
-          "transactions_involved": 66,
+          "transactions_involved": 67,
           "trades": 14,
           "trades_created": 11,
           "waiver_claims_won": 8,
-          "free_agent_transactions": 44,
+          "free_agent_transactions": 45,
           "faab_spent": 225,
-          "player_adds": 51,
-          "player_drops": 52,
+          "player_adds": 52,
+          "player_drops": 53,
           "players_acquired": 8,
           "players_sent": 10,
           "draft_picks_acquired": 14,
@@ -565,25 +559,25 @@
         "2026": 3
       },
       "activity": {
-        "transactions_involved": 89,
+        "transactions_involved": 90,
         "transaction_types": {
-          "trade": 24,
+          "trade": 25,
           "waiver": 28,
           "free_agent": 37
         },
         "waiver_claims_won": 28,
         "free_agent_transactions": 37,
         "player_adds": 86,
-        "player_drops": 94,
+        "player_drops": 95,
         "faab_spent": 96,
         "average_successful_faab_bid": 3.43,
         "max_successful_faab_bid": 22
       },
       "trade_profile": {
-        "trades": 24,
+        "trades": 25,
         "trades_created": 14,
         "players_acquired": 37,
-        "players_sent": 38,
+        "players_sent": 39,
         "positions_acquired": {
           "WR": 16,
           "RB": 4,
@@ -592,22 +586,22 @@
         },
         "positions_sent": {
           "WR": 16,
-          "RB": 5,
+          "RB": 6,
           "QB": 13,
           "TE": 4
         },
-        "draft_picks_acquired": 24,
+        "draft_picks_acquired": 25,
         "draft_picks_sent": 19,
-        "firsts_acquired": 12,
+        "firsts_acquired": 13,
         "firsts_sent": 6,
         "seconds_acquired": 8,
         "seconds_sent": 9,
         "thirds_acquired": 4,
         "thirds_sent": 4,
-        "trades_involving_picks": 21,
-        "trades_involving_players": 24,
-        "net_draft_picks": 5,
-        "net_first_round_picks": 6,
+        "trades_involving_picks": 22,
+        "trades_involving_players": 25,
+        "net_draft_picks": 6,
+        "net_first_round_picks": 7,
         "favorite_trade_partner": {
           "owner_key": "user:1129877684336578560",
           "owner_id": "1129877684336578560",
@@ -646,6 +640,12 @@
             "trades": 3
           },
           {
+            "owner_key": "user:1129875387229560832",
+            "owner_id": "1129875387229560832",
+            "team_name": "Imperialist Junta",
+            "trades": 2
+          },
+          {
             "owner_key": "user:1131304330881077248",
             "owner_id": "1131304330881077248",
             "team_name": "PurpleRhane",
@@ -656,18 +656,12 @@
             "owner_id": "1129897778072649728",
             "team_name": "Raw Dawgs",
             "trades": 2
-          },
-          {
-            "owner_key": "user:1129875387229560832",
-            "owner_id": "1129875387229560832",
-            "team_name": "Imperialist Junta",
-            "trades": 1
           }
         ]
       },
       "current_draft_capital": {
-        "total_future_picks": 11,
-        "first_round_picks": 7,
+        "total_future_picks": 12,
+        "first_round_picks": 8,
         "second_round_picks": 1,
         "third_round_picks": 3,
         "by_season": {
@@ -705,12 +699,18 @@
             ]
           },
           "2028": {
-            "total": 4,
-            "round_1": 2,
+            "total": 5,
+            "round_1": 3,
             "round_2": 1,
             "round_3": 1,
             "other_rounds": 0,
             "picks": [
+              {
+                "round": 1,
+                "original_roster_id": 1,
+                "original_team": "Imperialist Junta",
+                "has_been_traded": true
+              },
               {
                 "round": 1,
                 "original_roster_id": 3,
@@ -800,19 +800,19 @@
           "firsts_sent": 5
         },
         "2026": {
-          "transactions_involved": 39,
-          "trades": 8,
+          "transactions_involved": 40,
+          "trades": 9,
           "trades_created": 5,
           "waiver_claims_won": 7,
           "free_agent_transactions": 24,
           "faab_spent": 29,
           "player_adds": 35,
-          "player_drops": 39,
+          "player_drops": 40,
           "players_acquired": 12,
-          "players_sent": 14,
-          "draft_picks_acquired": 8,
+          "players_sent": 15,
+          "draft_picks_acquired": 9,
           "draft_picks_sent": 6,
-          "firsts_acquired": 3,
+          "firsts_acquired": 4,
           "firsts_sent": 1
         }
       },
@@ -821,7 +821,7 @@
         "waiver_claims": 3,
         "faab_spent": 3,
         "future_firsts": 1,
-        "future_picks": 3
+        "future_picks": 2
       }
     },
     {
