@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T12:00:47.264Z",
+  "generated_at": "2026-11-02T00:00:46.683Z",
   "season": "2026",
   "trades": [
     {
@@ -3089,6 +3089,87 @@
           "current_owner_roster_id": 3,
           "original_team": "The Crusty CreamPies",
           "previous_team": "The Crusty CreamPies",
+          "current_team": "Third Down Syndrome"
+        }
+      ],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1422662383100248064",
+      "type": "trade",
+      "status": "complete",
+      "created": 1793551653221,
+      "created_iso": "2026-11-01T16:47:33.221Z",
+      "week": 8,
+      "leg": 8,
+      "creator": "1129875387229560832",
+      "roster_ids": [
+        1,
+        3
+      ],
+      "teams": [
+        {
+          "roster_id": 1,
+          "team_name": "Imperialist Junta"
+        },
+        {
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "12490",
+            "name": "Bhayshul Tuten",
+            "first_name": "Bhayshul",
+            "last_name": "Tuten",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "JAX",
+            "status": "Active",
+            "injury_status": null,
+            "age": 23,
+            "years_exp": 1
+          },
+          "roster_id": 1,
+          "team_name": "Imperialist Junta"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "12490",
+            "name": "Bhayshul Tuten",
+            "first_name": "Bhayshul",
+            "last_name": "Tuten",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "JAX",
+            "status": "Active",
+            "injury_status": null,
+            "age": 23,
+            "years_exp": 1
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "draft_picks": [
+        {
+          "season": "2028",
+          "round": 1,
+          "original_roster_id": 1,
+          "previous_owner_roster_id": 1,
+          "current_owner_roster_id": 3,
+          "original_team": "Imperialist Junta",
+          "previous_team": "Imperialist Junta",
           "current_team": "Third Down Syndrome"
         }
       ],
