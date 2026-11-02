@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T03:00:47.803Z",
+  "generated_at": "2026-11-02T03:00:47.945Z",
   "league_name": "Oiled Without Consent",
   "seasons": [
     {
@@ -17,11 +17,11 @@
     {
       "season": "2026",
       "league_id": "1327788752298336256",
-      "transaction_count": 218,
-      "trade_count": 25
+      "transaction_count": 221,
+      "trade_count": 26
     }
   ],
-  "trade_count": 80,
+  "trade_count": 81,
   "trades": [
     {
       "transaction_id": "1133549782154219520",
@@ -9087,7 +9087,7 @@
             ],
             "team": "NE",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": "Out",
             "age": 29,
             "years_exp": 7
           },
@@ -9106,7 +9106,7 @@
             ],
             "team": "SEA",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": "Out",
             "age": 28,
             "years_exp": 4
           },
@@ -9203,7 +9203,7 @@
             ],
             "team": "NE",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": "Out",
             "age": 29,
             "years_exp": 7
           },
@@ -9222,7 +9222,7 @@
             ],
             "team": "SEA",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": "Out",
             "age": 28,
             "years_exp": 4
           },
@@ -9424,7 +9424,7 @@
             ],
             "team": "NE",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": "Out",
             "age": 29,
             "years_exp": 7
           },
@@ -9464,7 +9464,7 @@
             ],
             "team": "NE",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": "Out",
             "age": 29,
             "years_exp": 7
           },
@@ -10253,7 +10253,7 @@
             ],
             "team": "CHI",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 22,
             "years_exp": 1
           },
@@ -10350,7 +10350,7 @@
             ],
             "team": "CHI",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 22,
             "years_exp": 1
           },
@@ -10776,6 +10776,89 @@
           "current_owner_roster_id": 3,
           "original_team": "The Crusty CreamPies",
           "previous_team": "The Crusty CreamPies",
+          "current_team": "Third Down Syndrome"
+        }
+      ],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null,
+      "season": "2026",
+      "league_id": "1327788752298336256"
+    },
+    {
+      "transaction_id": "1422662383100248064",
+      "type": "trade",
+      "status": "complete",
+      "created": 1793551653221,
+      "created_iso": "2026-11-01T16:47:33.221Z",
+      "week": 8,
+      "leg": 8,
+      "creator": "1129875387229560832",
+      "roster_ids": [
+        1,
+        3
+      ],
+      "teams": [
+        {
+          "roster_id": 1,
+          "team_name": "Imperialist Junta"
+        },
+        {
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "12490",
+            "name": "Bhayshul Tuten",
+            "first_name": "Bhayshul",
+            "last_name": "Tuten",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "JAX",
+            "status": "Active",
+            "injury_status": null,
+            "age": 23,
+            "years_exp": 1
+          },
+          "roster_id": 1,
+          "team_name": "Imperialist Junta"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "12490",
+            "name": "Bhayshul Tuten",
+            "first_name": "Bhayshul",
+            "last_name": "Tuten",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "JAX",
+            "status": "Active",
+            "injury_status": null,
+            "age": 23,
+            "years_exp": 1
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "draft_picks": [
+        {
+          "season": "2028",
+          "round": 1,
+          "original_roster_id": 1,
+          "previous_owner_roster_id": 1,
+          "current_owner_roster_id": 3,
+          "original_team": "Imperialist Junta",
+          "previous_team": "Imperialist Junta",
           "current_team": "Third Down Syndrome"
         }
       ],
