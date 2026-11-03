@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T12:00:47.717Z",
+  "generated_at": "2026-11-03T00:00:46.165Z",
   "season": "2026",
   "transactions": [
     {
@@ -13631,6 +13631,51 @@
           "team_name": "Imperialist Junta"
         }
       ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1423114970446450688",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1793659558453,
+      "created_iso": "2026-11-02T22:45:58.453Z",
+      "week": 8,
+      "leg": 8,
+      "creator": "1129881968960901120",
+      "roster_ids": [
+        3
+      ],
+      "teams": [
+        {
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "7527",
+            "name": "Mac Jones",
+            "first_name": "Mac",
+            "last_name": "Jones",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "SF",
+            "status": "Active",
+            "injury_status": null,
+            "age": 28,
+            "years_exp": 5
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "drops": [],
       "draft_picks": [],
       "waiver_budget": [],
       "waiver_bid": null,
