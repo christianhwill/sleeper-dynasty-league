@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T12:00:47.717Z",
+  "generated_at": "2026-11-03T00:00:46.165Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -1596,6 +1596,21 @@
           "injury_status": "IR",
           "age": 28,
           "years_exp": 6
+        },
+        {
+          "player_id": "7527",
+          "name": "Mac Jones",
+          "first_name": "Mac",
+          "last_name": "Jones",
+          "position": "QB",
+          "fantasy_positions": [
+            "QB"
+          ],
+          "team": "SF",
+          "status": "Active",
+          "injury_status": null,
+          "age": 28,
+          "years_exp": 5
         },
         {
           "player_id": "8122",
@@ -7451,6 +7466,51 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1423114970446450688",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1793659558453,
+      "created_iso": "2026-11-02T22:45:58.453Z",
+      "week": 8,
+      "leg": 8,
+      "creator": "1129881968960901120",
+      "roster_ids": [
+        3
+      ],
+      "teams": [
+        {
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "7527",
+            "name": "Mac Jones",
+            "first_name": "Mac",
+            "last_name": "Jones",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "SF",
+            "status": "Active",
+            "injury_status": null,
+            "age": 28,
+            "years_exp": 5
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
     {
       "transaction_id": "1422674459667492864",
       "type": "free_agent",
@@ -13755,137 +13815,6 @@
       "waiver_bid": 6,
       "metadata": {
         "notes": "Your waiver claim was processed successfully!"
-      }
-    },
-    {
-      "transaction_id": "1407536658995331072",
-      "type": "trade",
-      "status": "complete",
-      "created": 1789945399573,
-      "created_iso": "2026-09-20T23:03:19.573Z",
-      "week": 2,
-      "leg": 2,
-      "creator": "1129877684336578560",
-      "roster_ids": [
-        2,
-        3
-      ],
-      "teams": [
-        {
-          "roster_id": 2,
-          "team_name": "Cam dog"
-        },
-        {
-          "roster_id": 3,
-          "team_name": "Third Down Syndrome"
-        }
-      ],
-      "adds": [
-        {
-          "player": {
-            "player_id": "5859",
-            "name": "A.J. Brown",
-            "first_name": "A.J.",
-            "last_name": "Brown",
-            "position": "WR",
-            "fantasy_positions": [
-              "WR"
-            ],
-            "team": "NE",
-            "status": "Active",
-            "injury_status": "Out",
-            "age": 29,
-            "years_exp": 7
-          },
-          "roster_id": 2,
-          "team_name": "Cam dog"
-        },
-        {
-          "player": {
-            "player_id": "13298",
-            "name": "KC Concepcion Jr.",
-            "first_name": "KC",
-            "last_name": "Concepcion Jr.",
-            "position": "WR",
-            "fantasy_positions": [
-              "WR"
-            ],
-            "team": "CLE",
-            "status": "Active",
-            "injury_status": null,
-            "age": 22,
-            "years_exp": null
-          },
-          "roster_id": 3,
-          "team_name": "Third Down Syndrome"
-        }
-      ],
-      "drops": [
-        {
-          "player": {
-            "player_id": "5859",
-            "name": "A.J. Brown",
-            "first_name": "A.J.",
-            "last_name": "Brown",
-            "position": "WR",
-            "fantasy_positions": [
-              "WR"
-            ],
-            "team": "NE",
-            "status": "Active",
-            "injury_status": "Out",
-            "age": 29,
-            "years_exp": 7
-          },
-          "roster_id": 3,
-          "team_name": "Third Down Syndrome"
-        },
-        {
-          "player": {
-            "player_id": "13298",
-            "name": "KC Concepcion Jr.",
-            "first_name": "KC",
-            "last_name": "Concepcion Jr.",
-            "position": "WR",
-            "fantasy_positions": [
-              "WR"
-            ],
-            "team": "CLE",
-            "status": "Active",
-            "injury_status": null,
-            "age": 22,
-            "years_exp": null
-          },
-          "roster_id": 2,
-          "team_name": "Cam dog"
-        }
-      ],
-      "draft_picks": [
-        {
-          "season": "2028",
-          "round": 3,
-          "original_roster_id": 2,
-          "previous_owner_roster_id": 3,
-          "current_owner_roster_id": 2,
-          "original_team": "Cam dog",
-          "previous_team": "Third Down Syndrome",
-          "current_team": "Cam dog"
-        },
-        {
-          "season": "2028",
-          "round": 3,
-          "original_roster_id": 3,
-          "previous_owner_roster_id": 3,
-          "current_owner_roster_id": 2,
-          "original_team": "Third Down Syndrome",
-          "previous_team": "Third Down Syndrome",
-          "current_team": "Cam dog"
-        }
-      ],
-      "waiver_budget": [],
-      "waiver_bid": null,
-      "metadata": {
-        "notes": "Your trade was processed successfully!"
       }
     }
   ]
