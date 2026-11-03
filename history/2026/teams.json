@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T12:00:47.717Z",
+  "generated_at": "2026-11-03T00:00:46.165Z",
   "season": "2026",
   "teams": [
     {
@@ -1469,6 +1469,21 @@
           "injury_status": "IR",
           "age": 28,
           "years_exp": 6
+        },
+        {
+          "player_id": "7527",
+          "name": "Mac Jones",
+          "first_name": "Mac",
+          "last_name": "Jones",
+          "position": "QB",
+          "fantasy_positions": [
+            "QB"
+          ],
+          "team": "SF",
+          "status": "Active",
+          "injury_status": null,
+          "age": 28,
+          "years_exp": 5
         },
         {
           "player_id": "8122",
