@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T03:00:47.945Z",
+  "generated_at": "2026-11-03T03:00:48.320Z",
   "league_name": "Oiled Without Consent",
   "seasons": [
     {
@@ -17,11 +17,11 @@
     {
       "season": "2026",
       "league_id": "1327788752298336256",
-      "transaction_count": 221,
+      "transaction_count": 222,
       "trade_count": 26
     }
   ],
-  "transaction_count": 759,
+  "transaction_count": 760,
   "transactions": [
     {
       "transaction_id": "1133549782154219520",
@@ -36442,7 +36442,7 @@
             ],
             "team": "ARI",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 25,
             "years_exp": 4
           },
@@ -36736,7 +36736,7 @@
             ],
             "team": "CLE",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 25,
             "years_exp": 1
           },
@@ -38185,7 +38185,7 @@
             ],
             "team": "DET",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 27,
             "years_exp": 5
           },
@@ -38244,7 +38244,7 @@
             ],
             "team": "DET",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 27,
             "years_exp": 5
           },
@@ -39124,7 +39124,7 @@
             ],
             "team": "BUF",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 24,
             "years_exp": null
           },
@@ -39218,7 +39218,7 @@
             ],
             "team": "MIA",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 22,
             "years_exp": null
           },
@@ -39784,7 +39784,7 @@
             "team": "GB",
             "status": "Active",
             "injury_status": null,
-            "age": 27,
+            "age": 28,
             "years_exp": 6
           },
           "roster_id": 5,
@@ -39881,7 +39881,7 @@
             "team": "GB",
             "status": "Active",
             "injury_status": null,
-            "age": 27,
+            "age": 28,
             "years_exp": 6
           },
           "roster_id": 3,
@@ -47229,7 +47229,7 @@
             ],
             "team": "DAL",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 27,
             "years_exp": 4
           },
@@ -47269,7 +47269,7 @@
             ],
             "team": "DAL",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 27,
             "years_exp": 4
           },
@@ -47704,7 +47704,7 @@
             ],
             "team": "ARI",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 31,
             "years_exp": 9
           },
@@ -48241,7 +48241,7 @@
             ],
             "team": "ARI",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 25,
             "years_exp": 4
           },
@@ -48396,7 +48396,7 @@
             ],
             "team": "ARI",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 31,
             "years_exp": 9
           },
@@ -48882,7 +48882,7 @@
             ],
             "team": "MIN",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 23,
             "years_exp": null
           },
@@ -49528,7 +49528,7 @@
             ],
             "team": "ARI",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 31,
             "years_exp": 9
           },
@@ -49687,6 +49687,53 @@
           "team_name": "Imperialist Junta"
         }
       ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null,
+      "season": "2026",
+      "league_id": "1327788752298336256"
+    },
+    {
+      "transaction_id": "1423114970446450688",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1793659558453,
+      "created_iso": "2026-11-02T22:45:58.453Z",
+      "week": 8,
+      "leg": 8,
+      "creator": "1129881968960901120",
+      "roster_ids": [
+        3
+      ],
+      "teams": [
+        {
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "7527",
+            "name": "Mac Jones",
+            "first_name": "Mac",
+            "last_name": "Jones",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "SF",
+            "status": "Active",
+            "injury_status": null,
+            "age": 28,
+            "years_exp": 5
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "drops": [],
       "draft_picks": [],
       "waiver_budget": [],
       "waiver_bid": null,
