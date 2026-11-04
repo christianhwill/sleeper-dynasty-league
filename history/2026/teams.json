@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T12:00:46.366Z",
+  "generated_at": "2026-11-04T00:00:22.725Z",
   "season": "2026",
   "teams": [
     {
@@ -102,7 +102,7 @@
           ],
           "team": "JAX",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 23,
           "years_exp": 1
         },
@@ -394,19 +394,19 @@
       ],
       "starters": [
         {
-          "player_id": "11559",
-          "name": "Michael Penix Jr.",
-          "first_name": "Michael",
-          "last_name": "Penix Jr.",
+          "player_id": "12545",
+          "name": "Tyler Shough",
+          "first_name": "Tyler",
+          "last_name": "Shough",
           "position": "QB",
           "fantasy_positions": [
             "QB"
           ],
-          "team": "ATL",
+          "team": "NO",
           "status": "Active",
           "injury_status": null,
-          "age": 26,
-          "years_exp": 2
+          "age": 27,
+          "years_exp": 1
         },
         {
           "player_id": "7611",
@@ -434,7 +434,7 @@
           ],
           "team": "JAX",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 23,
           "years_exp": 1
         },
@@ -514,19 +514,19 @@
           "years_exp": 5
         },
         {
-          "player_id": "9501",
-          "name": "DeMario Douglas",
-          "first_name": "DeMario",
-          "last_name": "Douglas",
-          "position": "WR",
+          "player_id": "11559",
+          "name": "Michael Penix Jr.",
+          "first_name": "Michael",
+          "last_name": "Penix Jr.",
+          "position": "QB",
           "fantasy_positions": [
-            "WR"
+            "QB"
           ],
-          "team": "NE",
+          "team": "ATL",
           "status": "Active",
           "injury_status": null,
-          "age": 25,
-          "years_exp": 3
+          "age": 26,
+          "years_exp": 2
         }
       ],
       "taxi": [
@@ -873,8 +873,8 @@
             "WR"
           ],
           "team": "ARI",
-          "status": "Active",
-          "injury_status": "Out",
+          "status": "Inactive",
+          "injury_status": "IR",
           "age": 31,
           "years_exp": 9
         },
@@ -1031,34 +1031,34 @@
           "years_exp": 7
         },
         {
-          "player_id": "1479",
-          "name": "Keenan Allen",
-          "first_name": "Keenan",
-          "last_name": "Allen",
+          "player_id": "5859",
+          "name": "A.J. Brown",
+          "first_name": "A.J.",
+          "last_name": "Brown",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "IND",
-          "status": "Active",
-          "injury_status": null,
-          "age": 34,
-          "years_exp": 13
-        },
-        {
-          "player_id": "4454",
-          "name": "Kendrick Bourne",
-          "first_name": "Kendrick",
-          "last_name": "Bourne",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "ARI",
+          "team": "NE",
           "status": "Active",
           "injury_status": "Out",
-          "age": 31,
-          "years_exp": 9
+          "age": 29,
+          "years_exp": 7
+        },
+        {
+          "player_id": "11632",
+          "name": "Malik Nabers",
+          "first_name": "Malik",
+          "last_name": "Nabers",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "NYG",
+          "status": "Active",
+          "injury_status": null,
+          "age": 23,
+          "years_exp": 2
         },
         {
           "player_id": "11604",
@@ -1076,19 +1076,19 @@
           "years_exp": 2
         },
         {
-          "player_id": "7021",
-          "name": "Rico Dowdle",
-          "first_name": "Rico",
-          "last_name": "Dowdle",
-          "position": "RB",
+          "player_id": "1479",
+          "name": "Keenan Allen",
+          "first_name": "Keenan",
+          "last_name": "Allen",
+          "position": "WR",
           "fantasy_positions": [
-            "RB"
+            "WR"
           ],
-          "team": "PIT",
+          "team": "IND",
           "status": "Active",
           "injury_status": null,
-          "age": 28,
-          "years_exp": 6
+          "age": 34,
+          "years_exp": 13
         },
         {
           "player_id": "1466",
@@ -1106,19 +1106,19 @@
           "years_exp": 13
         },
         {
-          "player_id": "9230",
-          "name": "Tanner McKee",
-          "first_name": "Tanner",
-          "last_name": "McKee",
+          "player_id": "11565",
+          "name": "J.J. McCarthy",
+          "first_name": "J.J.",
+          "last_name": "McCarthy",
           "position": "QB",
           "fantasy_positions": [
             "QB"
           ],
-          "team": "PHI",
+          "team": "NYG",
           "status": "Active",
           "injury_status": null,
-          "age": 26,
-          "years_exp": 3
+          "age": 23,
+          "years_exp": 2
         }
       ],
       "taxi": [
@@ -1330,8 +1330,8 @@
             "RB"
           ],
           "team": "ARI",
-          "status": "Active",
-          "injury_status": "Out",
+          "status": "Inactive",
+          "injury_status": "IR",
           "age": 21,
           "years_exp": null
         },
@@ -1608,10 +1608,10 @@
           "years_exp": null
         },
         {
-          "player_id": "13287",
-          "name": "Jeremiyah Love",
-          "first_name": "Jeremiyah",
-          "last_name": "Love",
+          "player_id": "8122",
+          "name": "Zonovan Knight",
+          "first_name": "Zonovan",
+          "last_name": "Knight",
           "position": "RB",
           "fantasy_positions": [
             "RB"
@@ -1619,8 +1619,8 @@
           "team": "ARI",
           "status": "Active",
           "injury_status": "Out",
-          "age": 21,
-          "years_exp": null
+          "age": 25,
+          "years_exp": 4
         },
         {
           "player_id": "13298",
@@ -2134,25 +2134,25 @@
           "team": "GB",
           "status": "Active",
           "injury_status": null,
-          "age": 25,
+          "age": 26,
           "years_exp": 3
         }
       ],
       "starters": [
         {
-          "player_id": "11560",
-          "name": "Caleb Williams",
-          "first_name": "Caleb",
-          "last_name": "Williams",
+          "player_id": "8183",
+          "name": "Brock Purdy",
+          "first_name": "Brock",
+          "last_name": "Purdy",
           "position": "QB",
           "fantasy_positions": [
             "QB"
           ],
-          "team": "CHI",
+          "team": "SF",
           "status": "Active",
           "injury_status": null,
-          "age": 24,
-          "years_exp": 2
+          "age": 26,
+          "years_exp": 4
         },
         {
           "player_id": "6813",
@@ -2226,7 +2226,7 @@
           "team": "GB",
           "status": "Active",
           "injury_status": null,
-          "age": 25,
+          "age": 26,
           "years_exp": 3
         },
         {
@@ -2260,19 +2260,19 @@
           "years_exp": 2
         },
         {
-          "player_id": "8161",
-          "name": "Malik Willis",
-          "first_name": "Malik",
-          "last_name": "Willis",
+          "player_id": "11560",
+          "name": "Caleb Williams",
+          "first_name": "Caleb",
+          "last_name": "Williams",
           "position": "QB",
           "fantasy_positions": [
             "QB"
           ],
-          "team": "MIA",
+          "team": "CHI",
           "status": "Active",
           "injury_status": null,
-          "age": 27,
-          "years_exp": 4
+          "age": 24,
+          "years_exp": 2
         }
       ],
       "taxi": [
@@ -2987,8 +2987,8 @@
             "RB"
           ],
           "team": "SEA",
-          "status": "Inactive",
-          "injury_status": "IR",
+          "status": "Active",
+          "injury_status": null,
           "age": 23,
           "years_exp": null
         },
@@ -3153,7 +3153,7 @@
           ],
           "team": "JAX",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 29,
           "years_exp": 7
         },
@@ -3244,8 +3244,8 @@
             "RB"
           ],
           "team": "SEA",
-          "status": "Inactive",
-          "injury_status": "IR",
+          "status": "Active",
+          "injury_status": null,
           "age": 23,
           "years_exp": null
         },
@@ -3335,7 +3335,7 @@
           ],
           "team": "JAX",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 29,
           "years_exp": 7
         },
@@ -4232,7 +4232,7 @@
           ],
           "team": "LAR",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 38,
           "years_exp": 17
         },
@@ -4247,7 +4247,7 @@
           ],
           "team": "BAL",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 28,
           "years_exp": 7
         },
@@ -4489,7 +4489,7 @@
           ],
           "team": "LAR",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 38,
           "years_exp": 17
         }
@@ -5161,7 +5161,7 @@
           ],
           "team": "JAX",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 27,
           "years_exp": 3
         },
