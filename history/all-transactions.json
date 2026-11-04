@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T03:00:48.320Z",
+  "generated_at": "2026-11-04T03:00:23.088Z",
   "league_name": "Oiled Without Consent",
   "seasons": [
     {
@@ -36186,7 +36186,7 @@
             ],
             "team": "JAX",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 27,
             "years_exp": 3
           },
@@ -38396,8 +38396,8 @@
       "waiver_budget": [
         {
           "amount": 15,
-          "sender": 4,
-          "receiver": 2
+          "receiver": 2,
+          "sender": 4
         }
       ],
       "waiver_bid": null,
@@ -38495,8 +38495,8 @@
       "waiver_budget": [
         {
           "amount": 1,
-          "sender": 2,
-          "receiver": 1
+          "receiver": 1,
+          "sender": 2
         }
       ],
       "waiver_bid": null,
@@ -38641,8 +38641,8 @@
       "waiver_budget": [
         {
           "amount": 14,
-          "sender": 2,
-          "receiver": 8
+          "receiver": 8,
+          "sender": 2
         }
       ],
       "waiver_bid": null,
@@ -42664,7 +42664,7 @@
             ],
             "team": "SEA",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": "Out",
             "age": 29,
             "years_exp": 7
           },
@@ -43916,7 +43916,7 @@
             ],
             "team": "SEA",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": "Out",
             "age": 29,
             "years_exp": 7
           },
@@ -46929,7 +46929,7 @@
             "team": "GB",
             "status": "Active",
             "injury_status": null,
-            "age": 25,
+            "age": 26,
             "years_exp": 3
           },
           "roster_id": 4,
@@ -47026,7 +47026,7 @@
             "team": "GB",
             "status": "Active",
             "injury_status": null,
-            "age": 25,
+            "age": 26,
             "years_exp": 3
           },
           "roster_id": 3,
@@ -47703,8 +47703,8 @@
               "WR"
             ],
             "team": "ARI",
-            "status": "Active",
-            "injury_status": "Out",
+            "status": "Inactive",
+            "injury_status": "IR",
             "age": 31,
             "years_exp": 9
           },
@@ -48395,8 +48395,8 @@
               "WR"
             ],
             "team": "ARI",
-            "status": "Active",
-            "injury_status": "Out",
+            "status": "Inactive",
+            "injury_status": "IR",
             "age": 31,
             "years_exp": 9
           },
@@ -49527,8 +49527,8 @@
               "WR"
             ],
             "team": "ARI",
-            "status": "Active",
-            "injury_status": "Out",
+            "status": "Inactive",
+            "injury_status": "IR",
             "age": 31,
             "years_exp": 9
           },
@@ -49600,7 +49600,7 @@
             ],
             "team": "JAX",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 23,
             "years_exp": 1
           },
@@ -49621,7 +49621,7 @@
             ],
             "team": "JAX",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 23,
             "years_exp": 1
           },
