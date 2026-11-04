@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T00:00:22.725Z",
+  "generated_at": "2026-11-04T12:00:22.168Z",
   "season": "2026",
   "transactions": [
     {
@@ -13680,6 +13680,140 @@
       "waiver_budget": [],
       "waiver_bid": null,
       "metadata": null
+    },
+    {
+      "transaction_id": "1423309166906191872",
+      "type": "waiver",
+      "status": "complete",
+      "created": 1793705858497,
+      "created_iso": "2026-11-03T11:37:38.497Z",
+      "week": 8,
+      "leg": 8,
+      "creator": "1008209629677158400",
+      "roster_ids": [
+        6
+      ],
+      "teams": [
+        {
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "6011",
+            "name": "Gardner Minshew II",
+            "first_name": "Gardner",
+            "last_name": "Minshew II",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "ARI",
+            "status": "Active",
+            "injury_status": null,
+            "age": 30,
+            "years_exp": 7
+          },
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "11435",
+            "name": "Emanuel Wilson",
+            "first_name": "Emanuel",
+            "last_name": "Wilson",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "SEA",
+            "status": "Active",
+            "injury_status": null,
+            "age": 27,
+            "years_exp": 3
+          },
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 10,
+      "metadata": {
+        "notes": "Your waiver claim was processed successfully!"
+      }
+    },
+    {
+      "transaction_id": "1423374286780895232",
+      "type": "waiver",
+      "status": "complete",
+      "created": 1793721384286,
+      "created_iso": "2026-11-03T15:56:24.286Z",
+      "week": 8,
+      "leg": 8,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "6130",
+            "name": "Devin Singletary",
+            "first_name": "Devin",
+            "last_name": "Singletary",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "NYG",
+            "status": "Active",
+            "injury_status": null,
+            "age": 29,
+            "years_exp": 7
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "4454",
+            "name": "Kendrick Bourne",
+            "first_name": "Kendrick",
+            "last_name": "Bourne",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "ARI",
+            "status": "Inactive",
+            "injury_status": "IR",
+            "age": 31,
+            "years_exp": 9
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0,
+      "metadata": {
+        "notes": "Your waiver claim was processed successfully!"
+      }
     }
   ]
 }
