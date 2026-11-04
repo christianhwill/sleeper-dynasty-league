@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T03:00:48.320Z",
+  "generated_at": "2026-11-04T03:00:23.088Z",
   "league_name": "Oiled Without Consent",
   "seasons": [
     {
@@ -8393,8 +8393,8 @@
       "waiver_budget": [
         {
           "amount": 15,
-          "sender": 4,
-          "receiver": 2
+          "receiver": 2,
+          "sender": 4
         }
       ],
       "waiver_bid": null,
@@ -8492,8 +8492,8 @@
       "waiver_budget": [
         {
           "amount": 1,
-          "sender": 2,
-          "receiver": 1
+          "receiver": 1,
+          "sender": 2
         }
       ],
       "waiver_bid": null,
@@ -8591,8 +8591,8 @@
       "waiver_budget": [
         {
           "amount": 14,
-          "sender": 2,
-          "receiver": 8
+          "receiver": 8,
+          "sender": 2
         }
       ],
       "waiver_bid": null,
@@ -10216,7 +10216,7 @@
             "team": "GB",
             "status": "Active",
             "injury_status": null,
-            "age": 25,
+            "age": 26,
             "years_exp": 3
           },
           "roster_id": 4,
@@ -10313,7 +10313,7 @@
             "team": "GB",
             "status": "Active",
             "injury_status": null,
-            "age": 25,
+            "age": 26,
             "years_exp": 3
           },
           "roster_id": 3,
@@ -10821,7 +10821,7 @@
             ],
             "team": "JAX",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 23,
             "years_exp": 1
           },
@@ -10842,7 +10842,7 @@
             ],
             "team": "JAX",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 23,
             "years_exp": 1
           },
