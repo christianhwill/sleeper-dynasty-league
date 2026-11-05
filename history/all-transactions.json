@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T03:00:23.088Z",
+  "generated_at": "2026-11-05T03:00:22.167Z",
   "league_name": "Oiled Without Consent",
   "seasons": [
     {
@@ -17,11 +17,11 @@
     {
       "season": "2026",
       "league_id": "1327788752298336256",
-      "transaction_count": 222,
+      "transaction_count": 226,
       "trade_count": 26
     }
   ],
-  "transaction_count": 760,
+  "transaction_count": 764,
   "transactions": [
     {
       "transaction_id": "1133549782154219520",
@@ -49731,6 +49731,238 @@
           },
           "roster_id": 3,
           "team_name": "Third Down Syndrome"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null,
+      "season": "2026",
+      "league_id": "1327788752298336256"
+    },
+    {
+      "transaction_id": "1423309166906191872",
+      "type": "waiver",
+      "status": "complete",
+      "created": 1793705858497,
+      "created_iso": "2026-11-03T11:37:38.497Z",
+      "week": 8,
+      "leg": 8,
+      "creator": "1008209629677158400",
+      "roster_ids": [
+        6
+      ],
+      "teams": [
+        {
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "6011",
+            "name": "Gardner Minshew II",
+            "first_name": "Gardner",
+            "last_name": "Minshew II",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "ARI",
+            "status": "Active",
+            "injury_status": null,
+            "age": 30,
+            "years_exp": 7
+          },
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "11435",
+            "name": "Emanuel Wilson",
+            "first_name": "Emanuel",
+            "last_name": "Wilson",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "SEA",
+            "status": "Active",
+            "injury_status": null,
+            "age": 27,
+            "years_exp": 3
+          },
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 10,
+      "metadata": {
+        "notes": "Your waiver claim was processed successfully!"
+      },
+      "season": "2026",
+      "league_id": "1327788752298336256"
+    },
+    {
+      "transaction_id": "1423374286780895232",
+      "type": "waiver",
+      "status": "complete",
+      "created": 1793721384286,
+      "created_iso": "2026-11-03T15:56:24.286Z",
+      "week": 8,
+      "leg": 8,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "6130",
+            "name": "Devin Singletary",
+            "first_name": "Devin",
+            "last_name": "Singletary",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "NYG",
+            "status": "Active",
+            "injury_status": null,
+            "age": 29,
+            "years_exp": 7
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "4454",
+            "name": "Kendrick Bourne",
+            "first_name": "Kendrick",
+            "last_name": "Bourne",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "ARI",
+            "status": "Inactive",
+            "injury_status": "IR",
+            "age": 31,
+            "years_exp": 9
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0,
+      "metadata": {
+        "notes": "Your waiver claim was processed successfully!"
+      },
+      "season": "2026",
+      "league_id": "1327788752298336256"
+    },
+    {
+      "transaction_id": "1423713070416506880",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1793802156599,
+      "created_iso": "2026-11-04T14:22:36.599Z",
+      "week": 9,
+      "leg": 9,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [],
+      "drops": [
+        {
+          "player": {
+            "player_id": "9230",
+            "name": "Tanner McKee",
+            "first_name": "Tanner",
+            "last_name": "McKee",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "PHI",
+            "status": "Active",
+            "injury_status": null,
+            "age": 26,
+            "years_exp": 3
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null,
+      "season": "2026",
+      "league_id": "1327788752298336256"
+    },
+    {
+      "transaction_id": "1423713314306854912",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1793802214746,
+      "created_iso": "2026-11-04T14:23:34.746Z",
+      "week": 9,
+      "leg": 9,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "6803",
+            "name": "Brandon Aiyuk",
+            "first_name": "Brandon",
+            "last_name": "Aiyuk",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "SF",
+            "status": "Active",
+            "injury_status": "DNR",
+            "age": 28,
+            "years_exp": 6
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
         }
       ],
       "drops": [],
