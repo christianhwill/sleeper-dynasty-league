@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T12:00:22.168Z",
+  "generated_at": "2026-11-05T00:00:22.263Z",
   "season": "2026",
   "transactions": [
     {
@@ -13814,6 +13814,96 @@
       "metadata": {
         "notes": "Your waiver claim was processed successfully!"
       }
+    },
+    {
+      "transaction_id": "1423713070416506880",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1793802156599,
+      "created_iso": "2026-11-04T14:22:36.599Z",
+      "week": 9,
+      "leg": 9,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [],
+      "drops": [
+        {
+          "player": {
+            "player_id": "9230",
+            "name": "Tanner McKee",
+            "first_name": "Tanner",
+            "last_name": "McKee",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "PHI",
+            "status": "Active",
+            "injury_status": null,
+            "age": 26,
+            "years_exp": 3
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1423713314306854912",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1793802214746,
+      "created_iso": "2026-11-04T14:23:34.746Z",
+      "week": 9,
+      "leg": 9,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "6803",
+            "name": "Brandon Aiyuk",
+            "first_name": "Brandon",
+            "last_name": "Aiyuk",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "SF",
+            "status": "Active",
+            "injury_status": "DNR",
+            "age": 28,
+            "years_exp": 6
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
     }
   ]
 }
