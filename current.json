@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T12:00:22.168Z",
+  "generated_at": "2026-11-05T00:00:22.263Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -521,18 +521,33 @@
       ],
       "starters": [
         {
-          "player_id": "12545",
-          "name": "Tyler Shough",
-          "first_name": "Tyler",
-          "last_name": "Shough",
+          "player_id": "11559",
+          "name": "Michael Penix Jr.",
+          "first_name": "Michael",
+          "last_name": "Penix Jr.",
           "position": "QB",
           "fantasy_positions": [
             "QB"
           ],
-          "team": "NO",
+          "team": "ATL",
           "status": "Active",
           "injury_status": null,
-          "age": 27,
+          "age": 26,
+          "years_exp": 2
+        },
+        {
+          "player_id": "12490",
+          "name": "Bhayshul Tuten",
+          "first_name": "Bhayshul",
+          "last_name": "Tuten",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "team": "JAX",
+          "status": "Active",
+          "injury_status": "Questionable",
+          "age": 23,
           "years_exp": 1
         },
         {
@@ -549,21 +564,6 @@
           "injury_status": null,
           "age": 28,
           "years_exp": 5
-        },
-        {
-          "player_id": "12490",
-          "name": "Bhayshul Tuten",
-          "first_name": "Bhayshul",
-          "last_name": "Tuten",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "JAX",
-          "status": "Active",
-          "injury_status": "Questionable",
-          "age": 23,
-          "years_exp": 1
         },
         {
           "player_id": "12526",
@@ -641,19 +641,19 @@
           "years_exp": 5
         },
         {
-          "player_id": "11559",
-          "name": "Michael Penix Jr.",
-          "first_name": "Michael",
-          "last_name": "Penix Jr.",
+          "player_id": "9758",
+          "name": "C.J. Stroud",
+          "first_name": "C.J.",
+          "last_name": "Stroud",
           "position": "QB",
           "fantasy_positions": [
             "QB"
           ],
-          "team": "ATL",
+          "team": "HOU",
           "status": "Active",
           "injury_status": null,
-          "age": 26,
-          "years_exp": 2
+          "age": 25,
+          "years_exp": 3
         }
       ],
       "taxi": [
@@ -1036,6 +1036,21 @@
           "years_exp": 7
         },
         {
+          "player_id": "6803",
+          "name": "Brandon Aiyuk",
+          "first_name": "Brandon",
+          "last_name": "Aiyuk",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "SF",
+          "status": "Active",
+          "injury_status": "DNR",
+          "age": 28,
+          "years_exp": 6
+        },
+        {
           "player_id": "7021",
           "name": "Rico Dowdle",
           "first_name": "Rico",
@@ -1079,21 +1094,6 @@
           "injury_status": "Out",
           "age": 25,
           "years_exp": 4
-        },
-        {
-          "player_id": "9230",
-          "name": "Tanner McKee",
-          "first_name": "Tanner",
-          "last_name": "McKee",
-          "position": "QB",
-          "fantasy_positions": [
-            "QB"
-          ],
-          "team": "PHI",
-          "status": "Active",
-          "injury_status": null,
-          "age": 26,
-          "years_exp": 3
         },
         {
           "player_id": "9502",
@@ -3347,18 +3347,18 @@
       ],
       "starters": [
         {
-          "player_id": "4943",
-          "name": "Sam Darnold",
-          "first_name": "Sam",
-          "last_name": "Darnold",
+          "player_id": "4892",
+          "name": "Baker Mayfield",
+          "first_name": "Baker",
+          "last_name": "Mayfield",
           "position": "QB",
           "fantasy_positions": [
             "QB"
           ],
-          "team": "SEA",
+          "team": "TB",
           "status": "Active",
           "injury_status": null,
-          "age": 29,
+          "age": 31,
           "years_exp": 8
         },
         {
@@ -5153,19 +5153,19 @@
           "years_exp": 4
         },
         {
-          "player_id": "8228",
-          "name": "Jaylen Warren",
-          "first_name": "Jaylen",
-          "last_name": "Warren",
-          "position": "RB",
+          "player_id": "10229",
+          "name": "Rashee Rice",
+          "first_name": "Rashee",
+          "last_name": "Rice",
+          "position": "WR",
           "fantasy_positions": [
-            "RB"
+            "WR"
           ],
-          "team": "PIT",
+          "team": "KC",
           "status": "Active",
           "injury_status": null,
-          "age": 28,
-          "years_exp": 4
+          "age": 26,
+          "years_exp": 3
         },
         {
           "player_id": "3163",
@@ -7466,6 +7466,96 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1423713314306854912",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1793802214746,
+      "created_iso": "2026-11-04T14:23:34.746Z",
+      "week": 9,
+      "leg": 9,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "6803",
+            "name": "Brandon Aiyuk",
+            "first_name": "Brandon",
+            "last_name": "Aiyuk",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "SF",
+            "status": "Active",
+            "injury_status": "DNR",
+            "age": 28,
+            "years_exp": 6
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1423713070416506880",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1793802156599,
+      "created_iso": "2026-11-04T14:22:36.599Z",
+      "week": 9,
+      "leg": 9,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [],
+      "drops": [
+        {
+          "player": {
+            "player_id": "9230",
+            "name": "Tanner McKee",
+            "first_name": "Tanner",
+            "last_name": "McKee",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "PHI",
+            "status": "Active",
+            "injury_status": null,
+            "age": 26,
+            "years_exp": 3
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
     {
       "transaction_id": "1423374286780895232",
       "type": "waiver",
@@ -13741,100 +13831,6 @@
       "waiver_bid": 0,
       "metadata": {
         "notes": "Your waiver claim was processed successfully!"
-      }
-    },
-    {
-      "transaction_id": "1408133105692254208",
-      "type": "waiver",
-      "status": "failed",
-      "created": 1790087603547,
-      "created_iso": "2026-09-22T14:33:23.547Z",
-      "week": 2,
-      "leg": 2,
-      "creator": "1129877684336578560",
-      "roster_ids": [
-        2
-      ],
-      "teams": [
-        {
-          "roster_id": 2,
-          "team_name": "Cam dog"
-        }
-      ],
-      "adds": [
-        {
-          "player": {
-            "player_id": "11256",
-            "name": "Tyson Bagent",
-            "first_name": "Tyson",
-            "last_name": "Bagent",
-            "position": "QB",
-            "fantasy_positions": [
-              "QB"
-            ],
-            "team": "CHI",
-            "status": "Active",
-            "injury_status": null,
-            "age": 26,
-            "years_exp": 3
-          },
-          "roster_id": 2,
-          "team_name": "Cam dog"
-        }
-      ],
-      "drops": [],
-      "draft_picks": [],
-      "waiver_budget": [],
-      "waiver_bid": 6,
-      "metadata": {
-        "notes": "Unfortunately, your roster will have too many players after this transaction."
-      }
-    },
-    {
-      "transaction_id": "1408133069390589952",
-      "type": "waiver",
-      "status": "failed",
-      "created": 1790087594891,
-      "created_iso": "2026-09-22T14:33:14.891Z",
-      "week": 2,
-      "leg": 2,
-      "creator": "1129877684336578560",
-      "roster_ids": [
-        2
-      ],
-      "teams": [
-        {
-          "roster_id": 2,
-          "team_name": "Cam dog"
-        }
-      ],
-      "adds": [
-        {
-          "player": {
-            "player_id": "2307",
-            "name": "Marcus Mariota",
-            "first_name": "Marcus",
-            "last_name": "Mariota",
-            "position": "QB",
-            "fantasy_positions": [
-              "QB"
-            ],
-            "team": "WAS",
-            "status": "Active",
-            "injury_status": null,
-            "age": 33,
-            "years_exp": 11
-          },
-          "roster_id": 2,
-          "team_name": "Cam dog"
-        }
-      ],
-      "drops": [],
-      "draft_picks": [],
-      "waiver_budget": [],
-      "waiver_bid": 6,
-      "metadata": {
-        "notes": "Unfortunately, your roster will have too many players after this transaction."
       }
     }
   ]
