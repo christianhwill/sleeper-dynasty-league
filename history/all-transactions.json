@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T03:00:22.167Z",
+  "generated_at": "2026-11-06T03:00:23.077Z",
   "league_name": "Oiled Without Consent",
   "seasons": [
     {
@@ -17,11 +17,11 @@
     {
       "season": "2026",
       "league_id": "1327788752298336256",
-      "transaction_count": 226,
+      "transaction_count": 229,
       "trade_count": 26
     }
   ],
-  "transaction_count": 764,
+  "transaction_count": 767,
   "transactions": [
     {
       "transaction_id": "1133549782154219520",
@@ -35811,7 +35811,7 @@
             ],
             "team": "MIA",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 23,
             "years_exp": 2
           },
@@ -35862,7 +35862,7 @@
             ],
             "team": "NYG",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": null,
             "age": 25,
             "years_exp": 2
           },
@@ -35902,7 +35902,7 @@
             ],
             "team": "NYG",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": null,
             "age": 25,
             "years_exp": 2
           },
@@ -36140,7 +36140,7 @@
             ],
             "team": "ATL",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 27,
             "years_exp": 4
           },
@@ -36186,7 +36186,7 @@
             ],
             "team": "JAX",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 27,
             "years_exp": 3
           },
@@ -36442,7 +36442,7 @@
             ],
             "team": "ARI",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 25,
             "years_exp": 4
           },
@@ -36715,7 +36715,7 @@
             ],
             "team": "CLE",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 31,
             "years_exp": 9
           },
@@ -36736,7 +36736,7 @@
             ],
             "team": "CLE",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": null,
             "age": 25,
             "years_exp": 1
           },
@@ -37161,7 +37161,7 @@
             "team": "MIN",
             "status": "Active",
             "injury_status": null,
-            "age": 33,
+            "age": 34,
             "years_exp": 12
           },
           "roster_id": 2,
@@ -37326,7 +37326,7 @@
             ],
             "team": "KC",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 37,
             "years_exp": 13
           },
@@ -37347,7 +37347,7 @@
             ],
             "team": "KC",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 37,
             "years_exp": 13
           },
@@ -37426,7 +37426,7 @@
             "team": "MIN",
             "status": "Active",
             "injury_status": null,
-            "age": 33,
+            "age": 34,
             "years_exp": 12
           },
           "roster_id": 2,
@@ -38682,7 +38682,7 @@
             ],
             "team": "NYJ",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 22,
             "years_exp": 1
           },
@@ -39077,7 +39077,7 @@
             ],
             "team": "MIA",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 23,
             "years_exp": null
           },
@@ -39124,7 +39124,7 @@
             ],
             "team": "BUF",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": null,
             "age": 24,
             "years_exp": null
           },
@@ -39218,7 +39218,7 @@
             ],
             "team": "MIA",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": null,
             "age": 22,
             "years_exp": null
           },
@@ -39266,7 +39266,7 @@
             ],
             "team": "MIA",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 23,
             "years_exp": null
           },
@@ -40015,7 +40015,7 @@
             ],
             "team": "NO",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 31,
             "years_exp": 9
           },
@@ -40202,7 +40202,7 @@
             ],
             "team": "MIA",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 23,
             "years_exp": null
           },
@@ -40250,7 +40250,7 @@
             ],
             "team": "NYG",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": null,
             "age": 25,
             "years_exp": 2
           },
@@ -40631,7 +40631,7 @@
             ],
             "team": "NE",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 29,
             "years_exp": 7
           },
@@ -40650,7 +40650,7 @@
             ],
             "team": "SEA",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 28,
             "years_exp": 4
           },
@@ -40747,7 +40747,7 @@
             ],
             "team": "NE",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 29,
             "years_exp": 7
           },
@@ -40766,7 +40766,7 @@
             ],
             "team": "SEA",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 28,
             "years_exp": 4
           },
@@ -42595,7 +42595,7 @@
             ],
             "team": "PHI",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 25,
             "years_exp": 3
           },
@@ -42664,7 +42664,7 @@
             ],
             "team": "SEA",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 29,
             "years_exp": 7
           },
@@ -42876,7 +42876,7 @@
             ],
             "team": "NO",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 31,
             "years_exp": 9
           },
@@ -42991,7 +42991,7 @@
             ],
             "team": "NO",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 31,
             "years_exp": 9
           },
@@ -43093,7 +43093,7 @@
             ],
             "team": "NE",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 29,
             "years_exp": 7
           },
@@ -43133,7 +43133,7 @@
             ],
             "team": "NE",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 29,
             "years_exp": 7
           },
@@ -43437,7 +43437,7 @@
             ],
             "team": "NO",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 31,
             "years_exp": 9
           },
@@ -43486,7 +43486,7 @@
             ],
             "team": "NO",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 31,
             "years_exp": 9
           },
@@ -43916,7 +43916,7 @@
             ],
             "team": "SEA",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 29,
             "years_exp": 7
           },
@@ -44601,7 +44601,7 @@
             ],
             "team": "SEA",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 28,
             "years_exp": 4
           },
@@ -44820,7 +44820,7 @@
             ],
             "team": "MIA",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 23,
             "years_exp": 2
           },
@@ -46341,7 +46341,7 @@
             ],
             "team": "PHI",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 25,
             "years_exp": 3
           },
@@ -46751,7 +46751,7 @@
             ],
             "team": "PHI",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 25,
             "years_exp": 3
           },
@@ -46839,7 +46839,7 @@
             ],
             "team": "PHI",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 25,
             "years_exp": 3
           },
@@ -47229,7 +47229,7 @@
             ],
             "team": "DAL",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 27,
             "years_exp": 4
           },
@@ -47269,7 +47269,7 @@
             ],
             "team": "DAL",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 27,
             "years_exp": 4
           },
@@ -47898,7 +47898,7 @@
             ],
             "team": "SF",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 29,
             "years_exp": 8
           },
@@ -48241,7 +48241,7 @@
             ],
             "team": "ARI",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "age": 25,
             "years_exp": 4
           },
@@ -48882,7 +48882,7 @@
             ],
             "team": "MIN",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": null,
             "age": 23,
             "years_exp": null
           },
@@ -49040,7 +49040,7 @@
             ],
             "team": "KC",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 26,
             "years_exp": 3
           },
@@ -49099,7 +49099,7 @@
             ],
             "team": "KC",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 26,
             "years_exp": 3
           },
@@ -49966,6 +49966,207 @@
         }
       ],
       "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null,
+      "season": "2026",
+      "league_id": "1327788752298336256"
+    },
+    {
+      "transaction_id": "1423858903006949376",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1793836925798,
+      "created_iso": "2026-11-05T00:02:05.798Z",
+      "week": 9,
+      "leg": 9,
+      "creator": "1129897778072649728",
+      "roster_ids": [
+        4
+      ],
+      "teams": [
+        {
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "11610",
+            "name": "Malik Washington",
+            "first_name": "Malik",
+            "last_name": "Washington",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "MIA",
+            "status": "Active",
+            "injury_status": null,
+            "age": 25,
+            "years_exp": 2
+          },
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "4950",
+            "name": "Christian Kirk",
+            "first_name": "Christian",
+            "last_name": "Kirk",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "SF",
+            "status": "Active",
+            "injury_status": "Questionable",
+            "age": 29,
+            "years_exp": 8
+          },
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null,
+      "season": "2026",
+      "league_id": "1327788752298336256"
+    },
+    {
+      "transaction_id": "1424052406282428416",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1793883060573,
+      "created_iso": "2026-11-05T12:51:00.573Z",
+      "week": 9,
+      "leg": 9,
+      "creator": "1008209629677158400",
+      "roster_ids": [
+        6
+      ],
+      "teams": [
+        {
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "5854",
+            "name": "Drew Lock",
+            "first_name": "Drew",
+            "last_name": "Lock",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "SEA",
+            "status": "Active",
+            "injury_status": "Questionable",
+            "age": 29,
+            "years_exp": 7
+          },
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "6011",
+            "name": "Gardner Minshew II",
+            "first_name": "Gardner",
+            "last_name": "Minshew II",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "ARI",
+            "status": "Active",
+            "injury_status": null,
+            "age": 30,
+            "years_exp": 7
+          },
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null,
+      "season": "2026",
+      "league_id": "1327788752298336256"
+    },
+    {
+      "transaction_id": "1424052933938462720",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1793883186376,
+      "created_iso": "2026-11-05T12:53:06.376Z",
+      "week": 9,
+      "leg": 9,
+      "creator": "1008209629677158400",
+      "roster_ids": [
+        6
+      ],
+      "teams": [
+        {
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "4993",
+            "name": "Mike Gesicki",
+            "first_name": "Mike",
+            "last_name": "Gesicki",
+            "position": "TE",
+            "fantasy_positions": [
+              "TE"
+            ],
+            "team": "CIN",
+            "status": "Active",
+            "injury_status": null,
+            "age": 31,
+            "years_exp": 8
+          },
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "3271",
+            "name": "Tyler Higbee",
+            "first_name": "Tyler",
+            "last_name": "Higbee",
+            "position": "TE",
+            "fantasy_positions": [
+              "TE"
+            ],
+            "team": "LAR",
+            "status": "Active",
+            "injury_status": null,
+            "age": 33,
+            "years_exp": 10
+          },
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        }
+      ],
       "draft_picks": [],
       "waiver_budget": [],
       "waiver_bid": null,
