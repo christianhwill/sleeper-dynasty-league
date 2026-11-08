@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T06:00:47.386Z",
+  "generated_at": "2026-11-08T06:00:07.541Z",
   "season": "2026",
   "drafts": [
     {
@@ -72,8 +72,8 @@
               "RB"
             ],
             "team": "ARI",
-            "status": "Active",
-            "injury_status": null,
+            "status": "Inactive",
+            "injury_status": "IR",
             "age": 21,
             "years_exp": null
           },
@@ -156,8 +156,8 @@
               "WR"
             ],
             "team": "NO",
-            "status": "Inactive",
-            "injury_status": "IR",
+            "status": "Active",
+            "injury_status": "Questionable",
             "age": 22,
             "years_exp": null
           },
@@ -282,8 +282,8 @@
               "RB"
             ],
             "team": "SEA",
-            "status": "Inactive",
-            "injury_status": "IR",
+            "status": "Active",
+            "injury_status": null,
             "age": 23,
             "years_exp": null
           },
@@ -576,8 +576,8 @@
               "RB"
             ],
             "team": "ATL",
-            "status": "Active",
-            "injury_status": "Out",
+            "status": "Inactive",
+            "injury_status": "IR",
             "age": 27,
             "years_exp": 4
           },
@@ -745,7 +745,7 @@
             ],
             "team": "BAL",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 23,
             "years_exp": null
           },
@@ -829,7 +829,7 @@
             ],
             "team": "ATL",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 22,
             "years_exp": null
           },
@@ -1249,7 +1249,7 @@
             ],
             "team": "PIT",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 22,
             "years_exp": null
           },
@@ -1291,7 +1291,7 @@
             ],
             "team": "MIN",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 23,
             "years_exp": null
           },
