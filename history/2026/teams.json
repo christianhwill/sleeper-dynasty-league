@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T00:00:08.353Z",
+  "generated_at": "2026-11-08T12:00:08.022Z",
   "season": "2026",
   "teams": [
     {
@@ -3450,21 +3450,6 @@
           "years_exp": 2
         },
         {
-          "player_id": "11583",
-          "name": "Jonathon Brooks",
-          "first_name": "Jonathon",
-          "last_name": "Brooks",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "CAR",
-          "status": "Inactive",
-          "injury_status": "IR",
-          "age": 23,
-          "years_exp": 2
-        },
-        {
           "player_id": "11635",
           "name": "Ladd McConkey",
           "first_name": "Ladd",
@@ -3628,6 +3613,21 @@
           "injury_status": "Questionable",
           "age": 31,
           "years_exp": 10
+        },
+        {
+          "player_id": "4147",
+          "name": "Samaje Perine",
+          "first_name": "Samaje",
+          "last_name": "Perine",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "team": "CIN",
+          "status": "Active",
+          "injury_status": null,
+          "age": 31,
+          "years_exp": 9
         },
         {
           "player_id": "4881",
@@ -3812,21 +3812,6 @@
           "years_exp": 13
         },
         {
-          "player_id": "9224",
-          "name": "Chase Brown",
-          "first_name": "Chase",
-          "last_name": "Brown",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "CIN",
-          "status": "Active",
-          "injury_status": null,
-          "age": 26,
-          "years_exp": 3
-        },
-        {
           "player_id": "12527",
           "name": "Ashton Jeanty",
           "first_name": "Ashton",
@@ -3840,6 +3825,21 @@
           "injury_status": null,
           "age": 22,
           "years_exp": 1
+        },
+        {
+          "player_id": "9224",
+          "name": "Chase Brown",
+          "first_name": "Chase",
+          "last_name": "Brown",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "team": "CIN",
+          "status": "Active",
+          "injury_status": null,
+          "age": 26,
+          "years_exp": 3
         },
         {
           "player_id": "6786",
