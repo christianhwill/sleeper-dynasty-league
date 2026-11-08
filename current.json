@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T00:00:08.353Z",
+  "generated_at": "2026-11-08T12:00:08.022Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -3577,21 +3577,6 @@
           "years_exp": 2
         },
         {
-          "player_id": "11583",
-          "name": "Jonathon Brooks",
-          "first_name": "Jonathon",
-          "last_name": "Brooks",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "CAR",
-          "status": "Inactive",
-          "injury_status": "IR",
-          "age": 23,
-          "years_exp": 2
-        },
-        {
           "player_id": "11635",
           "name": "Ladd McConkey",
           "first_name": "Ladd",
@@ -3755,6 +3740,21 @@
           "injury_status": "Questionable",
           "age": 31,
           "years_exp": 10
+        },
+        {
+          "player_id": "4147",
+          "name": "Samaje Perine",
+          "first_name": "Samaje",
+          "last_name": "Perine",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "team": "CIN",
+          "status": "Active",
+          "injury_status": null,
+          "age": 31,
+          "years_exp": 9
         },
         {
           "player_id": "4881",
@@ -3939,21 +3939,6 @@
           "years_exp": 13
         },
         {
-          "player_id": "9224",
-          "name": "Chase Brown",
-          "first_name": "Chase",
-          "last_name": "Brown",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "CIN",
-          "status": "Active",
-          "injury_status": null,
-          "age": 26,
-          "years_exp": 3
-        },
-        {
           "player_id": "12527",
           "name": "Ashton Jeanty",
           "first_name": "Ashton",
@@ -3967,6 +3952,21 @@
           "injury_status": null,
           "age": 22,
           "years_exp": 1
+        },
+        {
+          "player_id": "9224",
+          "name": "Chase Brown",
+          "first_name": "Chase",
+          "last_name": "Brown",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "team": "CIN",
+          "status": "Active",
+          "injury_status": null,
+          "age": 26,
+          "years_exp": 3
         },
         {
           "player_id": "6786",
@@ -7466,6 +7466,71 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1425012640710758400",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1794111998301,
+      "created_iso": "2026-11-08T04:26:38.301Z",
+      "week": 9,
+      "leg": 9,
+      "creator": "1131294900231815168",
+      "roster_ids": [
+        7
+      ],
+      "teams": [
+        {
+          "roster_id": 7,
+          "team_name": "I Chase Brown People"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "4147",
+            "name": "Samaje Perine",
+            "first_name": "Samaje",
+            "last_name": "Perine",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "CIN",
+            "status": "Active",
+            "injury_status": null,
+            "age": 31,
+            "years_exp": 9
+          },
+          "roster_id": 7,
+          "team_name": "I Chase Brown People"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "11583",
+            "name": "Jonathon Brooks",
+            "first_name": "Jonathon",
+            "last_name": "Brooks",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "CAR",
+            "status": "Inactive",
+            "injury_status": "IR",
+            "age": 23,
+            "years_exp": 2
+          },
+          "roster_id": 7,
+          "team_name": "I Chase Brown People"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
     {
       "transaction_id": "1424897374383362048",
       "type": "free_agent",
@@ -13782,107 +13847,6 @@
       ],
       "drops": [],
       "draft_picks": [],
-      "waiver_budget": [],
-      "waiver_bid": null,
-      "metadata": null
-    },
-    {
-      "transaction_id": "1409644673420521472",
-      "type": "trade",
-      "status": "complete",
-      "created": 1790447989376,
-      "created_iso": "2026-09-26T18:39:49.376Z",
-      "week": 3,
-      "leg": 3,
-      "creator": "1008209629677158400",
-      "roster_ids": [
-        2,
-        6
-      ],
-      "teams": [
-        {
-          "roster_id": 2,
-          "team_name": "Cam dog"
-        },
-        {
-          "roster_id": 6,
-          "team_name": "McCaffrican Americans"
-        }
-      ],
-      "adds": [
-        {
-          "player": {
-            "player_id": "12533",
-            "name": "Jacory Croskey-Merritt",
-            "first_name": "Jacory",
-            "last_name": "Croskey-Merritt",
-            "position": "RB",
-            "fantasy_positions": [
-              "RB"
-            ],
-            "team": "WAS",
-            "status": "Inactive",
-            "injury_status": "IR",
-            "age": 25,
-            "years_exp": 1
-          },
-          "roster_id": 6,
-          "team_name": "McCaffrican Americans"
-        }
-      ],
-      "drops": [
-        {
-          "player": {
-            "player_id": "12533",
-            "name": "Jacory Croskey-Merritt",
-            "first_name": "Jacory",
-            "last_name": "Croskey-Merritt",
-            "position": "RB",
-            "fantasy_positions": [
-              "RB"
-            ],
-            "team": "WAS",
-            "status": "Inactive",
-            "injury_status": "IR",
-            "age": 25,
-            "years_exp": 1
-          },
-          "roster_id": 2,
-          "team_name": "Cam dog"
-        }
-      ],
-      "draft_picks": [
-        {
-          "season": "2027",
-          "round": 3,
-          "original_roster_id": 2,
-          "previous_owner_roster_id": 2,
-          "current_owner_roster_id": 6,
-          "original_team": "Cam dog",
-          "previous_team": "Cam dog",
-          "current_team": "McCaffrican Americans"
-        },
-        {
-          "season": "2028",
-          "round": 1,
-          "original_roster_id": 6,
-          "previous_owner_roster_id": 6,
-          "current_owner_roster_id": 2,
-          "original_team": "McCaffrican Americans",
-          "previous_team": "McCaffrican Americans",
-          "current_team": "Cam dog"
-        },
-        {
-          "season": "2029",
-          "round": 3,
-          "original_roster_id": 6,
-          "previous_owner_roster_id": 6,
-          "current_owner_roster_id": 2,
-          "original_team": "McCaffrican Americans",
-          "previous_team": "McCaffrican Americans",
-          "current_team": "Cam dog"
-        }
-      ],
       "waiver_budget": [],
       "waiver_bid": null,
       "metadata": null
