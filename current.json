@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T12:00:08.022Z",
+  "generated_at": "2026-11-09T00:00:56.057Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -776,7 +776,7 @@
           ],
           "team": "NYG",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 23,
           "years_exp": 2
         },
@@ -851,7 +851,7 @@
           ],
           "team": "NYG",
           "status": "Active",
-          "injury_status": "Doubtful",
+          "injury_status": "Out",
           "age": 24,
           "years_exp": 1
         },
@@ -1001,7 +1001,7 @@
           ],
           "team": "GB",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 28,
           "years_exp": 7
         },
@@ -1153,7 +1153,7 @@
           ],
           "team": "GB",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 28,
           "years_exp": 7
         },
@@ -1243,7 +1243,7 @@
           ],
           "team": "NYG",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 23,
           "years_exp": 2
         }
@@ -1355,6 +1355,21 @@
           "status": "Active",
           "injury_status": null,
           "age": 25,
+          "years_exp": 2
+        },
+        {
+          "player_id": "11579",
+          "name": "Audric Estime",
+          "first_name": "Audric",
+          "last_name": "Estime",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "team": "NO",
+          "status": "Active",
+          "injury_status": null,
+          "age": 23,
           "years_exp": 2
         },
         {
@@ -1488,7 +1503,7 @@
           ],
           "team": "CLE",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 22,
           "years_exp": null
         },
@@ -1533,7 +1548,7 @@
           ],
           "team": "MIA",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 23,
           "years_exp": null
         },
@@ -1686,21 +1701,6 @@
           "injury_status": null,
           "age": 24,
           "years_exp": 3
-        },
-        {
-          "player_id": "9757",
-          "name": "Kendre Miller",
-          "first_name": "Kendre",
-          "last_name": "Miller",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "NO",
-          "status": "Active",
-          "injury_status": null,
-          "age": 24,
-          "years_exp": 3
         }
       ],
       "starters": [
@@ -1735,19 +1735,19 @@
           "years_exp": null
         },
         {
-          "player_id": "8122",
-          "name": "Zonovan Knight",
-          "first_name": "Zonovan",
-          "last_name": "Knight",
+          "player_id": "11579",
+          "name": "Audric Estime",
+          "first_name": "Audric",
+          "last_name": "Estime",
           "position": "RB",
           "fantasy_positions": [
             "RB"
           ],
-          "team": "ARI",
+          "team": "NO",
           "status": "Active",
-          "injury_status": "Out",
-          "age": 25,
-          "years_exp": 4
+          "injury_status": null,
+          "age": 23,
+          "years_exp": 2
         },
         {
           "player_id": "13298",
@@ -1760,7 +1760,7 @@
           ],
           "team": "CLE",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 22,
           "years_exp": null
         },
@@ -1867,7 +1867,7 @@
           ],
           "team": "MIA",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 23,
           "years_exp": null
         },
@@ -2005,7 +2005,7 @@
           ],
           "team": "MIA",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "age": 23,
           "years_exp": 2
         },
@@ -2200,7 +2200,7 @@
           ],
           "team": "DAL",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "age": 25,
           "years_exp": 4
         },
@@ -2327,19 +2327,19 @@
           "years_exp": 5
         },
         {
-          "player_id": "8137",
-          "name": "George Pickens",
-          "first_name": "George",
-          "last_name": "Pickens",
+          "player_id": "11646",
+          "name": "Jalen Coker",
+          "first_name": "Jalen",
+          "last_name": "Coker",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "DAL",
+          "team": "CAR",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 25,
-          "years_exp": 4
+          "years_exp": 2
         },
         {
           "player_id": "9484",
@@ -2507,7 +2507,7 @@
           ],
           "team": "KC",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 23,
           "years_exp": 2
         },
@@ -2703,7 +2703,7 @@
           ],
           "team": "DEN",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 27,
           "years_exp": 5
         },
@@ -3085,7 +3085,7 @@
           ],
           "team": "LAR",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 23,
           "years_exp": null
         },
@@ -3494,7 +3494,7 @@
           ],
           "team": "LAR",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 23,
           "years_exp": null
         },
@@ -3587,7 +3587,7 @@
           ],
           "team": "LAC",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 24,
           "years_exp": 2
         },
@@ -3737,7 +3737,7 @@
           ],
           "team": "NE",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 31,
           "years_exp": 10
         },
@@ -3917,7 +3917,7 @@
           ],
           "team": "LAR",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 25,
           "years_exp": 3
         }
@@ -4024,7 +4024,7 @@
           ],
           "team": "LAR",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 25,
           "years_exp": 3
         },
@@ -4269,7 +4269,7 @@
           ],
           "team": "NO",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 22,
           "years_exp": null
         },
@@ -4726,7 +4726,7 @@
           ],
           "team": "GB",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "age": 25,
           "years_exp": 2
         },
@@ -5393,7 +5393,7 @@
           ],
           "team": "MIA",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 22,
           "years_exp": null
         },
@@ -5438,7 +5438,7 @@
           ],
           "team": "CLE",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": "Out",
           "age": 31,
           "years_exp": 9
         },
@@ -5468,7 +5468,7 @@
           ],
           "team": "KC",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 31,
           "years_exp": 9
         },
@@ -5513,7 +5513,7 @@
           ],
           "team": "DET",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 27,
           "years_exp": 5
         },
@@ -5695,7 +5695,7 @@
           ],
           "team": "DET",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 27,
           "years_exp": 5
         },
@@ -5770,7 +5770,7 @@
           ],
           "team": "KC",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 31,
           "years_exp": 9
         }
@@ -5787,7 +5787,7 @@
           ],
           "team": "MIA",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 22,
           "years_exp": null
         },
@@ -7467,6 +7467,71 @@
   ],
   "recent_transactions": [
     {
+      "transaction_id": "1425196927326109696",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1794155935655,
+      "created_iso": "2026-11-08T16:38:55.655Z",
+      "week": 9,
+      "leg": 9,
+      "creator": "1129881968960901120",
+      "roster_ids": [
+        3
+      ],
+      "teams": [
+        {
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "11579",
+            "name": "Audric Estime",
+            "first_name": "Audric",
+            "last_name": "Estime",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "NO",
+            "status": "Active",
+            "injury_status": null,
+            "age": 23,
+            "years_exp": 2
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "9757",
+            "name": "Kendre Miller",
+            "first_name": "Kendre",
+            "last_name": "Miller",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": null,
+            "status": "Active",
+            "injury_status": null,
+            "age": 24,
+            "years_exp": 3
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
       "transaction_id": "1425012640710758400",
       "type": "free_agent",
       "status": "complete",
@@ -7868,7 +7933,7 @@
             ],
             "team": "PHI",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 26,
             "years_exp": 3
           },
@@ -9487,7 +9552,7 @@
             ],
             "team": "DEN",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 23,
             "years_exp": 1
           },
@@ -9730,7 +9795,7 @@
             ],
             "team": "PHI",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 26,
             "years_exp": 3
           },
@@ -9909,7 +9974,7 @@
             ],
             "team": "PHI",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 26,
             "years_exp": 3
           },
@@ -10055,7 +10120,7 @@
             ],
             "team": "NYG",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 23,
             "years_exp": 2
           },
@@ -10076,7 +10141,7 @@
             ],
             "team": "NYG",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 23,
             "years_exp": 2
           },
@@ -12446,7 +12511,7 @@
             "fantasy_positions": [
               "RB"
             ],
-            "team": "NO",
+            "team": null,
             "status": "Active",
             "injury_status": null,
             "age": 24,
@@ -12517,7 +12582,7 @@
             ],
             "team": "KC",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 23,
             "years_exp": 2
           },
@@ -12557,7 +12622,7 @@
             ],
             "team": "KC",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 23,
             "years_exp": 2
           },
@@ -12785,7 +12850,7 @@
             ],
             "team": "MIA",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": "Out",
             "age": 23,
             "years_exp": 2
           },
@@ -13483,7 +13548,7 @@
             ],
             "team": "KC",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 31,
             "years_exp": 9
           },
@@ -13523,7 +13588,7 @@
             ],
             "team": "KC",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 31,
             "years_exp": 9
           },
@@ -13798,51 +13863,6 @@
           },
           "roster_id": 4,
           "team_name": "Raw Dawgs"
-        }
-      ],
-      "drops": [],
-      "draft_picks": [],
-      "waiver_budget": [],
-      "waiver_bid": null,
-      "metadata": null
-    },
-    {
-      "transaction_id": "1409672554641174528",
-      "type": "free_agent",
-      "status": "complete",
-      "created": 1790454636777,
-      "created_iso": "2026-09-26T20:30:36.777Z",
-      "week": 3,
-      "leg": 3,
-      "creator": "1129877684336578560",
-      "roster_ids": [
-        2
-      ],
-      "teams": [
-        {
-          "roster_id": 2,
-          "team_name": "Cam dog"
-        }
-      ],
-      "adds": [
-        {
-          "player": {
-            "player_id": "2307",
-            "name": "Marcus Mariota",
-            "first_name": "Marcus",
-            "last_name": "Mariota",
-            "position": "QB",
-            "fantasy_positions": [
-              "QB"
-            ],
-            "team": "WAS",
-            "status": "Active",
-            "injury_status": null,
-            "age": 33,
-            "years_exp": 11
-          },
-          "roster_id": 2,
-          "team_name": "Cam dog"
         }
       ],
       "drops": [],
