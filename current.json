@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T12:00:16.957Z",
+  "generated_at": "2026-11-12T00:00:15.320Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -611,19 +611,19 @@
           "years_exp": 1
         },
         {
-          "player_id": "9500",
-          "name": "Josh Downs",
-          "first_name": "Josh",
-          "last_name": "Downs",
-          "position": "WR",
+          "player_id": "12491",
+          "name": "Corey Kiner",
+          "first_name": "Corey",
+          "last_name": "Kiner",
+          "position": "RB",
           "fantasy_positions": [
-            "WR"
+            "RB"
           ],
-          "team": "KC",
+          "team": "NE",
           "status": "Active",
           "injury_status": null,
-          "age": 25,
-          "years_exp": 3
+          "age": 24,
+          "years_exp": 1
         },
         {
           "player_id": "7553",
@@ -751,21 +751,6 @@
       },
       "players": [
         {
-          "player_id": "11557",
-          "name": "Joe Milton",
-          "first_name": "Joe",
-          "last_name": "Milton",
-          "position": "QB",
-          "fantasy_positions": [
-            "QB"
-          ],
-          "team": "PHI",
-          "status": "Active",
-          "injury_status": null,
-          "age": 26,
-          "years_exp": 2
-        },
-        {
           "player_id": "11565",
           "name": "J.J. McCarthy",
           "first_name": "J.J.",
@@ -853,6 +838,21 @@
           "status": "Active",
           "injury_status": null,
           "age": 24,
+          "years_exp": 1
+        },
+        {
+          "player_id": "12492",
+          "name": "Pat Bryant",
+          "first_name": "Pat",
+          "last_name": "Bryant",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "DEN",
+          "status": "Active",
+          "injury_status": null,
+          "age": 23,
           "years_exp": 1
         },
         {
@@ -976,21 +976,6 @@
           "years_exp": 13
         },
         {
-          "player_id": "1479",
-          "name": "Keenan Allen",
-          "first_name": "Keenan",
-          "last_name": "Allen",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "SF",
-          "status": "Active",
-          "injury_status": null,
-          "age": 34,
-          "years_exp": 13
-        },
-        {
           "player_id": "5850",
           "name": "Josh Jacobs",
           "first_name": "Josh",
@@ -1017,21 +1002,6 @@
           "team": "NE",
           "status": "Active",
           "injury_status": "Questionable",
-          "age": 29,
-          "years_exp": 7
-        },
-        {
-          "player_id": "6130",
-          "name": "Devin Singletary",
-          "first_name": "Devin",
-          "last_name": "Singletary",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "NYG",
-          "status": "Active",
-          "injury_status": null,
           "age": 29,
           "years_exp": 7
         },
@@ -1079,6 +1049,36 @@
           "injury_status": null,
           "age": 27,
           "years_exp": 5
+        },
+        {
+          "player_id": "7562",
+          "name": "Tutu Atwell",
+          "first_name": "Tutu",
+          "last_name": "Atwell",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "LAR",
+          "status": "Active",
+          "injury_status": null,
+          "age": 27,
+          "years_exp": 5
+        },
+        {
+          "player_id": "8135",
+          "name": "Treylon Burks",
+          "first_name": "Treylon",
+          "last_name": "Burks",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "WAS",
+          "status": "Active",
+          "injury_status": "Questionable",
+          "age": 26,
+          "years_exp": 4
         },
         {
           "player_id": "8155",
@@ -2387,18 +2387,18 @@
           "years_exp": 4
         },
         {
-          "player_id": "8161",
-          "name": "Malik Willis",
-          "first_name": "Malik",
-          "last_name": "Willis",
-          "position": "QB",
+          "player_id": "8126",
+          "name": "Wan'Dale Robinson",
+          "first_name": "Wan'Dale",
+          "last_name": "Robinson",
+          "position": "WR",
           "fantasy_positions": [
-            "QB"
+            "WR"
           ],
-          "team": "MIA",
-          "status": "Inactive",
-          "injury_status": "IR",
-          "age": 27,
+          "team": "TEN",
+          "status": "Active",
+          "injury_status": null,
+          "age": 25,
           "years_exp": 4
         }
       ],
@@ -2815,6 +2815,21 @@
           "years_exp": 6
         },
         {
+          "player_id": "5967",
+          "name": "Tony Pollard",
+          "first_name": "Tony",
+          "last_name": "Pollard",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "team": "TEN",
+          "status": "Active",
+          "injury_status": null,
+          "age": 29,
+          "years_exp": 7
+        },
+        {
           "player_id": "3198",
           "name": "Derrick Henry",
           "first_name": "Derrick",
@@ -2830,34 +2845,19 @@
           "years_exp": 10
         },
         {
-          "player_id": "11576",
-          "name": "Braelon Allen",
-          "first_name": "Braelon",
-          "last_name": "Allen",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "NYJ",
-          "status": "Active",
-          "injury_status": null,
-          "age": 22,
-          "years_exp": 2
-        },
-        {
-          "player_id": "10232",
-          "name": "Michael Wilson",
-          "first_name": "Michael",
+          "player_id": "8146",
+          "name": "Garrett Wilson",
+          "first_name": "Garrett",
           "last_name": "Wilson",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "ARI",
-          "status": "Inactive",
-          "injury_status": "IR",
+          "team": "NYJ",
+          "status": "Active",
+          "injury_status": "Questionable",
           "age": 26,
-          "years_exp": 3
+          "years_exp": 4
         },
         {
           "player_id": "13276",
@@ -2890,19 +2890,19 @@
           "years_exp": 9
         },
         {
-          "player_id": "6790",
-          "name": "D'Andre Swift",
-          "first_name": "D'Andre",
-          "last_name": "Swift",
-          "position": "RB",
+          "player_id": "5844",
+          "name": "T.J. Hockenson",
+          "first_name": "T.J.",
+          "last_name": "Hockenson",
+          "position": "TE",
           "fantasy_positions": [
-            "RB"
+            "TE"
           ],
-          "team": "CHI",
+          "team": "MIN",
           "status": "Active",
           "injury_status": null,
-          "age": 27,
-          "years_exp": 6
+          "age": 29,
+          "years_exp": 7
         },
         {
           "player_id": "8136",
@@ -2920,19 +2920,19 @@
           "years_exp": 4
         },
         {
-          "player_id": "5844",
-          "name": "T.J. Hockenson",
-          "first_name": "T.J.",
-          "last_name": "Hockenson",
-          "position": "TE",
+          "player_id": "96",
+          "name": "Aaron Rodgers",
+          "first_name": "Aaron",
+          "last_name": "Rodgers",
+          "position": "QB",
           "fantasy_positions": [
-            "TE"
+            "QB"
           ],
-          "team": "MIN",
+          "team": "PIT",
           "status": "Active",
           "injury_status": null,
-          "age": 29,
-          "years_exp": 7
+          "age": 42,
+          "years_exp": 21
         }
       ],
       "taxi": [
@@ -7466,6 +7466,266 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1426297997762777095",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1794418451303,
+      "created_iso": "2026-11-11T17:34:11.303Z",
+      "week": 10,
+      "leg": 10,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "8135",
+            "name": "Treylon Burks",
+            "first_name": "Treylon",
+            "last_name": "Burks",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "WAS",
+            "status": "Active",
+            "injury_status": "Questionable",
+            "age": 26,
+            "years_exp": 4
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "13333",
+            "name": "Deion Burks",
+            "first_name": "Deion",
+            "last_name": "Burks",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "IND",
+            "status": "Active",
+            "injury_status": null,
+            "age": 23,
+            "years_exp": null
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1426296322662596608",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1794418051929,
+      "created_iso": "2026-11-11T17:27:31.929Z",
+      "week": 10,
+      "leg": 10,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "13333",
+            "name": "Deion Burks",
+            "first_name": "Deion",
+            "last_name": "Burks",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "IND",
+            "status": "Active",
+            "injury_status": null,
+            "age": 23,
+            "years_exp": null
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "1479",
+            "name": "Keenan Allen",
+            "first_name": "Keenan",
+            "last_name": "Allen",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "SF",
+            "status": "Active",
+            "injury_status": null,
+            "age": 34,
+            "years_exp": 13
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1426272977120419840",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1794412485918,
+      "created_iso": "2026-11-11T15:54:45.918Z",
+      "week": 10,
+      "leg": 10,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "7562",
+            "name": "Tutu Atwell",
+            "first_name": "Tutu",
+            "last_name": "Atwell",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "LAR",
+            "status": "Active",
+            "injury_status": null,
+            "age": 27,
+            "years_exp": 5
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "6130",
+            "name": "Devin Singletary",
+            "first_name": "Devin",
+            "last_name": "Singletary",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "NYG",
+            "status": "Active",
+            "injury_status": null,
+            "age": 29,
+            "years_exp": 7
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1426251582223167488",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1794407384976,
+      "created_iso": "2026-11-11T14:29:44.976Z",
+      "week": 10,
+      "leg": 10,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "12492",
+            "name": "Pat Bryant",
+            "first_name": "Pat",
+            "last_name": "Bryant",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "DEN",
+            "status": "Active",
+            "injury_status": null,
+            "age": 23,
+            "years_exp": 1
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "11557",
+            "name": "Joe Milton",
+            "first_name": "Joe",
+            "last_name": "Milton",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "PHI",
+            "status": "Active",
+            "injury_status": null,
+            "age": 26,
+            "years_exp": 2
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
     {
       "transaction_id": "1425944818038632448",
       "type": "waiver",
@@ -13620,302 +13880,6 @@
       "metadata": {
         "notes": "This player was claimed by another owner."
       }
-    },
-    {
-      "transaction_id": "1410480934137901056",
-      "type": "waiver",
-      "status": "failed",
-      "created": 1790647369469,
-      "created_iso": "2026-09-29T02:02:49.469Z",
-      "week": 3,
-      "leg": 3,
-      "creator": "1129875387229560832",
-      "roster_ids": [
-        1
-      ],
-      "teams": [
-        {
-          "roster_id": 1,
-          "team_name": "Imperialist Junta"
-        }
-      ],
-      "adds": [
-        {
-          "player": {
-            "player_id": "12495",
-            "name": "Ollie Gordon II",
-            "first_name": "Ollie",
-            "last_name": "Gordon II",
-            "position": "RB",
-            "fantasy_positions": [
-              "RB"
-            ],
-            "team": "MIA",
-            "status": "Active",
-            "injury_status": null,
-            "age": 22,
-            "years_exp": 1
-          },
-          "roster_id": 1,
-          "team_name": "Imperialist Junta"
-        }
-      ],
-      "drops": [],
-      "draft_picks": [],
-      "waiver_budget": [],
-      "waiver_bid": 92,
-      "metadata": {
-        "notes": "This player was claimed by another owner."
-      }
-    },
-    {
-      "transaction_id": "1410024812557910016",
-      "type": "free_agent",
-      "status": "complete",
-      "created": 1790538621609,
-      "created_iso": "2026-09-27T19:50:21.609Z",
-      "week": 3,
-      "leg": 3,
-      "creator": "1131294900231815168",
-      "roster_ids": [
-        7
-      ],
-      "teams": [
-        {
-          "roster_id": 7,
-          "team_name": "I Chase Brown People"
-        }
-      ],
-      "adds": [
-        {
-          "player": {
-            "player_id": "11783",
-            "name": "Ryan Flournoy",
-            "first_name": "Ryan",
-            "last_name": "Flournoy",
-            "position": "WR",
-            "fantasy_positions": [
-              "WR"
-            ],
-            "team": "DAL",
-            "status": "Active",
-            "injury_status": null,
-            "age": 27,
-            "years_exp": 2
-          },
-          "roster_id": 7,
-          "team_name": "I Chase Brown People"
-        }
-      ],
-      "drops": [],
-      "draft_picks": [],
-      "waiver_budget": [],
-      "waiver_bid": null,
-      "metadata": null
-    },
-    {
-      "transaction_id": "1409971067807694848",
-      "type": "trade",
-      "status": "complete",
-      "created": 1790525807862,
-      "created_iso": "2026-09-27T16:16:47.862Z",
-      "week": 3,
-      "leg": 3,
-      "creator": "937819151345799168",
-      "roster_ids": [
-        6,
-        10
-      ],
-      "teams": [
-        {
-          "roster_id": 6,
-          "team_name": "McCaffrican Americans"
-        },
-        {
-          "roster_id": 10,
-          "team_name": "Sugerdaddy"
-        }
-      ],
-      "adds": [
-        {
-          "player": {
-            "player_id": "4046",
-            "name": "Patrick Mahomes",
-            "first_name": "Patrick",
-            "last_name": "Mahomes",
-            "position": "QB",
-            "fantasy_positions": [
-              "QB"
-            ],
-            "team": "KC",
-            "status": "Active",
-            "injury_status": "Questionable",
-            "age": 31,
-            "years_exp": 9
-          },
-          "roster_id": 10,
-          "team_name": "Sugerdaddy"
-        },
-        {
-          "player": {
-            "player_id": "4892",
-            "name": "Baker Mayfield",
-            "first_name": "Baker",
-            "last_name": "Mayfield",
-            "position": "QB",
-            "fantasy_positions": [
-              "QB"
-            ],
-            "team": "TB",
-            "status": "Active",
-            "injury_status": null,
-            "age": 31,
-            "years_exp": 8
-          },
-          "roster_id": 6,
-          "team_name": "McCaffrican Americans"
-        }
-      ],
-      "drops": [
-        {
-          "player": {
-            "player_id": "4046",
-            "name": "Patrick Mahomes",
-            "first_name": "Patrick",
-            "last_name": "Mahomes",
-            "position": "QB",
-            "fantasy_positions": [
-              "QB"
-            ],
-            "team": "KC",
-            "status": "Active",
-            "injury_status": "Questionable",
-            "age": 31,
-            "years_exp": 9
-          },
-          "roster_id": 6,
-          "team_name": "McCaffrican Americans"
-        },
-        {
-          "player": {
-            "player_id": "4892",
-            "name": "Baker Mayfield",
-            "first_name": "Baker",
-            "last_name": "Mayfield",
-            "position": "QB",
-            "fantasy_positions": [
-              "QB"
-            ],
-            "team": "TB",
-            "status": "Active",
-            "injury_status": null,
-            "age": 31,
-            "years_exp": 8
-          },
-          "roster_id": 10,
-          "team_name": "Sugerdaddy"
-        }
-      ],
-      "draft_picks": [
-        {
-          "season": "2027",
-          "round": 2,
-          "original_roster_id": 10,
-          "previous_owner_roster_id": 10,
-          "current_owner_roster_id": 6,
-          "original_team": "Sugerdaddy",
-          "previous_team": "Sugerdaddy",
-          "current_team": "McCaffrican Americans"
-        },
-        {
-          "season": "2028",
-          "round": 1,
-          "original_roster_id": 10,
-          "previous_owner_roster_id": 10,
-          "current_owner_roster_id": 6,
-          "original_team": "Sugerdaddy",
-          "previous_team": "Sugerdaddy",
-          "current_team": "McCaffrican Americans"
-        },
-        {
-          "season": "2028",
-          "round": 2,
-          "original_roster_id": 10,
-          "previous_owner_roster_id": 10,
-          "current_owner_roster_id": 6,
-          "original_team": "Sugerdaddy",
-          "previous_team": "Sugerdaddy",
-          "current_team": "McCaffrican Americans"
-        }
-      ],
-      "waiver_budget": [],
-      "waiver_bid": null,
-      "metadata": null
-    },
-    {
-      "transaction_id": "1409933966164738048",
-      "type": "free_agent",
-      "status": "complete",
-      "created": 1790516962142,
-      "created_iso": "2026-09-27T13:49:22.142Z",
-      "week": 3,
-      "leg": 3,
-      "creator": "1129877684336578560",
-      "roster_ids": [
-        2
-      ],
-      "teams": [
-        {
-          "roster_id": 2,
-          "team_name": "Cam dog"
-        }
-      ],
-      "adds": [
-        {
-          "player": {
-            "player_id": "6806",
-            "name": "J.K. Dobbins",
-            "first_name": "J.K.",
-            "last_name": "Dobbins",
-            "position": "RB",
-            "fantasy_positions": [
-              "RB"
-            ],
-            "team": "DEN",
-            "status": "Active",
-            "injury_status": null,
-            "age": 27,
-            "years_exp": 6
-          },
-          "roster_id": 2,
-          "team_name": "Cam dog"
-        }
-      ],
-      "drops": [
-        {
-          "player": {
-            "player_id": "2307",
-            "name": "Marcus Mariota",
-            "first_name": "Marcus",
-            "last_name": "Mariota",
-            "position": "QB",
-            "fantasy_positions": [
-              "QB"
-            ],
-            "team": "WAS",
-            "status": "Active",
-            "injury_status": null,
-            "age": 33,
-            "years_exp": 11
-          },
-          "roster_id": 2,
-          "team_name": "Cam dog"
-        }
-      ],
-      "draft_picks": [],
-      "waiver_budget": [],
-      "waiver_bid": null,
-      "metadata": null
     }
   ]
 }
