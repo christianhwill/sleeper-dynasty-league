@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T00:00:35.106Z",
+  "generated_at": "2026-11-13T12:00:34.952Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -1331,7 +1331,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 71,
-        "waiver_position": 10,
+        "waiver_position": 9,
         "wins": 3
       },
       "record": {
@@ -2482,6 +2482,21 @@
           "years_exp": 3
         },
         {
+          "player_id": "10236",
+          "name": "Dalton Kincaid",
+          "first_name": "Dalton",
+          "last_name": "Kincaid",
+          "position": "TE",
+          "fantasy_positions": [
+            "TE"
+          ],
+          "team": "BUF",
+          "status": "Active",
+          "injury_status": "Questionable",
+          "age": 27,
+          "years_exp": 3
+        },
+        {
           "player_id": "11576",
           "name": "Braelon Allen",
           "first_name": "Braelon",
@@ -2510,6 +2525,21 @@
           "injury_status": null,
           "age": 23,
           "years_exp": 2
+        },
+        {
+          "player_id": "1166",
+          "name": "Kirk Cousins",
+          "first_name": "Kirk",
+          "last_name": "Cousins",
+          "position": "QB",
+          "fantasy_positions": [
+            "QB"
+          ],
+          "team": "MIN",
+          "status": "Active",
+          "injury_status": null,
+          "age": 38,
+          "years_exp": 14
         },
         {
           "player_id": "12530",
@@ -2603,19 +2633,19 @@
           "years_exp": 10
         },
         {
-          "player_id": "4217",
-          "name": "George Kittle",
-          "first_name": "George",
-          "last_name": "Kittle",
-          "position": "TE",
+          "player_id": "4866",
+          "name": "Saquon Barkley",
+          "first_name": "Saquon",
+          "last_name": "Barkley",
+          "position": "RB",
           "fantasy_positions": [
-            "TE"
+            "RB"
           ],
-          "team": "SF",
+          "team": "PHI",
           "status": "Active",
           "injury_status": null,
-          "age": 33,
-          "years_exp": 9
+          "age": 29,
+          "years_exp": 8
         },
         {
           "player_id": "5844",
@@ -2678,21 +2708,6 @@
           "years_exp": 6
         },
         {
-          "player_id": "6804",
-          "name": "Jordan Love",
-          "first_name": "Jordan",
-          "last_name": "Love",
-          "position": "QB",
-          "fantasy_positions": [
-            "QB"
-          ],
-          "team": "GB",
-          "status": "Active",
-          "injury_status": null,
-          "age": 28,
-          "years_exp": 6
-        },
-        {
           "player_id": "7526",
           "name": "Jaylen Waddle",
           "first_name": "Jaylen",
@@ -2719,6 +2734,21 @@
           "team": "NE",
           "status": "Inactive",
           "injury_status": "IR",
+          "age": 26,
+          "years_exp": 4
+        },
+        {
+          "player_id": "8134",
+          "name": "Khalil Shakir",
+          "first_name": "Khalil",
+          "last_name": "Shakir",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "BUF",
+          "status": "Active",
+          "injury_status": null,
           "age": 26,
           "years_exp": 4
         },
@@ -2800,19 +2830,10 @@
       ],
       "starters": [
         {
-          "player_id": "6804",
-          "name": "Jordan Love",
-          "first_name": "Jordan",
-          "last_name": "Love",
-          "position": "QB",
-          "fantasy_positions": [
-            "QB"
-          ],
-          "team": "GB",
-          "status": "Active",
-          "injury_status": null,
-          "age": 28,
-          "years_exp": 6
+          "player_id": "0",
+          "name": "0",
+          "position": "DEF",
+          "team": "0"
         },
         {
           "player_id": "8136",
@@ -2875,19 +2896,10 @@
           "years_exp": null
         },
         {
-          "player_id": "4217",
-          "name": "George Kittle",
-          "first_name": "George",
-          "last_name": "Kittle",
-          "position": "TE",
-          "fantasy_positions": [
-            "TE"
-          ],
-          "team": "SF",
-          "status": "Active",
-          "injury_status": null,
-          "age": 33,
-          "years_exp": 9
+          "player_id": "0",
+          "name": "0",
+          "position": "DEF",
+          "team": "0"
         },
         {
           "player_id": "3198",
@@ -2954,19 +2966,19 @@
       ],
       "reserve": [
         {
-          "player_id": "8205",
-          "name": "Isiah Pacheco",
-          "first_name": "Isiah",
-          "last_name": "Pacheco",
-          "position": "RB",
+          "player_id": "10232",
+          "name": "Michael Wilson",
+          "first_name": "Michael",
+          "last_name": "Wilson",
+          "position": "WR",
           "fantasy_positions": [
-            "RB"
+            "WR"
           ],
-          "team": "DET",
+          "team": "ARI",
           "status": "Inactive",
           "injury_status": "IR",
-          "age": 27,
-          "years_exp": 4
+          "age": 26,
+          "years_exp": 3
         }
       ]
     },
@@ -5266,7 +5278,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 7,
-        "waiver_position": 9,
+        "waiver_position": 10,
         "wins": 8
       },
       "record": {
@@ -5291,36 +5303,6 @@
           "injury_status": "Questionable",
           "age": 27,
           "years_exp": 3
-        },
-        {
-          "player_id": "10236",
-          "name": "Dalton Kincaid",
-          "first_name": "Dalton",
-          "last_name": "Kincaid",
-          "position": "TE",
-          "fantasy_positions": [
-            "TE"
-          ],
-          "team": "BUF",
-          "status": "Active",
-          "injury_status": "Questionable",
-          "age": 27,
-          "years_exp": 3
-        },
-        {
-          "player_id": "1166",
-          "name": "Kirk Cousins",
-          "first_name": "Kirk",
-          "last_name": "Cousins",
-          "position": "QB",
-          "fantasy_positions": [
-            "QB"
-          ],
-          "team": "MIN",
-          "status": "Active",
-          "injury_status": null,
-          "age": 38,
-          "years_exp": 14
         },
         {
           "player_id": "12484",
@@ -5443,6 +5425,21 @@
           "years_exp": null
         },
         {
+          "player_id": "2505",
+          "name": "Darren Waller",
+          "first_name": "Darren",
+          "last_name": "Waller",
+          "position": "TE",
+          "fantasy_positions": [
+            "TE"
+          ],
+          "team": "CAR",
+          "status": "Active",
+          "injury_status": null,
+          "age": 34,
+          "years_exp": 11
+        },
+        {
           "player_id": "4017",
           "name": "Deshaun Watson",
           "first_name": "Deshaun",
@@ -5488,19 +5485,19 @@
           "years_exp": 9
         },
         {
-          "player_id": "4866",
-          "name": "Saquon Barkley",
-          "first_name": "Saquon",
-          "last_name": "Barkley",
-          "position": "RB",
+          "player_id": "4217",
+          "name": "George Kittle",
+          "first_name": "George",
+          "last_name": "Kittle",
+          "position": "TE",
           "fantasy_positions": [
-            "RB"
+            "TE"
           ],
-          "team": "PHI",
+          "team": "SF",
           "status": "Active",
           "injury_status": null,
-          "age": 29,
-          "years_exp": 8
+          "age": 33,
+          "years_exp": 9
         },
         {
           "player_id": "4984",
@@ -5516,6 +5513,21 @@
           "injury_status": null,
           "age": 30,
           "years_exp": 8
+        },
+        {
+          "player_id": "6804",
+          "name": "Jordan Love",
+          "first_name": "Jordan",
+          "last_name": "Love",
+          "position": "QB",
+          "fantasy_positions": [
+            "QB"
+          ],
+          "team": "GB",
+          "status": "Active",
+          "injury_status": null,
+          "age": 28,
+          "years_exp": 6
         },
         {
           "player_id": "7547",
@@ -5546,21 +5558,6 @@
           "injury_status": null,
           "age": 27,
           "years_exp": 5
-        },
-        {
-          "player_id": "8134",
-          "name": "Khalil Shakir",
-          "first_name": "Khalil",
-          "last_name": "Shakir",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "BUF",
-          "status": "Active",
-          "injury_status": null,
-          "age": 26,
-          "years_exp": 4
         },
         {
           "player_id": "8144",
@@ -5620,6 +5617,21 @@
           "status": "Active",
           "injury_status": null,
           "age": 24,
+          "years_exp": 3
+        },
+        {
+          "player_id": "9482",
+          "name": "Michael Mayer",
+          "first_name": "Michael",
+          "last_name": "Mayer",
+          "position": "TE",
+          "fantasy_positions": [
+            "TE"
+          ],
+          "team": "LV",
+          "status": "Active",
+          "injury_status": null,
+          "age": 25,
           "years_exp": 3
         },
         {
@@ -5700,34 +5712,34 @@
           "years_exp": 5
         },
         {
-          "player_id": "7569",
-          "name": "Nico Collins",
-          "first_name": "Nico",
-          "last_name": "Collins",
+          "player_id": "8144",
+          "name": "Chris Olave",
+          "first_name": "Chris",
+          "last_name": "Olave",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "HOU",
+          "team": "NO",
           "status": "Active",
           "injury_status": null,
-          "age": 27,
-          "years_exp": 5
+          "age": 26,
+          "years_exp": 4
         },
         {
-          "player_id": "12506",
-          "name": "Harold Fannin Jr.",
-          "first_name": "Harold",
-          "last_name": "Fannin Jr.",
+          "player_id": "4217",
+          "name": "George Kittle",
+          "first_name": "George",
+          "last_name": "Kittle",
           "position": "TE",
           "fantasy_positions": [
             "TE"
           ],
-          "team": "CLE",
+          "team": "SF",
           "status": "Active",
-          "injury_status": "Questionable",
-          "age": 22,
-          "years_exp": 1
+          "injury_status": null,
+          "age": 33,
+          "years_exp": 9
         },
         {
           "player_id": "4034",
@@ -6471,6 +6483,16 @@
       "original_team": "Sugerdaddy",
       "previous_team": "Sugerdaddy",
       "current_team": "Imperialist Junta"
+    },
+    {
+      "season": "2029",
+      "round": 2,
+      "original_roster_id": 10,
+      "previous_owner_roster_id": 10,
+      "current_owner_roster_id": 5,
+      "original_team": "Sugerdaddy",
+      "previous_team": "Sugerdaddy",
+      "current_team": "BING BONG"
     }
   ],
   "draft_pick_ownership": [
@@ -7447,11 +7469,11 @@
       "round": 2,
       "original_roster_id": 10,
       "original_team": "Sugerdaddy",
-      "current_owner_roster_id": 10,
-      "current_team": "Sugerdaddy",
-      "previous_owner_roster_id": null,
-      "previous_team": null,
-      "has_been_traded": false
+      "current_owner_roster_id": 5,
+      "current_team": "BING BONG",
+      "previous_owner_roster_id": 10,
+      "previous_team": "Sugerdaddy",
+      "has_been_traded": true
     },
     {
       "season": "2029",
@@ -7466,6 +7488,434 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1426819037161086976",
+      "type": "waiver",
+      "status": "complete",
+      "created": 1794542676777,
+      "created_iso": "2026-11-13T04:04:36.777Z",
+      "week": 10,
+      "leg": 10,
+      "creator": "937819151345799168",
+      "roster_ids": [
+        10
+      ],
+      "teams": [
+        {
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "9482",
+            "name": "Michael Mayer",
+            "first_name": "Michael",
+            "last_name": "Mayer",
+            "position": "TE",
+            "fantasy_positions": [
+              "TE"
+            ],
+            "team": "LV",
+            "status": "Active",
+            "injury_status": null,
+            "age": 25,
+            "years_exp": 3
+          },
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "12494",
+            "name": "Kyle McCord",
+            "first_name": "Kyle",
+            "last_name": "McCord",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "MIA",
+            "status": "Active",
+            "injury_status": null,
+            "age": 24,
+            "years_exp": 1
+          },
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0,
+      "metadata": {
+        "notes": "Your waiver claim was processed successfully!"
+      }
+    },
+    {
+      "transaction_id": "1426815083186499584",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1794541734075,
+      "created_iso": "2026-11-13T03:48:54.075Z",
+      "week": 10,
+      "leg": 10,
+      "creator": "937819151345799168",
+      "roster_ids": [
+        10
+      ],
+      "teams": [
+        {
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "12494",
+            "name": "Kyle McCord",
+            "first_name": "Kyle",
+            "last_name": "McCord",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "MIA",
+            "status": "Active",
+            "injury_status": null,
+            "age": 24,
+            "years_exp": 1
+          },
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1426815062114320384",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1794541729051,
+      "created_iso": "2026-11-13T03:48:49.051Z",
+      "week": 10,
+      "leg": 10,
+      "creator": "937819151345799168",
+      "roster_ids": [
+        10
+      ],
+      "teams": [
+        {
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "2505",
+            "name": "Darren Waller",
+            "first_name": "Darren",
+            "last_name": "Waller",
+            "position": "TE",
+            "fantasy_positions": [
+              "TE"
+            ],
+            "team": "CAR",
+            "status": "Active",
+            "injury_status": null,
+            "age": 34,
+            "years_exp": 11
+          },
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1426585707098431488",
+      "type": "trade",
+      "status": "complete",
+      "created": 1794487046554,
+      "created_iso": "2026-11-12T12:37:26.554Z",
+      "week": 10,
+      "leg": 10,
+      "creator": "937819151345799168",
+      "roster_ids": [
+        5,
+        10
+      ],
+      "teams": [
+        {
+          "roster_id": 5,
+          "team_name": "BING BONG"
+        },
+        {
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "1166",
+            "name": "Kirk Cousins",
+            "first_name": "Kirk",
+            "last_name": "Cousins",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "MIN",
+            "status": "Active",
+            "injury_status": null,
+            "age": 38,
+            "years_exp": 14
+          },
+          "roster_id": 5,
+          "team_name": "BING BONG"
+        },
+        {
+          "player": {
+            "player_id": "4217",
+            "name": "George Kittle",
+            "first_name": "George",
+            "last_name": "Kittle",
+            "position": "TE",
+            "fantasy_positions": [
+              "TE"
+            ],
+            "team": "SF",
+            "status": "Active",
+            "injury_status": null,
+            "age": 33,
+            "years_exp": 9
+          },
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        },
+        {
+          "player": {
+            "player_id": "4866",
+            "name": "Saquon Barkley",
+            "first_name": "Saquon",
+            "last_name": "Barkley",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "PHI",
+            "status": "Active",
+            "injury_status": null,
+            "age": 29,
+            "years_exp": 8
+          },
+          "roster_id": 5,
+          "team_name": "BING BONG"
+        },
+        {
+          "player": {
+            "player_id": "6804",
+            "name": "Jordan Love",
+            "first_name": "Jordan",
+            "last_name": "Love",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "GB",
+            "status": "Active",
+            "injury_status": null,
+            "age": 28,
+            "years_exp": 6
+          },
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        },
+        {
+          "player": {
+            "player_id": "8134",
+            "name": "Khalil Shakir",
+            "first_name": "Khalil",
+            "last_name": "Shakir",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "BUF",
+            "status": "Active",
+            "injury_status": null,
+            "age": 26,
+            "years_exp": 4
+          },
+          "roster_id": 5,
+          "team_name": "BING BONG"
+        },
+        {
+          "player": {
+            "player_id": "10236",
+            "name": "Dalton Kincaid",
+            "first_name": "Dalton",
+            "last_name": "Kincaid",
+            "position": "TE",
+            "fantasy_positions": [
+              "TE"
+            ],
+            "team": "BUF",
+            "status": "Active",
+            "injury_status": "Questionable",
+            "age": 27,
+            "years_exp": 3
+          },
+          "roster_id": 5,
+          "team_name": "BING BONG"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "1166",
+            "name": "Kirk Cousins",
+            "first_name": "Kirk",
+            "last_name": "Cousins",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "MIN",
+            "status": "Active",
+            "injury_status": null,
+            "age": 38,
+            "years_exp": 14
+          },
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        },
+        {
+          "player": {
+            "player_id": "4217",
+            "name": "George Kittle",
+            "first_name": "George",
+            "last_name": "Kittle",
+            "position": "TE",
+            "fantasy_positions": [
+              "TE"
+            ],
+            "team": "SF",
+            "status": "Active",
+            "injury_status": null,
+            "age": 33,
+            "years_exp": 9
+          },
+          "roster_id": 5,
+          "team_name": "BING BONG"
+        },
+        {
+          "player": {
+            "player_id": "4866",
+            "name": "Saquon Barkley",
+            "first_name": "Saquon",
+            "last_name": "Barkley",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "PHI",
+            "status": "Active",
+            "injury_status": null,
+            "age": 29,
+            "years_exp": 8
+          },
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        },
+        {
+          "player": {
+            "player_id": "6804",
+            "name": "Jordan Love",
+            "first_name": "Jordan",
+            "last_name": "Love",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "GB",
+            "status": "Active",
+            "injury_status": null,
+            "age": 28,
+            "years_exp": 6
+          },
+          "roster_id": 5,
+          "team_name": "BING BONG"
+        },
+        {
+          "player": {
+            "player_id": "8134",
+            "name": "Khalil Shakir",
+            "first_name": "Khalil",
+            "last_name": "Shakir",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "BUF",
+            "status": "Active",
+            "injury_status": null,
+            "age": 26,
+            "years_exp": 4
+          },
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        },
+        {
+          "player": {
+            "player_id": "10236",
+            "name": "Dalton Kincaid",
+            "first_name": "Dalton",
+            "last_name": "Kincaid",
+            "position": "TE",
+            "fantasy_positions": [
+              "TE"
+            ],
+            "team": "BUF",
+            "status": "Active",
+            "injury_status": "Questionable",
+            "age": 27,
+            "years_exp": 3
+          },
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        }
+      ],
+      "draft_picks": [
+        {
+          "season": "2029",
+          "round": 2,
+          "original_roster_id": 10,
+          "previous_owner_roster_id": 10,
+          "current_owner_roster_id": 5,
+          "original_team": "Sugerdaddy",
+          "previous_team": "Sugerdaddy",
+          "current_team": "BING BONG"
+        }
+      ],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
     {
       "transaction_id": "1426297997762777095",
       "type": "free_agent",
@@ -13669,214 +14119,6 @@
       "draft_picks": [],
       "waiver_budget": [],
       "waiver_bid": 43,
-      "metadata": {
-        "notes": "This player was claimed by another owner."
-      }
-    },
-    {
-      "transaction_id": "1410753100003692544",
-      "type": "waiver",
-      "status": "complete",
-      "created": 1790712258867,
-      "created_iso": "2026-09-29T20:04:18.867Z",
-      "week": 3,
-      "leg": 3,
-      "creator": "1129881968960901120",
-      "roster_ids": [
-        3
-      ],
-      "teams": [
-        {
-          "roster_id": 3,
-          "team_name": "Third Down Syndrome"
-        }
-      ],
-      "adds": [
-        {
-          "player": {
-            "player_id": "2307",
-            "name": "Marcus Mariota",
-            "first_name": "Marcus",
-            "last_name": "Mariota",
-            "position": "QB",
-            "fantasy_positions": [
-              "QB"
-            ],
-            "team": "WAS",
-            "status": "Active",
-            "injury_status": null,
-            "age": 33,
-            "years_exp": 11
-          },
-          "roster_id": 3,
-          "team_name": "Third Down Syndrome"
-        }
-      ],
-      "drops": [
-        {
-          "player": {
-            "player_id": "12536",
-            "name": "Jaylin Noel",
-            "first_name": "Jaylin",
-            "last_name": "Noel",
-            "position": "WR",
-            "fantasy_positions": [
-              "WR"
-            ],
-            "team": "HOU",
-            "status": "Inactive",
-            "injury_status": "IR",
-            "age": 24,
-            "years_exp": 1
-          },
-          "roster_id": 3,
-          "team_name": "Third Down Syndrome"
-        }
-      ],
-      "draft_picks": [],
-      "waiver_budget": [],
-      "waiver_bid": 1,
-      "metadata": {
-        "notes": "Your waiver claim was processed successfully!"
-      }
-    },
-    {
-      "transaction_id": "1410752992642080768",
-      "type": "waiver",
-      "status": "failed",
-      "created": 1790712233270,
-      "created_iso": "2026-09-29T20:03:53.270Z",
-      "week": 3,
-      "leg": 3,
-      "creator": "1129881968960901120",
-      "roster_ids": [
-        3
-      ],
-      "teams": [
-        {
-          "roster_id": 3,
-          "team_name": "Third Down Syndrome"
-        }
-      ],
-      "adds": [
-        {
-          "player": {
-            "player_id": "12495",
-            "name": "Ollie Gordon II",
-            "first_name": "Ollie",
-            "last_name": "Gordon II",
-            "position": "RB",
-            "fantasy_positions": [
-              "RB"
-            ],
-            "team": "MIA",
-            "status": "Active",
-            "injury_status": null,
-            "age": 22,
-            "years_exp": 1
-          },
-          "roster_id": 3,
-          "team_name": "Third Down Syndrome"
-        }
-      ],
-      "drops": [],
-      "draft_picks": [],
-      "waiver_budget": [],
-      "waiver_bid": 22,
-      "metadata": {
-        "notes": "This player was claimed by another owner."
-      }
-    },
-    {
-      "transaction_id": "1410671758230429696",
-      "type": "waiver",
-      "status": "failed",
-      "created": 1790692865478,
-      "created_iso": "2026-09-29T14:41:05.478Z",
-      "week": 3,
-      "leg": 3,
-      "creator": "1008209629677158400",
-      "roster_ids": [
-        6
-      ],
-      "teams": [
-        {
-          "roster_id": 6,
-          "team_name": "McCaffrican Americans"
-        }
-      ],
-      "adds": [
-        {
-          "player": {
-            "player_id": "2307",
-            "name": "Marcus Mariota",
-            "first_name": "Marcus",
-            "last_name": "Mariota",
-            "position": "QB",
-            "fantasy_positions": [
-              "QB"
-            ],
-            "team": "WAS",
-            "status": "Active",
-            "injury_status": null,
-            "age": 33,
-            "years_exp": 11
-          },
-          "roster_id": 6,
-          "team_name": "McCaffrican Americans"
-        }
-      ],
-      "drops": [],
-      "draft_picks": [],
-      "waiver_budget": [],
-      "waiver_bid": 0,
-      "metadata": {
-        "notes": "This player was claimed by another owner."
-      }
-    },
-    {
-      "transaction_id": "1410637377856131072",
-      "type": "waiver",
-      "status": "failed",
-      "created": 1790684668557,
-      "created_iso": "2026-09-29T12:24:28.557Z",
-      "week": 3,
-      "leg": 3,
-      "creator": "937819151345799168",
-      "roster_ids": [
-        10
-      ],
-      "teams": [
-        {
-          "roster_id": 10,
-          "team_name": "Sugerdaddy"
-        }
-      ],
-      "adds": [
-        {
-          "player": {
-            "player_id": "12495",
-            "name": "Ollie Gordon II",
-            "first_name": "Ollie",
-            "last_name": "Gordon II",
-            "position": "RB",
-            "fantasy_positions": [
-              "RB"
-            ],
-            "team": "MIA",
-            "status": "Active",
-            "injury_status": null,
-            "age": 22,
-            "years_exp": 1
-          },
-          "roster_id": 10,
-          "team_name": "Sugerdaddy"
-        }
-      ],
-      "drops": [],
-      "draft_picks": [],
-      "waiver_budget": [],
-      "waiver_bid": 3,
       "metadata": {
         "notes": "This player was claimed by another owner."
       }
