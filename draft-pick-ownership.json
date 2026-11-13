@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T00:00:35.106Z",
+  "generated_at": "2026-11-13T12:00:34.952Z",
   "league": {
     "league_id": "1327788752298336256",
     "name": "Oiled Without Consent",
@@ -986,11 +986,11 @@
       "round": 2,
       "original_roster_id": 10,
       "original_team": "Sugerdaddy",
-      "current_owner_roster_id": 10,
-      "current_team": "Sugerdaddy",
-      "previous_owner_roster_id": null,
-      "previous_team": null,
-      "has_been_traded": false
+      "current_owner_roster_id": 5,
+      "current_team": "BING BONG",
+      "previous_owner_roster_id": 10,
+      "previous_team": "Sugerdaddy",
+      "has_been_traded": true
     },
     {
       "season": "2029",
@@ -1620,9 +1620,9 @@
     {
       "roster_id": 5,
       "team_name": "BING BONG",
-      "total_future_picks": 7,
+      "total_future_picks": 8,
       "first_round_picks": 2,
-      "second_round_picks": 3,
+      "second_round_picks": 4,
       "third_round_picks": 2,
       "other_round_picks": 0,
       "by_season": {
@@ -1669,9 +1669,9 @@
           ]
         },
         "2029": {
-          "total": 3,
+          "total": 4,
           "round_1": 1,
-          "round_2": 1,
+          "round_2": 2,
           "round_3": 1,
           "other_rounds": 0,
           "picks": [
@@ -1692,6 +1692,12 @@
               "original_roster_id": 5,
               "original_team": "BING BONG",
               "has_been_traded": false
+            },
+            {
+              "round": 2,
+              "original_roster_id": 10,
+              "original_team": "Sugerdaddy",
+              "has_been_traded": true
             }
           ]
         }
@@ -1774,9 +1780,9 @@
     {
       "roster_id": 10,
       "team_name": "Sugerdaddy",
-      "total_future_picks": 6,
+      "total_future_picks": 5,
       "first_round_picks": 2,
-      "second_round_picks": 2,
+      "second_round_picks": 1,
       "third_round_picks": 2,
       "other_round_picks": 0,
       "by_season": {
@@ -1808,20 +1814,14 @@
           ]
         },
         "2029": {
-          "total": 3,
+          "total": 2,
           "round_1": 1,
-          "round_2": 1,
+          "round_2": 0,
           "round_3": 1,
           "other_rounds": 0,
           "picks": [
             {
               "round": 1,
-              "original_roster_id": 10,
-              "original_team": "Sugerdaddy",
-              "has_been_traded": false
-            },
-            {
-              "round": 2,
               "original_roster_id": 10,
               "original_team": "Sugerdaddy",
               "has_been_traded": false
