@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T12:00:40.845Z",
+  "generated_at": "2026-11-15T00:00:03.437Z",
   "season": "2026",
   "transactions": [
     {
@@ -2827,8 +2827,8 @@
               "WR"
             ],
             "team": "CAR",
-            "status": "Inactive",
-            "injury_status": "IR",
+            "status": "Active",
+            "injury_status": "Questionable",
             "age": 25,
             "years_exp": 2
           },
@@ -6511,7 +6511,7 @@
             ],
             "team": "LAC",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 24,
             "years_exp": 3
           },
@@ -7361,7 +7361,7 @@
             ],
             "team": "PIT",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 28,
             "years_exp": 5
           },
@@ -8627,7 +8627,7 @@
             ],
             "team": "LAC",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 24,
             "years_exp": 3
           },
@@ -8674,7 +8674,7 @@
             ],
             "team": "LAC",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 24,
             "years_exp": 3
           },
