@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T06:00:07.541Z",
+  "generated_at": "2026-11-15T06:00:02.457Z",
   "season": "2026",
   "drafts": [
     {
@@ -157,7 +157,7 @@
             ],
             "team": "NO",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 22,
             "years_exp": null
           },
@@ -367,7 +367,7 @@
             ],
             "team": "CLE",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 22,
             "years_exp": null
           },
@@ -493,7 +493,7 @@
             ],
             "team": "NYJ",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 22,
             "years_exp": null
           },
@@ -745,7 +745,7 @@
             ],
             "team": "BAL",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": null,
             "age": 23,
             "years_exp": null
           },
@@ -871,7 +871,7 @@
             ],
             "team": "MIA",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Doubtful",
             "age": 22,
             "years_exp": null
           },
@@ -1249,7 +1249,7 @@
             ],
             "team": "PIT",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": null,
             "age": 22,
             "years_exp": null
           },
@@ -1290,8 +1290,8 @@
               "RB"
             ],
             "team": "MIN",
-            "status": "Active",
-            "injury_status": "Out",
+            "status": "Inactive",
+            "injury_status": "IR",
             "age": 23,
             "years_exp": null
           },
