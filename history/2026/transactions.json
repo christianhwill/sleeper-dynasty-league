@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T12:00:03.569Z",
+  "generated_at": "2026-11-17T00:00:02.999Z",
   "season": "2026",
   "transactions": [
     {
@@ -15267,6 +15267,71 @@
           },
           "roster_id": 5,
           "team_name": "BING BONG"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1428101087482638336",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1794848341393,
+      "created_iso": "2026-11-16T16:59:01.393Z",
+      "week": 10,
+      "leg": 10,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "3321",
+            "name": "Tyreek Hill",
+            "first_name": "Tyreek",
+            "last_name": "Hill",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": null,
+            "status": "Active",
+            "injury_status": null,
+            "age": 31,
+            "years_exp": 10
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "7562",
+            "name": "Tutu Atwell",
+            "first_name": "Tutu",
+            "last_name": "Atwell",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "LAR",
+            "status": "Active",
+            "injury_status": null,
+            "age": 27,
+            "years_exp": 5
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
         }
       ],
       "draft_picks": [],
