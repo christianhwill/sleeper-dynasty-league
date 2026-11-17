@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T12:00:03.569Z",
+  "generated_at": "2026-11-17T00:00:02.999Z",
   "season": "2026",
   "teams": [
     {
@@ -849,6 +849,21 @@
           "years_exp": 13
         },
         {
+          "player_id": "3321",
+          "name": "Tyreek Hill",
+          "first_name": "Tyreek",
+          "last_name": "Hill",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": null,
+          "status": "Active",
+          "injury_status": null,
+          "age": 31,
+          "years_exp": 10
+        },
+        {
           "player_id": "5850",
           "name": "Josh Jacobs",
           "first_name": "Josh",
@@ -918,21 +933,6 @@
             "QB"
           ],
           "team": "JAX",
-          "status": "Active",
-          "injury_status": null,
-          "age": 27,
-          "years_exp": 5
-        },
-        {
-          "player_id": "7562",
-          "name": "Tutu Atwell",
-          "first_name": "Tutu",
-          "last_name": "Atwell",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "LAR",
           "status": "Active",
           "injury_status": null,
           "age": 27,
