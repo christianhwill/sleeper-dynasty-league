@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T00:00:02.999Z",
+  "generated_at": "2026-11-17T12:00:03.229Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -26,7 +26,7 @@
       "playoff_type": 1,
       "taxi_slots": 3,
       "sub_start_time_eligibility": 0,
-      "last_scored_leg": 9,
+      "last_scored_leg": 10,
       "daily_waivers_days": 5461,
       "sub_lock_if_starter_active": 0,
       "playoff_week_start": 15,
@@ -137,13 +137,13 @@
       "team_name": "Imperialist Junta",
       "is_commissioner": true,
       "settings": {
-        "fpts": 1049,
-        "fpts_against": 1164,
-        "fpts_against_decimal": 26,
-        "fpts_decimal": 96,
-        "losses": 7,
-        "ppts": 1236,
-        "ppts_decimal": 70,
+        "fpts": 1143,
+        "fpts_against": 1330,
+        "fpts_against_decimal": 54,
+        "fpts_decimal": 38,
+        "losses": 8,
+        "ppts": 1392,
+        "ppts_decimal": 96,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 35,
@@ -152,10 +152,10 @@
       },
       "record": {
         "wins": 2,
-        "losses": 7,
+        "losses": 8,
         "ties": 0,
-        "points_for": 1049.96,
-        "points_against": 1164.26
+        "points_for": 1143.38,
+        "points_against": 1330.54
       },
       "players": [
         {
@@ -729,13 +729,13 @@
       "team_name": "Cam dog",
       "is_commissioner": false,
       "settings": {
-        "fpts": 1016,
-        "fpts_against": 1271,
-        "fpts_against_decimal": 40,
-        "fpts_decimal": 40,
-        "losses": 8,
-        "ppts": 1251,
-        "ppts_decimal": 58,
+        "fpts": 1140,
+        "fpts_against": 1456,
+        "fpts_against_decimal": 6,
+        "fpts_decimal": 70,
+        "losses": 9,
+        "ppts": 1390,
+        "ppts_decimal": 48,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 100,
@@ -744,10 +744,10 @@
       },
       "record": {
         "wins": 1,
-        "losses": 8,
+        "losses": 9,
         "ties": 0,
-        "points_for": 1016.4,
-        "points_against": 1271.4
+        "points_for": 1140.7,
+        "points_against": 1456.06
       },
       "players": [
         {
@@ -1321,13 +1321,13 @@
       "team_name": "Third Down Syndrome",
       "is_commissioner": false,
       "settings": {
-        "fpts": 940,
-        "fpts_against": 1208,
-        "fpts_against_decimal": 46,
-        "fpts_decimal": 58,
-        "losses": 6,
-        "ppts": 1137,
-        "ppts_decimal": 26,
+        "fpts": 1039,
+        "fpts_against": 1421,
+        "fpts_against_decimal": 62,
+        "fpts_decimal": 60,
+        "losses": 7,
+        "ppts": 1243,
+        "ppts_decimal": 48,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 71,
@@ -1336,10 +1336,10 @@
       },
       "record": {
         "wins": 3,
-        "losses": 6,
+        "losses": 7,
         "ties": 0,
-        "points_for": 940.58,
-        "points_against": 1208.46
+        "points_for": 1039.6,
+        "points_against": 1421.62
       },
       "players": [
         {
@@ -1913,25 +1913,25 @@
       "team_name": "Raw Dawgs",
       "is_commissioner": false,
       "settings": {
-        "fpts": 1299,
-        "fpts_against": 1117,
-        "fpts_against_decimal": 32,
-        "fpts_decimal": 88,
+        "fpts": 1484,
+        "fpts_against": 1241,
+        "fpts_against_decimal": 62,
+        "fpts_decimal": 54,
         "losses": 2,
-        "ppts": 1488,
-        "ppts_decimal": 44,
+        "ppts": 1697,
+        "ppts_decimal": 98,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 73,
         "waiver_position": 4,
-        "wins": 7
+        "wins": 8
       },
       "record": {
-        "wins": 7,
+        "wins": 8,
         "losses": 2,
         "ties": 0,
-        "points_for": 1299.88,
-        "points_against": 1117.32
+        "points_for": 1484.54,
+        "points_against": 1241.62
       },
       "players": [
         {
@@ -2445,13 +2445,13 @@
       "team_name": "BING BONG",
       "is_commissioner": false,
       "settings": {
-        "fpts": 1205,
-        "fpts_against": 1095,
-        "fpts_against_decimal": 86,
+        "fpts": 1317,
+        "fpts_against": 1240,
+        "fpts_against_decimal": 60,
         "fpts_decimal": 26,
-        "losses": 4,
-        "ppts": 1479,
-        "ppts_decimal": 84,
+        "losses": 5,
+        "ppts": 1597,
+        "ppts_decimal": 44,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
@@ -2460,10 +2460,10 @@
       },
       "record": {
         "wins": 5,
-        "losses": 4,
+        "losses": 5,
         "ties": 0,
-        "points_for": 1205.26,
-        "points_against": 1095.86
+        "points_for": 1317.26,
+        "points_against": 1240.6
       },
       "players": [
         {
@@ -2978,25 +2978,25 @@
       "team_name": "McCaffrican Americans",
       "is_commissioner": false,
       "settings": {
-        "fpts": 866,
-        "fpts_against": 1166,
-        "fpts_against_decimal": 48,
+        "fpts": 961,
+        "fpts_against": 1253,
+        "fpts_against_decimal": 26,
         "fpts_decimal": 26,
         "losses": 7,
-        "ppts": 1061,
-        "ppts_decimal": 14,
+        "ppts": 1178,
+        "ppts_decimal": 74,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 10,
         "waiver_position": 6,
-        "wins": 2
+        "wins": 3
       },
       "record": {
-        "wins": 2,
+        "wins": 3,
         "losses": 7,
         "ties": 0,
-        "points_for": 866.26,
-        "points_against": 1166.48
+        "points_for": 961.26,
+        "points_against": 1253.26
       },
       "players": [
         {
@@ -3540,25 +3540,25 @@
       "team_name": "I Chase Brown People",
       "is_commissioner": false,
       "settings": {
-        "fpts": 1473,
-        "fpts_against": 1103,
-        "fpts_against_decimal": 86,
-        "fpts_decimal": 4,
+        "fpts": 1639,
+        "fpts_against": 1197,
+        "fpts_against_decimal": 28,
+        "fpts_decimal": 32,
         "losses": 3,
-        "ppts": 1695,
-        "ppts_decimal": 36,
+        "ppts": 1880,
+        "ppts_decimal": 42,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 13,
         "waiver_position": 5,
-        "wins": 6
+        "wins": 7
       },
       "record": {
-        "wins": 6,
+        "wins": 7,
         "losses": 3,
         "ties": 0,
-        "points_for": 1473.04,
-        "points_against": 1103.86
+        "points_for": 1639.32,
+        "points_against": 1197.28
       },
       "players": [
         {
@@ -4132,13 +4132,13 @@
       "team_name": "PurpleRhane",
       "is_commissioner": false,
       "settings": {
-        "fpts": 1075,
-        "fpts_against": 1242,
+        "fpts": 1162,
+        "fpts_against": 1337,
         "fpts_against_decimal": 74,
-        "fpts_decimal": 74,
-        "losses": 5,
-        "ppts": 1289,
-        "ppts_decimal": 60,
+        "fpts_decimal": 52,
+        "losses": 6,
+        "ppts": 1443,
+        "ppts_decimal": 80,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 71,
@@ -4147,10 +4147,10 @@
       },
       "record": {
         "wins": 4,
-        "losses": 5,
+        "losses": 6,
         "ties": 0,
-        "points_for": 1075.74,
-        "points_against": 1242.74
+        "points_for": 1162.52,
+        "points_against": 1337.74
       },
       "players": [
         {
@@ -4664,25 +4664,25 @@
       "team_name": "The Crusty CreamPies",
       "is_commissioner": false,
       "settings": {
-        "fpts": 1260,
-        "fpts_against": 1100,
+        "fpts": 1405,
+        "fpts_against": 1212,
         "fpts_against_decimal": 56,
-        "fpts_decimal": 50,
+        "fpts_decimal": 24,
         "losses": 2,
-        "ppts": 1513,
-        "ppts_decimal": 88,
+        "ppts": 1687,
+        "ppts_decimal": 12,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
         "waiver_position": 3,
-        "wins": 7
+        "wins": 8
       },
       "record": {
-        "wins": 7,
+        "wins": 8,
         "losses": 2,
         "ties": 0,
-        "points_for": 1260.5,
-        "points_against": 1100.56
+        "points_for": 1405.24,
+        "points_against": 1212.56
       },
       "players": [
         {
@@ -5256,25 +5256,25 @@
       "team_name": "Sugerdaddy",
       "is_commissioner": false,
       "settings": {
-        "fpts": 1520,
-        "fpts_against": 1237,
-        "fpts_against_decimal": 58,
-        "fpts_decimal": 90,
+        "fpts": 1734,
+        "fpts_against": 1336,
+        "fpts_against_decimal": 60,
+        "fpts_decimal": 6,
         "losses": 1,
-        "ppts": 1767,
-        "ppts_decimal": 12,
+        "ppts": 2010,
+        "ppts_decimal": 68,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 7,
         "waiver_position": 10,
-        "wins": 8
+        "wins": 9
       },
       "record": {
-        "wins": 8,
+        "wins": 9,
         "losses": 1,
         "ties": 0,
-        "points_for": 1520.9,
-        "points_against": 1237.58
+        "points_for": 1734.06,
+        "points_against": 1336.6
       },
       "players": [
         {
