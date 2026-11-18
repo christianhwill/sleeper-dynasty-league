@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T12:00:03.229Z",
+  "generated_at": "2026-11-18T00:00:49.702Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -10,7 +10,7 @@
     "total_rosters": 10,
     "settings": {
       "best_ball": 0,
-      "last_report": 9,
+      "last_report": 10,
       "waiver_budget": 100,
       "disable_adds": 0,
       "capacity_override": 0,
@@ -1428,7 +1428,7 @@
           ],
           "team": "LAC",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 23,
           "years_exp": 1
         },
@@ -2184,8 +2184,8 @@
             "WR"
           ],
           "team": "TEN",
-          "status": "Active",
-          "injury_status": "Questionable",
+          "status": "Inactive",
+          "injury_status": "IR",
           "age": 25,
           "years_exp": 4
         },
@@ -2327,34 +2327,34 @@
           "years_exp": 5
         },
         {
-          "player_id": "11646",
-          "name": "Jalen Coker",
-          "first_name": "Jalen",
-          "last_name": "Coker",
+          "player_id": "8137",
+          "name": "George Pickens",
+          "first_name": "George",
+          "last_name": "Pickens",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "CAR",
+          "team": "DAL",
           "status": "Active",
           "injury_status": null,
           "age": 25,
-          "years_exp": 2
+          "years_exp": 4
         },
         {
-          "player_id": "9484",
-          "name": "Tucker Kraft",
-          "first_name": "Tucker",
-          "last_name": "Kraft",
+          "player_id": "7600",
+          "name": "Pat Freiermuth",
+          "first_name": "Pat",
+          "last_name": "Freiermuth",
           "position": "TE",
           "fantasy_positions": [
             "TE"
           ],
-          "team": "GB",
+          "team": "PIT",
           "status": "Active",
           "injury_status": null,
-          "age": 26,
-          "years_exp": 3
+          "age": 28,
+          "years_exp": 5
         },
         {
           "player_id": "7594",
@@ -2372,34 +2372,34 @@
           "years_exp": 5
         },
         {
-          "player_id": "8137",
-          "name": "George Pickens",
-          "first_name": "George",
-          "last_name": "Pickens",
-          "position": "WR",
+          "player_id": "11584",
+          "name": "Bucky Irving",
+          "first_name": "Bucky",
+          "last_name": "Irving",
+          "position": "RB",
           "fantasy_positions": [
-            "WR"
+            "RB"
           ],
-          "team": "DAL",
+          "team": "TB",
           "status": "Active",
           "injury_status": null,
-          "age": 25,
-          "years_exp": 4
+          "age": 24,
+          "years_exp": 2
         },
         {
-          "player_id": "8126",
-          "name": "Wan'Dale Robinson",
-          "first_name": "Wan'Dale",
-          "last_name": "Robinson",
-          "position": "WR",
+          "player_id": "11560",
+          "name": "Caleb Williams",
+          "first_name": "Caleb",
+          "last_name": "Williams",
+          "position": "QB",
           "fantasy_positions": [
-            "WR"
+            "QB"
           ],
-          "team": "TEN",
+          "team": "CHI",
           "status": "Active",
-          "injury_status": "Questionable",
-          "age": 25,
-          "years_exp": 4
+          "injury_status": null,
+          "age": 24,
+          "years_exp": 2
         }
       ],
       "taxi": [
@@ -3347,19 +3347,19 @@
       ],
       "starters": [
         {
-          "player_id": "5854",
-          "name": "Drew Lock",
-          "first_name": "Drew",
-          "last_name": "Lock",
+          "player_id": "4892",
+          "name": "Baker Mayfield",
+          "first_name": "Baker",
+          "last_name": "Mayfield",
           "position": "QB",
           "fantasy_positions": [
             "QB"
           ],
-          "team": "SEA",
+          "team": "TB",
           "status": "Active",
-          "injury_status": null,
-          "age": 30,
-          "years_exp": 7
+          "injury_status": "Questionable",
+          "age": 31,
+          "years_exp": 8
         },
         {
           "player_id": "13286",
@@ -3377,19 +3377,19 @@
           "years_exp": null
         },
         {
-          "player_id": "12504",
-          "name": "Kaleb Johnson",
-          "first_name": "Kaleb",
-          "last_name": "Johnson",
+          "player_id": "5892",
+          "name": "David Montgomery",
+          "first_name": "David",
+          "last_name": "Montgomery",
           "position": "RB",
           "fantasy_positions": [
             "RB"
           ],
-          "team": "GB",
+          "team": "HOU",
           "status": "Active",
-          "injury_status": null,
-          "age": 23,
-          "years_exp": 1
+          "injury_status": "Out",
+          "age": 29,
+          "years_exp": 7
         },
         {
           "player_id": "5872",
@@ -4786,7 +4786,7 @@
           ],
           "team": "BAL",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 23,
           "years_exp": null
         },
@@ -5040,7 +5040,7 @@
             "WR"
           ],
           "team": "MIN",
-          "status": "Active",
+          "status": "Inactive",
           "injury_status": "Out",
           "age": 24,
           "years_exp": 3
@@ -5195,7 +5195,7 @@
           ],
           "team": "BAL",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 23,
           "years_exp": null
         },
@@ -9401,7 +9401,7 @@
             ],
             "team": "LAC",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 23,
             "years_exp": 1
           },
@@ -10984,7 +10984,7 @@
             ],
             "team": "LAC",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 23,
             "years_exp": 1
           },
