@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T00:00:49.702Z",
+  "generated_at": "2026-11-18T12:00:49.171Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -55,7 +55,7 @@
       "trade_review_days": 1,
       "bench_lock": 0,
       "offseason_adds": 1,
-      "leg": 10,
+      "leg": 11,
       "reserve_slots": 1,
       "reserve_allow_cov": 1,
       "daily_waivers_last_ran": 11
@@ -146,8 +146,8 @@
         "ppts_decimal": 96,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 35,
-        "waiver_position": 8,
+        "waiver_budget_used": 70,
+        "waiver_position": 9,
         "wins": 2
       },
       "record": {
@@ -231,6 +231,21 @@
           "status": "Active",
           "injury_status": null,
           "age": 24,
+          "years_exp": 1
+        },
+        {
+          "player_id": "12499",
+          "name": "Elic Ayomanor",
+          "first_name": "Elic",
+          "last_name": "Ayomanor",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "TEN",
+          "status": "Active",
+          "injury_status": null,
+          "age": 23,
           "years_exp": 1
         },
         {
@@ -399,6 +414,21 @@
           "years_exp": null
         },
         {
+          "player_id": "13394",
+          "name": "Josh Cameron",
+          "first_name": "Josh",
+          "last_name": "Cameron",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "JAX",
+          "status": "Active",
+          "injury_status": null,
+          "age": 23,
+          "years_exp": null
+        },
+        {
           "player_id": "7553",
           "name": "Kyle Pitts Sr.",
           "first_name": "Kyle",
@@ -429,21 +459,6 @@
           "years_exp": 5
         },
         {
-          "player_id": "8408",
-          "name": "Jordan Mason",
-          "first_name": "Jordan",
-          "last_name": "Mason",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "MIN",
-          "status": "Active",
-          "injury_status": null,
-          "age": 27,
-          "years_exp": 4
-        },
-        {
           "player_id": "9225",
           "name": "Tank Bigsby",
           "first_name": "Tank",
@@ -468,21 +483,6 @@
             "WR"
           ],
           "team": "KC",
-          "status": "Active",
-          "injury_status": null,
-          "age": 25,
-          "years_exp": 3
-        },
-        {
-          "player_id": "9501",
-          "name": "DeMario Douglas",
-          "first_name": "DeMario",
-          "last_name": "Douglas",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "NE",
           "status": "Active",
           "injury_status": null,
           "age": 25,
@@ -581,19 +581,10 @@
           "years_exp": 1
         },
         {
-          "player_id": "9501",
-          "name": "DeMario Douglas",
-          "first_name": "DeMario",
-          "last_name": "Douglas",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "NE",
-          "status": "Active",
-          "injury_status": null,
-          "age": 25,
-          "years_exp": 3
+          "player_id": "0",
+          "name": "0",
+          "position": "DEF",
+          "team": "0"
         },
         {
           "player_id": "12518",
@@ -1331,7 +1322,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 71,
-        "waiver_position": 9,
+        "waiver_position": 8,
         "wins": 3
       },
       "record": {
@@ -4486,34 +4477,34 @@
       ],
       "starters": [
         {
-          "player_id": "11564",
-          "name": "Drake Maye",
-          "first_name": "Drake",
-          "last_name": "Maye",
+          "player_id": "12522",
+          "name": "Cam Ward",
+          "first_name": "Cam",
+          "last_name": "Ward",
           "position": "QB",
           "fantasy_positions": [
             "QB"
           ],
-          "team": "NE",
+          "team": "TEN",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": null,
           "age": 24,
-          "years_exp": 2
+          "years_exp": 1
         },
         {
-          "player_id": "12512",
-          "name": "Quinshon Judkins",
-          "first_name": "Quinshon",
-          "last_name": "Judkins",
+          "player_id": "4199",
+          "name": "Aaron Jones Sr.",
+          "first_name": "Aaron",
+          "last_name": "Jones Sr.",
           "position": "RB",
           "fantasy_positions": [
             "RB"
           ],
-          "team": "CLE",
+          "team": "MIN",
           "status": "Active",
           "injury_status": null,
-          "age": 23,
-          "years_exp": 1
+          "age": 31,
+          "years_exp": 9
         },
         {
           "player_id": "12507",
@@ -4531,19 +4522,19 @@
           "years_exp": 1
         },
         {
-          "player_id": "8148",
-          "name": "Jameson Williams",
-          "first_name": "Jameson",
-          "last_name": "Williams",
+          "player_id": "12514",
+          "name": "Emeka Egbuka",
+          "first_name": "Emeka",
+          "last_name": "Egbuka",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "DET",
+          "team": "TB",
           "status": "Active",
           "injury_status": null,
-          "age": 25,
-          "years_exp": 4
+          "age": 24,
+          "years_exp": 1
         },
         {
           "player_id": "9997",
@@ -4561,64 +4552,64 @@
           "years_exp": 3
         },
         {
-          "player_id": "13324",
-          "name": "Matt Hibner",
-          "first_name": "Matt",
-          "last_name": "Hibner",
+          "player_id": "8131",
+          "name": "Isaiah Likely",
+          "first_name": "Isaiah",
+          "last_name": "Likely",
           "position": "TE",
           "fantasy_positions": [
             "TE"
           ],
-          "team": "BAL",
+          "team": "NYG",
           "status": "Active",
           "injury_status": null,
-          "age": 24,
-          "years_exp": null
+          "age": 26,
+          "years_exp": 4
         },
         {
-          "player_id": "7543",
-          "name": "Travis Etienne Jr.",
-          "first_name": "Travis",
-          "last_name": "Etienne Jr.",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "NO",
-          "status": "Active",
-          "injury_status": null,
-          "age": 27,
-          "years_exp": 5
-        },
-        {
-          "player_id": "13346",
-          "name": "Denzel Boston",
-          "first_name": "Denzel",
-          "last_name": "Boston",
+          "player_id": "8148",
+          "name": "Jameson Williams",
+          "first_name": "Jameson",
+          "last_name": "Williams",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "CLE",
+          "team": "DET",
+          "status": "Active",
+          "injury_status": null,
+          "age": 25,
+          "years_exp": 4
+        },
+        {
+          "player_id": "13281",
+          "name": "Jordyn Tyson",
+          "first_name": "Jordyn",
+          "last_name": "Tyson",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "NO",
           "status": "Active",
           "injury_status": null,
           "age": 22,
           "years_exp": null
         },
         {
-          "player_id": "421",
-          "name": "Matthew Stafford",
-          "first_name": "Matthew",
-          "last_name": "Stafford",
-          "position": "QB",
+          "player_id": "13279",
+          "name": "Carnell Tate",
+          "first_name": "Carnell",
+          "last_name": "Tate",
+          "position": "WR",
           "fantasy_positions": [
-            "QB"
+            "WR"
           ],
-          "team": "LAR",
+          "team": "TEN",
           "status": "Active",
-          "injury_status": null,
-          "age": 38,
-          "years_exp": 17
+          "injury_status": "Out",
+          "age": 21,
+          "years_exp": null
         }
       ],
       "taxi": [
@@ -5265,7 +5256,7 @@
         "ppts_decimal": 68,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 7,
+        "waiver_budget_used": 10,
         "waiver_position": 10,
         "wins": 9
       },
@@ -5413,21 +5404,6 @@
           "years_exp": null
         },
         {
-          "player_id": "2505",
-          "name": "Darren Waller",
-          "first_name": "Darren",
-          "last_name": "Waller",
-          "position": "TE",
-          "fantasy_positions": [
-            "TE"
-          ],
-          "team": "CAR",
-          "status": "Active",
-          "injury_status": null,
-          "age": 34,
-          "years_exp": 11
-        },
-        {
           "player_id": "4017",
           "name": "Deshaun Watson",
           "first_name": "Deshaun",
@@ -5501,6 +5477,21 @@
           "injury_status": null,
           "age": 30,
           "years_exp": 8
+        },
+        {
+          "player_id": "5849",
+          "name": "Kyler Murray",
+          "first_name": "Kyler",
+          "last_name": "Murray",
+          "position": "QB",
+          "fantasy_positions": [
+            "QB"
+          ],
+          "team": "MIN",
+          "status": "Active",
+          "injury_status": "Out",
+          "age": 29,
+          "years_exp": 7
         },
         {
           "player_id": "6804",
@@ -5730,34 +5721,34 @@
           "years_exp": 9
         },
         {
-          "player_id": "12501",
-          "name": "Matthew Golden",
-          "first_name": "Matthew",
-          "last_name": "Golden",
+          "player_id": "7569",
+          "name": "Nico Collins",
+          "first_name": "Nico",
+          "last_name": "Collins",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "GB",
-          "status": "Active",
-          "injury_status": null,
-          "age": 23,
-          "years_exp": 1
-        },
-        {
-          "player_id": "8167",
-          "name": "Christian Watson",
-          "first_name": "Christian",
-          "last_name": "Watson",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "GB",
+          "team": "HOU",
           "status": "Active",
           "injury_status": null,
           "age": 27,
-          "years_exp": 4
+          "years_exp": 5
+        },
+        {
+          "player_id": "9482",
+          "name": "Michael Mayer",
+          "first_name": "Michael",
+          "last_name": "Mayer",
+          "position": "TE",
+          "fantasy_positions": [
+            "TE"
+          ],
+          "team": "LV",
+          "status": "Active",
+          "injury_status": null,
+          "age": 25,
+          "years_exp": 3
         },
         {
           "player_id": "4046",
@@ -7477,6 +7468,207 @@
   ],
   "recent_transactions": [
     {
+      "transaction_id": "1428589182200086528",
+      "type": "waiver",
+      "status": "complete",
+      "created": 1794964712241,
+      "created_iso": "2026-11-18T01:18:32.241Z",
+      "week": 10,
+      "leg": 10,
+      "creator": "937819151345799168",
+      "roster_ids": [
+        10
+      ],
+      "teams": [
+        {
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "5849",
+            "name": "Kyler Murray",
+            "first_name": "Kyler",
+            "last_name": "Murray",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "MIN",
+            "status": "Active",
+            "injury_status": "Out",
+            "age": 29,
+            "years_exp": 7
+          },
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "2505",
+            "name": "Darren Waller",
+            "first_name": "Darren",
+            "last_name": "Waller",
+            "position": "TE",
+            "fantasy_positions": [
+              "TE"
+            ],
+            "team": "CAR",
+            "status": "Active",
+            "injury_status": null,
+            "age": 34,
+            "years_exp": 11
+          },
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 3,
+      "metadata": {
+        "notes": "Your waiver claim was processed successfully!"
+      }
+    },
+    {
+      "transaction_id": "1428123973811453952",
+      "type": "waiver",
+      "status": "complete",
+      "created": 1794853797918,
+      "created_iso": "2026-11-16T18:29:57.918Z",
+      "week": 10,
+      "leg": 10,
+      "creator": "1129875387229560832",
+      "roster_ids": [
+        1
+      ],
+      "teams": [
+        {
+          "roster_id": 1,
+          "team_name": "Imperialist Junta"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "13394",
+            "name": "Josh Cameron",
+            "first_name": "Josh",
+            "last_name": "Cameron",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "JAX",
+            "status": "Active",
+            "injury_status": null,
+            "age": 23,
+            "years_exp": null
+          },
+          "roster_id": 1,
+          "team_name": "Imperialist Junta"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "9501",
+            "name": "DeMario Douglas",
+            "first_name": "DeMario",
+            "last_name": "Douglas",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "NE",
+            "status": "Active",
+            "injury_status": null,
+            "age": 25,
+            "years_exp": 3
+          },
+          "roster_id": 1,
+          "team_name": "Imperialist Junta"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 10,
+      "metadata": {
+        "notes": "Your waiver claim was processed successfully!"
+      }
+    },
+    {
+      "transaction_id": "1428122345955946496",
+      "type": "waiver",
+      "status": "complete",
+      "created": 1794853409808,
+      "created_iso": "2026-11-16T18:23:29.808Z",
+      "week": 10,
+      "leg": 10,
+      "creator": "1129875387229560832",
+      "roster_ids": [
+        1
+      ],
+      "teams": [
+        {
+          "roster_id": 1,
+          "team_name": "Imperialist Junta"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "12499",
+            "name": "Elic Ayomanor",
+            "first_name": "Elic",
+            "last_name": "Ayomanor",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "TEN",
+            "status": "Active",
+            "injury_status": null,
+            "age": 23,
+            "years_exp": 1
+          },
+          "roster_id": 1,
+          "team_name": "Imperialist Junta"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "8408",
+            "name": "Jordan Mason",
+            "first_name": "Jordan",
+            "last_name": "Mason",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "MIN",
+            "status": "Active",
+            "injury_status": null,
+            "age": 27,
+            "years_exp": 4
+          },
+          "roster_id": 1,
+          "team_name": "Imperialist Junta"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 25,
+      "metadata": {
+        "notes": "Your waiver claim was processed successfully!"
+      }
+    },
+    {
       "transaction_id": "1428101087482638336",
       "type": "free_agent",
       "status": "complete",
@@ -7540,6 +7732,53 @@
       "waiver_budget": [],
       "waiver_bid": null,
       "metadata": null
+    },
+    {
+      "transaction_id": "1427717484730945537",
+      "type": "waiver",
+      "status": "failed",
+      "created": 1794756883370,
+      "created_iso": "2026-11-15T15:34:43.370Z",
+      "week": 10,
+      "leg": 10,
+      "creator": "1129897778072649728",
+      "roster_ids": [
+        4
+      ],
+      "teams": [
+        {
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "5849",
+            "name": "Kyler Murray",
+            "first_name": "Kyler",
+            "last_name": "Murray",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "MIN",
+            "status": "Active",
+            "injury_status": "Out",
+            "age": 29,
+            "years_exp": 7
+          },
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0,
+      "metadata": {
+        "notes": "This player was claimed by another owner."
+      }
     },
     {
       "transaction_id": "1427717029359517696",
@@ -13872,238 +14111,6 @@
       "metadata": {
         "notes": "Your waiver claim was processed successfully!"
       }
-    },
-    {
-      "transaction_id": "1410833169199972352",
-      "type": "waiver",
-      "status": "complete",
-      "created": 1790731348851,
-      "created_iso": "2026-09-30T01:22:28.851Z",
-      "week": 3,
-      "leg": 3,
-      "creator": "1129897778072649728",
-      "roster_ids": [
-        4
-      ],
-      "teams": [
-        {
-          "roster_id": 4,
-          "team_name": "Raw Dawgs"
-        }
-      ],
-      "adds": [
-        {
-          "player": {
-            "player_id": "11643",
-            "name": "Jaylen Wright",
-            "first_name": "Jaylen",
-            "last_name": "Wright",
-            "position": "RB",
-            "fantasy_positions": [
-              "RB"
-            ],
-            "team": "MIA",
-            "status": "Active",
-            "injury_status": null,
-            "age": 23,
-            "years_exp": 2
-          },
-          "roster_id": 4,
-          "team_name": "Raw Dawgs"
-        }
-      ],
-      "drops": [
-        {
-          "player": {
-            "player_id": "10222",
-            "name": "Jayden Reed",
-            "first_name": "Jayden",
-            "last_name": "Reed",
-            "position": "WR",
-            "fantasy_positions": [
-              "WR"
-            ],
-            "team": "GB",
-            "status": "Inactive",
-            "injury_status": "IR",
-            "age": 26,
-            "years_exp": 3
-          },
-          "roster_id": 4,
-          "team_name": "Raw Dawgs"
-        }
-      ],
-      "draft_picks": [],
-      "waiver_budget": [],
-      "waiver_bid": 11,
-      "metadata": {
-        "notes": "Your waiver claim was processed successfully!"
-      }
-    },
-    {
-      "transaction_id": "1410832796435349504",
-      "type": "trade",
-      "status": "complete",
-      "created": 1790731259977,
-      "created_iso": "2026-09-30T01:20:59.977Z",
-      "week": 3,
-      "leg": 3,
-      "creator": "1129875387229560832",
-      "roster_ids": [
-        1,
-        4
-      ],
-      "teams": [
-        {
-          "roster_id": 1,
-          "team_name": "Imperialist Junta"
-        },
-        {
-          "roster_id": 4,
-          "team_name": "Raw Dawgs"
-        }
-      ],
-      "adds": [],
-      "drops": [],
-      "draft_picks": [],
-      "waiver_budget": [
-        {
-          "amount": 1,
-          "sender": 1,
-          "receiver": 4
-        },
-        {
-          "amount": 5,
-          "sender": 4,
-          "receiver": 1
-        }
-      ],
-      "waiver_bid": null,
-      "metadata": null
-    },
-    {
-      "transaction_id": "1410832289629257728",
-      "type": "waiver",
-      "status": "complete",
-      "created": 1790731139146,
-      "created_iso": "2026-09-30T01:18:59.146Z",
-      "week": 3,
-      "leg": 3,
-      "creator": "1129877684336578560",
-      "roster_ids": [
-        2
-      ],
-      "teams": [
-        {
-          "roster_id": 2,
-          "team_name": "Cam dog"
-        }
-      ],
-      "adds": [
-        {
-          "player": {
-            "player_id": "12495",
-            "name": "Ollie Gordon II",
-            "first_name": "Ollie",
-            "last_name": "Gordon II",
-            "position": "RB",
-            "fantasy_positions": [
-              "RB"
-            ],
-            "team": "MIA",
-            "status": "Active",
-            "injury_status": null,
-            "age": 22,
-            "years_exp": 1
-          },
-          "roster_id": 2,
-          "team_name": "Cam dog"
-        }
-      ],
-      "drops": [
-        {
-          "player": {
-            "player_id": "9508",
-            "name": "Tyjae Spears",
-            "first_name": "Tyjae",
-            "last_name": "Spears",
-            "position": "RB",
-            "fantasy_positions": [
-              "RB"
-            ],
-            "team": "TEN",
-            "status": "Active",
-            "injury_status": null,
-            "age": 25,
-            "years_exp": 3
-          },
-          "roster_id": 2,
-          "team_name": "Cam dog"
-        }
-      ],
-      "draft_picks": [],
-      "waiver_budget": [],
-      "waiver_bid": 101,
-      "metadata": {
-        "notes": "Your waiver claim was processed successfully!"
-      }
-    },
-    {
-      "transaction_id": "1410831122161520640",
-      "type": "trade",
-      "status": "complete",
-      "created": 1790730860800,
-      "created_iso": "2026-09-30T01:14:20.800Z",
-      "week": 3,
-      "leg": 3,
-      "creator": "1129877684336578560",
-      "roster_ids": [
-        2,
-        8
-      ],
-      "teams": [
-        {
-          "roster_id": 2,
-          "team_name": "Cam dog"
-        },
-        {
-          "roster_id": 8,
-          "team_name": "PurpleRhane"
-        }
-      ],
-      "adds": [],
-      "drops": [],
-      "draft_picks": [
-        {
-          "season": "2028",
-          "round": 3,
-          "original_roster_id": 2,
-          "previous_owner_roster_id": 2,
-          "current_owner_roster_id": 8,
-          "original_team": "Cam dog",
-          "previous_team": "Cam dog",
-          "current_team": "PurpleRhane"
-        },
-        {
-          "season": "2029",
-          "round": 3,
-          "original_roster_id": 2,
-          "previous_owner_roster_id": 2,
-          "current_owner_roster_id": 8,
-          "original_team": "Cam dog",
-          "previous_team": "Cam dog",
-          "current_team": "PurpleRhane"
-        }
-      ],
-      "waiver_budget": [
-        {
-          "amount": 85,
-          "sender": 8,
-          "receiver": 2
-        }
-      ],
-      "waiver_bid": null,
-      "metadata": null
     }
   ]
 }
