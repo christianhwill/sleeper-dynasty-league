@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T12:00:03.229Z",
+  "generated_at": "2026-11-18T00:00:49.702Z",
   "season": "2026",
   "transactions": [
     {
@@ -1177,8 +1177,8 @@
               "WR"
             ],
             "team": "TEN",
-            "status": "Active",
-            "injury_status": "Questionable",
+            "status": "Inactive",
+            "injury_status": "IR",
             "age": 25,
             "years_exp": 4
           },
@@ -1198,8 +1198,8 @@
               "WR"
             ],
             "team": "TEN",
-            "status": "Active",
-            "injury_status": "Questionable",
+            "status": "Inactive",
+            "injury_status": "IR",
             "age": 25,
             "years_exp": 4
           },
@@ -2078,7 +2078,7 @@
             "fantasy_positions": [
               "RB"
             ],
-            "team": null,
+            "team": "PHI",
             "status": "Active",
             "injury_status": null,
             "age": 22,
@@ -5167,8 +5167,8 @@
               "TE"
             ],
             "team": "LAC",
-            "status": "Inactive",
-            "injury_status": "IR",
+            "status": "Active",
+            "injury_status": null,
             "age": 30,
             "years_exp": 9
           },
@@ -5518,7 +5518,7 @@
             "fantasy_positions": [
               "RB"
             ],
-            "team": null,
+            "team": "PHI",
             "status": "Active",
             "injury_status": null,
             "age": 22,
@@ -11850,7 +11850,7 @@
             ],
             "team": "LAC",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 23,
             "years_exp": 1
           },
@@ -13411,7 +13411,7 @@
             ],
             "team": "LAC",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 23,
             "years_exp": 1
           },
