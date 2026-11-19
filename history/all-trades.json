@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T03:00:50.072Z",
+  "generated_at": "2026-11-19T03:00:03.007Z",
   "league_name": "Oiled Without Consent",
   "seasons": [
     {
@@ -17,7 +17,7 @@
     {
       "season": "2026",
       "league_id": "1327788752298336256",
-      "transaction_count": 246,
+      "transaction_count": 250,
       "trade_count": 27
     }
   ],
@@ -8034,7 +8034,7 @@
             ],
             "team": "KC",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 37,
             "years_exp": 13
           },
@@ -8055,7 +8055,7 @@
             ],
             "team": "KC",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 37,
             "years_exp": 13
           },
@@ -9946,7 +9946,7 @@
             ],
             "team": null,
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 31,
             "years_exp": 10
           },
@@ -9986,7 +9986,7 @@
             ],
             "team": null,
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 31,
             "years_exp": 10
           },
@@ -10235,7 +10235,7 @@
             "team": "CHI",
             "status": "Active",
             "injury_status": null,
-            "age": 24,
+            "age": 25,
             "years_exp": 2
           },
           "roster_id": 4,
@@ -10332,7 +10332,7 @@
             "team": "CHI",
             "status": "Active",
             "injury_status": null,
-            "age": 24,
+            "age": 25,
             "years_exp": 2
           },
           "roster_id": 3,
@@ -10821,7 +10821,7 @@
             ],
             "team": "JAX",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 23,
             "years_exp": 1
           },
@@ -10842,7 +10842,7 @@
             ],
             "team": "JAX",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 23,
             "years_exp": 1
           },
@@ -10999,7 +10999,7 @@
             ],
             "team": "BUF",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 27,
             "years_exp": 3
           },
@@ -11115,7 +11115,7 @@
             ],
             "team": "BUF",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 27,
             "years_exp": 3
           },
