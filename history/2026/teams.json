@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T12:00:49.171Z",
+  "generated_at": "2026-11-19T00:00:02.682Z",
   "season": "2026",
   "teams": [
     {
@@ -87,7 +87,7 @@
           ],
           "team": "JAX",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 23,
           "years_exp": 1
         },
@@ -147,7 +147,7 @@
           ],
           "team": "CHI",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 22,
           "years_exp": 1
         },
@@ -222,7 +222,7 @@
           ],
           "team": "TEN",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": null,
           "age": 22,
           "years_exp": null
         },
@@ -237,7 +237,7 @@
           ],
           "team": "MIA",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 23,
           "years_exp": null
         },
@@ -394,19 +394,19 @@
       ],
       "starters": [
         {
-          "player_id": "12545",
-          "name": "Tyler Shough",
-          "first_name": "Tyler",
-          "last_name": "Shough",
+          "player_id": "9758",
+          "name": "C.J. Stroud",
+          "first_name": "C.J.",
+          "last_name": "Stroud",
           "position": "QB",
           "fantasy_positions": [
             "QB"
           ],
-          "team": "NO",
+          "team": "HOU",
           "status": "Active",
           "injury_status": null,
-          "age": 27,
-          "years_exp": 1
+          "age": 25,
+          "years_exp": 3
         },
         {
           "player_id": "12490",
@@ -419,24 +419,15 @@
           ],
           "team": "JAX",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 23,
           "years_exp": 1
         },
         {
-          "player_id": "12491",
-          "name": "Corey Kiner",
-          "first_name": "Corey",
-          "last_name": "Kiner",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "NE",
-          "status": "Active",
-          "injury_status": null,
-          "age": 24,
-          "years_exp": 1
+          "player_id": "0",
+          "name": "0",
+          "position": "DEF",
+          "team": "0"
         },
         {
           "player_id": "12526",
@@ -454,10 +445,19 @@
           "years_exp": 1
         },
         {
-          "player_id": "0",
-          "name": "0",
-          "position": "DEF",
-          "team": "0"
+          "player_id": "12519",
+          "name": "Luther Burden III",
+          "first_name": "Luther",
+          "last_name": "Burden III",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "CHI",
+          "status": "Active",
+          "injury_status": null,
+          "age": 22,
+          "years_exp": 1
         },
         {
           "player_id": "12518",
@@ -475,49 +475,49 @@
           "years_exp": 1
         },
         {
-          "player_id": "11586",
-          "name": "Blake Corum",
-          "first_name": "Blake",
-          "last_name": "Corum",
-          "position": "RB",
+          "player_id": "9500",
+          "name": "Josh Downs",
+          "first_name": "Josh",
+          "last_name": "Downs",
+          "position": "WR",
           "fantasy_positions": [
-            "RB"
+            "WR"
           ],
-          "team": "LAR",
-          "status": "Active",
-          "injury_status": null,
-          "age": 25,
-          "years_exp": 2
-        },
-        {
-          "player_id": "7553",
-          "name": "Kyle Pitts Sr.",
-          "first_name": "Kyle",
-          "last_name": "Pitts Sr.",
-          "position": "TE",
-          "fantasy_positions": [
-            "TE"
-          ],
-          "team": "ATL",
-          "status": "Active",
-          "injury_status": null,
-          "age": 26,
-          "years_exp": 5
-        },
-        {
-          "player_id": "9758",
-          "name": "C.J. Stroud",
-          "first_name": "C.J.",
-          "last_name": "Stroud",
-          "position": "QB",
-          "fantasy_positions": [
-            "QB"
-          ],
-          "team": "HOU",
+          "team": "KC",
           "status": "Active",
           "injury_status": null,
           "age": 25,
           "years_exp": 3
+        },
+        {
+          "player_id": "12499",
+          "name": "Elic Ayomanor",
+          "first_name": "Elic",
+          "last_name": "Ayomanor",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "TEN",
+          "status": "Active",
+          "injury_status": null,
+          "age": 23,
+          "years_exp": 1
+        },
+        {
+          "player_id": "12545",
+          "name": "Tyler Shough",
+          "first_name": "Tyler",
+          "last_name": "Shough",
+          "position": "QB",
+          "fantasy_positions": [
+            "QB"
+          ],
+          "team": "NO",
+          "status": "Active",
+          "injury_status": null,
+          "age": 27,
+          "years_exp": 1
         }
       ],
       "taxi": [
@@ -532,7 +532,7 @@
           ],
           "team": "TEN",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": null,
           "age": 22,
           "years_exp": null
         },
@@ -640,7 +640,7 @@
           ],
           "team": "LV",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "age": 23,
           "years_exp": 2
         },
@@ -775,7 +775,7 @@
           ],
           "team": "CHI",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": null,
           "age": 24,
           "years_exp": 1
         },
@@ -835,7 +835,7 @@
           ],
           "team": "KC",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 37,
           "years_exp": 13
         },
@@ -850,7 +850,7 @@
           ],
           "team": null,
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 31,
           "years_exp": 10
         },
@@ -1062,7 +1062,7 @@
           ],
           "team": "LV",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "age": 23,
           "years_exp": 2
         },
@@ -1092,7 +1092,7 @@
           ],
           "team": "KC",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 37,
           "years_exp": 13
         },
@@ -1292,7 +1292,7 @@
           ],
           "team": "LAC",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 23,
           "years_exp": 1
         },
@@ -1502,7 +1502,7 @@
           ],
           "team": "SF",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 28,
           "years_exp": 5
         },
@@ -1532,7 +1532,7 @@
           ],
           "team": "WAS",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 27,
           "years_exp": 4
         },
@@ -1614,64 +1614,64 @@
           "years_exp": 2
         },
         {
-          "player_id": "13298",
-          "name": "KC Concepcion Jr.",
-          "first_name": "KC",
-          "last_name": "Concepcion Jr.",
+          "player_id": "11620",
+          "name": "Rome Odunze",
+          "first_name": "Rome",
+          "last_name": "Odunze",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "CLE",
+          "team": "CHI",
+          "status": "Active",
+          "injury_status": null,
+          "age": 24,
+          "years_exp": 2
+        },
+        {
+          "player_id": "13294",
+          "name": "Makai Lemon",
+          "first_name": "Makai",
+          "last_name": "Lemon",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "PHI",
           "status": "Active",
           "injury_status": null,
           "age": 22,
           "years_exp": null
         },
         {
-          "player_id": "12634",
-          "name": "Jordan Watkins",
-          "first_name": "Jordan",
-          "last_name": "Watkins",
+          "player_id": "12517",
+          "name": "Colston Loveland",
+          "first_name": "Colston",
+          "last_name": "Loveland",
+          "position": "TE",
+          "fantasy_positions": [
+            "TE"
+          ],
+          "team": "CHI",
+          "status": "Active",
+          "injury_status": null,
+          "age": 22,
+          "years_exp": 1
+        },
+        {
+          "player_id": "12509",
+          "name": "Tre' Harris",
+          "first_name": "Tre'",
+          "last_name": "Harris",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "SF",
+          "team": "LAC",
           "status": "Active",
           "injury_status": null,
           "age": 24,
           "years_exp": 1
-        },
-        {
-          "player_id": "9480",
-          "name": "Brenton Strange",
-          "first_name": "Brenton",
-          "last_name": "Strange",
-          "position": "TE",
-          "fantasy_positions": [
-            "TE"
-          ],
-          "team": "JAX",
-          "status": "Active",
-          "injury_status": null,
-          "age": 25,
-          "years_exp": 3
-        },
-        {
-          "player_id": "8210",
-          "name": "Chig Okonkwo",
-          "first_name": "Chig",
-          "last_name": "Okonkwo",
-          "position": "TE",
-          "fantasy_positions": [
-            "TE"
-          ],
-          "team": "WAS",
-          "status": "Active",
-          "injury_status": "Questionable",
-          "age": 27,
-          "years_exp": 4
         },
         {
           "player_id": "2449",
@@ -1810,7 +1810,7 @@
           "team": "CHI",
           "status": "Active",
           "injury_status": null,
-          "age": 24,
+          "age": 25,
           "years_exp": 2
         },
         {
@@ -2262,7 +2262,7 @@
           "team": "CHI",
           "status": "Active",
           "injury_status": null,
-          "age": 24,
+          "age": 25,
           "years_exp": 2
         }
       ],
@@ -2356,7 +2356,7 @@
           ],
           "team": "BUF",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 27,
           "years_exp": 3
         },
@@ -2432,7 +2432,7 @@
           ],
           "team": "NYJ",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "age": 22,
           "years_exp": null
         },
@@ -2447,7 +2447,7 @@
           ],
           "team": "MIA",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "age": 22,
           "years_exp": null
         },
@@ -2462,7 +2462,7 @@
           ],
           "team": "SF",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "age": 33,
           "years_exp": 12
         },
@@ -2522,7 +2522,7 @@
           ],
           "team": "MIN",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "age": 29,
           "years_exp": 7
         },
@@ -2567,7 +2567,7 @@
           ],
           "team": "DEN",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "age": 27,
           "years_exp": 5
         },
@@ -2734,7 +2734,7 @@
           ],
           "team": "NYJ",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "age": 22,
           "years_exp": null
         },
@@ -2749,7 +2749,7 @@
           ],
           "team": "BUF",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 27,
           "years_exp": 3
         },
@@ -2811,7 +2811,7 @@
           ],
           "team": "MIA",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "age": 22,
           "years_exp": null
         }
@@ -3129,7 +3129,7 @@
           ],
           "team": "HOU",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": null,
           "age": 29,
           "years_exp": 7
         },
@@ -3144,7 +3144,7 @@
           ],
           "team": "JAX",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 30,
           "years_exp": 7
         },
@@ -3251,7 +3251,7 @@
           ],
           "team": "HOU",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": null,
           "age": 29,
           "years_exp": 7
         },
@@ -3326,7 +3326,7 @@
           ],
           "team": "JAX",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 30,
           "years_exp": 7
         },
@@ -3451,7 +3451,7 @@
           ],
           "team": "LAC",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "age": 25,
           "years_exp": 2
         },
@@ -3586,7 +3586,7 @@
           ],
           "team": "NYJ",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "age": 36,
           "years_exp": 13
         },
@@ -3798,7 +3798,7 @@
           ],
           "team": "NYJ",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "age": 36,
           "years_exp": 13
         },
@@ -4118,7 +4118,7 @@
           ],
           "team": "TEN",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "age": 21,
           "years_exp": null
         },
@@ -4133,7 +4133,7 @@
           ],
           "team": "NO",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 22,
           "years_exp": null
         },
@@ -4148,7 +4148,7 @@
           ],
           "team": "PIT",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": null,
           "age": 22,
           "years_exp": null
         },
@@ -4465,7 +4465,7 @@
           ],
           "team": "NO",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 22,
           "years_exp": null
         },
@@ -4480,7 +4480,7 @@
           ],
           "team": "TEN",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "age": 21,
           "years_exp": null
         }
@@ -4497,7 +4497,7 @@
           ],
           "team": "PIT",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": null,
           "age": 22,
           "years_exp": null
         }
@@ -4650,7 +4650,7 @@
           ],
           "team": "BAL",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": null,
           "age": 23,
           "years_exp": null
         },
@@ -4800,7 +4800,7 @@
           ],
           "team": "PHI",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "age": 28,
           "years_exp": 5
         },
@@ -4904,7 +4904,7 @@
             "WR"
           ],
           "team": "MIN",
-          "status": "Inactive",
+          "status": "Active",
           "injury_status": "Out",
           "age": 24,
           "years_exp": 3
@@ -4927,19 +4927,19 @@
           "years_exp": 10
         },
         {
-          "player_id": "9509",
-          "name": "Bijan Robinson",
-          "first_name": "Bijan",
-          "last_name": "Robinson",
+          "player_id": "8228",
+          "name": "Jaylen Warren",
+          "first_name": "Jaylen",
+          "last_name": "Warren",
           "position": "RB",
           "fantasy_positions": [
             "RB"
           ],
-          "team": "ATL",
+          "team": "PIT",
           "status": "Active",
           "injury_status": null,
-          "age": 24,
-          "years_exp": 3
+          "age": 28,
+          "years_exp": 4
         },
         {
           "player_id": "7588",
@@ -5002,34 +5002,34 @@
           "years_exp": 3
         },
         {
-          "player_id": "8150",
-          "name": "Kyren Williams",
-          "first_name": "Kyren",
-          "last_name": "Williams",
-          "position": "RB",
+          "player_id": "10229",
+          "name": "Rashee Rice",
+          "first_name": "Rashee",
+          "last_name": "Rice",
+          "position": "WR",
           "fantasy_positions": [
-            "RB"
+            "WR"
           ],
-          "team": "LAR",
+          "team": "KC",
           "status": "Active",
           "injury_status": null,
           "age": 26,
-          "years_exp": 4
+          "years_exp": 3
         },
         {
-          "player_id": "8228",
-          "name": "Jaylen Warren",
-          "first_name": "Jaylen",
-          "last_name": "Warren",
-          "position": "RB",
+          "player_id": "5846",
+          "name": "DK Metcalf",
+          "first_name": "DK",
+          "last_name": "Metcalf",
+          "position": "WR",
           "fantasy_positions": [
-            "RB"
+            "WR"
           ],
           "team": "PIT",
           "status": "Active",
           "injury_status": null,
           "age": 28,
-          "years_exp": 4
+          "years_exp": 7
         },
         {
           "player_id": "3163",
@@ -5059,7 +5059,7 @@
           ],
           "team": "BAL",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": null,
           "age": 23,
           "years_exp": null
         },
@@ -5152,7 +5152,7 @@
           ],
           "team": "JAX",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 27,
           "years_exp": 3
         },
@@ -5242,7 +5242,7 @@
           ],
           "team": "MIA",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": null,
           "age": 22,
           "years_exp": null
         },
@@ -5437,7 +5437,7 @@
           ],
           "team": "KC",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": "Questionable",
           "age": 26,
           "years_exp": 4
         },
@@ -5651,7 +5651,7 @@
           ],
           "team": "MIA",
           "status": "Active",
-          "injury_status": "Out",
+          "injury_status": null,
           "age": 22,
           "years_exp": null
         },
