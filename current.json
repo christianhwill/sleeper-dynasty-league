@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T00:00:02.682Z",
+  "generated_at": "2026-11-19T12:00:02.397Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -742,6 +742,21 @@
       },
       "players": [
         {
+          "player_id": "10218",
+          "name": "Xavier Hutchinson",
+          "first_name": "Xavier",
+          "last_name": "Hutchinson",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "HOU",
+          "status": "Active",
+          "injury_status": null,
+          "age": 26,
+          "years_exp": 3
+        },
+        {
           "player_id": "11565",
           "name": "J.J. McCarthy",
           "first_name": "J.J.",
@@ -965,21 +980,6 @@
           "injury_status": null,
           "age": 37,
           "years_exp": 13
-        },
-        {
-          "player_id": "3321",
-          "name": "Tyreek Hill",
-          "first_name": "Tyreek",
-          "last_name": "Hill",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": null,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "age": 31,
-          "years_exp": 10
         },
         {
           "player_id": "5850",
@@ -7467,6 +7467,71 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1428996582438637568",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1795061844027,
+      "created_iso": "2026-11-19T04:17:24.027Z",
+      "week": 11,
+      "leg": 11,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "10218",
+            "name": "Xavier Hutchinson",
+            "first_name": "Xavier",
+            "last_name": "Hutchinson",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "HOU",
+            "status": "Active",
+            "injury_status": null,
+            "age": 26,
+            "years_exp": 3
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "3321",
+            "name": "Tyreek Hill",
+            "first_name": "Tyreek",
+            "last_name": "Hill",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": null,
+            "status": "Active",
+            "injury_status": "Questionable",
+            "age": 31,
+            "years_exp": 10
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
     {
       "transaction_id": "1428589182200086528",
       "type": "waiver",
@@ -14044,73 +14109,6 @@
       ],
       "waiver_bid": null,
       "metadata": null
-    },
-    {
-      "transaction_id": "1410840995792171008",
-      "type": "waiver",
-      "status": "complete",
-      "created": 1790733214857,
-      "created_iso": "2026-09-30T01:53:34.857Z",
-      "week": 3,
-      "leg": 3,
-      "creator": "1129875387229560832",
-      "roster_ids": [
-        1
-      ],
-      "teams": [
-        {
-          "roster_id": 1,
-          "team_name": "Imperialist Junta"
-        }
-      ],
-      "adds": [
-        {
-          "player": {
-            "player_id": "13425",
-            "name": "Jalon Daniels",
-            "first_name": "Jalon",
-            "last_name": "Daniels",
-            "position": "QB",
-            "fantasy_positions": [
-              "QB"
-            ],
-            "team": "TB",
-            "status": "Active",
-            "injury_status": null,
-            "age": 24,
-            "years_exp": null
-          },
-          "roster_id": 1,
-          "team_name": "Imperialist Junta"
-        }
-      ],
-      "drops": [
-        {
-          "player": {
-            "player_id": "11435",
-            "name": "Emanuel Wilson",
-            "first_name": "Emanuel",
-            "last_name": "Wilson",
-            "position": "RB",
-            "fantasy_positions": [
-              "RB"
-            ],
-            "team": "SEA",
-            "status": "Active",
-            "injury_status": "Out",
-            "age": 27,
-            "years_exp": 3
-          },
-          "roster_id": 1,
-          "team_name": "Imperialist Junta"
-        }
-      ],
-      "draft_picks": [],
-      "waiver_budget": [],
-      "waiver_bid": 0,
-      "metadata": {
-        "notes": "Your waiver claim was processed successfully!"
-      }
     }
   ]
 }
