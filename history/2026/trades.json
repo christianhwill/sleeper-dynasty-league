@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T12:00:49.171Z",
+  "generated_at": "2026-11-19T00:00:02.682Z",
   "season": "2026",
   "trades": [
     {
@@ -389,7 +389,7 @@
             ],
             "team": "KC",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 37,
             "years_exp": 13
           },
@@ -410,7 +410,7 @@
             ],
             "team": "KC",
             "status": "Active",
-            "injury_status": "Questionable",
+            "injury_status": null,
             "age": 37,
             "years_exp": 13
           },
@@ -2269,7 +2269,7 @@
             ],
             "team": null,
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 31,
             "years_exp": 10
           },
@@ -2309,7 +2309,7 @@
             ],
             "team": null,
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 31,
             "years_exp": 10
           },
@@ -2554,7 +2554,7 @@
             "team": "CHI",
             "status": "Active",
             "injury_status": null,
-            "age": 24,
+            "age": 25,
             "years_exp": 2
           },
           "roster_id": 4,
@@ -2651,7 +2651,7 @@
             "team": "CHI",
             "status": "Active",
             "injury_status": null,
-            "age": 24,
+            "age": 25,
             "years_exp": 2
           },
           "roster_id": 3,
@@ -3132,7 +3132,7 @@
             ],
             "team": "JAX",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 23,
             "years_exp": 1
           },
@@ -3153,7 +3153,7 @@
             ],
             "team": "JAX",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 23,
             "years_exp": 1
           },
@@ -3308,7 +3308,7 @@
             ],
             "team": "BUF",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 27,
             "years_exp": 3
           },
@@ -3424,7 +3424,7 @@
             ],
             "team": "BUF",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 27,
             "years_exp": 3
           },
