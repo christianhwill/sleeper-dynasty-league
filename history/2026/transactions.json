@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T00:00:02.682Z",
+  "generated_at": "2026-11-19T12:00:02.397Z",
   "season": "2026",
   "transactions": [
     {
@@ -15586,6 +15586,71 @@
       "metadata": {
         "notes": "Your waiver claim was processed successfully!"
       }
+    },
+    {
+      "transaction_id": "1428996582438637568",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1795061844027,
+      "created_iso": "2026-11-19T04:17:24.027Z",
+      "week": 11,
+      "leg": 11,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "10218",
+            "name": "Xavier Hutchinson",
+            "first_name": "Xavier",
+            "last_name": "Hutchinson",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "HOU",
+            "status": "Active",
+            "injury_status": null,
+            "age": 26,
+            "years_exp": 3
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "3321",
+            "name": "Tyreek Hill",
+            "first_name": "Tyreek",
+            "last_name": "Hill",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": null,
+            "status": "Active",
+            "injury_status": "Questionable",
+            "age": 31,
+            "years_exp": 10
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
     }
   ]
 }
