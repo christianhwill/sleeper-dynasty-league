@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T00:00:02.682Z",
+  "generated_at": "2026-11-19T12:00:02.397Z",
   "season": "2026",
   "teams": [
     {
@@ -615,6 +615,21 @@
       },
       "players": [
         {
+          "player_id": "10218",
+          "name": "Xavier Hutchinson",
+          "first_name": "Xavier",
+          "last_name": "Hutchinson",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "HOU",
+          "status": "Active",
+          "injury_status": null,
+          "age": 26,
+          "years_exp": 3
+        },
+        {
           "player_id": "11565",
           "name": "J.J. McCarthy",
           "first_name": "J.J.",
@@ -838,21 +853,6 @@
           "injury_status": null,
           "age": 37,
           "years_exp": 13
-        },
-        {
-          "player_id": "3321",
-          "name": "Tyreek Hill",
-          "first_name": "Tyreek",
-          "last_name": "Hill",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": null,
-          "status": "Active",
-          "injury_status": "Questionable",
-          "age": 31,
-          "years_exp": 10
         },
         {
           "player_id": "5850",
