@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T12:00:02.397Z",
+  "generated_at": "2026-11-20T00:00:02.134Z",
   "season": "2026",
   "teams": [
     {
@@ -362,21 +362,6 @@
           "years_exp": 3
         },
         {
-          "player_id": "9754",
-          "name": "Quentin Johnston",
-          "first_name": "Quentin",
-          "last_name": "Johnston",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "LAC",
-          "status": "Active",
-          "injury_status": null,
-          "age": 25,
-          "years_exp": 3
-        },
-        {
           "player_id": "9758",
           "name": "C.J. Stroud",
           "first_name": "C.J.",
@@ -424,10 +409,19 @@
           "years_exp": 1
         },
         {
-          "player_id": "0",
-          "name": "0",
-          "position": "DEF",
-          "team": "0"
+          "player_id": "13337",
+          "name": "Emmett Johnson",
+          "first_name": "Emmett",
+          "last_name": "Johnson",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "team": "KC",
+          "status": "Active",
+          "injury_status": null,
+          "age": 23,
+          "years_exp": null
         },
         {
           "player_id": "12526",
@@ -549,21 +543,6 @@
           "status": "Active",
           "injury_status": null,
           "age": 22,
-          "years_exp": null
-        },
-        {
-          "player_id": "13337",
-          "name": "Emmett Johnson",
-          "first_name": "Emmett",
-          "last_name": "Johnson",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "KC",
-          "status": "Active",
-          "injury_status": null,
-          "age": 23,
           "years_exp": null
         }
       ],
@@ -992,21 +971,6 @@
           "years_exp": 5
         },
         {
-          "player_id": "12495",
-          "name": "Ollie Gordon II",
-          "first_name": "Ollie",
-          "last_name": "Gordon II",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "MIA",
-          "status": "Active",
-          "injury_status": null,
-          "age": 22,
-          "years_exp": 1
-        },
-        {
           "player_id": "12481",
           "name": "Cam Skattebo",
           "first_name": "Cam",
@@ -1020,6 +984,21 @@
           "injury_status": null,
           "age": 24,
           "years_exp": 1
+        },
+        {
+          "player_id": "8155",
+          "name": "Breece Hall",
+          "first_name": "Breece",
+          "last_name": "Hall",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "team": "NYJ",
+          "status": "Active",
+          "injury_status": null,
+          "age": 25,
+          "years_exp": 4
         },
         {
           "player_id": "11632",
@@ -1037,19 +1016,19 @@
           "years_exp": 2
         },
         {
-          "player_id": "5859",
-          "name": "A.J. Brown",
-          "first_name": "A.J.",
-          "last_name": "Brown",
+          "player_id": "12492",
+          "name": "Pat Bryant",
+          "first_name": "Pat",
+          "last_name": "Bryant",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "NE",
+          "team": "DEN",
           "status": "Active",
-          "injury_status": "Out",
-          "age": 29,
-          "years_exp": 7
+          "injury_status": null,
+          "age": 23,
+          "years_exp": 1
         },
         {
           "player_id": "11604",
@@ -1067,19 +1046,19 @@
           "years_exp": 2
         },
         {
-          "player_id": "8155",
-          "name": "Breece Hall",
-          "first_name": "Breece",
-          "last_name": "Hall",
+          "player_id": "12495",
+          "name": "Ollie Gordon II",
+          "first_name": "Ollie",
+          "last_name": "Gordon II",
           "position": "RB",
           "fantasy_positions": [
             "RB"
           ],
-          "team": "NYJ",
+          "team": "MIA",
           "status": "Active",
           "injury_status": null,
-          "age": 25,
-          "years_exp": 4
+          "age": 22,
+          "years_exp": 1
         },
         {
           "player_id": "1466",
@@ -2679,19 +2658,19 @@
           "years_exp": 14
         },
         {
-          "player_id": "8136",
-          "name": "Rachaad White",
-          "first_name": "Rachaad",
-          "last_name": "White",
+          "player_id": "6790",
+          "name": "D'Andre Swift",
+          "first_name": "D'Andre",
+          "last_name": "Swift",
           "position": "RB",
           "fantasy_positions": [
             "RB"
           ],
-          "team": "WAS",
+          "team": "CHI",
           "status": "Active",
           "injury_status": null,
           "age": 27,
-          "years_exp": 4
+          "years_exp": 6
         },
         {
           "player_id": "5967",
@@ -2724,19 +2703,19 @@
           "years_exp": 4
         },
         {
-          "player_id": "13276",
-          "name": "Omar Cooper Jr.",
-          "first_name": "Omar",
-          "last_name": "Cooper Jr.",
+          "player_id": "2216",
+          "name": "Mike Evans",
+          "first_name": "Mike",
+          "last_name": "Evans",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "NYJ",
+          "team": "SF",
           "status": "Active",
           "injury_status": "Questionable",
-          "age": 22,
-          "years_exp": null
+          "age": 33,
+          "years_exp": 12
         },
         {
           "player_id": "10236",
@@ -2769,19 +2748,19 @@
           "years_exp": 10
         },
         {
-          "player_id": "8134",
-          "name": "Khalil Shakir",
-          "first_name": "Khalil",
-          "last_name": "Shakir",
-          "position": "WR",
+          "player_id": "4866",
+          "name": "Saquon Barkley",
+          "first_name": "Saquon",
+          "last_name": "Barkley",
+          "position": "RB",
           "fantasy_positions": [
-            "WR"
+            "RB"
           ],
-          "team": "BUF",
+          "team": "PHI",
           "status": "Active",
           "injury_status": null,
-          "age": 26,
-          "years_exp": 4
+          "age": 29,
+          "years_exp": 8
         },
         {
           "player_id": "96",
@@ -3226,19 +3205,19 @@
           "years_exp": 8
         },
         {
-          "player_id": "13286",
-          "name": "Jadarian Price",
-          "first_name": "Jadarian",
-          "last_name": "Price",
+          "player_id": "7567",
+          "name": "Kenny Gainwell",
+          "first_name": "Kenny",
+          "last_name": "Gainwell",
           "position": "RB",
           "fantasy_positions": [
             "RB"
           ],
-          "team": "SEA",
+          "team": "TB",
           "status": "Active",
           "injury_status": null,
-          "age": 23,
-          "years_exp": null
+          "age": 27,
+          "years_exp": 5
         },
         {
           "player_id": "5892",
@@ -3788,19 +3767,19 @@
       ],
       "starters": [
         {
-          "player_id": "1373",
-          "name": "Geno Smith",
-          "first_name": "Geno",
-          "last_name": "Smith",
+          "player_id": "11563",
+          "name": "Bo Nix",
+          "first_name": "Bo",
+          "last_name": "Nix",
           "position": "QB",
           "fantasy_positions": [
             "QB"
           ],
-          "team": "NYJ",
+          "team": "DEN",
           "status": "Active",
-          "injury_status": "Questionable",
-          "age": 36,
-          "years_exp": 13
+          "injury_status": null,
+          "age": 26,
+          "years_exp": 2
         },
         {
           "player_id": "12527",
