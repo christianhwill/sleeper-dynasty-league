@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T03:00:03.007Z",
+  "generated_at": "2026-11-20T03:00:02.864Z",
   "league_name": "Oiled Without Consent",
   "seasons": [
     {
@@ -17,11 +17,11 @@
     {
       "season": "2026",
       "league_id": "1327788752298336256",
-      "transaction_count": 250,
+      "transaction_count": 252,
       "trade_count": 27
     }
   ],
-  "transaction_count": 788,
+  "transaction_count": 790,
   "transactions": [
     {
       "transaction_id": "1133549782154219520",
@@ -51700,6 +51700,120 @@
       "metadata": {
         "notes": "Your waiver claim was processed successfully!"
       },
+      "season": "2026",
+      "league_id": "1327788752298336256"
+    },
+    {
+      "transaction_id": "1428996582438637568",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1795061844027,
+      "created_iso": "2026-11-19T04:17:24.027Z",
+      "week": 11,
+      "leg": 11,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "10218",
+            "name": "Xavier Hutchinson",
+            "first_name": "Xavier",
+            "last_name": "Hutchinson",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "HOU",
+            "status": "Active",
+            "injury_status": null,
+            "age": 26,
+            "years_exp": 3
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "3321",
+            "name": "Tyreek Hill",
+            "first_name": "Tyreek",
+            "last_name": "Hill",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": null,
+            "status": "Active",
+            "injury_status": "Questionable",
+            "age": 31,
+            "years_exp": 10
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null,
+      "season": "2026",
+      "league_id": "1327788752298336256"
+    },
+    {
+      "transaction_id": "1429230816789004288",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1795117689848,
+      "created_iso": "2026-11-19T19:48:09.848Z",
+      "week": 11,
+      "leg": 11,
+      "creator": "1129875387229560832",
+      "roster_ids": [
+        1
+      ],
+      "teams": [
+        {
+          "roster_id": 1,
+          "team_name": "Imperialist Junta"
+        }
+      ],
+      "adds": [],
+      "drops": [
+        {
+          "player": {
+            "player_id": "9754",
+            "name": "Quentin Johnston",
+            "first_name": "Quentin",
+            "last_name": "Johnston",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "LAC",
+            "status": "Active",
+            "injury_status": null,
+            "age": 25,
+            "years_exp": 3
+          },
+          "roster_id": 1,
+          "team_name": "Imperialist Junta"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null,
       "season": "2026",
       "league_id": "1327788752298336256"
     }
