@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T12:00:02.397Z",
+  "generated_at": "2026-11-20T00:00:02.134Z",
   "season": "2026",
   "transactions": [
     {
@@ -15645,6 +15645,51 @@
           },
           "roster_id": 2,
           "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1429230816789004288",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1795117689848,
+      "created_iso": "2026-11-19T19:48:09.848Z",
+      "week": 11,
+      "leg": 11,
+      "creator": "1129875387229560832",
+      "roster_ids": [
+        1
+      ],
+      "teams": [
+        {
+          "roster_id": 1,
+          "team_name": "Imperialist Junta"
+        }
+      ],
+      "adds": [],
+      "drops": [
+        {
+          "player": {
+            "player_id": "9754",
+            "name": "Quentin Johnston",
+            "first_name": "Quentin",
+            "last_name": "Johnston",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "LAC",
+            "status": "Active",
+            "injury_status": null,
+            "age": 25,
+            "years_exp": 3
+          },
+          "roster_id": 1,
+          "team_name": "Imperialist Junta"
         }
       ],
       "draft_picks": [],
