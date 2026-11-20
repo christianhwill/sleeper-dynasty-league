@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T00:00:02.134Z",
+  "generated_at": "2026-11-20T12:00:41.259Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -334,8 +334,8 @@
           ],
           "team": "ARI",
           "status": "Active",
-          "injury_status": null,
-          "age": 23,
+          "injury_status": "Questionable",
+          "age": 24,
           "years_exp": null
         },
         {
@@ -1143,19 +1143,19 @@
           "years_exp": 2
         },
         {
-          "player_id": "12492",
-          "name": "Pat Bryant",
-          "first_name": "Pat",
-          "last_name": "Bryant",
+          "player_id": "11625",
+          "name": "Adonai Mitchell",
+          "first_name": "Adonai",
+          "last_name": "Mitchell",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "DEN",
+          "team": "NYJ",
           "status": "Active",
           "injury_status": null,
-          "age": 23,
-          "years_exp": 1
+          "age": 24,
+          "years_exp": 2
         },
         {
           "player_id": "11604",
@@ -3677,7 +3677,7 @@
           ],
           "team": "IND",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 25,
           "years_exp": null
         },
@@ -3886,7 +3886,7 @@
             "WR"
           ],
           "team": "LAR",
-          "status": "Inactive",
+          "status": "Active",
           "injury_status": "IR",
           "age": 25,
           "years_exp": 3
@@ -3954,19 +3954,19 @@
           "years_exp": 6
         },
         {
-          "player_id": "9488",
-          "name": "Jaxon Smith-Njigba",
-          "first_name": "Jaxon",
-          "last_name": "Smith-Njigba",
+          "player_id": "11783",
+          "name": "Ryan Flournoy",
+          "first_name": "Ryan",
+          "last_name": "Flournoy",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "SEA",
+          "team": "DAL",
           "status": "Active",
           "injury_status": null,
-          "age": 24,
-          "years_exp": 3
+          "age": 27,
+          "years_exp": 2
         },
         {
           "player_id": "8130",
@@ -3999,19 +3999,19 @@
           "years_exp": 6
         },
         {
-          "player_id": "8112",
-          "name": "Drake London",
-          "first_name": "Drake",
-          "last_name": "London",
-          "position": "WR",
+          "player_id": "4147",
+          "name": "Samaje Perine",
+          "first_name": "Samaje",
+          "last_name": "Perine",
+          "position": "RB",
           "fantasy_positions": [
-            "WR"
+            "RB"
           ],
-          "team": "ATL",
+          "team": "CIN",
           "status": "Active",
-          "injury_status": "Questionable",
-          "age": 25,
-          "years_exp": 4
+          "injury_status": null,
+          "age": 31,
+          "years_exp": 9
         },
         {
           "player_id": "6770",
@@ -4906,7 +4906,7 @@
           ],
           "team": "PHI",
           "status": "Active",
-          "injury_status": "Questionable",
+          "injury_status": null,
           "age": 28,
           "years_exp": 5
         },
@@ -7946,7 +7946,7 @@
             ],
             "team": "HOU",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 24,
             "years_exp": 3
           },
@@ -10311,7 +10311,7 @@
             ],
             "team": "IND",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 25,
             "years_exp": null
           },
@@ -10378,7 +10378,7 @@
             ],
             "team": "IND",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 25,
             "years_exp": null
           },
@@ -10492,7 +10492,7 @@
             ],
             "team": "IND",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 25,
             "years_exp": null
           },
@@ -10869,7 +10869,7 @@
             ],
             "team": "IND",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 25,
             "years_exp": null
           },
@@ -11781,7 +11781,7 @@
             ],
             "team": "IND",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 25,
             "years_exp": null
           },
