@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T09:00:16.524Z",
+  "generated_at": "2026-11-23T09:00:50.181Z",
   "season": "2026",
   "projection_scope": "full_regular_season",
   "league": {
@@ -93,7 +93,7 @@
     "sleeper": {
       "name": "Sleeper/RotoWire",
       "status": "available",
-      "fetched_at": "2026-11-22T09:00:16.038Z",
+      "fetched_at": "2026-11-23T09:00:50.043Z",
       "error": null,
       "provider_company_reported_by_feed": "RotoWire",
       "access_status": "Publicly reachable but not documented in Sleeper's official API reference.",
@@ -102,7 +102,7 @@
     "espn": {
       "name": "ESPN",
       "status": "unavailable",
-      "fetched_at": "2026-11-22T09:00:09.886Z",
+      "fetched_at": "2026-11-23T09:00:47.128Z",
       "error": "ESPN 2026 projections exceeds the 15728640-byte safety limit.",
       "access_status": "Publicly reachable ESPN fantasy player pool endpoint; undocumented and isolated behind a fallback adapter.",
       "scoring": "ESPN projected counting stats mapped to the league's Sleeper scoring settings.",
@@ -111,8 +111,8 @@
     "stathead": {
       "name": "StatHead open model",
       "status": "available",
-      "fetched_at": "2026-11-22T09:00:07.863Z",
-      "generated_at": "2026-11-22T03:27:57+00:00",
+      "fetched_at": "2026-11-23T09:00:45.503Z",
+      "generated_at": "2026-11-23T07:24:40+00:00",
       "error": null,
       "model": "Open weekly model based on season PPG, opponent defense versus position, venue, and available market environment.",
       "license": "StatHead model outputs are published for reuse; code is MIT licensed.",
@@ -550,59 +550,6 @@
       "ensemble_method": "equal_weight_mean_of_available_sources"
     },
     {
-      "player_id": "11564",
-      "name": "Drake Maye",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "team": "NE",
-      "opponent": null,
-      "game_date": null,
-      "projected_points": 310.62,
-      "provider_points": {
-        "ppr": 320.76,
-        "half_ppr": 320.76,
-        "standard": 320.76
-      },
-      "projected_stats": {
-        "fum_lost": 3,
-        "gp": 18,
-        "pass_2pt": 1,
-        "pass_att": 505,
-        "pass_cmp": 344,
-        "pass_int": 11,
-        "pass_td": 29,
-        "pass_yd": 3854,
-        "rush_att": 85,
-        "rush_td": 4,
-        "rush_yd": 416
-      },
-      "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-11-22T08:50:18.063Z",
-      "ownership": {
-        "roster_id": 8,
-        "owner_id": "1131304330881077248",
-        "team_name": "PurpleRhane",
-        "roster_status": "active_roster"
-      },
-      "league_status": "rostered",
-      "projection_rank": 9,
-      "projection_sources": [
-        "sleeper",
-        "stathead"
-      ],
-      "projection_source_names": [
-        "Sleeper/RotoWire",
-        "StatHead open model"
-      ],
-      "projection_source_count": 2,
-      "projection_source_spread_points": 20.28,
-      "projection_source_spread_percent": 6.53,
-      "confidence_score": 73.47,
-      "ensemble_method": "equal_weight_mean_of_available_sources"
-    },
-    {
       "player_id": "3294",
       "name": "Dak Prescott",
       "position": "QB",
@@ -640,7 +587,7 @@
         "roster_status": "active_roster"
       },
       "league_status": "rostered",
-      "projection_rank": 10,
+      "projection_rank": 9,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -693,7 +640,7 @@
         "roster_status": "active_roster"
       },
       "league_status": "rostered",
-      "projection_rank": 11,
+      "projection_rank": 10,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -743,7 +690,7 @@
         "roster_status": "active_roster"
       },
       "league_status": "rostered",
-      "projection_rank": 12,
+      "projection_rank": 11,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -793,7 +740,7 @@
         "roster_status": "active_roster"
       },
       "league_status": "rostered",
-      "projection_rank": 13,
+      "projection_rank": 12,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -844,7 +791,7 @@
         "roster_status": "active_roster"
       },
       "league_status": "rostered",
-      "projection_rank": 14,
+      "projection_rank": 13,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -897,7 +844,7 @@
         "roster_status": "active_roster"
       },
       "league_status": "rostered",
-      "projection_rank": 15,
+      "projection_rank": 14,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -950,7 +897,7 @@
         "roster_status": "active_roster"
       },
       "league_status": "rostered",
-      "projection_rank": 16,
+      "projection_rank": 15,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -1003,7 +950,7 @@
         "roster_status": "active_roster"
       },
       "league_status": "rostered",
-      "projection_rank": 17,
+      "projection_rank": 16,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -1054,7 +1001,7 @@
         "roster_status": "active_roster"
       },
       "league_status": "rostered",
-      "projection_rank": 18,
+      "projection_rank": 17,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -1106,7 +1053,7 @@
         "roster_status": "active_roster"
       },
       "league_status": "rostered",
-      "projection_rank": 19,
+      "projection_rank": 18,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -1159,7 +1106,7 @@
         "roster_status": "active_roster"
       },
       "league_status": "rostered",
-      "projection_rank": 20,
+      "projection_rank": 19,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -1209,7 +1156,7 @@
         "roster_status": "active_roster"
       },
       "league_status": "rostered",
-      "projection_rank": 21,
+      "projection_rank": 20,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -1262,7 +1209,7 @@
         "roster_status": "active_roster"
       },
       "league_status": "rostered",
-      "projection_rank": 22,
+      "projection_rank": 21,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -1315,7 +1262,7 @@
         "roster_status": "active_roster"
       },
       "league_status": "rostered",
-      "projection_rank": 23,
+      "projection_rank": 22,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -1368,7 +1315,7 @@
         "roster_status": "active_roster"
       },
       "league_status": "rostered",
-      "projection_rank": 24,
+      "projection_rank": 23,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -1421,7 +1368,7 @@
         "roster_status": "active_roster"
       },
       "league_status": "rostered",
-      "projection_rank": 25,
+      "projection_rank": 24,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -1469,7 +1416,7 @@
         "roster_status": "active_roster"
       },
       "league_status": "rostered",
-      "projection_rank": 26,
+      "projection_rank": 25,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -1519,7 +1466,7 @@
         "roster_status": "active_roster"
       },
       "league_status": "rostered",
-      "projection_rank": 27,
+      "projection_rank": 26,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -1572,7 +1519,7 @@
         "roster_status": "active_roster"
       },
       "league_status": "rostered",
-      "projection_rank": 28,
+      "projection_rank": 27,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -1621,7 +1568,7 @@
         "roster_status": "active_roster"
       },
       "league_status": "rostered",
-      "projection_rank": 29,
+      "projection_rank": 28,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -1670,7 +1617,7 @@
         "roster_status": "active_roster"
       },
       "league_status": "rostered",
-      "projection_rank": 30,
+      "projection_rank": 29,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -1723,7 +1670,7 @@
         "roster_status": "active_roster"
       },
       "league_status": "rostered",
-      "projection_rank": 31,
+      "projection_rank": 30,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -1774,7 +1721,7 @@
         "roster_status": "active_roster"
       },
       "league_status": "rostered",
-      "projection_rank": 32,
+      "projection_rank": 31,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -1823,7 +1770,7 @@
         "roster_status": "active_roster"
       },
       "league_status": "rostered",
-      "projection_rank": 33,
+      "projection_rank": 32,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -1873,7 +1820,7 @@
         "roster_status": "active_roster"
       },
       "league_status": "rostered",
-      "projection_rank": 34,
+      "projection_rank": 33,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -1886,6 +1833,56 @@
       "projection_source_spread_points": 73.61,
       "projection_source_spread_percent": 29.59,
       "confidence_score": 50.41,
+      "ensemble_method": "equal_weight_mean_of_available_sources"
+    },
+    {
+      "player_id": "12527",
+      "name": "Ashton Jeanty",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "LV",
+      "opponent": null,
+      "game_date": null,
+      "projected_points": 247.04,
+      "provider_points": {
+        "ppr": 253.2,
+        "half_ppr": 228.7,
+        "standard": 204.2
+      },
+      "projected_stats": {
+        "fum_lost": 2,
+        "gp": 18,
+        "rec": 49,
+        "rec_td": 2,
+        "rec_yd": 364,
+        "rush_att": 260,
+        "rush_td": 8,
+        "rush_yd": 1118
+      },
+      "source_company": "multi-source ensemble",
+      "source_last_modified": "2026-11-22T08:50:16.503Z",
+      "ownership": {
+        "roster_id": 7,
+        "owner_id": "1131294900231815168",
+        "team_name": "I Chase Brown People",
+        "roster_status": "active_roster"
+      },
+      "league_status": "rostered",
+      "projection_rank": 34,
+      "projection_sources": [
+        "sleeper",
+        "stathead"
+      ],
+      "projection_source_names": [
+        "Sleeper/RotoWire",
+        "StatHead open model"
+      ],
+      "projection_source_count": 2,
+      "projection_source_spread_points": 12.31,
+      "projection_source_spread_percent": 4.98,
+      "confidence_score": 75.02,
       "ensemble_method": "equal_weight_mean_of_available_sources"
     },
     {
@@ -1988,56 +1985,6 @@
       "ensemble_method": "equal_weight_mean_of_available_sources"
     },
     {
-      "player_id": "12527",
-      "name": "Ashton Jeanty",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "LV",
-      "opponent": null,
-      "game_date": null,
-      "projected_points": 245.09,
-      "provider_points": {
-        "ppr": 253.2,
-        "half_ppr": 228.7,
-        "standard": 204.2
-      },
-      "projected_stats": {
-        "fum_lost": 2,
-        "gp": 18,
-        "rec": 49,
-        "rec_td": 2,
-        "rec_yd": 364,
-        "rush_att": 260,
-        "rush_td": 8,
-        "rush_yd": 1118
-      },
-      "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-11-22T08:50:16.503Z",
-      "ownership": {
-        "roster_id": 7,
-        "owner_id": "1131294900231815168",
-        "team_name": "I Chase Brown People",
-        "roster_status": "active_roster"
-      },
-      "league_status": "rostered",
-      "projection_rank": 37,
-      "projection_sources": [
-        "sleeper",
-        "stathead"
-      ],
-      "projection_source_names": [
-        "Sleeper/RotoWire",
-        "StatHead open model"
-      ],
-      "projection_source_count": 2,
-      "projection_source_spread_points": 16.22,
-      "projection_source_spread_percent": 6.62,
-      "confidence_score": 73.38,
-      "ensemble_method": "equal_weight_mean_of_available_sources"
-    },
-    {
       "player_id": "11584",
       "name": "Bucky Irving",
       "position": "RB",
@@ -2072,7 +2019,7 @@
         "roster_status": "active_roster"
       },
       "league_status": "rostered",
-      "projection_rank": 38,
+      "projection_rank": 37,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -2085,6 +2032,59 @@
       "projection_source_spread_points": 91.04,
       "projection_source_spread_percent": 37.49,
       "confidence_score": 42.51,
+      "ensemble_method": "equal_weight_mean_of_available_sources"
+    },
+    {
+      "player_id": "11564",
+      "name": "Drake Maye",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "team": "NE",
+      "opponent": null,
+      "game_date": null,
+      "projected_points": 242.26,
+      "provider_points": {
+        "ppr": 320.76,
+        "half_ppr": 320.76,
+        "standard": 320.76
+      },
+      "projected_stats": {
+        "fum_lost": 3,
+        "gp": 18,
+        "pass_2pt": 1,
+        "pass_att": 505,
+        "pass_cmp": 344,
+        "pass_int": 11,
+        "pass_td": 29,
+        "pass_yd": 3854,
+        "rush_att": 85,
+        "rush_td": 4,
+        "rush_yd": 416
+      },
+      "source_company": "multi-source ensemble",
+      "source_last_modified": "2026-11-22T08:50:18.063Z",
+      "ownership": {
+        "roster_id": 8,
+        "owner_id": "1131304330881077248",
+        "team_name": "PurpleRhane",
+        "roster_status": "active_roster"
+      },
+      "league_status": "rostered",
+      "projection_rank": 38,
+      "projection_sources": [
+        "sleeper",
+        "stathead"
+      ],
+      "projection_source_names": [
+        "Sleeper/RotoWire",
+        "StatHead open model"
+      ],
+      "projection_source_count": 2,
+      "projection_source_spread_points": 157,
+      "projection_source_spread_percent": 64.81,
+      "confidence_score": 40,
       "ensemble_method": "equal_weight_mean_of_available_sources"
     },
     {
@@ -2147,7 +2147,7 @@
       "team": "DAL",
       "opponent": null,
       "game_date": null,
-      "projected_points": 238.32,
+      "projected_points": 238.87,
       "provider_points": {
         "ppr": 245.7,
         "half_ppr": 205.7,
@@ -2181,9 +2181,9 @@
         "StatHead open model"
       ],
       "projection_source_count": 2,
-      "projection_source_spread_points": 14.75,
-      "projection_source_spread_percent": 6.19,
-      "confidence_score": 73.81,
+      "projection_source_spread_points": 13.66,
+      "projection_source_spread_percent": 5.72,
+      "confidence_score": 74.28,
       "ensemble_method": "equal_weight_mean_of_available_sources"
     },
     {
@@ -2990,56 +2990,6 @@
       "ensemble_method": "equal_weight_mean_of_available_sources"
     },
     {
-      "player_id": "12507",
-      "name": "Omarion Hampton",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "LAC",
-      "opponent": null,
-      "game_date": null,
-      "projected_points": 213.08,
-      "provider_points": {
-        "ppr": 242.9,
-        "half_ppr": 218.9,
-        "standard": 194.9
-      },
-      "projected_stats": {
-        "fum_lost": 2,
-        "gp": 18,
-        "rec": 48,
-        "rec_td": 2,
-        "rec_yd": 364,
-        "rush_att": 232,
-        "rush_td": 8,
-        "rush_yd": 1025
-      },
-      "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-11-22T08:50:21.900Z",
-      "ownership": {
-        "roster_id": 8,
-        "owner_id": "1131304330881077248",
-        "team_name": "PurpleRhane",
-        "roster_status": "active_roster"
-      },
-      "league_status": "rostered",
-      "projection_rank": 57,
-      "projection_sources": [
-        "sleeper",
-        "stathead"
-      ],
-      "projection_source_names": [
-        "Sleeper/RotoWire",
-        "StatHead open model"
-      ],
-      "projection_source_count": 2,
-      "projection_source_spread_points": 59.64,
-      "projection_source_spread_percent": 27.99,
-      "confidence_score": 52.01,
-      "ensemble_method": "equal_weight_mean_of_available_sources"
-    },
-    {
       "player_id": "5967",
       "name": "Tony Pollard",
       "position": "RB",
@@ -3049,7 +2999,7 @@
       "team": "TEN",
       "opponent": null,
       "game_date": null,
-      "projected_points": 212.14,
+      "projected_points": 212.65,
       "provider_points": {
         "ppr": 160.1,
         "half_ppr": 146.1,
@@ -3074,6 +3024,56 @@
         "roster_status": "active_roster"
       },
       "league_status": "rostered",
+      "projection_rank": 57,
+      "projection_sources": [
+        "sleeper",
+        "stathead"
+      ],
+      "projection_source_names": [
+        "Sleeper/RotoWire",
+        "StatHead open model"
+      ],
+      "projection_source_count": 2,
+      "projection_source_spread_points": 105.1,
+      "projection_source_spread_percent": 49.42,
+      "confidence_score": 40,
+      "ensemble_method": "equal_weight_mean_of_available_sources"
+    },
+    {
+      "player_id": "12507",
+      "name": "Omarion Hampton",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "LAC",
+      "opponent": null,
+      "game_date": null,
+      "projected_points": 212.58,
+      "provider_points": {
+        "ppr": 242.9,
+        "half_ppr": 218.9,
+        "standard": 194.9
+      },
+      "projected_stats": {
+        "fum_lost": 2,
+        "gp": 18,
+        "rec": 48,
+        "rec_td": 2,
+        "rec_yd": 364,
+        "rush_att": 232,
+        "rush_td": 8,
+        "rush_yd": 1025
+      },
+      "source_company": "multi-source ensemble",
+      "source_last_modified": "2026-11-22T08:50:21.900Z",
+      "ownership": {
+        "roster_id": 8,
+        "owner_id": "1131304330881077248",
+        "team_name": "PurpleRhane",
+        "roster_status": "active_roster"
+      },
+      "league_status": "rostered",
       "projection_rank": 58,
       "projection_sources": [
         "sleeper",
@@ -3084,9 +3084,9 @@
         "StatHead open model"
       ],
       "projection_source_count": 2,
-      "projection_source_spread_points": 104.08,
-      "projection_source_spread_percent": 49.06,
-      "confidence_score": 40,
+      "projection_source_spread_points": 60.63,
+      "projection_source_spread_percent": 28.52,
+      "confidence_score": 51.48,
       "ensemble_method": "equal_weight_mean_of_available_sources"
     },
     {
@@ -3928,7 +3928,7 @@
       "team": "NE",
       "opponent": null,
       "game_date": null,
-      "projected_points": 187.87,
+      "projected_points": 188.88,
       "provider_points": {
         "ppr": 169,
         "half_ppr": 154.5,
@@ -3963,9 +3963,9 @@
         "StatHead open model"
       ],
       "projection_source_count": 2,
-      "projection_source_spread_points": 37.75,
-      "projection_source_spread_percent": 20.09,
-      "confidence_score": 59.91,
+      "projection_source_spread_points": 39.75,
+      "projection_source_spread_percent": 21.05,
+      "confidence_score": 58.95,
       "ensemble_method": "equal_weight_mean_of_available_sources"
     },
     {
@@ -5952,50 +5952,6 @@
       "ensemble_method": "equal_weight_mean_of_available_sources"
     },
     {
-      "player_id": "6806",
-      "name": "J.K. Dobbins",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "DEN",
-      "opponent": null,
-      "game_date": null,
-      "projected_points": 148.61,
-      "provider_points": {
-        "ppr": 160.2,
-        "half_ppr": 147.2,
-        "standard": 134.2
-      },
-      "projected_stats": {
-        "gp": 18,
-        "rec": 26,
-        "rec_td": 1,
-        "rec_yd": 190,
-        "rush_att": 171,
-        "rush_td": 6,
-        "rush_yd": 732
-      },
-      "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-11-22T08:50:21.167Z",
-      "ownership": null,
-      "league_status": "free_agent",
-      "projection_rank": 118,
-      "projection_sources": [
-        "sleeper",
-        "stathead"
-      ],
-      "projection_source_names": [
-        "Sleeper/RotoWire",
-        "StatHead open model"
-      ],
-      "projection_source_count": 2,
-      "projection_source_spread_points": 23.19,
-      "projection_source_spread_percent": 15.6,
-      "confidence_score": 64.4,
-      "ensemble_method": "equal_weight_mean_of_available_sources"
-    },
-    {
       "player_id": "4199",
       "name": "Aaron Jones Sr.",
       "position": "RB",
@@ -6030,7 +5986,7 @@
         "roster_status": "active_roster"
       },
       "league_status": "rostered",
-      "projection_rank": 119,
+      "projection_rank": 118,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -6043,6 +5999,50 @@
       "projection_source_spread_points": 22.95,
       "projection_source_spread_percent": 15.45,
       "confidence_score": 64.55,
+      "ensemble_method": "equal_weight_mean_of_available_sources"
+    },
+    {
+      "player_id": "6806",
+      "name": "J.K. Dobbins",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "DEN",
+      "opponent": null,
+      "game_date": null,
+      "projected_points": 148.28,
+      "provider_points": {
+        "ppr": 160.2,
+        "half_ppr": 147.2,
+        "standard": 134.2
+      },
+      "projected_stats": {
+        "gp": 18,
+        "rec": 26,
+        "rec_td": 1,
+        "rec_yd": 190,
+        "rush_att": 171,
+        "rush_td": 6,
+        "rush_yd": 732
+      },
+      "source_company": "multi-source ensemble",
+      "source_last_modified": "2026-11-22T08:50:21.167Z",
+      "ownership": null,
+      "league_status": "free_agent",
+      "projection_rank": 119,
+      "projection_sources": [
+        "sleeper",
+        "stathead"
+      ],
+      "projection_source_names": [
+        "Sleeper/RotoWire",
+        "StatHead open model"
+      ],
+      "projection_source_count": 2,
+      "projection_source_spread_points": 23.83,
+      "projection_source_spread_percent": 16.07,
+      "confidence_score": 63.93,
       "ensemble_method": "equal_weight_mean_of_available_sources"
     },
     {
@@ -6301,7 +6301,7 @@
       "team": "WAS",
       "opponent": null,
       "game_date": null,
-      "projected_points": 144.82,
+      "projected_points": 145.36,
       "provider_points": {
         "ppr": 128.1,
         "half_ppr": 111.1,
@@ -6336,9 +6336,9 @@
         "StatHead open model"
       ],
       "projection_source_count": 2,
-      "projection_source_spread_points": 33.45,
-      "projection_source_spread_percent": 23.09,
-      "confidence_score": 56.91,
+      "projection_source_spread_points": 34.52,
+      "projection_source_spread_percent": 23.75,
+      "confidence_score": 56.25,
       "ensemble_method": "equal_weight_mean_of_available_sources"
     },
     {
@@ -6638,7 +6638,7 @@
       "team": "PIT",
       "opponent": null,
       "game_date": null,
-      "projected_points": 137.13,
+      "projected_points": 137.07,
       "provider_points": {
         "ppr": 161.1,
         "half_ppr": 142.1,
@@ -6673,9 +6673,9 @@
         "StatHead open model"
       ],
       "projection_source_count": 2,
-      "projection_source_spread_points": 47.94,
-      "projection_source_spread_percent": 34.96,
-      "confidence_score": 45.04,
+      "projection_source_spread_points": 48.06,
+      "projection_source_spread_percent": 35.06,
+      "confidence_score": 44.94,
       "ensemble_method": "equal_weight_mean_of_available_sources"
     },
     {
@@ -7010,55 +7010,6 @@
       "ensemble_method": "equal_weight_mean_of_available_sources"
     },
     {
-      "player_id": "5859",
-      "name": "A.J. Brown",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "NE",
-      "opponent": null,
-      "game_date": null,
-      "projected_points": 129.98,
-      "provider_points": {
-        "ppr": 167,
-        "half_ppr": 140,
-        "standard": 113
-      },
-      "projected_stats": {
-        "gp": 18,
-        "rec": 54,
-        "rec_2pt": 1,
-        "rec_td": 5,
-        "rec_yd": 805,
-        "rush_att": 1,
-        "rush_yd": 5
-      },
-      "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-11-22T08:50:21.000Z",
-      "ownership": {
-        "roster_id": 2,
-        "owner_id": "1129877684336578560",
-        "team_name": "Cam dog",
-        "roster_status": "active_roster"
-      },
-      "league_status": "rostered",
-      "projection_rank": 140,
-      "projection_sources": [
-        "sleeper",
-        "stathead"
-      ],
-      "projection_source_names": [
-        "Sleeper/RotoWire",
-        "StatHead open model"
-      ],
-      "projection_source_count": 2,
-      "projection_source_spread_points": 74.04,
-      "projection_source_spread_percent": 56.96,
-      "confidence_score": 40,
-      "ensemble_method": "equal_weight_mean_of_available_sources"
-    },
-    {
       "player_id": "11834",
       "name": "Devaughn Vele",
       "position": "WR",
@@ -7091,7 +7042,7 @@
         "roster_status": "active_roster"
       },
       "league_status": "rostered",
-      "projection_rank": 141,
+      "projection_rank": 140,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -7141,7 +7092,7 @@
         "roster_status": "active_roster"
       },
       "league_status": "rostered",
-      "projection_rank": 142,
+      "projection_rank": 141,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -7154,6 +7105,55 @@
       "projection_source_spread_points": 51.1,
       "projection_source_spread_percent": 39.6,
       "confidence_score": 40.4,
+      "ensemble_method": "equal_weight_mean_of_available_sources"
+    },
+    {
+      "player_id": "5859",
+      "name": "A.J. Brown",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "NE",
+      "opponent": null,
+      "game_date": null,
+      "projected_points": 128.5,
+      "provider_points": {
+        "ppr": 167,
+        "half_ppr": 140,
+        "standard": 113
+      },
+      "projected_stats": {
+        "gp": 18,
+        "rec": 54,
+        "rec_2pt": 1,
+        "rec_td": 5,
+        "rec_yd": 805,
+        "rush_att": 1,
+        "rush_yd": 5
+      },
+      "source_company": "multi-source ensemble",
+      "source_last_modified": "2026-11-22T08:50:21.000Z",
+      "ownership": {
+        "roster_id": 2,
+        "owner_id": "1129877684336578560",
+        "team_name": "Cam dog",
+        "roster_status": "active_roster"
+      },
+      "league_status": "rostered",
+      "projection_rank": 142,
+      "projection_sources": [
+        "sleeper",
+        "stathead"
+      ],
+      "projection_source_names": [
+        "Sleeper/RotoWire",
+        "StatHead open model"
+      ],
+      "projection_source_count": 2,
+      "projection_source_spread_points": 77,
+      "projection_source_spread_percent": 59.92,
+      "confidence_score": 40,
       "ensemble_method": "equal_weight_mean_of_available_sources"
     },
     {
@@ -7573,49 +7573,6 @@
       "ensemble_method": "equal_weight_mean_of_available_sources"
     },
     {
-      "player_id": "9501",
-      "name": "DeMario Douglas",
-      "position": "WR",
-      "fantasy_positions": [
-        "WR"
-      ],
-      "team": "NE",
-      "opponent": null,
-      "game_date": null,
-      "projected_points": 117.18,
-      "provider_points": {
-        "ppr": 80.4,
-        "half_ppr": 65.9,
-        "standard": 51.4
-      },
-      "projected_stats": {
-        "gp": 18,
-        "rec": 29,
-        "rec_td": 2,
-        "rec_yd": 360,
-        "rush_att": 5,
-        "rush_yd": 34
-      },
-      "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-11-22T08:50:14.303Z",
-      "ownership": null,
-      "league_status": "free_agent",
-      "projection_rank": 152,
-      "projection_sources": [
-        "sleeper",
-        "stathead"
-      ],
-      "projection_source_names": [
-        "Sleeper/RotoWire",
-        "StatHead open model"
-      ],
-      "projection_source_count": 2,
-      "projection_source_spread_points": 73.56,
-      "projection_source_spread_percent": 62.77,
-      "confidence_score": 40,
-      "ensemble_method": "equal_weight_mean_of_available_sources"
-    },
-    {
       "player_id": "8676",
       "name": "Rashid Shaheed",
       "position": "WR",
@@ -7644,7 +7601,7 @@
       "source_last_modified": "2026-11-22T08:50:16.081Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 153,
+      "projection_rank": 152,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -7657,6 +7614,49 @@
       "projection_source_spread_points": 42.08,
       "projection_source_spread_percent": 35.95,
       "confidence_score": 44.05,
+      "ensemble_method": "equal_weight_mean_of_available_sources"
+    },
+    {
+      "player_id": "9501",
+      "name": "DeMario Douglas",
+      "position": "WR",
+      "fantasy_positions": [
+        "WR"
+      ],
+      "team": "NE",
+      "opponent": null,
+      "game_date": null,
+      "projected_points": 116.17,
+      "provider_points": {
+        "ppr": 80.4,
+        "half_ppr": 65.9,
+        "standard": 51.4
+      },
+      "projected_stats": {
+        "gp": 18,
+        "rec": 29,
+        "rec_td": 2,
+        "rec_yd": 360,
+        "rush_att": 5,
+        "rush_yd": 34
+      },
+      "source_company": "multi-source ensemble",
+      "source_last_modified": "2026-11-22T08:50:14.303Z",
+      "ownership": null,
+      "league_status": "free_agent",
+      "projection_rank": 153,
+      "projection_sources": [
+        "sleeper",
+        "stathead"
+      ],
+      "projection_source_names": [
+        "Sleeper/RotoWire",
+        "StatHead open model"
+      ],
+      "projection_source_count": 2,
+      "projection_source_spread_points": 71.53,
+      "projection_source_spread_percent": 61.58,
+      "confidence_score": 40,
       "ensemble_method": "equal_weight_mean_of_available_sources"
     },
     {
@@ -7927,52 +7927,6 @@
       "ensemble_method": "equal_weight_mean_of_available_sources"
     },
     {
-      "player_id": "12493",
-      "name": "Oronde Gadsden",
-      "position": "TE",
-      "fantasy_positions": [
-        "TE"
-      ],
-      "team": "LAC",
-      "opponent": null,
-      "game_date": null,
-      "projected_points": 112.4,
-      "provider_points": {
-        "ppr": 141.8,
-        "half_ppr": 113.8,
-        "standard": 85.8
-      },
-      "projected_stats": {
-        "gp": 18,
-        "rec": 56,
-        "rec_td": 4,
-        "rec_yd": 618
-      },
-      "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-11-22T08:50:25.568Z",
-      "ownership": {
-        "roster_id": 3,
-        "owner_id": "1129881968960901120",
-        "team_name": "Third Down Syndrome",
-        "roster_status": "active_roster"
-      },
-      "league_status": "rostered",
-      "projection_rank": 160,
-      "projection_sources": [
-        "sleeper",
-        "stathead"
-      ],
-      "projection_source_names": [
-        "Sleeper/RotoWire",
-        "StatHead open model"
-      ],
-      "projection_source_count": 2,
-      "projection_source_spread_points": 58.8,
-      "projection_source_spread_percent": 52.31,
-      "confidence_score": 40,
-      "ensemble_method": "equal_weight_mean_of_available_sources"
-    },
-    {
       "player_id": "11637",
       "name": "Keon Coleman",
       "position": "WR",
@@ -8005,7 +7959,7 @@
         "roster_status": "active_roster"
       },
       "league_status": "rostered",
-      "projection_rank": 161,
+      "projection_rank": 160,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -8017,6 +7971,52 @@
       "projection_source_count": 2,
       "projection_source_spread_points": 53.13,
       "projection_source_spread_percent": 47.28,
+      "confidence_score": 40,
+      "ensemble_method": "equal_weight_mean_of_available_sources"
+    },
+    {
+      "player_id": "12493",
+      "name": "Oronde Gadsden",
+      "position": "TE",
+      "fantasy_positions": [
+        "TE"
+      ],
+      "team": "LAC",
+      "opponent": null,
+      "game_date": null,
+      "projected_points": 111.9,
+      "provider_points": {
+        "ppr": 141.8,
+        "half_ppr": 113.8,
+        "standard": 85.8
+      },
+      "projected_stats": {
+        "gp": 18,
+        "rec": 56,
+        "rec_td": 4,
+        "rec_yd": 618
+      },
+      "source_company": "multi-source ensemble",
+      "source_last_modified": "2026-11-22T08:50:25.568Z",
+      "ownership": {
+        "roster_id": 3,
+        "owner_id": "1129881968960901120",
+        "team_name": "Third Down Syndrome",
+        "roster_status": "active_roster"
+      },
+      "league_status": "rostered",
+      "projection_rank": 161,
+      "projection_sources": [
+        "sleeper",
+        "stathead"
+      ],
+      "projection_source_names": [
+        "Sleeper/RotoWire",
+        "StatHead open model"
+      ],
+      "projection_source_count": 2,
+      "projection_source_spread_points": 59.8,
+      "projection_source_spread_percent": 53.44,
       "confidence_score": 40,
       "ensemble_method": "equal_weight_mean_of_available_sources"
     },
@@ -8816,6 +8816,51 @@
       "ensemble_method": "equal_weight_mean_of_available_sources"
     },
     {
+      "player_id": "9508",
+      "name": "Tyjae Spears",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "TEN",
+      "opponent": null,
+      "game_date": null,
+      "projected_points": 101.32,
+      "provider_points": {
+        "ppr": 114.6,
+        "half_ppr": 97.1,
+        "standard": 79.6
+      },
+      "projected_stats": {
+        "fum_lost": 1,
+        "gp": 18,
+        "rec": 35,
+        "rec_td": 1,
+        "rec_yd": 248,
+        "rush_att": 92,
+        "rush_td": 2,
+        "rush_yd": 388
+      },
+      "source_company": "multi-source ensemble",
+      "source_last_modified": "2026-11-22T08:50:19.759Z",
+      "ownership": null,
+      "league_status": "free_agent",
+      "projection_rank": 179,
+      "projection_sources": [
+        "sleeper",
+        "stathead"
+      ],
+      "projection_source_names": [
+        "Sleeper/RotoWire",
+        "StatHead open model"
+      ],
+      "projection_source_count": 2,
+      "projection_source_spread_points": 26.56,
+      "projection_source_spread_percent": 26.22,
+      "confidence_score": 53.78,
+      "ensemble_method": "equal_weight_mean_of_available_sources"
+    },
+    {
       "player_id": "4039",
       "name": "Cooper Kupp",
       "position": "WR",
@@ -8846,7 +8891,7 @@
         "roster_status": "active_roster"
       },
       "league_status": "rostered",
-      "projection_rank": 179,
+      "projection_rank": 180,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -8892,7 +8937,7 @@
         "roster_status": "active_roster"
       },
       "league_status": "rostered",
-      "projection_rank": 180,
+      "projection_rank": 181,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -8905,51 +8950,6 @@
       "projection_source_spread_points": 9.16,
       "projection_source_spread_percent": 9.22,
       "confidence_score": 70.78,
-      "ensemble_method": "equal_weight_mean_of_available_sources"
-    },
-    {
-      "player_id": "9508",
-      "name": "Tyjae Spears",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "TEN",
-      "opponent": null,
-      "game_date": null,
-      "projected_points": 98.5,
-      "provider_points": {
-        "ppr": 114.6,
-        "half_ppr": 97.1,
-        "standard": 79.6
-      },
-      "projected_stats": {
-        "fum_lost": 1,
-        "gp": 18,
-        "rec": 35,
-        "rec_td": 1,
-        "rec_yd": 248,
-        "rush_att": 92,
-        "rush_td": 2,
-        "rush_yd": 388
-      },
-      "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-11-22T08:50:19.759Z",
-      "ownership": null,
-      "league_status": "free_agent",
-      "projection_rank": 181,
-      "projection_sources": [
-        "sleeper",
-        "stathead"
-      ],
-      "projection_source_names": [
-        "Sleeper/RotoWire",
-        "StatHead open model"
-      ],
-      "projection_source_count": 2,
-      "projection_source_spread_points": 32.19,
-      "projection_source_spread_percent": 32.68,
-      "confidence_score": 47.32,
       "ensemble_method": "equal_weight_mean_of_available_sources"
     },
     {
@@ -10330,7 +10330,7 @@
       "team": "DEN",
       "opponent": null,
       "game_date": null,
-      "projected_points": 81.8,
+      "projected_points": 81.75,
       "provider_points": {
         "ppr": 63.9,
         "half_ppr": 58.9,
@@ -10365,8 +10365,8 @@
         "StatHead open model"
       ],
       "projection_source_count": 2,
-      "projection_source_spread_points": 35.8,
-      "projection_source_spread_percent": 43.77,
+      "projection_source_spread_points": 35.7,
+      "projection_source_spread_percent": 43.67,
       "confidence_score": 40,
       "ensemble_method": "equal_weight_mean_of_available_sources"
     },
@@ -10419,7 +10419,7 @@
       "team": "NE",
       "opponent": null,
       "game_date": null,
-      "projected_points": 81.28,
+      "projected_points": 80.3,
       "provider_points": {
         "ppr": 57.6,
         "half_ppr": 47.6,
@@ -10447,8 +10447,8 @@
         "StatHead open model"
       ],
       "projection_source_count": 2,
-      "projection_source_spread_points": 47.37,
-      "projection_source_spread_percent": 58.27,
+      "projection_source_spread_points": 45.4,
+      "projection_source_spread_percent": 56.54,
       "confidence_score": 40,
       "ensemble_method": "equal_weight_mean_of_available_sources"
     },
@@ -10756,49 +10756,6 @@
       "ensemble_method": "equal_weight_mean_of_available_sources"
     },
     {
-      "player_id": "11647",
-      "name": "Kimani Vidal",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "LAC",
-      "opponent": null,
-      "game_date": null,
-      "projected_points": 74.7,
-      "provider_points": {
-        "ppr": 60,
-        "half_ppr": 53,
-        "standard": 46
-      },
-      "projected_stats": {
-        "gp": 18,
-        "rec": 14,
-        "rec_yd": 97,
-        "rush_att": 60,
-        "rush_td": 2,
-        "rush_yd": 243
-      },
-      "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-11-22T08:50:21.755Z",
-      "ownership": null,
-      "league_status": "free_agent",
-      "projection_rank": 222,
-      "projection_sources": [
-        "sleeper",
-        "stathead"
-      ],
-      "projection_source_names": [
-        "Sleeper/RotoWire",
-        "StatHead open model"
-      ],
-      "projection_source_count": 2,
-      "projection_source_spread_points": 29.4,
-      "projection_source_spread_percent": 39.36,
-      "confidence_score": 40.64,
-      "ensemble_method": "equal_weight_mean_of_available_sources"
-    },
-    {
       "player_id": "7694",
       "name": "Tommy Tremble",
       "position": "TE",
@@ -10824,7 +10781,7 @@
       "source_last_modified": "2026-11-22T08:50:24.974Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 223,
+      "projection_rank": 222,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -10837,6 +10794,49 @@
       "projection_source_spread_points": 85.23,
       "projection_source_spread_percent": 114.53,
       "confidence_score": 40,
+      "ensemble_method": "equal_weight_mean_of_available_sources"
+    },
+    {
+      "player_id": "11647",
+      "name": "Kimani Vidal",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "LAC",
+      "opponent": null,
+      "game_date": null,
+      "projected_points": 74.03,
+      "provider_points": {
+        "ppr": 60,
+        "half_ppr": 53,
+        "standard": 46
+      },
+      "projected_stats": {
+        "gp": 18,
+        "rec": 14,
+        "rec_yd": 97,
+        "rush_att": 60,
+        "rush_td": 2,
+        "rush_yd": 243
+      },
+      "source_company": "multi-source ensemble",
+      "source_last_modified": "2026-11-22T08:50:21.755Z",
+      "ownership": null,
+      "league_status": "free_agent",
+      "projection_rank": 223,
+      "projection_sources": [
+        "sleeper",
+        "stathead"
+      ],
+      "projection_source_names": [
+        "Sleeper/RotoWire",
+        "StatHead open model"
+      ],
+      "projection_source_count": 2,
+      "projection_source_spread_points": 28.06,
+      "projection_source_spread_percent": 37.9,
+      "confidence_score": 42.1,
       "ensemble_method": "equal_weight_mean_of_available_sources"
     },
     {
@@ -11414,7 +11414,7 @@
       "team": "LV",
       "opponent": null,
       "game_date": null,
-      "projected_points": 65.43,
+      "projected_points": 64.95,
       "provider_points": {
         "ppr": 77.9,
         "half_ppr": 62.9,
@@ -11442,9 +11442,9 @@
         "StatHead open model"
       ],
       "projection_source_count": 2,
-      "projection_source_spread_points": 24.94,
-      "projection_source_spread_percent": 38.12,
-      "confidence_score": 41.88,
+      "projection_source_spread_points": 25.9,
+      "projection_source_spread_percent": 39.88,
+      "confidence_score": 40.12,
       "ensemble_method": "equal_weight_mean_of_available_sources"
     },
     {
@@ -13304,6 +13304,51 @@
       "ensemble_method": "equal_weight_mean_of_available_sources"
     },
     {
+      "player_id": "11292",
+      "name": "Tommy DeVito",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "team": "NE",
+      "opponent": null,
+      "game_date": null,
+      "projected_points": 49.1,
+      "provider_points": {
+        "ppr": 12.38,
+        "half_ppr": 12.38,
+        "standard": 12.38
+      },
+      "projected_stats": {
+        "gp": 18,
+        "pass_att": 30,
+        "pass_cmp": 19,
+        "pass_int": 1,
+        "pass_td": 1,
+        "pass_yd": 202,
+        "rush_att": 4,
+        "rush_yd": 13
+      },
+      "source_company": "multi-source ensemble",
+      "source_last_modified": "2026-11-22T08:50:14.400Z",
+      "ownership": null,
+      "league_status": "free_agent",
+      "projection_rank": 280,
+      "projection_sources": [
+        "sleeper",
+        "stathead"
+      ],
+      "projection_source_names": [
+        "Sleeper/RotoWire",
+        "StatHead open model"
+      ],
+      "projection_source_count": 2,
+      "projection_source_spread_points": 73.44,
+      "projection_source_spread_percent": 149.57,
+      "confidence_score": 40,
+      "ensemble_method": "equal_weight_mean_of_available_sources"
+    },
+    {
       "player_id": "11643",
       "name": "Jaylen Wright",
       "position": "RB",
@@ -13336,7 +13381,7 @@
         "roster_status": "active_roster"
       },
       "league_status": "rostered",
-      "projection_rank": 280,
+      "projection_rank": 281,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -13384,7 +13429,7 @@
         "roster_status": "active_roster"
       },
       "league_status": "rostered",
-      "projection_rank": 281,
+      "projection_rank": 282,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -13427,7 +13472,7 @@
       "source_last_modified": "2026-11-22T08:50:10.730Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 282,
+      "projection_rank": 283,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -13471,7 +13516,7 @@
       "source_last_modified": "2026-11-22T08:50:24.649Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 283,
+      "projection_rank": 284,
       "projection_sources": [
         "sleeper"
       ],
@@ -13510,7 +13555,7 @@
       "source_last_modified": "2026-11-22T08:50:25.578Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 284,
+      "projection_rank": 285,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -13556,7 +13601,7 @@
         "roster_status": "taxi"
       },
       "league_status": "rostered",
-      "projection_rank": 285,
+      "projection_rank": 286,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -13597,7 +13642,7 @@
       "source_last_modified": "2026-11-22T08:50:16.139Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 286,
+      "projection_rank": 287,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -13640,7 +13685,7 @@
       "source_last_modified": "2026-11-22T08:50:14.664Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 287,
+      "projection_rank": 288,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -13681,7 +13726,7 @@
       "source_last_modified": "2026-11-22T08:50:18.503Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 288,
+      "projection_rank": 289,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -13725,7 +13770,7 @@
       "source_last_modified": "2026-11-22T08:50:16.220Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 289,
+      "projection_rank": 290,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -13768,7 +13813,7 @@
       "source_last_modified": "2026-11-22T08:50:21.682Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 290,
+      "projection_rank": 291,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -13809,7 +13854,7 @@
       "source_last_modified": "2026-11-22T08:50:23.919Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 291,
+      "projection_rank": 292,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -13853,7 +13898,7 @@
       "source_last_modified": "2026-11-22T08:50:23.399Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 292,
+      "projection_rank": 293,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -13894,7 +13939,7 @@
       "source_last_modified": "2026-11-22T08:50:11.679Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 293,
+      "projection_rank": 294,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -13935,7 +13980,7 @@
       "source_last_modified": "2026-11-22T08:50:17.507Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 294,
+      "projection_rank": 295,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -13976,7 +14021,7 @@
       "source_last_modified": "2026-11-22T08:50:25.083Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 295,
+      "projection_rank": 296,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -14017,7 +14062,7 @@
       "source_last_modified": "2026-11-22T08:50:19.709Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 296,
+      "projection_rank": 297,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -14062,7 +14107,7 @@
       "source_last_modified": "2026-11-22T08:50:18.702Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 297,
+      "projection_rank": 298,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -14103,7 +14148,7 @@
       "source_last_modified": "2026-11-22T08:50:23.546Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 298,
+      "projection_rank": 299,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -14150,7 +14195,7 @@
       "source_company": "multi-source ensemble",
       "source_last_modified": null,
       "league_status": "free_agent",
-      "projection_rank": 299
+      "projection_rank": 300
     },
     {
       "player_id": "11626",
@@ -14180,7 +14225,7 @@
       "source_last_modified": "2026-11-22T08:50:16.312Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 300,
+      "projection_rank": 301,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -14227,7 +14272,7 @@
       "source_company": "multi-source ensemble",
       "source_last_modified": null,
       "league_status": "free_agent",
-      "projection_rank": 301
+      "projection_rank": 302
     },
     {
       "player_id": "13342",
@@ -14256,7 +14301,7 @@
       "source_last_modified": "2026-11-22T08:50:23.912Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 302,
+      "projection_rank": 303,
       "projection_sources": [
         "sleeper"
       ],
@@ -14295,7 +14340,7 @@
       "source_last_modified": "2026-11-22T08:50:14.841Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 303,
+      "projection_rank": 304,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -14336,7 +14381,7 @@
       "source_last_modified": "2026-11-22T08:50:20.254Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 304,
+      "projection_rank": 305,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -14377,7 +14422,7 @@
       "source_last_modified": "2026-11-22T08:50:14.859Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 305,
+      "projection_rank": 306,
       "projection_sources": [
         "sleeper"
       ],
@@ -14420,7 +14465,7 @@
       "source_last_modified": "2026-11-22T08:50:24.215Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 306,
+      "projection_rank": 307,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -14461,7 +14506,7 @@
       "source_last_modified": "2026-11-22T08:50:18.488Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 307,
+      "projection_rank": 308,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -14507,7 +14552,7 @@
       "source_last_modified": "2026-11-22T08:50:16.131Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 308,
+      "projection_rank": 309,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -14550,7 +14595,7 @@
       "source_last_modified": "2026-11-22T08:50:20.059Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 309,
+      "projection_rank": 310,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -14590,7 +14635,7 @@
       "source_last_modified": "2026-11-22T08:50:25.576Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 310,
+      "projection_rank": 311,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -14631,7 +14676,7 @@
       "source_last_modified": "2026-11-22T08:50:11.046Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 311,
+      "projection_rank": 312,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -14672,7 +14717,7 @@
       "source_last_modified": "2026-11-22T08:50:22.485Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 312,
+      "projection_rank": 313,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -14716,7 +14761,7 @@
       "source_last_modified": "2026-11-22T08:50:21.910Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 313,
+      "projection_rank": 314,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -14757,7 +14802,7 @@
       "source_last_modified": "2026-11-22T08:50:18.458Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 314,
+      "projection_rank": 315,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -14809,7 +14854,7 @@
         "roster_status": "active_roster"
       },
       "league_status": "rostered",
-      "projection_rank": 315,
+      "projection_rank": 316,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -14850,7 +14895,7 @@
       "source_last_modified": "2026-11-22T08:50:22.068Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 316,
+      "projection_rank": 317,
       "projection_sources": [
         "sleeper"
       ],
@@ -14895,7 +14940,7 @@
       "source_company": "multi-source ensemble",
       "source_last_modified": null,
       "league_status": "free_agent",
-      "projection_rank": 317
+      "projection_rank": 318
     },
     {
       "player_id": "8154",
@@ -14930,7 +14975,7 @@
         "roster_status": "active_roster"
       },
       "league_status": "rostered",
-      "projection_rank": 318,
+      "projection_rank": 319,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -14975,7 +15020,7 @@
       "source_last_modified": "2026-11-22T08:50:18.659Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 319,
+      "projection_rank": 320,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -15020,7 +15065,7 @@
       "source_last_modified": "2026-11-22T08:50:21.734Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 320,
+      "projection_rank": 321,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -15060,7 +15105,7 @@
       "source_last_modified": "2026-11-22T08:50:23.416Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 321,
+      "projection_rank": 322,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -15105,7 +15150,7 @@
       "source_last_modified": "2026-11-22T08:50:10.819Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 322,
+      "projection_rank": 323,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -15146,7 +15191,7 @@
       "source_last_modified": "2026-11-22T08:50:22.080Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 323,
+      "projection_rank": 324,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -15186,7 +15231,7 @@
       "source_last_modified": "2026-11-22T08:50:22.030Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 324,
+      "projection_rank": 325,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -15229,7 +15274,7 @@
       "source_last_modified": "2026-11-22T08:50:25.555Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 325,
+      "projection_rank": 326,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -15241,51 +15286,6 @@
       "projection_source_count": 2,
       "projection_source_spread_points": 41.94,
       "projection_source_spread_percent": 117.69,
-      "confidence_score": 40,
-      "ensemble_method": "equal_weight_mean_of_available_sources"
-    },
-    {
-      "player_id": "11292",
-      "name": "Tommy DeVito",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "team": "NE",
-      "opponent": null,
-      "game_date": null,
-      "projected_points": 34.36,
-      "provider_points": {
-        "ppr": 12.38,
-        "half_ppr": 12.38,
-        "standard": 12.38
-      },
-      "projected_stats": {
-        "gp": 18,
-        "pass_att": 30,
-        "pass_cmp": 19,
-        "pass_int": 1,
-        "pass_td": 1,
-        "pass_yd": 202,
-        "rush_att": 4,
-        "rush_yd": 13
-      },
-      "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-11-22T08:50:14.400Z",
-      "ownership": null,
-      "league_status": "free_agent",
-      "projection_rank": 326,
-      "projection_sources": [
-        "sleeper",
-        "stathead"
-      ],
-      "projection_source_names": [
-        "Sleeper/RotoWire",
-        "StatHead open model"
-      ],
-      "projection_source_count": 2,
-      "projection_source_spread_points": 43.96,
-      "projection_source_spread_percent": 127.94,
       "confidence_score": 40,
       "ensemble_method": "equal_weight_mean_of_available_sources"
     },
@@ -18546,7 +18546,7 @@
       "ownership": null,
       "opponent": null,
       "game_date": null,
-      "projected_points": 24.33,
+      "projected_points": 24.17,
       "provider_points": {
         "ppr": null,
         "half_ppr": null,
@@ -19325,48 +19325,6 @@
       "ensemble_method": "equal_weight_mean_of_available_sources"
     },
     {
-      "player_id": "2749",
-      "name": "Raheem Mostert",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": null,
-      "opponent": null,
-      "game_date": null,
-      "projected_points": 20.74,
-      "provider_points": {
-        "ppr": 12.5,
-        "half_ppr": 10,
-        "standard": 7.5
-      },
-      "projected_stats": {
-        "gp": 18,
-        "rec": 5,
-        "rec_yd": 33,
-        "rush_att": 10,
-        "rush_yd": 42
-      },
-      "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-11-22T08:50:13.220Z",
-      "ownership": null,
-      "league_status": "free_agent",
-      "projection_rank": 424,
-      "projection_sources": [
-        "sleeper",
-        "stathead"
-      ],
-      "projection_source_names": [
-        "Sleeper/RotoWire",
-        "StatHead open model"
-      ],
-      "projection_source_count": 2,
-      "projection_source_spread_points": 16.48,
-      "projection_source_spread_percent": 79.46,
-      "confidence_score": 40,
-      "ensemble_method": "equal_weight_mean_of_available_sources"
-    },
-    {
       "player_id": "13297",
       "name": "Reggie Virgil",
       "position": "WR",
@@ -19392,7 +19350,7 @@
       "source_last_modified": "2026-11-22T08:50:18.462Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 425,
+      "projection_rank": 424,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -19435,7 +19393,7 @@
       "source_last_modified": "2026-11-22T08:50:14.869Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 426,
+      "projection_rank": 425,
       "projection_sources": [
         "sleeper"
       ],
@@ -19476,7 +19434,7 @@
       "source_last_modified": "2026-11-22T08:50:20.114Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 427,
+      "projection_rank": 426,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -19488,6 +19446,48 @@
       "projection_source_count": 2,
       "projection_source_spread_points": 34.7,
       "projection_source_spread_percent": 170.52,
+      "confidence_score": 40,
+      "ensemble_method": "equal_weight_mean_of_available_sources"
+    },
+    {
+      "player_id": "2749",
+      "name": "Raheem Mostert",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": null,
+      "opponent": null,
+      "game_date": null,
+      "projected_points": 20.25,
+      "provider_points": {
+        "ppr": 12.5,
+        "half_ppr": 10,
+        "standard": 7.5
+      },
+      "projected_stats": {
+        "gp": 18,
+        "rec": 5,
+        "rec_yd": 33,
+        "rush_att": 10,
+        "rush_yd": 42
+      },
+      "source_company": "multi-source ensemble",
+      "source_last_modified": "2026-11-22T08:50:13.220Z",
+      "ownership": null,
+      "league_status": "free_agent",
+      "projection_rank": 427,
+      "projection_sources": [
+        "sleeper",
+        "stathead"
+      ],
+      "projection_source_names": [
+        "Sleeper/RotoWire",
+        "StatHead open model"
+      ],
+      "projection_source_count": 2,
+      "projection_source_spread_points": 15.5,
+      "projection_source_spread_percent": 76.54,
       "confidence_score": 40,
       "ensemble_method": "equal_weight_mean_of_available_sources"
     },
@@ -19883,6 +19883,49 @@
       "ensemble_method": "equal_weight_mean_of_available_sources"
     },
     {
+      "player_id": "11577",
+      "name": "Will Shipley",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": "PHI",
+      "opponent": null,
+      "game_date": null,
+      "projected_points": 18.35,
+      "provider_points": {
+        "ppr": 33.8,
+        "half_ppr": 28.8,
+        "standard": 23.8
+      },
+      "projected_stats": {
+        "gp": 18,
+        "rec": 10,
+        "rec_yd": 73,
+        "rush_att": 25,
+        "rush_td": 1,
+        "rush_yd": 105
+      },
+      "source_company": "multi-source ensemble",
+      "source_last_modified": "2026-11-22T08:50:18.072Z",
+      "ownership": null,
+      "league_status": "free_agent",
+      "projection_rank": 438,
+      "projection_sources": [
+        "sleeper",
+        "stathead"
+      ],
+      "projection_source_names": [
+        "Sleeper/RotoWire",
+        "StatHead open model"
+      ],
+      "projection_source_count": 2,
+      "projection_source_spread_points": 30.9,
+      "projection_source_spread_percent": 168.39,
+      "confidence_score": 40,
+      "ensemble_method": "equal_weight_mean_of_available_sources"
+    },
+    {
       "player_id": "12500",
       "name": "Quinn Ewers",
       "position": "QB",
@@ -19912,7 +19955,7 @@
       "source_last_modified": "2026-11-22T08:50:18.279Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 438,
+      "projection_rank": 439,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -19954,7 +19997,7 @@
       "source_last_modified": "2026-11-22T08:50:25.383Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 439,
+      "projection_rank": 440,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -20001,50 +20044,7 @@
       "source_company": "multi-source ensemble",
       "source_last_modified": null,
       "league_status": "free_agent",
-      "projection_rank": 440
-    },
-    {
-      "player_id": "11577",
-      "name": "Will Shipley",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": "PHI",
-      "opponent": null,
-      "game_date": null,
-      "projected_points": 17.9,
-      "provider_points": {
-        "ppr": 33.8,
-        "half_ppr": 28.8,
-        "standard": 23.8
-      },
-      "projected_stats": {
-        "gp": 18,
-        "rec": 10,
-        "rec_yd": 73,
-        "rush_att": 25,
-        "rush_td": 1,
-        "rush_yd": 105
-      },
-      "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-11-22T08:50:18.072Z",
-      "ownership": null,
-      "league_status": "free_agent",
-      "projection_rank": 441,
-      "projection_sources": [
-        "sleeper",
-        "stathead"
-      ],
-      "projection_source_names": [
-        "Sleeper/RotoWire",
-        "StatHead open model"
-      ],
-      "projection_source_count": 2,
-      "projection_source_spread_points": 31.8,
-      "projection_source_spread_percent": 177.65,
-      "confidence_score": 40,
-      "ensemble_method": "equal_weight_mean_of_available_sources"
+      "projection_rank": 441
     },
     {
       "player_id": "7585",
@@ -20092,40 +20092,6 @@
       "ensemble_method": "equal_weight_mean_of_available_sources"
     },
     {
-      "player_id": "13295",
-      "name": "Behren Morton",
-      "position": "QB",
-      "fantasy_positions": [
-        "QB"
-      ],
-      "team": "NE",
-      "ownership": null,
-      "opponent": null,
-      "game_date": null,
-      "projected_points": 17,
-      "provider_points": {
-        "ppr": null,
-        "half_ppr": null,
-        "standard": null
-      },
-      "projected_stats": {},
-      "projection_sources": [
-        "stathead"
-      ],
-      "projection_source_names": [
-        "StatHead open model"
-      ],
-      "projection_source_count": 1,
-      "projection_source_spread_points": null,
-      "projection_source_spread_percent": null,
-      "confidence_score": 35,
-      "ensemble_method": "equal_weight_mean_of_available_sources",
-      "source_company": "multi-source ensemble",
-      "source_last_modified": null,
-      "league_status": "free_agent",
-      "projection_rank": 443
-    },
-    {
       "player_id": "11648",
       "name": "Kedon Slovis",
       "position": "QB",
@@ -20157,7 +20123,7 @@
       "source_company": "multi-source ensemble",
       "source_last_modified": null,
       "league_status": "free_agent",
-      "projection_rank": 444
+      "projection_rank": 443
     },
     {
       "player_id": "8162",
@@ -20191,7 +20157,7 @@
       "source_company": "multi-source ensemble",
       "source_last_modified": null,
       "league_status": "free_agent",
-      "projection_rank": 445
+      "projection_rank": 444
     },
     {
       "player_id": "7538",
@@ -20225,7 +20191,7 @@
       "source_company": "multi-source ensemble",
       "source_last_modified": null,
       "league_status": "free_agent",
-      "projection_rank": 446
+      "projection_rank": 445
     },
     {
       "player_id": "7075",
@@ -20252,7 +20218,7 @@
       "source_last_modified": "2026-11-22T08:50:24.863Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 447,
+      "projection_rank": 446,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -20293,7 +20259,7 @@
       "source_last_modified": "2026-11-22T08:50:18.399Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 448,
+      "projection_rank": 447,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -20333,7 +20299,7 @@
       "source_last_modified": "2026-11-22T08:50:23.523Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 449,
+      "projection_rank": 448,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -20379,7 +20345,7 @@
       "source_last_modified": "2026-11-22T08:50:21.902Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 450,
+      "projection_rank": 449,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -20420,7 +20386,7 @@
       "source_last_modified": "2026-11-22T08:50:19.157Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 451,
+      "projection_rank": 450,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -20467,7 +20433,7 @@
       "source_company": "multi-source ensemble",
       "source_last_modified": null,
       "league_status": "free_agent",
-      "projection_rank": 452
+      "projection_rank": 451
     },
     {
       "player_id": "8145",
@@ -20494,7 +20460,7 @@
       "source_last_modified": "2026-11-22T08:50:25.061Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 453,
+      "projection_rank": 452,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -20539,7 +20505,7 @@
       "source_last_modified": "2026-11-22T08:50:28.807Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 454,
+      "projection_rank": 453,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -20579,7 +20545,7 @@
       "source_last_modified": "2026-11-22T08:50:21.182Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 455,
+      "projection_rank": 454,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -20626,7 +20592,7 @@
       "source_company": "multi-source ensemble",
       "source_last_modified": null,
       "league_status": "free_agent",
-      "projection_rank": 456
+      "projection_rank": 455
     },
     {
       "player_id": "6151",
@@ -20660,7 +20626,7 @@
       "source_company": "multi-source ensemble",
       "source_last_modified": null,
       "league_status": "free_agent",
-      "projection_rank": 457
+      "projection_rank": 456
     },
     {
       "player_id": "10225",
@@ -20694,7 +20660,7 @@
       "source_company": "multi-source ensemble",
       "source_last_modified": null,
       "league_status": "free_agent",
-      "projection_rank": 458
+      "projection_rank": 457
     },
     {
       "player_id": "13277",
@@ -20723,7 +20689,7 @@
       "source_last_modified": "2026-11-22T08:50:27.685Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 459,
+      "projection_rank": 458,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -20765,7 +20731,7 @@
       "source_last_modified": "2026-11-22T08:50:22.331Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 460,
+      "projection_rank": 459,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -20777,6 +20743,48 @@
       "projection_source_count": 2,
       "projection_source_spread_points": 21.42,
       "projection_source_spread_percent": 138.11,
+      "confidence_score": 40,
+      "ensemble_method": "equal_weight_mean_of_available_sources"
+    },
+    {
+      "player_id": "6945",
+      "name": "Antonio Gibson",
+      "position": "RB",
+      "fantasy_positions": [
+        "RB"
+      ],
+      "team": null,
+      "opponent": null,
+      "game_date": null,
+      "projected_points": 15.45,
+      "provider_points": {
+        "ppr": 3.9,
+        "half_ppr": 2.9,
+        "standard": 1.9
+      },
+      "projected_stats": {
+        "gp": 18,
+        "rec": 2,
+        "rec_yd": 15,
+        "rush_att": 1,
+        "rush_yd": 4
+      },
+      "source_company": "multi-source ensemble",
+      "source_last_modified": "2026-11-22T08:50:15.769Z",
+      "ownership": null,
+      "league_status": "free_agent",
+      "projection_rank": 460,
+      "projection_sources": [
+        "sleeper",
+        "stathead"
+      ],
+      "projection_source_names": [
+        "Sleeper/RotoWire",
+        "StatHead open model"
+      ],
+      "projection_source_count": 2,
+      "projection_source_spread_points": 23.1,
+      "projection_source_spread_percent": 149.51,
       "confidence_score": 40,
       "ensemble_method": "equal_weight_mean_of_available_sources"
     },
@@ -20942,48 +20950,6 @@
       "projection_rank": 464
     },
     {
-      "player_id": "6945",
-      "name": "Antonio Gibson",
-      "position": "RB",
-      "fantasy_positions": [
-        "RB"
-      ],
-      "team": null,
-      "opponent": null,
-      "game_date": null,
-      "projected_points": 14.96,
-      "provider_points": {
-        "ppr": 3.9,
-        "half_ppr": 2.9,
-        "standard": 1.9
-      },
-      "projected_stats": {
-        "gp": 18,
-        "rec": 2,
-        "rec_yd": 15,
-        "rush_att": 1,
-        "rush_yd": 4
-      },
-      "source_company": "multi-source ensemble",
-      "source_last_modified": "2026-11-22T08:50:15.769Z",
-      "ownership": null,
-      "league_status": "free_agent",
-      "projection_rank": 465,
-      "projection_sources": [
-        "sleeper",
-        "stathead"
-      ],
-      "projection_source_names": [
-        "Sleeper/RotoWire",
-        "StatHead open model"
-      ],
-      "projection_source_count": 2,
-      "projection_source_spread_points": 22.11,
-      "projection_source_spread_percent": 147.84,
-      "confidence_score": 40,
-      "ensemble_method": "equal_weight_mean_of_available_sources"
-    },
-    {
       "player_id": "12510",
       "name": "Jalen Milroe",
       "position": "QB",
@@ -21013,7 +20979,7 @@
       "source_last_modified": "2026-11-22T08:50:20.066Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 466,
+      "projection_rank": 465,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -21059,7 +21025,7 @@
         "roster_status": "reserve"
       },
       "league_status": "rostered",
-      "projection_rank": 467,
+      "projection_rank": 466,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -21104,7 +21070,7 @@
       "source_last_modified": "2026-11-22T08:50:12.484Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 468,
+      "projection_rank": 467,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -21147,7 +21113,7 @@
       "source_last_modified": "2026-11-22T08:50:19.613Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 469,
+      "projection_rank": 468,
       "projection_sources": [
         "sleeper"
       ],
@@ -21188,7 +21154,7 @@
       "source_last_modified": "2026-11-22T08:50:27.525Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 470,
+      "projection_rank": 469,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -21235,7 +21201,7 @@
       "source_company": "multi-source ensemble",
       "source_last_modified": null,
       "league_status": "free_agent",
-      "projection_rank": 471
+      "projection_rank": 470
     },
     {
       "player_id": "6427",
@@ -21264,7 +21230,7 @@
       "source_last_modified": "2026-11-22T08:50:17.449Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 472,
+      "projection_rank": 471,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -21311,7 +21277,7 @@
       "source_company": "multi-source ensemble",
       "source_last_modified": null,
       "league_status": "free_agent",
-      "projection_rank": 473
+      "projection_rank": 472
     },
     {
       "player_id": "1234",
@@ -21345,7 +21311,7 @@
       "source_company": "multi-source ensemble",
       "source_last_modified": null,
       "league_status": "free_agent",
-      "projection_rank": 474
+      "projection_rank": 473
     },
     {
       "player_id": "11237",
@@ -21375,7 +21341,7 @@
       "source_last_modified": "2026-11-22T08:50:14.385Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 475,
+      "projection_rank": 474,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -21415,7 +21381,7 @@
       "source_last_modified": "2026-11-22T08:50:15.293Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 476,
+      "projection_rank": 475,
       "projection_sources": [
         "sleeper"
       ],
@@ -21460,7 +21426,7 @@
       "source_company": "multi-source ensemble",
       "source_last_modified": null,
       "league_status": "free_agent",
-      "projection_rank": 477
+      "projection_rank": 476
     },
     {
       "player_id": "7583",
@@ -21494,7 +21460,7 @@
       "source_company": "multi-source ensemble",
       "source_last_modified": null,
       "league_status": "free_agent",
-      "projection_rank": 478
+      "projection_rank": 477
     },
     {
       "player_id": "6144",
@@ -21528,7 +21494,7 @@
       "source_company": "multi-source ensemble",
       "source_last_modified": null,
       "league_status": "free_agent",
-      "projection_rank": 479
+      "projection_rank": 478
     },
     {
       "player_id": "4314",
@@ -21562,7 +21528,7 @@
       "source_company": "multi-source ensemble",
       "source_last_modified": null,
       "league_status": "free_agent",
-      "projection_rank": 480
+      "projection_rank": 479
     },
     {
       "player_id": "11377",
@@ -21590,7 +21556,7 @@
       "source_last_modified": "2026-11-22T08:50:12.610Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 481,
+      "projection_rank": 480,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -21637,7 +21603,7 @@
       "source_company": "multi-source ensemble",
       "source_last_modified": null,
       "league_status": "free_agent",
-      "projection_rank": 482
+      "projection_rank": 481
     },
     {
       "player_id": "11574",
@@ -21666,7 +21632,7 @@
       "source_last_modified": "2026-11-22T08:50:10.880Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 483,
+      "projection_rank": 482,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -21711,7 +21677,7 @@
       "source_last_modified": "2026-11-22T08:50:14.311Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 484,
+      "projection_rank": 483,
       "projection_sources": [
         "sleeper"
       ],
@@ -21752,7 +21718,7 @@
       "source_last_modified": "2026-11-22T08:50:12.655Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 485,
+      "projection_rank": 484,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -21797,7 +21763,7 @@
       "source_last_modified": "2026-11-22T08:50:26.577Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 486,
+      "projection_rank": 485,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -21837,7 +21803,7 @@
       "source_last_modified": "2026-11-22T08:50:12.276Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 487,
+      "projection_rank": 486,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -21882,7 +21848,7 @@
       "source_last_modified": "2026-11-22T08:50:16.679Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 488,
+      "projection_rank": 487,
       "projection_sources": [
         "sleeper"
       ],
@@ -21922,7 +21888,7 @@
       "source_last_modified": "2026-11-22T08:50:25.072Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 489,
+      "projection_rank": 488,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -21967,7 +21933,7 @@
       "source_last_modified": "2026-11-22T08:50:24.089Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 490,
+      "projection_rank": 489,
       "projection_sources": [
         "sleeper"
       ],
@@ -22010,7 +21976,7 @@
       "source_last_modified": "2026-11-22T08:50:28.146Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 491,
+      "projection_rank": 490,
       "projection_sources": [
         "sleeper"
       ],
@@ -22055,7 +22021,7 @@
       "source_company": "multi-source ensemble",
       "source_last_modified": null,
       "league_status": "free_agent",
-      "projection_rank": 492
+      "projection_rank": 491
     },
     {
       "player_id": "2152",
@@ -22087,7 +22053,7 @@
       "source_last_modified": "2026-11-22T08:50:18.688Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 493,
+      "projection_rank": 492,
       "projection_sources": [
         "sleeper"
       ],
@@ -22127,7 +22093,7 @@
       "source_last_modified": "2026-11-22T08:50:27.821Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 494,
+      "projection_rank": 493,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -22172,7 +22138,7 @@
       "source_last_modified": "2026-11-22T08:50:22.478Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 495,
+      "projection_rank": 494,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -22214,7 +22180,7 @@
       "source_last_modified": "2026-11-22T08:50:14.147Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 496,
+      "projection_rank": 495,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -22261,7 +22227,7 @@
       "source_company": "multi-source ensemble",
       "source_last_modified": null,
       "league_status": "free_agent",
-      "projection_rank": 497
+      "projection_rank": 496
     },
     {
       "player_id": "13415",
@@ -22295,7 +22261,7 @@
       "source_company": "multi-source ensemble",
       "source_last_modified": null,
       "league_status": "free_agent",
-      "projection_rank": 498
+      "projection_rank": 497
     },
     {
       "player_id": "8250",
@@ -22329,7 +22295,7 @@
       "source_company": "multi-source ensemble",
       "source_last_modified": null,
       "league_status": "free_agent",
-      "projection_rank": 499
+      "projection_rank": 498
     },
     {
       "player_id": "11201",
@@ -22356,7 +22322,7 @@
       "source_last_modified": "2026-11-22T08:50:16.224Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 500,
+      "projection_rank": 499,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -22396,7 +22362,7 @@
       "source_last_modified": "2026-11-22T08:50:14.466Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 501,
+      "projection_rank": 500,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -22438,7 +22404,7 @@
       "source_last_modified": "2026-11-22T08:50:14.152Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 502,
+      "projection_rank": 501,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -22485,7 +22451,7 @@
       "source_company": "multi-source ensemble",
       "source_last_modified": null,
       "league_status": "free_agent",
-      "projection_rank": 503
+      "projection_rank": 502
     },
     {
       "player_id": "7529",
@@ -22519,7 +22485,7 @@
       "source_company": "multi-source ensemble",
       "source_last_modified": null,
       "league_status": "free_agent",
-      "projection_rank": 504
+      "projection_rank": 503
     },
     {
       "player_id": "11638",
@@ -22558,7 +22524,7 @@
       "source_company": "multi-source ensemble",
       "source_last_modified": null,
       "league_status": "rostered",
-      "projection_rank": 505
+      "projection_rank": 504
     },
     {
       "player_id": "11569",
@@ -22587,7 +22553,7 @@
       "source_last_modified": "2026-11-22T08:50:12.651Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 506,
+      "projection_rank": 505,
       "projection_sources": [
         "sleeper"
       ],
@@ -22627,7 +22593,7 @@
       "source_last_modified": "2026-11-22T08:50:22.078Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 507,
+      "projection_rank": 506,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -22667,7 +22633,7 @@
       "source_last_modified": "2026-11-22T08:50:11.211Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 508,
+      "projection_rank": 507,
       "projection_sources": [
         "sleeper"
       ],
@@ -22707,7 +22673,7 @@
       "source_last_modified": "2026-11-22T08:50:18.113Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 509,
+      "projection_rank": 508,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -22749,7 +22715,7 @@
       "source_last_modified": "2026-11-22T08:50:15.301Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 510,
+      "projection_rank": 509,
       "projection_sources": [
         "sleeper"
       ],
@@ -22792,7 +22758,7 @@
       "source_last_modified": "2026-11-22T08:50:28.608Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 511,
+      "projection_rank": 510,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -22837,7 +22803,7 @@
       "source_last_modified": "2026-11-22T08:50:17.628Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 512,
+      "projection_rank": 511,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -22879,7 +22845,7 @@
       "source_last_modified": "2026-11-22T08:50:17.619Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 513,
+      "projection_rank": 512,
       "projection_sources": [
         "sleeper"
       ],
@@ -22917,7 +22883,7 @@
       "source_last_modified": "2026-11-22T08:50:22.525Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 514,
+      "projection_rank": 513,
       "projection_sources": [
         "sleeper"
       ],
@@ -22957,7 +22923,7 @@
       "source_last_modified": "2026-11-22T08:50:11.714Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 515,
+      "projection_rank": 514,
       "projection_sources": [
         "sleeper"
       ],
@@ -22995,7 +22961,7 @@
       "source_last_modified": "2026-11-22T08:50:21.197Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 516,
+      "projection_rank": 515,
       "projection_sources": [
         "sleeper"
       ],
@@ -23040,7 +23006,7 @@
       "source_company": "multi-source ensemble",
       "source_last_modified": null,
       "league_status": "free_agent",
-      "projection_rank": 517
+      "projection_rank": 516
     },
     {
       "player_id": "10220",
@@ -23074,7 +23040,7 @@
       "source_company": "multi-source ensemble",
       "source_last_modified": null,
       "league_status": "free_agent",
-      "projection_rank": 518
+      "projection_rank": 517
     },
     {
       "player_id": "11589",
@@ -23108,7 +23074,7 @@
       "source_company": "multi-source ensemble",
       "source_last_modified": null,
       "league_status": "free_agent",
-      "projection_rank": 519
+      "projection_rank": 518
     },
     {
       "player_id": "12860",
@@ -23135,7 +23101,7 @@
       "source_last_modified": "2026-11-22T08:50:27.592Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 520,
+      "projection_rank": 519,
       "projection_sources": [
         "sleeper"
       ],
@@ -23173,7 +23139,7 @@
       "source_last_modified": "2026-11-22T08:50:15.267Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 521,
+      "projection_rank": 520,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -23220,7 +23186,7 @@
       "source_company": "multi-source ensemble",
       "source_last_modified": null,
       "league_status": "free_agent",
-      "projection_rank": 522
+      "projection_rank": 521
     },
     {
       "player_id": "4054",
@@ -23247,7 +23213,7 @@
       "source_last_modified": "2026-11-22T08:50:22.489Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 523,
+      "projection_rank": 522,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -23287,7 +23253,7 @@
       "source_last_modified": "2026-11-22T08:50:16.321Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 524,
+      "projection_rank": 523,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -23327,7 +23293,7 @@
       "source_last_modified": "2026-11-22T08:50:28.600Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 525,
+      "projection_rank": 524,
       "projection_sources": [
         "sleeper"
       ],
@@ -23367,7 +23333,7 @@
       "source_last_modified": "2026-11-22T08:50:25.727Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 526,
+      "projection_rank": 525,
       "projection_sources": [
         "sleeper"
       ],
@@ -23405,7 +23371,7 @@
       "source_last_modified": "2026-11-22T08:50:17.666Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 527,
+      "projection_rank": 526,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -23450,7 +23416,7 @@
       "source_last_modified": "2026-11-22T08:50:15.093Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 528,
+      "projection_rank": 527,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -23490,7 +23456,7 @@
       "source_last_modified": "2026-11-22T08:50:17.768Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 529,
+      "projection_rank": 528,
       "projection_sources": [
         "sleeper"
       ],
@@ -23528,7 +23494,7 @@
       "source_last_modified": "2026-11-22T08:50:12.490Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 530,
+      "projection_rank": 529,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -23575,7 +23541,7 @@
       "source_company": "multi-source ensemble",
       "source_last_modified": null,
       "league_status": "free_agent",
-      "projection_rank": 531
+      "projection_rank": 530
     },
     {
       "player_id": "12715",
@@ -23609,7 +23575,7 @@
       "source_company": "multi-source ensemble",
       "source_last_modified": null,
       "league_status": "free_agent",
-      "projection_rank": 532
+      "projection_rank": 531
     },
     {
       "player_id": "8423",
@@ -23643,7 +23609,7 @@
       "source_company": "multi-source ensemble",
       "source_last_modified": null,
       "league_status": "free_agent",
-      "projection_rank": 533
+      "projection_rank": 532
     },
     {
       "player_id": "7536",
@@ -23670,7 +23636,7 @@
       "source_last_modified": "2026-11-22T08:50:28.675Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 534,
+      "projection_rank": 533,
       "projection_sources": [
         "sleeper"
       ],
@@ -23708,7 +23674,7 @@
       "source_last_modified": "2026-11-22T08:50:10.724Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 535,
+      "projection_rank": 534,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -23748,7 +23714,7 @@
       "source_last_modified": "2026-11-22T08:50:18.080Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 536,
+      "projection_rank": 535,
       "projection_sources": [
         "sleeper"
       ],
@@ -23786,7 +23752,7 @@
       "source_last_modified": "2026-11-22T08:50:15.949Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 537,
+      "projection_rank": 536,
       "projection_sources": [
         "sleeper"
       ],
@@ -23826,7 +23792,7 @@
       "source_last_modified": "2026-11-22T08:50:19.607Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 538,
+      "projection_rank": 537,
       "projection_sources": [
         "sleeper"
       ],
@@ -23864,7 +23830,7 @@
       "source_last_modified": "2026-11-22T08:50:27.124Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 539,
+      "projection_rank": 538,
       "projection_sources": [
         "sleeper"
       ],
@@ -23904,7 +23870,7 @@
       "source_last_modified": "2026-11-22T08:50:20.866Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 540,
+      "projection_rank": 539,
       "projection_sources": [
         "sleeper"
       ],
@@ -23942,7 +23908,7 @@
       "source_last_modified": "2026-11-22T08:50:21.792Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 541,
+      "projection_rank": 540,
       "projection_sources": [
         "sleeper"
       ],
@@ -23980,7 +23946,7 @@
       "source_last_modified": "2026-11-22T08:50:18.587Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 542,
+      "projection_rank": 541,
       "projection_sources": [
         "sleeper"
       ],
@@ -24023,7 +23989,7 @@
       "source_last_modified": "2026-11-22T08:50:25.559Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 543,
+      "projection_rank": 542,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -24065,7 +24031,7 @@
       "source_last_modified": "2026-11-22T08:50:26.231Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 544,
+      "projection_rank": 543,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -24105,7 +24071,7 @@
       "source_last_modified": "2026-11-22T08:50:28.688Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 545,
+      "projection_rank": 544,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -24147,7 +24113,7 @@
       "source_last_modified": "2026-11-22T08:50:18.146Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 546,
+      "projection_rank": 545,
       "projection_sources": [
         "sleeper"
       ],
@@ -24188,7 +24154,7 @@
       "source_last_modified": "2026-11-22T08:50:14.695Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 547,
+      "projection_rank": 546,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -24235,7 +24201,7 @@
       "source_company": "multi-source ensemble",
       "source_last_modified": null,
       "league_status": "free_agent",
-      "projection_rank": 548
+      "projection_rank": 547
     },
     {
       "player_id": "12738",
@@ -24265,7 +24231,7 @@
       "source_last_modified": "2026-11-22T08:50:23.795Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 549,
+      "projection_rank": 548,
       "projection_sources": [
         "sleeper"
       ],
@@ -24303,7 +24269,7 @@
       "source_last_modified": "2026-11-22T08:50:23.417Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 550,
+      "projection_rank": 549,
       "projection_sources": [
         "sleeper"
       ],
@@ -24341,7 +24307,7 @@
       "source_last_modified": "2026-11-22T08:50:12.965Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 551,
+      "projection_rank": 550,
       "projection_sources": [
         "sleeper"
       ],
@@ -24379,7 +24345,7 @@
       "source_last_modified": "2026-11-22T08:50:18.468Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 552,
+      "projection_rank": 551,
       "projection_sources": [
         "sleeper"
       ],
@@ -24417,7 +24383,7 @@
       "source_last_modified": "2026-11-22T08:50:11.197Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 553,
+      "projection_rank": 552,
       "projection_sources": [
         "sleeper"
       ],
@@ -24455,7 +24421,7 @@
       "source_last_modified": "2026-11-22T08:50:12.949Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 554,
+      "projection_rank": 553,
       "projection_sources": [
         "sleeper"
       ],
@@ -24493,7 +24459,7 @@
       "source_last_modified": "2026-11-22T08:50:26.221Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 555,
+      "projection_rank": 554,
       "projection_sources": [
         "sleeper"
       ],
@@ -24532,7 +24498,7 @@
       "source_last_modified": "2026-11-22T08:50:21.439Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 556,
+      "projection_rank": 555,
       "projection_sources": [
         "sleeper"
       ],
@@ -24570,7 +24536,7 @@
       "source_last_modified": "2026-11-22T08:50:19.359Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 557,
+      "projection_rank": 556,
       "projection_sources": [
         "sleeper"
       ],
@@ -24613,7 +24579,7 @@
       "source_last_modified": "2026-11-22T08:50:18.275Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 558,
+      "projection_rank": 557,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -24653,7 +24619,7 @@
       "source_last_modified": "2026-11-22T08:50:15.451Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 559,
+      "projection_rank": 558,
       "projection_sources": [
         "sleeper"
       ],
@@ -24693,7 +24659,7 @@
       "source_last_modified": "2026-11-22T08:50:10.890Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 560,
+      "projection_rank": 559,
       "projection_sources": [
         "sleeper"
       ],
@@ -24731,7 +24697,7 @@
       "source_last_modified": "2026-11-22T08:50:25.081Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 561,
+      "projection_rank": 560,
       "projection_sources": [
         "sleeper"
       ],
@@ -24776,7 +24742,7 @@
       "source_company": "multi-source ensemble",
       "source_last_modified": null,
       "league_status": "free_agent",
-      "projection_rank": 562
+      "projection_rank": 561
     },
     {
       "player_id": "7568",
@@ -24803,7 +24769,7 @@
       "source_last_modified": "2026-11-22T08:50:15.882Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 563,
+      "projection_rank": 562,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -24843,7 +24809,7 @@
       "source_last_modified": "2026-11-22T08:50:16.605Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 564,
+      "projection_rank": 563,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -24883,7 +24849,7 @@
       "source_last_modified": "2026-11-22T08:50:28.256Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 565,
+      "projection_rank": 564,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -24923,7 +24889,7 @@
       "source_last_modified": "2026-11-22T08:50:14.209Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 566,
+      "projection_rank": 565,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -24963,7 +24929,7 @@
       "source_last_modified": "2026-11-22T08:50:27.072Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 567,
+      "projection_rank": 566,
       "projection_sources": [
         "sleeper"
       ],
@@ -25003,7 +24969,7 @@
       "source_last_modified": "2026-11-22T08:50:23.722Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 568,
+      "projection_rank": 567,
       "projection_sources": [
         "sleeper"
       ],
@@ -25043,7 +25009,7 @@
       "source_last_modified": "2026-11-22T08:50:27.144Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 569,
+      "projection_rank": 568,
       "projection_sources": [
         "sleeper"
       ],
@@ -25083,7 +25049,7 @@
       "source_last_modified": "2026-11-22T08:50:16.433Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 570,
+      "projection_rank": 569,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -25123,7 +25089,7 @@
       "source_last_modified": "2026-11-22T08:50:13.527Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 571,
+      "projection_rank": 570,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -25163,7 +25129,7 @@
       "source_last_modified": "2026-11-22T08:50:21.477Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 572,
+      "projection_rank": 571,
       "projection_sources": [
         "sleeper"
       ],
@@ -25203,7 +25169,7 @@
       "source_last_modified": "2026-11-22T08:50:11.614Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 573,
+      "projection_rank": 572,
       "projection_sources": [
         "sleeper"
       ],
@@ -25243,7 +25209,7 @@
       "source_last_modified": "2026-11-22T08:50:27.149Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 574,
+      "projection_rank": 573,
       "projection_sources": [
         "sleeper"
       ],
@@ -25283,7 +25249,7 @@
       "source_last_modified": "2026-11-22T08:50:26.985Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 575,
+      "projection_rank": 574,
       "projection_sources": [
         "sleeper",
         "stathead"
@@ -25325,7 +25291,7 @@
       "source_last_modified": "2026-11-22T08:50:28.585Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 576,
+      "projection_rank": 575,
       "projection_sources": [
         "sleeper"
       ],
@@ -25365,7 +25331,7 @@
       "source_last_modified": "2026-11-22T08:50:12.336Z",
       "ownership": null,
       "league_status": "free_agent",
-      "projection_rank": 577,
+      "projection_rank": 576,
       "projection_sources": [
         "sleeper"
       ],
@@ -25390,6 +25356,40 @@
       "opponent": null,
       "game_date": null,
       "projected_points": 5.02,
+      "provider_points": {
+        "ppr": null,
+        "half_ppr": null,
+        "standard": null
+      },
+      "projected_stats": {},
+      "projection_sources": [
+        "stathead"
+      ],
+      "projection_source_names": [
+        "StatHead open model"
+      ],
+      "projection_source_count": 1,
+      "projection_source_spread_points": null,
+      "projection_source_spread_percent": null,
+      "confidence_score": 35,
+      "ensemble_method": "equal_weight_mean_of_available_sources",
+      "source_company": "multi-source ensemble",
+      "source_last_modified": null,
+      "league_status": "free_agent",
+      "projection_rank": 577
+    },
+    {
+      "player_id": "13295",
+      "name": "Behren Morton",
+      "position": "QB",
+      "fantasy_positions": [
+        "QB"
+      ],
+      "team": "NE",
+      "ownership": null,
+      "opponent": null,
+      "game_date": null,
+      "projected_points": 5.01,
       "provider_points": {
         "ppr": null,
         "half_ppr": null,
@@ -28486,7 +28486,7 @@
       "roster_id": 7,
       "owner_id": "1131294900231815168",
       "team_name": "I Chase Brown People",
-      "projected_points": 2521.52,
+      "projected_points": 2523.47,
       "lineup_projection_coverage": 1,
       "projected_starter_count": 9,
       "projected_starters_with_points": 9,
@@ -28511,7 +28511,7 @@
             "team": "LV",
             "opponent": null
           },
-          "projected_points": 245.09
+          "projected_points": 247.04
         },
         {
           "slot": "RB",
@@ -28687,7 +28687,7 @@
       "roster_id": 4,
       "owner_id": "1129897778072649728",
       "team_name": "Raw Dawgs",
-      "projected_points": 2375.81,
+      "projected_points": 2376.36,
       "lineup_projection_coverage": 1,
       "projected_starter_count": 9,
       "projected_starters_with_points": 9,
@@ -28745,7 +28745,7 @@
             "team": "DAL",
             "opponent": null
           },
-          "projected_points": 238.32
+          "projected_points": 238.87
         },
         {
           "slot": "TE",
@@ -29089,7 +29089,7 @@
       "roster_id": 8,
       "owner_id": "1131304330881077248",
       "team_name": "PurpleRhane",
-      "projected_points": 2001.32,
+      "projected_points": 1932.46,
       "lineup_projection_coverage": 1,
       "projected_starter_count": 9,
       "projected_starters_with_points": 9,
@@ -29103,7 +29103,7 @@
             "team": "NE",
             "opponent": null
           },
-          "projected_points": 310.62
+          "projected_points": 242.26
         },
         {
           "slot": "RB",
@@ -29114,7 +29114,7 @@
             "team": "LAC",
             "opponent": null
           },
-          "projected_points": 213.08
+          "projected_points": 212.58
         },
         {
           "slot": "RB",
@@ -29290,7 +29290,7 @@
       "roster_id": 1,
       "owner_id": "1129875387229560832",
       "team_name": "Imperialist Junta",
-      "projected_points": 1927.88,
+      "projected_points": 1928.89,
       "lineup_projection_coverage": 1,
       "projected_starter_count": 9,
       "projected_starters_with_points": 9,
@@ -29370,7 +29370,7 @@
             "team": "NE",
             "opponent": null
           },
-          "projected_points": 187.87
+          "projected_points": 188.88
         },
         {
           "slot": "FLEX",
@@ -29491,7 +29491,7 @@
       "roster_id": 5,
       "owner_id": "1129909167751426048",
       "team_name": "BING BONG",
-      "projected_points": 1900.09,
+      "projected_points": 1900.6,
       "lineup_projection_coverage": 1,
       "projected_starter_count": 9,
       "projected_starters_with_points": 9,
@@ -29571,7 +29571,7 @@
             "team": "TEN",
             "opponent": null
           },
-          "projected_points": 212.14
+          "projected_points": 212.65
         },
         {
           "slot": "FLEX",
@@ -29643,7 +29643,7 @@
           "position": "RB",
           "team": "WAS",
           "opponent": null,
-          "projected_points": 144.82
+          "projected_points": 145.36
         },
         {
           "player_id": "13276",
@@ -29692,7 +29692,7 @@
       "roster_id": 2,
       "owner_id": "1129877684336578560",
       "team_name": "Cam dog",
-      "projected_points": 1743.16,
+      "projected_points": 1742.17,
       "lineup_projection_coverage": 1,
       "projected_starter_count": 9,
       "projected_starters_with_points": 9,
@@ -29722,13 +29722,13 @@
         {
           "slot": "RB",
           "player": {
-            "player_id": "7021",
-            "name": "Rico Dowdle",
+            "player_id": "12534",
+            "name": "Kyle Monangai",
             "position": "RB",
-            "team": "PIT",
+            "team": "CHI",
             "opponent": null
           },
-          "projected_points": 137.13
+          "projected_points": 129.05
         },
         {
           "slot": "WR",
@@ -29777,13 +29777,13 @@
         {
           "slot": "FLEX",
           "player": {
-            "player_id": "5859",
-            "name": "A.J. Brown",
-            "position": "WR",
-            "team": "NE",
+            "player_id": "7021",
+            "name": "Rico Dowdle",
+            "position": "RB",
+            "team": "PIT",
             "opponent": null
           },
-          "projected_points": 129.98
+          "projected_points": 137.07
         },
         {
           "slot": "SUPER_FLEX",
@@ -29799,12 +29799,12 @@
       ],
       "projected_bench": [
         {
-          "player_id": "12534",
-          "name": "Kyle Monangai",
-          "position": "RB",
-          "team": "CHI",
+          "player_id": "5859",
+          "name": "A.J. Brown",
+          "position": "WR",
+          "team": "NE",
           "opponent": null,
-          "projected_points": 129.05
+          "projected_points": 128.5
         },
         {
           "player_id": "12495",
@@ -30045,7 +30045,7 @@
           "position": "TE",
           "team": "LAC",
           "opponent": null,
-          "projected_points": 112.4
+          "projected_points": 111.9
         },
         {
           "player_id": "8142",
