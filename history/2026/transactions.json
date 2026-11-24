@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T00:00:45.710Z",
+  "generated_at": "2026-11-24T12:00:46.304Z",
   "season": "2026",
   "transactions": [
     {
@@ -5564,7 +5564,7 @@
             ],
             "team": "SEA",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "IR",
             "age": 26,
             "years_exp": 2
           },
@@ -7779,8 +7779,8 @@
               "RB"
             ],
             "team": "WAS",
-            "status": "Inactive",
-            "injury_status": "IR",
+            "status": "Active",
+            "injury_status": null,
             "age": 25,
             "years_exp": 1
           },
@@ -7800,8 +7800,8 @@
               "RB"
             ],
             "team": "WAS",
-            "status": "Inactive",
-            "injury_status": "IR",
+            "status": "Active",
+            "injury_status": null,
             "age": 25,
             "years_exp": 1
           },
@@ -9839,7 +9839,7 @@
             ],
             "team": "PHI",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 24,
             "years_exp": 2
           },
@@ -10134,7 +10134,7 @@
             ],
             "team": "PHI",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 24,
             "years_exp": 2
           },
@@ -10155,7 +10155,7 @@
             ],
             "team": "SEA",
             "status": "Active",
-            "injury_status": "Out",
+            "injury_status": "IR",
             "age": 26,
             "years_exp": 2
           },
@@ -11380,7 +11380,7 @@
             ],
             "team": "PHI",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 24,
             "years_exp": 2
           },
@@ -11802,7 +11802,7 @@
             ],
             "team": "PHI",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 26,
             "years_exp": 3
           },
@@ -11961,7 +11961,7 @@
             ],
             "team": "PHI",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 26,
             "years_exp": 3
           },
@@ -13546,7 +13546,7 @@
             ],
             "team": "JAX",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 23,
             "years_exp": 1
           },
@@ -13567,7 +13567,7 @@
             ],
             "team": "JAX",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 23,
             "years_exp": 1
           },
@@ -13847,7 +13847,7 @@
             ],
             "team": "PHI",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 26,
             "years_exp": 3
           },
