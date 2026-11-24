@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T00:00:45.710Z",
+  "generated_at": "2026-11-24T12:00:46.304Z",
   "season": "2026",
   "trades": [
     {
@@ -1889,8 +1889,8 @@
               "RB"
             ],
             "team": "WAS",
-            "status": "Inactive",
-            "injury_status": "IR",
+            "status": "Active",
+            "injury_status": null,
             "age": 25,
             "years_exp": 1
           },
@@ -1910,8 +1910,8 @@
               "RB"
             ],
             "team": "WAS",
-            "status": "Inactive",
-            "injury_status": "IR",
+            "status": "Active",
+            "injury_status": null,
             "age": 25,
             "years_exp": 1
           },
@@ -3132,7 +3132,7 @@
             ],
             "team": "JAX",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 23,
             "years_exp": 1
           },
@@ -3153,7 +3153,7 @@
             ],
             "team": "JAX",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Questionable",
             "age": 23,
             "years_exp": 1
           },
