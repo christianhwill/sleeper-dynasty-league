@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T00:00:55.047Z",
+  "generated_at": "2026-11-25T12:00:54.214Z",
   "season": "2026",
   "transactions": [
     {
@@ -15696,6 +15696,482 @@
       "waiver_budget": [],
       "waiver_bid": null,
       "metadata": null
+    },
+    {
+      "transaction_id": "1429579916965322752",
+      "type": "waiver",
+      "status": "complete",
+      "created": 1795200921817,
+      "created_iso": "2026-11-20T18:55:21.817Z",
+      "week": 11,
+      "leg": 11,
+      "creator": "859906411432366080",
+      "roster_ids": [
+        9
+      ],
+      "teams": [
+        {
+          "roster_id": 9,
+          "team_name": "The Crusty CreamPies"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "9229",
+            "name": "Anthony Richardson Sr.",
+            "first_name": "Anthony",
+            "last_name": "Richardson Sr.",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "IND",
+            "status": "Active",
+            "injury_status": null,
+            "age": 24,
+            "years_exp": 3
+          },
+          "roster_id": 9,
+          "team_name": "The Crusty CreamPies"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "4035",
+            "name": "Alvin Kamara",
+            "first_name": "Alvin",
+            "last_name": "Kamara",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "NO",
+            "status": "Active",
+            "injury_status": null,
+            "age": 31,
+            "years_exp": 9
+          },
+          "roster_id": 9,
+          "team_name": "The Crusty CreamPies"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 5,
+      "metadata": {
+        "notes": "Your waiver claim was processed successfully!"
+      }
+    },
+    {
+      "transaction_id": "1429586224477118464",
+      "type": "waiver",
+      "status": "failed",
+      "created": 1795202425645,
+      "created_iso": "2026-11-20T19:20:25.645Z",
+      "week": 11,
+      "leg": 11,
+      "creator": "1129881968960901120",
+      "roster_ids": [
+        3
+      ],
+      "teams": [
+        {
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "9229",
+            "name": "Anthony Richardson Sr.",
+            "first_name": "Anthony",
+            "last_name": "Richardson Sr.",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "IND",
+            "status": "Active",
+            "injury_status": null,
+            "age": 24,
+            "years_exp": 3
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 1,
+      "metadata": {
+        "notes": "This player was claimed by another owner."
+      }
+    },
+    {
+      "transaction_id": "1429796808183259136",
+      "type": "waiver",
+      "status": "failed",
+      "created": 1795252632712,
+      "created_iso": "2026-11-21T09:17:12.712Z",
+      "week": 11,
+      "leg": 11,
+      "creator": "937819151345799168",
+      "roster_ids": [
+        10
+      ],
+      "teams": [
+        {
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "9229",
+            "name": "Anthony Richardson Sr.",
+            "first_name": "Anthony",
+            "last_name": "Richardson Sr.",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "IND",
+            "status": "Active",
+            "injury_status": null,
+            "age": 24,
+            "years_exp": 3
+          },
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 5,
+      "metadata": {
+        "notes": "This player was claimed by another owner."
+      }
+    },
+    {
+      "transaction_id": "1430585102387138560",
+      "type": "waiver",
+      "status": "complete",
+      "created": 1795440576697,
+      "created_iso": "2026-11-23T13:29:36.697Z",
+      "week": 11,
+      "leg": 11,
+      "creator": "1129897778072649728",
+      "roster_ids": [
+        4
+      ],
+      "teams": [
+        {
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "12540",
+            "name": "Chimere Dike",
+            "first_name": "Chimere",
+            "last_name": "Dike",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "TEN",
+            "status": "Active",
+            "injury_status": null,
+            "age": 24,
+            "years_exp": 1
+          },
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "11643",
+            "name": "Jaylen Wright",
+            "first_name": "Jaylen",
+            "last_name": "Wright",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "MIA",
+            "status": "Active",
+            "injury_status": null,
+            "age": 23,
+            "years_exp": 2
+          },
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0,
+      "metadata": {
+        "notes": "Your waiver claim was processed successfully!"
+      }
+    },
+    {
+      "transaction_id": "1430646489465487360",
+      "type": "waiver",
+      "status": "failed",
+      "created": 1795455212517,
+      "created_iso": "2026-11-23T17:33:32.517Z",
+      "week": 11,
+      "leg": 11,
+      "creator": "1129897778072649728",
+      "roster_ids": [
+        4
+      ],
+      "teams": [
+        {
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "12483",
+            "name": "Jack Bech",
+            "first_name": "Jack",
+            "last_name": "Bech",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "LV",
+            "status": "Active",
+            "injury_status": null,
+            "age": 23,
+            "years_exp": 1
+          },
+          "roster_id": 4,
+          "team_name": "Raw Dawgs"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0,
+      "metadata": {
+        "notes": "This player was claimed by another owner."
+      }
+    },
+    {
+      "transaction_id": "1431063805013532672",
+      "type": "waiver",
+      "status": "complete",
+      "created": 1795554708296,
+      "created_iso": "2026-11-24T21:11:48.296Z",
+      "week": 11,
+      "leg": 11,
+      "creator": "1129881968960901120",
+      "roster_ids": [
+        3
+      ],
+      "teams": [
+        {
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "11583",
+            "name": "Jonathon Brooks",
+            "first_name": "Jonathon",
+            "last_name": "Brooks",
+            "position": "RB",
+            "fantasy_positions": [
+              "RB"
+            ],
+            "team": "CAR",
+            "status": "Inactive",
+            "injury_status": "IR",
+            "age": 23,
+            "years_exp": 2
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "2449",
+            "name": "Stefon Diggs",
+            "first_name": "Stefon",
+            "last_name": "Diggs",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "WAS",
+            "status": "Active",
+            "injury_status": null,
+            "age": 32,
+            "years_exp": 11
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0,
+      "metadata": {
+        "notes": "Your waiver claim was processed successfully!"
+      }
+    },
+    {
+      "transaction_id": "1431064186254823424",
+      "type": "waiver",
+      "status": "complete",
+      "created": 1795554799192,
+      "created_iso": "2026-11-24T21:13:19.192Z",
+      "week": 11,
+      "leg": 11,
+      "creator": "1129881968960901120",
+      "roster_ids": [
+        3
+      ],
+      "teams": [
+        {
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "12483",
+            "name": "Jack Bech",
+            "first_name": "Jack",
+            "last_name": "Bech",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "LV",
+            "status": "Active",
+            "injury_status": null,
+            "age": 23,
+            "years_exp": 1
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "12493",
+            "name": "Oronde Gadsden",
+            "first_name": "Oronde",
+            "last_name": "Gadsden",
+            "position": "TE",
+            "fantasy_positions": [
+              "TE"
+            ],
+            "team": "LAC",
+            "status": "Active",
+            "injury_status": null,
+            "age": 23,
+            "years_exp": 1
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 9,
+      "metadata": {
+        "notes": "Your waiver claim was processed successfully!"
+      }
+    },
+    {
+      "transaction_id": "1431083306908127232",
+      "type": "waiver",
+      "status": "complete",
+      "created": 1795559357911,
+      "created_iso": "2026-11-24T22:29:17.911Z",
+      "week": 11,
+      "leg": 11,
+      "creator": "937819151345799168",
+      "roster_ids": [
+        10
+      ],
+      "teams": [
+        {
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "13317",
+            "name": "Ted Hurst III",
+            "first_name": "Ted",
+            "last_name": "Hurst III",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "TB",
+            "status": "Active",
+            "injury_status": null,
+            "age": 22,
+            "years_exp": null
+          },
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "9482",
+            "name": "Michael Mayer",
+            "first_name": "Michael",
+            "last_name": "Mayer",
+            "position": "TE",
+            "fantasy_positions": [
+              "TE"
+            ],
+            "team": "LV",
+            "status": "Active",
+            "injury_status": null,
+            "age": 25,
+            "years_exp": 3
+          },
+          "roster_id": 10,
+          "team_name": "Sugerdaddy"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 12,
+      "metadata": {
+        "notes": "Your waiver claim was processed successfully!"
+      }
     }
   ]
 }
