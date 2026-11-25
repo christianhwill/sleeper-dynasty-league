@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T00:00:55.047Z",
+  "generated_at": "2026-11-25T12:00:54.214Z",
   "season": "2026",
   "teams": [
     {
@@ -20,7 +20,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 70,
-        "waiver_position": 9,
+        "waiver_position": 6,
         "wins": 2
       },
       "record": {
@@ -582,7 +582,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 100,
-        "waiver_position": 7,
+        "waiver_position": 5,
         "wins": 1
       },
       "record": {
@@ -1173,8 +1173,8 @@
         "ppts_decimal": 38,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 71,
-        "waiver_position": 8,
+        "waiver_budget_used": 80,
+        "waiver_position": 10,
         "wins": 3
       },
       "record": {
@@ -1216,6 +1216,21 @@
           "years_exp": 2
         },
         {
+          "player_id": "11583",
+          "name": "Jonathon Brooks",
+          "first_name": "Jonathon",
+          "last_name": "Brooks",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "team": "CAR",
+          "status": "Inactive",
+          "injury_status": "IR",
+          "age": 23,
+          "years_exp": 2
+        },
+        {
           "player_id": "11620",
           "name": "Rome Odunze",
           "first_name": "Rome",
@@ -1246,6 +1261,21 @@
           "years_exp": 2
         },
         {
+          "player_id": "12483",
+          "name": "Jack Bech",
+          "first_name": "Jack",
+          "last_name": "Bech",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "LV",
+          "status": "Active",
+          "injury_status": null,
+          "age": 23,
+          "years_exp": 1
+        },
+        {
           "player_id": "12487",
           "name": "Terrance Ferguson",
           "first_name": "Terrance",
@@ -1257,21 +1287,6 @@
           "team": "LAR",
           "status": "Inactive",
           "injury_status": "IR",
-          "age": 23,
-          "years_exp": 1
-        },
-        {
-          "player_id": "12493",
-          "name": "Oronde Gadsden",
-          "first_name": "Oronde",
-          "last_name": "Gadsden",
-          "position": "TE",
-          "fantasy_positions": [
-            "TE"
-          ],
-          "team": "LAC",
-          "status": "Active",
-          "injury_status": null,
           "age": 23,
           "years_exp": 1
         },
@@ -1424,21 +1439,6 @@
           "injury_status": "IR",
           "age": 23,
           "years_exp": null
-        },
-        {
-          "player_id": "2449",
-          "name": "Stefon Diggs",
-          "first_name": "Stefon",
-          "last_name": "Diggs",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "WAS",
-          "status": "Active",
-          "injury_status": null,
-          "age": 32,
-          "years_exp": 11
         },
         {
           "player_id": "6797",
@@ -1653,19 +1653,19 @@
           "years_exp": 1
         },
         {
-          "player_id": "2449",
-          "name": "Stefon Diggs",
-          "first_name": "Stefon",
-          "last_name": "Diggs",
+          "player_id": "13298",
+          "name": "KC Concepcion Jr.",
+          "first_name": "KC",
+          "last_name": "Concepcion Jr.",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "WAS",
+          "team": "CLE",
           "status": "Active",
           "injury_status": null,
-          "age": 32,
-          "years_exp": 11
+          "age": 22,
+          "years_exp": null
         },
         {
           "player_id": "11566",
@@ -1766,7 +1766,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 73,
-        "waiver_position": 4,
+        "waiver_position": 9,
         "wins": 9
       },
       "record": {
@@ -1838,21 +1838,6 @@
           "years_exp": 2
         },
         {
-          "player_id": "11643",
-          "name": "Jaylen Wright",
-          "first_name": "Jaylen",
-          "last_name": "Wright",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "MIA",
-          "status": "Active",
-          "injury_status": null,
-          "age": 23,
-          "years_exp": 2
-        },
-        {
           "player_id": "11646",
           "name": "Jalen Coker",
           "first_name": "Jalen",
@@ -1866,6 +1851,21 @@
           "injury_status": "Questionable",
           "age": 25,
           "years_exp": 2
+        },
+        {
+          "player_id": "12540",
+          "name": "Chimere Dike",
+          "first_name": "Chimere",
+          "last_name": "Dike",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "TEN",
+          "status": "Active",
+          "injury_status": null,
+          "age": 24,
+          "years_exp": 1
         },
         {
           "player_id": "13303",
@@ -2831,7 +2831,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 10,
-        "waiver_position": 6,
+        "waiver_position": 4,
         "wins": 4
       },
       "record": {
@@ -3393,7 +3393,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 13,
-        "waiver_position": 5,
+        "waiver_position": 3,
         "wins": 8
       },
       "record": {
@@ -4516,8 +4516,8 @@
         "ppts_decimal": 78,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 0,
-        "waiver_position": 3,
+        "waiver_budget_used": 5,
+        "waiver_position": 8,
         "wins": 8
       },
       "record": {
@@ -4694,21 +4694,6 @@
           "years_exp": 10
         },
         {
-          "player_id": "4035",
-          "name": "Alvin Kamara",
-          "first_name": "Alvin",
-          "last_name": "Kamara",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "NO",
-          "status": "Active",
-          "injury_status": null,
-          "age": 31,
-          "years_exp": 9
-        },
-        {
           "player_id": "5001",
           "name": "Dalton Schultz",
           "first_name": "Dalton",
@@ -4842,6 +4827,21 @@
           "injury_status": null,
           "age": 28,
           "years_exp": 4
+        },
+        {
+          "player_id": "9229",
+          "name": "Anthony Richardson Sr.",
+          "first_name": "Anthony",
+          "last_name": "Richardson Sr.",
+          "position": "QB",
+          "fantasy_positions": [
+            "QB"
+          ],
+          "team": "IND",
+          "status": "Active",
+          "injury_status": null,
+          "age": 24,
+          "years_exp": 3
         },
         {
           "player_id": "9487",
@@ -5108,8 +5108,8 @@
         "ppts_decimal": 0,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 10,
-        "waiver_position": 10,
+        "waiver_budget_used": 22,
+        "waiver_position": 7,
         "wins": 10
       },
       "record": {
@@ -5208,6 +5208,21 @@
           "status": "Active",
           "injury_status": null,
           "age": 26,
+          "years_exp": null
+        },
+        {
+          "player_id": "13317",
+          "name": "Ted Hurst III",
+          "first_name": "Ted",
+          "last_name": "Hurst III",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "TB",
+          "status": "Active",
+          "injury_status": null,
+          "age": 22,
           "years_exp": null
         },
         {
@@ -5448,21 +5463,6 @@
           "status": "Active",
           "injury_status": null,
           "age": 24,
-          "years_exp": 3
-        },
-        {
-          "player_id": "9482",
-          "name": "Michael Mayer",
-          "first_name": "Michael",
-          "last_name": "Mayer",
-          "position": "TE",
-          "fantasy_positions": [
-            "TE"
-          ],
-          "team": "LV",
-          "status": "Active",
-          "injury_status": null,
-          "age": 25,
           "years_exp": 3
         },
         {
