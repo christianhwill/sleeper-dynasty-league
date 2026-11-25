@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T12:00:46.304Z",
+  "generated_at": "2026-11-25T00:00:55.047Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -10,7 +10,7 @@
     "total_rosters": 10,
     "settings": {
       "best_ball": 0,
-      "last_report": 10,
+      "last_report": 11,
       "waiver_budget": 100,
       "disable_adds": 0,
       "capacity_override": 0,
@@ -536,19 +536,19 @@
           "years_exp": 1
         },
         {
-          "player_id": "13337",
-          "name": "Emmett Johnson",
-          "first_name": "Emmett",
-          "last_name": "Johnson",
+          "player_id": "7611",
+          "name": "Rhamondre Stevenson",
+          "first_name": "Rhamondre",
+          "last_name": "Stevenson",
           "position": "RB",
           "fantasy_positions": [
             "RB"
           ],
-          "team": "KC",
+          "team": "NE",
           "status": "Active",
           "injury_status": null,
-          "age": 23,
-          "years_exp": null
+          "age": 28,
+          "years_exp": 5
         },
         {
           "player_id": "12526",
@@ -611,19 +611,19 @@
           "years_exp": 3
         },
         {
-          "player_id": "12499",
-          "name": "Elic Ayomanor",
-          "first_name": "Elic",
-          "last_name": "Ayomanor",
-          "position": "WR",
+          "player_id": "11586",
+          "name": "Blake Corum",
+          "first_name": "Blake",
+          "last_name": "Corum",
+          "position": "RB",
           "fantasy_positions": [
-            "WR"
+            "RB"
           ],
-          "team": "TEN",
+          "team": "LAR",
           "status": "Active",
           "injury_status": null,
-          "age": 23,
-          "years_exp": 1
+          "age": 25,
+          "years_exp": 2
         },
         {
           "player_id": "12545",
@@ -999,7 +999,7 @@
           "fantasy_positions": [
             "WR"
           ],
-          "team": "SF",
+          "team": null,
           "status": "Active",
           "injury_status": "DNR",
           "age": 28,
@@ -1188,19 +1188,19 @@
           "years_exp": 1
         },
         {
-          "player_id": "12492",
-          "name": "Pat Bryant",
-          "first_name": "Pat",
-          "last_name": "Bryant",
-          "position": "WR",
+          "player_id": "11604",
+          "name": "Brock Bowers",
+          "first_name": "Brock",
+          "last_name": "Bowers",
+          "position": "TE",
           "fantasy_positions": [
-            "WR"
+            "TE"
           ],
-          "team": "DEN",
+          "team": "LV",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Out",
           "age": 23,
-          "years_exp": 1
+          "years_exp": 2
         },
         {
           "player_id": "11565",
@@ -1705,19 +1705,19 @@
           "years_exp": null
         },
         {
-          "player_id": "11579",
-          "name": "Audric Estime",
-          "first_name": "Audric",
-          "last_name": "Estime",
+          "player_id": "9511",
+          "name": "Keaton Mitchell",
+          "first_name": "Keaton",
+          "last_name": "Mitchell",
           "position": "RB",
           "fantasy_positions": [
             "RB"
           ],
-          "team": "NO",
+          "team": "LAC",
           "status": "Active",
-          "injury_status": "Out",
-          "age": 23,
-          "years_exp": 2
+          "injury_status": "Questionable",
+          "age": 24,
+          "years_exp": 3
         },
         {
           "player_id": "11620",
@@ -2312,19 +2312,19 @@
           "years_exp": 4
         },
         {
-          "player_id": "7600",
-          "name": "Pat Freiermuth",
-          "first_name": "Pat",
-          "last_name": "Freiermuth",
+          "player_id": "9484",
+          "name": "Tucker Kraft",
+          "first_name": "Tucker",
+          "last_name": "Kraft",
           "position": "TE",
           "fantasy_positions": [
             "TE"
           ],
-          "team": "PIT",
+          "team": "GB",
           "status": "Active",
           "injury_status": null,
-          "age": 28,
-          "years_exp": 5
+          "age": 26,
+          "years_exp": 3
         },
         {
           "player_id": "7594",
@@ -4299,7 +4299,7 @@
           ],
           "team": "CLE",
           "status": "Active",
-          "injury_status": null,
+          "injury_status": "Questionable",
           "age": 22,
           "years_exp": null
         },
@@ -5700,6 +5700,21 @@
           "years_exp": 9
         },
         {
+          "player_id": "8167",
+          "name": "Christian Watson",
+          "first_name": "Christian",
+          "last_name": "Watson",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "GB",
+          "status": "Active",
+          "injury_status": null,
+          "age": 27,
+          "years_exp": 4
+        },
+        {
           "player_id": "7569",
           "name": "Nico Collins",
           "first_name": "Nico",
@@ -5713,21 +5728,6 @@
           "injury_status": null,
           "age": 27,
           "years_exp": 5
-        },
-        {
-          "player_id": "9482",
-          "name": "Michael Mayer",
-          "first_name": "Michael",
-          "last_name": "Mayer",
-          "position": "TE",
-          "fantasy_positions": [
-            "TE"
-          ],
-          "team": "LV",
-          "status": "Active",
-          "injury_status": null,
-          "age": 25,
-          "years_exp": 3
         },
         {
           "player_id": "4046",
@@ -9267,7 +9267,7 @@
             "fantasy_positions": [
               "WR"
             ],
-            "team": "SF",
+            "team": null,
             "status": "Active",
             "injury_status": "DNR",
             "age": 28,
@@ -10267,7 +10267,7 @@
             ],
             "team": "DEN",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 27,
             "years_exp": 6
           },
@@ -12520,7 +12520,7 @@
             ],
             "team": "DEN",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 27,
             "years_exp": 6
           },
@@ -12866,7 +12866,7 @@
             ],
             "team": "DEN",
             "status": "Active",
-            "injury_status": null,
+            "injury_status": "Out",
             "age": 27,
             "years_exp": 6
           },
