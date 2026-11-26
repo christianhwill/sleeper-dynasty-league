@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T12:00:54.214Z",
+  "generated_at": "2026-11-26T00:00:52.378Z",
   "season": "2026",
   "transactions": [
     {
@@ -16172,6 +16172,246 @@
       "metadata": {
         "notes": "Your waiver claim was processed successfully!"
       }
+    },
+    {
+      "transaction_id": "1431296365085876224",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1795610154939,
+      "created_iso": "2026-11-25T12:35:54.939Z",
+      "week": 12,
+      "leg": 12,
+      "creator": "1008209629677158400",
+      "roster_ids": [
+        6
+      ],
+      "teams": [
+        {
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        }
+      ],
+      "adds": [],
+      "drops": [
+        {
+          "player": {
+            "player_id": "5854",
+            "name": "Drew Lock",
+            "first_name": "Drew",
+            "last_name": "Lock",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "SEA",
+            "status": "Active",
+            "injury_status": null,
+            "age": 30,
+            "years_exp": 7
+          },
+          "roster_id": 6,
+          "team_name": "McCaffrican Americans"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1431366538379673600",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1795626885555,
+      "created_iso": "2026-11-25T17:14:45.555Z",
+      "week": 12,
+      "leg": 12,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "10222",
+            "name": "Jayden Reed",
+            "first_name": "Jayden",
+            "last_name": "Reed",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "GB",
+            "status": "Inactive",
+            "injury_status": "IR",
+            "age": 26,
+            "years_exp": 3
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "8135",
+            "name": "Treylon Burks",
+            "first_name": "Treylon",
+            "last_name": "Burks",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "WAS",
+            "status": "Active",
+            "injury_status": null,
+            "age": 26,
+            "years_exp": 4
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1431422136580333568",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1795640141199,
+      "created_iso": "2026-11-25T20:55:41.199Z",
+      "week": 12,
+      "leg": 12,
+      "creator": "1129881968960901120",
+      "roster_ids": [
+        3
+      ],
+      "teams": [
+        {
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "13670",
+            "name": "Harrison Wallace III",
+            "first_name": "Harrison",
+            "last_name": "Wallace III",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "ARI",
+            "status": "Active",
+            "injury_status": null,
+            "age": 23,
+            "years_exp": null
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "12634",
+            "name": "Jordan Watkins",
+            "first_name": "Jordan",
+            "last_name": "Watkins",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "SF",
+            "status": "Active",
+            "injury_status": null,
+            "age": 24,
+            "years_exp": 1
+          },
+          "roster_id": 3,
+          "team_name": "Third Down Syndrome"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
+    },
+    {
+      "transaction_id": "1431467326166802432",
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1795650915236,
+      "created_iso": "2026-11-25T23:55:15.236Z",
+      "week": 12,
+      "leg": 12,
+      "creator": "1129877684336578560",
+      "roster_ids": [
+        2
+      ],
+      "teams": [
+        {
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "12496",
+            "name": "Tai Felton",
+            "first_name": "Tai",
+            "last_name": "Felton",
+            "position": "WR",
+            "fantasy_positions": [
+              "WR"
+            ],
+            "team": "MIN",
+            "status": "Active",
+            "injury_status": null,
+            "age": 23,
+            "years_exp": 1
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "12524",
+            "name": "Shedeur Sanders",
+            "first_name": "Shedeur",
+            "last_name": "Sanders",
+            "position": "QB",
+            "fantasy_positions": [
+              "QB"
+            ],
+            "team": "CLE",
+            "status": "Active",
+            "injury_status": null,
+            "age": 24,
+            "years_exp": 1
+          },
+          "roster_id": 2,
+          "team_name": "Cam dog"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null,
+      "metadata": null
     }
   ]
 }
