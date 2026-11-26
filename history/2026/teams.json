@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T12:00:54.214Z",
+  "generated_at": "2026-11-26T00:00:52.378Z",
   "season": "2026",
   "teams": [
     {
@@ -609,6 +609,21 @@
           "years_exp": 3
         },
         {
+          "player_id": "10222",
+          "name": "Jayden Reed",
+          "first_name": "Jayden",
+          "last_name": "Reed",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "GB",
+          "status": "Inactive",
+          "injury_status": "IR",
+          "age": 26,
+          "years_exp": 3
+        },
+        {
           "player_id": "11565",
           "name": "J.J. McCarthy",
           "first_name": "J.J.",
@@ -729,6 +744,21 @@
           "years_exp": 1
         },
         {
+          "player_id": "12496",
+          "name": "Tai Felton",
+          "first_name": "Tai",
+          "last_name": "Felton",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "MIN",
+          "status": "Active",
+          "injury_status": null,
+          "age": 23,
+          "years_exp": 1
+        },
+        {
           "player_id": "12508",
           "name": "Jaxson Dart",
           "first_name": "Jaxson",
@@ -741,21 +771,6 @@
           "status": "Inactive",
           "injury_status": "IR",
           "age": 23,
-          "years_exp": 1
-        },
-        {
-          "player_id": "12524",
-          "name": "Shedeur Sanders",
-          "first_name": "Shedeur",
-          "last_name": "Sanders",
-          "position": "QB",
-          "fantasy_positions": [
-            "QB"
-          ],
-          "team": "CLE",
-          "status": "Active",
-          "injury_status": null,
-          "age": 24,
           "years_exp": 1
         },
         {
@@ -907,21 +922,6 @@
           "injury_status": null,
           "age": 27,
           "years_exp": 5
-        },
-        {
-          "player_id": "8135",
-          "name": "Treylon Burks",
-          "first_name": "Treylon",
-          "last_name": "Burks",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "WAS",
-          "status": "Active",
-          "injury_status": null,
-          "age": 26,
-          "years_exp": 4
         },
         {
           "player_id": "8155",
@@ -1321,21 +1321,6 @@
           "years_exp": 1
         },
         {
-          "player_id": "12634",
-          "name": "Jordan Watkins",
-          "first_name": "Jordan",
-          "last_name": "Watkins",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "SF",
-          "status": "Active",
-          "injury_status": null,
-          "age": 24,
-          "years_exp": 1
-        },
-        {
           "player_id": "13287",
           "name": "Jeremiyah Love",
           "first_name": "Jeremiyah",
@@ -1437,6 +1422,21 @@
           "team": "SF",
           "status": "Inactive",
           "injury_status": "IR",
+          "age": 23,
+          "years_exp": null
+        },
+        {
+          "player_id": "13670",
+          "name": "Harrison Wallace III",
+          "first_name": "Harrison",
+          "last_name": "Wallace III",
+          "position": "WR",
+          "fantasy_positions": [
+            "WR"
+          ],
+          "team": "ARI",
+          "status": "Active",
+          "injury_status": null,
           "age": 23,
           "years_exp": null
         },
@@ -3068,21 +3068,6 @@
           "years_exp": 8
         },
         {
-          "player_id": "5854",
-          "name": "Drew Lock",
-          "first_name": "Drew",
-          "last_name": "Lock",
-          "position": "QB",
-          "fantasy_positions": [
-            "QB"
-          ],
-          "team": "SEA",
-          "status": "Active",
-          "injury_status": null,
-          "age": 30,
-          "years_exp": 7
-        },
-        {
           "player_id": "5872",
           "name": "Deebo Samuel Sr.",
           "first_name": "Deebo",
@@ -3280,19 +3265,19 @@
           "years_exp": 8
         },
         {
-          "player_id": "11637",
-          "name": "Keon Coleman",
-          "first_name": "Keon",
-          "last_name": "Coleman",
-          "position": "WR",
+          "player_id": "12533",
+          "name": "Jacory Croskey-Merritt",
+          "first_name": "Jacory",
+          "last_name": "Croskey-Merritt",
+          "position": "RB",
           "fantasy_positions": [
-            "WR"
+            "RB"
           ],
-          "team": "BUF",
+          "team": "WAS",
           "status": "Active",
           "injury_status": null,
-          "age": 23,
-          "years_exp": 2
+          "age": 25,
+          "years_exp": 1
         },
         {
           "player_id": "5947",
@@ -3357,23 +3342,7 @@
           "years_exp": null
         }
       ],
-      "reserve": [
-        {
-          "player_id": "12533",
-          "name": "Jacory Croskey-Merritt",
-          "first_name": "Jacory",
-          "last_name": "Croskey-Merritt",
-          "position": "RB",
-          "fantasy_positions": [
-            "RB"
-          ],
-          "team": "WAS",
-          "status": "Active",
-          "injury_status": null,
-          "age": 25,
-          "years_exp": 1
-        }
-      ]
+      "reserve": []
     },
     {
       "roster_id": 7,
@@ -3827,19 +3796,19 @@
           "years_exp": 6
         },
         {
-          "player_id": "11783",
-          "name": "Ryan Flournoy",
-          "first_name": "Ryan",
-          "last_name": "Flournoy",
+          "player_id": "9488",
+          "name": "Jaxon Smith-Njigba",
+          "first_name": "Jaxon",
+          "last_name": "Smith-Njigba",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "DAL",
+          "team": "SEA",
           "status": "Active",
           "injury_status": null,
-          "age": 27,
-          "years_exp": 2
+          "age": 24,
+          "years_exp": 3
         },
         {
           "player_id": "8130",
@@ -3872,19 +3841,19 @@
           "years_exp": 6
         },
         {
-          "player_id": "7002",
-          "name": "Juwan Johnson",
-          "first_name": "Juwan",
-          "last_name": "Johnson",
-          "position": "TE",
+          "player_id": "8112",
+          "name": "Drake London",
+          "first_name": "Drake",
+          "last_name": "London",
+          "position": "WR",
           "fantasy_positions": [
-            "TE"
+            "WR"
           ],
-          "team": "NO",
+          "team": "ATL",
           "status": "Active",
           "injury_status": "Questionable",
-          "age": 30,
-          "years_exp": 6
+          "age": 25,
+          "years_exp": 4
         },
         {
           "player_id": "6770",
@@ -4329,34 +4298,34 @@
       ],
       "starters": [
         {
-          "player_id": "12522",
-          "name": "Cam Ward",
-          "first_name": "Cam",
-          "last_name": "Ward",
+          "player_id": "421",
+          "name": "Matthew Stafford",
+          "first_name": "Matthew",
+          "last_name": "Stafford",
           "position": "QB",
           "fantasy_positions": [
             "QB"
           ],
-          "team": "TEN",
+          "team": "LAR",
           "status": "Active",
           "injury_status": null,
-          "age": 24,
-          "years_exp": 1
+          "age": 38,
+          "years_exp": 17
         },
         {
-          "player_id": "4199",
-          "name": "Aaron Jones Sr.",
-          "first_name": "Aaron",
-          "last_name": "Jones Sr.",
+          "player_id": "12512",
+          "name": "Quinshon Judkins",
+          "first_name": "Quinshon",
+          "last_name": "Judkins",
           "position": "RB",
           "fantasy_positions": [
             "RB"
           ],
-          "team": "MIN",
+          "team": "CLE",
           "status": "Active",
           "injury_status": null,
-          "age": 31,
-          "years_exp": 9
+          "age": 23,
+          "years_exp": 1
         },
         {
           "player_id": "12507",
@@ -4374,19 +4343,19 @@
           "years_exp": 1
         },
         {
-          "player_id": "12514",
-          "name": "Emeka Egbuka",
-          "first_name": "Emeka",
-          "last_name": "Egbuka",
+          "player_id": "13281",
+          "name": "Jordyn Tyson",
+          "first_name": "Jordyn",
+          "last_name": "Tyson",
           "position": "WR",
           "fantasy_positions": [
             "WR"
           ],
-          "team": "TB",
+          "team": "NO",
           "status": "Active",
           "injury_status": null,
-          "age": 24,
-          "years_exp": 1
+          "age": 22,
+          "years_exp": null
         },
         {
           "player_id": "9997",
@@ -4434,21 +4403,6 @@
           "years_exp": 4
         },
         {
-          "player_id": "13281",
-          "name": "Jordyn Tyson",
-          "first_name": "Jordyn",
-          "last_name": "Tyson",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "NO",
-          "status": "Active",
-          "injury_status": null,
-          "age": 22,
-          "years_exp": null
-        },
-        {
           "player_id": "13279",
           "name": "Carnell Tate",
           "first_name": "Carnell",
@@ -4462,6 +4416,21 @@
           "injury_status": null,
           "age": 21,
           "years_exp": null
+        },
+        {
+          "player_id": "12522",
+          "name": "Cam Ward",
+          "first_name": "Cam",
+          "last_name": "Ward",
+          "position": "QB",
+          "fantasy_positions": [
+            "QB"
+          ],
+          "team": "TEN",
+          "status": "Active",
+          "injury_status": null,
+          "age": 24,
+          "years_exp": 1
         }
       ],
       "taxi": [
@@ -4906,19 +4875,19 @@
           "years_exp": 10
         },
         {
-          "player_id": "8228",
-          "name": "Jaylen Warren",
-          "first_name": "Jaylen",
-          "last_name": "Warren",
+          "player_id": "9509",
+          "name": "Bijan Robinson",
+          "first_name": "Bijan",
+          "last_name": "Robinson",
           "position": "RB",
           "fantasy_positions": [
             "RB"
           ],
-          "team": "PIT",
+          "team": "ATL",
           "status": "Active",
           "injury_status": null,
-          "age": 28,
-          "years_exp": 4
+          "age": 24,
+          "years_exp": 3
         },
         {
           "player_id": "7588",
@@ -4981,6 +4950,21 @@
           "years_exp": 3
         },
         {
+          "player_id": "8150",
+          "name": "Kyren Williams",
+          "first_name": "Kyren",
+          "last_name": "Williams",
+          "position": "RB",
+          "fantasy_positions": [
+            "RB"
+          ],
+          "team": "LAR",
+          "status": "Active",
+          "injury_status": "Questionable",
+          "age": 26,
+          "years_exp": 4
+        },
+        {
           "player_id": "10229",
           "name": "Rashee Rice",
           "first_name": "Rashee",
@@ -4994,21 +4978,6 @@
           "injury_status": null,
           "age": 26,
           "years_exp": 3
-        },
-        {
-          "player_id": "7525",
-          "name": "DeVonta Smith",
-          "first_name": "DeVonta",
-          "last_name": "Smith",
-          "position": "WR",
-          "fantasy_positions": [
-            "WR"
-          ],
-          "team": "PHI",
-          "status": "Active",
-          "injury_status": null,
-          "age": 28,
-          "years_exp": 5
         },
         {
           "player_id": "3163",
@@ -5573,10 +5542,10 @@
           "years_exp": 9
         },
         {
-          "player_id": "8167",
-          "name": "Christian Watson",
-          "first_name": "Christian",
-          "last_name": "Watson",
+          "player_id": "12501",
+          "name": "Matthew Golden",
+          "first_name": "Matthew",
+          "last_name": "Golden",
           "position": "WR",
           "fantasy_positions": [
             "WR"
@@ -5584,8 +5553,8 @@
           "team": "GB",
           "status": "Active",
           "injury_status": null,
-          "age": 27,
-          "years_exp": 4
+          "age": 23,
+          "years_exp": 1
         },
         {
           "player_id": "7569",
