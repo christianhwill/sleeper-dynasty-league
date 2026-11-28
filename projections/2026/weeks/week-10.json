@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T21:00:53.911Z",
+  "generated_at": "2026-11-28T21:00:28.540Z",
   "season": "2026",
   "week": 10,
   "phase": "regular",
@@ -94,7 +94,7 @@
     "sleeper": {
       "name": "Sleeper/RotoWire",
       "status": "available",
-      "fetched_at": "2026-11-25T21:00:52.941Z",
+      "fetched_at": "2026-11-28T21:00:28.052Z",
       "error": null,
       "provider_company_reported_by_feed": "RotoWire",
       "access_status": "Publicly reachable but not documented in Sleeper's official API reference.",
@@ -103,7 +103,7 @@
     "espn": {
       "name": "ESPN",
       "status": "unavailable",
-      "fetched_at": "2026-11-25T21:00:52.941Z",
+      "fetched_at": "2026-11-28T21:00:28.052Z",
       "error": "ESPN 2026 projections exceeds the 15728640-byte safety limit.",
       "access_status": "Publicly reachable ESPN fantasy player pool endpoint; undocumented and isolated behind a fallback adapter.",
       "scoring": "ESPN projected counting stats mapped to the league's Sleeper scoring settings.",
@@ -112,7 +112,7 @@
     "stathead": {
       "name": "StatHead open model",
       "status": "unavailable",
-      "fetched_at": "2026-11-25T21:00:51.066Z",
+      "fetched_at": "2026-11-28T21:00:26.511Z",
       "generated_at": null,
       "error": "404 fetching StatHead 2026 projections from https://raw.githubusercontent.com/dachhack/stathead/claude/nfl-fantasy-workbench-6D1yd/public/data/weekly-projections-2026.json",
       "model": "Open weekly model based on season PPG, opponent defense versus position, venue, and available market environment.",
@@ -131,7 +131,7 @@
     "players_with_three_sources": 0,
     "players_with_two_sources": 0,
     "players_with_one_source": 341,
-    "rostered_player_count_with_projection": 157,
+    "rostered_player_count_with_projection": 156,
     "rostered_players_with_three_sources": 0,
     "rostered_players_with_two_or_more_sources": 0
   },
@@ -1943,13 +1943,8 @@
       },
       "source_company": "multi-source ensemble",
       "source_last_modified": "2026-11-17T05:00:43.745Z",
-      "ownership": {
-        "roster_id": 6,
-        "owner_id": "1008209629677158400",
-        "team_name": "McCaffrican Americans",
-        "roster_status": "active_roster"
-      },
-      "league_status": "rostered",
+      "ownership": null,
+      "league_status": "free_agent",
       "projection_rank": 35,
       "projection_sources": [
         "sleeper"
@@ -8014,8 +8009,13 @@
       },
       "source_company": "multi-source ensemble",
       "source_last_modified": "2026-11-17T05:00:43.598Z",
-      "ownership": null,
-      "league_status": "free_agent",
+      "ownership": {
+        "roster_id": 2,
+        "owner_id": "1129877684336578560",
+        "team_name": "Cam dog",
+        "roster_status": "active_roster"
+      },
+      "league_status": "rostered",
       "projection_rank": 158,
       "projection_sources": [
         "sleeper"
@@ -8891,13 +8891,8 @@
       },
       "source_company": "multi-source ensemble",
       "source_last_modified": "2026-11-17T05:00:43.768Z",
-      "ownership": {
-        "roster_id": 3,
-        "owner_id": "1129881968960901120",
-        "team_name": "Third Down Syndrome",
-        "roster_status": "active_roster"
-      },
-      "league_status": "rostered",
+      "ownership": null,
+      "league_status": "free_agent",
       "projection_rank": 177,
       "projection_sources": [
         "sleeper"
@@ -9136,13 +9131,8 @@
       },
       "source_company": "multi-source ensemble",
       "source_last_modified": "2026-11-17T05:00:43.452Z",
-      "ownership": {
-        "roster_id": 2,
-        "owner_id": "1129877684336578560",
-        "team_name": "Cam dog",
-        "roster_status": "active_roster"
-      },
-      "league_status": "rostered",
+      "ownership": null,
+      "league_status": "free_agent",
       "projection_rank": 182,
       "projection_sources": [
         "sleeper"
@@ -13107,8 +13097,13 @@
       },
       "source_company": "multi-source ensemble",
       "source_last_modified": "2026-11-17T05:00:43.669Z",
-      "ownership": null,
-      "league_status": "free_agent",
+      "ownership": {
+        "roster_id": 3,
+        "owner_id": "1129881968960901120",
+        "team_name": "Third Down Syndrome",
+        "roster_status": "active_roster"
+      },
+      "league_status": "rostered",
       "projection_rank": 273,
       "projection_sources": [
         "sleeper"
@@ -16674,10 +16669,10 @@
           "projected_points": 0
         },
         {
-          "player_id": "13425",
-          "name": "Jalon Daniels",
+          "player_id": "260",
+          "name": "Josh Johnson",
           "position": "QB",
-          "team": "TB",
+          "team": "ARI",
           "opponent": null,
           "projected_points": 0
         },
@@ -16835,6 +16830,14 @@
           "projected_points": 7.66
         },
         {
+          "player_id": "12496",
+          "name": "Tai Felton",
+          "position": "WR",
+          "team": "MIN",
+          "opponent": "GB",
+          "projected_points": 6.48
+        },
+        {
           "player_id": "10218",
           "name": "Xavier Hutchinson",
           "position": "WR",
@@ -16843,18 +16846,18 @@
           "projected_points": 6.16
         },
         {
-          "player_id": "8135",
-          "name": "Treylon Burks",
-          "position": "WR",
-          "team": "WAS",
-          "opponent": "NYG",
-          "projected_points": 5.5
-        },
-        {
           "player_id": "6803",
           "name": "Brandon Aiyuk",
           "position": "WR",
-          "team": null,
+          "team": "WAS",
+          "opponent": null,
+          "projected_points": 0
+        },
+        {
+          "player_id": "10222",
+          "name": "Jayden Reed",
+          "position": "WR",
+          "team": "GB",
           "opponent": null,
           "projected_points": 0
         },
@@ -16887,14 +16890,6 @@
           "name": "Pat Bryant",
           "position": "WR",
           "team": "DEN",
-          "opponent": null,
-          "projected_points": 0
-        },
-        {
-          "player_id": "12524",
-          "name": "Shedeur Sanders",
-          "position": "QB",
-          "team": "CLE",
           "opponent": null,
           "projected_points": 0
         }
@@ -17508,7 +17503,7 @@
       "roster_id": 6,
       "owner_id": "1008209629677158400",
       "team_name": "McCaffrican Americans",
-      "projected_points": 101.69,
+      "projected_points": 92.88,
       "lineup_projection_coverage": 1,
       "projected_starter_count": 9,
       "projected_starters_with_points": 9,
@@ -17516,13 +17511,13 @@
         {
           "slot": "QB",
           "player": {
-            "player_id": "5854",
-            "name": "Drew Lock",
+            "player_id": "9228",
+            "name": "Bryce Young",
             "position": "QB",
-            "team": "SEA",
-            "opponent": "LV"
+            "team": "CAR",
+            "opponent": "NO"
           },
-          "projected_points": 16.29
+          "projected_points": 19.57
         },
         {
           "slot": "RB",
@@ -17560,13 +17555,13 @@
         {
           "slot": "WR",
           "player": {
-            "player_id": "4983",
-            "name": "DJ Moore",
+            "player_id": "11637",
+            "name": "Keon Coleman",
             "position": "WR",
             "team": "BUF",
             "opponent": "NYJ"
           },
-          "projected_points": 12.04
+          "projected_points": 7.48
         },
         {
           "slot": "TE",
@@ -17582,6 +17577,17 @@
         {
           "slot": "FLEX",
           "player": {
+            "player_id": "4983",
+            "name": "DJ Moore",
+            "position": "WR",
+            "team": "BUF",
+            "opponent": "NYJ"
+          },
+          "projected_points": 12.04
+        },
+        {
+          "slot": "FLEX",
+          "player": {
             "player_id": "5872",
             "name": "Deebo Samuel Sr.",
             "position": "WR",
@@ -17591,7 +17597,7 @@
           "projected_points": 11.07
         },
         {
-          "slot": "FLEX",
+          "slot": "SUPER_FLEX",
           "player": {
             "player_id": "5947",
             "name": "Jakobi Meyers",
@@ -17600,28 +17606,9 @@
             "opponent": "TEN"
           },
           "projected_points": 9.75
-        },
-        {
-          "slot": "SUPER_FLEX",
-          "player": {
-            "player_id": "9228",
-            "name": "Bryce Young",
-            "position": "QB",
-            "team": "CAR",
-            "opponent": "NO"
-          },
-          "projected_points": 19.57
         }
       ],
       "projected_bench": [
-        {
-          "player_id": "11637",
-          "name": "Keon Coleman",
-          "position": "WR",
-          "team": "BUF",
-          "opponent": "NYJ",
-          "projected_points": 7.48
-        },
         {
           "player_id": "12502",
           "name": "Gunnar Helm",
@@ -17671,6 +17658,14 @@
           "projected_points": 0
         },
         {
+          "player_id": "12533",
+          "name": "Jacory Croskey-Merritt",
+          "position": "RB",
+          "team": "WAS",
+          "opponent": null,
+          "projected_points": 0
+        },
+        {
           "player_id": "7591",
           "name": "Justin Fields",
           "position": "QB",
@@ -17709,7 +17704,7 @@
       "roster_id": 3,
       "owner_id": "1129881968960901120",
       "team_name": "Third Down Syndrome",
-      "projected_points": 89.6,
+      "projected_points": 89.21,
       "lineup_projection_coverage": 1,
       "projected_starter_count": 9,
       "projected_starters_with_points": 9,
@@ -17739,13 +17734,13 @@
         {
           "slot": "RB",
           "player": {
-            "player_id": "9511",
-            "name": "Keaton Mitchell",
+            "player_id": "13305",
+            "name": "Mike Washington Jr.",
             "position": "RB",
-            "team": "LAC",
-            "opponent": "BAL"
+            "team": "LV",
+            "opponent": "SEA"
           },
-          "projected_points": 6.15
+          "projected_points": 5.28
         },
         {
           "slot": "WR",
@@ -17761,13 +17756,13 @@
         {
           "slot": "WR",
           "player": {
-            "player_id": "12634",
-            "name": "Jordan Watkins",
+            "player_id": "13298",
+            "name": "KC Concepcion Jr.",
             "position": "WR",
-            "team": "SF",
-            "opponent": "DAL"
+            "team": "CLE",
+            "opponent": "HOU"
           },
-          "projected_points": 5.67
+          "projected_points": 10.48
         },
         {
           "slot": "TE",
@@ -17783,17 +17778,6 @@
         {
           "slot": "FLEX",
           "player": {
-            "player_id": "13298",
-            "name": "KC Concepcion Jr.",
-            "position": "WR",
-            "team": "CLE",
-            "opponent": "HOU"
-          },
-          "projected_points": 10.48
-        },
-        {
-          "slot": "FLEX",
-          "player": {
             "player_id": "9480",
             "name": "Brenton Strange",
             "position": "TE",
@@ -17801,6 +17785,17 @@
             "opponent": "TEN"
           },
           "projected_points": 9.93
+        },
+        {
+          "slot": "FLEX",
+          "player": {
+            "player_id": "9511",
+            "name": "Keaton Mitchell",
+            "position": "RB",
+            "team": "LAC",
+            "opponent": "BAL"
+          },
+          "projected_points": 6.15
         },
         {
           "slot": "SUPER_FLEX",
@@ -17816,14 +17811,6 @@
       ],
       "projected_bench": [
         {
-          "player_id": "13305",
-          "name": "Mike Washington Jr.",
-          "position": "RB",
-          "team": "LV",
-          "opponent": "SEA",
-          "projected_points": 5.28
-        },
-        {
           "player_id": "11631",
           "name": "Brian Thomas Jr.",
           "position": "WR",
@@ -17838,6 +17825,14 @@
           "team": "LV",
           "opponent": "SEA",
           "projected_points": 3.84
+        },
+        {
+          "player_id": "13670",
+          "name": "Harrison Wallace III",
+          "position": "WR",
+          "team": "ARI",
+          "opponent": "LAR",
+          "projected_points": 0.86
         },
         {
           "player_id": "8142",
@@ -17985,7 +17980,7 @@
         "roster_id": 3,
         "owner_id": "1129881968960901120",
         "team_name": "Third Down Syndrome",
-        "projected_points": 89.6,
+        "projected_points": 89.21,
         "lineup_projection_coverage": 1
       },
       "team_2": {
@@ -17997,7 +17992,7 @@
       },
       "projected_winner_roster_id": 10,
       "projected_winner_team": "Sugerdaddy",
-      "projected_margin": 83.73,
+      "projected_margin": 84.12,
       "projected_tie": false
     },
     {
@@ -18008,7 +18003,7 @@
         "roster_id": 6,
         "owner_id": "1008209629677158400",
         "team_name": "McCaffrican Americans",
-        "projected_points": 101.69,
+        "projected_points": 92.88,
         "lineup_projection_coverage": 1
       },
       "team_2": {
@@ -18020,7 +18015,7 @@
       },
       "projected_winner_roster_id": 8,
       "projected_winner_team": "PurpleRhane",
-      "projected_margin": 17.85,
+      "projected_margin": 26.66,
       "projected_tie": false
     }
   ]
