@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T09:00:44.667Z",
+  "generated_at": "2026-11-28T18:00:44.513Z",
   "season": "2026",
   "league": {
     "league_id": "1327788752298336256",
@@ -40527,12 +40527,7 @@
       "name": "Shedeur Sanders",
       "position": "QB",
       "team": "CLE",
-      "ownership": {
-        "roster_id": 2,
-        "owner_id": "1129877684336578560",
-        "team_name": "Cam dog",
-        "roster_status": "active_roster"
-      },
+      "ownership": null,
       "full_season_projected_points": 97.12,
       "full_season_provider_ppr_points": 97.12,
       "full_season_projection_sources": [
@@ -106324,7 +106319,7 @@
           "opponent_roster_id": 3,
           "opponent_team": "Third Down Syndrome",
           "projected_points": 156.91,
-          "opponent_projected_points": 51.28,
+          "opponent_projected_points": 44.91,
           "projected_result": "win"
         },
         {
@@ -106716,8 +106711,8 @@
         },
         {
           "week": 7,
-          "projected_points": 51.28,
-          "lineup_projection_coverage": 0.667
+          "projected_points": 44.91,
+          "lineup_projection_coverage": 0.556
         },
         {
           "week": 8,
@@ -106833,7 +106828,7 @@
           "week": 7,
           "opponent_roster_id": 9,
           "opponent_team": "The Crusty CreamPies",
-          "projected_points": 51.28,
+          "projected_points": 44.91,
           "opponent_projected_points": 156.91,
           "projected_result": "loss"
         },
@@ -106850,7 +106845,7 @@
           "opponent_roster_id": 6,
           "opponent_team": "McCaffrican Americans",
           "projected_points": 100.25,
-          "opponent_projected_points": 103.64,
+          "opponent_projected_points": 102.34,
           "projected_result": "loss"
         },
         {
@@ -106926,10 +106921,10 @@
           "projected_result": "loss"
         }
       ],
-      "weekly_projected_points_sum": 1768.33,
-      "regular_season_projected_points_sum": 1363.03,
+      "weekly_projected_points_sum": 1761.96,
+      "regular_season_projected_points_sum": 1356.66,
       "week_projection_count": 18,
-      "average_weekly_projected_points": 98.24,
+      "average_weekly_projected_points": 97.89,
       "season_projection_rank": 6
     },
     {
@@ -106976,7 +106971,7 @@
         },
         {
           "week": 8,
-          "projected_points": 97.86,
+          "projected_points": 93.83,
           "lineup_projection_coverage": 0.889
         },
         {
@@ -107096,7 +107091,7 @@
           "week": 8,
           "opponent_roster_id": 5,
           "opponent_team": "BING BONG",
-          "projected_points": 97.86,
+          "projected_points": 93.83,
           "opponent_projected_points": 136.05,
           "projected_result": "loss"
         },
@@ -107181,10 +107176,10 @@
           "projected_result": "loss"
         }
       ],
-      "weekly_projected_points_sum": 2171.65,
-      "regular_season_projected_points_sum": 1613.88,
+      "weekly_projected_points_sum": 2167.62,
+      "regular_season_projected_points_sum": 1609.85,
       "week_projection_count": 18,
-      "average_weekly_projected_points": 120.65,
+      "average_weekly_projected_points": 120.42,
       "season_projection_rank": 7
     },
     {
@@ -107352,7 +107347,7 @@
           "opponent_roster_id": 2,
           "opponent_team": "Cam dog",
           "projected_points": 136.05,
-          "opponent_projected_points": 97.86,
+          "opponent_projected_points": 93.83,
           "projected_result": "win"
         },
         {
@@ -107746,7 +107741,7 @@
         },
         {
           "week": 9,
-          "projected_points": 103.64,
+          "projected_points": 102.34,
           "lineup_projection_coverage": 1
         },
         {
@@ -107869,7 +107864,7 @@
           "week": 9,
           "opponent_roster_id": 3,
           "opponent_team": "Third Down Syndrome",
-          "projected_points": 103.64,
+          "projected_points": 102.34,
           "opponent_projected_points": 100.25,
           "projected_result": "win"
         },
@@ -107946,10 +107941,10 @@
           "projected_result": "win"
         }
       ],
-      "weekly_projected_points_sum": 1877.55,
-      "regular_season_projected_points_sum": 1462.6,
+      "weekly_projected_points_sum": 1876.25,
+      "regular_season_projected_points_sum": 1461.3,
       "week_projection_count": 18,
-      "average_weekly_projected_points": 104.31,
+      "average_weekly_projected_points": 104.24,
       "season_projection_rank": 10
     }
   ]
