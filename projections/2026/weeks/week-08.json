@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T18:01:00.494Z",
+  "generated_at": "2026-11-28T18:00:32.828Z",
   "season": "2026",
   "week": 8,
   "phase": "regular",
@@ -94,7 +94,7 @@
     "sleeper": {
       "name": "Sleeper/RotoWire",
       "status": "available",
-      "fetched_at": "2026-11-25T18:00:59.903Z",
+      "fetched_at": "2026-11-28T18:00:32.409Z",
       "error": null,
       "provider_company_reported_by_feed": "RotoWire",
       "access_status": "Publicly reachable but not documented in Sleeper's official API reference.",
@@ -103,7 +103,7 @@
     "espn": {
       "name": "ESPN",
       "status": "unavailable",
-      "fetched_at": "2026-11-25T18:00:55.086Z",
+      "fetched_at": "2026-11-28T18:00:28.236Z",
       "error": "ESPN 2026 projections exceeds the 15728640-byte safety limit.",
       "access_status": "Publicly reachable ESPN fantasy player pool endpoint; undocumented and isolated behind a fallback adapter.",
       "scoring": "ESPN projected counting stats mapped to the league's Sleeper scoring settings.",
@@ -112,7 +112,7 @@
     "stathead": {
       "name": "StatHead open model",
       "status": "unavailable",
-      "fetched_at": "2026-11-25T18:00:52.906Z",
+      "fetched_at": "2026-11-28T18:00:26.657Z",
       "generated_at": null,
       "error": "404 fetching StatHead 2026 projections from https://raw.githubusercontent.com/dachhack/stathead/claude/nfl-fantasy-workbench-6D1yd/public/data/weekly-projections-2026.json",
       "model": "Open weekly model based on season PPG, opponent defense versus position, venue, and available market environment.",
@@ -8356,13 +8356,8 @@
       },
       "source_company": "multi-source ensemble",
       "source_last_modified": "2026-11-03T05:00:54.404Z",
-      "ownership": {
-        "roster_id": 2,
-        "owner_id": "1129877684336578560",
-        "team_name": "Cam dog",
-        "roster_status": "active_roster"
-      },
-      "league_status": "rostered",
+      "ownership": null,
+      "league_status": "free_agent",
       "projection_rank": 165,
       "projection_sources": [
         "sleeper"
@@ -11848,8 +11843,13 @@
       },
       "source_company": "multi-source ensemble",
       "source_last_modified": "2026-11-03T05:00:54.121Z",
-      "ownership": null,
-      "league_status": "free_agent",
+      "ownership": {
+        "roster_id": 2,
+        "owner_id": "1129877684336578560",
+        "team_name": "Cam dog",
+        "roster_status": "active_roster"
+      },
+      "league_status": "rostered",
       "projection_rank": 243,
       "projection_sources": [
         "sleeper"
@@ -16317,10 +16317,10 @@
           "projected_points": 0
         },
         {
-          "player_id": "13425",
-          "name": "Jalon Daniels",
+          "player_id": "260",
+          "name": "Josh Johnson",
           "position": "QB",
-          "team": "TB",
+          "team": "ARI",
           "opponent": null,
           "projected_points": 0
         },
@@ -17113,10 +17113,10 @@
           "projected_points": 0
         },
         {
-          "player_id": "5854",
-          "name": "Drew Lock",
-          "position": "QB",
-          "team": "SEA",
+          "player_id": "12533",
+          "name": "Jacory Croskey-Merritt",
+          "position": "RB",
+          "team": "WAS",
           "opponent": null,
           "projected_points": 0
         },
@@ -17143,7 +17143,7 @@
       "roster_id": 2,
       "owner_id": "1129877684336578560",
       "team_name": "Cam dog",
-      "projected_points": 97.86,
+      "projected_points": 93.83,
       "lineup_projection_coverage": 0.889,
       "projected_starter_count": 9,
       "projected_starters_with_points": 8,
@@ -17151,13 +17151,13 @@
         {
           "slot": "QB",
           "player": {
-            "player_id": "7523",
-            "name": "Trevor Lawrence",
+            "player_id": "11565",
+            "name": "J.J. McCarthy",
             "position": "QB",
-            "team": "JAX",
-            "opponent": "IND"
+            "team": "NYG",
+            "opponent": null
           },
-          "projected_points": 19.77
+          "projected_points": 0
         },
         {
           "slot": "RB",
@@ -17184,17 +17184,6 @@
         {
           "slot": "WR",
           "player": {
-            "player_id": "10218",
-            "name": "Xavier Hutchinson",
-            "position": "WR",
-            "team": "HOU",
-            "opponent": null
-          },
-          "projected_points": 0
-        },
-        {
-          "slot": "WR",
-          "player": {
             "player_id": "11625",
             "name": "Adonai Mitchell",
             "position": "WR",
@@ -17202,6 +17191,17 @@
             "opponent": "LV"
           },
           "projected_points": 5.65
+        },
+        {
+          "slot": "WR",
+          "player": {
+            "player_id": "12496",
+            "name": "Tai Felton",
+            "position": "WR",
+            "team": "MIN",
+            "opponent": "DET"
+          },
+          "projected_points": 1.57
         },
         {
           "slot": "TE",
@@ -17239,13 +17239,13 @@
         {
           "slot": "SUPER_FLEX",
           "player": {
-            "player_id": "8135",
-            "name": "Treylon Burks",
-            "position": "WR",
-            "team": "WAS",
-            "opponent": "PHI"
+            "player_id": "7523",
+            "name": "Trevor Lawrence",
+            "position": "QB",
+            "team": "JAX",
+            "opponent": "IND"
           },
-          "projected_points": 5.6
+          "projected_points": 19.77
         }
       ],
       "projected_bench": [
@@ -17261,7 +17261,7 @@
           "player_id": "6803",
           "name": "Brandon Aiyuk",
           "position": "WR",
-          "team": null,
+          "team": "WAS",
           "opponent": null,
           "projected_points": 0
         },
@@ -17282,10 +17282,10 @@
           "projected_points": 0
         },
         {
-          "player_id": "11565",
-          "name": "J.J. McCarthy",
-          "position": "QB",
-          "team": "NYG",
+          "player_id": "10222",
+          "name": "Jayden Reed",
+          "position": "WR",
+          "team": "GB",
           "opponent": null,
           "projected_points": 0
         },
@@ -17322,16 +17322,16 @@
           "projected_points": 0
         },
         {
-          "player_id": "12524",
-          "name": "Shedeur Sanders",
-          "position": "QB",
-          "team": "CLE",
+          "player_id": "9502",
+          "name": "Tank Dell",
+          "position": "WR",
+          "team": "HOU",
           "opponent": null,
           "projected_points": 0
         },
         {
-          "player_id": "9502",
-          "name": "Tank Dell",
+          "player_id": "10218",
+          "name": "Xavier Hutchinson",
           "position": "WR",
           "team": "HOU",
           "opponent": null,
@@ -17499,6 +17499,14 @@
           "projected_points": 0
         },
         {
+          "player_id": "13670",
+          "name": "Harrison Wallace III",
+          "position": "WR",
+          "team": "ARI",
+          "opponent": null,
+          "projected_points": 0
+        },
+        {
           "player_id": "6904",
           "name": "Jalen Hurts",
           "position": "QB",
@@ -17523,14 +17531,6 @@
           "projected_points": 0
         },
         {
-          "player_id": "12634",
-          "name": "Jordan Watkins",
-          "position": "WR",
-          "team": "SF",
-          "opponent": null,
-          "projected_points": 0
-        },
-        {
           "player_id": "7527",
           "name": "Mac Jones",
           "position": "QB",
@@ -17551,7 +17551,7 @@
         "roster_id": 2,
         "owner_id": "1129877684336578560",
         "team_name": "Cam dog",
-        "projected_points": 97.86,
+        "projected_points": 93.83,
         "lineup_projection_coverage": 0.889
       },
       "team_2": {
@@ -17563,7 +17563,7 @@
       },
       "projected_winner_roster_id": 5,
       "projected_winner_team": "BING BONG",
-      "projected_margin": 38.19,
+      "projected_margin": 42.22,
       "projected_tie": false
     },
     {
